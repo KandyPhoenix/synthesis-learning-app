@@ -30,7 +30,7 @@ const MEDICAL_CODING_CATEGORY = {
             author: "CMS/NCHS",
             description: "Complete guide to ICD-10-CM diagnosis coding for 2026",
             lessons: 12,
-            duration: 90,
+            duration: 161,
             progress: 0,
             category: "medical-coding",
             featured: true,
