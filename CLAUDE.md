@@ -9,13 +9,24 @@ These files define ALL requirements: card minimums, SVG standards, color palette
 
 ## Key Architecture
 - **Static HTML/JS app** — no build system, no package.json
-- **Main data file**: `data.js` (loaded via `<script>` tag in `index.html`)
+- **Main data file**: `data.js` (loaded via `<script>` tag in `index.html`) — now only
+  ~130 KB: the `APP_DATA` skeleton (categories, user state, settings) plus
+  `integrateExternalCategories()`.
+- **Legacy inline books** live in `inline-books-<category-id>.js` (one file per
+  category, split out of data.js verbatim on 2026-09-23). Each sets
+  `window.SYN_INLINE_BOOKS["<category-id>"] = [ ...books ]`, and the category's
+  `books` in data.js reads that array back **in place**, so shelf order is unchanged.
+  To edit an older book, edit it in its category's `inline-books-*.js` file.
+  These files deliberately do NOT end in `-data.js`, so `gen-book-added-on.cjs`
+  does not treat the old books as new.
 - Do NOT edit `booksData.ts` — it's unused TypeScript source
 - App renders from `APP_DATA.categories` in `data.js`
 
-## CRITICAL: data.js is near GitHub's 100 MB hard cap
-`data.js` is ~90 MB. GitHub rejects any file over **100 MB**, so **never add a new
-book inline to `data.js`.** New books ship as their own external module:
+## File size: GitHub's 100 MB hard cap (50 MB warning)
+GitHub rejects any file over **100 MB**. data.js hit 99.5 MB in Aug 2026 and 57 MB
+in Sep 2026 before being split. Largest file is now an `inline-books-*.js` at ~8 MB.
+**Never add a new book inline** (not to data.js, not to an inline-books file).
+New books ship as their own external module:
 
 1. Write the book to `<book-id>-data.js` in the repo root, assigning a single global:
    ```javascript

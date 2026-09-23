@@ -1,8 +1,8 @@
 // Minimal service worker — enables "Add to Home Screen" + an offline shell.
 // Network-first for app code (so updates always reach you), cache-first
-// for the heavy data.js so the app launches instantly on second visit.
+// for the heavy data.js + inline-books-*.js so the app launches instantly on second visit.
 
-const CACHE_VERSION = 'synthesis-v21';
+const CACHE_VERSION = 'synthesis-v22';
 // Relative paths so this works at GitHub Pages subdirectory too.
 // Only the app shell + scripts used across nearly every view go here — the
 // 170+ per-book -data.js/-ext-data.js files are intentionally NOT precached
@@ -60,7 +60,8 @@ self.addEventListener('fetch', event => {
   }
 
   // For data.js (large, mostly static) — cache-first, falls back to network
-  if (url.pathname.endsWith('/data.js') || url.pathname.endsWith('/medical-coding-data.js')) {
+  if (url.pathname.endsWith('/data.js') || url.pathname.endsWith('/medical-coding-data.js') ||
+      /\/inline-books-[a-z0-9-]+\.js$/.test(url.pathname)) {
     event.respondWith(
       caches.open(CACHE_VERSION).then(async cache => {
         const cached = await cache.match(req);

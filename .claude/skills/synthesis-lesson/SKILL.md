@@ -147,16 +147,21 @@ Exactly these keys. No `title`, no `content`:
 
 ---
 
-## Step 5 — Insert into data.js
+## Step 5 — Insert into the book's file
 
-**Do NOT do a full file rewrite** — data.js is large. Use targeted insertion:
+Since 2026-09-23 `data.js` holds no books. A book lives in exactly one of:
+- its own module `<slug>-data.js` (most books), or
+- its category's `inline-books-<category-id>.js` (older books split out of data.js).
+
+Grep the repo root for `"id": "<book-id>"` / `id: "<book-id>"` to find which file.
+**Do NOT do a full file rewrite** — use targeted insertion:
 
 1. Find the target book using Grep on the book `id` field
 2. Find the end of `lessonList: [` array in that book
 3. Append the new lesson (with proper comma separation)
 4. Validate with the health check (Step 6)
 
-If adding a new book entirely, find the target category's `books: [` array and append the full book object.
+If adding a new book entirely, do NOT append it to a category array — ship it as its own `<slug>-data.js` module registered in `externalBooks` (see CLAUDE.md).
 
 ### Update the book's header scalars
 
