@@ -9,6 +9,7 @@ window.BOOK_ADDED_ON = {
  "1491": "2026-06-13",
  "inner-army": "2026-09-23",
  "mind-repair-kit": "2026-09-23",
+ "move-again": "2026-09-23",
  "screening-map": "2026-09-23",
  "weight-debate": "2026-09-23",
  "brain-span": "2026-08-16",
