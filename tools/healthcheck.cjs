@@ -48,7 +48,7 @@ function loadApp() {
   const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
   const scripts = [...html.matchAll(/<script src="([^"?]+)(?:\?[^"]*)?"><\/script>/g)]
     .map(m => m[1])
-    .filter(f => /-data\.js$|^data\.js$/.test(f));
+    .filter(f => /-data\.js$|^data\.js$|^inline-books-[a-z0-9-]+\.js$/.test(f));
 
   for (const f of scripts) {
     const p = path.join(ROOT, f);
