@@ -2321,6 +2321,85 @@ class SynthesisApp {
         this.switchView('category');
     }
 
+    // Optional read-along plan for books that pair with a real book you can read
+    // (book.readingPlan). It is a side panel only: it never locks or unlocks
+    // lessons, and every lesson still teaches the book on its own.
+    renderReadingPlan(book) {
+        const plan = book && book.readingPlan;
+        if (!plan || !Array.isArray(plan.steps) || !plan.steps.length) return '';
+        const user = APP_DATA.user;
+        const done = new Set(((user.readingPlanDone || {})[book.id]) || []);
+        const lessonFirst = user.readingPlanMode === 'lesson-first';
+        const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        // Plan steps name lessons by their 1-based position in lessonList.
+        const lessonChip = n => {
+            const list = book.lessonList || [];
+            const lesson = list[Number(n) - 1];
+            if (!lesson) return '';
+            const unlocked = window.examCenter ? window.examCenter.isLessonUnlocked(book.id, lesson.id) : true;
+            const click = unlocked ? `app.startLesson('${book.id}', '${lesson.id}')` : `window.examCenter && window.examCenter.toast('Locked — pass the previous lesson\\'s quiz (80%) to unlock this.')`;
+            return `<button class="rp-lesson" onclick="event.stopPropagation(); ${click}">${unlocked ? '▶' : '🔒'} Lesson ${Number(n)}: ${esc(lesson.title)}</button>`;
+        };
+        const steps = plan.steps.map((s, i) => {
+            const readPart = s.read ? `<div class="rp-read">📖 <strong>Read:</strong> ${esc(s.read)}${s.pages ? ` <span class="rp-meta">· ${esc(s.pages)}</span>` : ''}${s.readDetail ? `<div class="rp-detail">${esc(s.readDetail)}</div>` : ''}</div>` : '';
+            const lessonPart = (s.lessons || []).length ? `<div class="rp-lessons"><strong>🎓 Course:</strong> ${(s.lessons || []).map(lessonChip).join('')}</div>` : '';
+            const body = lessonFirst ? lessonPart + readPart : readPart + lessonPart;
+            return `
+                <div class="rp-step ${done.has(i) ? 'rp-done' : ''}">
+                    <label class="rp-check"><input type="checkbox" ${done.has(i) ? 'checked' : ''} onchange="app.toggleReadingStep('${book.id}', ${i})"></label>
+                    <div class="rp-body">
+                        <div class="rp-label">${esc(s.label || ('Step ' + (i + 1)))}</div>
+                        ${body}
+                        ${s.discuss && s.discuss.length ? `<details class="rp-discuss"><summary>💬 Reading-club questions</summary><ol>${s.discuss.map(q => `<li>${esc(q)}</li>`).join('')}</ol></details>` : ''}
+                        ${s.tip ? `<div class="rp-tip">💡 ${esc(s.tip)}</div>` : ''}
+                    </div>
+                </div>`;
+        }).join('');
+        const openState = user.readingPlanOpen && user.readingPlanOpen[book.id] ? 'open' : '';
+        return `
+            <details class="reading-plan" ${openState} ontoggle="app.rememberReadingPlanOpen('${book.id}', this.open)">
+                <summary>
+                    <span>📚 ${esc(plan.title || 'Read-Along Plan')} <span class="rp-optional">optional</span></span>
+                    <span class="rp-progress">${done.size} / ${plan.steps.length} steps</span>
+                </summary>
+                <div class="rp-inner">
+                    <p class="rp-intro">${esc(plan.intro || 'Reading the book is optional — every lesson teaches it on its own. If you want to read along, follow these steps.')}</p>
+                    ${plan.edition ? `<p class="rp-meta">${esc(plan.edition)}</p>` : ''}
+                    ${plan.pace ? `<p class="rp-meta">⏱️ ${esc(plan.pace)}</p>` : ''}
+                    <div class="rp-mode">
+                        <span>Order:</span>
+                        <button class="${lessonFirst ? '' : 'active'}" onclick="app.setReadingPlanMode('read-first')">Read → then lesson</button>
+                        <button class="${lessonFirst ? 'active' : ''}" onclick="app.setReadingPlanMode('lesson-first')">Lesson → then read</button>
+                    </div>
+                    ${steps}
+                </div>
+            </details>`;
+    }
+
+    toggleReadingStep(bookId, i) {
+        const user = APP_DATA.user;
+        user.readingPlanDone = user.readingPlanDone || {};
+        const set = new Set(user.readingPlanDone[bookId] || []);
+        set.has(i) ? set.delete(i) : set.add(i);
+        user.readingPlanDone[bookId] = [...set].sort((a, b) => a - b);
+        if (typeof saveProgress === 'function') saveProgress();
+        this.showBook(bookId);
+    }
+
+    setReadingPlanMode(mode) {
+        APP_DATA.user.readingPlanMode = mode;
+        if (typeof saveProgress === 'function') saveProgress();
+        if (this.currentBook) this.showBook(this.currentBook.id);
+    }
+
+    rememberReadingPlanOpen(bookId, open) {
+        const user = APP_DATA.user;
+        user.readingPlanOpen = user.readingPlanOpen || {};
+        if (!!user.readingPlanOpen[bookId] === !!open) return;
+        user.readingPlanOpen[bookId] = !!open;
+        if (typeof saveProgress === 'function') saveProgress();
+    }
+
     showBook(bookId) {
         this.currentBook = getBookById(bookId);
         if (!this.currentBook) return;
@@ -2363,6 +2442,8 @@ class SynthesisApp {
                     </div>
                 </div>
             </div>
+
+            ${this.renderReadingPlan(this.currentBook)}
 
             ${this.currentBook.lessonList ? `
                 <div class="lessons-list">

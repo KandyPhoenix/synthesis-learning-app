@@ -10170,3 +10170,57 @@ body {
         grid-column: 1 / -1;
     }
 }
+
+/* ===== Optional read-along plan (book.readingPlan) ===== */
+.reading-plan {
+    margin: var(--spacing-lg, 1.5rem) 0;
+    background: var(--color-bg-secondary);
+    border: 1px solid rgba(245, 158, 11, 0.35);
+    border-radius: var(--radius-lg, 12px);
+    overflow: hidden;
+}
+.reading-plan > summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.9rem 1.1rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+.reading-plan > summary::-webkit-details-marker { display: none; }
+.reading-plan > summary::after { content: '▾'; color: var(--color-accent); margin-left: 0.5rem; }
+.reading-plan[open] > summary::after { content: '▴'; }
+.rp-optional {
+    font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--color-accent); border: 1px solid var(--color-accent); border-radius: 999px;
+    padding: 0.05rem 0.5rem; margin-left: 0.4rem; vertical-align: middle;
+}
+.rp-progress { font-size: 0.8rem; color: var(--color-text-secondary); white-space: nowrap; margin-left: auto; }
+.rp-inner { padding: 0 1.1rem 1.1rem; }
+.rp-intro { color: var(--color-text-secondary); font-size: 0.9rem; line-height: 1.5; margin: 0 0 0.5rem; }
+.rp-meta { color: var(--color-text-secondary); font-size: 0.8rem; margin: 0.2rem 0; }
+.rp-mode { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 0.75rem 0 1rem; font-size: 0.85rem; color: var(--color-text-secondary); }
+.rp-mode button {
+    background: transparent; color: var(--color-text-secondary); border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 999px; padding: 0.3rem 0.8rem; font-size: 0.8rem; cursor: pointer;
+}
+.rp-mode button.active { background: var(--color-accent); color: #1a1a2e; border-color: var(--color-accent); font-weight: 700; }
+.rp-step { display: flex; gap: 0.75rem; padding: 0.8rem 0; border-top: 1px solid rgba(255,255,255,0.06); }
+.rp-step.rp-done .rp-body { opacity: 0.55; }
+.rp-check input { width: 1.2rem; height: 1.2rem; accent-color: var(--color-accent); margin-top: 0.15rem; cursor: pointer; }
+.rp-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 0.45rem; }
+.rp-label { font-weight: 700; color: var(--color-accent); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.rp-read, .rp-lessons { font-size: 0.9rem; color: var(--color-text-primary); line-height: 1.45; }
+.rp-detail { font-size: 0.8rem; color: var(--color-text-secondary); margin-top: 0.15rem; }
+.rp-lessons { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; }
+.rp-lesson {
+    background: rgba(99, 102, 241, 0.15); color: var(--color-text-primary); border: 1px solid rgba(99,102,241,0.4);
+    border-radius: 8px; padding: 0.3rem 0.6rem; font-size: 0.8rem; cursor: pointer; text-align: left; max-width: 100%;
+}
+.rp-lesson:hover { background: rgba(99, 102, 241, 0.3); }
+.rp-tip { font-size: 0.8rem; color: var(--color-text-secondary); font-style: italic; }
+.rp-discuss summary { cursor: pointer; font-size: 0.85rem; color: var(--color-text-primary); }
+.rp-discuss ol { margin: 0.4rem 0 0 1.1rem; padding: 0; font-size: 0.85rem; color: var(--color-text-secondary); line-height: 1.5; }
