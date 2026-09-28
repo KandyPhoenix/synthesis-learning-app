@@ -9,6 +9,7 @@ window.BOOK_ADDED_ON = {
  "1491": "2026-06-13",
  "rand-anthem": "2026-09-28",
  "rand-atlas-shrugged": "2026-09-28",
+ "rand-virtue-of-selfishness": "2026-09-28",
  "everyday-poisons": "2026-09-23",
  "her-health-his-health": "2026-09-23",
  "inner-army": "2026-09-23",
