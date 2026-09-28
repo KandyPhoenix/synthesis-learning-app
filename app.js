@@ -2325,10 +2325,17 @@ class SynthesisApp {
     // (book.readingPlan). It is a side panel only: it never locks or unlocks
     // lessons, and every lesson still teaches the book on its own.
     renderReadingPlan(book) {
-        const plan = book && book.readingPlan;
-        if (!plan || !Array.isArray(plan.steps) || !plan.steps.length) return '';
+        // A book may offer several paces (book.readingPlans); a single
+        // book.readingPlan is treated as a one-item list.
+        const plans = (book && (book.readingPlans || (book.readingPlan ? [book.readingPlan] : []))) || [];
+        if (!plans.length) return '';
         const user = APP_DATA.user;
-        const done = new Set(((user.readingPlanDone || {})[book.id]) || []);
+        const choice = Math.min(((user.readingPlanChoice || {})[book.id]) || 0, plans.length - 1);
+        const plan = plans[choice];
+        if (!plan || !Array.isArray(plan.steps) || !plan.steps.length) return '';
+        // Plan 0 keeps the plain book id as its progress key; others get "#n".
+        const doneKey = this.readingPlanKey(book.id, choice);
+        const done = new Set(((user.readingPlanDone || {})[doneKey]) || []);
         const lessonFirst = user.readingPlanMode === 'lesson-first';
         const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
         // Plan steps name lessons by their 1-based position in lessonList.
@@ -2346,7 +2353,7 @@ class SynthesisApp {
             const body = lessonFirst ? lessonPart + readPart : readPart + lessonPart;
             return `
                 <div class="rp-step ${done.has(i) ? 'rp-done' : ''}">
-                    <label class="rp-check"><input type="checkbox" ${done.has(i) ? 'checked' : ''} onchange="app.toggleReadingStep('${book.id}', ${i})"></label>
+                    <label class="rp-check"><input type="checkbox" ${done.has(i) ? 'checked' : ''} onchange="app.toggleReadingStep('${book.id}', ${i}, ${choice})"></label>
                     <div class="rp-body">
                         <div class="rp-label">${esc(s.label || ('Step ' + (i + 1)))}</div>
                         ${body}
@@ -2365,6 +2372,11 @@ class SynthesisApp {
                 <div class="rp-inner">
                     <p class="rp-intro">${esc(plan.intro || 'Reading the book is optional — every lesson teaches it on its own. If you want to read along, follow these steps.')}</p>
                     ${plan.edition ? `<p class="rp-meta">${esc(plan.edition)}</p>` : ''}
+                    ${plans.length > 1 ? `
+                    <div class="rp-mode rp-pace">
+                        <span>Pace:</span>
+                        ${plans.map((p, k) => `<button class="${k === choice ? 'active' : ''}" onclick="app.setReadingPlanChoice('${book.id}', ${k})">${esc(p.name || ('Plan ' + (k + 1)))}</button>`).join('')}
+                    </div>` : ''}
                     ${plan.pace ? `<p class="rp-meta">⏱️ ${esc(plan.pace)}</p>` : ''}
                     <div class="rp-mode">
                         <span>Order:</span>
@@ -2376,12 +2388,25 @@ class SynthesisApp {
             </details>`;
     }
 
-    toggleReadingStep(bookId, i) {
+    readingPlanKey(bookId, choice) {
+        return choice ? bookId + '#' + choice : bookId;
+    }
+
+    toggleReadingStep(bookId, i, choice = 0) {
         const user = APP_DATA.user;
         user.readingPlanDone = user.readingPlanDone || {};
-        const set = new Set(user.readingPlanDone[bookId] || []);
+        const key = this.readingPlanKey(bookId, choice);
+        const set = new Set(user.readingPlanDone[key] || []);
         set.has(i) ? set.delete(i) : set.add(i);
-        user.readingPlanDone[bookId] = [...set].sort((a, b) => a - b);
+        user.readingPlanDone[key] = [...set].sort((a, b) => a - b);
+        if (typeof saveProgress === 'function') saveProgress();
+        this.showBook(bookId);
+    }
+
+    setReadingPlanChoice(bookId, k) {
+        const user = APP_DATA.user;
+        user.readingPlanChoice = user.readingPlanChoice || {};
+        user.readingPlanChoice[bookId] = k;
         if (typeof saveProgress === 'function') saveProgress();
         this.showBook(bookId);
     }

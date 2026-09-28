@@ -10,6 +10,560 @@ window.ZINN_PEOPLES_HISTORY_BOOK = {
   "progress": 0,
   "category": "history",
   "featured": true,
+  "readingPlans": [
+    {
+      "title": "Read-Along Plan",
+      "intro": "This course is built as a reading club: each week you read two chapters of Zinn, take the matching lesson, then use the discussion questions -- alone in a notebook or out loud with friends. Reading is optional, since every lesson summarizes Zinn's argument, sets it against the textbook view, and shows where historians push back, so the course works even if you fall behind. Use the Read-first vs Lesson-first toggle to choose whether you meet each chapter fresh or with the lesson as a guide; history has no plot twists to spoil, but reading first lets you judge Zinn's evidence before you hear the critics.",
+      "edition": "Chapter numbers and titles are the same in every current 25-chapter edition. Page counts are from the Harper Perennial Modern Classics paperback (35th anniversary edition), about 730 pages including the afterword, bibliography and index; the main text runs about 690 pages.",
+      "pace": "About 13 weeks at two chapters a week -- roughly 40-80 pages a week, or 6-12 pages a day. Week 5 is the heaviest (~80 pages) and Week 13 the lightest, so give yourself extra days around Week 5.",
+      "steps": [
+        {
+          "label": "Before you start",
+          "read": null,
+          "lessons": [
+            1
+          ],
+          "tip": "Take Lesson 1 before opening the book. It explains who Zinn was, why he wrote the book, and how to read a history that openly takes sides -- a frame you will use in every session. If you like, skim Zinn's short introduction or afterword too."
+        },
+        {
+          "label": "Week 1",
+          "read": "Chapters 1-2",
+          "readDetail": "Chapter 1: Columbus, the Indians, and Human Progress. Chapter 2: Drawing the Color Line.",
+          "pages": "~38 pages",
+          "lessons": [
+            2
+          ],
+          "tip": "Chapter 1 contains Zinn's statement of his own method and point of view. Mark it -- the whole reading club keeps coming back to it.",
+          "discuss": [
+            "Zinn argues that choosing what to emphasize is itself a moral choice, and that the traditional Columbus story buries atrocity under achievement. Is it possible to write history without taking such a side? Does Zinn's openness about his bias make his account more trustworthy or less?",
+            "Zinn leans heavily on Bartolome de las Casas as an eyewitness. What are the strengths and risks of building a chapter around one passionate source, and what other evidence would you want before accepting his numbers and descriptions?",
+            "In Chapter 2 Zinn argues that racism in colonial Virginia was not natural but was built by laws and policies that divided Black and white laborers. How convincing is the evidence he presents, and what would it take to prove or disprove that claim?",
+            "Zinn questions whether the progress that followed 1492 can justify its human cost. Is 'progress' a fair yardstick for judging the past, and who gets to decide what counts as progress?"
+          ]
+        },
+        {
+          "label": "Week 2",
+          "read": "Chapters 3-4",
+          "readDetail": "Chapter 3: Persons of Mean and Vile Condition. Chapter 4: Tyranny Is Tyranny.",
+          "pages": "~38 pages",
+          "lessons": [
+            3
+          ],
+          "discuss": [
+            "Zinn reads Bacon's Rebellion and other colonial uprisings as class conflict between the poor and the colonial elite. What evidence supports that reading, and what alternative motives (land hunger, anti-Indian violence, local rivalries) might explain the same events?",
+            "Zinn claims the Revolution's leaders channeled lower-class anger toward Britain to protect their own position. Does that interpretation leave room for the leaders' ideals to have been sincere? Can both be true at once?",
+            "How does Zinn use crowd actions such as the Stamp Act riots? Do his examples show ordinary people driving events, or being steered by others?",
+            "Historians like Bernard Bailyn stress the power of revolutionary ideas about liberty. After reading Zinn, which do you think moved people more in the 1760s and 1770s -- economic grievance or political principle -- and why?"
+          ]
+        },
+        {
+          "label": "Week 3",
+          "read": "Chapters 5-6",
+          "readDetail": "Chapter 5: A Kind of Revolution. Chapter 6: The Intimately Oppressed.",
+          "pages": "~48 pages",
+          "lessons": [
+            4
+          ],
+          "discuss": [
+            "Zinn asks who actually fought the Revolution and who gained from it. Based on his evidence about soldiers, veterans and debtors, was the Revolution a genuine social change for most people, or mainly a change of rulers?",
+            "Zinn draws on Charles Beard's argument that the Constitution served the economic interests of its framers. Beard's work has been heavily criticized. How much of Zinn's case depends on Beard, and does it survive without him?",
+            "Chapter 6 moves from politics to the lives of women from colonial times to Seneca Falls. What does Zinn gain by treating women's history as a separate chapter, and what might he lose by not weaving it through the whole book?",
+            "Zinn highlights women who resisted their place in society. How representative are his examples, and how would you find out what ordinary women of the time actually thought?"
+          ]
+        },
+        {
+          "label": "Week 4",
+          "read": "Chapters 7-8",
+          "readDetail": "Chapter 7: As Long as Grass Grows or Water Runs. Chapter 8: We Take Nothing by Conquest, Thank God.",
+          "pages": "~46 pages",
+          "lessons": [
+            5
+          ],
+          "discuss": [
+            "Zinn presents Indian Removal as a deliberate policy driven by land and profit, not an unfortunate side effect of expansion. Does his evidence about Jackson and the treaties support that level of intent?",
+            "Zinn gives space to Cherokee voices and petitions. How does hearing from the people removed change your understanding compared with a narrative told from Washington?",
+            "In Chapter 8 Zinn argues the Mexican War was provoked and opposed by more Americans than textbooks admit, citing Thoreau, dissenting politicians and deserting soldiers. How much weight should scattered dissent carry in judging whether a war was popular?",
+            "'Manifest Destiny' is often taught as a belief of the age. Is it fair to judge people of the 1840s by today's moral standards, as Zinn seems to invite us to? Where would you draw the line?"
+          ]
+        },
+        {
+          "label": "Week 5",
+          "read": "Chapters 9-10",
+          "readDetail": "Chapter 9: Slavery Without Submission, Emancipation Without Freedom. Chapter 10: The Other Civil War.",
+          "pages": "~82 pages",
+          "lessons": [
+            6
+          ],
+          "tip": "The heaviest week of the plan. Start a few days early, or read Chapter 9 one week and Chapter 10 the next if you need to.",
+          "discuss": [
+            "Zinn portrays Lincoln as a reluctant emancipator acting mainly out of political and military necessity. Weigh the evidence he offers. Does motive matter if the result was the end of slavery?",
+            "Zinn emphasizes enslaved people's own resistance -- revolts, escapes, everyday defiance -- as a force in ending slavery. How does that shift the story compared with one centered on presidents, generals and Congress?",
+            "Zinn argues Reconstruction was betrayed and that emancipation did not bring real freedom. Compare his view with what you know from historians like Eric Foner. Where do they agree, and where does Zinn go further?",
+            "'The Other Civil War' treats labor conflicts and tenant revolts as a hidden war running alongside the famous one. Is it helpful to frame class conflict as a 'war', or does the metaphor overstate it?"
+          ]
+        },
+        {
+          "label": "Week 6",
+          "read": "Chapters 11-12",
+          "readDetail": "Chapter 11: Robber Barons and Rebels. Chapter 12: The Empire and the People.",
+          "pages": "~68 pages",
+          "lessons": [
+            7
+          ],
+          "discuss": [
+            "Zinn calls the great industrialists robber barons; other historians call them captains of industry who built modern America. After weighing his evidence, which label fits better -- or do both capture something real?",
+            "Zinn describes the Haymarket, Homestead and Pullman conflicts in detail. What do these episodes suggest about the role of government and courts in labor disputes, and how might a defender of the era respond?",
+            "The Populist movement is one of Zinn's hopeful stories. Why do you think it failed, and does Zinn's explanation convince you?",
+            "In Chapter 12 Zinn connects overseas expansion in 1898 and the Philippine war to economic interests at home. How strong is his case that empire was about markets, and what other motives might have mattered?"
+          ]
+        },
+        {
+          "label": "Week 7",
+          "read": "Chapters 13-14",
+          "readDetail": "Chapter 13: The Socialist Challenge. Chapter 14: War Is the Health of the State.",
+          "pages": "~56 pages",
+          "lessons": [
+            8
+          ],
+          "discuss": [
+            "Zinn argues that Progressive Era reforms were largely a way to head off more radical change. Is it fair to treat real reforms -- food safety, antitrust, labor laws -- as co-optation? What would count as evidence either way?",
+            "Why do you think socialism had such strong support in the early 1900s (Debs, the IWW), and why does Zinn think it faded? Do you find his explanation complete?",
+            "Chapter 14 argues that World War I was used to crush dissent at home through the Espionage Act and prosecutions. How should a democracy balance wartime security against free speech? Where did the U.S. go wrong, if it did?",
+            "Zinn borrows the chapter title from Randolph Bourne. What does the phrase mean, and do the events in this chapter support it as a general rule about wars?"
+          ]
+        },
+        {
+          "label": "Week 8",
+          "read": "Chapters 15-16",
+          "readDetail": "Chapter 15: Self-Help in Hard Times. Chapter 16: A People's War?",
+          "pages": "~66 pages",
+          "lessons": [
+            9
+          ],
+          "discuss": [
+            "Zinn presents the New Deal as a rescue of capitalism rather than a transformation of it. Given the evidence he offers about strikes, unemployed councils and relief, do you agree? What did the New Deal change permanently?",
+            "Zinn highlights how ordinary people organized to survive the Depression. Why does he think those efforts mattered more than textbooks suggest?",
+            "World War II is usually remembered as 'the Good War.' Zinn questions that by raising Hiroshima, Dresden and the internment of Japanese Americans. Can a war be both necessary and morally compromised? How does he handle that tension?",
+            "Zinn draws on his own experience as a bombardier. Does a historian's personal involvement in events strengthen or weaken his account?"
+          ]
+        },
+        {
+          "label": "Week 9",
+          "read": "Chapters 17-18",
+          "readDetail": "Chapter 17: \"Or Does It Explode?\" Chapter 18: The Impossible Victory: Vietnam.",
+          "pages": "~60 pages",
+          "lessons": [
+            10
+          ],
+          "discuss": [
+            "Zinn tells the civil rights story from below -- local organizers, students and SNCC -- rather than through a few famous leaders. What does this approach reveal, and what might it leave out?",
+            "Zinn was personally involved in the movement. Where does his closeness add insight, and where might it make him less critical?",
+            "Chapter 18 argues the Vietnam War was unwinnable and unjust, and that popular resistance helped end it. How much credit should the antiwar movement get compared with events on the battlefield and in Washington?",
+            "Zinn treats official statements about Vietnam with deep suspicion. Based on what later came out (such as the Pentagon Papers), was that suspicion justified? When is distrust of government healthy, and when does it go too far?"
+          ]
+        },
+        {
+          "label": "Week 10",
+          "read": "Chapters 19-20",
+          "readDetail": "Chapter 19: Surprises. Chapter 20: The Seventies: Under Control?",
+          "pages": "~60 pages",
+          "lessons": [
+            11
+          ],
+          "discuss": [
+            "Chapter 19 gathers many movements -- women's liberation, prisoners, Native American activism, the counterculture -- under the idea of 'surprise.' What connects them, in Zinn's view? Do you see them as one movement or many?",
+            "Zinn gives attention to groups often left out of national history, such as prisoners at Attica and activists at Wounded Knee. What is gained when a history includes them, and how should a historian handle sources from people in conflict with authority?",
+            "In Chapter 20 Zinn argues the system responded to Watergate and the revelations of the 1970s by restoring trust without real change. Is that a fair reading of the reforms that followed?",
+            "Zinn cites elite worries about a 'crisis of democracy' -- too much popular demand. Was that worry about democracy failing, or about democracy working? How would you decide?"
+          ]
+        },
+        {
+          "label": "Week 11",
+          "read": "Chapters 21-22",
+          "readDetail": "Chapter 21: Carter-Reagan-Bush: The Bipartisan Consensus. Chapter 22: The Unreported Resistance.",
+          "pages": "~68 pages",
+          "lessons": [
+            12
+          ],
+          "discuss": [
+            "Zinn argues that Democrats and Republicans shared a basic consensus on military spending, corporate power and foreign policy. What evidence does he give, and what real differences between the parties does his thesis downplay?",
+            "How does Zinn's account of the Reagan years and the 1991 Gulf War compare with the version you remember or were taught? What explains the gap?",
+            "Chapter 22 describes grassroots movements that Zinn says the press ignored. How can a reader judge the size and importance of movements that left little mainstream coverage?",
+            "These chapters cover events Zinn lived through as an activist. Does history written so close to its events work differently from history about the distant past? Should it be read differently?"
+          ]
+        },
+        {
+          "label": "Week 12",
+          "read": "Chapters 23-24",
+          "readDetail": "Chapter 23: The Coming Revolt of the Guards. Chapter 24: The Clinton Presidency.",
+          "pages": "~44 pages",
+          "lessons": [
+            13
+          ],
+          "discuss": [
+            "Chapter 23 is less history than prediction: Zinn expects the 'guards' -- the middle class -- to join those below them. Looking at what has happened since, how has his prediction held up?",
+            "Why do you think Zinn chose to end with a forecast of this kind? Does it strengthen the book as a call to action or weaken it as a work of history?",
+            "Zinn judges the Clinton years -- welfare reform, NAFTA, the crime bill -- as continuing the bipartisan consensus. Which of his criticisms have become widely shared since, and which remain contested?",
+            "Is it possible to write good history about the very recent past? What would you want from a historian writing about events only a few years old?"
+          ]
+        },
+        {
+          "label": "Week 13",
+          "read": "Chapter 25",
+          "readDetail": "Chapter 25: The 2000 Election and the \"War on Terrorism\". Add the short afterword if your edition has one.",
+          "pages": "~14 pages",
+          "lessons": [
+            14
+          ],
+          "tip": "A light reading week. Use the extra time to flip back through your notes from Week 1 before taking Lesson 14 -- its closing session looks back at the whole book.",
+          "discuss": [
+            "Zinn responds to the September 11 attacks and the 'war on terrorism' almost as they happened. What are the risks and benefits of a historian weighing in on events this fresh?",
+            "Zinn applies the same questions to 2001 that he applied to 1492: who pays, who benefits, who is left out. After 25 chapters, has that lens helped you see things you missed, or has it started to feel predictable?",
+            "Which of Zinn's chapters changed your view of American history most, and which did you find least convincing? What made the difference -- the evidence, the argument, or your own starting point?",
+            "Zinn says he tells the story from the side of the victims. Having read the whole book, do you think his history is a necessary corrective, a one-sided account, or both?"
+          ]
+        },
+        {
+          "label": "After you finish",
+          "read": null,
+          "lessons": [
+            14
+          ],
+          "tip": "Go back to Lesson 14's synthesis section for the final session: the major critiques (Handlin, Foner, Kazin, Wineburg), what Zinn changed in how history is taught, and the keep / question map. If you read with friends, make that your closing meeting -- each person brings one chapter they would defend and one they would challenge."
+        }
+      ],
+      "name": "2 chapters a week · 13 weeks"
+    },
+    {
+      "name": "1 chapter a week · 25 weeks",
+      "title": "Read-Along Plan",
+      "intro": "The slower-pace version of the reading club: one chapter a week, about 25 pages on average. Each course lesson covers two chapters, so you take a lesson every other week, once you have read both chapters it covers. Reading is optional -- every lesson teaches the chapters on its own -- and your check-offs here are tracked separately from the 2-chapters-a-week plan, so you can switch paces any time.",
+      "edition": "Chapter numbers and titles are the same in every current 25-chapter edition. Page numbers are from the Harper Perennial Modern Classics paperback table of contents (howardzinn.org); your copy may differ by a few pages.",
+      "pace": "About 25 weeks (6 months) at one chapter a week -- 8 to 44 pages a week, roughly 1-6 pages a day. Chapters 9-11 are the longest (40+ pages each).",
+      "steps": [
+        {
+          "label": "Before you start",
+          "read": null,
+          "lessons": [
+            1
+          ],
+          "tip": "Take Lesson 1 before opening the book. It explains who Zinn was, why he wrote the book, and how to read a history that openly takes sides -- a frame you will use in every session. If you like, skim Zinn's short introduction or afterword too."
+        },
+        {
+          "label": "Week 1",
+          "read": "Chapter 1",
+          "readDetail": "Chapter 1: Columbus, the Indians, and Human Progress.",
+          "pages": "~22 pages (pp. 1-22)",
+          "lessons": [],
+          "tip": "Lesson 2 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 2 now; it covers Chapters 1-2.)"
+        },
+        {
+          "label": "Week 2",
+          "read": "Chapter 2",
+          "readDetail": "Chapter 2: Drawing the Color Line.",
+          "pages": "~16 pages (pp. 23-38)",
+          "lessons": [
+            2
+          ],
+          "tip": "You have now read both chapters Lesson 2 covers (Chapters 1-2). Take it, then work through the questions.",
+          "discuss": [
+            "Zinn argues that choosing what to emphasize is itself a moral choice, and that the traditional Columbus story buries atrocity under achievement. Is it possible to write history without taking such a side? Does Zinn's openness about his bias make his account more trustworthy or less?",
+            "Zinn leans heavily on Bartolome de las Casas as an eyewitness. What are the strengths and risks of building a chapter around one passionate source, and what other evidence would you want before accepting his numbers and descriptions?",
+            "In Chapter 2 Zinn argues that racism in colonial Virginia was not natural but was built by laws and policies that divided Black and white laborers. How convincing is the evidence he presents, and what would it take to prove or disprove that claim?",
+            "Zinn questions whether the progress that followed 1492 can justify its human cost. Is 'progress' a fair yardstick for judging the past, and who gets to decide what counts as progress?"
+          ]
+        },
+        {
+          "label": "Week 3",
+          "read": "Chapter 3",
+          "readDetail": "Chapter 3: Persons of Mean and Vile Condition.",
+          "pages": "~20 pages (pp. 39-58)",
+          "lessons": [],
+          "tip": "Lesson 3 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 3 now; it covers Chapters 3-4.)"
+        },
+        {
+          "label": "Week 4",
+          "read": "Chapter 4",
+          "readDetail": "Chapter 4: Tyranny Is Tyranny.",
+          "pages": "~18 pages (pp. 59-76)",
+          "lessons": [
+            3
+          ],
+          "tip": "You have now read both chapters Lesson 3 covers (Chapters 3-4). Take it, then work through the questions.",
+          "discuss": [
+            "Zinn reads Bacon's Rebellion and other colonial uprisings as class conflict between the poor and the colonial elite. What evidence supports that reading, and what alternative motives (land hunger, anti-Indian violence, local rivalries) might explain the same events?",
+            "Zinn claims the Revolution's leaders channeled lower-class anger toward Britain to protect their own position. Does that interpretation leave room for the leaders' ideals to have been sincere? Can both be true at once?",
+            "How does Zinn use crowd actions such as the Stamp Act riots? Do his examples show ordinary people driving events, or being steered by others?",
+            "Historians like Bernard Bailyn stress the power of revolutionary ideas about liberty. After reading Zinn, which do you think moved people more in the 1760s and 1770s -- economic grievance or political principle -- and why?"
+          ]
+        },
+        {
+          "label": "Week 5",
+          "read": "Chapter 5",
+          "readDetail": "Chapter 5: A Kind of Revolution.",
+          "pages": "~26 pages (pp. 77-102)",
+          "lessons": [],
+          "tip": "Lesson 4 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 4 now; it covers Chapters 5-6.)"
+        },
+        {
+          "label": "Week 6",
+          "read": "Chapter 6",
+          "readDetail": "Chapter 6: The Intimately Oppressed.",
+          "pages": "~22 pages (pp. 103-124)",
+          "lessons": [
+            4
+          ],
+          "tip": "You have now read both chapters Lesson 4 covers (Chapters 5-6). Take it, then work through the questions.",
+          "discuss": [
+            "Zinn asks who actually fought the Revolution and who gained from it. Based on his evidence about soldiers, veterans and debtors, was the Revolution a genuine social change for most people, or mainly a change of rulers?",
+            "Zinn draws on Charles Beard's argument that the Constitution served the economic interests of its framers. Beard's work has been heavily criticized. How much of Zinn's case depends on Beard, and does it survive without him?",
+            "Chapter 6 moves from politics to the lives of women from colonial times to Seneca Falls. What does Zinn gain by treating women's history as a separate chapter, and what might he lose by not weaving it through the whole book?",
+            "Zinn highlights women who resisted their place in society. How representative are his examples, and how would you find out what ordinary women of the time actually thought?"
+          ]
+        },
+        {
+          "label": "Week 7",
+          "read": "Chapter 7",
+          "readDetail": "Chapter 7: As Long as Grass Grows or Water Runs.",
+          "pages": "~24 pages (pp. 125-148)",
+          "lessons": [],
+          "tip": "Lesson 5 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 5 now; it covers Chapters 7-8.)"
+        },
+        {
+          "label": "Week 8",
+          "read": "Chapter 8",
+          "readDetail": "Chapter 8: We Take Nothing by Conquest, Thank God.",
+          "pages": "~22 pages (pp. 149-170)",
+          "lessons": [
+            5
+          ],
+          "tip": "You have now read both chapters Lesson 5 covers (Chapters 7-8). Take it, then work through the questions.",
+          "discuss": [
+            "Zinn presents Indian Removal as a deliberate policy driven by land and profit, not an unfortunate side effect of expansion. Does his evidence about Jackson and the treaties support that level of intent?",
+            "Zinn gives space to Cherokee voices and petitions. How does hearing from the people removed change your understanding compared with a narrative told from Washington?",
+            "In Chapter 8 Zinn argues the Mexican War was provoked and opposed by more Americans than textbooks admit, citing Thoreau, dissenting politicians and deserting soldiers. How much weight should scattered dissent carry in judging whether a war was popular?",
+            "'Manifest Destiny' is often taught as a belief of the age. Is it fair to judge people of the 1840s by today's moral standards, as Zinn seems to invite us to? Where would you draw the line?"
+          ]
+        },
+        {
+          "label": "Week 9",
+          "read": "Chapter 9",
+          "readDetail": "Chapter 9: Slavery Without Submission, Emancipation Without Freedom.",
+          "pages": "~40 pages (pp. 171-210)",
+          "lessons": [],
+          "tip": "Lesson 6 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 6 now; it covers Chapters 9-10.) This is one of the longest chapters in the book, so give it the whole week."
+        },
+        {
+          "label": "Week 10",
+          "read": "Chapter 10",
+          "readDetail": "Chapter 10: The Other Civil War.",
+          "pages": "~42 pages (pp. 211-252)",
+          "lessons": [
+            6
+          ],
+          "tip": "You have now read both chapters Lesson 6 covers (Chapters 9-10). Take it, then work through the questions. This is one of the longest chapters in the book, so give it the whole week.",
+          "discuss": [
+            "Zinn portrays Lincoln as a reluctant emancipator acting mainly out of political and military necessity. Weigh the evidence he offers. Does motive matter if the result was the end of slavery?",
+            "Zinn emphasizes enslaved people's own resistance -- revolts, escapes, everyday defiance -- as a force in ending slavery. How does that shift the story compared with one centered on presidents, generals and Congress?",
+            "Zinn argues Reconstruction was betrayed and that emancipation did not bring real freedom. Compare his view with what you know from historians like Eric Foner. Where do they agree, and where does Zinn go further?",
+            "'The Other Civil War' treats labor conflicts and tenant revolts as a hidden war running alongside the famous one. Is it helpful to frame class conflict as a 'war', or does the metaphor overstate it?"
+          ]
+        },
+        {
+          "label": "Week 11",
+          "read": "Chapter 11",
+          "readDetail": "Chapter 11: Robber Barons and Rebels.",
+          "pages": "~44 pages (pp. 253-296)",
+          "lessons": [],
+          "tip": "Lesson 7 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 7 now; it covers Chapters 11-12.) This is one of the longest chapters in the book, so give it the whole week."
+        },
+        {
+          "label": "Week 12",
+          "read": "Chapter 12",
+          "readDetail": "Chapter 12: The Empire and the People.",
+          "pages": "~24 pages (pp. 297-320)",
+          "lessons": [
+            7
+          ],
+          "tip": "You have now read both chapters Lesson 7 covers (Chapters 11-12). Take it, then work through the questions.",
+          "discuss": [
+            "Zinn calls the great industrialists robber barons; other historians call them captains of industry who built modern America. After weighing his evidence, which label fits better -- or do both capture something real?",
+            "Zinn describes the Haymarket, Homestead and Pullman conflicts in detail. What do these episodes suggest about the role of government and courts in labor disputes, and how might a defender of the era respond?",
+            "The Populist movement is one of Zinn's hopeful stories. Why do you think it failed, and does Zinn's explanation convince you?",
+            "In Chapter 12 Zinn connects overseas expansion in 1898 and the Philippine war to economic interests at home. How strong is his case that empire was about markets, and what other motives might have mattered?"
+          ]
+        },
+        {
+          "label": "Week 13",
+          "read": "Chapter 13",
+          "readDetail": "Chapter 13: The Socialist Challenge.",
+          "pages": "~38 pages (pp. 321-358)",
+          "lessons": [],
+          "tip": "Lesson 8 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 8 now; it covers Chapters 13-14.)"
+        },
+        {
+          "label": "Week 14",
+          "read": "Chapter 14",
+          "readDetail": "Chapter 14: War Is the Health of the State.",
+          "pages": "~18 pages (pp. 359-376)",
+          "lessons": [
+            8
+          ],
+          "tip": "You have now read both chapters Lesson 8 covers (Chapters 13-14). Take it, then work through the questions.",
+          "discuss": [
+            "Zinn argues that Progressive Era reforms were largely a way to head off more radical change. Is it fair to treat real reforms -- food safety, antitrust, labor laws -- as co-optation? What would count as evidence either way?",
+            "Why do you think socialism had such strong support in the early 1900s (Debs, the IWW), and why does Zinn think it faded? Do you find his explanation complete?",
+            "Chapter 14 argues that World War I was used to crush dissent at home through the Espionage Act and prosecutions. How should a democracy balance wartime security against free speech? Where did the U.S. go wrong, if it did?",
+            "Zinn borrows the chapter title from Randolph Bourne. What does the phrase mean, and do the events in this chapter support it as a general rule about wars?"
+          ]
+        },
+        {
+          "label": "Week 15",
+          "read": "Chapter 15",
+          "readDetail": "Chapter 15: Self-Help in Hard Times.",
+          "pages": "~30 pages (pp. 377-406)",
+          "lessons": [],
+          "tip": "Lesson 9 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 9 now; it covers Chapters 15-16.)"
+        },
+        {
+          "label": "Week 16",
+          "read": "Chapter 16",
+          "readDetail": "Chapter 16: A People's War?.",
+          "pages": "~36 pages (pp. 407-442)",
+          "lessons": [
+            9
+          ],
+          "tip": "You have now read both chapters Lesson 9 covers (Chapters 15-16). Take it, then work through the questions.",
+          "discuss": [
+            "Zinn presents the New Deal as a rescue of capitalism rather than a transformation of it. Given the evidence he offers about strikes, unemployed councils and relief, do you agree? What did the New Deal change permanently?",
+            "Zinn highlights how ordinary people organized to survive the Depression. Why does he think those efforts mattered more than textbooks suggest?",
+            "World War II is usually remembered as 'the Good War.' Zinn questions that by raising Hiroshima, Dresden and the internment of Japanese Americans. Can a war be both necessary and morally compromised? How does he handle that tension?",
+            "Zinn draws on his own experience as a bombardier. Does a historian's personal involvement in events strengthen or weaken his account?"
+          ]
+        },
+        {
+          "label": "Week 17",
+          "read": "Chapter 17",
+          "readDetail": "Chapter 17: \"Or Does It Explode?\".",
+          "pages": "~26 pages (pp. 443-468)",
+          "lessons": [],
+          "tip": "Lesson 10 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 10 now; it covers Chapters 17-18.)"
+        },
+        {
+          "label": "Week 18",
+          "read": "Chapter 18",
+          "readDetail": "Chapter 18: The Impossible Victory: Vietnam.",
+          "pages": "~34 pages (pp. 469-502)",
+          "lessons": [
+            10
+          ],
+          "tip": "You have now read both chapters Lesson 10 covers (Chapters 17-18). Take it, then work through the questions.",
+          "discuss": [
+            "Zinn tells the civil rights story from below -- local organizers, students and SNCC -- rather than through a few famous leaders. What does this approach reveal, and what might it leave out?",
+            "Zinn was personally involved in the movement. Where does his closeness add insight, and where might it make him less critical?",
+            "Chapter 18 argues the Vietnam War was unwinnable and unjust, and that popular resistance helped end it. How much credit should the antiwar movement get compared with events on the battlefield and in Washington?",
+            "Zinn treats official statements about Vietnam with deep suspicion. Based on what later came out (such as the Pentagon Papers), was that suspicion justified? When is distrust of government healthy, and when does it go too far?"
+          ]
+        },
+        {
+          "label": "Week 19",
+          "read": "Chapter 19",
+          "readDetail": "Chapter 19: Surprises.",
+          "pages": "~38 pages (pp. 503-540)",
+          "lessons": [],
+          "tip": "Lesson 11 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 11 now; it covers Chapters 19-20.)"
+        },
+        {
+          "label": "Week 20",
+          "read": "Chapter 20",
+          "readDetail": "Chapter 20: The Seventies: Under Control?.",
+          "pages": "~22 pages (pp. 541-562)",
+          "lessons": [
+            11
+          ],
+          "tip": "You have now read both chapters Lesson 11 covers (Chapters 19-20). Take it, then work through the questions.",
+          "discuss": [
+            "Chapter 19 gathers many movements -- women's liberation, prisoners, Native American activism, the counterculture -- under the idea of 'surprise.' What connects them, in Zinn's view? Do you see them as one movement or many?",
+            "Zinn gives attention to groups often left out of national history, such as prisoners at Attica and activists at Wounded Knee. What is gained when a history includes them, and how should a historian handle sources from people in conflict with authority?",
+            "In Chapter 20 Zinn argues the system responded to Watergate and the revelations of the 1970s by restoring trust without real change. Is that a fair reading of the reforms that followed?",
+            "Zinn cites elite worries about a 'crisis of democracy' -- too much popular demand. Was that worry about democracy failing, or about democracy working? How would you decide?"
+          ]
+        },
+        {
+          "label": "Week 21",
+          "read": "Chapter 21",
+          "readDetail": "Chapter 21: Carter-Reagan-Bush: The Bipartisan Consensus.",
+          "pages": "~38 pages (pp. 563-600)",
+          "lessons": [],
+          "tip": "Lesson 12 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 12 now; it covers Chapters 21-22.)"
+        },
+        {
+          "label": "Week 22",
+          "read": "Chapter 22",
+          "readDetail": "Chapter 22: The Unreported Resistance.",
+          "pages": "~30 pages (pp. 601-630)",
+          "lessons": [
+            12
+          ],
+          "tip": "You have now read both chapters Lesson 12 covers (Chapters 21-22). Take it, then work through the questions.",
+          "discuss": [
+            "Zinn argues that Democrats and Republicans shared a basic consensus on military spending, corporate power and foreign policy. What evidence does he give, and what real differences between the parties does his thesis downplay?",
+            "How does Zinn's account of the Reagan years and the 1991 Gulf War compare with the version you remember or were taught? What explains the gap?",
+            "Chapter 22 describes grassroots movements that Zinn says the press ignored. How can a reader judge the size and importance of movements that left little mainstream coverage?",
+            "These chapters cover events Zinn lived through as an activist. Does history written so close to its events work differently from history about the distant past? Should it be read differently?"
+          ]
+        },
+        {
+          "label": "Week 23",
+          "read": "Chapter 23",
+          "readDetail": "Chapter 23: The Coming Revolt of the Guards.",
+          "pages": "~12 pages (pp. 631-642)",
+          "lessons": [],
+          "tip": "Lesson 13 covers this chapter and next week's together, so it comes next week. While you read, jot down one claim Zinn makes that surprised you and one you would want to check -- bring both to next week's questions. (In Lesson-first mode you can preview Lesson 13 now; it covers Chapters 23-24.)"
+        },
+        {
+          "label": "Week 24",
+          "read": "Chapter 24",
+          "readDetail": "Chapter 24: The Clinton Presidency.",
+          "pages": "~32 pages (pp. 643-674)",
+          "lessons": [
+            13
+          ],
+          "tip": "You have now read both chapters Lesson 13 covers (Chapters 23-24). Take it, then work through the questions.",
+          "discuss": [
+            "Chapter 23 is less history than prediction: Zinn expects the 'guards' -- the middle class -- to join those below them. Looking at what has happened since, how has his prediction held up?",
+            "Why do you think Zinn chose to end with a forecast of this kind? Does it strengthen the book as a call to action or weaken it as a work of history?",
+            "Zinn judges the Clinton years -- welfare reform, NAFTA, the crime bill -- as continuing the bipartisan consensus. Which of his criticisms have become widely shared since, and which remain contested?",
+            "Is it possible to write good history about the very recent past? What would you want from a historian writing about events only a few years old?"
+          ]
+        },
+        {
+          "label": "Week 25",
+          "read": "Chapter 25",
+          "readDetail": "Chapter 25: The 2000 Election and the \"War on Terrorism\".",
+          "pages": "~8 pages (pp. 675-682)",
+          "lessons": [
+            14
+          ],
+          "tip": "The last chapter -- then Lesson 14 wraps up the whole book.",
+          "discuss": [
+            "Zinn responds to the September 11 attacks and the 'war on terrorism' almost as they happened. What are the risks and benefits of a historian weighing in on events this fresh?",
+            "Zinn applies the same questions to 2001 that he applied to 1492: who pays, who benefits, who is left out. After 25 chapters, has that lens helped you see things you missed, or has it started to feel predictable?",
+            "Which of Zinn's chapters changed your view of American history most, and which did you find least convincing? What made the difference -- the evidence, the argument, or your own starting point?",
+            "Zinn says he tells the story from the side of the victims. Having read the whole book, do you think his history is a necessary corrective, a one-sided account, or both?"
+          ]
+        },
+        {
+          "label": "After you finish",
+          "read": null,
+          "lessons": [
+            14
+          ],
+          "tip": "Go back to Lesson 14's synthesis section for the final session: the major critiques (Handlin, Foner, Kazin, Wineburg), what Zinn changed in how history is taught, and the keep / question map. If you read with friends, make that your closing meeting -- each person brings one chapter they would defend and one they would challenge."
+        }
+      ]
+    }
+  ],
   "lessonList": [
     {
       "id": 1,
@@ -2617,227 +3171,5 @@ window.ZINN_PEOPLES_HISTORY_BOOK = {
         }
       ]
     }
-  ],
-  "readingPlan": {
-    "title": "Read-Along Plan",
-    "intro": "This course is built as a reading club: each week you read two chapters of Zinn, take the matching lesson, then use the discussion questions -- alone in a notebook or out loud with friends. Reading is optional, since every lesson summarizes Zinn's argument, sets it against the textbook view, and shows where historians push back, so the course works even if you fall behind. Use the Read-first vs Lesson-first toggle to choose whether you meet each chapter fresh or with the lesson as a guide; history has no plot twists to spoil, but reading first lets you judge Zinn's evidence before you hear the critics.",
-    "edition": "Chapter numbers and titles are the same in every current 25-chapter edition. Page counts are from the Harper Perennial Modern Classics paperback (35th anniversary edition), about 730 pages including the afterword, bibliography and index; the main text runs about 690 pages.",
-    "pace": "About 13 weeks at two chapters a week -- roughly 40-80 pages a week, or 6-12 pages a day. Week 5 is the heaviest (~80 pages) and Week 13 the lightest, so give yourself extra days around Week 5.",
-    "steps": [
-      {
-        "label": "Before you start",
-        "read": null,
-        "lessons": [
-          1
-        ],
-        "tip": "Take Lesson 1 before opening the book. It explains who Zinn was, why he wrote the book, and how to read a history that openly takes sides -- a frame you will use in every session. If you like, skim Zinn's short introduction or afterword too."
-      },
-      {
-        "label": "Week 1",
-        "read": "Chapters 1-2",
-        "readDetail": "Chapter 1: Columbus, the Indians, and Human Progress. Chapter 2: Drawing the Color Line.",
-        "pages": "~38 pages",
-        "lessons": [
-          2
-        ],
-        "tip": "Chapter 1 contains Zinn's statement of his own method and point of view. Mark it -- the whole reading club keeps coming back to it.",
-        "discuss": [
-          "Zinn argues that choosing what to emphasize is itself a moral choice, and that the traditional Columbus story buries atrocity under achievement. Is it possible to write history without taking such a side? Does Zinn's openness about his bias make his account more trustworthy or less?",
-          "Zinn leans heavily on Bartolome de las Casas as an eyewitness. What are the strengths and risks of building a chapter around one passionate source, and what other evidence would you want before accepting his numbers and descriptions?",
-          "In Chapter 2 Zinn argues that racism in colonial Virginia was not natural but was built by laws and policies that divided Black and white laborers. How convincing is the evidence he presents, and what would it take to prove or disprove that claim?",
-          "Zinn questions whether the progress that followed 1492 can justify its human cost. Is 'progress' a fair yardstick for judging the past, and who gets to decide what counts as progress?"
-        ]
-      },
-      {
-        "label": "Week 2",
-        "read": "Chapters 3-4",
-        "readDetail": "Chapter 3: Persons of Mean and Vile Condition. Chapter 4: Tyranny Is Tyranny.",
-        "pages": "~38 pages",
-        "lessons": [
-          3
-        ],
-        "discuss": [
-          "Zinn reads Bacon's Rebellion and other colonial uprisings as class conflict between the poor and the colonial elite. What evidence supports that reading, and what alternative motives (land hunger, anti-Indian violence, local rivalries) might explain the same events?",
-          "Zinn claims the Revolution's leaders channeled lower-class anger toward Britain to protect their own position. Does that interpretation leave room for the leaders' ideals to have been sincere? Can both be true at once?",
-          "How does Zinn use crowd actions such as the Stamp Act riots? Do his examples show ordinary people driving events, or being steered by others?",
-          "Historians like Bernard Bailyn stress the power of revolutionary ideas about liberty. After reading Zinn, which do you think moved people more in the 1760s and 1770s -- economic grievance or political principle -- and why?"
-        ]
-      },
-      {
-        "label": "Week 3",
-        "read": "Chapters 5-6",
-        "readDetail": "Chapter 5: A Kind of Revolution. Chapter 6: The Intimately Oppressed.",
-        "pages": "~48 pages",
-        "lessons": [
-          4
-        ],
-        "discuss": [
-          "Zinn asks who actually fought the Revolution and who gained from it. Based on his evidence about soldiers, veterans and debtors, was the Revolution a genuine social change for most people, or mainly a change of rulers?",
-          "Zinn draws on Charles Beard's argument that the Constitution served the economic interests of its framers. Beard's work has been heavily criticized. How much of Zinn's case depends on Beard, and does it survive without him?",
-          "Chapter 6 moves from politics to the lives of women from colonial times to Seneca Falls. What does Zinn gain by treating women's history as a separate chapter, and what might he lose by not weaving it through the whole book?",
-          "Zinn highlights women who resisted their place in society. How representative are his examples, and how would you find out what ordinary women of the time actually thought?"
-        ]
-      },
-      {
-        "label": "Week 4",
-        "read": "Chapters 7-8",
-        "readDetail": "Chapter 7: As Long as Grass Grows or Water Runs. Chapter 8: We Take Nothing by Conquest, Thank God.",
-        "pages": "~46 pages",
-        "lessons": [
-          5
-        ],
-        "discuss": [
-          "Zinn presents Indian Removal as a deliberate policy driven by land and profit, not an unfortunate side effect of expansion. Does his evidence about Jackson and the treaties support that level of intent?",
-          "Zinn gives space to Cherokee voices and petitions. How does hearing from the people removed change your understanding compared with a narrative told from Washington?",
-          "In Chapter 8 Zinn argues the Mexican War was provoked and opposed by more Americans than textbooks admit, citing Thoreau, dissenting politicians and deserting soldiers. How much weight should scattered dissent carry in judging whether a war was popular?",
-          "'Manifest Destiny' is often taught as a belief of the age. Is it fair to judge people of the 1840s by today's moral standards, as Zinn seems to invite us to? Where would you draw the line?"
-        ]
-      },
-      {
-        "label": "Week 5",
-        "read": "Chapters 9-10",
-        "readDetail": "Chapter 9: Slavery Without Submission, Emancipation Without Freedom. Chapter 10: The Other Civil War.",
-        "pages": "~82 pages",
-        "lessons": [
-          6
-        ],
-        "tip": "The heaviest week of the plan. Start a few days early, or read Chapter 9 one week and Chapter 10 the next if you need to.",
-        "discuss": [
-          "Zinn portrays Lincoln as a reluctant emancipator acting mainly out of political and military necessity. Weigh the evidence he offers. Does motive matter if the result was the end of slavery?",
-          "Zinn emphasizes enslaved people's own resistance -- revolts, escapes, everyday defiance -- as a force in ending slavery. How does that shift the story compared with one centered on presidents, generals and Congress?",
-          "Zinn argues Reconstruction was betrayed and that emancipation did not bring real freedom. Compare his view with what you know from historians like Eric Foner. Where do they agree, and where does Zinn go further?",
-          "'The Other Civil War' treats labor conflicts and tenant revolts as a hidden war running alongside the famous one. Is it helpful to frame class conflict as a 'war', or does the metaphor overstate it?"
-        ]
-      },
-      {
-        "label": "Week 6",
-        "read": "Chapters 11-12",
-        "readDetail": "Chapter 11: Robber Barons and Rebels. Chapter 12: The Empire and the People.",
-        "pages": "~68 pages",
-        "lessons": [
-          7
-        ],
-        "discuss": [
-          "Zinn calls the great industrialists robber barons; other historians call them captains of industry who built modern America. After weighing his evidence, which label fits better -- or do both capture something real?",
-          "Zinn describes the Haymarket, Homestead and Pullman conflicts in detail. What do these episodes suggest about the role of government and courts in labor disputes, and how might a defender of the era respond?",
-          "The Populist movement is one of Zinn's hopeful stories. Why do you think it failed, and does Zinn's explanation convince you?",
-          "In Chapter 12 Zinn connects overseas expansion in 1898 and the Philippine war to economic interests at home. How strong is his case that empire was about markets, and what other motives might have mattered?"
-        ]
-      },
-      {
-        "label": "Week 7",
-        "read": "Chapters 13-14",
-        "readDetail": "Chapter 13: The Socialist Challenge. Chapter 14: War Is the Health of the State.",
-        "pages": "~56 pages",
-        "lessons": [
-          8
-        ],
-        "discuss": [
-          "Zinn argues that Progressive Era reforms were largely a way to head off more radical change. Is it fair to treat real reforms -- food safety, antitrust, labor laws -- as co-optation? What would count as evidence either way?",
-          "Why do you think socialism had such strong support in the early 1900s (Debs, the IWW), and why does Zinn think it faded? Do you find his explanation complete?",
-          "Chapter 14 argues that World War I was used to crush dissent at home through the Espionage Act and prosecutions. How should a democracy balance wartime security against free speech? Where did the U.S. go wrong, if it did?",
-          "Zinn borrows the chapter title from Randolph Bourne. What does the phrase mean, and do the events in this chapter support it as a general rule about wars?"
-        ]
-      },
-      {
-        "label": "Week 8",
-        "read": "Chapters 15-16",
-        "readDetail": "Chapter 15: Self-Help in Hard Times. Chapter 16: A People's War?",
-        "pages": "~66 pages",
-        "lessons": [
-          9
-        ],
-        "discuss": [
-          "Zinn presents the New Deal as a rescue of capitalism rather than a transformation of it. Given the evidence he offers about strikes, unemployed councils and relief, do you agree? What did the New Deal change permanently?",
-          "Zinn highlights how ordinary people organized to survive the Depression. Why does he think those efforts mattered more than textbooks suggest?",
-          "World War II is usually remembered as 'the Good War.' Zinn questions that by raising Hiroshima, Dresden and the internment of Japanese Americans. Can a war be both necessary and morally compromised? How does he handle that tension?",
-          "Zinn draws on his own experience as a bombardier. Does a historian's personal involvement in events strengthen or weaken his account?"
-        ]
-      },
-      {
-        "label": "Week 9",
-        "read": "Chapters 17-18",
-        "readDetail": "Chapter 17: \"Or Does It Explode?\" Chapter 18: The Impossible Victory: Vietnam.",
-        "pages": "~60 pages",
-        "lessons": [
-          10
-        ],
-        "discuss": [
-          "Zinn tells the civil rights story from below -- local organizers, students and SNCC -- rather than through a few famous leaders. What does this approach reveal, and what might it leave out?",
-          "Zinn was personally involved in the movement. Where does his closeness add insight, and where might it make him less critical?",
-          "Chapter 18 argues the Vietnam War was unwinnable and unjust, and that popular resistance helped end it. How much credit should the antiwar movement get compared with events on the battlefield and in Washington?",
-          "Zinn treats official statements about Vietnam with deep suspicion. Based on what later came out (such as the Pentagon Papers), was that suspicion justified? When is distrust of government healthy, and when does it go too far?"
-        ]
-      },
-      {
-        "label": "Week 10",
-        "read": "Chapters 19-20",
-        "readDetail": "Chapter 19: Surprises. Chapter 20: The Seventies: Under Control?",
-        "pages": "~60 pages",
-        "lessons": [
-          11
-        ],
-        "discuss": [
-          "Chapter 19 gathers many movements -- women's liberation, prisoners, Native American activism, the counterculture -- under the idea of 'surprise.' What connects them, in Zinn's view? Do you see them as one movement or many?",
-          "Zinn gives attention to groups often left out of national history, such as prisoners at Attica and activists at Wounded Knee. What is gained when a history includes them, and how should a historian handle sources from people in conflict with authority?",
-          "In Chapter 20 Zinn argues the system responded to Watergate and the revelations of the 1970s by restoring trust without real change. Is that a fair reading of the reforms that followed?",
-          "Zinn cites elite worries about a 'crisis of democracy' -- too much popular demand. Was that worry about democracy failing, or about democracy working? How would you decide?"
-        ]
-      },
-      {
-        "label": "Week 11",
-        "read": "Chapters 21-22",
-        "readDetail": "Chapter 21: Carter-Reagan-Bush: The Bipartisan Consensus. Chapter 22: The Unreported Resistance.",
-        "pages": "~68 pages",
-        "lessons": [
-          12
-        ],
-        "discuss": [
-          "Zinn argues that Democrats and Republicans shared a basic consensus on military spending, corporate power and foreign policy. What evidence does he give, and what real differences between the parties does his thesis downplay?",
-          "How does Zinn's account of the Reagan years and the 1991 Gulf War compare with the version you remember or were taught? What explains the gap?",
-          "Chapter 22 describes grassroots movements that Zinn says the press ignored. How can a reader judge the size and importance of movements that left little mainstream coverage?",
-          "These chapters cover events Zinn lived through as an activist. Does history written so close to its events work differently from history about the distant past? Should it be read differently?"
-        ]
-      },
-      {
-        "label": "Week 12",
-        "read": "Chapters 23-24",
-        "readDetail": "Chapter 23: The Coming Revolt of the Guards. Chapter 24: The Clinton Presidency.",
-        "pages": "~44 pages",
-        "lessons": [
-          13
-        ],
-        "discuss": [
-          "Chapter 23 is less history than prediction: Zinn expects the 'guards' -- the middle class -- to join those below them. Looking at what has happened since, how has his prediction held up?",
-          "Why do you think Zinn chose to end with a forecast of this kind? Does it strengthen the book as a call to action or weaken it as a work of history?",
-          "Zinn judges the Clinton years -- welfare reform, NAFTA, the crime bill -- as continuing the bipartisan consensus. Which of his criticisms have become widely shared since, and which remain contested?",
-          "Is it possible to write good history about the very recent past? What would you want from a historian writing about events only a few years old?"
-        ]
-      },
-      {
-        "label": "Week 13",
-        "read": "Chapter 25",
-        "readDetail": "Chapter 25: The 2000 Election and the \"War on Terrorism\". Add the short afterword if your edition has one.",
-        "pages": "~14 pages",
-        "lessons": [
-          14
-        ],
-        "tip": "A light reading week. Use the extra time to flip back through your notes from Week 1 before taking Lesson 14 -- its closing session looks back at the whole book.",
-        "discuss": [
-          "Zinn responds to the September 11 attacks and the 'war on terrorism' almost as they happened. What are the risks and benefits of a historian weighing in on events this fresh?",
-          "Zinn applies the same questions to 2001 that he applied to 1492: who pays, who benefits, who is left out. After 25 chapters, has that lens helped you see things you missed, or has it started to feel predictable?",
-          "Which of Zinn's chapters changed your view of American history most, and which did you find least convincing? What made the difference -- the evidence, the argument, or your own starting point?",
-          "Zinn says he tells the story from the side of the victims. Having read the whole book, do you think his history is a necessary corrective, a one-sided account, or both?"
-        ]
-      },
-      {
-        "label": "After you finish",
-        "read": null,
-        "lessons": [
-          14
-        ],
-        "tip": "Go back to Lesson 14's synthesis section for the final session: the major critiques (Handlin, Foner, Kazin, Wineburg), what Zinn changed in how history is taught, and the keep / question map. If you read with friends, make that your closing meeting -- each person brings one chapter they would defend and one they would challenge."
-      }
-    ]
-  }
+  ]
 };
