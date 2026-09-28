@@ -231,6 +231,9 @@ class FirebaseSync {
       btn.innerHTML = `<span style="font-size:1rem;margin-right:0.35rem">☁️</span><span>${name.split(' ')[0]}</span>`;
       btn.title = (this.user.email || '') + ' — click to sign out';
       btn.onclick = () => this.signOut();
+      // Remember the first name on this device and refresh the greeting.
+      try { if (this.user.displayName) localStorage.setItem('ownerName', this.user.displayName.split(' ')[0]); } catch (e) {}
+      if (typeof app !== 'undefined' && app && typeof app.updateGreeting === 'function') app.updateGreeting();
     } else {
       btn.innerHTML = `<span style="font-size:1rem;margin-right:0.35rem">☁️</span><span>Sign in</span>`;
       btn.title = 'Sign in with Google to sync your progress across devices';
