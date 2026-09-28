@@ -3242,7 +3242,12 @@ function integrateExternalCategories() {
       { global: 'KITCHEN_PHARMACY_BOOK', categoryId: 'health-wellness' },
       { global: 'EVERYDAY_POISONS_BOOK', categoryId: 'health' },
       // Cross-listed into both categories — see the note on BREATH above.
-      { global: 'EVERYDAY_POISONS_BOOK', categoryId: 'health-wellness' }
+      { global: 'EVERYDAY_POISONS_BOOK', categoryId: 'health-wellness' },
+      // Ayn Rand has no inline definition; this first entry creates the category.
+      // Any later Rand book must come after it or it is silently dropped.
+      { global: 'RAND_ANTHEM_BOOK', categoryId: 'ayn-rand',
+        ensureCategory: { name: 'Ayn Rand', icon: '🏙️', color: '#d4a017',
+          description: 'Seminars on Ayn Rand\'s best sellers -- the novels, the essays, the philosophy of Objectivism, and the arguments for and against.' } }
     ];
     externalBooks.forEach(({ global, categoryId, ensureCategory }) => {
         const book = (typeof window !== 'undefined' && window[global]) ||
