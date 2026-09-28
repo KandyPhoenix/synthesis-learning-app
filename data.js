@@ -3249,7 +3249,8 @@ function integrateExternalCategories() {
         ensureCategory: { name: 'Ayn Rand', icon: '🏙️', color: '#d4a017',
           description: 'Seminars on Ayn Rand\'s best sellers -- the novels, the essays, the philosophy of Objectivism, and the arguments for and against.' } },
       { global: 'RAND_ATLAS_SHRUGGED_BOOK', categoryId: 'ayn-rand' },
-      { global: 'RAND_VIRTUE_OF_SELFISHNESS_BOOK', categoryId: 'ayn-rand' }
+      { global: 'RAND_VIRTUE_OF_SELFISHNESS_BOOK', categoryId: 'ayn-rand' },
+      { global: 'RAND_FOUNTAINHEAD_BOOK', categoryId: 'ayn-rand' }
     ];
     externalBooks.forEach(({ global, categoryId, ensureCategory }) => {
         const book = (typeof window !== 'undefined' && window[global]) ||
