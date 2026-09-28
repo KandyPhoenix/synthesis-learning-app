@@ -3,9 +3,22 @@
 // Complete book library with lessons
 // ============================================
 
+// One-time owner-name migration (2026-09-28): the greeting used to be hardcoded
+// to "Kandy". Any device that already has saved progress is hers, so remember
+// the name there; a brand-new device (e.g. a friend's) starts nameless and
+// picks up the Google first name on sign-in.
+try {
+  if (!localStorage.getItem('ownerNameMigrated')) {
+    if (localStorage.getItem('synthesisProgress') && !localStorage.getItem('ownerName')) {
+      localStorage.setItem('ownerName', 'Kandy');
+    }
+    localStorage.setItem('ownerNameMigrated', '1');
+  }
+} catch (e) { /* storage unavailable: greeting falls back to no name */ }
+
 const APP_DATA = {
   "user": {
-    "name": "Kandy",
+    "name": "",
     "streak": 0,
     "booksCompleted": 0,
     "totalLearningTime": 0,

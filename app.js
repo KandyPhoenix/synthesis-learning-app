@@ -112,6 +112,14 @@ class SynthesisApp {
         if (levelText) levelText.textContent = `Lv.${user.level}`;
     }
 
+    // Greeting name: the signed-in Google account's first name, else the name
+    // remembered on this device (see the migration at the top of data.js).
+    getDisplayName() {
+        const u = window.firebaseSync && window.firebaseSync.user;
+        if (u && u.displayName) return u.displayName.split(' ')[0];
+        try { return localStorage.getItem('ownerName') || ''; } catch (e) { return ''; }
+    }
+
     updateGreeting() {
         const hour = new Date().getHours();
         let greeting;
@@ -126,7 +134,8 @@ class SynthesisApp {
 
         const heroTitle = document.querySelector('.hero-title');
         if (heroTitle) {
-            heroTitle.textContent = `${greeting}, Kandy 👋`;
+            const name = this.getDisplayName();
+            heroTitle.textContent = name ? `${greeting}, ${name} 👋` : `${greeting} 👋`;
         }
     }
 
