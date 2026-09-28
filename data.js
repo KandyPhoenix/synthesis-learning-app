@@ -3247,7 +3247,8 @@ function integrateExternalCategories() {
       // Any later Rand book must come after it or it is silently dropped.
       { global: 'RAND_ANTHEM_BOOK', categoryId: 'ayn-rand',
         ensureCategory: { name: 'Ayn Rand', icon: '🏙️', color: '#d4a017',
-          description: 'Seminars on Ayn Rand\'s best sellers -- the novels, the essays, the philosophy of Objectivism, and the arguments for and against.' } }
+          description: 'Seminars on Ayn Rand\'s best sellers -- the novels, the essays, the philosophy of Objectivism, and the arguments for and against.' } },
+      { global: 'RAND_ATLAS_SHRUGGED_BOOK', categoryId: 'ayn-rand' }
     ];
     externalBooks.forEach(({ global, categoryId, ensureCategory }) => {
         const book = (typeof window !== 'undefined' && window[global]) ||
