@@ -13,6 +13,7 @@ window.BOOK_ADDED_ON = {
  "rand-fountainhead": "2026-09-28",
  "rand-virtue-of-selfishness": "2026-09-28",
  "rand-we-the-living": "2026-09-28",
+ "zinn-peoples-history": "2026-09-28",
  "everyday-poisons": "2026-09-23",
  "her-health-his-health": "2026-09-23",
  "inner-army": "2026-09-23",

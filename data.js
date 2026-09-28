@@ -3252,7 +3252,8 @@ function integrateExternalCategories() {
       { global: 'RAND_VIRTUE_OF_SELFISHNESS_BOOK', categoryId: 'ayn-rand' },
       { global: 'RAND_FOUNTAINHEAD_BOOK', categoryId: 'ayn-rand' },
       { global: 'RAND_WE_THE_LIVING_BOOK', categoryId: 'ayn-rand' },
-      { global: 'RAND_CAPITALISM_UNKNOWN_IDEAL_BOOK', categoryId: 'ayn-rand' }
+      { global: 'RAND_CAPITALISM_UNKNOWN_IDEAL_BOOK', categoryId: 'ayn-rand' },
+      { global: 'ZINN_PEOPLES_HISTORY_BOOK', categoryId: 'history' }
     ];
     externalBooks.forEach(({ global, categoryId, ensureCategory }) => {
         const book = (typeof window !== 'undefined' && window[global]) ||
