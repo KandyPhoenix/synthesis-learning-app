@@ -51,7 +51,7 @@ class SynthesisApp {
             // re-check periodically in case the tab stays open past the hour
             // threshold. No-ops entirely if reminders aren't enabled.
             this.checkStreakReminder();
-            setInterval(() => this.checkStreakReminder(), 15 * 60 * 1000);
+            setInterval(() => this.checkStreakReminder(), 60 * 1000);
         };
         requestAnimationFrame(() => setTimeout(showApp, 300));
 
@@ -837,9 +837,43 @@ class SynthesisApp {
             return;
         }
 
-        container.innerHTML = this.streakRemindersEnabled()
-            ? `<button class="backup-btn backup-btn-secondary" onclick="app.disableStreakReminders()">🔕 Turn Off Reminders</button>`
-            : `<button class="backup-btn backup-btn-primary" onclick="app.enableStreakReminders()">🔔 Enable Streak Reminders</button>`;
+        const on = this.streakRemindersEnabled();
+        const msg = (localStorage.getItem('synthesis_reminder_message') || '').replace(/"/g, '&quot;');
+        container.innerHTML = on
+            ? `<label class="reminder-field">Remind me at <input type="time" id="reminder-time" value="${this.reminderTime()}" onchange="app.setReminderTime(this.value)"></label>
+               <label class="reminder-field">Message <input type="text" id="reminder-message" maxlength="120" placeholder="Time to study! 📚" value="${msg}" onchange="app.setReminderMessage(this.value)"></label>
+               <button class="backup-btn backup-btn-primary" onclick="app.sendTestReminder()">🔔 Send a test now</button>
+               <button class="backup-btn backup-btn-secondary" onclick="app.disableStreakReminders()">🔕 Turn Off Reminders</button>`
+            : `<button class="backup-btn backup-btn-primary" onclick="app.enableStreakReminders()">🔔 Enable Daily Reminder</button>`;
+    }
+
+    reminderTime() {
+        const t = localStorage.getItem('synthesis_reminder_time');
+        return /^\d{2}:\d{2}$/.test(t || '') ? t : '19:00';
+    }
+
+    setReminderTime(value) {
+        if (!/^\d{2}:\d{2}$/.test(value || '')) return;
+        localStorage.setItem('synthesis_reminder_time', value);
+        // A new time means today's nudge may not have fired yet.
+        localStorage.removeItem('synthesis_streak_reminder_shown_' + this.todayKey());
+        toast('Reminder set for ' + this.formatReminderTime(value), 'success');
+    }
+
+    setReminderMessage(value) {
+        localStorage.setItem('synthesis_reminder_message', (value || '').trim());
+        toast('Reminder message saved.', 'success');
+    }
+
+    formatReminderTime(t) {
+        const [h, m] = t.split(':').map(Number);
+        const ampm = h >= 12 ? 'PM' : 'AM';
+        return ((h % 12) || 12) + ':' + String(m).padStart(2, '0') + ' ' + ampm;
+    }
+
+    sendTestReminder() {
+        const custom = (localStorage.getItem('synthesis_reminder_message') || '').trim();
+        this.showStreakReminderNotification('📚 Synthesis reminder (test)', custom || 'This is what your daily reminder will look like.');
     }
 
     // Called at boot and on a periodic timer while the tab stays open.
@@ -849,13 +883,17 @@ class SynthesisApp {
         const today = this.todayKey();
         if (APP_DATA.user?.lastActivityDate === today) return; // already studied today
         if (localStorage.getItem('synthesis_streak_reminder_shown_' + today) === '1') return; // already nudged today
-        if (new Date().getHours() < 19) return; // only nudge in the evening
+        // Nudge at (or after) the time the user picked; default 7:00 PM.
+        const [rh, rm] = this.reminderTime().split(':').map(Number);
+        const now = new Date();
+        if (now.getHours() * 60 + now.getMinutes() < rh * 60 + rm) return;
 
         const streak = APP_DATA.user?.currentStreak || 0;
         const title = streak > 0 ? `🔥 Don't lose your ${streak}-day streak!` : '📚 Keep the habit going';
-        const body = streak > 0
+        const custom = (localStorage.getItem('synthesis_reminder_message') || '').trim();
+        const body = custom || (streak > 0
             ? "You haven't studied today yet — a few minutes keeps your streak alive."
-            : "You haven't studied today yet — even one lesson counts.";
+            : "You haven't studied today yet — even one lesson counts.");
 
         this.showStreakReminderNotification(title, body);
         localStorage.setItem('synthesis_streak_reminder_shown_' + today, '1');

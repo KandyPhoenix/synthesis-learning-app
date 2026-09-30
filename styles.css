@@ -10224,3 +10224,8 @@ body {
 .rp-tip { font-size: 0.8rem; color: var(--color-text-secondary); font-style: italic; }
 .rp-discuss summary { cursor: pointer; font-size: 0.85rem; color: var(--color-text-primary); }
 .rp-discuss ol { margin: 0.4rem 0 0 1.1rem; padding: 0; font-size: 0.85rem; color: var(--color-text-secondary); line-height: 1.5; }
+
+/* Daily study reminder controls (Profile) */
+.reminder-field { display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; color: var(--color-text-secondary); flex: 1 1 100%; }
+.reminder-field input { flex: 1; min-width: 0; background: var(--color-bg-secondary); color: var(--color-text-primary); border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; padding: 0.45rem 0.6rem; font-size: 0.9rem; }
+.reminder-field input[type="time"] { flex: 0 0 auto; }
