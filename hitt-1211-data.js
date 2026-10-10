@@ -4,12 +4,478 @@ window.HITT_1211_BOOK = {
           "id": "hitt-1211",
           "title": "HITT 1211: Health Information Systems",
           "author": "Lone Star College",
-          "description": "College-depth Health Information Systems: 28 lessons mapped to the HITT 1211 syllabus and AHIMA associate-degree competencies. Covers EHR foundations (HITECH, Meaningful Use, Cures Act), CPOE/CDS, patient portals, data standards (HL7 v2/v3/FHIR, SNOMED/LOINC/ICD/CPT), HIE & TEFCA, databases, system selection (RFI/RFP, TCO), implementation lifecycle, testing & training, infrastructure, HIPAA Security Rule, backup & DR, information governance, digital literacy and the Microsoft Office suite, encoders/groupers/online coding tools, computer-assisted coding, paper-to-electronic migration and EDMS, the acute care EHR vendor landscape, EHR and PHR evaluation, public health reporting and disease surveillance, and emerging technologies (AI, ambient docs, IoMT).",
-          "lessons": 28,
-          "duration": "427",
+          "description": "College-depth Health Information Systems: an Exam 1 study guide (Chapters 1–3, Sayles & Barefield) plus 28 lessons mapped to the HITT 1211 syllabus and AHIMA associate-degree competencies. Covers EHR foundations (HITECH, Meaningful Use, Cures Act), CPOE/CDS, patient portals, data standards (HL7 v2/v3/FHIR, SNOMED/LOINC/ICD/CPT), HIE & TEFCA, databases, system selection (RFI/RFP, TCO), implementation lifecycle, testing & training, infrastructure, HIPAA Security Rule, backup & DR, information governance, digital literacy and the Microsoft Office suite, encoders/groupers/online coding tools, computer-assisted coding, paper-to-electronic migration and EDMS, the acute care EHR vendor landscape, EHR and PHR evaluation, public health reporting and disease surveillance, and emerging technologies (AI, ambient docs, IoMT).",
+          "lessons": 29,
+          "duration": "452",
           "progress": 0,
           "category": "him",
           "lessonList": [
+{
+  "id": "hitt-1211-exam1",
+  "title": "Exam 1 Study Guide: Chapters 1–3",
+  "duration": "25 min",
+  "completed": false,
+  "cards": [
+    {
+      "type": "intro",
+      "title": "Exam 1: Chapters 1–3",
+      "content": "This is your **HITT 1211 Exam 1 study guide**, built from your completed Exam 1 review and checked against the glossary of the course textbook: *Introduction to Information Systems for Health Information Technology*, 4th ed. (**Sayles & Barefield**, AHIMA).\n\n**Exam 1 covers three chapters:**\n• **Chapter 1** — Computers in HIM\n• **Chapter 2** — Information Integrity & Data Quality\n• **Chapter 3** — Databases, Data Models, Queries & Analytics\n\n**How to use this lesson:** read the book-specific definitions first (several differ from generic wording and are easy to miss), then work chapter by chapter. The quizzes use the textbook's exact wording, so answer the way the book defines a term, not the way a general website would.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 1 Scope</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Sayles &amp; Barefield, 4th ed. (AHIMA)</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Chapter 1</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">Computers in HIM: IS basics,</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">networks, EHR, informatics,</text><text x=\"90\" y=\"475\" fill=\"#fff\" font-size=\"24\">analytics.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Chapter 2</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">Information integrity and data</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">quality: capture, fields, edit</text><text x=\"602\" y=\"475\" fill=\"#fff\" font-size=\"24\">checks.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Chapter 3</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Databases, data models,</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">queries, warehouses,</text><text x=\"90\" y=\"799\" fill=\"#fff\" font-size=\"24\">standards, analytics.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Study tip</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">Use the book's exact</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">definitions. Several differ</text><text x=\"602\" y=\"799\" fill=\"#fff\" font-size=\"24\">from generic wording.</text></svg>",
+        "caption": "Exam 1 covers Chapters 1 through 3"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Book-Specific Definitions to Memorize",
+      "content": "These differ from generic wording, so learn the **book's** version:\n\n• **Data integrity** — the extent to which healthcare data are **complete, accurate, consistent, and timely** (know these exact four words).\n• **Data quality** — the reliability and effectiveness of data for their intended uses in operations, decision-making, and planning.\n• **Data precision** — ensures there is **justification for the need to collect** the data (NOT \"values in expected ranges\").\n• **Hot spot** — a type of **help message** triggered when the cursor is placed on top of a data field.\n• **Network database model** — uses **pointers**; nodes are called **owners and members** (not parent/child).\n• **Template-based data entry** — a **cross between free text and structured** data entry.\n• **Evidence-based medicine** — healthcare services based on clinical methods thoroughly tested through **controlled, peer-reviewed biomedical studies**.\n• **Physician advisor (PA)** — hired staff acting as a **liaison between HIM and the patient's physician**.\n• **Mask** — displays data in a user-friendly format without saving the dashes/slashes, e.g. (###) ###-####.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Book Wording Wins</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Definitions that differ from generic wording</text><rect x=\"50\" y=\"160\" width=\"488\" height=\"284\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"210\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Data integrity</text><text x=\"90\" y=\"265\" fill=\"#fff\" font-size=\"24\">Complete, accurate,</text><text x=\"90\" y=\"301\" fill=\"#fff\" font-size=\"24\">consistent, and timely.</text><rect x=\"562\" y=\"160\" width=\"488\" height=\"284\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"210\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Data precision</text><text x=\"602\" y=\"265\" fill=\"#fff\" font-size=\"24\">Justification for the need to</text><text x=\"602\" y=\"301\" fill=\"#fff\" font-size=\"24\">collect the data.</text><rect x=\"50\" y=\"468\" width=\"488\" height=\"284\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"518\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Hot spot</text><text x=\"90\" y=\"573\" fill=\"#fff\" font-size=\"24\">Help message when the cursor</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">sits on a data field.</text><rect x=\"562\" y=\"468\" width=\"488\" height=\"284\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"518\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Network model</text><text x=\"602\" y=\"573\" fill=\"#fff\" font-size=\"24\">Pointers; nodes are owners and</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">members.</text><rect x=\"50\" y=\"776\" width=\"488\" height=\"284\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"826\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Template entry</text><text x=\"90\" y=\"881\" fill=\"#fff\" font-size=\"24\">A cross between free text and</text><text x=\"90\" y=\"917\" fill=\"#fff\" font-size=\"24\">structured entry.</text><rect x=\"562\" y=\"776\" width=\"488\" height=\"284\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"826\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Mask</text><text x=\"602\" y=\"881\" fill=\"#fff\" font-size=\"24\">Shows (###) ###-#### without</text><text x=\"602\" y=\"917\" fill=\"#fff\" font-size=\"24\">saving the dashes.</text></svg>",
+        "caption": "Six of the book-specific definitions"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 1: Information Systems & Networks",
+      "content": "**Information system (IS)** — an automated system that uses computer hardware and software to record, manipulate, store, recover, and disseminate data. Its purpose in healthcare: supporting patient care, administration, billing/reimbursement, and decision-making.\n\n**Data vs. information**\n• **Data** — dates, numbers, images, symbols, letters, and words representing basic facts and observations.\n• **Information** — data that has been turned into something meaningful.\n\n**Hardware / software** — the physical components / the programs that run on them. **Information technology (IT)** — the field that includes hardware, software, and databases.\n\n**Mainframe** — a large IS able to process data quickly. **Dumb terminal** — all processing is performed at the server or mainframe. **Personal computer** — its own CPU, memory, and storage for a single individual. **LAN** — shares data in a small area such as one healthcare organization.\n\n**Internet vs. intranet vs. extranet**\n• **Internet** — lets users access and share information around the world.\n• **Intranet** — data available only to people within the organization.\n• **Extranet** — lets users from outside the organization (payers, vendors, patients via portals) access information.\n\n**Firewall** — controls data entering and leaving the network; the first line of defense for PHI. **Cloud computing** — computational services (analytics, storage, application sharing) delivered by a vendor over the public internet and leased by the customer. **Protocol** — a set of communication rules.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Who Can Get In?</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Internet vs. intranet vs. extranet</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Internet</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">Public, worldwide. Example:</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">the hospital's public website.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Intranet</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">Inside the organization only.</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">Example: the policy portal.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Extranet</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Authorized outside users.</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">Example: a payer checking</text><text x=\"90\" y=\"799\" fill=\"#fff\" font-size=\"24\">claim status, or a patient</text><text x=\"90\" y=\"835\" fill=\"#fff\" font-size=\"24\">portal.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Firewall</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">Controls data entering and</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">leaving the network. First</text><text x=\"602\" y=\"799\" fill=\"#fff\" font-size=\"24\">line of defense for PHI.</text></svg>",
+        "caption": "Network access levels from Chapter 1"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 1: Point of Care, EHR & HIE",
+      "content": "**Point of care (POC)** — the place where the physician administers services to the patient, such as the bedside.\n\n**COW / WOW** — a computer on wheels (or wireless on wheels) is a wireless computer mounted on a mobile cart and moved from patient to patient at the point of care.\n\n**Barcode** — makes indexing more efficient because it can enter metadata automatically; on wristbands and medications it helps prevent medication errors.\n\n**Patient safety** — a discipline emphasizing safety through prevention, reduction, reporting, and analysis of medical error.\n\n**Electronic health record (EHR)** — an electronic record of health-related information on an individual that conforms to nationally recognized **interoperability** standards and can be created, managed, and consulted by authorized clinicians and staff across **more than one** healthcare organization. Contrast the **EMR**, which is used within one healthcare entity only.\n\n**Health information exchange (HIE)** — the exchange of health information electronically between providers and others with the same level of interoperability.\n\n**Financial applications** — software handling patient accounts, budgets, and other financial activities.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">EHR vs. EMR</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">The interoperability difference</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">EHR</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">Conforms to national</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">interoperability standards.</text><text x=\"90\" y=\"475\" fill=\"#fff\" font-size=\"24\">Used across more than one</text><text x=\"90\" y=\"511\" fill=\"#fff\" font-size=\"24\">organization.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">EMR</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">Electronic record used within</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">one healthcare entity only.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">COW / WOW</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Wireless computer on a mobile</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">cart, moved patient to</text><text x=\"90\" y=\"799\" fill=\"#fff\" font-size=\"24\">patient.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Barcode</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">Enters metadata automatically.</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">On wristbands and meds it</text><text x=\"602\" y=\"799\" fill=\"#fff\" font-size=\"24\">prevents errors.</text></svg>",
+        "caption": "Point-of-care technology and the EHR"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 1: Informatics, Evidence & Analytics",
+      "content": "**Health informatics** — a scientific discipline concerned with the cognitive, information-processing, and communication tasks of healthcare practice, education, and research, including the information science and technology to support these tasks.\n\n**Evidence-based medicine** — healthcare services based on clinical methods thoroughly tested through controlled, peer-reviewed biomedical studies.\n\n**Clinical pathways vs. clinical practice guidelines**\n• **Clinical pathway** — a tool designed to coordinate multidisciplinary care planning for specific diagnoses and treatments.\n• **Clinical practice guideline** — detailed step-by-step guide for knowledge-based care decisions, issued by an authoritative organization such as a medical society.\n\n**Data analytics** — the science of examining raw data to draw conclusions. **Data mining** — extracting and analyzing large volumes of data to identify hidden relationships.\n\n**Descriptive statistics** — techniques that describe data: means, frequency distributions, standard deviations. **Inferential statistics** — generalizations about a population based on a sample.\n\n**Predictive modeling** — identifying patterns that can be used to predict the odds of a particular outcome from observed data (e.g., readmission risk).\n\n**Dashboard** — a collection of key performance indicators (KPIs) focused on specific aspects or departments; can be interactive with drill-down.\n\n**CHDA (Certified Health Data Analyst)** — advanced AHIMA certification covering data management, analytics, and reporting.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Pathway vs. Guideline</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Two Chapter 1 terms students mix up</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Clinical pathway</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">Coordinates multidisciplinary</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">care planning for specific</text><text x=\"90\" y=\"475\" fill=\"#fff\" font-size=\"24\">diagnoses and treatments.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Practice guideline</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">Step-by-step guide issued by</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">an authoritative organization,</text><text x=\"602\" y=\"475\" fill=\"#fff\" font-size=\"24\">like a medical society.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Evidence-based</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Methods tested through</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">controlled, peer-reviewed</text><text x=\"90\" y=\"799\" fill=\"#fff\" font-size=\"24\">biomedical studies.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Dashboard</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">A collection of KPIs for a</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">department or area, often with</text><text x=\"602\" y=\"799\" fill=\"#fff\" font-size=\"24\">drill-down.</text></svg>",
+        "caption": "Clinical decision terms from Chapter 1"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A health plan logs in to a hospital's system from outside the organization to check claim status. Which type of network is this?",
+      "options": [
+        {
+          "text": "Internet",
+          "correct": false
+        },
+        {
+          "text": "Intranet",
+          "correct": false
+        },
+        {
+          "text": "Extranet",
+          "correct": true
+        },
+        {
+          "text": "Local area network (LAN)",
+          "correct": false
+        }
+      ],
+      "explanation": "**Extranet.** An extranet allows users from **outside** the organization (payers, vendors, patients via portals) to access information. An **intranet** is available only to people **within** the organization, and the **Internet** is the public worldwide network.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Network types</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">Who is logging in, and from where? Inside only, outside authorized</text><text x=\"90\" y=\"601\" fill=\"#fff\" font-size=\"24\">users, or the whole world?</text></svg>",
+        "caption": "Knowledge check: Network types"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Fill in the blank from the textbook's EHR definition: an EHR is an electronic record of health-related information that conforms to nationally recognized ______ standards.",
+      "options": [
+        {
+          "text": "Privacy",
+          "correct": false
+        },
+        {
+          "text": "Interoperability",
+          "correct": true
+        },
+        {
+          "text": "Accreditation",
+          "correct": false
+        },
+        {
+          "text": "Coding",
+          "correct": false
+        }
+      ],
+      "explanation": "**Interoperability.** The book defines the EHR as conforming to nationally recognized **interoperability** standards so it can be created, managed, and consulted by authorized clinicians and staff across **more than one** healthcare organization. This blank appears in the book's practice question.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">EHR definition</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">What lets a record be used across more than one organization?</text></svg>",
+        "caption": "Knowledge check: EHR definition"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 2: Data Sources & Capture Methods",
+      "content": "**Primary data source** — the health record, created during care.\n**Secondary data source** — data derived from primary sources: indices, registries, and other databases.\n\n**Exam tip:** the health record is **primary** even when viewed later; data become **secondary** once pulled into an index, registry, or database.\n\n**Data capture** — recording healthcare data in a health record system or clinical database. **Data collection** — gathering data that will be used in some way, such as an audit.\n\n**Capture methods**\n• **Direct data entry** — keyboard, mouse, or other devices, into structured or unstructured fields.\n• **Template-based entry** — a cross between free text and structured entry; the user picks frequently entered data, guiding the provider on what to document.\n• **Speech recognition** — translates speech to text, which must be edited. **Front-end (FESR):** the dictator edits. **Back-end (BESR):** the physician dictates traditionally and an editor listens and reviews.\n• **Document scanning.**\n• **Interfaces** — enable one information system to access another.\n\n**Natural language processing (NLP)** — converts human language (structured or unstructured) into data that information systems can manipulate.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Primary or Secondary?</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Where the data lives decides it</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Primary</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">The health record, created</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">during care. Still primary</text><text x=\"90\" y=\"475\" fill=\"#fff\" font-size=\"24\">when viewed later.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Secondary</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">Derived from the record:</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">indices, registries, other</text><text x=\"602\" y=\"475\" fill=\"#fff\" font-size=\"24\">databases.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Front-end SR</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Speech recognition where the</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">dictator edits the text.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Back-end SR</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">Physician dictates; an editor</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">listens and reviews afterward.</text></svg>",
+        "caption": "Data sources and speech recognition"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 2: Structured Fields & Data Types",
+      "content": "**Structured data** — machine-readable data in discrete fields with limits on what can be entered; captured through templates and controlled on-screen fields. **Unstructured data** — also called narrative data; entered in free-text format, usually by typing.\n\n**Field types**\n• **Radio button** — a limited number of options; the user chooses **one**.\n• **Drop-down box** — click the arrow and a menu appears with two or more choices; suits longer lists (e.g., state).\n• **Checkbox** — a comprehensive list of approved answers; **multiple** selections allowed.\n• **Numeric field** — numbers that can be added or subtracted.\n• **Date field / time field** — accept valid dates / record time.\n• **Autonumbering field** — the system assigns the next sequential number (e.g., MRN); prevents duplicates.\n• **Alphanumeric** — letters and numbers together (A12345).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Pick the Field Type</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">How many answers can the user choose?</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Radio buttons</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">One choice from a limited,</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">visible set. Example: sex,</text><text x=\"90\" y=\"475\" fill=\"#fff\" font-size=\"24\">yes/no.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Drop-down box</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">One choice from a hidden menu.</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">Best for long lists like</text><text x=\"602\" y=\"475\" fill=\"#fff\" font-size=\"24\">state.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Checkbox</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Multiple selections allowed.</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">Select all that apply.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Autonumbering</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">System assigns the next</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">sequential number, like the</text><text x=\"602\" y=\"799\" fill=\"#fff\" font-size=\"24\">MRN.</text></svg>",
+        "caption": "Structured data field types"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 2: Data Quality & the AHIMA Model",
+      "content": "**Data quality** — the reliability and effectiveness of data for their intended uses in operations, decision-making, and planning.\n**Data integrity** — the extent to which healthcare data are **complete, accurate, consistent, and timely**.\n**Data reliability** — consistent results each time the same thing is measured.\n\n**AHIMA data quality management model** — the steps necessary to ensure the integrity of data, with 10 characteristics applied across collection, application, warehousing, and analysis:\n• **Accessibility** — easily obtainable by authorized users.\n• **Accuracy** — free of identifiable errors.\n• **Comprehensiveness** — the record is complete; all required data are included.\n• **Consistency** — like data are the same on each document or screen.\n• **Currency** — data are up to date.\n• **Definition** — each element has a clear, agreed meaning and allowed values.\n• **Granularity** — the level of detail at which attributes and values are defined.\n• **Precision** — ensures there is **justification for the need to collect** the data (book-specific).\n• **Relevancy** — useful for the purposes for which collected.\n• **Timeliness** — recorded promptly after the event and available when needed.\n\n**Data dictionary** — a descriptive list of the names, definitions, and attributes of data elements; its purpose is to standardize definitions and ensure consistency. **Metadata** — descriptive data that characterize other data for clearer meaning and greater reliability.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Quality vs. Integrity</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Two definitions, two different exam answers</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Data quality</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">Reliability and effectiveness</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">of data for intended uses.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Data integrity</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">Complete, accurate,</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">consistent, and timely.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Data reliability</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Same result each time the same</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">thing is measured.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Data dictionary</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">Names, definitions,</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">attributes. Standardizes</text><text x=\"602\" y=\"799\" fill=\"#fff\" font-size=\"24\">definitions.</text></svg>",
+        "caption": "Core data quality definitions"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 2: Edit Checks, Mapping & Authorship",
+      "content": "**Edit check** — preprogrammed definitions of each data field that validate entry. Examples: a date field rejecting letters, an age range check flagging 250, required fields blocking save, sex/procedure logic warnings, numeric-only fields.\n\n**Data cleansing / scrubbing** — checking internal consistency and duplication, finding outliers and missing data, and correcting issues.\n\n**Data mapping** — allows for connections between two systems. A **forward map** translates ICD-9 (source) to ICD-10 (target); a **backward map** goes ICD-10 to ICD-9.\n\n**Version control** — ensures only the most current version of a patient's record is available for viewing and updating; earlier versions are retained and flagged.\n\n**Authorship** — the origination of recorded information, attributed to a specific individual or entity acting at a particular time. Enforced with unique logins and electronic signatures.\n\n**Copy and paste** — reuse of documentation; risks outdated information and false authorship.\n**Amendments** — post-hoc corrections; the original stays viewable and the amendment is marked, dated, and signed.\n\n**Quantitative analysis** — review to determine the **amount** of documentation present. **Qualitative analysis** — review to determine the **quality** of the documentation.\n\n**Data quality measure** — assigns a quantitative figure to quality of care versus a criterion. **Physician advisor (PA)** — liaison between HIM and the patient's physician. **Peer review** — critique of a professional's work by similar professionals. **Hot spot** — a help message triggered when the cursor is placed on a data field.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Forward vs. Backward Map</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Data mapping connects two systems</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Forward map</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">Older to newer: ICD-9 (source)</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">to ICD-10 (target).</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Backward map</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">Newer to older: ICD-10 back to</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">ICD-9.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Quantitative</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Reviews the AMOUNT of</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">documentation present.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Qualitative</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">Reviews the QUALITY of the</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">documentation.</text></svg>",
+        "caption": "Mapping and record analysis"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "According to the textbook, what does data precision ensure?",
+      "options": [
+        {
+          "text": "Values fall within an expected range",
+          "correct": false
+        },
+        {
+          "text": "There is justification for the need to collect the data",
+          "correct": true
+        },
+        {
+          "text": "Data are recorded promptly after the event",
+          "correct": false
+        },
+        {
+          "text": "Like data are the same on each screen",
+          "correct": false
+        }
+      ],
+      "explanation": "**Justification for the need to collect the data.** This is the book-specific definition and differs from generic wording about expected ranges. The other options describe **timeliness** (recorded promptly) and **consistency** (same on each screen).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Data precision</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">Remember the book-specific version, not the generic dictionary</text><text x=\"90\" y=\"601\" fill=\"#fff\" font-size=\"24\">meaning.</text></svg>",
+        "caption": "Knowledge check: Data precision"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A form asks the user to select every chronic condition that applies from an approved list. Which field type fits best?",
+      "options": [
+        {
+          "text": "Radio buttons",
+          "correct": false
+        },
+        {
+          "text": "Drop-down box",
+          "correct": false
+        },
+        {
+          "text": "Checkbox",
+          "correct": true
+        },
+        {
+          "text": "Autonumbering field",
+          "correct": false
+        }
+      ],
+      "explanation": "**Checkbox.** A checkbox offers a comprehensive list of approved answers and allows **multiple** selections. Radio buttons and drop-down boxes each allow only **one** choice, and an autonumbering field is assigned by the system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Field types</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">How many answers does the user need to pick?</text></svg>",
+        "caption": "Knowledge check: Field types"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A crosswalk translates ICD-9 codes (source) into ICD-10 codes (target). What is this called?",
+      "options": [
+        {
+          "text": "Backward map",
+          "correct": false
+        },
+        {
+          "text": "Forward map",
+          "correct": true
+        },
+        {
+          "text": "Edit check",
+          "correct": false
+        },
+        {
+          "text": "Version control",
+          "correct": false
+        }
+      ],
+      "explanation": "**Forward map.** Data mapping allows for connections between two systems. Going from the older ICD-9 source to the newer ICD-10 target is a **forward** map; ICD-10 to ICD-9 is a **backward** map.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Data mapping</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">Which direction: older code set to newer, or newer to older?</text></svg>",
+        "caption": "Knowledge check: Data mapping"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 3: Databases, Queries & SQL",
+      "content": "**Database** — an organized collection of data, text, references, or pictures in a standardized format.\n• **Table** — all data related to a particular subject (e.g., patient), made of records and fields.\n• **Data field** — predefined area where the same type of information is recorded (date of birth).\n• **Record** — each row in the table. **File** — a collection of digital data stored in the database.\n\n**DBMS** — manipulates and controls the data stored in the database (create, read, write, delete). **Database administrator (DBA)** — responsible for the technical aspects of designing and managing the database.\n\n**Query** — selecting records that meet specific criteria.\n• **SQL** — the standard relational language: **DDL** defines data (creates tables), **DML** manipulates data (retrieve, update, edit), **DCL** controls access.\n• **Boolean search** — \"and,\" \"or,\" \"not\" to narrow data to exactly what's needed.\n• **Natural language query** — common words tell the database which data are needed.\n• **Query by example (QBE)** — point and click on tables and fields to build the query.\n• **Wildcard search** — matches partial information (Smi*).\n\n**Mask** — displays data in a user-friendly manner without saving dashes or slashes.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Ways to Ask a Database</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Query types from Chapter 3</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">SQL</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">DDL defines data, DML</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">manipulates data, DCL controls</text><text x=\"90\" y=\"475\" fill=\"#fff\" font-size=\"24\">access.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Boolean</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">AND, OR, NOT narrow results to</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">exactly what is needed.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Query by example</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Point and click on tables and</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">fields to build the query.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Wildcard</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">Matches partial information,</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">such as Smi*.</text></svg>",
+        "caption": "Query methods"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 3: Data Models & Database Models",
+      "content": "**Data modeling** — designing the database the organization needs, based on the strategic plan; identifies data elements and relationships.\n\n**Three levels of data model**\n• **Conceptual** — not tied to any particular database model; defines requirements; basis for the logical and physical models.\n• **Logical** — complete representation of data requirements and structural business rules.\n• **Physical** — how data are physically stored in the database; users aren't involved at this level because of its technical complexity.\n\n**Entity-relationship diagram (ERD)** — focuses on relationships between entities (a fact about an entity is an **attribute**). **Data flow diagram (DFD)** — shows how data moves (input, storage, output); for nontechnical audiences.\n\n**Database models**\n• **Hierarchical** — like an organizational chart; parent and child; one parent per child.\n• **Network** — uses **pointers**; nodes are **owners and members**; supports multiple parentage.\n• **Relational** — related tables linked by keys; the dominant model.\n• **Object-oriented** — handles text, images, audio, video, and other objects.\n• **Multidimensional** — used in data warehouses; data from multiple sources, summarized.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Database Models</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Structure and the term the book uses</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Hierarchical</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">Org-chart tree. Parent and</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">child; one parent per child.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Network</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">Pointers. Owners and members;</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">multiple parents.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Relational</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Tables linked by primary and</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">foreign keys.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Object-oriented</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">Stores objects: text, images,</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">audio, video.</text></svg>",
+        "caption": "Comparison of database models"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 3: Keys, Normalization & Data Stores",
+      "content": "**Key field / primary key** — a unique identifier ensuring each entry in the table is different (e.g., MRN). **Foreign key** — a primary key from another table.\n\n**Normalization** — breaking data elements into the level of detail needed, making the database more flexible by eliminating redundancy and inconsistent dependency.\n\n**Where data are stored**\n• **Data repository** — open-structure, vendor-neutral database where data from multiple systems give an integrated view in a single source. A **clinical data repository (CDR)** is a centralized data repository.\n• **Data warehouse** — enterprise-level relational database; a single source of data collected from multiple databases.\n• **Data mart** — a subset of the warehouse for a single purpose or specialized use.\n\n**OLAP** — a data access architecture of facts and dimensions for retrieving aggregated information from large volumes of data. **Aggregate data** — data extracted from individual records and combined into group information for comparison and analysis.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Repository, Warehouse, Mart</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Scope and purpose</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Repository (CDR)</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">Multi-system, open structure.</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">Integrated view for patient</text><text x=\"90\" y=\"475\" fill=\"#fff\" font-size=\"24\">care.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Data warehouse</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">Enterprise level, from</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">multiple databases. Single</text><text x=\"602\" y=\"475\" fill=\"#fff\" font-size=\"24\">source for analysis.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Data mart</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">Subset of the warehouse for a</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">single purpose or specialized</text><text x=\"90\" y=\"799\" fill=\"#fff\" font-size=\"24\">use.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Normalization</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">Eliminates redundancy and</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">inconsistent dependency.</text></svg>",
+        "caption": "Data stores compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 3: Data Mining & the Analytics Family",
+      "content": "**Data mining** — extracting and analyzing large volumes of data to identify hidden, sometimes subtle relationships that would otherwise go unnoticed.\n**Association rule learning** — a data-mining technique that finds relationships between variables: patients with X often also have Y.\n\n**Descriptive vs. inferential statistics**\n• **Descriptive** — describe the data at hand: means, frequency distributions, standard deviations.\n• **Inferential** — generalize about a population from a sample (e.g., estimating state rates from a sample).\n\n**Predictive modeling** — identifying patterns to predict the probability of a particular outcome from observed data (e.g., readmission risk).\n\n**The analytics family (an exam favorite)**\n• **Descriptive** — looks at the past to determine what has already occurred.\n• **Diagnostic** — determines **why** something happened.\n• **Predictive** — analyzes historical data to make predictions for the future.\n• **Prescriptive** — makes suggestions for the future (what to do).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">The Analytics Family</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Each type answers a different question</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Descriptive</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">What already occurred? Looks</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">at the past.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Diagnostic</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">Why did it happen?</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Predictive</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">What will happen? Historical</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">data to predictions.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Prescriptive</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">What should we do? Makes</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">suggestions for the future.</text></svg>",
+        "caption": "Four types of analytics"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 3: Data Standards & Design Tools",
+      "content": "**Data standards** — allow data to be shared in a uniform way; include content and exchange standards.\n• **Data content standards** — clear guidelines for acceptable values of specified data fields.\n• **Vocabulary standards** — standardized lists of clinical words and phrases with their meanings; they solve the many-ways-to-say-it problem.\n• **SNOMED CT** — the most comprehensive multilingual clinical healthcare terminology in the world.\n\n**SDO (standards development organization)** — a private or government agency developing healthcare informatics standards. **ANSI** is the US SDO and ISO representative; **NISO** advises using metadata to sustain interoperability.\n\n**Document standards**\n• **CDA** — HL7 standard for electronic exchange of clinical documents.\n• **CCR** — core data set of the most relevant administrative, demographic, and clinical information.\n• **CCD** — implementation guide for sharing CCR data.\n\n**Data stewardship** — formalized accountability across the data life cycle and enterprise. **Data set** — recommended data elements with uniform definitions for a particular use.\n\n**CASE** — tool that creates the diagrams and other tools used in the data model. **Use case** — describes how the user will interact with the system and what the system will do. **Java** — programming language designed for the internet.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Standards to Know</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Chapter 3 standards vocabulary</text><rect x=\"50\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"348\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">SNOMED CT</text><text x=\"90\" y=\"403\" fill=\"#fff\" font-size=\"24\">Most comprehensive</text><text x=\"90\" y=\"439\" fill=\"#fff\" font-size=\"24\">multilingual clinical</text><text x=\"90\" y=\"475\" fill=\"#fff\" font-size=\"24\">terminology in the world.</text><rect x=\"562\" y=\"298\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"348\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">ANSI</text><text x=\"602\" y=\"403\" fill=\"#fff\" font-size=\"24\">The US standards development</text><text x=\"602\" y=\"439\" fill=\"#fff\" font-size=\"24\">organization and ISO</text><text x=\"602\" y=\"475\" fill=\"#fff\" font-size=\"24\">representative.</text><rect x=\"50\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"672\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">CDA</text><text x=\"90\" y=\"727\" fill=\"#fff\" font-size=\"24\">HL7 standard for electronic</text><text x=\"90\" y=\"763\" fill=\"#fff\" font-size=\"24\">exchange of clinical</text><text x=\"90\" y=\"799\" fill=\"#fff\" font-size=\"24\">documents.</text><rect x=\"562\" y=\"622\" width=\"488\" height=\"300\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"672\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">CCR and CCD</text><text x=\"602\" y=\"727\" fill=\"#fff\" font-size=\"24\">CCR is the core data set; CCD</text><text x=\"602\" y=\"763\" fill=\"#fff\" font-size=\"24\">is the guide for sharing it.</text></svg>",
+        "caption": "Data standards from Chapter 3"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In the network database model, what are the nodes called?",
+      "options": [
+        {
+          "text": "Parent and child",
+          "correct": false
+        },
+        {
+          "text": "Owners and members",
+          "correct": true
+        },
+        {
+          "text": "Primary and foreign keys",
+          "correct": false
+        },
+        {
+          "text": "Facts and dimensions",
+          "correct": false
+        }
+      ],
+      "explanation": "**Owners and members.** The network model uses **pointers** to connect data, and its nodes are called owners and members; it supports multiple parentage. **Parent and child** is the hierarchical model, **keys** belong to the relational model, and **facts and dimensions** describe OLAP.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Network model</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">This model uses pointers. Parent/child is a different model.</text></svg>",
+        "caption": "Knowledge check: Network model"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The cancer registry pulls a subset of the enterprise data warehouse built for that single specialized purpose. What is this subset called?",
+      "options": [
+        {
+          "text": "Data repository",
+          "correct": false
+        },
+        {
+          "text": "Data mart",
+          "correct": true
+        },
+        {
+          "text": "Data dictionary",
+          "correct": false
+        },
+        {
+          "text": "Data set",
+          "correct": false
+        }
+      ],
+      "explanation": "**Data mart.** A data mart is a subset of the data warehouse designed for a single purpose or specialized use. A **data repository** is an open-structure, multi-system database; a **data dictionary** lists element names, definitions, and attributes; a **data set** is a list of recommended elements for a particular use.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Data stores</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">Is it the whole enterprise, or a slice built for one purpose?</text></svg>",
+        "caption": "Knowledge check: Data stores"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A quality team investigates why readmissions spiked last quarter. Which type of analytics is this?",
+      "options": [
+        {
+          "text": "Descriptive",
+          "correct": false
+        },
+        {
+          "text": "Diagnostic",
+          "correct": true
+        },
+        {
+          "text": "Predictive",
+          "correct": false
+        },
+        {
+          "text": "Prescriptive",
+          "correct": false
+        }
+      ],
+      "explanation": "**Diagnostic** analytics determines **why** something happened. Descriptive looks at what already occurred, predictive forecasts the future from historical data, and prescriptive makes suggestions for what to do.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Analytics family</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">The key word in the scenario is WHY.</text></svg>",
+        "caption": "Knowledge check: Analytics family"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A user hovers the cursor over a data field and a help message appears. What does the textbook call this?",
+      "options": [
+        {
+          "text": "Mask",
+          "correct": false
+        },
+        {
+          "text": "Edit check",
+          "correct": false
+        },
+        {
+          "text": "Hot spot",
+          "correct": true
+        },
+        {
+          "text": "Wildcard",
+          "correct": false
+        }
+      ],
+      "explanation": "**Hot spot.** The book defines a hot spot as a type of help message triggered when the cursor is placed on top of a data field. A **mask** formats displayed data, an **edit check** validates entry, and a **wildcard** matches partial information in a query.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Hot spot</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">Book-specific definition: a help message tied to cursor position.</text></svg>",
+        "caption": "Knowledge check: Hot spot"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A coder reviews a discharge summary in the health record two weeks after discharge. The same diagnosis is also listed in the hospital's disease index. Which statement is correct?",
+      "options": [
+        {
+          "text": "Both are primary data sources",
+          "correct": false
+        },
+        {
+          "text": "The health record is primary; the disease index is secondary",
+          "correct": true
+        },
+        {
+          "text": "The health record became secondary once it was viewed later",
+          "correct": false
+        },
+        {
+          "text": "Both are secondary data sources",
+          "correct": false
+        }
+      ],
+      "explanation": "**The health record is primary; the index is secondary.** The health record stays a **primary** source even when viewed later. Data become **secondary** once they are pulled into an index, registry, or other database.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Data sources</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">Does viewing a record later change whether it is primary?</text></svg>",
+        "caption": "Knowledge check: Data sources"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A provider documents using a screen of frequently entered phrases to pick from, plus space to add free text. What is this data entry method?",
+      "options": [
+        {
+          "text": "Unstructured data entry",
+          "correct": false
+        },
+        {
+          "text": "Template-based data entry",
+          "correct": true
+        },
+        {
+          "text": "Natural language processing",
+          "correct": false
+        },
+        {
+          "text": "Back-end speech recognition",
+          "correct": false
+        }
+      ],
+      "explanation": "**Template-based data entry** is a **cross between free text and structured** data entry: the user picks and chooses frequently entered data, which guides the provider on what to document.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 1</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Data capture</text><text x=\"90\" y=\"565\" fill=\"#fff\" font-size=\"24\">Part picklist, part free text: the book calls it a cross between the</text><text x=\"90\" y=\"601\" fill=\"#fff\" font-size=\"24\">two.</text></svg>",
+        "caption": "Knowledge check: Data capture"
+      }
+    },
+    {
+      "type": "application",
+      "title": "Exam 1 Game Plan",
+      "content": "**Before the exam:**\n1. **Memorize the book-specific definitions** first (integrity, precision, hot spot, network model, template entry, EBM, PA, mask). These are where generic study sites lead you wrong.\n2. **Work the compare tables:** internet/intranet/extranet, radio/drop-down/checkbox, the five database models, repository/warehouse/mart, the four analytics types, and descriptive vs. inferential statistics.\n3. **Do each chapter's Check Your Understanding questions** in the textbook.\n4. **Do the CoachMe practice questions** in VitalSource.\n5. **Retake this lesson's quizzes** until every answer feels automatic.\n\n**During the exam:** when two answers look right, pick the one that matches the textbook's wording. Watch for scenario clues: *outside users* means extranet; *why* means diagnostic; *subset for one purpose* means data mart.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">YOUR PRACTICE</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Five steps before Exam 1</text><rect x=\"50\" y=\"162\" width=\"1000\" height=\"160\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"212\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">1. Book definitions</text><text x=\"90\" y=\"267\" fill=\"#fff\" font-size=\"24\">Integrity, precision, hot spot, network model, template entry, mask.</text><rect x=\"50\" y=\"346\" width=\"1000\" height=\"160\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"90\" y=\"396\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">2. Compare tables</text><text x=\"90\" y=\"451\" fill=\"#fff\" font-size=\"24\">Networks, field types, database models, data stores, analytics.</text><rect x=\"50\" y=\"530\" width=\"1000\" height=\"160\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"580\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">3. Check Your Understanding</text><text x=\"90\" y=\"635\" fill=\"#fff\" font-size=\"24\">Each chapter's end-of-section questions in the textbook.</text><rect x=\"50\" y=\"714\" width=\"1000\" height=\"160\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"90\" y=\"764\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">4. CoachMe in VitalSource</text><text x=\"90\" y=\"819\" fill=\"#fff\" font-size=\"24\">Practice questions in the ebook platform.</text><rect x=\"50\" y=\"898\" width=\"1000\" height=\"160\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"948\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">5. Retake these quizzes</text><text x=\"90\" y=\"1003\" fill=\"#fff\" font-size=\"24\">Repeat until every answer is automatic.</text></svg>",
+        "caption": "Exam 1 study steps"
+      }
+    }
+  ]
+},
             {
               "id": "hitt-1211-l1",
               "title": "Evolution of Health Information Systems",
