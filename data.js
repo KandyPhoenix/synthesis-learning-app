@@ -2934,6 +2934,7 @@ function integrateExternalCategories() {
       { global: 'HITT_2239_BOOK', categoryId: 'him' },
       { global: 'HITT_2149_BOOK', categoryId: 'him' },
       { global: 'AHIMA_DOMAINS_BOOK', categoryId: 'him' },
+      { global: 'ICD10CM_GUIDELINES_BOOK', categoryId: 'him' },
       { global: 'ANATOMY_PHYSIOLOGY_MASTERY_BOOK', categoryId: 'anatomy-physiology' },
       { global: 'CARDIOVASCULAR_DEEP_DIVE_BOOK', categoryId: 'anatomy-physiology' },
       { global: 'NEUROSCIENCE_AP_BOOK', categoryId: 'anatomy-physiology' },
