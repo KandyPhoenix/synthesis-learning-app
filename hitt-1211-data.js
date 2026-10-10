@@ -13,7 +13,7 @@ window.HITT_1211_BOOK = {
 {
   "id": "hitt-1211-exam1",
   "title": "Exam 1 Study Guide: Chapters 1–3",
-  "duration": "25 min",
+  "duration": 25,
   "completed": false,
   "cards": [
     {
