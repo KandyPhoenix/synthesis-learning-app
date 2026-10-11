@@ -12,6 +12,7 @@ The file name and book id never change, so saved progress survives yearly update
 | `specs/NN.json` | Each lesson's teaching cards (plain-English breakdowns, examples, quizzes) plus `{"type":"official","ref":...}` placeholders. |
 | `build.py` | Turns specs + official text into the book module and validates it. |
 | `changes.md` | The verified list of what changed versus the previous version. Lessons may only teach these as "what's new". |
+| `print_pages.py` | Renders the official PDF into `icd10cm-print/` (page images + a copy of the PDF) and records which sections start on each page (`print_pages.json`). `build.py` turns that into lesson 40, the print appendix. |
 | `watch.py` | Checks cms.gov for a newer PDF and updates everything that can be updated automatically. |
 | `AGENT_GUIDE.md` | Rules for writing or revising lesson specs (accuracy rules, card formats, visual limits). |
 
@@ -33,9 +34,10 @@ It looks at every ICD-10-CM guideline PDF linked from https://www.cms.gov/medica
 "FY YYYY -- UPDATED <date>" line on page 1, and picks the newest. If that is newer than `source.json`, it:
 
 1. re-parses the new PDF into `chunks.json` (verbatim official text),
-2. writes `changes.md` from a section-by-section comparison with the old text,
-3. rebuilds the book if the section list still matches `plan.json`,
-4. opens a draft pull request and an issue containing the change report and the list of lessons to review.
+2. re-renders the print appendix pages (`print_pages.py`),
+3. writes `changes.md` from a section-by-section comparison with the old text,
+4. rebuilds the book if the section list still matches `plan.json`,
+5. opens a draft pull request and an issue containing the change report and the list of lessons to review.
 
 It does **not** merge anything and it does **not** rewrite explanations or quizzes.
 

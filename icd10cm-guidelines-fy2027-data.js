@@ -6,13 +6,13 @@ window.ICD10CM_GUIDELINES_BOOK = {
  "id": "icd10cm-guidelines-fy2027",
  "title": "ICD-10-CM Official Guidelines for Coding and Reporting (FY 2027)",
  "author": "CMS & NCHS · approved by the Cooperating Parties (AHA, AHIMA, CMS, NCHS)",
- "description": "The complete FY 2027 ICD-10-CM Official Guidelines for Coding and Reporting (effective October 1, 2026 – September 30, 2027), word for word, broken into 39 lessons. Every section — conventions, general guidelines, all 22 chapter-specific guidelines, Sections II–IV and Appendix I (POA) — is shown as official text, then explained in plain English, with examples and quizzes after every topic and a capstone exam.",
- "lessons": 39,
- "duration": 1292,
+ "description": "The complete FY 2027 ICD-10-CM Official Guidelines for Coding and Reporting (effective October 1, 2026 – September 30, 2027), word for word, broken into 40 lessons. Every section — conventions, general guidelines, all 22 chapter-specific guidelines, Sections II–IV and Appendix I (POA) — is shown as official text, then explained in plain English, with examples and quizzes after every topic and a capstone exam. An appendix shows every page of the official PDF exactly as printed.",
+ "lessons": 40,
+ "duration": 1322,
  "progress": 0,
  "category": "him",
  "featured": true,
- "cards": 1440,
+ "cards": 1566,
  "lessonList": [
   {
    "id": "icd10-1",
@@ -24424,6 +24424,1328 @@ window.ICD10CM_GUIDELINES_BOOK = {
       "type": "diagram",
       "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\" font-family=\"Arial,sans-serif\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#cbd5e1\" font-size=\"22\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\">ICD-10-CM Official Guidelines FY 2027</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\" font-family=\"Arial,sans-serif\">Previous conditions and history</text><text x=\"90\" y=\"565\" fill=\"#ffffff\" font-size=\"24\" font-family=\"Arial,sans-serif\">Which item affects this stay?</text></svg>",
       "caption": "Knowledge check: Previous conditions and history"
+     }
+    }
+   ]
+  },
+  {
+   "id": "icd10-40",
+   "title": "Appendix: The Official Guidelines as Printed (FY 2027)",
+   "duration": 30,
+   "completed": false,
+   "cards": [
+    {
+     "type": "intro",
+     "title": "Appendix: The Official Guidelines as Printed (FY 2027)",
+     "content": "This appendix shows the **FY 2027 ICD-10-CM Official Guidelines for Coding and Reporting** exactly as CMS and NCHS print them — all 121 pages, in order, one page per card.\n\nUse it to get comfortable with how the guidelines look on paper and in the official PDF: the numbering, the indents, the page footers, and the way changes are marked.\n\n• **Tap a page** to open it full size (zoom in on a phone).\n• **Tap the button below** to open the complete PDF, where you can search and print.\n\nEvery page here is the official document itself — nothing has been retyped or reworded.",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"300\" fill=\"#ffd700\" font-size=\"44\" text-anchor=\"middle\" font-weight=\"bold\" font-family=\"Arial,sans-serif\">THE GUIDELINES IN PRINT</text><text x=\"550\" y=\"370\" fill=\"#cbd5e1\" font-size=\"26\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\">FY 2027 · 121 pages · CMS &amp; NCHS</text><a href=\"icd10cm-print/guidelines.pdf\" target=\"_blank\"><rect x=\"250\" y=\"480\" width=\"600\" height=\"130\" rx=\"65\" fill=\"#6366f1\"/><text x=\"550\" y=\"562\" fill=\"#ffffff\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\" font-family=\"Arial,sans-serif\">Open the full PDF</text></a><text x=\"550\" y=\"720\" fill=\"#cbd5e1\" font-size=\"24\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\">Opens in a new tab. Zoom in, search, or print.</text></svg>",
+      "caption": "Open the complete official PDF"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "How to Read the Printed Guidelines",
+     "content": "**How the printed guidelines mark changes** (from page 1 of the document):\n\n• Narrative changes appear in bold text\n• Items underlined have been moved within the guidelines since the April 2026, FY 2026 version\n• Italics are used to indicate revisions to heading changes\n\n**How the numbering nests** — each level is indented further on the page:\n\n• **Section I.** → **A.** (letter) → **1.** (number) → **a.** (lowercase letter) → **1)** → **(a)** → **(i)**\n• A citation such as **Section I.C.1.d** means Section I, part C, item 1 (Chapter 1), sub-item d (Sepsis).\n\n**Every page ends with a footer** naming the document, the fiscal year (FY 2027) and the page number (\"Page X of 121\"). Pages 2–6 are the table of contents; the guidelines themselves start on page 7.",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p001.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p001.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "Page 1: title, effective dates and how changes are marked"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 1 of 121",
+     "content": "**Title page and introduction.** Shows the fiscal year, the effective dates, how changes are marked, and the introduction explaining who writes the guidelines and how they are organized.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p001.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p001.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 1 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 2 of 121",
+     "content": "**Table of contents.** Lists every section with its starting page.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p002.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p002.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 2 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 3 of 121",
+     "content": "**Table of contents.** Lists every section with its starting page.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p003.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p003.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 3 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 4 of 121",
+     "content": "**Table of contents.** Lists every section with its starting page.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p004.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p004.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 4 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 5 of 121",
+     "content": "**Table of contents.** Lists every section with its starting page.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p005.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p005.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 5 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 6 of 121",
+     "content": "**Table of contents.** Lists every section with its starting page.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p006.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p006.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 6 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 7 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I — Conventions, general coding guidelines and chapter specific guidelines\n• Section I.A — Conventions for the ICD-10-CM\n• Section I.A.1 — The Alphabetic Index and Tabular List\n• Section I.A.2 — Format and Structure\n• Section I.A.3 — Use of codes for reporting purposes\n• Section I.A.4 — Placeholder character\n• Section I.A.5 — 7th Characters\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p007.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p007.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 7 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 8 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.A.6 — Abbreviations\n• Section I.A.6.a — Alphabetic Index abbreviations\n• Section I.A.6.b — Tabular List abbreviations\n• Section I.A.7 — Punctuation\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p008.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p008.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 8 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 9 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.A.8 — Use of “and”.\n• Section I.A.9 — Other and Unspecified codes\n• Section I.A.9.a — “Other” codes\n• Section I.A.9.b — “Unspecified” codes\n• Section I.A.10 — Includes Notes\n• Section I.A.11 — Inclusion terms\n• Section I.A.12 — Excludes Notes\n• Section I.A.12.a — Excludes1\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p009.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p009.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 9 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 10 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.A.12.b — Excludes2\n• Section I.A.13 — Etiology/manifestation convention (“code first”, “use additional code” and “in diseases classified elsewhere” notes)\n• Section I.A.14 — “And”\n• Section I.A.15 — “With”\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p010.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p010.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 10 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 11 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.A.16 — “See” and “See Also”\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p011.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p011.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 11 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 12 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.A.17 — “Code also” note\n• Section I.A.18 — Default codes\n• Section I.A.19 — Code assignment and Clinical Criteria\n• Section I.B — General Coding Guidelines\n• Section I.B.1 — Locating a code in the ICD-10-CM\n• Section I.B.2 — Level of Detail in Coding\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p012.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p012.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 12 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 13 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.B.3 — Code or codes from A00.0 through T88.9, Z00-Z99.8, U00-U85\n• Section I.B.4 — Signs and symptoms\n• Section I.B.5 — Conditions that are an integral part of a disease process\n• Section I.B.6 — Conditions that are not an integral part of a disease process\n• Section I.B.7 — Multiple coding for a single condition\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p013.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p013.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 13 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 14 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.B.8 — Acute and Chronic Conditions\n• Section I.B.9 — Combination Code\n• Section I.B.10 — Sequela (Late Effects)\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p014.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p014.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 14 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 15 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.B.11 — Impending or Threatened Condition\n• Section I.B.12 — Reporting Same Diagnosis Code More than Once\n• Section I.B.13 — Laterality\n• Section I.B.14 — Documentation by Clinicians Other than the Patient's Provider\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p015.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p015.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 15 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 16 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.B.15 — Syndromes\n• Section I.B.16 — Documentation of Complications of Care\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p016.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p016.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 16 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 17 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.B.17 — Borderline Diagnosis\n• Section I.B.18 — Use of Sign/Symptom/Unspecified Codes\n• Section I.B.19 — Coding for Healthcare Encounters in Hurricane Aftermath\n• Section I.B.19.a — Use of External Cause of Morbidity Codes\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p017.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p017.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 17 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 18 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.B.19.b — Sequencing of External Causes of Morbidity Codes\n• Section I.B.19.c — Other External Causes of Morbidity Code Issues\n• Section I.B.19.d — Use of Z codes\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p018.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p018.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 18 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 19 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.B.20 — Multiple Sites Coding\n• Section I.C — Chapter-Specific Coding Guidelines\n• Section I.C.1 — Chapter 1: Certain Infectious and Parasitic Diseases (A00-B99), U07.1, U09.9\n• Section I.C.1.a — Human Immunodeficiency Virus (HIV) Infections\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p019.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p019.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 19 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 20 of 121",
+     "content": "**Continues** Section I.C.1.a — Human Immunodeficiency Virus (HIV) Infections.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p020.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p020.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 20 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 21 of 121",
+     "content": "**Continues** Section I.C.1.a — Human Immunodeficiency Virus (HIV) Infections.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p021.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p021.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 21 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 22 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.1.b — Infectious agents as the cause of diseases classified to other chapters\n• Section I.C.1.c — Infections resistant to antibiotics\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p022.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p022.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 22 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 23 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.1.d — Sepsis, Severe Sepsis, and Septic Shock\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p023.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p023.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 23 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 24 of 121",
+     "content": "**Continues** Section I.C.1.d — Sepsis, Severe Sepsis, and Septic Shock.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p024.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p024.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 24 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 25 of 121",
+     "content": "**Continues** Section I.C.1.d — Sepsis, Severe Sepsis, and Septic Shock.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p025.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p025.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 25 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 26 of 121",
+     "content": "**Continues** Section I.C.1.d — Sepsis, Severe Sepsis, and Septic Shock.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p026.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p026.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 26 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 27 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.1.e — Methicillin Resistant Staphylococcus aureus (MRSA) Conditions\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p027.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p027.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 27 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 28 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.1.f — Zika virus infections\n• Section I.C.1.g — Coronavirus infections\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p028.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p028.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 28 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 29 of 121",
+     "content": "**Continues** Section I.C.1.g — Coronavirus infections.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p029.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p029.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 29 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 30 of 121",
+     "content": "**Continues** Section I.C.1.g — Coronavirus infections.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p030.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p030.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 30 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 31 of 121",
+     "content": "**Continues** Section I.C.1.g — Coronavirus infections.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p031.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p031.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 31 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 32 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.2 — Chapter 2: Neoplasms (C00-D49)\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p032.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p032.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 32 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 33 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.2.a — Admission/Encounter for treatment of primary site\n• Section I.C.2.b — Admission/Encounter for treatment of secondary site\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p033.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p033.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 33 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 34 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.2.c — Coding and sequencing of complications\n• Section I.C.2.d — Primary malignancy previously excised\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p034.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p034.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 34 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 35 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.2.e — Admissions/Encounters involving antineoplastic chemotherapy, immunotherapy and radiation therapy\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p035.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p035.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 35 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 36 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.2.f — Admission/encounter to determine extent of malignancy\n• Section I.C.2.g — Symptoms, signs, and abnormal findings listed in Chapter 18 associated with neoplasms\n• Section I.C.2.h — Admission/encounter for pain control/management\n• Section I.C.2.i — Malignancy in two or more noncontiguous sites\n• Section I.C.2.j — Disseminated malignant neoplasm, unspecified\n• Section I.C.2.k — Malignant neoplasm without specification of site\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p036.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p036.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 36 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 37 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.2.l — Sequencing of neoplasm codes\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p037.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p037.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 37 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 38 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.2.m — Current malignancy versus personal history of malignancy\n• Section I.C.2.n — Leukemia, Multiple Myeloma, and Malignant Plasma Cell\n• Section I.C.2.o — Aftercare following surgery for neoplasm\n• Section I.C.2.p — Follow-up care for completed treatment of a malignancy\n• Section I.C.2.q — Prophylactic organ removal for prevention of malignancy\n• Section I.C.2.r — Malignant neoplasm associated with transplanted organ\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p038.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p038.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 38 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 39 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.2.s — Breast Implant Associated Anaplastic Large Cell Lymphoma\n• Section I.C.2.t — Secondary malignant neoplasm of lymphoid tissue\n• Section I.C.3 — Chapter 3: Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism (D50-D89)\n• Section I.C.4 — Chapter 4: Endocrine, Nutritional, and Metabolic Diseases (E00-E89)\n• Section I.C.4.a — Diabetes mellitus\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p039.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p039.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 39 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 40 of 121",
+     "content": "**Continues** Section I.C.4.a — Diabetes mellitus.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p040.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p040.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 40 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 41 of 121",
+     "content": "**Continues** Section I.C.4.a — Diabetes mellitus.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p041.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p041.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 41 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 42 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.4.b — Obesity\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p042.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p042.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 42 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 43 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.5 — Chapter 5: Mental, Behavioral and Neurodevelopmental disorders\n• Section I.C.5.a — Pain disorders related to psychological factors\n• Section I.C.5.b — Mental and behavioral disorders due to psychoactive substance use\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p043.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p043.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 43 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 44 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.5.c — Factitious Disorder\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p044.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p044.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 44 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 45 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.5.d — Dementia\n• Section I.C.6 — Chapter 6: Diseases of the Nervous System (G00-G99)\n• Section I.C.6.a — Dominant/nondominant side\n• Section I.C.6.b — Pain - Category G89\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p045.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p045.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 45 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 46 of 121",
+     "content": "**Continues** Section I.C.6.b — Pain - Category G89.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p046.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p046.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 46 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 47 of 121",
+     "content": "**Continues** Section I.C.6.b — Pain - Category G89.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p047.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p047.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 47 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 48 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.7 — Chapter 7: Diseases of the Eye and Adnexa (H00-H59)\n• Section I.C.7.a — Glaucoma\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p048.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p048.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 48 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 49 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.7.b — Blindness\n• Section I.C.8 — Chapter 8: Diseases of the Ear and Mastoid Process (H60-H95)\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p049.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p049.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 49 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 50 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.9 — Chapter 9: Diseases of the Circulatory System (I00-I99)\n• Section I.C.9.a — Hypertension\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p050.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p050.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 50 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 51 of 121",
+     "content": "**Continues** Section I.C.9.a — Hypertension.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p051.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p051.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 51 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 52 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.9.b — Atherosclerotic Coronary Artery Disease and Angina\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p052.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p052.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 52 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 53 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.9.c — Intraoperative and Postprocedural Cerebrovascular Accident\n• Section I.C.9.d — Sequelae of Cerebrovascular Disease\n• Section I.C.9.e — Acute myocardial infarction (AMI)\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p053.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p053.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 53 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 54 of 121",
+     "content": "**Continues** Section I.C.9.e — Acute myocardial infarction (AMI).\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p054.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p054.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 54 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 55 of 121",
+     "content": "**Continues** Section I.C.9.e — Acute myocardial infarction (AMI).\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p055.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p055.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 55 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 56 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.10 — Chapter 10: Diseases of the Respiratory System (J00-J99), U07.0\n• Section I.C.10.a — Chronic Obstructive Pulmonary Disease [COPD] and Asthma\n• Section I.C.10.b — Acute Respiratory Failure\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p056.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p056.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 56 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 57 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.10.c — Influenza due to certain identified influenza viruses\n• Section I.C.10.d — Ventilator associated Pneumonia\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p057.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p057.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 57 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 58 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.10.e — Vaping-related disorders\n• Section I.C.11 — Chapter 11: Diseases of the Digestive System (K00-K95)\n• Section I.C.12 — Chapter 12: Diseases of the Skin and Subcutaneous Tissue\n• Section I.C.12.a — Pressure ulcer stage codes\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p058.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p058.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 58 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 59 of 121",
+     "content": "**Continues** Section I.C.12.a — Pressure ulcer stage codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p059.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p059.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 59 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 60 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.12.b — Non-Pressure Chronic Ulcers\n• Section I.C.13 — Chapter 13: Diseases of the Musculoskeletal System and Connective\n• Section I.C.13.a — Site and laterality\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p060.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p060.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 60 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 61 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.13.b — Acute traumatic versus chronic or recurrent musculoskeletal conditions\n• Section I.C.13.c — Coding of Pathologic Fractures\n• Section I.C.13.d — Osteoporosis\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p061.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p061.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 61 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 62 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.13.e — Multisystem Inflammatory Syndrome\n• Section I.C.14 — Chapter 14: Diseases of Genitourinary System (N00-N99)\n• Section I.C.14.a — Chronic kidney disease\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p062.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p062.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 62 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 63 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.15 — Chapter 15: Pregnancy, Childbirth, and the Puerperium\n• Section I.C.15.a — General Rules for Obstetric Cases\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p063.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p063.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 63 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 64 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.15.b — Selection of OB Principal or First-listed Diagnosis\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p064.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p064.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 64 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 65 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.15.c — Pre-existing conditions versus conditions due to the pregnancy\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p065.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p065.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 65 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 66 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.15.d — Pre-existing hypertension in pregnancy\n• Section I.C.15.e — Fetal Conditions Affecting the Management of the Mother\n• Section I.C.15.f — HIV Infection in Pregnancy, Childbirth and the Puerperium\n• Section I.C.15.g — Diabetes mellitus in pregnancy\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p066.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p066.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 66 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 67 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.15.h — Long term use of insulin and oral hypoglycemics\n• Section I.C.15.i — Gestational (pregnancy induced) diabetes\n• Section I.C.15.j — Sepsis and septic shock complicating abortion, pregnancy, childbirth and the puerperium\n• Section I.C.15.k — Puerperal sepsis\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p067.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p067.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 67 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 68 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.15.l — Alcohol, tobacco and drug use during pregnancy, childbirth and the puerperium\n• Section I.C.15.m — Poisoning, toxic effects, adverse effects and underdosing in a pregnant patient\n• Section I.C.15.n — Normal Delivery, Code O80\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p068.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p068.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 68 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 69 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.15.o — The Peripartum and Postpartum Periods\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p069.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p069.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 69 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 70 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.15.p — Code O94, Sequelae of complication of pregnancy, childbirth, and the puerperium\n• Section I.C.15.q — Termination of Pregnancy and Spontaneous abortions\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p070.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p070.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 70 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 71 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.15.r — Abuse in a pregnant patient\n• Section I.C.15.s — COVID-19 infection in pregnancy, childbirth, and the puerperium\n• Section I.C.16 — Chapter 16: Certain Conditions Originating in the Perinatal Period\n• Section I.C.16.a — General Perinatal Rules\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p071.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p071.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 71 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 72 of 121",
+     "content": "**Continues** Section I.C.16.a — General Perinatal Rules.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p072.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p072.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 72 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 73 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.16.b — Observation and Evaluation of Newborns for Suspected\n• Section I.C.16.c — Coding Additional Perinatal Diagnoses\n• Section I.C.16.d — Prematurity and Fetal Growth Retardation\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p073.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p073.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 73 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 74 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.16.e — Low birth weight and immaturity status\n• Section I.C.16.f — Bacterial Sepsis of Newborn\n• Section I.C.16.g — Stillbirth\n• Section I.C.16.h — COVID-19 Infection in Newborn\n• Section I.C.17 — Chapter 17: Congenital malformations, deformations, chromosomal abnormalities, and genetic disorders (Q00-QA1)\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p074.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p074.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 74 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 75 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.18 — Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)\n• Section I.C.18.a — Use of symptom codes\n• Section I.C.18.b — Use of a symptom code with a definitive diagnosis code\n• Section I.C.18.c — Combination codes that include symptoms\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p075.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p075.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 75 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 76 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.18.d — Repeated falls\n• Section I.C.18.e — Coma\n• Section I.C.18.f — Functional quadriplegia\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p076.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p076.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 76 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 77 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.18.g — SIRS due to Non-Infectious Process\n• Section I.C.18.h — Death NOS\n• Section I.C.18.i — NIHSS Stroke Scale\n• Section I.C.19 — Chapter 19: Injury, poisoning, and certain other consequences of external causes (S00-T88)\n• Section I.C.19.a — Application of 7th Characters in Chapter 19\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p077.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p077.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 77 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 78 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.19.b — Coding of Injuries\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p078.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p078.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 78 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 79 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.19.c — Coding of Traumatic Fractures\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p079.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p079.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 79 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 80 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.19.d — Coding of Burns and Corrosions\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p080.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p080.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 80 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 81 of 121",
+     "content": "**Continues** Section I.C.19.d — Coding of Burns and Corrosions.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p081.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p081.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 81 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 82 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.19.e — Adverse Effects, Poisoning, Underdosing and Toxic Effects\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p082.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p082.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 82 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 83 of 121",
+     "content": "**Continues** Section I.C.19.e — Adverse Effects, Poisoning, Underdosing and Toxic Effects.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p083.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p083.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 83 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 84 of 121",
+     "content": "**Continues** Section I.C.19.e — Adverse Effects, Poisoning, Underdosing and Toxic Effects.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p084.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p084.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 84 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 85 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.19.f — Adult and child abuse, neglect and other maltreatment\n• Section I.C.19.g — Complications of care\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p085.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p085.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 85 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 86 of 121",
+     "content": "**Continues** Section I.C.19.g — Complications of care.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p086.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p086.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 86 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 87 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.20 — Chapter 20: External Causes of Morbidity (V00-Y99)\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p087.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p087.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 87 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 88 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.20.a — General External Cause Coding Guidelines\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p088.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p088.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 88 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 89 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.20.b — Place of Occurrence Guideline\n• Section I.C.20.c — Activity Code\n• Section I.C.20.d — Place of Occurrence, Activity, and Status Codes Used with other\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p089.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p089.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 89 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 90 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.20.e — If the Reporting Format Limits the Number of External Cause\n• Section I.C.20.f — Multiple External Cause Coding Guidelines\n• Section I.C.20.g — Child and Adult Abuse Guideline\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p090.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p090.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 90 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 91 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.20.h — Unknown or Undetermined Intent Guideline\n• Section I.C.20.i — Sequelae (Late Effects) of External Cause Guidelines\n• Section I.C.20.j — Terrorism Guidelines\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p091.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p091.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 91 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 92 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.20.k — External Cause Status\n• Section I.C.21 — Chapter 21: Factors influencing health status and contact with health services (Z00-Z99)\n• Section I.C.21.a — Use of Z Codes in Any Healthcare Setting\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p092.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p092.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 92 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 93 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.21.b — Z Codes Indicate a Reason for an Encounter or Provide\n• Section I.C.21.c — Categories of Z Codes\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p093.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p093.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 93 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 94 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p094.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p094.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 94 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 95 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p095.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p095.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 95 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 96 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p096.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p096.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 96 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 97 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p097.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p097.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 97 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 98 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p098.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p098.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 98 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 99 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p099.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p099.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 99 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 100 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p100.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p100.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 100 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 101 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p101.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p101.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 101 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 102 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p102.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p102.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 102 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 103 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p103.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p103.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 103 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 104 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p104.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p104.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 104 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 105 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p105.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p105.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 105 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 106 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p106.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p106.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 106 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 107 of 121",
+     "content": "**Continues** Section I.C.21.c — Categories of Z Codes.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p107.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p107.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 107 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 108 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section I.C.22 — Chapter 22: Codes for Special Purposes (U00-U85)\n• Section II — Selection of Principal Diagnosis\n• Section II.A — Codes for symptoms, signs, and ill-defined conditions\n• Section II.B — Two or more interrelated conditions, each potentially meeting the definition for principal diagnosis.\n• Section II.C — Two or more diagnoses that equally meet the definition for principal diagnosis\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p108.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p108.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 108 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 109 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section II.D — Two or more comparative or contrasting conditions\n• Section II.E — A symptom(s) followed by contrasting/comparative diagnoses\n• Section II.F — Original treatment plan not carried out\n• Section II.G — Complications of surgery and other medical care\n• Section II.H — Uncertain Diagnosis\n• Section II.I — Admission from Observation Unit\n• Section II.I.1 — Admission Following Medical Observation\n• Section II.I.2 — Admission Following Post-Operative Observation\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p109.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p109.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 109 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 110 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section II.J — Admission from Outpatient Surgery\n• Section II.K — Admissions/Encounters for Rehabilitation\n• Section III — Reporting Additional Diagnoses\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p110.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p110.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 110 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 111 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section III.A — Previous conditions\n• Section III.B — Abnormal findings\n• Section III.C — Uncertain Diagnosis\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p111.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p111.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 111 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 112 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section IV — Diagnostic Coding and Reporting Guidelines for\n• Section IV.A — Selection of first-listed condition\n• Section IV.A.1 — Outpatient Surgery\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p112.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p112.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 112 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 113 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section IV.A.2 — Observation Stay\n• Section IV.B — Codes from A00.0 through T88.9, Z00-Z99, U00-U85\n• Section IV.C — Accurate reporting of ICD-10-CM diagnosis codes\n• Section IV.D — Codes that describe symptoms and signs\n• Section IV.E — Encounters for circumstances other than a disease or injury\n• Section IV.F — Level of Detail in Coding\n• Section IV.F.1 — ICD-10-CM codes with 3, 4, 5, 6 or 7 characters\n• Section IV.F.2 — Use of full number of characters required for a code\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p113.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p113.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 113 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 114 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section IV.F.3 — Highest level of specificity\n• Section IV.G — ICD-10-CM code for the diagnosis, condition, problem, or other reason for encounter/visit\n• Section IV.H — Uncertain diagnosis\n• Section IV.I — Chronic diseases\n• Section IV.J — Code all documented conditions that coexist\n• Section IV.K — Patients receiving diagnostic services only\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p114.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p114.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 114 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 115 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Section IV.L — Patients receiving therapeutic services only\n• Section IV.M — Patients receiving preoperative evaluations only\n• Section IV.N — Ambulatory surgery\n• Section IV.O — Routine outpatient prenatal visits\n• Section IV.P — Encounters for general medical examinations with abnormal findings\n• Section IV.Q — Encounters for routine health screenings\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p115.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p115.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 115 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 116 of 121",
+     "content": "**Sections that begin on this page:**\n\n• Appendix I — Present on Admission Reporting Guidelines\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p116.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p116.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 116 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 117 of 121",
+     "content": "**Continues** Appendix I — Present on Admission Reporting Guidelines.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p117.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p117.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 117 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 118 of 121",
+     "content": "**Continues** Appendix I — Present on Admission Reporting Guidelines.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p118.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p118.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 118 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 119 of 121",
+     "content": "**Continues** Appendix I — Present on Admission Reporting Guidelines.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p119.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p119.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 119 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 120 of 121",
+     "content": "**Continues** Appendix I — Present on Admission Reporting Guidelines.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p120.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p120.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 120 of 121"
+     }
+    },
+    {
+     "type": "concept",
+     "title": "Printed Page 121 of 121",
+     "content": "**Continues** Appendix I — Present on Admission Reporting Guidelines.\n\n*Tap the page to open it full size.*",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1020 1320\" xmlns=\"http://www.w3.org/2000/svg\"><a href=\"icd10cm-print/p121.png\" target=\"_blank\"><rect x=\"0\" y=\"0\" width=\"1020\" height=\"1320\" fill=\"#ffffff\"/><image href=\"icd10cm-print/p121.png\" x=\"0\" y=\"0\" width=\"1020\" height=\"1320\"/></a></svg>",
+      "caption": "FY 2027 ICD-10-CM Official Guidelines, page 121 of 121"
+     }
+    },
+    {
+     "type": "quiz",
+     "question": "In the printed ICD-10-CM Official Guidelines, what does bold text in the body of a guideline indicate?",
+     "options": [
+      {
+       "text": "A narrative change in this version",
+       "correct": true
+      },
+      {
+       "text": "A rule that applies only to inpatient coding",
+       "correct": false
+      },
+      {
+       "text": "A section that was moved",
+       "correct": false
+      },
+      {
+       "text": "A heading that was revised",
+       "correct": false
+      }
+     ],
+     "explanation": "Page 1 states: \"Narrative changes appear in bold text.\" Moved items are underlined, and heading revisions are shown in italics. Nothing in the document uses bold to mean inpatient-only.",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\" font-family=\"Arial,sans-serif\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#cbd5e1\" font-size=\"22\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\">Reading the printed guidelines</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\" font-family=\"Arial,sans-serif\">Bold text</text><text x=\"90\" y=\"565\" fill=\"#ffffff\" font-size=\"24\" font-family=\"Arial,sans-serif\">Page 1 explains each kind of marking.</text></svg>",
+      "caption": "Knowledge check: Bold text"
+     }
+    },
+    {
+     "type": "quiz",
+     "question": "In the printed guidelines, what does underlining mean?",
+     "options": [
+      {
+       "text": "A narrative change",
+       "correct": false
+      },
+      {
+       "text": "A revision to a heading",
+       "correct": false
+      },
+      {
+       "text": "An item moved within the guidelines since the previous version",
+       "correct": true
+      },
+      {
+       "text": "A rule that is no longer in effect",
+       "correct": false
+      }
+     ],
+     "explanation": "Page 1 states: \"Items underlined have been moved within the guidelines since the April 2026, FY 2026 version.\" Narrative changes appear in bold, and \"Italics are used to indicate revisions to heading changes.\" The guidelines do not use underlining for rules that are no longer in effect.",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\" font-family=\"Arial,sans-serif\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#cbd5e1\" font-size=\"22\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\">Reading the printed guidelines</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\" font-family=\"Arial,sans-serif\">Underlining</text><text x=\"90\" y=\"565\" fill=\"#ffffff\" font-size=\"24\" font-family=\"Arial,sans-serif\">Compare bold, underline and italics on page 1.</text></svg>",
+      "caption": "Knowledge check: Underlining"
+     }
+    },
+    {
+     "type": "quiz",
+     "question": "A citation reads \"Section I.C.19.d.\" How is it read in the printed guidelines?",
+     "options": [
+      {
+       "text": "Section I, part C (chapter-specific guidelines), item 19 (Chapter 19), sub-item d",
+       "correct": true
+      },
+      {
+       "text": "Chapter 1, page 19, paragraph d",
+       "correct": false
+      },
+      {
+       "text": "Section 19 of Appendix I, item d",
+       "correct": false
+      },
+      {
+       "text": "Page 19, line d",
+       "correct": false
+      }
+     ],
+     "explanation": "The numbering nests Section → capital letter → number → lowercase letter. In Section I, part C holds the chapter-specific guidelines, and its numbered items match the chapters, so I.C.19.d is sub-item d of the Chapter 19 guidelines (Coding of Burns and Corrosions). Citations do not refer to page or line numbers.",
+     "visual": {
+      "type": "diagram",
+      "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\" font-family=\"Arial,sans-serif\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#cbd5e1\" font-size=\"22\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\">Reading the printed guidelines</text><rect x=\"50\" y=\"460\" width=\"1000\" height=\"300\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"510\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\" font-family=\"Arial,sans-serif\">Citations</text><text x=\"90\" y=\"565\" fill=\"#ffffff\" font-size=\"24\" font-family=\"Arial,sans-serif\">Section, then letter, then number, then lowercase letter.</text></svg>",
+      "caption": "Knowledge check: Citations"
      }
     }
    ]

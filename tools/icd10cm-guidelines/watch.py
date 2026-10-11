@@ -152,6 +152,11 @@ def main():
     src_new = {k: latest[k] for k in ('fy', 'updated', 'effective_from', 'effective_to', 'url', 'sha256', 'bytes')}
     json.dump(src_new, open(os.path.join(HERE, 'source.json'), 'w'), indent=1)
 
+    # Print appendix: page images + PDF copy for lesson 40.
+    with tempfile.TemporaryDirectory() as d:
+        pdfp = os.path.join(d, 'guidelines.pdf'); open(pdfp, 'wb').write(latest['_pdf'])
+        subprocess.run([sys.executable, os.path.join(HERE, 'print_pages.py'), pdfp], check=True)
+
     # 3) Which lessons does this touch?
     sys.path.insert(0, HERE)
     from units import load

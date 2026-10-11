@@ -127,6 +127,65 @@ def build_lesson(nn,spec):
     mins=max(10,round(words/170+nq*0.5))
     lesson={'id':f'icd10-{int(nn)}','title':spec.get('title') or plan[1],'duration':mins,'completed':False,'cards':out}
     return lesson,errs,warn
+def page_svg(n,total):
+    img=f'icd10cm-print/p{n:03d}.png'
+    return ('<svg viewBox="0 0 1020 1320" xmlns="http://www.w3.org/2000/svg">'
+            f'<a href="{img}" target="_blank"><rect x="0" y="0" width="1020" height="1320" fill="#ffffff"/>'
+            f'<image href="{img}" x="0" y="0" width="1020" height="1320"/></a></svg>')
+def link_svg(title,sub,button,href):
+    return ('<svg viewBox="0 0 1100 1100" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="1100" height="1100" fill="#1a1a2e"/>'
+            f'<text x="550" y="300" fill="#ffd700" font-size="44" text-anchor="middle" font-weight="bold" font-family="Arial,sans-serif">{esc(title)}</text>'
+            f'<text x="550" y="370" fill="#cbd5e1" font-size="26" text-anchor="middle" font-family="Arial,sans-serif">{esc(sub)}</text>'
+            f'<a href="{href}" target="_blank"><rect x="250" y="480" width="600" height="130" rx="65" fill="#6366f1"/>'
+            f'<text x="550" y="562" fill="#ffffff" font-size="36" text-anchor="middle" font-weight="bold" font-family="Arial,sans-serif">{esc(button)}</text></a>'
+            '<text x="550" y="720" fill="#cbd5e1" font-size="24" text-anchor="middle" font-family="Arial,sans-serif">Opens in a new tab. Zoom in, search, or print.</text></svg>')
+def appendix_lesson():
+    """Lesson 40: every printed page of the official PDF, in order, as images."""
+    pp_path=os.path.join(HERE,'print_pages.json')
+    if not os.path.exists(pp_path): return None
+    pp=json.load(open(pp_path,encoding='utf-8')); total=pp['pages']
+    pre=' '.join(U['PREFACE']['paras'])
+    def find(rx):
+        m=re.search(rx,pre); return m.group(0).strip() if m else None
+    bold=find(r'Narrative changes appear in bold text'); under=find(r'Items underlined have been moved within the guidelines since[^.]*?version'); ital=find(r'Italics are used to indicate revisions to heading changes')
+    marks=[x for x in (bold,under,ital) if x]
+    cards=[{'type':'intro','title':f'Appendix: The Official Guidelines as Printed ({FY})',
+            'content':(f'This appendix shows the **{FY} ICD-10-CM Official Guidelines for Coding and Reporting** exactly as CMS and NCHS print them — all {total} pages, in order, one page per card.\n\n'
+                       'Use it to get comfortable with how the guidelines look on paper and in the official PDF: the numbering, the indents, the page footers, and the way changes are marked.\n\n'
+                       '• **Tap a page** to open it full size (zoom in on a phone).\n• **Tap the button below** to open the complete PDF, where you can search and print.\n\n'
+                       'Every page here is the official document itself — nothing has been retyped or reworded.'),
+            'visual':{'type':'diagram','svg':link_svg('THE GUIDELINES IN PRINT',f'{FY} · {total} pages · CMS & NCHS','Open the full PDF','icd10cm-print/guidelines.pdf'),'caption':'Open the complete official PDF'}}]
+    how=('**How the printed guidelines mark changes** (from page 1 of the document):\n\n'+'\n'.join('• '+m for m in marks)+'\n\n' if marks else '')
+    how+=('**How the numbering nests** — each level is indented further on the page:\n\n'
+          '• **Section I.** → **A.** (letter) → **1.** (number) → **a.** (lowercase letter) → **1)** → **(a)** → **(i)**\n'
+          '• A citation such as **Section I.C.1.d** means Section I, part C, item 1 (Chapter 1), sub-item d (Sepsis).\n\n'
+          f'**Every page ends with a footer** naming the document, the fiscal year ({FY}) and the page number ("Page X of {total}"). Pages 2–6 are the table of contents; the guidelines themselves start on page 7.')
+    cards.append({'type':'concept','title':'How to Read the Printed Guidelines','content':how,'visual':{'type':'diagram','svg':page_svg(1,total),'caption':'Page 1: title, effective dates and how changes are marked'}})
+    for n in range(1,total+1):
+        st=pp['starts'].get(str(n),[])
+        if n==1: body='**Title page and introduction.** Shows the fiscal year, the effective dates, how changes are marked, and the introduction explaining who writes the guidelines and how they are organized.'
+        elif not st and n<7: body='**Table of contents.** Lists every section with its starting page.'
+        elif st:
+            body='**Sections that begin on this page:**\n\n'+'\n'.join(f"• {('Appendix I' if i=='APP' else 'Section '+i)} — {t}" for i,t in st)
+        else:
+            prev=next((pp['starts'][str(k)][-1] for k in range(n-1,0,-1) if pp['starts'].get(str(k))),None)
+            body=f"**Continues** {('Appendix I' if prev[0]=='APP' else 'Section '+prev[0])} — {prev[1]}." if prev else ''
+        cards.append({'type':'concept','title':f'Printed Page {n} of {total}','content':body+'\n\n*Tap the page to open it full size.*',
+                      'visual':{'type':'diagram','svg':page_svg(n,total),'caption':f'{FY} ICD-10-CM Official Guidelines, page {n} of {total}'}})
+    qsvg=lambda t,h: {'type':'diagram','svg':grid('KNOWLEDGE CHECK','Reading the printed guidelines',[{'h':t,'b':h}],1),'caption':'Knowledge check: '+t}
+    if bold:
+        cards.append({'type':'quiz','question':'In the printed ICD-10-CM Official Guidelines, what does bold text in the body of a guideline indicate?',
+            'options':[{'text':'A narrative change in this version','correct':True},{'text':'A rule that applies only to inpatient coding','correct':False},{'text':'A section that was moved','correct':False},{'text':'A heading that was revised','correct':False}],
+            'explanation':f'Page 1 states: "{bold}." Moved items are underlined, and heading revisions are shown in italics. Nothing in the document uses bold to mean inpatient-only.','visual':qsvg('Bold text','Page 1 explains each kind of marking.')})
+    if under and ital:
+        cards.append({'type':'quiz','question':'In the printed guidelines, what does underlining mean?',
+            'options':[{'text':'A narrative change','correct':False},{'text':'A revision to a heading','correct':False},{'text':'An item moved within the guidelines since the previous version','correct':True},{'text':'A rule that is no longer in effect','correct':False}],
+            'explanation':f'Page 1 states: "{under}." Narrative changes appear in bold, and "{ital}." The guidelines do not use underlining for rules that are no longer in effect.','visual':qsvg('Underlining','Compare bold, underline and italics on page 1.')})
+    cards.append({'type':'quiz','question':'A citation reads "Section I.C.19.d." How is it read in the printed guidelines?',
+        'options':[{'text':'Section I, part C (chapter-specific guidelines), item 19 (Chapter 19), sub-item d','correct':True},{'text':'Chapter 1, page 19, paragraph d','correct':False},{'text':'Section 19 of Appendix I, item d','correct':False},{'text':'Page 19, line d','correct':False}],
+        'explanation':'The numbering nests Section → capital letter → number → lowercase letter. In Section I, part C holds the chapter-specific guidelines, and its numbered items match the chapters, so I.C.19.d is sub-item d of the Chapter 19 guidelines (Coding of Burns and Corrosions). Citations do not refer to page or line numbers.',
+        'visual':qsvg('Citations','Section, then letter, then number, then lowercase letter.')})
+    return {'id':'icd10-40','title':f'Appendix: The Official Guidelines as Printed ({FY})','duration':30,'completed':False,'cards':cards}
 def load_spec(nn):
     return json.load(open(os.path.join(HERE,'specs',f'{nn}.json'),encoding='utf-8'))
 if __name__=='__main__':
@@ -154,10 +213,12 @@ if __name__=='__main__':
             if errs: print(nn,'ERRORS',errs[:5]); bad+=1
             lessons.append(l)
         if bad: print('not writing book;',bad,'lessons with problems'); sys.exit(1)
+        apx=appendix_lesson()
+        if apx: lessons.append(apx)
         dur=sum(l['duration'] for l in lessons); ncards=sum(len(l['cards']) for l in lessons)
         book={'id':'icd10cm-guidelines-fy2027','title':f'ICD-10-CM Official Guidelines for Coding and Reporting ({FY})',
           'author':'CMS & NCHS · approved by the Cooperating Parties (AHA, AHIMA, CMS, NCHS)',
-          'description':f"The complete {FY} ICD-10-CM Official Guidelines for Coding and Reporting (effective {SRC['effective_from']} – {SRC['effective_to']}), word for word, broken into "+str(len(lessons))+' lessons. Every section — conventions, general guidelines, all 22 chapter-specific guidelines, Sections II–IV and Appendix I (POA) — is shown as official text, then explained in plain English, with examples and quizzes after every topic and a capstone exam.',
+          'description':f"The complete {FY} ICD-10-CM Official Guidelines for Coding and Reporting (effective {SRC['effective_from']} – {SRC['effective_to']}), word for word, broken into "+str(len(lessons))+' lessons. Every section — conventions, general guidelines, all 22 chapter-specific guidelines, Sections II–IV and Appendix I (POA) — is shown as official text, then explained in plain English, with examples and quizzes after every topic and a capstone exam. An appendix shows every page of the official PDF exactly as printed.',
           'lessons':len(lessons),'duration':dur,'progress':0,'category':'him','featured':True,'cards':ncards,'lessonList':lessons}
         js=f'// External book module: ICD-10-CM Official Guidelines for Coding and Reporting, {FY}.\n// GENERATED by tools/icd10cm-guidelines/build.py — do not edit by hand.\n// Official text is verbatim from the CMS/NCHS {FY} guidelines (public domain, U.S. Government work).\n// Loaded BEFORE data.js; integrated into the HIM category via externalBooks.\nwindow.ICD10CM_GUIDELINES_BOOK = '+json.dumps(book,ensure_ascii=False,indent=1)+';\n'
         out=sys.argv[2] if len(sys.argv)>2 else OUT
