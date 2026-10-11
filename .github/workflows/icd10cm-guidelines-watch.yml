@@ -32,8 +32,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install pdftotext
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - name: Install pdftotext and Pillow
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+          pip install --quiet pillow
 
       - name: Check CMS for a newer guidelines PDF
         id: watch
@@ -58,7 +60,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
-          git add -A tools/icd10cm-guidelines icd10cm-guidelines-fy2027-data.js index.html
+          git add -A tools/icd10cm-guidelines icd10cm-print icd10cm-guidelines-fy2027-data.js index.html
           git commit -m "ICD-10-CM guidelines: update official text to FY ${FY} (updated ${UPDATED//-/ })" -m "Automated by .github/workflows/icd10cm-guidelines-watch.yml. Status: ${STATUS}."
           git push -u origin "$BRANCH"
           PR_URL=""

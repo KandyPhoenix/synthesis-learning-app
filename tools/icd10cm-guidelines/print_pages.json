@@ -1,0 +1,1117 @@
+{
+ "pages": 121,
+ "starts": {
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [
+   [
+    "I",
+    "Conventions, general coding guidelines and chapter specific guidelines"
+   ],
+   [
+    "I.A",
+    "Conventions for the ICD-10-CM"
+   ],
+   [
+    "I.A.1",
+    "The Alphabetic Index and Tabular List"
+   ],
+   [
+    "I.A.2",
+    "Format and Structure"
+   ],
+   [
+    "I.A.3",
+    "Use of codes for reporting purposes"
+   ],
+   [
+    "I.A.4",
+    "Placeholder character"
+   ],
+   [
+    "I.A.5",
+    "7th Characters"
+   ]
+  ],
+  "8": [
+   [
+    "I.A.6",
+    "Abbreviations"
+   ],
+   [
+    "I.A.6.a",
+    "Alphabetic Index abbreviations"
+   ],
+   [
+    "I.A.6.b",
+    "Tabular List abbreviations"
+   ],
+   [
+    "I.A.7",
+    "Punctuation"
+   ]
+  ],
+  "9": [
+   [
+    "I.A.8",
+    "Use of “and”."
+   ],
+   [
+    "I.A.9",
+    "Other and Unspecified codes"
+   ],
+   [
+    "I.A.9.a",
+    "“Other” codes"
+   ],
+   [
+    "I.A.9.b",
+    "“Unspecified” codes"
+   ],
+   [
+    "I.A.10",
+    "Includes Notes"
+   ],
+   [
+    "I.A.11",
+    "Inclusion terms"
+   ],
+   [
+    "I.A.12",
+    "Excludes Notes"
+   ],
+   [
+    "I.A.12.a",
+    "Excludes1"
+   ]
+  ],
+  "10": [
+   [
+    "I.A.12.b",
+    "Excludes2"
+   ],
+   [
+    "I.A.13",
+    "Etiology/manifestation convention (“code first”, “use additional code” and “in diseases classified elsewhere” notes)"
+   ],
+   [
+    "I.A.14",
+    "“And”"
+   ],
+   [
+    "I.A.15",
+    "“With”"
+   ]
+  ],
+  "11": [
+   [
+    "I.A.16",
+    "“See” and “See Also”"
+   ]
+  ],
+  "12": [
+   [
+    "I.A.17",
+    "“Code also” note"
+   ],
+   [
+    "I.A.18",
+    "Default codes"
+   ],
+   [
+    "I.A.19",
+    "Code assignment and Clinical Criteria"
+   ],
+   [
+    "I.B",
+    "General Coding Guidelines"
+   ],
+   [
+    "I.B.1",
+    "Locating a code in the ICD-10-CM"
+   ],
+   [
+    "I.B.2",
+    "Level of Detail in Coding"
+   ]
+  ],
+  "13": [
+   [
+    "I.B.3",
+    "Code or codes from A00.0 through T88.9, Z00-Z99.8, U00-U85"
+   ],
+   [
+    "I.B.4",
+    "Signs and symptoms"
+   ],
+   [
+    "I.B.5",
+    "Conditions that are an integral part of a disease process"
+   ],
+   [
+    "I.B.6",
+    "Conditions that are not an integral part of a disease process"
+   ],
+   [
+    "I.B.7",
+    "Multiple coding for a single condition"
+   ]
+  ],
+  "14": [
+   [
+    "I.B.8",
+    "Acute and Chronic Conditions"
+   ],
+   [
+    "I.B.9",
+    "Combination Code"
+   ],
+   [
+    "I.B.10",
+    "Sequela (Late Effects)"
+   ]
+  ],
+  "15": [
+   [
+    "I.B.11",
+    "Impending or Threatened Condition"
+   ],
+   [
+    "I.B.12",
+    "Reporting Same Diagnosis Code More than Once"
+   ],
+   [
+    "I.B.13",
+    "Laterality"
+   ],
+   [
+    "I.B.14",
+    "Documentation by Clinicians Other than the Patient's Provider"
+   ]
+  ],
+  "16": [
+   [
+    "I.B.15",
+    "Syndromes"
+   ],
+   [
+    "I.B.16",
+    "Documentation of Complications of Care"
+   ]
+  ],
+  "17": [
+   [
+    "I.B.17",
+    "Borderline Diagnosis"
+   ],
+   [
+    "I.B.18",
+    "Use of Sign/Symptom/Unspecified Codes"
+   ],
+   [
+    "I.B.19",
+    "Coding for Healthcare Encounters in Hurricane Aftermath"
+   ],
+   [
+    "I.B.19.a",
+    "Use of External Cause of Morbidity Codes"
+   ]
+  ],
+  "18": [
+   [
+    "I.B.19.b",
+    "Sequencing of External Causes of Morbidity Codes"
+   ],
+   [
+    "I.B.19.c",
+    "Other External Causes of Morbidity Code Issues"
+   ],
+   [
+    "I.B.19.d",
+    "Use of Z codes"
+   ]
+  ],
+  "19": [
+   [
+    "I.B.20",
+    "Multiple Sites Coding"
+   ],
+   [
+    "I.C",
+    "Chapter-Specific Coding Guidelines"
+   ],
+   [
+    "I.C.1",
+    "Chapter 1: Certain Infectious and Parasitic Diseases (A00-B99), U07.1, U09.9"
+   ],
+   [
+    "I.C.1.a",
+    "Human Immunodeficiency Virus (HIV) Infections"
+   ]
+  ],
+  "20": [],
+  "21": [],
+  "22": [
+   [
+    "I.C.1.b",
+    "Infectious agents as the cause of diseases classified to other chapters"
+   ],
+   [
+    "I.C.1.c",
+    "Infections resistant to antibiotics"
+   ]
+  ],
+  "23": [
+   [
+    "I.C.1.d",
+    "Sepsis, Severe Sepsis, and Septic Shock"
+   ]
+  ],
+  "24": [],
+  "25": [],
+  "26": [],
+  "27": [
+   [
+    "I.C.1.e",
+    "Methicillin Resistant Staphylococcus aureus (MRSA) Conditions"
+   ]
+  ],
+  "28": [
+   [
+    "I.C.1.f",
+    "Zika virus infections"
+   ],
+   [
+    "I.C.1.g",
+    "Coronavirus infections"
+   ]
+  ],
+  "29": [],
+  "30": [],
+  "31": [],
+  "32": [
+   [
+    "I.C.2",
+    "Chapter 2: Neoplasms (C00-D49)"
+   ]
+  ],
+  "33": [
+   [
+    "I.C.2.a",
+    "Admission/Encounter for treatment of primary site"
+   ],
+   [
+    "I.C.2.b",
+    "Admission/Encounter for treatment of secondary site"
+   ]
+  ],
+  "34": [
+   [
+    "I.C.2.c",
+    "Coding and sequencing of complications"
+   ],
+   [
+    "I.C.2.d",
+    "Primary malignancy previously excised"
+   ]
+  ],
+  "35": [
+   [
+    "I.C.2.e",
+    "Admissions/Encounters involving antineoplastic chemotherapy, immunotherapy and radiation therapy"
+   ]
+  ],
+  "36": [
+   [
+    "I.C.2.f",
+    "Admission/encounter to determine extent of malignancy"
+   ],
+   [
+    "I.C.2.g",
+    "Symptoms, signs, and abnormal findings listed in Chapter 18 associated with neoplasms"
+   ],
+   [
+    "I.C.2.h",
+    "Admission/encounter for pain control/management"
+   ],
+   [
+    "I.C.2.i",
+    "Malignancy in two or more noncontiguous sites"
+   ],
+   [
+    "I.C.2.j",
+    "Disseminated malignant neoplasm, unspecified"
+   ],
+   [
+    "I.C.2.k",
+    "Malignant neoplasm without specification of site"
+   ]
+  ],
+  "37": [
+   [
+    "I.C.2.l",
+    "Sequencing of neoplasm codes"
+   ]
+  ],
+  "38": [
+   [
+    "I.C.2.m",
+    "Current malignancy versus personal history of malignancy"
+   ],
+   [
+    "I.C.2.n",
+    "Leukemia, Multiple Myeloma, and Malignant Plasma Cell"
+   ],
+   [
+    "I.C.2.o",
+    "Aftercare following surgery for neoplasm"
+   ],
+   [
+    "I.C.2.p",
+    "Follow-up care for completed treatment of a malignancy"
+   ],
+   [
+    "I.C.2.q",
+    "Prophylactic organ removal for prevention of malignancy"
+   ],
+   [
+    "I.C.2.r",
+    "Malignant neoplasm associated with transplanted organ"
+   ]
+  ],
+  "39": [
+   [
+    "I.C.2.s",
+    "Breast Implant Associated Anaplastic Large Cell Lymphoma"
+   ],
+   [
+    "I.C.2.t",
+    "Secondary malignant neoplasm of lymphoid tissue"
+   ],
+   [
+    "I.C.3",
+    "Chapter 3: Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism (D50-D89)"
+   ],
+   [
+    "I.C.4",
+    "Chapter 4: Endocrine, Nutritional, and Metabolic Diseases (E00-E89)"
+   ],
+   [
+    "I.C.4.a",
+    "Diabetes mellitus"
+   ]
+  ],
+  "40": [],
+  "41": [],
+  "42": [
+   [
+    "I.C.4.b",
+    "Obesity"
+   ]
+  ],
+  "43": [
+   [
+    "I.C.5",
+    "Chapter 5: Mental, Behavioral and Neurodevelopmental disorders"
+   ],
+   [
+    "I.C.5.a",
+    "Pain disorders related to psychological factors"
+   ],
+   [
+    "I.C.5.b",
+    "Mental and behavioral disorders due to psychoactive substance use"
+   ]
+  ],
+  "44": [
+   [
+    "I.C.5.c",
+    "Factitious Disorder"
+   ]
+  ],
+  "45": [
+   [
+    "I.C.5.d",
+    "Dementia"
+   ],
+   [
+    "I.C.6",
+    "Chapter 6: Diseases of the Nervous System (G00-G99)"
+   ],
+   [
+    "I.C.6.a",
+    "Dominant/nondominant side"
+   ],
+   [
+    "I.C.6.b",
+    "Pain - Category G89"
+   ]
+  ],
+  "46": [],
+  "47": [],
+  "48": [
+   [
+    "I.C.7",
+    "Chapter 7: Diseases of the Eye and Adnexa (H00-H59)"
+   ],
+   [
+    "I.C.7.a",
+    "Glaucoma"
+   ]
+  ],
+  "49": [
+   [
+    "I.C.7.b",
+    "Blindness"
+   ],
+   [
+    "I.C.8",
+    "Chapter 8: Diseases of the Ear and Mastoid Process (H60-H95)"
+   ]
+  ],
+  "50": [
+   [
+    "I.C.9",
+    "Chapter 9: Diseases of the Circulatory System (I00-I99)"
+   ],
+   [
+    "I.C.9.a",
+    "Hypertension"
+   ]
+  ],
+  "51": [],
+  "52": [
+   [
+    "I.C.9.b",
+    "Atherosclerotic Coronary Artery Disease and Angina"
+   ]
+  ],
+  "53": [
+   [
+    "I.C.9.c",
+    "Intraoperative and Postprocedural Cerebrovascular Accident"
+   ],
+   [
+    "I.C.9.d",
+    "Sequelae of Cerebrovascular Disease"
+   ],
+   [
+    "I.C.9.e",
+    "Acute myocardial infarction (AMI)"
+   ]
+  ],
+  "54": [],
+  "55": [],
+  "56": [
+   [
+    "I.C.10",
+    "Chapter 10: Diseases of the Respiratory System (J00-J99), U07.0"
+   ],
+   [
+    "I.C.10.a",
+    "Chronic Obstructive Pulmonary Disease [COPD] and Asthma"
+   ],
+   [
+    "I.C.10.b",
+    "Acute Respiratory Failure"
+   ]
+  ],
+  "57": [
+   [
+    "I.C.10.c",
+    "Influenza due to certain identified influenza viruses"
+   ],
+   [
+    "I.C.10.d",
+    "Ventilator associated Pneumonia"
+   ]
+  ],
+  "58": [
+   [
+    "I.C.10.e",
+    "Vaping-related disorders"
+   ],
+   [
+    "I.C.11",
+    "Chapter 11: Diseases of the Digestive System (K00-K95)"
+   ],
+   [
+    "I.C.12",
+    "Chapter 12: Diseases of the Skin and Subcutaneous Tissue"
+   ],
+   [
+    "I.C.12.a",
+    "Pressure ulcer stage codes"
+   ]
+  ],
+  "59": [],
+  "60": [
+   [
+    "I.C.12.b",
+    "Non-Pressure Chronic Ulcers"
+   ],
+   [
+    "I.C.13",
+    "Chapter 13: Diseases of the Musculoskeletal System and Connective"
+   ],
+   [
+    "I.C.13.a",
+    "Site and laterality"
+   ]
+  ],
+  "61": [
+   [
+    "I.C.13.b",
+    "Acute traumatic versus chronic or recurrent musculoskeletal conditions"
+   ],
+   [
+    "I.C.13.c",
+    "Coding of Pathologic Fractures"
+   ],
+   [
+    "I.C.13.d",
+    "Osteoporosis"
+   ]
+  ],
+  "62": [
+   [
+    "I.C.13.e",
+    "Multisystem Inflammatory Syndrome"
+   ],
+   [
+    "I.C.14",
+    "Chapter 14: Diseases of Genitourinary System (N00-N99)"
+   ],
+   [
+    "I.C.14.a",
+    "Chronic kidney disease"
+   ]
+  ],
+  "63": [
+   [
+    "I.C.15",
+    "Chapter 15: Pregnancy, Childbirth, and the Puerperium"
+   ],
+   [
+    "I.C.15.a",
+    "General Rules for Obstetric Cases"
+   ]
+  ],
+  "64": [
+   [
+    "I.C.15.b",
+    "Selection of OB Principal or First-listed Diagnosis"
+   ]
+  ],
+  "65": [
+   [
+    "I.C.15.c",
+    "Pre-existing conditions versus conditions due to the pregnancy"
+   ]
+  ],
+  "66": [
+   [
+    "I.C.15.d",
+    "Pre-existing hypertension in pregnancy"
+   ],
+   [
+    "I.C.15.e",
+    "Fetal Conditions Affecting the Management of the Mother"
+   ],
+   [
+    "I.C.15.f",
+    "HIV Infection in Pregnancy, Childbirth and the Puerperium"
+   ],
+   [
+    "I.C.15.g",
+    "Diabetes mellitus in pregnancy"
+   ]
+  ],
+  "67": [
+   [
+    "I.C.15.h",
+    "Long term use of insulin and oral hypoglycemics"
+   ],
+   [
+    "I.C.15.i",
+    "Gestational (pregnancy induced) diabetes"
+   ],
+   [
+    "I.C.15.j",
+    "Sepsis and septic shock complicating abortion, pregnancy, childbirth and the puerperium"
+   ],
+   [
+    "I.C.15.k",
+    "Puerperal sepsis"
+   ]
+  ],
+  "68": [
+   [
+    "I.C.15.l",
+    "Alcohol, tobacco and drug use during pregnancy, childbirth and the puerperium"
+   ],
+   [
+    "I.C.15.m",
+    "Poisoning, toxic effects, adverse effects and underdosing in a pregnant patient"
+   ],
+   [
+    "I.C.15.n",
+    "Normal Delivery, Code O80"
+   ]
+  ],
+  "69": [
+   [
+    "I.C.15.o",
+    "The Peripartum and Postpartum Periods"
+   ]
+  ],
+  "70": [
+   [
+    "I.C.15.p",
+    "Code O94, Sequelae of complication of pregnancy, childbirth, and the puerperium"
+   ],
+   [
+    "I.C.15.q",
+    "Termination of Pregnancy and Spontaneous abortions"
+   ]
+  ],
+  "71": [
+   [
+    "I.C.15.r",
+    "Abuse in a pregnant patient"
+   ],
+   [
+    "I.C.15.s",
+    "COVID-19 infection in pregnancy, childbirth, and the puerperium"
+   ],
+   [
+    "I.C.16",
+    "Chapter 16: Certain Conditions Originating in the Perinatal Period"
+   ],
+   [
+    "I.C.16.a",
+    "General Perinatal Rules"
+   ]
+  ],
+  "72": [],
+  "73": [
+   [
+    "I.C.16.b",
+    "Observation and Evaluation of Newborns for Suspected"
+   ],
+   [
+    "I.C.16.c",
+    "Coding Additional Perinatal Diagnoses"
+   ],
+   [
+    "I.C.16.d",
+    "Prematurity and Fetal Growth Retardation"
+   ]
+  ],
+  "74": [
+   [
+    "I.C.16.e",
+    "Low birth weight and immaturity status"
+   ],
+   [
+    "I.C.16.f",
+    "Bacterial Sepsis of Newborn"
+   ],
+   [
+    "I.C.16.g",
+    "Stillbirth"
+   ],
+   [
+    "I.C.16.h",
+    "COVID-19 Infection in Newborn"
+   ],
+   [
+    "I.C.17",
+    "Chapter 17: Congenital malformations, deformations, chromosomal abnormalities, and genetic disorders (Q00-QA1)"
+   ]
+  ],
+  "75": [
+   [
+    "I.C.18",
+    "Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)"
+   ],
+   [
+    "I.C.18.a",
+    "Use of symptom codes"
+   ],
+   [
+    "I.C.18.b",
+    "Use of a symptom code with a definitive diagnosis code"
+   ],
+   [
+    "I.C.18.c",
+    "Combination codes that include symptoms"
+   ]
+  ],
+  "76": [
+   [
+    "I.C.18.d",
+    "Repeated falls"
+   ],
+   [
+    "I.C.18.e",
+    "Coma"
+   ],
+   [
+    "I.C.18.f",
+    "Functional quadriplegia"
+   ]
+  ],
+  "77": [
+   [
+    "I.C.18.g",
+    "SIRS due to Non-Infectious Process"
+   ],
+   [
+    "I.C.18.h",
+    "Death NOS"
+   ],
+   [
+    "I.C.18.i",
+    "NIHSS Stroke Scale"
+   ],
+   [
+    "I.C.19",
+    "Chapter 19: Injury, poisoning, and certain other consequences of external causes (S00-T88)"
+   ],
+   [
+    "I.C.19.a",
+    "Application of 7th Characters in Chapter 19"
+   ]
+  ],
+  "78": [
+   [
+    "I.C.19.b",
+    "Coding of Injuries"
+   ]
+  ],
+  "79": [
+   [
+    "I.C.19.c",
+    "Coding of Traumatic Fractures"
+   ]
+  ],
+  "80": [
+   [
+    "I.C.19.d",
+    "Coding of Burns and Corrosions"
+   ]
+  ],
+  "81": [],
+  "82": [
+   [
+    "I.C.19.e",
+    "Adverse Effects, Poisoning, Underdosing and Toxic Effects"
+   ]
+  ],
+  "83": [],
+  "84": [],
+  "85": [
+   [
+    "I.C.19.f",
+    "Adult and child abuse, neglect and other maltreatment"
+   ],
+   [
+    "I.C.19.g",
+    "Complications of care"
+   ]
+  ],
+  "86": [],
+  "87": [
+   [
+    "I.C.20",
+    "Chapter 20: External Causes of Morbidity (V00-Y99)"
+   ]
+  ],
+  "88": [
+   [
+    "I.C.20.a",
+    "General External Cause Coding Guidelines"
+   ]
+  ],
+  "89": [
+   [
+    "I.C.20.b",
+    "Place of Occurrence Guideline"
+   ],
+   [
+    "I.C.20.c",
+    "Activity Code"
+   ],
+   [
+    "I.C.20.d",
+    "Place of Occurrence, Activity, and Status Codes Used with other"
+   ]
+  ],
+  "90": [
+   [
+    "I.C.20.e",
+    "If the Reporting Format Limits the Number of External Cause"
+   ],
+   [
+    "I.C.20.f",
+    "Multiple External Cause Coding Guidelines"
+   ],
+   [
+    "I.C.20.g",
+    "Child and Adult Abuse Guideline"
+   ]
+  ],
+  "91": [
+   [
+    "I.C.20.h",
+    "Unknown or Undetermined Intent Guideline"
+   ],
+   [
+    "I.C.20.i",
+    "Sequelae (Late Effects) of External Cause Guidelines"
+   ],
+   [
+    "I.C.20.j",
+    "Terrorism Guidelines"
+   ]
+  ],
+  "92": [
+   [
+    "I.C.20.k",
+    "External Cause Status"
+   ],
+   [
+    "I.C.21",
+    "Chapter 21: Factors influencing health status and contact with health services (Z00-Z99)"
+   ],
+   [
+    "I.C.21.a",
+    "Use of Z Codes in Any Healthcare Setting"
+   ]
+  ],
+  "93": [
+   [
+    "I.C.21.b",
+    "Z Codes Indicate a Reason for an Encounter or Provide"
+   ],
+   [
+    "I.C.21.c",
+    "Categories of Z Codes"
+   ]
+  ],
+  "94": [],
+  "95": [],
+  "96": [],
+  "97": [],
+  "98": [],
+  "99": [],
+  "100": [],
+  "101": [],
+  "102": [],
+  "103": [],
+  "104": [],
+  "105": [],
+  "106": [],
+  "107": [],
+  "108": [
+   [
+    "I.C.22",
+    "Chapter 22: Codes for Special Purposes (U00-U85)"
+   ],
+   [
+    "II",
+    "Selection of Principal Diagnosis"
+   ],
+   [
+    "II.A",
+    "Codes for symptoms, signs, and ill-defined conditions"
+   ],
+   [
+    "II.B",
+    "Two or more interrelated conditions, each potentially meeting the definition for principal diagnosis."
+   ],
+   [
+    "II.C",
+    "Two or more diagnoses that equally meet the definition for principal diagnosis"
+   ]
+  ],
+  "109": [
+   [
+    "II.D",
+    "Two or more comparative or contrasting conditions"
+   ],
+   [
+    "II.E",
+    "A symptom(s) followed by contrasting/comparative diagnoses"
+   ],
+   [
+    "II.F",
+    "Original treatment plan not carried out"
+   ],
+   [
+    "II.G",
+    "Complications of surgery and other medical care"
+   ],
+   [
+    "II.H",
+    "Uncertain Diagnosis"
+   ],
+   [
+    "II.I",
+    "Admission from Observation Unit"
+   ],
+   [
+    "II.I.1",
+    "Admission Following Medical Observation"
+   ],
+   [
+    "II.I.2",
+    "Admission Following Post-Operative Observation"
+   ]
+  ],
+  "110": [
+   [
+    "II.J",
+    "Admission from Outpatient Surgery"
+   ],
+   [
+    "II.K",
+    "Admissions/Encounters for Rehabilitation"
+   ],
+   [
+    "III",
+    "Reporting Additional Diagnoses"
+   ]
+  ],
+  "111": [
+   [
+    "III.A",
+    "Previous conditions"
+   ],
+   [
+    "III.B",
+    "Abnormal findings"
+   ],
+   [
+    "III.C",
+    "Uncertain Diagnosis"
+   ]
+  ],
+  "112": [
+   [
+    "IV",
+    "Diagnostic Coding and Reporting Guidelines for"
+   ],
+   [
+    "IV.A",
+    "Selection of first-listed condition"
+   ],
+   [
+    "IV.A.1",
+    "Outpatient Surgery"
+   ]
+  ],
+  "113": [
+   [
+    "IV.A.2",
+    "Observation Stay"
+   ],
+   [
+    "IV.B",
+    "Codes from A00.0 through T88.9, Z00-Z99, U00-U85"
+   ],
+   [
+    "IV.C",
+    "Accurate reporting of ICD-10-CM diagnosis codes"
+   ],
+   [
+    "IV.D",
+    "Codes that describe symptoms and signs"
+   ],
+   [
+    "IV.E",
+    "Encounters for circumstances other than a disease or injury"
+   ],
+   [
+    "IV.F",
+    "Level of Detail in Coding"
+   ],
+   [
+    "IV.F.1",
+    "ICD-10-CM codes with 3, 4, 5, 6 or 7 characters"
+   ],
+   [
+    "IV.F.2",
+    "Use of full number of characters required for a code"
+   ]
+  ],
+  "114": [
+   [
+    "IV.F.3",
+    "Highest level of specificity"
+   ],
+   [
+    "IV.G",
+    "ICD-10-CM code for the diagnosis, condition, problem, or other reason for encounter/visit"
+   ],
+   [
+    "IV.H",
+    "Uncertain diagnosis"
+   ],
+   [
+    "IV.I",
+    "Chronic diseases"
+   ],
+   [
+    "IV.J",
+    "Code all documented conditions that coexist"
+   ],
+   [
+    "IV.K",
+    "Patients receiving diagnostic services only"
+   ]
+  ],
+  "115": [
+   [
+    "IV.L",
+    "Patients receiving therapeutic services only"
+   ],
+   [
+    "IV.M",
+    "Patients receiving preoperative evaluations only"
+   ],
+   [
+    "IV.N",
+    "Ambulatory surgery"
+   ],
+   [
+    "IV.O",
+    "Routine outpatient prenatal visits"
+   ],
+   [
+    "IV.P",
+    "Encounters for general medical examinations with abnormal findings"
+   ],
+   [
+    "IV.Q",
+    "Encounters for routine health screenings"
+   ]
+  ],
+  "116": [
+   [
+    "APP",
+    "Present on Admission Reporting Guidelines"
+   ]
+  ],
+  "117": [],
+  "118": [],
+  "119": [],
+  "120": [],
+  "121": []
+ }
+}
