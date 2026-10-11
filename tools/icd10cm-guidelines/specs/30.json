@@ -1,0 +1,420 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Complications of Care",
+   "content": "A **complication of care** is a condition caused by medical care itself, such as a problem with a device, a transplanted organ, or a procedure. Coding these correctly affects quality reporting, so the guidelines spell out exactly when a complication code applies and where to find it.\n\nThis lesson covers **Section I.C.19.g** word for word, then breaks down each part:\n\n• **(1)** Documentation of complications of care (a pointer to Section I.B.16)\n• **(2)** Pain due to medical devices\n• **(3a)** Transplant complications other than kidney\n• **(3b)** Kidney transplant complications and CKD\n• **(4)** Complication codes that already include the external cause\n• **(5)** Complication codes found in the body system chapters",
+   "visual": {
+    "title": "Complications of care",
+    "sub": "Section I.C.19.g",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Documentation",
+      "b": "See Section I.B.16"
+     },
+     {
+      "h": "Device pain",
+      "b": "T code + G89.18 or G89.28"
+     },
+     {
+      "h": "Transplants",
+      "b": "T86 only if organ function is affected"
+     },
+     {
+      "h": "Where codes live",
+      "b": "Body system chapters or Chapter 19"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.19.g"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Documentation of Complications (Rule 1)",
+   "content": "Section I.C.19.g.1(a) does not give a new rule. It says: **see Section I.B.16** for documentation of complications of care.\n\nSection I.B.16 (covered in its own lesson) says, in summary:\n\n• Code assignment is based on the **provider's documentation of the relationship** between the condition and the care or procedure, unless the classification instructs otherwise.\n• Not every condition that occurs during or after care is a complication. There must be a **cause-and-effect relationship**, and the documentation must support that the condition is **clinically significant.**\n• The provider does **not** have to use the word \"complication.\"\n• **Query the provider** if the relationship is not clear.\n\nKeep this in mind for every rule in this lesson: a complication code depends on what the provider documents.",
+   "visual": {
+    "title": "Before any complication code",
+    "sub": "Section I.C.19.g.1 points to I.B.16",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Basis",
+      "b": "Provider documents the relationship"
+     },
+     {
+      "h": "Required",
+      "b": "Cause and effect; clinically significant"
+     },
+     {
+      "h": "Word 'complication'",
+      "b": "Not required"
+     },
+     {
+      "h": "Unclear?",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Pain Due to Medical Devices (Rule 2)",
+   "content": "Section I.C.19.g.2 covers **pain associated with devices, implants or grafts left in a surgical site.** The guideline's example is a **painful hip prosthesis.**\n\n• This pain is assigned to the appropriate code(s) in **Chapter 19**, Injury, poisoning, and certain other consequences of external causes.\n• **Specific codes for pain due to medical devices are in the T code section.**\n• **Use additional code(s) from category G89** to identify **acute or chronic pain** due to the presence of the device, implant or graft: **G89.18** or **G89.28.**\n\n**What it means:** Two pieces are needed. The T code describes the device problem; the G89 code describes whether the pain is acute or chronic.",
+   "visual": {
+    "title": "Device pain: two codes",
+    "sub": "Section I.C.19.g.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Example in text",
+      "b": "Painful hip prosthesis"
+     },
+     {
+      "h": "Main code",
+      "b": "Chapter 19 T code for device pain"
+     },
+     {
+      "h": "Additional code",
+      "b": "G89.18 or G89.28"
+     },
+     {
+      "h": "G89 tells",
+      "b": "Acute or chronic pain from the device"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has documented chronic pain due to the presence of a hip prosthesis. According to Section I.C.19.g.2, how is this coded?",
+   "options": [
+    "Only a code from category G89",
+    "The appropriate Chapter 19 T code for pain due to the device, with an additional code from category G89",
+    "A traumatic injury code for the hip",
+    "No code, because the device was placed on purpose"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.g.2 says pain associated with devices, implants or grafts left in a surgical site (for example, a painful hip prosthesis) is assigned to the appropriate code(s) in Chapter 19, where specific T codes for pain due to medical devices are found, and to use additional code(s) from category G89 (G89.18 or G89.28) to identify acute or chronic pain. A G89 code alone leaves out the device complication. A traumatic injury code does not describe device pain. The guideline gives codes for this situation, so it is coded.",
+   "visual": {
+    "topic": "Pain due to devices",
+    "hint": "The T code and G89 work together."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Transplant Complications Other Than Kidney (Rule 3a)",
+   "content": "Section I.C.19.g.3(a) covers **category T86, Complications of transplanted organs and tissues.**\n\n• T86 is used for **both complications and rejection** of transplanted organs.\n• A transplant complication code is **only assigned if the complication affects the function of the transplanted organ.**\n• **Two codes** are required: the **T86 code** and a **secondary code that identifies the complication.**\n• **Pre-existing conditions** or conditions that **develop after the transplant** are **not** coded as complications **unless they affect the function** of the transplanted organs.\n\n**Cross-references in the text:**\n• Section I.C.21 for transplant organ removal status\n• Section I.C.2 for malignant neoplasm associated with a transplanted organ\n• Section I.C.1.d.4 for sequencing of sepsis due to infection in a transplanted organ",
+   "visual": {
+    "title": "T86 transplant rules",
+    "sub": "Section I.C.19.g.3(a)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "T86 covers",
+      "b": "Complications and rejection"
+     },
+     {
+      "h": "Only if",
+      "b": "Transplanted organ function is affected"
+     },
+     {
+      "h": "Two codes",
+      "b": "T86 + code for the complication"
+     },
+     {
+      "h": "Other conditions",
+      "b": "Not complications unless function affected"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Transplant Complications",
+   "content": "**Scenario 1:** A liver transplant patient develops a condition that the provider documents is affecting the function of the transplanted liver.\n→ Section I.C.19.g.3(a): assign the T86 code **and** a secondary code identifying the complication.\n\n**Scenario 2:** A heart transplant patient has a condition that existed before the transplant. The provider does not document any effect on the transplanted heart.\n→ Section I.C.19.g.3(a): **not** coded as a transplant complication. Code the condition itself.\n\n**Scenario 3:** A lung transplant patient develops a new condition after the transplant that does not affect the function of the transplanted lungs.\n→ Section I.C.19.g.3(a): **not** a transplant complication.\n\n**The test:** does the condition affect the function of the transplanted organ?",
+   "visual": {
+    "title": "Is it a T86 complication?",
+    "sub": "Applying Section I.C.19.g.3(a)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Affects organ function",
+      "b": "T86 + complication code"
+     },
+     {
+      "h": "Pre-existing, no effect",
+      "b": "Not a transplant complication"
+     },
+     {
+      "h": "New, no effect",
+      "b": "Not a transplant complication"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A transplant patient has a condition that developed after the transplant, but it does not affect the function of the transplanted organ. According to Section I.C.19.g.3(a), what is correct?",
+   "options": [
+    "Assign a T86 code because the condition developed after the transplant",
+    "Assign a T86 code alone without a secondary code",
+    "Do not code it as a transplant complication",
+    "Query the provider in every transplant case"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.g.3(a) says a transplant complication code is only assigned if the complication affects the function of the transplanted organ, and conditions that develop after the transplant are not coded as complications unless they affect that function. Timing alone does not make it a complication. Even when T86 applies, two codes are required, so T86 alone is never complete. The text does not require a query in every transplant case.",
+   "visual": {
+    "topic": "Transplant complications",
+    "hint": "Is the transplanted organ's function affected?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Kidney Transplant Complications (Rule 3b)",
+   "content": "Section I.C.19.g.3(b) handles a special situation: patients who have had a kidney transplant **may still have some form of chronic kidney disease (CKD)**, because the transplant may not fully restore kidney function.\n\n• **Assign T86.1-** for **documented complications** of a kidney transplant, such as **transplant failure or rejection** or other transplant complication.\n• **Do not assign T86.1-** for post kidney transplant patients who have **CKD** unless a transplant complication such as **failure or rejection is documented.**\n• **Unclear documentation** about whether there is a complication → **query the provider.**\n• Conditions that affect the function of the transplanted kidney, **other than CKD**, get a code from subcategory **T86.1** plus a **secondary code** that identifies the complication.\n• For CKD after a kidney transplant **without** a complication such as failure or rejection, see **Section I.C.14**, Chronic kidney disease and kidney transplant status.\n• See Section I.C.1.d.4 for sepsis due to infection in a transplanted organ.",
+   "visual": {
+    "title": "Kidney transplant and CKD",
+    "sub": "Section I.C.19.g.3(b)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "CKD after transplant",
+      "b": "Not T86.1- by itself"
+     },
+     {
+      "h": "Failure/rejection noted",
+      "b": "Assign T86.1-"
+     },
+     {
+      "h": "Other function problem",
+      "b": "T86.1 + complication code"
+     },
+     {
+      "h": "Not clear",
+      "b": "Query the provider"
+     },
+     {
+      "h": "CKD, no complication",
+      "b": "See Section I.C.14"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Kidney Transplant Patients",
+   "content": "**Scenario 1:** A patient who had a kidney transplant has CKD. The provider documents no transplant failure, rejection or other complication.\n→ Section I.C.19.g.3(b): **do not** assign T86.1-. See Section I.C.14 for CKD and kidney transplant status.\n\n**Scenario 2:** A kidney transplant patient is admitted and the provider documents **transplant rejection.**\n→ Section I.C.19.g.3(b): assign **T86.1-.**\n\n**Scenario 3:** The provider documents a condition other than CKD that affects the function of the transplanted kidney.\n→ Section I.C.19.g.3(b): a code from subcategory **T86.1** plus a **secondary code** for the complication.\n\n**Scenario 4:** The record is unclear whether the patient's kidney problem is a transplant complication.\n→ Section I.C.19.g.3(b): **query the provider.**",
+   "visual": {
+    "title": "Kidney transplant cases",
+    "sub": "Applying Section I.C.19.g.3(b)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "CKD only",
+      "b": "No T86.1-; see I.C.14"
+     },
+     {
+      "h": "Rejection documented",
+      "b": "T86.1-"
+     },
+     {
+      "h": "Other function problem",
+      "b": "T86.1 + complication"
+     },
+     {
+      "h": "Unclear",
+      "b": "Query"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a kidney transplant has chronic kidney disease. No transplant failure, rejection or other complication is documented. According to Section I.C.19.g.3(b), should T86.1- be assigned?",
+   "options": [
+    "Yes, because any CKD after a kidney transplant is a complication",
+    "Yes, but only as a secondary code",
+    "No, because T86 is never used for kidneys",
+    "No, T86.1- is not assigned for post-transplant CKD unless a transplant complication such as failure or rejection is documented"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.19.g.3(b) explains that kidney transplant patients may still have some form of CKD because the transplant may not fully restore kidney function, and that T86.1- should not be assigned for post kidney transplant patients who have CKD unless a transplant complication such as failure or rejection is documented. So CKD alone is not a complication, in any position. T86.1- does exist for documented kidney transplant complications, so 'never used for kidneys' is wrong.",
+   "visual": {
+    "topic": "Kidney transplant and CKD",
+    "hint": "Is failure or rejection documented?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The documentation is unclear whether a kidney transplant patient's condition is a complication of the transplant. According to Section I.C.19.g.3(b), what should the coder do?",
+   "options": [
+    "Query the provider",
+    "Assign T86.1- to be safe",
+    "Assume it is not a complication and never mention it",
+    "Assign a code from category G89"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.19.g.3(b) states: if the documentation is unclear as to whether the patient has a complication of the transplant, query the provider. Assigning T86.1- or assuming there is no complication are both guesses the guideline tells you not to make. G89 codes are for pain (such as pain due to devices under I.C.19.g.2), not for transplant complications.",
+   "visual": {
+    "topic": "Unclear transplant documentation",
+    "hint": "What does the text say when it is unclear?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Codes That Include the External Cause (Rule 4)",
+   "content": "Section I.C.19.g.4 says that, as with certain other T codes, **some complications of care codes have the external cause included in the code.**\n\n• The code includes **the nature of the complication** and **the type of procedure that caused it.**\n• **No external cause code indicating the type of procedure is necessary** for these codes.\n\n**What it means:** If the complication code itself already names the procedure, do not add a separate external cause code to say the same thing.",
+   "visual": {
+    "title": "External cause built in",
+    "sub": "Section I.C.19.g.4",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Code includes",
+      "b": "Nature of complication + type of procedure"
+     },
+     {
+      "h": "Separate external cause?",
+      "b": "Not necessary for the procedure"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Complications in the Body System Chapters (Rule 5)",
+   "content": "Section I.C.19.g.5 explains that **intraoperative** (during surgery) and **postprocedural** (after a procedure) complication codes are found **within the body system chapters**, with codes specific to the organs and structures of that body system.\n\n• **Sequencing:** the body system complication code is **sequenced first**, followed by code(s) for the **specific complication**, if applicable.\n• **Which chapter?** Use the complication codes from the body system chapters for intraoperative and postprocedural complications. The guideline's example: the appropriate complication code from **chapter 9** would be assigned for a **vascular** intraoperative or postprocedural complication.\n• **Exception:** unless the complication is **specifically indexed to a T code in chapter 19.**\n\n**Exam trap:** Do not assume every complication of care is a Chapter 19 T code. Many live in the body system chapters; follow the Index.",
+   "visual": {
+    "title": "Body system complication codes",
+    "sub": "Section I.C.19.g.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Where",
+      "b": "Body system chapters, by organ/structure"
+     },
+     {
+      "h": "Sequence",
+      "b": "Complication code first, then specific one"
+     },
+     {
+      "h": "Example in text",
+      "b": "Vascular complication: chapter 9"
+     },
+     {
+      "h": "Exception",
+      "b": "Indexed to a chapter 19 T code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has a vascular postprocedural complication, and the Index does not direct the coder to a Chapter 19 T code. According to Section I.C.19.g.5, where is the complication code found?",
+   "options": [
+    "In Chapter 19, because all complications of care are T codes",
+    "In category G89",
+    "In the body system chapter, such as chapter 9 for a vascular complication",
+    "In category T86"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.g.5 says complication codes from the body system chapters should be assigned for intraoperative and postprocedural complications (e.g., the appropriate complication code from chapter 9 for a vascular complication) unless the complication is specifically indexed to a T code in chapter 19. Not all complications are T codes. G89 is for pain. T86 is for complications of transplanted organs and tissues.",
+   "visual": {
+    "topic": "Intraoperative and postprocedural",
+    "hint": "Is it indexed to a chapter 19 T code?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Coding a Complication of Care Step by Step",
+   "content": "1. **Confirm it is a complication.** The provider must document a cause-and-effect relationship between the care and the condition, and the condition must be clinically significant. The word \"complication\" is not required. Query if unclear (I.C.19.g.1 → I.B.16).\n2. **Device pain?** Chapter 19 T code for pain due to the device, plus G89.18 or G89.28 for acute or chronic pain (I.C.19.g.2).\n3. **Transplanted organ?** Use T86 only if the organ's function is affected; add a secondary code for the complication (I.C.19.g.3(a)).\n4. **Kidney transplant?** CKD alone → not T86.1- (see I.C.14). Failure, rejection or other documented complication → T86.1-; other function problems → T86.1 + complication code; unclear → query (I.C.19.g.3(b)).\n5. **External cause:** if the complication code already includes the type of procedure, no external cause code for the procedure is needed (I.C.19.g.4).\n6. **Intraoperative or postprocedural?** Use the body system chapter's complication code first, then the specific complication if applicable, unless the Index sends you to a chapter 19 T code (I.C.19.g.5).",
+   "visual": {
+    "title": "Complication workflow",
+    "sub": "Section I.C.19.g",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1",
+      "b": "Documented cause and effect?"
+     },
+     {
+      "h": "2",
+      "b": "Device pain: T code + G89"
+     },
+     {
+      "h": "3-4",
+      "b": "Transplant: function affected?"
+     },
+     {
+      "h": "5-6",
+      "b": "External cause; which chapter"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• A complication code depends on the **provider's documentation** of a cause-and-effect relationship (I.C.19.g.1, Section I.B.16).\n• **Pain due to a device, implant or graft** (e.g., painful hip prosthesis): Chapter 19 T code **plus G89.18 or G89.28** (I.C.19.g.2).\n• **T86** covers complications and rejection of transplanted organs, but **only if the organ's function is affected**; two codes are required (I.C.19.g.3(a)).\n• Pre-existing or post-transplant conditions are **not** complications unless they affect the transplanted organ's function.\n• **Kidney transplant + CKD alone ≠ T86.1-.** Assign T86.1- for documented failure, rejection or other complication; query if unclear (I.C.19.g.3(b)).\n• Some complication codes **include the procedure**, so no external cause code for the procedure is needed (I.C.19.g.4).\n• Intraoperative and postprocedural complications usually come from the **body system chapters**, sequenced first, unless indexed to a chapter 19 T code (I.C.19.g.5).",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Section I.C.19.g",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Device pain",
+      "b": "T code + G89.18/G89.28"
+     },
+     {
+      "h": "Transplant",
+      "b": "T86 only if function affected"
+     },
+     {
+      "h": "Kidney + CKD",
+      "b": "Not T86.1- without failure/rejection"
+     },
+     {
+      "h": "Procedural",
+      "b": "Body system chapter first"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.19.g.3(a), how many codes are required to fully describe a transplant complication?",
+   "options": [
+    "One: the T86 code only",
+    "Two: the T86 code and a secondary code that identifies the complication",
+    "Three: T86, a G89 code and an external cause code",
+    "None, unless the organ is a kidney"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.g.3(a) states that two codes are required to fully describe a transplant complication: the appropriate code from category T86 and a secondary code that identifies the complication. T86 alone is incomplete. G89 is for pain (I.C.19.g.2) and is not part of this rule. The rule applies to transplanted organs other than kidney; kidney transplants have their own rule in I.C.19.g.3(b), so 'none unless kidney' is wrong.",
+   "visual": {
+    "topic": "Transplant complication codes",
+    "hint": "Count the codes the guideline names."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A complication of care code already identifies both the nature of the complication and the type of procedure that caused it. According to Section I.C.19.g.4, what else is needed to show the procedure?",
+   "options": [
+    "An external cause code for the type of procedure",
+    "A T86 code",
+    "No external cause code indicating the type of procedure is necessary",
+    "A code from category G89"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.g.4 says some complications of care codes have the external cause included in the code, covering the nature of the complication and the type of procedure, and no external cause code indicating the type of procedure is necessary. Adding one would duplicate information. T86 is for transplanted organs, and G89 is for pain; neither identifies the procedure.",
+   "visual": {
+    "topic": "External cause included",
+    "hint": "What does the code already contain?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,640 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Respiratory Rules That Change Sequencing",
+   "content": "Chapter 10 of the guidelines covers **Diseases of the Respiratory System (J00-J99)** and code **U07.0**. Its rules are short but heavily tested, because several of them change which diagnosis is principal or override general rules.\n\nIn this lesson you will learn:\n\n• **I.C.10.a** — what an **acute exacerbation** of COPD or asthma is, and what it is not\n• **I.C.10.b** — acute respiratory failure as a **principal** or **secondary** diagnosis, and how to sequence it with another acute condition\n• **I.C.10.c** — why influenza due to identified viruses (J09, J10) is coded only when **confirmed**, an exception to the inpatient uncertain-diagnosis rule\n• **I.C.10.d** — **ventilator associated pneumonia (VAP)**, code J95.851\n• **I.C.10.e** — **vaping-related disorders**, code U07.0\n• **I.C.11** — Chapter 11, Digestive System (K00-K95), which is reserved for future guideline expansion",
+   "visual": {
+    "title": "Chapters 10 and 11",
+    "sub": "Respiratory system rules, plus the digestive chapter",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "I.C.10.a COPD/asthma",
+      "b": "Exacerbation vs infection"
+     },
+     {
+      "h": "I.C.10.b Resp. failure",
+      "b": "Principal, secondary, sequencing"
+     },
+     {
+      "h": "I.C.10.c Influenza",
+      "b": "Confirmed only for J09/J10"
+     },
+     {
+      "h": "I.C.10.d VAP",
+      "b": "J95.851 only when documented"
+     },
+     {
+      "h": "I.C.10.e Vaping",
+      "b": "U07.0 as principal diagnosis"
+     },
+     {
+      "h": "I.C.11 Digestive",
+      "b": "Reserved for future expansion"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.10"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.10.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Acute Exacerbation",
+   "content": "Codes in **category J44** (chronic obstructive bronchitis / COPD) and **category J45** (asthma) separate **uncomplicated** cases from cases **in acute exacerbation**.\n\n**Definition from the guideline:** an **acute exacerbation** is a **worsening or a decompensation** of a chronic condition. (Decompensation means the body can no longer compensate for the disease, so it gets worse.)\n\n**What it is NOT:** an acute exacerbation is **not the same thing as an infection superimposed on** a chronic condition. An infection on top of COPD is not automatically an \"exacerbation.\"\n\n**But:** an exacerbation **may be triggered by** an infection. So the two can exist together — the coder relies on what the provider documents.\n\n**Exam trap:** do not code an exacerbation just because the patient with COPD has an infection. The worsening of the chronic condition itself is what makes it an exacerbation.",
+   "visual": {
+    "title": "Acute Exacerbation",
+    "sub": "Section I.C.10.a, categories J44 and J45",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Exacerbation is",
+      "b": "Worsening or decompensation of a chronic condition"
+     },
+     {
+      "h": "Exacerbation is NOT",
+      "b": "The same as an infection on top of it"
+     },
+     {
+      "h": "Can infection trigger it?",
+      "b": "Yes, it may be triggered by infection"
+     },
+     {
+      "h": "J44 / J45 codes",
+      "b": "Uncomplicated vs acute exacerbation"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.10.a, which statement about an acute exacerbation of COPD or asthma is correct?",
+   "options": [
+    "An acute exacerbation is a worsening or decompensation of a chronic condition, and it may be triggered by an infection",
+    "An acute exacerbation is equivalent to an infection superimposed on the chronic condition",
+    "An acute exacerbation cannot occur when an infection is present",
+    "Categories J44 and J45 do not distinguish uncomplicated cases from exacerbations"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.10.a defines an acute exacerbation as \"a worsening or a decompensation of a chronic condition\" and says it \"may be triggered by an infection.\" Option B is wrong because the guideline says an exacerbation \"is not equivalent to an infection superimposed on a chronic condition.\" Option C is wrong because an infection can trigger an exacerbation. Option D is wrong because the codes in J44 and J45 do distinguish between uncomplicated cases and those in acute exacerbation.",
+   "visual": {
+    "topic": "Acute exacerbation",
+    "hint": "Is an infection the same thing as a worsening of the chronic disease?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.10.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Respiratory Failure as Principal",
+   "content": "**Section I.C.10.b.1.** A code from **subcategory J96.0**, Acute respiratory failure, or **subcategory J96.2**, Acute and chronic respiratory failure, **may be the principal diagnosis** when:\n\n• it is the condition **established after study to be chiefly responsible** for the admission, **and**\n• the selection is **supported by the Alphabetic Index and Tabular List**.\n\n**However:** chapter-specific guidelines that give sequencing direction **take precedence**. The guideline names examples: **obstetrics, poisoning, HIV, newborn**.\n\n**What this means in practice:** acute respiratory failure can be principal, but if another chapter's rule says a different code must be sequenced first (for example, a poisoning rule), that rule wins.",
+   "visual": {
+    "title": "Resp. Failure as Principal",
+    "sub": "Section I.C.10.b.1 (J96.0 or J96.2)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Allowed when",
+      "b": "Chiefly responsible for the admission after study"
+     },
+     {
+      "h": "And",
+      "b": "Supported by the Index and Tabular List"
+     },
+     {
+      "h": "Overridden by",
+      "b": "Chapter-specific sequencing rules"
+     },
+     {
+      "h": "Examples named",
+      "b": "Obstetrics, poisoning, HIV, newborn"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Secondary Diagnosis and Another Acute Condition",
+   "content": "**Section I.C.10.b.2 — secondary.** Respiratory failure may be listed as a **secondary diagnosis** if:\n\n• it **occurs after admission**, or\n• it is **present on admission** but does **not** meet the definition of principal diagnosis.\n\n**Section I.C.10.b.3 — with another acute condition.** When a patient is admitted with respiratory failure **and another acute condition** (the guideline's examples: myocardial infarction, cerebrovascular accident, aspiration pneumonia), the principal diagnosis **will not be the same in every situation**. This is true whether the other condition is respiratory or nonrespiratory.\n\n• Principal diagnosis depends on the **circumstances of admission**.\n• If both are **equally responsible** for the admission and there are **no chapter-specific sequencing rules**, the Section II.C guideline for two or more diagnoses that equally meet the definition of principal diagnosis **may be applied** (under Section II.C, any one of them may be sequenced first).\n• If documentation is **not clear** whether they are equally responsible, **query the provider**.\n\n**Exam trap:** there is no automatic rule that respiratory failure is always principal, or always secondary. It depends on the circumstances.",
+   "visual": {
+    "title": "Resp. Failure + Another Acute",
+    "sub": "Section I.C.10.b.2 and I.C.10.b.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "After admission",
+      "b": "Secondary diagnosis"
+     },
+     {
+      "h": "POA, not principal",
+      "b": "Secondary diagnosis"
+     },
+     {
+      "h": "Equally responsible",
+      "b": "Section II.C may apply"
+     },
+     {
+      "h": "Unclear if equal",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Which One Is Principal?",
+   "content": "**Scenario 1.** A patient is admitted for treatment of acute respiratory failure. After study, it is the condition chiefly responsible for the admission, and no chapter-specific rule applies.\n\n• Guideline: I.C.10.b.1 → a code from **J96.0** may be the principal diagnosis.\n\n**Scenario 2.** A patient is admitted for an acute MI. On day 3, acute respiratory failure develops.\n\n• Guideline: I.C.10.b.2 → respiratory failure occurred after admission, so it is a **secondary** diagnosis.\n\n**Scenario 3.** A patient arrives with both acute respiratory failure and an acute stroke. The provider documents that both equally led to the admission, and no chapter-specific rule applies.\n\n• Guideline: I.C.10.b.3 → Section II.C may be applied; either may be sequenced first.\n\n**Scenario 4.** Same as Scenario 3, but the record does not make clear whether the two were equally responsible.\n\n• Guideline: I.C.10.b.3 → **query the provider**.",
+   "visual": {
+    "title": "Sequencing Resp. Failure",
+    "sub": "Four admissions, four answers",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Chief reason",
+      "b": "J96.0 may be principal"
+     },
+     {
+      "h": "2. Develops day 3",
+      "b": "Secondary diagnosis"
+     },
+     {
+      "h": "3. Equal, no chapter rule",
+      "b": "Section II.C may apply"
+     },
+     {
+      "h": "4. Unclear if equal",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient develops acute respiratory failure on the second day of a hospital stay for another condition. According to Section I.C.10.b.2, how is the respiratory failure reported?",
+   "options": [
+    "As the principal diagnosis, because it is the most serious condition",
+    "Only after a query to the provider",
+    "It is not reported because it was not present on admission",
+    "As a secondary diagnosis, because it occurred after admission"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.10.b.2 says respiratory failure \"may be listed as a secondary diagnosis if it occurs after admission.\" The principal diagnosis is the condition established after study to be chiefly responsible for the admission, not simply the most serious one, so A is wrong. Nothing in the guideline says conditions arising after admission are not reported, so C is wrong. A query is not required here because the guideline directly addresses this situation.",
+   "visual": {
+    "topic": "Respiratory failure after admission",
+    "hint": "When did the respiratory failure start?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with acute respiratory failure and an acute myocardial infarction. The documentation does not make clear whether the two were equally responsible for the admission. What does Section I.C.10.b.3 direct?",
+   "options": [
+    "Always sequence acute respiratory failure first",
+    "Always sequence the myocardial infarction first",
+    "Query the provider for clarification",
+    "Code only the respiratory failure"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.10.b.3 says \"If the documentation is not clear as to whether acute respiratory failure and another condition are equally responsible for occasioning the admission, query the provider for clarification.\" Options A and B are wrong because the guideline says the principal diagnosis \"will not be the same in every situation.\" Option D is wrong because nothing in the guideline drops the other acute condition.",
+   "visual": {
+    "topic": "Resp. failure + another acute",
+    "hint": "What does the guideline say to do when documentation is unclear?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Per Section I.C.10.b.1, which statement is true about assigning acute respiratory failure (J96.0) as the principal diagnosis?",
+   "options": [
+    "It is never allowed as principal",
+    "It may be principal, but chapter-specific guidelines that give sequencing direction (such as obstetrics, poisoning, HIV, newborn) take precedence",
+    "It must always be principal when present on admission",
+    "It may be principal only when chronic respiratory failure is also present"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.10.b.1 says J96.0 or J96.2 may be principal when it is chiefly responsible for the admission and supported by the Index and Tabular, \"However, chapter-specific coding guidelines (such as obstetrics, poisoning, HIV, newborn) that provide sequencing direction take precedence.\" A and C are absolutes the guideline does not state. D is wrong because J96.0, acute respiratory failure alone, may be principal; J96.2 is a separate option for acute and chronic.",
+   "visual": {
+    "topic": "Respiratory failure as principal",
+    "hint": "Look for the word \"However\" in the guideline."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.10.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Confirmed Influenza Only",
+   "content": "Section I.C.10.c covers three influenza categories:\n\n• **J09** — Influenza due to certain identified influenza viruses (avian influenza or other **novel influenza A**)\n• **J10** — Influenza due to other identified influenza virus (a particular identified strain such as **H1N1 or H3N2**, not identified as novel or variant)\n• **J11** — Influenza due to unidentified influenza virus\n\n**The rule:** code J09 and J10 **only for confirmed cases**.\n\n**Why it is an exception:** Section II.H normally tells inpatient coders to code a diagnosis qualified as \"probable,\" \"suspected,\" or \"possible\" **as if it existed**. Section I.C.10.c says this rule is an **exception** to Section II.H.\n\n**What \"confirmed\" means here:** it does **not** require a positive lab test. Confirmation is based on the **provider's diagnostic statement** that the patient has avian influenza, novel influenza A, or another particular identified strain.\n\n**If the provider says \"suspected,\" \"possible\" or \"probable\":** assign the appropriate code from **J11**. Do **not** assign J09 or J10.",
+   "visual": {
+    "title": "Influenza Code Selection",
+    "sub": "Section I.C.10.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Avian or novel A stated",
+      "b": "Category J09"
+     },
+     {
+      "h": "H1N1 or H3N2 stated",
+      "b": "Category J10 (not novel/variant)"
+     },
+     {
+      "h": "Uncertain provider terms",
+      "b": "Suspected, possible or probable: J11, not J09 or J10"
+     },
+     {
+      "h": "Lab test required?",
+      "b": "No. Provider statement confirms."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Exam Trap: Inpatient Uncertain Diagnosis vs Influenza",
+   "content": "This is one of the most tested exceptions in the guidelines.\n\n**General inpatient rule (Section II.H):** if a diagnosis at discharge is qualified as \"probable,\" \"suspected,\" \"possible\" and similar terms, code it **as if it existed**.\n\n**Influenza exception (Section I.C.10.c):** for categories **J09** and **J10**, \"suspected,\" \"possible\" or \"probable\" is **not enough**. Code J11 instead.\n\n**Two separate questions:**\n\n1. **Is the identified-virus influenza confirmed?** Confirmation comes from the provider's diagnostic statement, not from lab results.\n2. **If not confirmed** (suspected/possible/probable) → J11.\n\n**Do not mix them up:** a positive lab result is not required for confirmation, and an uncertain provider statement does not count as confirmation, even for an inpatient.",
+   "visual": {
+    "title": "II.H vs I.C.10.c",
+    "sub": "Uncertain terms in an inpatient record",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Most diagnoses (II.H)",
+      "b": "Code as if established"
+     },
+     {
+      "h": "J09 / J10 influenza",
+      "b": "EXCEPTION: confirmed only"
+     },
+     {
+      "h": "Confirmed by",
+      "b": "Provider's diagnostic statement"
+     },
+     {
+      "h": "Not confirmed",
+      "b": "J11, unidentified virus"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient's discharge summary states \"probable avian influenza.\" There is no other statement of the diagnosis. According to Section I.C.10.c, which category is assigned?",
+   "options": [
+    "J11, Influenza due to unidentified influenza virus",
+    "J10, Influenza due to other identified influenza virus",
+    "J09, because inpatient uncertain diagnoses are coded as if established",
+    "No influenza code may be assigned without a positive lab test"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.10.c says that if the provider records \"suspected\" or \"possible\" or \"probable\" avian influenza, the appropriate code from J11 should be assigned, and neither J09 nor J10 should be assigned. Option C is wrong because this guideline is an exception to Section II.H (Uncertain Diagnosis). Option B is wrong for the same reason, and J10 is not for avian influenza. Option D is wrong because confirmation does not require a positive lab test, and J11 is still assigned.",
+   "visual": {
+    "topic": "Probable avian flu",
+    "hint": "This guideline is an exception to the usual inpatient rule."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents \"H1N1 influenza\" in the diagnostic statement, but no lab test specific for the strain is in the record. Per Section I.C.10.c, what should the coder do?",
+   "options": [
+    "Assign a code from J11 because no lab result confirms the strain",
+    "Assign a code from J09 because H1N1 is an identified virus",
+    "Query the provider for lab results before assigning any code",
+    "Assign a code from J10 based on the provider's diagnostic statement"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.10.c says confirmation \"does not require documentation of positive laboratory testing\" and that coding should be based on the provider's statement that the patient has \"another particular identified strain of influenza, such as H1N1 or H3N2, but not identified as novel or variant, for category J10.\" J11 is for unidentified virus or suspected/possible/probable statements. A lab query is unnecessary. J09 is for avian or other novel influenza A.",
+   "visual": {
+    "topic": "H1N1 without lab",
+    "hint": "Does confirmation depend on the lab or the provider?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.10.d"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Documenting VAP",
+   "content": "**Ventilator associated pneumonia (VAP)** is pneumonia that is a complication of mechanical ventilation (a breathing machine).\n\nSection I.C.10.d.1 rules:\n\n• Like all procedural or postprocedural complications, code assignment is based on the **provider's documentation of the relationship** between the condition and the procedure.\n• Assign **J95.851**, Ventilator associated pneumonia, **only when the provider has documented VAP**.\n• Add a code for the **organism** (the guideline's example: Pseudomonas aeruginosa, **B96.5**).\n• **Do not** add a code from **J12-J18** to identify the type of pneumonia.\n\n**When NOT to use J95.851:** the patient has pneumonia **and** is on a ventilator, but the provider has **not specifically stated** it is VAP. Being on a ventilator is not enough.\n\n**If unclear** whether the pneumonia is a complication attributable to the ventilator → **query the provider**.",
+   "visual": {
+    "title": "Code J95.851 (VAP)",
+    "sub": "Section I.C.10.d.1",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Assign when",
+      "b": "Provider documents VAP"
+     },
+     {
+      "h": "Also code",
+      "b": "The organism, e.g., B96.5"
+     },
+     {
+      "h": "Do NOT add",
+      "b": "J12-J18 for pneumonia type"
+     },
+     {
+      "h": "Pneumonia + ventilator only",
+      "b": "Not enough for J95.851"
+     },
+     {
+      "h": "Unclear relationship",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: VAP Develops After Admission",
+   "content": "Section I.C.10.d.2 covers a patient who is **admitted with one type of pneumonia** and **later develops VAP**.\n\nThe guideline's example: a patient admitted with **J13**, Pneumonia due to Streptococcus pneumonia, who later develops VAP.\n\n• **Principal diagnosis:** the appropriate **J12-J18** code for the pneumonia diagnosed **at the time of admission**.\n• **Additional diagnosis:** **J95.851** — when the provider has **also documented** the presence of VAP.\n\n**Notice the difference from I.C.10.d.1:** I.C.10.d.1 says not to add a J12-J18 code to describe the **VAP's** pneumonia type. In I.C.10.d.2 the J12-J18 code is reporting a **different pneumonia** — the one the patient had on admission. So both codes appear on the same record.",
+   "visual": {
+    "title": "Admitted With Pneumonia",
+    "sub": "Then VAP develops (I.C.10.d.2)",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Principal",
+      "b": "J12-J18 code for the admission pneumonia (e.g., J13)"
+     },
+     {
+      "h": "Additional",
+      "b": "J95.851, when provider also documents VAP"
+     },
+     {
+      "h": "Why both",
+      "b": "Two different pneumonias at two different times"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient on a mechanical ventilator develops pneumonia. The provider documents \"pneumonia\" but does not state that it is ventilator associated. Per Section I.C.10.d.1, what should the coder do?",
+   "options": [
+    "Assign J95.851 because the patient is on a ventilator",
+    "Assign J95.851 plus a code from J12-J18",
+    "Not assign J95.851 without the provider's statement; query the provider if it is unclear whether the pneumonia is a complication of the ventilator",
+    "Assign B96.5 as the principal diagnosis"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.10.d.1 says J95.851 \"should not be assigned for cases where the patient has pneumonia and is on a mechanical ventilator and the provider has not specifically stated that the pneumonia is ventilator-associated pneumonia,\" and that if documentation is unclear, the coder should query the provider. Option A assigns VAP on assumption. Option B also violates the rule against adding J12-J18 to identify the VAP's pneumonia type. Option D is wrong because B96.5 is given only as an example of an additional organism code.",
+   "visual": {
+    "topic": "Pneumonia on a ventilator",
+    "hint": "Who must document the link to the ventilator?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with pneumonia due to Streptococcus pneumonia (J13). On day 5 the provider documents ventilator associated pneumonia. According to Section I.C.10.d.2, how are these sequenced?",
+   "options": [
+    "J95.851 principal, J13 additional",
+    "J13 principal, J95.851 additional",
+    "J95.851 only",
+    "J13 only"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.10.d.2 says the principal diagnosis is the appropriate J12-J18 code for the pneumonia diagnosed at the time of admission (here J13), and J95.851 is assigned as an additional diagnosis when the provider has also documented VAP. Option A reverses the order. Options C and D each leave out one of the two pneumonias the guideline says to report.",
+   "visual": {
+    "topic": "VAP after admission",
+    "hint": "Which pneumonia was the reason for admission?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.10.e"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Vaping-Related Disorders",
+   "content": "Section I.C.10.e covers conditions related to **vaping** (using an e-cigarette or similar device).\n\n• For patients **presenting with** condition(s) related to vaping, assign **U07.0**, Vaping-related disorder, as the **principal diagnosis**.\n• For **lung injury due to vaping**, assign **only U07.0**.\n• Assign **additional codes** for **other manifestations**, such as acute respiratory failure (**subcategory J96.0-**) or pneumonitis (**J68.0**).\n\n**Signs and symptoms:**\n\n• **Respiratory** signs and symptoms due to vaping (cough, shortness of breath, etc.) are **not coded separately** when a definitive diagnosis has been established.\n• **Gastrointestinal** symptoms (such as diarrhea and abdominal pain) **may be coded separately**.\n\nThe guideline also points to Section I.C.1.g.1.c.i for pneumonia confirmed as due to COVID-19.",
+   "visual": {
+    "title": "Vaping: Code U07.0",
+    "sub": "Section I.C.10.e",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Principal diagnosis",
+      "b": "U07.0, Vaping-related disorder"
+     },
+     {
+      "h": "Lung injury from vaping",
+      "b": "Only U07.0"
+     },
+     {
+      "h": "Other manifestations",
+      "b": "Add codes, e.g., J96.0- or J68.0"
+     },
+     {
+      "h": "Cough, short of breath",
+      "b": "Not coded separately"
+     },
+     {
+      "h": "Diarrhea, abdominal pain",
+      "b": "Coded separately"
+     },
+     {
+      "h": "Condition",
+      "b": "Definitive diagnosis established"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: A Vaping Admission",
+   "content": "**Documentation:** \"Vaping-related lung injury with acute respiratory failure and pneumonitis. Patient also has cough, shortness of breath, diarrhea and abdominal pain.\"\n\nApplying Section I.C.10.e:\n\n• **Principal:** U07.0, Vaping-related disorder.\n• **Lung injury:** covered by U07.0 alone. No separate lung injury code.\n• **Manifestations:** add acute respiratory failure (subcategory J96.0-) and pneumonitis (J68.0).\n• **Cough and shortness of breath:** respiratory symptoms; not coded separately because a definitive diagnosis has been established.\n• **Diarrhea and abdominal pain:** gastrointestinal symptoms; appropriate to code separately.",
+   "visual": {
+    "title": "Vaping Case Breakdown",
+    "sub": "What gets coded? (I.C.10.e)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "U07.0",
+      "b": "Principal; covers the lung injury"
+     },
+     {
+      "h": "J96.0- and J68.0",
+      "b": "Manifestations, added"
+     },
+     {
+      "h": "Cough, dyspnea",
+      "b": "Not coded separately"
+     },
+     {
+      "h": "Diarrhea, abd. pain",
+      "b": "Coded separately"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient presents with lung injury due to vaping. The provider has established the definitive diagnosis. The patient also has a cough. According to Section I.C.10.e, which is correct?",
+   "options": [
+    "Assign U07.0 as the principal diagnosis and do not code the cough separately",
+    "Assign a code for the cough first, then U07.0",
+    "Assign U07.0 as a secondary diagnosis only",
+    "Assign U07.0 plus a separate lung injury code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.10.e says to assign U07.0 as the principal diagnosis, that for lung injury due to vaping only U07.0 is assigned, and that respiratory signs and symptoms such as cough are not coded separately when a definitive diagnosis has been established. Option B puts a symptom first and codes it separately. Option C contradicts \"as the principal diagnosis.\" Option D contradicts \"assign only code U07.0\" for lung injury.",
+   "visual": {
+    "topic": "Vaping lung injury",
+    "hint": "What does the guideline say about lung injury and about cough?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a vaping-related disorder also has diarrhea and abdominal pain. Per Section I.C.10.e, how are these symptoms handled?",
+   "options": [
+    "They are never coded with U07.0",
+    "They are coded only if the patient also has a cough",
+    "They replace U07.0 as principal",
+    "They may be coded separately because they are gastrointestinal symptoms"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.10.e states \"it would be appropriate to code separately any gastrointestinal symptoms, such as diarrhea and abdominal pain.\" Option A confuses them with respiratory symptoms, which are not coded separately once a definitive diagnosis is established. Option C contradicts the rule that U07.0 is principal. Option B invents a condition not in the guideline.",
+   "visual": {
+    "topic": "GI symptoms with vaping",
+    "hint": "Respiratory and GI symptoms are treated differently."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.11"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Chapter 11, Digestive System",
+   "content": "Section I.C.11 is the heading for **Chapter 11: Diseases of the Digestive System (K00-K95)**. Its only text is: **\"Reserved for future guideline expansion.\"**\n\nThat means the FY 2027 guidelines contain **no chapter-specific rules** for the digestive system.\n\n**What it does NOT mean:** it does not mean digestive conditions are coded without rules. The conventions and general coding guidelines (Sections I.A and I.B), and Sections II and III for selecting and reporting diagnoses, still apply to every digestive code. There simply is no extra chapter-specific guidance in Section I.C.11.",
+   "visual": {
+    "title": "Chapter 11 (K00-K95)",
+    "sub": "Section I.C.11",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Text of I.C.11",
+      "b": "Reserved for future guideline expansion"
+     },
+     {
+      "h": "Chapter rules?",
+      "b": "None in FY 2027"
+     },
+     {
+      "h": "Still apply",
+      "b": "Conventions and general guidelines"
+     },
+     {
+      "h": "Also apply",
+      "b": "Sections II and III"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "What does Section I.C.11 (Chapter 11: Diseases of the Digestive System, K00-K95) contain in the FY 2027 guidelines?",
+   "options": [
+    "Detailed sequencing rules for gastrointestinal bleeding",
+    "An exception to Section II.H for digestive conditions",
+    "Only the statement \"Reserved for future guideline expansion\"",
+    "A rule that digestive symptoms are never coded"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.11 says only \"Reserved for future guideline expansion.\" There are no chapter-specific digestive rules, so options A and B describe rules that do not exist in this section. Option D is also not in the guidelines; in fact, Section I.C.10.e says gastrointestinal symptoms with vaping may be coded separately.",
+   "visual": {
+    "topic": "Chapter 11",
+    "hint": "Is there any chapter-specific digestive guidance?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Chapter 10 Rules on a Record",
+   "content": "Use these steps on any record with respiratory conditions.\n\n1. **COPD or asthma?** Check whether the provider documents an **acute exacerbation** (worsening/decompensation). An infection alone does not equal an exacerbation (I.C.10.a).\n2. **Acute respiratory failure?** Was it chiefly responsible for the admission after study, supported by the Index and Tabular? If so, it may be principal — unless a chapter-specific rule (obstetrics, poisoning, HIV, newborn) directs otherwise (I.C.10.b.1).\n3. **Developed after admission, or POA but not principal?** Report it as secondary (I.C.10.b.2).\n4. **Respiratory failure plus another acute condition?** Decide by the circumstances of admission. Equally responsible with no chapter rule → Section II.C may apply. Unclear → query (I.C.10.b.3).\n5. **Influenza with an identified virus?** J09/J10 only if the provider states it as a diagnosis. Suspected/possible/probable → J11 (I.C.10.c).\n6. **Pneumonia on a ventilator?** J95.851 only when the provider documents VAP; add the organism, no J12-J18 for the VAP. Admitted with another pneumonia → that J12-J18 code is principal, J95.851 additional (I.C.10.d).\n7. **Vaping?** U07.0 principal; only U07.0 for lung injury; add manifestations; skip respiratory symptoms, code GI symptoms (I.C.10.e).",
+   "visual": {
+    "title": "Respiratory Coding Path",
+    "sub": "Seven checks from Section I.C.10",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1 COPD/asthma",
+      "b": "Exacerbation documented?"
+     },
+     {
+      "h": "2-4 Resp. failure",
+      "b": "Principal, secondary, or query"
+     },
+     {
+      "h": "5 Influenza",
+      "b": "Confirmed? J09/J10. Else J11."
+     },
+     {
+      "h": "6 Ventilator",
+      "b": "VAP documented? J95.851"
+     },
+     {
+      "h": "7 Vaping",
+      "b": "U07.0 first; add manifestations"
+     },
+     {
+      "h": "Chapter 11",
+      "b": "No chapter-specific rules"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• An **acute exacerbation** is a worsening or decompensation of a chronic condition. It is not the same as an infection on top of it, though an infection may trigger it (I.C.10.a).\n• **J96.0 / J96.2** may be principal when chiefly responsible and supported by the Index and Tabular; chapter-specific sequencing rules (obstetrics, poisoning, HIV, newborn) take precedence (I.C.10.b.1).\n• Respiratory failure is **secondary** if it occurs after admission or is POA but not principal (I.C.10.b.2).\n• With another acute condition, the principal diagnosis depends on circumstances; equally responsible → Section II.C may apply; unclear → query (I.C.10.b.3).\n• **J09/J10** influenza only when the provider confirms it; no lab test is required; suspected/possible/probable → **J11**. This is an exception to Section II.H (I.C.10.c).\n• **J95.851** only when the provider documents VAP; add the organism code; no J12-J18 for the VAP's pneumonia type (I.C.10.d).\n• **U07.0** is principal for vaping-related conditions; only U07.0 for vaping lung injury; respiratory symptoms not coded, GI symptoms coded (I.C.10.e).\n• **Chapter 11 (K00-K95)** has no chapter-specific guidelines yet (I.C.11).",
+   "visual": {
+    "title": "Lesson Summary",
+    "sub": "Chapters 10 and 11",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Exacerbation",
+      "b": "Worsening, not just infection"
+     },
+     {
+      "h": "Resp. failure",
+      "b": "Depends on circumstances"
+     },
+     {
+      "h": "Influenza J09/J10",
+      "b": "Confirmed only; else J11"
+     },
+     {
+      "h": "VAP / Vaping",
+      "b": "J95.851 if documented; U07.0"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which pair correctly matches a rule to its section?",
+   "options": [
+    "Section I.C.10.c — respiratory symptoms from vaping are not coded separately",
+    "Section I.C.10.d — J95.851 is assigned only when the provider documents ventilator associated pneumonia",
+    "Section I.C.10.a — acute respiratory failure may be principal",
+    "Section I.C.11 — influenza must be confirmed"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.10.d.1 says J95.851 \"should be assigned only when the provider has documented ventilator associated pneumonia (VAP).\" Option A's rule belongs to I.C.10.e (vaping). Option C's rule belongs to I.C.10.b (acute respiratory failure); I.C.10.a covers COPD and asthma exacerbations. Option D's rule belongs to I.C.10.c; I.C.11 is reserved for future expansion.",
+   "visual": {
+    "topic": "Matching rules to sections",
+    "hint": "Recall the topic of each subsection a through e."
+   }
+  }
+ ]
+}

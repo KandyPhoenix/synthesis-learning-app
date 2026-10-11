@@ -1,0 +1,580 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Conventions I: Index, Tabular, Placeholders and 7th Characters",
+   "content": "Before you can apply any coding rule, you need to know how ICD-10-CM is built. Section I.A, **Conventions for the ICD-10-CM**, explains the general rules of the classification itself.\n\nIn this lesson you will learn:\n\n• What **conventions** are and where they live\n• The two main parts of ICD-10-CM: the **Alphabetic Index** and the **Tabular List**\n• The difference between a **category**, **subcategory** and **code**\n• Why only **codes** can be reported\n• How the **placeholder X** and **7th characters** work\n• What the abbreviations **NEC** and **NOS** mean in the Index and in the Tabular List\n\nThese rules are the grammar of ICD-10-CM. An exam question about a \"valid code\" almost always tests something from this lesson.",
+   "visual": {
+    "title": "The Building Blocks",
+    "sub": "How ICD-10-CM is put together",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Index + Tabular",
+      "b": "Two parts, always used together"
+     },
+     {
+      "h": "Category to code",
+      "b": "Levels of subdivision"
+     },
+     {
+      "h": "Placeholder X",
+      "b": "Holds a spot for future expansion"
+     },
+     {
+      "h": "7th character",
+      "b": "Required where applicable"
+     },
+     {
+      "h": "NEC",
+      "b": "Other specified"
+     },
+     {
+      "h": "NOS",
+      "b": "Unspecified"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: What Conventions Are",
+   "content": "Section I.A defines **conventions** as **\"the general rules for use of the classification independent of the guidelines.\"**\n\nTwo key points:\n\n• Conventions are **independent of the guidelines**. They are part of ICD-10-CM itself.\n• They are **incorporated within the Alphabetic Index and Tabular List** as **instructional notes**. In other words, you see them right in the code book entries you are looking at.\n\nRecall from the Introduction and Section I that **the conventions and instructions of the classification take precedence over guidelines**. That is why conventions are taught first.\n\n**What it does NOT mean:** Conventions are not a separate list you look up somewhere else. They show up as notes inside the Index and Tabular List entries.",
+   "visual": {
+    "title": "What Is a Convention?",
+    "sub": "General rules built into the classification",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Definition",
+      "b": "General rules for use of the classification"
+     },
+     {
+      "h": "Independent",
+      "b": "Separate from the guidelines"
+     },
+     {
+      "h": "Where",
+      "b": "Instructional notes in the Index and Tabular List"
+     },
+     {
+      "h": "Authority",
+      "b": "Take precedence over guidelines"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.1"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Alphabetic Index and Tabular List",
+   "content": "ICD-10-CM is divided into two parts:\n\n**1. Alphabetic Index** - \"an alphabetical list of terms and their corresponding code.\" It has four parts:\n• The **Index of Diseases and Injury**\n• The **Index of External Causes of Injury**\n• The **Table of Neoplasms**\n• The **Table of Drugs and Chemicals**\n\n**2. Tabular List** - \"a structured list of codes divided into chapters based on body system or condition.\"\n\nThe official text points you to Section I.C.2 (Neoplasms) and Section I.C.19 (Adverse effects, poisoning, underdosing and toxic effects), the chapters where the two tables are used most.\n\n**Exam trap:** The Table of Neoplasms and the Table of Drugs and Chemicals are parts of the **Alphabetic Index**, not the Tabular List.",
+   "visual": {
+    "title": "Two Parts of ICD-10-CM",
+    "sub": "The Index points; the Tabular confirms",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Alphabetic Index",
+      "b": "Alphabetical list of terms and their codes"
+     },
+     {
+      "h": "Tabular List",
+      "b": "Structured list of codes in chapters"
+     },
+     {
+      "h": "Index parts 1-2",
+      "b": "Diseases and Injury; External Causes of Injury"
+     },
+     {
+      "h": "Index parts 3-4",
+      "b": "Table of Neoplasms; Table of Drugs and Chemicals"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.A.1, which of the following is a part of the Alphabetic Index?",
+   "options": [
+    "The Tabular List chapters",
+    "The Official Guidelines Section IV",
+    "The Table of Drugs and Chemicals",
+    "The chapter-specific guidelines"
+   ],
+   "correct": 2,
+   "explanation": "Section I.A.1 lists the parts of the Alphabetic Index: the Index of Diseases and Injury, the Index of External Causes of Injury, the Table of Neoplasms and the Table of Drugs and Chemicals. The Tabular List is the other half of ICD-10-CM, not part of the Index. Section IV and the chapter-specific guidelines are parts of the guidelines document, not the Alphabetic Index.",
+   "visual": {
+    "topic": "Parts of the Alphabetic Index",
+    "hint": "The Index has four parts, including two tables."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.2"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Categories, Subcategories and Codes",
+   "content": "Section I.A.2 defines the levels of the Tabular List:\n\n• **Category** - always **3 characters**. A three-character category that has **no further subdivision is equivalent to a code**.\n• **Subcategory** - **4 or 5 characters**. Each level of subdivision after a category is a subcategory.\n• **Code** - the **final level of subdivision**. Codes may be **3, 4, 5, 6 or 7 characters**.\n\nAlso:\n\n• Characters may be either a **letter or a number**.\n• Codes that have applicable 7th characters are **still called codes**, not subcategories.\n• **A code that has an applicable 7th character is considered invalid without the 7th character.**\n• The Tabular List uses an **indented format** for ease in reference.\n\n**Exam trap:** \"Subcategory\" is not about length alone. It is any level of subdivision **after** the category that is **not** the final level. The final level is always the code.",
+   "visual": {
+    "title": "Levels of the Tabular List",
+    "sub": "Each level of subdivision after a category is a subcategory",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Category",
+      "b": "Always 3 characters"
+     },
+     {
+      "h": "Subcategory",
+      "b": "4 or 5 characters"
+     },
+     {
+      "h": "Code",
+      "b": "Final level: 3 to 7 characters"
+     },
+     {
+      "h": "No subdivision?",
+      "b": "A 3-character category = a code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Reading the Levels in Real Entries",
+   "content": "The guidelines text itself uses several entries you can read with the Section I.A.2 rules:\n\n• **F02** is called a **category** (I.A.13: \"category F02, Dementia in other diseases classified elsewhere\"). It has 3 characters.\n• **F02.80** is called a **code** in I.A.13. It is a final level of subdivision.\n• **F02.81-** appears with a **dash** in I.A.13. Section I.B.1 explains that a dash at the end of an Index entry means **additional characters are required**, so F02.81 by itself is not the final level.\n• **A18.0** is called a **subcategory** in I.A.14 (\"subcategory A18.0, Tuberculosis of bones and joints\"). It has 4 characters, which fits the rule that subcategories are 4 or 5 characters.\n• **F45.8** (Other somatoform disorders) and **G47.63** are called **codes** in I.A.12.a - a 4-character code and a 5-character code.\n\nThe lesson: you cannot tell whether something is a code just by counting characters. You must check whether it is the **final** level in the Tabular List.",
+   "visual": {
+    "title": "Same Rules, Real Entries",
+    "sub": "How the guidelines text labels each level",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "F02",
+      "b": "Category (3 characters)"
+     },
+     {
+      "h": "A18.0",
+      "b": "Subcategory (4 characters)"
+     },
+     {
+      "h": "F02.80, F45.8",
+      "b": "Codes: final level of subdivision"
+     },
+     {
+      "h": "F02.81-",
+      "b": "Dash: more characters needed"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Under Section I.A.2, a 6-character code requires an applicable 7th character, but the coder reports only the first 6 characters. How is the reported code classified?",
+   "options": [
+    "Invalid, because a code that has an applicable 7th character is considered invalid without the 7th character",
+    "Valid, because codes may be 6 characters",
+    "Valid, but less specific",
+    "It becomes a subcategory and may be reported"
+   ],
+   "correct": 0,
+   "explanation": "Section I.A.2 states: \"A code that has an applicable 7th character is considered invalid without the 7th character.\" Although some codes are 6 characters long, this one requires a 7th character, so 6 characters is not enough - it is invalid, not merely less specific. The text also says codes with applicable 7th characters \"are still referred to as codes, not subcategories,\" and I.A.3 says only codes may be reported.",
+   "visual": {
+    "topic": "Valid codes",
+    "hint": "What happens when a required 7th character is missing?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.A.2, how many characters does every ICD-10-CM category have?",
+   "options": [
+    "4",
+    "3 or 4",
+    "Between 3 and 7",
+    "3"
+   ],
+   "correct": 3,
+   "explanation": "Section I.A.2 states: \"All categories are 3 characters.\" Subcategories are 4 or 5 characters, and codes may be 3, 4, 5, 6 or 7 characters. A three-character category that has no further subdivision is equivalent to a code.",
+   "visual": {
+    "topic": "Format and structure",
+    "hint": "Categories have a fixed length."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.3"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Only Codes Can Be Reported",
+   "content": "Section I.A.3 is short but strict: **\"For reporting purposes only codes are permissible, not categories or subcategories, and any applicable 7th character is required.\"**\n\nPut together with I.A.2:\n\n• You may report a **code** - the final level of subdivision.\n• You may **not** report a **category** that is further subdivided.\n• You may **not** report a **subcategory**.\n• If the code has an applicable **7th character**, it must be included.\n\n**What it does NOT mean:** It does not ban every 3-character entry. A three-character category that has **no further subdivision** is equivalent to a code (I.A.2), so it can be reported.",
+   "visual": {
+    "title": "What May Be Reported?",
+    "sub": "Only codes, with any applicable 7th character",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Category (subdivided)",
+      "b": "NOT reportable"
+     },
+     {
+      "h": "Subcategory",
+      "b": "NOT reportable"
+     },
+     {
+      "h": "Code",
+      "b": "Reportable"
+     },
+     {
+      "h": "3-char, no subdivision",
+      "b": "Equivalent to a code: reportable"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Category, Subcategory or Code?",
+   "content": "Apply I.A.2 and I.A.3 to entries mentioned in the guidelines text.\n\n**Documentation:** Tuberculosis of bones and joints. A student wants to report **A18.0**.\n• Section I.A.14 calls A18.0 a **subcategory**. Under I.A.3, subcategories are not permitted for reporting. The coder must go to the Tabular List and select the full **code** under it.\n\n**Documentation:** Dementia due to Parkinson's disease. A student wants to report **F02** as the manifestation.\n• Section I.A.13 calls F02 a **category**, and it is subdivided (F02.80, F02.81-). Under I.A.3, the category cannot be reported. The coder must select the appropriate code.\n\n**Documentation:** Sleep related teeth grinding. The coder selects **G47.63**.\n• Section I.A.12.a calls G47.63 a **code**, so it is reportable (assuming no other instruction applies).",
+   "visual": {
+    "title": "Report Codes Only",
+    "sub": "Applying I.A.3 to entries from the guidelines",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "A18.0",
+      "b": "Subcategory: keep going to the code"
+     },
+     {
+      "h": "F02",
+      "b": "Subdivided category: keep going"
+     },
+     {
+      "h": "G47.63",
+      "b": "Code: reportable"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A coder submits a claim with a subcategory because the record did not contain enough detail for a more specific entry. According to Section I.A.3, is this acceptable?",
+   "options": [
+    "Yes, subcategories are acceptable when documentation is limited",
+    "No, for reporting purposes only codes are permissible, not categories or subcategories",
+    "Yes, if the subcategory has 5 characters",
+    "Yes, for outpatient encounters only"
+   ],
+   "correct": 1,
+   "explanation": "Section I.A.3 states: \"For reporting purposes only codes are permissible, not categories or subcategories.\" There is no exception for limited documentation, for 5-character subcategories, or for outpatient settings. When documentation is limited, the coder still reports a code - for example, an \"unspecified\" code (Section I.A.9.b, covered in the next lesson).",
+   "visual": {
+    "topic": "Use of codes for reporting",
+    "hint": "Which level of the Tabular List can go on a claim?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.4"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Placeholder \"X\"",
+   "content": "Section I.A.4 introduces the **placeholder character \"X\"**:\n\n• The X is used **at certain codes to allow for future expansion**. It holds a position open so new detail can be added later.\n• The example the text gives is the **poisoning, adverse effect and underdosing codes, categories T36-T50**.\n• **Where a placeholder exists, the X must be used in order for the code to be considered a valid code.**\n\nThink of it as a reserved seat. Even though nobody is sitting there yet, the seat must be marked, or the code is not valid.\n\n**What it does NOT mean:** You do not add an X anywhere you like. The X is used where the classification provides a placeholder (and, as I.A.5 explains, to fill empty positions before a required 7th character).",
+   "visual": {
+    "title": "The Placeholder X",
+    "sub": "A reserved position for future expansion",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Purpose",
+      "b": "Allow for future expansion"
+     },
+     {
+      "h": "Example",
+      "b": "Categories T36-T50"
+     },
+     {
+      "h": "Rule",
+      "b": "Where it exists, X must be used"
+     },
+     {
+      "h": "If omitted",
+      "b": "The code is not valid"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.5"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: 7th Characters",
+   "content": "Section I.A.5 sets the 7th character rules:\n\n• **Certain categories** have applicable 7th characters.\n• The applicable 7th character is **required for all codes within the category**, **or as the notes in the Tabular List instruct**.\n• **The 7th character must always be the 7th character in the data field.** It cannot slide into the 5th or 6th position.\n• **If a code that requires a 7th character is not 6 characters, a placeholder X must be used to fill in the empty characters.**\n\nSo if a code is only 4 or 5 characters long and needs a 7th character, you add one or two X's so the 7th character lands in position 7.\n\n**Where to find the requirement:** Section I.B.1 (Lesson 05) reminds you that even if the Index entry has no dash, you must check the Tabular List to verify that no 7th character is required.",
+   "visual": {
+    "title": "Filling to the 7th Position",
+    "sub": "The 7th character must sit in position 7",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "4-character code",
+      "b": "Add XX, then the 7th character"
+     },
+     {
+      "h": "5-character code",
+      "b": "Add X, then the 7th character"
+     },
+     {
+      "h": "6-character code",
+      "b": "Add the 7th character directly"
+     },
+     {
+      "h": "Missing 7th",
+      "b": "Code is invalid (I.A.2)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Counting to Seven",
+   "content": "This example uses character positions instead of a real code so you can focus on the rule.\n\n**Situation:** The Tabular List shows that a category requires a 7th character. The most specific code you selected has **5 characters**: positions 1-2-3, a period, then positions 4-5.\n\n**Step 1:** Count the characters: 5.\n**Step 2:** The 7th character must be in position 7 (I.A.5).\n**Step 3:** Position 6 is empty, so fill it with the placeholder **X** (I.A.5).\n**Step 4:** Add the 7th character in position 7.\n\n**Result:** 3 characters + period + positions 4, 5, X, and the 7th character = a valid 7-character code.\n\n**Common mistake:** Typing the 7th character in position 6 (no X). Under I.A.5 that is wrong, because the 7th character must always be the 7th character in the data field. Under I.A.2, a code missing its 7th character is invalid.",
+   "visual": {
+    "title": "Counting to Seven",
+    "sub": "A 5-character code that requires a 7th character",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Positions 1-3",
+      "b": "Category"
+     },
+     {
+      "h": "Positions 4-5",
+      "b": "Selected detail"
+     },
+     {
+      "h": "Position 6",
+      "b": "Placeholder X"
+     },
+     {
+      "h": "Position 7",
+      "b": "The required 7th character"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A code that requires a 7th character has only 4 characters. According to Section I.A.5, what must the coder do?",
+   "options": [
+    "Add the 7th character as the 5th character",
+    "Report the 4-character code without a 7th character",
+    "Use placeholder X to fill in the empty characters so the 7th character is in the 7th position",
+    "Choose a different category that does not require a 7th character"
+   ],
+   "correct": 2,
+   "explanation": "Section I.A.5 states: \"The 7th character must always be the 7th character in the data field. If a code that requires a 7th character is not 6 characters, a placeholder X must be used to fill in the empty characters.\" Putting the 7th character in the 5th position breaks the position rule. Reporting without it makes the code invalid (I.A.2). Switching to a different category to avoid the requirement is not an option the guidelines give; code selection is based on the documented condition.",
+   "visual": {
+    "topic": "7th characters",
+    "hint": "Where must the 7th character always sit?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Section I.A.4 gives which categories as an example of where the placeholder X is used?",
+   "options": [
+    "T36-T50, the poisoning, adverse effect and underdosing codes",
+    "A00.0 through T88.9",
+    "R00.0 - R99, symptoms and signs",
+    "Z00-Z99.8, factors influencing health status"
+   ],
+   "correct": 0,
+   "explanation": "Section I.A.4 states: \"An example of this is at the poisoning, adverse effect and underdosing codes, categories T36-T50.\" The other ranges appear elsewhere in the guidelines (I.B.3 and I.B.4) for different purposes and are not the placeholder example in I.A.4.",
+   "visual": {
+    "topic": "Placeholder character",
+    "hint": "The example involves poisoning and adverse effects."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.6"
+  },
+  {
+   "type": "official",
+   "ref": "I.A.6.a"
+  },
+  {
+   "type": "official",
+   "ref": "I.A.6.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: NEC and NOS",
+   "content": "ICD-10-CM uses two abbreviations, and Section I.A.6 explains how they work in each part of the classification.\n\n**NEC - \"Not elsewhere classifiable\"**\n• Means **\"other specified.\"**\n• Used when **a specific code is not available** for a condition.\n• In the **Alphabetic Index**, NEC **directs the coder to the \"other specified\" code** in the Tabular List.\n• In the **Tabular List**, an NEC entry under a code **identifies the code as the \"other specified\" code**.\n\n**NOS - \"Not otherwise specified\"**\n• **The equivalent of unspecified.** The definition is the same in both the Index and the Tabular List.\n\n**Simple way to remember:**\n• NEC = the documentation **is** specific, but ICD-10-CM has **no specific code** for it.\n• NOS = the documentation **is not** specific.",
+   "visual": {
+    "title": "NEC vs NOS",
+    "sub": "Two abbreviations, two very different meanings",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "NEC",
+      "b": "Not elsewhere classifiable = \"other specified\""
+     },
+     {
+      "h": "NOS",
+      "b": "Not otherwise specified = unspecified"
+     },
+     {
+      "h": "NEC: detail?",
+      "b": "Specific condition, no specific code"
+     },
+     {
+      "h": "NOS: detail?",
+      "b": "Detail is missing"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: NEC or NOS?",
+   "content": "**Scenario 1:** The provider documents a specific, named condition. In the Alphabetic Index, the coder finds the condition followed by **NEC**.\n→ Under I.A.6.a, NEC means the Index is directing the coder to the **\"other specified\"** code in the Tabular List, because a specific code is not available for this condition.\n\n**Scenario 2:** In the Tabular List, under a code, the coder sees an entry followed by **NOS**.\n→ Under I.A.6.b, NOS is the equivalent of **unspecified**. That entry describes the condition when no further detail is given.\n\n**Scenario 3:** In the Tabular List, under a code, the coder sees an entry followed by **NEC**.\n→ Under I.A.6.b, the NEC entry identifies that code as the **\"other specified\"** code.\n\n**Exam trap:** NEC does not mean \"not elsewhere coded\" or \"no exact code needed.\" It means **not elsewhere classifiable** = other specified.",
+   "visual": {
+    "title": "Reading NEC and NOS",
+    "sub": "The same letters, used in two parts of ICD-10-CM",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "NEC in the Index",
+      "b": "Directs to the \"other specified\" code"
+     },
+     {
+      "h": "NEC in the Tabular",
+      "b": "Marks the \"other specified\" code"
+     },
+     {
+      "h": "NOS (either part)",
+      "b": "Equivalent of unspecified"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.A.6, what does the abbreviation NOS mean?",
+   "options": [
+    "Not elsewhere classifiable; the equivalent of other specified",
+    "Not on schedule; the code is deleted",
+    "No other symptoms",
+    "Not otherwise specified; the equivalent of unspecified"
+   ],
+   "correct": 3,
+   "explanation": "Sections I.A.6.a and I.A.6.b both define NOS as \"Not otherwise specified\" and state: \"This abbreviation is the equivalent of unspecified.\" \"Not elsewhere classifiable\" is the meaning of NEC, which represents \"other specified.\" \"Not on schedule\" and \"No other symptoms\" are not definitions found in the guidelines.",
+   "visual": {
+    "topic": "Abbreviations",
+    "hint": "NOS and NEC are opposites in what they say about detail."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "In the Alphabetic Index, a coder looks up a specific condition that the provider documented in detail and finds the entry marked NEC. What does this tell the coder, according to Section I.A.6.a?",
+   "options": [
+    "The documentation is insufficient and the condition should be coded as unspecified",
+    "A specific code is not available for the condition, and the Index is directing the coder to the \"other specified\" code in the Tabular List",
+    "The condition cannot be coded",
+    "The coder must query the provider before assigning any code"
+   ],
+   "correct": 1,
+   "explanation": "Section I.A.6.a states that NEC in the Alphabetic Index \"represents 'other specified.' When a specific code is not available for a condition, the Alphabetic Index directs the coder to the 'other specified' code in the Tabular List.\" Insufficient documentation is the situation for NOS/unspecified, not NEC. NEC does not mean the condition cannot be coded, and the text does not require a query when NEC appears.",
+   "visual": {
+    "topic": "NEC in the Index",
+    "hint": "NEC is about the classification, not about the documentation."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying It: Building a Valid Code",
+   "content": "Use these steps every time you assign a code, based on Sections I.A.1 through I.A.6:\n\n1. **Look up the term in the Alphabetic Index** (or the Table of Neoplasms or Table of Drugs and Chemicals when relevant).\n2. **Go to the Tabular List** - the structured list of codes by chapter.\n3. **Identify the level.** Is your entry a category, a subcategory, or a code (the final level of subdivision)?\n4. **Keep going until you reach a code.** Only codes may be reported - not categories or subcategories (I.A.3).\n5. **Check for a placeholder X.** Where one exists, it must be used (I.A.4).\n6. **Check for a 7th character requirement** for the category or from Tabular List notes (I.A.5).\n7. **If a 7th character is required and the code is not 6 characters,** fill the empty positions with X so the 7th character is in position 7.\n8. **Read NEC and NOS correctly:** NEC = other specified; NOS = unspecified.",
+   "visual": {
+    "title": "Building a Valid Code",
+    "sub": "Eight checks from Section I.A.1 - I.A.6",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2. Index, then Tabular",
+      "b": "Look up, then verify"
+     },
+     {
+      "h": "3-4. Reach the code",
+      "b": "No categories or subcategories"
+     },
+     {
+      "h": "5. Placeholder",
+      "b": "Use X where it exists"
+     },
+     {
+      "h": "6-7. 7th character",
+      "b": "Fill with X to position 7"
+     },
+     {
+      "h": "8. NEC / NOS",
+      "b": "Other specified / unspecified"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Conventions** are the general rules for use of the classification, independent of the guidelines, built into the Index and Tabular List as instructional notes.\n• ICD-10-CM = **Alphabetic Index** (Index of Diseases and Injury, Index of External Causes of Injury, Table of Neoplasms, Table of Drugs and Chemicals) + **Tabular List** (chapters by body system or condition).\n• **Categories** are always 3 characters; **subcategories** are 4 or 5; **codes** are 3 to 7 and are the final level of subdivision.\n• **Only codes may be reported** - not categories or subcategories. A 3-character category with no subdivision is equivalent to a code.\n• The **placeholder X** allows for future expansion (example: T36-T50). Where it exists, it must be used.\n• The **7th character** must always be in position 7; fill empty positions with X. A code missing an applicable 7th character is **invalid**.\n• **NEC** = not elsewhere classifiable = \"other specified.\" **NOS** = not otherwise specified = unspecified.",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Conventions I in one view",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Report",
+      "b": "Codes only"
+     },
+     {
+      "h": "Placeholder X",
+      "b": "Must be used where it exists"
+     },
+     {
+      "h": "7th character",
+      "b": "Always in position 7"
+     },
+     {
+      "h": "NEC / NOS",
+      "b": "Other specified / unspecified"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about a three-character category is correct according to Section I.A.2?",
+   "options": [
+    "A three-character category can never be reported",
+    "A three-character category is always a subcategory",
+    "A three-character category that has no further subdivision is equivalent to a code",
+    "A three-character category must always have a placeholder X"
+   ],
+   "correct": 2,
+   "explanation": "Section I.A.2 states: \"A three-character category that has no further subdivision is equivalent to a code.\" So a category can be reported when it is not subdivided; it is not banned outright. Subcategories are 4 or 5 characters, so a 3-character category is never a subcategory. The placeholder X is used only at certain codes (I.A.4), not at all categories.",
+   "visual": {
+    "topic": "Format and structure",
+    "hint": "What if a category has no subdivisions?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,676 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Chapter 19: 7th Characters, Injuries and Fractures",
+   "content": "Chapter 19 (S00-T88) covers injury, poisoning and certain other consequences of external causes. Almost every code in it needs a **7th character**, and choosing the wrong one is one of the most common coding errors.\n\nThis lesson covers the first three parts of Section I.C.19, word for word, then explains each rule:\n\n• **I.C.19.a** How to choose 7th characters A, D and S, and why aftercare Z codes are not used for injuries\n• **I.C.19.b** Coding injuries: separate codes, combination codes, sequencing, superficial injuries, nerve and blood vessel injuries, and iatrogenic injuries\n• **I.C.19.c** Coding traumatic fractures: open vs. closed, displaced vs. not displaced, initial vs. subsequent care, nonunion and malunion, Gustilo open fracture types, osteoporosis, multiple fractures and physeal fractures\n\nThe key idea in this lesson: **the 7th character follows the treatment, not the provider.**",
+   "visual": {
+    "title": "Chapter 19, part 1",
+    "sub": "Sections I.C.19.a to I.C.19.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "7th characters",
+      "b": "A, D, S; fractures have more values"
+     },
+     {
+      "h": "Injuries",
+      "b": "Separate codes, most serious first"
+     },
+     {
+      "h": "Fractures",
+      "b": "Defaults, active care, nonunion and malunion"
+     },
+     {
+      "h": "Big idea",
+      "b": "Active treatment drives the 7th character"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.19"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.19.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Three Basic 7th Characters",
+   "content": "Section I.C.19.a says most Chapter 19 categories need a 7th character, and most have **three values** (fractures have more):\n\n• **A, initial encounter:** used for **each encounter where the patient is receiving active treatment** for the condition.\n• **D, subsequent encounter:** used for encounters **after the patient has completed active treatment** and is receiving **routine care during the healing or recovery phase.**\n• **S, sequela:** used for **complications or conditions that arise as a direct result of a condition**, such as scar formation after a burn.\n\n**The most-tested sentence:** assignment of the 7th character is based on **whether the patient is undergoing active treatment**, *not* whether the provider is seeing the patient for the first time. A new or different provider does not make the encounter \"initial.\"",
+   "visual": {
+    "title": "A, D and S",
+    "sub": "Section I.C.19.a",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "A: initial encounter",
+      "b": "Patient is receiving active treatment"
+     },
+     {
+      "h": "D: subsequent encounter",
+      "b": "Active treatment done; routine healing care"
+     },
+     {
+      "h": "S: sequela",
+      "b": "A condition that results directly from the injury"
+     },
+     {
+      "h": "Not the rule",
+      "b": "First visit with this provider does NOT mean A"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Active Treatment for Complication Codes",
+   "content": "Section I.C.19.a also explains what **active treatment** means for **complication codes**: it refers to treatment for **the condition described by the code**, even if that condition is related to an earlier problem.\n\n**The guideline's example:** T84.50XA, Infection and inflammatory reaction due to unspecified internal joint prosthesis, initial encounter, is used when **active treatment is provided for the infection**, even though the prosthetic device, implant or graft was placed at a previous encounter.\n\n**What it means:** The joint prosthesis was placed in the past, but the infection is being actively treated now, so the 7th character is **A.** The earlier surgery does not make this a subsequent encounter.",
+   "visual": {
+    "title": "Active treatment of complications",
+    "sub": "Section I.C.19.a, second paragraph",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Earlier event",
+      "b": "Prosthesis placed at a previous encounter"
+     },
+     {
+      "h": "Now",
+      "b": "Infection is being actively treated"
+     },
+     {
+      "h": "7th character",
+      "b": "A: T84.50XA"
+     },
+     {
+      "h": "Rule",
+      "b": "Look at treatment of the condition in the code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: No Aftercare Z Codes for Injuries",
+   "content": "Section I.C.19.a states that **aftercare Z codes should not be used for aftercare of injuries or poisonings**, because 7th characters already identify subsequent care.\n\n**Instead:** for aftercare of an injury, assign the **acute injury code with 7th character D** (subsequent encounter).\n\n**Exam trap:** Students often reach for an aftercare Z code when a patient returns for routine follow-up of an injury. The guideline says no: use the injury code with **D.**",
+   "visual": {
+    "title": "Injury aftercare",
+    "sub": "Section I.C.19.a",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Aftercare Z code",
+      "b": "NOT used for injury aftercare"
+     },
+     {
+      "h": "Correct choice",
+      "b": "Acute injury code with 7th character D"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: 7th Character S (Sequela)",
+   "content": "A **sequela** is a complication or condition that arises as a direct result of an earlier condition. The guideline's example: **scar formation after a burn.** The scars are sequelae of the burn.\n\nSection I.C.19.a gives four rules for 7th character **S**:\n\n1. Use **both** the injury code that caused the sequela **and** the code for the sequela itself.\n2. The **S is added only to the injury code**, not to the sequela code.\n3. The S **identifies the injury responsible** for the sequela.\n4. **Sequence the specific type of sequela first** (for example, the scar), followed by the injury code.\n\nThe section points to **Section I.B.10, Sequelae (Late Effects)**, for the general rules.",
+   "visual": {
+    "title": "Coding a sequela",
+    "sub": "Section I.C.19.a",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1st code",
+      "b": "The sequela itself, such as the scar"
+     },
+     {
+      "h": "2nd code",
+      "b": "The injury code with 7th character S"
+     },
+     {
+      "h": "S goes on",
+      "b": "The injury code only"
+     },
+     {
+      "h": "See also",
+      "b": "Section I.B.10"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Choosing A, D or S",
+   "content": "**Scenario 1:** A patient with an injury was treated in the ED. Two days later a different specialist sees the patient and continues active treatment.\n→ Section I.C.19.a: active treatment continues → **A.** A new provider does not change this.\n\n**Scenario 2:** Active treatment is complete. The patient returns for routine care while the injury heals.\n→ Section I.C.19.a: routine care in the healing phase → **D.** Do not use an aftercare Z code.\n\n**Scenario 3:** A patient has a scar that resulted from an old burn.\n→ Section I.C.19.a: code the scar first, then the burn code with **S.**\n\n**Scenario 4:** A patient is being treated for an infection of a joint prosthesis placed last year.\n→ Section I.C.19.a: active treatment for the infection → T84.50XA (initial encounter).",
+   "visual": {
+    "title": "Four 7th-character cases",
+    "sub": "Applying Section I.C.19.a",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "New provider, active care",
+      "b": "A"
+     },
+     {
+      "h": "Routine healing care",
+      "b": "D (no aftercare Z code)"
+     },
+     {
+      "h": "Scar from old burn",
+      "b": "Scar first, then burn code with S"
+     },
+     {
+      "h": "Infected prosthesis",
+      "b": "T84.50XA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient was treated for an injury by one physician and is now seen for the first time by a different physician who continues active treatment. According to Section I.C.19.a, which 7th character applies?",
+   "options": [
+    "D, because active treatment started at an earlier encounter",
+    "A, because the patient is still receiving active treatment",
+    "S, because this is a later encounter",
+    "Any value, because the provider decides"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.a says assignment of the 7th character is based on whether the patient is undergoing active treatment and not whether the provider is seeing the patient for the first time; 7th character A is used for each encounter where the patient is receiving active treatment. D is for encounters after active treatment is completed, during routine healing care. S is for sequelae, which are conditions resulting from the injury, not simply later visits. The guideline, not provider preference, sets the rule.",
+   "visual": {
+    "topic": "7th character A vs D",
+    "hint": "Is the patient still getting active treatment?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient comes in for routine follow-up care of a healing injury after completing active treatment. According to Section I.C.19.a, how is this coded?",
+   "options": [
+    "An aftercare Z code",
+    "The acute injury code with 7th character A",
+    "The acute injury code with 7th character D",
+    "The acute injury code with 7th character S"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.a states that aftercare Z codes should not be used for aftercare of injuries; instead assign the acute injury code with 7th character D (subsequent encounter). 7th character D is for encounters after active treatment is complete when the patient receives routine care during healing or recovery. A is only for active treatment. S is for sequelae such as scars, not for routine healing care.",
+   "visual": {
+    "topic": "Injury aftercare",
+    "hint": "What replaces aftercare Z codes for injuries?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "When coding a scar that resulted from a burn, which statement follows Section I.C.19.a?",
+   "options": [
+    "Add S to both the scar code and the burn code",
+    "Code only the burn with 7th character S",
+    "Sequence the burn code with S first, then the scar",
+    "Sequence the scar first, then the burn code with 7th character S"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.19.a says both the injury code and the sequela code are needed, the S is added only to the injury code, and the specific type of sequela (e.g., scar) is sequenced first, followed by the injury code. Adding S to the scar code breaks the 'only to the injury code' rule. Coding only the burn leaves out the sequela. Putting the burn first reverses the required order.",
+   "visual": {
+    "topic": "Sequela coding",
+    "hint": "Which code carries the S, and which is listed first?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.19.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: General Rules for Coding Injuries",
+   "content": "The opening of Section I.C.19.b gives four rules:\n\n1. **Separate codes for each injury**, unless a **combination code** is provided; then use the combination code.\n2. **T07, Unspecified multiple injuries**, should **not** be assigned in the **inpatient setting** unless information for a more specific code is not available.\n3. **Traumatic injury codes (S00-T14.9)** are **not** used for **normal, healing surgical wounds** or to identify **complications of surgical wounds.**\n4. **Sequencing:** the code for the **most serious injury**, as determined by **the provider and the focus of treatment**, is sequenced first.\n\n**What it does NOT mean:** \"Most serious\" is not the coder's opinion. The guideline ties it to the provider's determination and the focus of treatment.",
+   "visual": {
+    "title": "Injury coding basics",
+    "sub": "Section I.C.19.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Each injury",
+      "b": "Its own code, unless a combination code exists"
+     },
+     {
+      "h": "T07 inpatient",
+      "b": "Only if no more specific information"
+     },
+     {
+      "h": "S00-T14.9",
+      "b": "Not for healing surgical wounds or their complications"
+     },
+     {
+      "h": "First-listed",
+      "b": "Most serious injury per provider and treatment"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Superficial, Nerve/Vessel and Iatrogenic Injuries",
+   "content": "Section I.C.19.b has three numbered sub-rules.\n\n**1) Superficial injuries:** Abrasions or contusions are **not coded** when they are associated with **more severe injuries of the same site.**\n\n**2) Primary injury with damage to nerves/blood vessels:**\n• When a primary injury causes **minor damage** to peripheral nerves or blood vessels, the **primary injury is sequenced first**, with additional code(s) for the nerve injury (such as category S04) and/or blood vessel injury (such as category S15).\n• When the **primary injury is to the blood vessels or nerves**, that injury is sequenced first.\n\n**3) Iatrogenic injuries:** **Iatrogenic** means caused by medical care. Chapter 19 injury codes should **not** be assigned for injuries that occur during, or as a result of, a medical intervention. Assign the appropriate **complication code(s)** instead.",
+   "visual": {
+    "title": "Three injury sub-rules",
+    "sub": "Section I.C.19.b.1 to I.C.19.b.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Superficial, same site",
+      "b": "Not coded when a more severe injury of the same site exists"
+     },
+     {
+      "h": "Minor nerve/vessel damage",
+      "b": "Primary injury first, then S04/S15-type codes"
+     },
+     {
+      "h": "Nerve/vessel is primary",
+      "b": "Sequence the nerve/vessel injury first"
+     },
+     {
+      "h": "Caused by medical care",
+      "b": "Complication code, not an injury code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Coding Injuries",
+   "content": "**Scenario 1:** A patient has a severe injury of one site plus an abrasion of the same site.\n→ Section I.C.19.b.1: do not code the abrasion.\n\n**Scenario 2:** A patient has a primary injury that caused minor damage to a peripheral nerve.\n→ Section I.C.19.b.2: primary injury first, then the nerve injury code.\n\n**Scenario 3:** An inpatient record says \"multiple injuries,\" but the provider documents each specific injury.\n→ Section I.C.19.b: do not use T07; code each injury separately because more specific information is available.\n\n**Scenario 4:** An organ is accidentally injured during a surgical procedure.\n→ Section I.C.19.b.3: do not use a Chapter 19 injury code; assign the appropriate complication code.\n\n**Scenario 5:** A surgical wound is healing normally.\n→ Section I.C.19.b: do not use S00-T14.9 traumatic injury codes.",
+   "visual": {
+    "title": "Five injury cases",
+    "sub": "Applying Section I.C.19.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Abrasion, same site",
+      "b": "Skip it if a more severe injury is there"
+     },
+     {
+      "h": "Minor nerve damage",
+      "b": "Primary injury first"
+     },
+     {
+      "h": "Specific injuries known",
+      "b": "No T07 inpatient"
+     },
+     {
+      "h": "Injured during surgery",
+      "b": "Complication code"
+     },
+     {
+      "h": "Normal surgical wound",
+      "b": "No S00-T14.9 code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient has a contusion and a more severe injury of the same site. According to Section I.C.19.b.1, how is the contusion handled?",
+   "options": [
+    "It is not coded",
+    "It is coded first because it is listed first in the record",
+    "It is coded with T07",
+    "It is coded as a complication"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.19.b.1 says superficial injuries such as abrasions or contusions are not coded when associated with more severe injuries of the same site. Order in the record does not control sequencing; the most serious injury, as determined by the provider and focus of treatment, is first. T07 is for unspecified multiple injuries and should not be used inpatient when specific information exists. Complication codes are for iatrogenic injuries, which this is not.",
+   "visual": {
+    "topic": "Superficial injuries",
+    "hint": "Same site, more severe injury present."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "During surgery, a patient's nearby structure is accidentally injured by the surgical instrument. According to Section I.C.19.b.3, what should the coder assign?",
+   "options": [
+    "A Chapter 19 injury code for the structure",
+    "T07, Unspecified multiple injuries",
+    "The appropriate complication code(s)",
+    "No code, because the injury happened in surgery"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.b.3 says injury codes from Chapter 19 should not be assigned for injuries that occur during, or as a result of, a medical intervention; assign the appropriate complication code(s). A Chapter 19 injury code is exactly what the rule prohibits. T07 is for unspecified multiple injuries and does not describe an iatrogenic injury. The guideline says to code the complication, not to skip it.",
+   "visual": {
+    "topic": "Iatrogenic injuries",
+    "hint": "Was the injury caused by medical care?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's primary injury is to a blood vessel. According to Section I.C.19.b.2, how is it sequenced?",
+   "options": [
+    "The blood vessel injury is sequenced first",
+    "Any other injury is always sequenced before a vessel injury",
+    "Blood vessel injuries are never coded",
+    "It is sequenced last, after all superficial injuries"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.19.b.2 says that when the primary injury is to the blood vessels or nerves, that injury should be sequenced first. Vessel injuries go second only when they are minor damage from another primary injury, so 'always' is wrong. The guideline names categories such as S15 for blood vessel injuries, so they are coded. Superficial injuries of the same site are not coded at all when a more severe injury exists, so they would not come first.",
+   "visual": {
+    "topic": "Nerve and vessel injuries",
+    "hint": "Is the vessel injury the primary injury here?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.19.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Fracture Basics and Default Rules",
+   "content": "Section I.C.19.c opens with three ideas:\n\n• **Follow the multiple-injury principles** for fractures. Fractures of specified sites are coded **individually by site**, following the provisions in the fracture categories (S02, S12, S22, S32, S42, S49, S52, S59, S62, S72, S79, S82, S89, S92) and the level of detail in the record.\n• **Open or closed not stated → code to closed.**\n• **Displaced or not displaced not stated → code to displaced.**\n\n**Memory hook:** the defaults are \"closed\" and \"displaced.\" Students often guess \"nondisplaced\" because it sounds milder; the guideline says displaced.",
+   "visual": {
+    "title": "Fracture defaults",
+    "sub": "Section I.C.19.c, opening",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Each fracture site",
+      "b": "Coded individually by site"
+     },
+     {
+      "h": "Open or closed?",
+      "b": "Not stated: closed"
+     },
+     {
+      "h": "Displaced or not?",
+      "b": "Not stated: displaced"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Initial vs. Subsequent Care for Fractures",
+   "content": "Section I.C.19.c.1 applies the active-treatment rule to traumatic fractures:\n\n• **Initial encounter (7th character A, B or C):** each encounter where the patient is receiving **active treatment** for the fracture. Also used for a patient who **delayed seeking treatment** for the fracture or nonunion.\n• **Subsequent care:** encounters **after active treatment is completed**, when the patient receives **routine care during healing or recovery.**\n• **Complications of surgical treatment** for fracture repairs during healing or recovery are coded with the appropriate **complication codes.**\n• **Malunion and nonunion** are reported with the 7th character for **subsequent care with nonunion (K, M, N)** or **subsequent care with malunion (P, Q, R).**\n• **Aftercare Z codes** are not used for traumatic fractures. Assign the **acute fracture code** with the appropriate 7th character.",
+   "visual": {
+    "title": "Fracture 7th characters",
+    "sub": "Section I.C.19.c.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Active treatment",
+      "b": "Initial: A, B, C"
+     },
+     {
+      "h": "Delayed seeking treatment",
+      "b": "Still initial encounter"
+     },
+     {
+      "h": "Nonunion",
+      "b": "Subsequent care with nonunion: K, M, N"
+     },
+     {
+      "h": "Malunion",
+      "b": "Subsequent care with malunion: P, Q, R"
+     },
+     {
+      "h": "Fracture aftercare",
+      "b": "Acute fracture code, not a Z code"
+     },
+     {
+      "h": "Repair complication",
+      "b": "Complication code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Gustilo Types and Osteoporosis",
+   "content": "Two more rules in Section I.C.19.c.1:\n\n**Gustilo classification:** For fractures of the **forearm, femur and lower leg (including ankle)**, the open fracture designations in the 7th character are based on the **Gustilo open fracture classification.** When the Gustilo type is **not specified** for an open fracture, assign the 7th character for **open fracture type I or II (B, E, H, M, Q).**\n\n**Osteoporosis:** For any patient with **known osteoporosis** who suffers a fracture, use a code from **category M80**, not a traumatic fracture code, **even if the patient had a minor fall or trauma**, if that fall or trauma **would not usually break a normal, healthy bone.** See Section I.C.13 for more on osteoporosis.\n\n**Exam trap:** A minor fall does not turn an osteoporotic fracture into a traumatic one. Ask: would this fall usually break a healthy bone?",
+   "visual": {
+    "title": "Gustilo and osteoporosis",
+    "sub": "Section I.C.19.c.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Open, Gustilo type unknown",
+      "b": "Use type I or II: B, E, H, M, Q"
+     },
+     {
+      "h": "Osteoporosis + fracture",
+      "b": "Category M80, not a traumatic code"
+     },
+     {
+      "h": "Minor fall?",
+      "b": "Still M80 if a healthy bone would not break"
+     },
+     {
+      "h": "See also",
+      "b": "Section I.C.13"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Multiple and Physeal Fractures",
+   "content": "**2) Multiple fractures sequencing:** Multiple fractures are sequenced **in accordance with the severity of the fracture.** The most severe fracture comes first.\n\n**3) Physeal fractures:** A **physeal** fracture involves the growth plate. For these, assign **only the code identifying the type of physeal fracture.** **Do not** assign a separate code to identify the specific bone that is fractured.\n\n**What it does NOT mean:** The physeal rule does not mean the bone is ignored; it means the physeal fracture code is the one code you assign, with no extra code for the bone.",
+   "visual": {
+    "title": "Multiple and physeal",
+    "sub": "Section I.C.19.c.2 and I.C.19.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Multiple fractures",
+      "b": "Sequence by severity"
+     },
+     {
+      "h": "Physeal fracture",
+      "b": "Only the physeal fracture type code"
+     },
+     {
+      "h": "Separate bone code?",
+      "b": "No"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Fracture Decisions",
+   "content": "**Scenario 1:** The record says \"fracture of the femur\" with no mention of open/closed or displacement.\n→ Section I.C.19.c: code as **closed** and **displaced.**\n\n**Scenario 2:** A patient fractured a bone weeks ago, delayed seeking care, and is now receiving active treatment.\n→ Section I.C.19.c.1: use the 7th character for **initial encounter.**\n\n**Scenario 3:** A patient returns with a fracture that has failed to heal (nonunion) after active treatment.\n→ Section I.C.19.c.1: 7th character for **subsequent care with nonunion (K, M, N).**\n\n**Scenario 4:** An open fracture of the lower leg is documented, Gustilo type not stated.\n→ Section I.C.19.c.1: 7th character for open fracture **type I or II.**\n\n**Scenario 5:** A patient with known osteoporosis breaks a wrist stepping off a low curb, a trauma that would not usually break a healthy bone.\n→ Section I.C.19.c.1: **M80**, not a traumatic fracture code.",
+   "visual": {
+    "title": "Five fracture cases",
+    "sub": "Applying Section I.C.19.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Nothing specified",
+      "b": "Closed and displaced"
+     },
+     {
+      "h": "Delayed care, active Rx",
+      "b": "Initial encounter"
+     },
+     {
+      "h": "Nonunion",
+      "b": "K, M, N"
+     },
+     {
+      "h": "Open, no Gustilo type",
+      "b": "Type I or II"
+     },
+     {
+      "h": "Osteoporosis, minor fall",
+      "b": "M80"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A fracture is documented without stating whether it is open or closed, or displaced or not displaced. According to Section I.C.19.c, how is it coded?",
+   "options": [
+    "Open and displaced",
+    "Closed and not displaced",
+    "Open and not displaced",
+    "Closed and displaced"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.19.c states that a fracture not indicated as open or closed should be coded to closed, and a fracture not indicated whether displaced or not displaced should be coded to displaced. Every other option uses at least one wrong default: open is never the default, and not displaced is never the default.",
+   "visual": {
+    "topic": "Fracture defaults",
+    "hint": "Two defaults: one for open/closed, one for displacement."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with known osteoporosis fractures a hip in a minor fall that would not usually break a normal, healthy bone. According to Section I.C.19.c.1, what is assigned?",
+   "options": [
+    "A traumatic hip fracture code with 7th character A",
+    "A code from category M80",
+    "T07, Unspecified multiple injuries",
+    "An aftercare Z code"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.c.1 says a code from category M80, not a traumatic fracture code, should be used for any patient with known osteoporosis who suffers a fracture, even after a minor fall or trauma, if that fall or trauma would not usually break a normal, healthy bone. A traumatic fracture code is exactly what the rule says not to use. T07 is for unspecified multiple injuries. Aftercare Z codes are not used for fracture care and do not describe the fracture.",
+   "visual": {
+    "topic": "Osteoporosis and fractures",
+    "hint": "Would this fall usually break a healthy bone?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An open fracture of the femur is documented, but the Gustilo classification type is not specified. According to Section I.C.19.c.1, which 7th character group applies?",
+   "options": [
+    "The 7th character for open fracture type I or II",
+    "The 7th character for the most severe open fracture type",
+    "The 7th character for a closed fracture",
+    "No 7th character until the type is documented"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.19.c.1 states that when the Gustilo classification type is not specified for an open fracture, the 7th character for open fracture type I or II should be assigned (B, E, H, M, Q). The most severe type is not the default. The fracture is documented as open, so the closed default (which applies only when open/closed is not stated) does not apply. A 7th character is still required.",
+   "visual": {
+    "topic": "Gustilo classification",
+    "hint": "What is the default when the Gustilo type is missing?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient returns after completing active treatment for a fracture, and the provider documents malunion. According to Section I.C.19.c.1, how is this reported?",
+   "options": [
+    "With an aftercare Z code",
+    "With the 7th character for initial encounter",
+    "With the 7th character for subsequent care with malunion",
+    "With the 7th character S for sequela"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.c.1 says care of complications of fractures, such as malunion and nonunion, should be reported with the appropriate 7th character for subsequent care with nonunion (K, M, N) or subsequent care with malunion (P, Q, R). Aftercare Z codes are not used for traumatic fractures. Initial encounter is for active treatment (or delayed treatment of the fracture or nonunion). S is for sequelae, and the guideline gives malunion its own 7th character values.",
+   "visual": {
+    "topic": "Malunion and nonunion",
+    "hint": "Malunion has its own subsequent-care 7th characters."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A child has a physeal fracture. According to Section I.C.19.c.3, what is coded?",
+   "options": [
+    "The physeal fracture code plus a separate code for the bone",
+    "Only the code identifying the type of physeal fracture",
+    "Only a code for the specific bone",
+    "A code from category M80"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.c.3 states: for physeal fractures, assign only the code identifying the type of physeal fracture, and do not assign a separate code to identify the specific bone that is fractured. Adding a bone code, or using only a bone code, conflicts with that. M80 is for fractures in patients with known osteoporosis (I.C.19.c.1), not physeal fractures.",
+   "visual": {
+    "topic": "Physeal fractures",
+    "hint": "One code or two?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying I.C.19.a to I.C.19.c on a Real Record",
+   "content": "1. **Identify each injury and fracture.** Code each separately unless a combination code exists (I.C.19.b, I.C.19.c).\n2. **Remove what is not coded:** superficial injuries at the same site as a more severe injury (I.C.19.b.1); injury codes for normal healing surgical wounds (I.C.19.b); a separate bone code for a physeal fracture (I.C.19.c.3).\n3. **Check for iatrogenic injury:** injury from medical care → complication code (I.C.19.b.3).\n4. **Check osteoporosis:** known osteoporosis + fracture from trauma that would not break a healthy bone → M80 (I.C.19.c.1).\n5. **Apply fracture defaults:** closed, displaced; open with no Gustilo type → type I or II (I.C.19.c).\n6. **Pick the 7th character from the treatment status:** active → initial; routine healing care → subsequent; nonunion/malunion → K, M, N or P, Q, R; sequela → S on the injury code (I.C.19.a, I.C.19.c.1).\n7. **No aftercare Z codes** for injuries or traumatic fractures (I.C.19.a, I.C.19.c.1).\n8. **Sequence:** most serious injury first, per provider and focus of treatment; multiple fractures by severity; minor nerve/vessel damage after the primary injury (I.C.19.b, I.C.19.c.2).",
+   "visual": {
+    "title": "Injury and fracture workflow",
+    "sub": "Eight steps",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-3",
+      "b": "List injuries; drop what is not coded"
+     },
+     {
+      "h": "4-5",
+      "b": "Osteoporosis check; fracture defaults"
+     },
+     {
+      "h": "6-7",
+      "b": "7th character by treatment; no Z aftercare"
+     },
+     {
+      "h": "8",
+      "b": "Sequence by seriousness and severity"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• The 7th character depends on **active treatment**, not on whether the provider is new (I.C.19.a).\n• **A** = active treatment; **D** = routine healing care after active treatment; **S** = sequela, added only to the injury code, with the sequela sequenced first (I.C.19.a).\n• **No aftercare Z codes** for injuries or traumatic fractures; use the acute code with the subsequent-care 7th character (I.C.19.a, I.C.19.c.1).\n• Code **each injury separately** unless a combination code exists; the **most serious injury**, per the provider and focus of treatment, goes first (I.C.19.b).\n• Do not code **superficial injuries** with a more severe injury of the same site; use **complication codes** for iatrogenic injuries (I.C.19.b).\n• Fracture defaults: **closed** and **displaced**; Gustilo type unknown → **type I or II** (I.C.19.c).\n• **Nonunion: K, M, N; malunion: P, Q, R.** Known osteoporosis + minor trauma → **M80** (I.C.19.c.1).\n• Multiple fractures by **severity**; physeal fractures get **only the physeal code** (I.C.19.c.2, I.C.19.c.3).",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Sections I.C.19.a to I.C.19.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "7th character",
+      "b": "Follows active treatment"
+     },
+     {
+      "h": "Aftercare",
+      "b": "Injury code with D, not a Z code"
+     },
+     {
+      "h": "Injuries",
+      "b": "Separate codes; most serious first"
+     },
+     {
+      "h": "Fractures",
+      "b": "Closed, displaced; M80 if osteoporotic"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about 7th character S is correct according to Section I.C.19.a?",
+   "options": [
+    "S is added to the sequela code, such as the scar code",
+    "S identifies the injury responsible for the sequela and is added only to the injury code",
+    "S is used for the first visit with a new provider",
+    "S is used for routine care during the healing phase"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.a says the S is added only to the injury code, not the sequela code, and identifies the injury responsible for the sequela. Adding it to the scar code is the opposite of the rule. A new provider does not change the 7th character; active treatment does. Routine care during healing uses D, not S.",
+   "visual": {
+    "topic": "7th character S",
+    "hint": "Which code carries the S?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "In the inpatient setting, the provider documents each of a patient's injuries specifically. According to Section I.C.19.b, should T07, Unspecified multiple injuries, be assigned?",
+   "options": [
+    "Yes, always, to summarize the injuries",
+    "Yes, but only as an additional code",
+    "No, because T07 is only for outpatient use in every case",
+    "No, because T07 should not be used inpatient unless information for a more specific code is not available"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.19.b states that codes from category T07 should not be assigned in the inpatient setting unless information for a more specific code is not available. Here specific information is available, so separate injury codes are assigned. T07 is not added to summarize or as an extra code. The guideline does not say T07 is outpatient-only in every case; it says inpatient use is limited to when specific information is not available.",
+   "visual": {
+    "topic": "T07 multiple injuries",
+    "hint": "Is information for a more specific code available?"
+   }
+  }
+ ]
+}

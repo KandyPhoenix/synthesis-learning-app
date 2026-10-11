@@ -1,0 +1,992 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Outpatient Coding: Different Setting, Different Rules",
+   "content": "Sections II and III were written for inpatient and other non-outpatient settings. **Section IV** covers **hospital-based outpatient services and provider-based office visits**.\n\nMost of Section I (conventions, general guidelines, chapter-specific guidelines) still applies to outpatient coding. But a few rules **change** when the patient is an outpatient, and those differences are some of the most heavily tested points on coding exams:\n\n• **First-listed diagnosis** replaces \"principal diagnosis\"\n• **Uncertain diagnoses** (\"probable,\" \"suspected,\" \"rule out\") are **not coded** for outpatients\n• **Abnormal test results** interpreted by a provider are handled differently\n\nThis lesson walks through all of Section IV, A through Q.",
+   "visual": {
+    "title": "Section IV at a Glance",
+    "sub": "Outpatient services and provider office visits",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Same as inpatient",
+      "b": "Section I conventions and guidelines"
+     },
+     {
+      "h": "Different",
+      "b": "First-listed, not principal"
+     },
+     {
+      "h": "Different",
+      "b": "Uncertain diagnoses are not coded"
+     },
+     {
+      "h": "Different",
+      "b": "Interpreted test results"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: What Section IV Covers",
+   "content": "**Who uses it:** hospitals/providers coding **hospital-based outpatient services** and **provider-based office visits**.\n\n**What else applies:** Section I – **conventions, general coding guidelines and chapter-specific guidelines** – should also be applied to outpatient services and office visits.\n\n**Encounter = visit:** the guidelines use the two terms interchangeably for outpatient contacts.\n\n**Two big differences from inpatient coding:**\n\n1. The **UHDDS definition of principal diagnosis does not apply** to hospital-based outpatient services and provider-based office visits.\n2. The coding guidelines for **inconclusive diagnoses** (probable, suspected, rule out, etc.) were developed for inpatient reporting and **do not apply to outpatients**.",
+   "visual": {
+    "title": "Outpatient vs Inpatient",
+    "sub": "What carries over and what does not",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Carries over",
+      "b": "Section I conventions and guidelines"
+     },
+     {
+      "h": "Interchangeable",
+      "b": "Encounter and visit"
+     },
+     {
+      "h": "Does NOT apply",
+      "b": "UHDDS principal dx definition"
+     },
+     {
+      "h": "Does NOT apply",
+      "b": "Inpatient uncertain dx rule"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to the introduction to Section IV, which statement is correct for hospital-based outpatient services and provider-based office visits?",
+   "options": [
+    "The UHDDS definition of principal diagnosis applies",
+    "The guidelines for inconclusive diagnoses (probable, suspected, rule out) apply",
+    "Section I conventions and general and chapter-specific guidelines should also be applied",
+    "Section I guidelines do not apply to office visits"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section IV states \"Guidelines in Section I, Conventions, general coding guidelines and chapter-specific guidelines, should also be applied for outpatient services and office visits.\" The same introduction says the UHDDS definition of principal diagnosis does not apply to these services, and that the inconclusive-diagnosis guidelines were developed for inpatient reporting and do not apply to outpatients. Saying Section I does not apply contradicts the text.",
+   "visual": {
+    "topic": "Scope of Section IV",
+    "hint": "Which parts of the guidelines carry over?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.A"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: First-Listed Diagnosis (IV.A)",
+   "content": "• **Terminology:** outpatient records use **first-listed diagnosis** instead of principal diagnosis.\n• **Order of authority:** the **coding conventions** of ICD-10-CM and the **general and disease-specific guidelines take precedence** over the outpatient guidelines.\n• **Diagnoses take time:** diagnoses often are not established at the initial encounter; it may take **two or more visits** before a diagnosis is confirmed.\n• **The most critical rule:** begin the search for the correct code in the **Alphabetic Index**. **Never begin searching in the Tabular List**, because that leads to coding errors.",
+   "visual": {
+    "title": "Selecting the First-Listed Dx",
+    "sub": "Section IV.A",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Term",
+      "b": "First-listed, not principal"
+     },
+     {
+      "h": "Precedence",
+      "b": "Conventions, then general guidelines"
+     },
+     {
+      "h": "Timing",
+      "b": "Diagnosis may take 2+ visits"
+     },
+     {
+      "h": "Most critical rule",
+      "b": "Start in the Alphabetic Index"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section IV.A, what is \"the most critical rule\" in searching for the correct code?",
+   "options": [
+    "Begin the search in the Alphabetic Index, never initially in the Tabular List",
+    "Begin the search in the Tabular List",
+    "Begin with the code used at the patient's last visit",
+    "Begin with the payer's preferred code list"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section IV.A says \"The most critical rule involves beginning the search for the correct code assignment through the Alphabetic Index. Never begin searching initially in the Tabular List as this will lead to coding errors.\" Starting in the Tabular List is exactly what the rule forbids. Previous-visit codes and payer lists are not mentioned as starting points.",
+   "visual": {
+    "topic": "Starting the code search",
+    "hint": "Which book does IV.A say to open first?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.A.1"
+  },
+  {
+   "type": "official",
+   "ref": "IV.A.2"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Outpatient Surgery and Observation (IV.A.1–IV.A.2)",
+   "content": "**Outpatient surgery (IV.A.1):** code the **reason for the surgery** as the first-listed diagnosis, **even if the surgery is not performed due to a contraindication**.\n\n**Observation for a medical condition (IV.A.2, paragraph 1):** assign a code for the **medical condition** as the first-listed diagnosis.\n\n**Outpatient surgery, then complications requiring observation (IV.A.2, paragraph 2):** code the **reason for the surgery first**, followed by **codes for the complications as secondary diagnoses**.\n\n**Exam trap:** compare with inpatient Section II.J. If an outpatient surgery patient is **admitted as an inpatient** because of a complication, the **complication** is principal. If the patient only goes to **observation** (still outpatient), the **reason for surgery** stays first and the complication is secondary.",
+   "visual": {
+    "title": "Surgery Then Observation",
+    "sub": "Outpatient vs inpatient sequencing",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Outpatient surgery",
+      "b": "Reason for surgery first, even if cancelled"
+     },
+     {
+      "h": "Observation, medical",
+      "b": "Medical condition first"
+     },
+     {
+      "h": "Surgery then obs",
+      "b": "Reason for surgery first, complication 2nd"
+     },
+     {
+      "h": "Surgery then inpatient",
+      "b": "II.J: complication is principal"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient presents for outpatient surgery, develops a complication, and is placed in observation (not admitted as an inpatient). According to Section IV.A.2, how are the diagnoses sequenced?",
+   "options": [
+    "The complication first, then the reason for surgery",
+    "Only the complication is coded",
+    "An observation Z code first, then the complication",
+    "The reason for the surgery first, followed by codes for the complications as secondary diagnoses"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section IV.A.2 states that when a patient presents for outpatient surgery and develops complications requiring admission to observation, \"code the reason for the surgery as the first reported diagnosis (reason for the encounter), followed by codes for the complications as secondary diagnoses.\" Putting the complication first is the inpatient rule in Section II.J for an inpatient admission. Coding only the complication or putting an observation Z code first is not what IV.A.2 directs.",
+   "visual": {
+    "topic": "Outpatient surgery then observation",
+    "hint": "Is the patient an inpatient or still outpatient?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient arrives for same-day surgery, but the surgery is not performed because of a contraindication. According to Section IV.A.1, what is the first-listed diagnosis?",
+   "options": [
+    "The contraindication",
+    "The reason for the surgery",
+    "A symptom code",
+    "No diagnosis is reported because no surgery was done"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section IV.A.1 states to \"code the reason for the surgery as the first-listed diagnosis (reason for the encounter), even if the surgery is not performed due to a contraindication.\" The contraindication is not placed first under this rule. A symptom code is not called for. The encounter still occurred and is still reported.",
+   "visual": {
+    "topic": "Outpatient surgery not performed",
+    "hint": "The reason for the encounter does not change."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.B"
+  },
+  {
+   "type": "official",
+   "ref": "IV.C"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Which Codes, and What Documentation (IV.B–IV.C)",
+   "content": "**IV.B – code range:** the appropriate codes from **A00.0 through T88.9, Z00-Z99 and U00-U85** must be used to identify diagnoses, symptoms, conditions, problems, complaints, or other reasons for the encounter/visit.\n\n**IV.C – documentation:** for accurate reporting, documentation should describe the patient's condition using terminology that includes **specific diagnoses as well as symptoms, problems, or reasons for the encounter**. There are ICD-10-CM codes for all of these.\n\n**What it means:** an outpatient record does not need a confirmed disease to be codable. Symptoms, problems, complaints and other reasons for the visit all have codes.",
+   "visual": {
+    "title": "Outpatient Code Range",
+    "sub": "Section IV.B and IV.C",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Diagnoses and symptoms",
+      "b": "A00.0 through T88.9"
+     },
+     {
+      "h": "Factors/health services",
+      "b": "Z00-Z99"
+     },
+     {
+      "h": "Special purposes",
+      "b": "U00-U85"
+     },
+     {
+      "h": "IV.C",
+      "b": "Document diagnoses, symptoms, problems"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.D"
+  },
+  {
+   "type": "official",
+   "ref": "IV.E"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Symptoms and Z Codes (IV.D–IV.E)",
+   "content": "**IV.D – Symptoms and signs:** codes for symptoms and signs (as opposed to diagnoses) are **acceptable** when a **diagnosis has not been established (confirmed) by the provider**. **Chapter 18** (codes **R00-R99**) contains **many, but not all**, symptom codes.\n\n**IV.E – Circumstances other than disease or injury:** the **Z00-Z99** codes (Factors Influencing Health Status and Contact with Health Services) handle occasions when **circumstances other than a disease or injury** are recorded as the diagnosis or problem. See Section I.C.21.\n\n**Exam trap:** \"not all symptom codes are in Chapter 18.\" A question that says every symptom code is in R00-R99 is wrong according to IV.D.",
+   "visual": {
+    "title": "No Confirmed Diagnosis Yet?",
+    "sub": "Section IV.D and IV.E",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Symptom codes OK",
+      "b": "When diagnosis not confirmed"
+     },
+     {
+      "h": "Chapter 18",
+      "b": "R00-R99: many, not all, symptoms"
+     },
+     {
+      "h": "Z00-Z99",
+      "b": "Reasons other than disease or injury"
+     },
+     {
+      "h": "Cross-reference",
+      "b": "Section I.C.21"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section IV.D, which statement about Chapter 18 (R00-R99) is correct?",
+   "options": [
+    "It contains every symptom code in ICD-10-CM",
+    "Its codes may never be used in the outpatient setting",
+    "It contains many, but not all, codes for symptoms",
+    "Its codes may be used only after a diagnosis is confirmed"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section IV.D states that Chapter 18 \"contain[s] many, but not all codes for symptoms.\" So it does not contain every symptom code. IV.D says symptom and sign codes are acceptable for outpatient reporting when a diagnosis has not been established (confirmed) by the provider, so the options saying the codes may never be used outpatient, or only after a diagnosis is confirmed, are wrong.",
+   "visual": {
+    "topic": "Symptom codes outpatient",
+    "hint": "Watch for the words 'many, but not all.'"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.F"
+  },
+  {
+   "type": "official",
+   "ref": "IV.F.1"
+  },
+  {
+   "type": "official",
+   "ref": "IV.F.2"
+  },
+  {
+   "type": "official",
+   "ref": "IV.F.3"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Level of Detail (IV.F)",
+   "content": "**IV.F.1 – Code length:** ICD-10-CM codes have **3, 4, 5, 6 or 7 characters**. A three-character code is the **heading of a category** that may be subdivided by 4th, 5th, 6th or 7th characters for greater specificity.\n\n**IV.F.2 – Use the full code:** a three-character code is used **only if it is not further subdivided**. A code is **invalid** if it is not coded to the **full number of characters required**, **including the 7th character, if applicable**.\n\n**IV.F.3 – Specificity:** code to the **highest level of specificity when supported by the medical record documentation**.\n\n**What it means:** stopping at the category or skipping a required 7th character produces an invalid code. Specificity must come from the documentation, not from assumptions.",
+   "visual": {
+    "title": "Code to the Full Length",
+    "sub": "Section IV.F.1 to IV.F.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "3 characters",
+      "b": "Category heading"
+     },
+     {
+      "h": "4th to 7th characters",
+      "b": "Add specificity"
+     },
+     {
+      "h": "Invalid code",
+      "b": "Missing required characters"
+     },
+     {
+      "h": "Specificity",
+      "b": "Highest level documentation supports"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section IV.F.2, when is a three-character code used?",
+   "options": [
+    "Whenever the documentation is limited",
+    "Only if it is not further subdivided",
+    "Only for Z codes",
+    "Whenever a 7th character is not known"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section IV.F.2 states \"A three-character code is to be used only if it is not further subdivided.\" Limited documentation does not make a subdivided category valid. The rule is not limited to Z codes. If a 7th character is required, IV.F.2 says the code is invalid without it, so leaving it off is not an option.",
+   "visual": {
+    "topic": "Three-character codes",
+    "hint": "When is a category complete by itself?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.G"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: What Goes First (IV.G)",
+   "content": "**The rule:** list first the code for the **diagnosis, condition, problem, or other reason for encounter/visit** shown in the record to be **chiefly responsible for the services provided**. Then list additional codes for **coexisting conditions**.\n\n**Symptom first is allowed:** in some cases the first-listed diagnosis may be a **symptom** when a diagnosis has not been established (confirmed) by the provider.\n\n**Compare with inpatient:** the inpatient principal diagnosis is \"chiefly responsible for occasioning the **admission**\" (Section II). The outpatient first-listed diagnosis is chiefly responsible for the **services provided** at the visit.",
+   "visual": {
+    "title": "First-Listed Diagnosis",
+    "sub": "Section IV.G",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "List first",
+      "b": "Reason chiefly responsible for services"
+     },
+     {
+      "h": "Then",
+      "b": "Coexisting conditions"
+     },
+     {
+      "h": "Symptom first?",
+      "b": "Yes, if no confirmed diagnosis"
+     },
+     {
+      "h": "Inpatient compare",
+      "b": "Chiefly responsible for admission"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.H"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Uncertain Diagnosis, Outpatient (IV.H)",
+   "content": "**The rule:** **Do not code** diagnoses documented as \"probable,\" \"suspected,\" \"questionable,\" \"rule out,\" \"compatible with,\" \"consistent with,\" or **\"working diagnosis\"** or other similar terms indicating uncertainty.\n\n**Instead:** code the condition(s) to the **highest degree of certainty for that encounter/visit**, such as **symptoms, signs, abnormal test results, or other reason for the visit**.\n\n**The guideline's own note:** this **differs** from the coding practices used by short-term, acute care, long-term care and psychiatric hospitals.\n\n**The biggest exam trap in Section IV:**\n\n• **Inpatient (II.H / III.C):** uncertain diagnosis at discharge → **code as if established**.\n• **Outpatient (IV.H):** uncertain diagnosis → **do not code it**; code what is certain.",
+   "visual": {
+    "title": "Uncertain Dx: Opposite Rules",
+    "sub": "Section IV.H vs Sections II.H and III.C",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Outpatient IV.H",
+      "b": "Do NOT code the uncertain diagnosis"
+     },
+     {
+      "h": "Outpatient: code instead",
+      "b": "Symptoms, signs, abnormal results"
+     },
+     {
+      "h": "Inpatient II.H/III.C",
+      "b": "Code as if established"
+     },
+     {
+      "h": "Extra IV.H term",
+      "b": "\"Working diagnosis\""
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: \"Rule Out\" in the Office",
+   "content": "**Documentation:** A physician office note reads: \"Cough and fever for three days. **Rule out pneumonia.** Chest x-ray ordered.\"\n\n**Which guideline applies?** Section IV.H (outpatient uncertain diagnosis).\n\n**Decision:** Do **not** code pneumonia. Code to the highest degree of certainty for this visit: the documented **signs and symptoms** (cough and fever).\n\n**Same words, inpatient:** if an acute care inpatient were discharged with pneumonia documented as \"still to be ruled out,\" Section II.H or III.C would direct coding the pneumonia as if it existed.",
+   "visual": {
+    "title": "Rule Out Pneumonia",
+    "sub": "Outpatient office visit",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Documented",
+      "b": "Cough, fever, rule out pneumonia"
+     },
+     {
+      "h": "Do NOT code",
+      "b": "Pneumonia"
+     },
+     {
+      "h": "Do code",
+      "b": "Cough and fever (signs/symptoms)"
+     },
+     {
+      "h": "Rule",
+      "b": "Section IV.H"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider's office note documents \"working diagnosis: migraine\" along with the patient's headache. According to Section IV.H, what should be coded?",
+   "options": [
+    "The headache (the highest degree of certainty for the visit)",
+    "Migraine, because the provider wrote it as a diagnosis",
+    "Both migraine and headache",
+    "Nothing until the diagnosis is confirmed"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section IV.H lists \"working diagnosis\" among the terms indicating uncertainty and says not to code such diagnoses; instead \"code the condition(s) to the highest degree of certainty for that encounter/visit, such as symptoms, signs.\" Coding migraine (alone or with headache) applies the inpatient rule, which IV.H says differs. Coding nothing is wrong because the symptom is codable (IV.D).",
+   "visual": {
+    "topic": "Outpatient uncertain diagnosis",
+    "hint": "'Working diagnosis' is on the IV.H list."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The same phrase, \"suspected pneumonia,\" appears at discharge for an acute care inpatient and on a hospital outpatient clinic note. Which is correct?",
+   "options": [
+    "Code pneumonia in both",
+    "Code signs/symptoms for the inpatient; code pneumonia for the outpatient",
+    "Code signs/symptoms in both",
+    "Code pneumonia for the inpatient; code signs/symptoms for the outpatient"
+   ],
+   "correct": 3,
+   "explanation": "Correct: For the inpatient, Section II.H (principal) or III.C (other diagnosis) says to code a \"suspected\" diagnosis at discharge as if it existed. For the outpatient, Section IV.H says not to code \"suspected\" diagnoses and to code the highest degree of certainty, such as signs and symptoms. The other options apply one setting's rule to both or reverse them.",
+   "visual": {
+    "topic": "Inpatient vs outpatient uncertainty",
+    "hint": "The setting decides the rule."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.I"
+  },
+  {
+   "type": "official",
+   "ref": "IV.J"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Chronic and Coexisting Conditions (IV.I–IV.J)",
+   "content": "**IV.I – Chronic diseases:** chronic diseases **treated on an ongoing basis** may be coded and reported **as many times as the patient receives treatment and care** for the condition(s).\n\n**IV.J – Coexisting conditions:**\n\n• **Code** all documented conditions that **coexist at the time of the encounter/visit** and that **require or affect patient care, treatment or management**.\n• **Do not code** conditions that were **previously treated and no longer exist**.\n• **However,** history codes (**categories Z80-Z87**) may be used as secondary codes if the historical condition or family history **has an impact on current care or influences treatment**.\n\nThis matches the inpatient history rule in Section III.A.",
+   "visual": {
+    "title": "Chronic and Coexisting",
+    "sub": "Section IV.I and IV.J",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Chronic, ongoing",
+      "b": "Report at each visit it is treated"
+     },
+     {
+      "h": "Coexisting, affects care",
+      "b": "Code it"
+     },
+     {
+      "h": "Treated, no longer exists",
+      "b": "Do not code"
+     },
+     {
+      "h": "History affects care",
+      "b": "Z80-Z87 secondary"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's office note lists a condition that was treated last year and no longer exists. It does not affect today's care. According to Section IV.J, what should the coder do?",
+   "options": [
+    "Code it as a current coexisting condition",
+    "Code it as the first-listed diagnosis",
+    "Do not code it",
+    "Code it at every visit as a chronic disease"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section IV.J states \"Do not code conditions that were previously treated and no longer exist.\" It is not a current coexisting condition. It is not the reason for the visit, so it is not first-listed. IV.I's repeat-reporting rule applies to chronic diseases treated on an ongoing basis, not resolved conditions. A history code (Z80-Z87) would be possible only if the history had an impact on current care, which it does not here.",
+   "visual": {
+    "topic": "Previously treated conditions",
+    "hint": "Does it still exist or affect care?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.K"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Diagnostic Services Only (IV.K), Part 1",
+   "content": "**Sequencing:** for patients receiving **diagnostic services only**, sequence first the diagnosis, condition, problem, or other reason chiefly responsible for the outpatient services. Other diagnoses (for example, chronic conditions) may be additional diagnoses.\n\n**Routine testing with no reason:** for encounters for **routine laboratory/radiology testing in the absence of any signs, symptoms, or associated diagnosis**, assign **Z01.89**, Encounter for other specified special examinations.\n\n**Routine plus non-routine:** if routine testing is done during the same encounter as a test to evaluate a sign, symptom, or diagnosis, assign **both** the Z code and the code for the reason for the non-routine test.",
+   "visual": {
+    "title": "Diagnostic Services Only",
+    "sub": "Section IV.K, paragraphs 1-2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "First-listed",
+      "b": "Reason chiefly responsible"
+     },
+     {
+      "h": "Routine test, no reason",
+      "b": "Z01.89"
+     },
+     {
+      "h": "Routine + non-routine",
+      "b": "Z code and the reason code"
+     },
+     {
+      "h": "Chronic conditions",
+      "b": "May be additional diagnoses"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Diagnostic Services Only (IV.K), Part 2",
+   "content": "**Interpreted tests:** for outpatient encounters for diagnostic tests that have been **interpreted by a physician**, and the **final report is available at the time of coding**:\n\n• **Code** any **confirmed or definitive diagnosis(es)** documented in the interpretation.\n• **Do not code related signs and symptoms** as additional diagnoses.\n\n**The guideline's note:** this **differs from the hospital inpatient setting** regarding abnormal findings on test results.\n\n**Exam trap – IV.K vs III.B:**\n\n• **Outpatient (IV.K):** a confirmed diagnosis in a physician's final interpretation is coded.\n• **Inpatient (III.B):** abnormal findings are not coded unless the provider indicates their clinical significance.",
+   "visual": {
+    "title": "Interpreted Test Results",
+    "sub": "Outpatient IV.K vs inpatient III.B",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Outpatient, final report",
+      "b": "Code confirmed dx in interpretation"
+     },
+     {
+      "h": "Outpatient",
+      "b": "Drop related signs and symptoms"
+     },
+     {
+      "h": "Inpatient III.B",
+      "b": "Need provider's clinical significance"
+     },
+     {
+      "h": "Condition",
+      "b": "Final report available at coding"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Outpatient Imaging With a Final Report",
+   "content": "**Documentation:** A patient is sent to the hospital outpatient radiology department with a documented symptom. The radiologist interprets the study, and the **final report** with a **confirmed diagnosis** is available when the coder codes the encounter.\n\n**Which guideline applies?** Section IV.K, third paragraph.\n\n**Decision:** Code the **confirmed diagnosis** documented in the interpretation. **Do not** code the related symptom as an additional diagnosis.\n\n**Variation:** If the patient came only for **routine** imaging with **no signs, symptoms, or associated diagnosis**, assign **Z01.89**, Encounter for other specified special examinations.",
+   "visual": {
+    "title": "Outpatient Test Encounter",
+    "sub": "Applying Section IV.K",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Final report available",
+      "b": "Code the confirmed diagnosis"
+     },
+     {
+      "h": "Related symptom",
+      "b": "Not coded additionally"
+     },
+     {
+      "h": "Routine, no reason",
+      "b": "Z01.89"
+     },
+     {
+      "h": "Both routine and other",
+      "b": "Z code plus reason code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has routine laboratory testing with no signs, symptoms, or associated diagnosis. According to Section IV.K, which code is assigned?",
+   "options": [
+    "Z01.89, Encounter for other specified special examinations",
+    "Z01.81, Encounter for pre-procedural examinations",
+    "A Chapter 18 symptom code",
+    "Z00.0-, general medical examination"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section IV.K states \"For encounters for routine laboratory/radiology testing in the absence of any signs, symptoms, or associated diagnosis, assign Z01.89, Encounter for other specified special examinations.\" Z01.81 is the subcategory Section IV.M uses for pre-procedural examinations. A symptom code is wrong because there are no signs or symptoms. Z00.0- is the general medical examination subcategory in Section IV.P, not routine testing alone.",
+   "visual": {
+    "topic": "Routine testing",
+    "hint": "No signs, no symptoms, no diagnosis."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An outpatient diagnostic test has been interpreted by a physician, and the final report with a confirmed diagnosis is available at the time of coding. According to Section IV.K, how are the related signs and symptoms handled?",
+   "options": [
+    "Code them as additional diagnoses",
+    "Code them first, with the diagnosis second",
+    "Code them only if the patient asks",
+    "Do not code them as additional diagnoses"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section IV.K says to \"code any confirmed or definitive diagnosis(es) documented in the interpretation. Do not code related signs and symptoms as additional diagnoses.\" Coding them as additional or first-listed diagnoses contradicts this. Patient requests are not a factor in the guideline.",
+   "visual": {
+    "topic": "Interpreted diagnostic tests",
+    "hint": "Confirmed diagnosis replaces related symptoms."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.L"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Therapeutic Services Only (IV.L)",
+   "content": "**General rule:** for patients receiving **therapeutic services only**, sequence first the diagnosis, condition, problem, or other reason chiefly responsible for the outpatient services. Other diagnoses (for example, chronic conditions) may be sequenced as additional diagnoses.\n\n**The only exception:** when the primary reason for the admission/encounter is **chemotherapy or radiation therapy**, list **the appropriate Z code for the service first**, and the **diagnosis or problem** for which the service is being performed **second**.\n\n**Exam trap:** for chemo or radiation encounters, the cancer (or other problem) is **not** first-listed; the Z code for the service is.",
+   "visual": {
+    "title": "Therapeutic Services Only",
+    "sub": "Section IV.L",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "General rule",
+      "b": "Reason chiefly responsible first"
+     },
+     {
+      "h": "Exception",
+      "b": "Chemotherapy or radiation therapy"
+     },
+     {
+      "h": "Exception: first",
+      "b": "Z code for the service"
+     },
+     {
+      "h": "Exception: second",
+      "b": "Diagnosis being treated"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's outpatient encounter is primarily for chemotherapy. According to Section IV.L, what is listed first?",
+   "options": [
+    "The diagnosis for which the chemotherapy is given",
+    "The appropriate Z code for the chemotherapy service",
+    "A symptom code",
+    "Any chronic condition"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section IV.L says \"when the primary reason for the admission/encounter is chemotherapy or radiation therapy, the appropriate Z code for the service is listed first, and the diagnosis or problem for which the service is being performed listed second.\" The diagnosis goes second, not first. Symptom codes and chronic conditions are not the first-listed code under this exception.",
+   "visual": {
+    "topic": "Chemotherapy and radiation",
+    "hint": "IV.L calls this its only exception."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.M"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Preoperative Evaluations (IV.M)",
+   "content": "**The rule:** for patients receiving **preoperative evaluations only**:\n\n1. Sequence first a code from **subcategory Z01.81**, Encounter for pre-procedural examinations.\n2. Assign a code for the **condition that is the reason for the surgery** as an **additional** diagnosis.\n3. **Code also any findings** related to the pre-op evaluation.\n\n**Why it matters:** the visit is for clearance, not for treating the surgical condition, so the Z code goes first.",
+   "visual": {
+    "title": "Pre-Op Evaluation Only",
+    "sub": "Section IV.M",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "First",
+      "b": "Z01.81 subcategory"
+     },
+     {
+      "h": "Additional",
+      "b": "Reason for the surgery"
+     },
+     {
+      "h": "Also code",
+      "b": "Findings from the pre-op evaluation"
+     },
+     {
+      "h": "Applies when",
+      "b": "Visit is pre-op evaluation only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient sees a provider only for a preoperative evaluation before scheduled surgery. According to Section IV.M, what is sequenced first?",
+   "options": [
+    "The condition that is the reason for the surgery",
+    "Z01.89, Encounter for other specified special examinations",
+    "A code from subcategory Z01.81, Encounter for pre-procedural examinations",
+    "Any finding from the pre-op evaluation"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section IV.M says to \"sequence first a code from subcategory Z01.81, Encounter for pre-procedural examinations.\" The reason for the surgery is assigned as an additional diagnosis, and any findings are coded also, so they are not first. Z01.89 is the Section IV.K code for routine testing without signs, symptoms, or diagnosis.",
+   "visual": {
+    "topic": "Preoperative evaluation",
+    "hint": "IV.M names a specific subcategory."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.N"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Ambulatory Surgery (IV.N)",
+   "content": "**The rule:** for ambulatory surgery, code **the diagnosis for which the surgery was performed**.\n\n**When pre-op and post-op differ:** if the **postoperative diagnosis** is known to be different from the preoperative diagnosis at the time the diagnosis is confirmed, **select the postoperative diagnosis**, **because it is the most definitive**.\n\n**Example in plain words:** the surgeon operates for one suspected problem, and the confirmed post-op diagnosis is something different. Code the post-op diagnosis.",
+   "visual": {
+    "title": "Pre-Op vs Post-Op Diagnosis",
+    "sub": "Section IV.N",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Code",
+      "b": "Diagnosis surgery was performed for"
+     },
+     {
+      "h": "If they differ",
+      "b": "Use the postoperative diagnosis"
+     },
+     {
+      "h": "Why",
+      "b": "It is the most definitive"
+     },
+     {
+      "h": "Timing",
+      "b": "When the diagnosis is confirmed"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "For an ambulatory surgery, the preoperative diagnosis differs from the confirmed postoperative diagnosis. According to Section IV.N, which is coded?",
+   "options": [
+    "The preoperative diagnosis, because it justified the surgery",
+    "The postoperative diagnosis, because it is the most definitive",
+    "Both, with the preoperative one listed first",
+    "Neither; code the symptoms"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section IV.N states \"If the postoperative diagnosis is known to be different from the preoperative diagnosis at the time the diagnosis is confirmed, select the postoperative diagnosis for coding, since it is the most definitive.\" The preoperative diagnosis is replaced, not listed first. Coding symptoms instead ignores the confirmed diagnosis.",
+   "visual": {
+    "topic": "Ambulatory surgery diagnosis",
+    "hint": "Which diagnosis is most definitive?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.O"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Routine Prenatal Visits (IV.O)",
+   "content": "Section IV.O does not give its own rule. It says: **See Section I.C.15, Routine outpatient prenatal visits.**\n\nSo outpatient routine prenatal visits follow the **Chapter 15 (pregnancy)** guideline, which you studied in the pregnancy lessons. When coding an outpatient prenatal visit, go back to Section I.C.15 for the instruction.",
+   "visual": {
+    "title": "Routine Prenatal Visits",
+    "sub": "Section IV.O is a cross-reference",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "IV.O says",
+      "b": "See Section I.C.15"
+     },
+     {
+      "h": "Topic",
+      "b": "Routine outpatient prenatal visits"
+     },
+     {
+      "h": "Where the rule lives",
+      "b": "Chapter 15 guidelines"
+     },
+     {
+      "h": "Action",
+      "b": "Apply I.C.15 to the visit"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.P"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: General Exams With Abnormal Findings (IV.P)",
+   "content": "**The codes:** subcategories **Z00.0-** (general medical examination) and **Z00.12-** (routine child health examination) have codes **with and without abnormal findings**.\n\n**The rule:** if a general medical exam results in an **abnormal finding**, assign the code for **general medical examination with abnormal finding** as the **first-listed** diagnosis, and **also code the abnormal finding** as a secondary code.\n\n**What counts as an abnormal finding:** a condition/diagnosis that is **newly identified**, or a **change in severity of a chronic condition** (such as **uncontrolled hypertension** or an **acute exacerbation of COPD**) during a routine physical examination.\n\n**Note the definition:** it names two things, a newly identified condition or a change in severity of a chronic condition. Apply it as written.",
+   "visual": {
+    "title": "Routine Exam Finds Something",
+    "sub": "Section IV.P",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Subcategories",
+      "b": "Z00.0- and Z00.12-"
+     },
+     {
+      "h": "First-listed",
+      "b": "Exam with abnormal finding"
+     },
+     {
+      "h": "Secondary",
+      "b": "Code for the abnormal finding"
+     },
+     {
+      "h": "Abnormal finding",
+      "b": "New dx, or chronic dx changes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "During a routine adult physical exam, the provider finds that the patient's known hypertension is now uncontrolled. According to Section IV.P, how is this coded?",
+   "options": [
+    "General medical exam with abnormal finding first-listed, plus a secondary code for the abnormal finding",
+    "General medical exam without abnormal findings, then hypertension",
+    "Hypertension only, first-listed",
+    "Z01.89 first, then hypertension"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section IV.P says an examination with abnormal findings includes \"a change in severity of a chronic condition (such as uncontrolled hypertension...)\" and that \"the code for general medical examination with abnormal finding should be assigned as the first-listed diagnosis. A secondary code for the abnormal finding should also be coded.\" The 'without abnormal findings' code is wrong because uncontrolled hypertension counts as an abnormal finding. Coding only hypertension drops the exam code. Z01.89 is for routine testing (IV.K), not a general medical exam.",
+   "visual": {
+    "topic": "Exam with abnormal findings",
+    "hint": "Is a change in severity an abnormal finding?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "IV.Q"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Routine Health Screenings (IV.Q)",
+   "content": "Like IV.O, Section IV.Q is a **cross-reference**: **See Section I.C.21, Factors influencing health status and contact with health services, Screening.**\n\nScreening encounters are coded under the **Chapter 21 Z code** screening guideline, which you studied in the Z code lessons.\n\n**Tip for exams:** when a question asks which section governs outpatient screening visits, the answer is the Chapter 21 screening guideline that IV.Q points to.",
+   "visual": {
+    "title": "Routine Screenings",
+    "sub": "Section IV.Q is a cross-reference",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "IV.Q says",
+      "b": "See Section I.C.21, Screening"
+     },
+     {
+      "h": "Code family",
+      "b": "Z codes (Chapter 21)"
+     },
+     {
+      "h": "Similar to",
+      "b": "IV.O, also a pointer"
+     },
+     {
+      "h": "Action",
+      "b": "Apply the I.C.21 screening rule"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which two Section IV guidelines consist only of a cross-reference to a chapter-specific guideline?",
+   "options": [
+    "IV.A and IV.B",
+    "IV.K and IV.L",
+    "IV.H and IV.J",
+    "IV.O (routine prenatal visits) and IV.Q (routine health screenings)"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section IV.O says \"See Section I.C.15. Routine outpatient prenatal visits,\" and Section IV.Q says \"See Section I.C.21. Factors influencing health status and contact with health services, Screening.\" IV.A, IV.B, IV.K, IV.L, IV.H and IV.J each contain their own instructions.",
+   "visual": {
+    "topic": "Cross-reference guidelines",
+    "hint": "Two Section IV entries just say 'See...'"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Section IV on an Outpatient Record",
+   "content": "1. **Confirm the setting** is hospital-based outpatient or a provider office visit. Use \"first-listed,\" not \"principal.\"\n2. **Start in the Alphabetic Index**, never in the Tabular List (IV.A). Follow conventions and Section I guidelines.\n3. **Identify the reason chiefly responsible for the services** (IV.G). If no diagnosis is confirmed, a symptom may be first-listed (IV.D).\n4. **Check uncertainty words.** \"Probable,\" \"suspected,\" \"rule out,\" \"working diagnosis\" → do not code the diagnosis; code signs, symptoms or abnormal results (IV.H).\n5. **Check the encounter type:** outpatient surgery (IV.A.1, IV.N), observation (IV.A.2), diagnostic only (IV.K), therapeutic only (IV.L, with the chemo/radiation exception), pre-op only (IV.M), general exam (IV.P), prenatal (IV.O), screening (IV.Q).\n6. **Add coexisting conditions** that affect care (IV.J); do not code resolved conditions; chronic diseases may be reported each time treated (IV.I).\n7. **Code to full length and highest specificity** (IV.F).",
+   "visual": {
+    "title": "Outpatient Coding Workflow",
+    "sub": "Seven steps through Section IV",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2",
+      "b": "Setting; start in the Index"
+     },
+     {
+      "h": "3",
+      "b": "Reason chiefly responsible"
+     },
+     {
+      "h": "4",
+      "b": "Uncertain terms: not coded"
+     },
+     {
+      "h": "5",
+      "b": "Match the encounter type"
+     },
+     {
+      "h": "6",
+      "b": "Coexisting and chronic"
+     },
+     {
+      "h": "7",
+      "b": "Full length, specificity"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• Outpatient records use **first-listed diagnosis**; the UHDDS principal diagnosis definition does **not** apply.\n• **Start in the Alphabetic Index**, never in the Tabular List.\n• **Uncertain diagnoses are not coded** for outpatients (IV.H); code the highest degree of certainty. This is the **opposite** of inpatient II.H/III.C.\n• Symptom codes are acceptable when no diagnosis is confirmed; Chapter 18 has **many, but not all**, symptom codes.\n• Codes must be reported to the **full number of characters**, including a required 7th character.\n• **Outpatient surgery:** reason for surgery first, even if not performed; post-op diagnosis if different and more definitive.\n• **Chemo/radiation:** Z code for the service first. **Pre-op:** Z01.81 subcategory first. **Routine testing with no reason:** Z01.89.\n• **Interpreted tests (final report):** code the confirmed diagnosis, not related symptoms.",
+   "visual": {
+    "title": "Section IV Key Takeaways",
+    "sub": "Outpatient rules most often tested",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Term",
+      "b": "First-listed diagnosis"
+     },
+     {
+      "h": "Uncertain dx",
+      "b": "Not coded outpatient"
+     },
+     {
+      "h": "Chemo/radiation",
+      "b": "Z code for service first"
+     },
+     {
+      "h": "Interpreted test",
+      "b": "Code confirmed diagnosis"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which of these is NOT a correct statement of a Section IV rule?",
+   "options": [
+    "Chronic diseases treated on an ongoing basis may be reported each time the patient receives treatment for them",
+    "A code is invalid if it lacks a required 7th character",
+    "For outpatient chemotherapy encounters, the cancer diagnosis is always listed first",
+    "A symptom may be first-listed when a diagnosis has not been established"
+   ],
+   "correct": 2,
+   "explanation": "Correct: the false statement is the chemotherapy one. Section IV.L says when the primary reason for the encounter is chemotherapy or radiation therapy, the appropriate Z code for the service is listed first and the diagnosis second. The other three are accurate: IV.I (chronic diseases may be reported as many times as treated), IV.F.2 (a code without its required 7th character is invalid), and IV.G (the first-listed diagnosis may be a symptom when a diagnosis has not been established).",
+   "visual": {
+    "topic": "Section IV review",
+    "hint": "Look for the statement that reverses an exception."
+   }
+  }
+ ]
+}

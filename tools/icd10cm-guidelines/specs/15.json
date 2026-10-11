@@ -1,0 +1,756 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Obesity and Mental Health Coding",
+   "content": "This lesson covers two short but heavily tested areas of the guidelines.\n\n**Section I.C.4.b (Chapter 4)** explains how the obesity codes are organized and how to use the **obesity class** codes.\n\n**Section I.C.5 (Chapter 5, F01–F99)** covers mental, behavioral and neurodevelopmental disorders:\n\n• **I.C.5.a** Pain disorders related to psychological factors\n• **I.C.5.b** Psychoactive substance use, abuse and dependence (remission, the use/abuse/dependence hierarchy, unspecified use, medical conditions due to substances, blood alcohol level)\n• **I.C.5.c** Factitious disorder (Munchausen's syndrome and Munchausen's syndrome by proxy)\n• **I.C.5.d** Dementia severity\n\nA common thread runs through this lesson: many of these codes depend on **provider documentation** and the **provider's clinical judgment**. The coder does not decide remission, obesity class or dementia severity.",
+   "visual": {
+    "title": "Lesson 15 Roadmap",
+    "sub": "Chapter 4 obesity, then Chapter 5 mental health",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "I.C.4.b Obesity",
+      "b": "E66 codes, obesity class, class 3 vs morbid obesity"
+     },
+     {
+      "h": "I.C.5.a Pain",
+      "b": "F45.41 vs F45.42 and the G89 codes"
+     },
+     {
+      "h": "I.C.5.b Substances",
+      "b": "Remission, hierarchy, unspecified use, Y90"
+     },
+     {
+      "h": "I.C.5.c Factitious",
+      "b": "Munchausen and Munchausen by proxy"
+     },
+     {
+      "h": "I.C.5.d Dementia",
+      "b": "Etiology and severity levels"
+     },
+     {
+      "h": "Common thread",
+      "b": "Provider documentation drives the code choice"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.4.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: How Obesity Codes Are Organized",
+   "content": "Section I.C.4.b first explains what is inside **category E66, Overweight and obesity**. The category holds two kinds of codes:\n\n• **Codes about the cause** of obesity. Example from the text: **E66.1**, drug-induced obesity.\n• **Codes about an effect** of obesity. Example from the text: **E66.2**, Morbid (severe) obesity with alveolar hypoventilation.\n\nThe guideline then reminds you that **not every obesity code lives in E66**. The text names two others:\n\n• **E88.82**, Obesity due to disruption of MC4R pathway\n• Codes in subcategory **O99.21**, Obesity complicating pregnancy, childbirth, and the puerperium\n\n**What this means for you:** do not stop searching at E66. Follow the Alphabetic Index, because the correct obesity code may be in another category or chapter.",
+   "visual": {
+    "title": "Where Obesity Codes Live",
+    "sub": "Category E66 is the main home, but not the only one",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "E66 - cause",
+      "b": "E66.1 drug-induced obesity"
+     },
+     {
+      "h": "E66 - effect",
+      "b": "E66.2 morbid (severe) obesity with alveolar hypoventilation"
+     },
+     {
+      "h": "Outside E66",
+      "b": "E88.82 obesity due to disruption of MC4R pathway"
+     },
+     {
+      "h": "Pregnancy",
+      "b": "O99.21 obesity complicating pregnancy, childbirth, puerperium"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Obesity Class Codes (E66.81)",
+   "content": "Subcategory **E66.81, Obesity class**, reports how severe the obesity is. Key points from Section I.C.4.b.1:\n\n• The codes need an additional character to show severity. (The guideline calls it a \"fifth character.\")\n• **The provider must document the obesity class** in the medical record before you assign these codes. The coder does not work out the class on their own.\n• Obesity class codes **can be reported with other obesity codes** from Chapters 4 and 15 to fully describe the condition.\n• **Exception:** if the record documents both **class 3 obesity** and **morbid obesity**, assign **only the class 3 obesity code**, because it is more specific.\n\n**What it does NOT say:** it does not tell you to drop other obesity codes in general. The \"only one\" rule applies to the specific pairing of class 3 obesity and morbid obesity.",
+   "visual": {
+    "title": "Obesity Class Rules",
+    "sub": "Section I.C.4.b.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Who decides class",
+      "b": "The provider must document it"
+     },
+     {
+      "h": "Combine?",
+      "b": "Yes, with other obesity codes in Chapters 4 and 15"
+     },
+     {
+      "h": "Class 3 + morbid",
+      "b": "Code only class 3 obesity"
+     },
+     {
+      "h": "Why",
+      "b": "Class 3 is more specific"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Class 3 Obesity and Morbid Obesity",
+   "content": "**Documentation:** The physician's progress note lists \"morbid obesity\" in one place and \"class 3 obesity\" in the assessment.\n\n**Which guideline applies:** Section I.C.4.b.1 — if both class 3 obesity and morbid obesity are documented, only a code for class 3 obesity should be assigned, as it is more specific.\n\n**Decision:** Report the class 3 obesity code from subcategory E66.81. Do not add a separate morbid obesity code.\n\n**Contrast:** If the note says only \"obesity\" and a nurse's screening form lists a class, the guideline's requirement is that the **provider** documents the class. Without that, the obesity class code should not be assigned.",
+   "visual": {
+    "title": "Class 3 vs Morbid Obesity",
+    "sub": "Both documented: pick the more specific one",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Documented",
+      "b": "Morbid obesity AND class 3 obesity"
+     },
+     {
+      "h": "Rule",
+      "b": "I.C.4.b.1: only class 3 code"
+     },
+     {
+      "h": "Report",
+      "b": "Class 3 obesity code (E66.81)"
+     },
+     {
+      "h": "Do not report",
+      "b": "A separate morbid obesity code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.4.b.1, the provider documents both morbid obesity and class 3 obesity. What should the coder assign?",
+   "options": [
+    "Both a morbid obesity code and a class 3 obesity code",
+    "Only a code for morbid obesity",
+    "Only a code for class 3 obesity",
+    "Query the provider, because the two terms conflict"
+   ],
+   "correct": 2,
+   "explanation": "Correct: only class 3 obesity. Section I.C.4.b.1 says that if both class 3 obesity and morbid obesity are documented, only a code for class 3 obesity should be assigned because it is more specific. Both codes is wrong because the guideline names this pairing as an exception to combining obesity codes. Morbid obesity only is wrong because it is the less specific term. A query is not needed: the guideline already tells you how to handle this documentation.",
+   "visual": {
+    "topic": "Obesity class",
+    "hint": "Which term does the guideline call more specific?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Under Section I.C.4.b.1, what must be true before an obesity class code from subcategory E66.81 is assigned?",
+   "options": [
+    "The obesity class must be documented in the medical record by the provider",
+    "The patient's BMI must be recorded by any clinician",
+    "The patient must also have a code from category E66 for morbid obesity",
+    "The encounter must be an inpatient admission"
+   ],
+   "correct": 0,
+   "explanation": "Correct: the provider must document the class. Section I.C.4.b.1 states the obesity class should be documented in the medical record by the provider for these codes to be assigned. The BMI option is wrong because this guideline does not allow the coder to derive the class from a measurement or from another clinician's note. Requiring a morbid obesity code is wrong; the guideline only says class codes can be reported with other obesity codes, and class 3 replaces morbid obesity when both are documented. There is no inpatient-only restriction in this guideline.",
+   "visual": {
+    "topic": "E66.81 requirements",
+    "hint": "Who must document the class?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.5"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.5.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Pain Disorders and Psychological Factors",
+   "content": "Section I.C.5.a gives two codes that look alike but work in opposite ways.\n\n**F45.41** — for pain that is **exclusively** related to psychological disorders.\n• The **Excludes1** note under category G89 means **do not assign a G89 code with F45.41**.\n\n**F45.42, Pain disorders with related psychological factors** — for a patient with **acute or chronic pain** when there is documentation of a **psychological component**.\n• F45.42 **should be used with a code from category G89**, Pain, not elsewhere classified.\n\n**Exam trap:** F45.41 = never with G89. F45.42 = used with G89. Remember: pain that is *exclusively* psychological stands alone; pain *with* psychological factors is paired with the G89 pain code.\n\nThe guideline cross-references Section I.C.6 (Pain), covered in the next lesson.",
+   "visual": {
+    "title": "F45.41 vs F45.42",
+    "sub": "Two pain codes, opposite rules for category G89",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "F45.41",
+      "b": "Pain exclusively related to psychological disorders"
+     },
+     {
+      "h": "With G89?",
+      "b": "NO. Excludes1 note at G89."
+     },
+     {
+      "h": "F45.42",
+      "b": "Pain disorders with related psychological factors"
+     },
+     {
+      "h": "With G89?",
+      "b": "YES. Use with a G89 code."
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Chronic Pain With a Psychological Component",
+   "content": "**Documentation:** The provider documents chronic pain and notes that psychological factors are contributing to the patient's pain.\n\n**Which guideline applies:** Section I.C.5.a — code F45.42, Pain disorders with related psychological factors, should be used with a code from category G89 if there is documentation of a psychological component for a patient with acute or chronic pain.\n\n**Decision:** Assign F45.42 and the appropriate chronic pain code from category G89.\n\n**Contrast:** If the provider instead documents that the pain is **exclusively** related to a psychological disorder, assign F45.41 and **no** G89 code, because of the Excludes1 note under category G89.",
+   "visual": {
+    "title": "Psychological Pain Decision",
+    "sub": "Read the provider wording carefully",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "\"Exclusively\" psych",
+      "b": "F45.41 alone, no G89 code"
+     },
+     {
+      "h": "Pain + psych component",
+      "b": "F45.42 plus a G89 code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents that a patient's pain is exclusively related to a psychological disorder. According to Section I.C.5.a, which statement is correct?",
+   "options": [
+    "Assign F45.42 with a code from category G89",
+    "Assign F45.41 with a code from category G89",
+    "Assign only a code from category G89",
+    "Assign F45.41; a code from category G89 should not be assigned with it"
+   ],
+   "correct": 3,
+   "explanation": "Correct: F45.41 without a G89 code. Section I.C.5.a assigns F45.41 for pain exclusively related to psychological disorders and states that, per the Excludes1 note under category G89, a G89 code should not be assigned with F45.41. F45.42 with G89 is the rule for pain with a psychological component, not pain that is exclusively psychological. F45.41 with G89 violates the Excludes1 note. A G89 code alone ignores the documented psychological disorder.",
+   "visual": {
+    "topic": "Psychological pain",
+    "hint": "Look for the word exclusively."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.5.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Substance Use Disorders \"In Remission\"",
+   "content": "Section I.C.5.b.1 covers the remission codes in categories **F10-F19** (the codes ending in -.11, -.21 and -.91).\n\n• Choosing \"in remission\" **requires the provider's clinical judgment**.\n• Assign these codes **only on the basis of provider documentation** (as defined in the guidelines), unless the classification instructs otherwise.\n\n**Severity crosswalk in the guideline:**\n\n• **Mild** substance use disorder in early or sustained remission → the codes for substance **abuse** in remission.\n• **Moderate or severe** substance use disorder in early or sustained remission → the codes for substance **dependence** in remission.\n\n**What it does NOT mean:** the coder may not decide a patient is in remission because, for example, the patient has not used a substance for a while. The provider has to document it.",
+   "visual": {
+    "title": "Remission Crosswalk",
+    "sub": "Section I.C.5.b.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Mild disorder",
+      "b": "In remission = ABUSE in remission codes"
+     },
+     {
+      "h": "Moderate or severe",
+      "b": "In remission = DEPENDENCE in remission codes"
+     },
+     {
+      "h": "Who decides",
+      "b": "Provider clinical judgment"
+     },
+     {
+      "h": "Basis for coding",
+      "b": "Provider documentation only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents \"moderate alcohol use disorder, in sustained remission.\" According to Section I.C.5.b.1, how is this classified?",
+   "options": [
+    "To the code for alcohol abuse in remission",
+    "To the code for alcohol dependence in remission",
+    "To the code for alcohol use, unspecified",
+    "It cannot be coded as remission without a coder review of the timeline"
+   ],
+   "correct": 1,
+   "explanation": "Correct: dependence in remission. Section I.C.5.b.1 says moderate or severe substance use disorders in early or sustained remission are classified to the codes for substance dependence in remission. Abuse in remission is for mild disorders. Unspecified use is a different concept (I.C.5.b.3) and does not describe remission. The coder does not review a timeline; remission is based on provider documentation and clinical judgment.",
+   "visual": {
+    "topic": "Remission severity",
+    "hint": "Mild goes one way; moderate or severe goes another."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Use, Abuse, Dependence Hierarchy",
+   "content": "Sometimes the provider documents more than one pattern for the **same substance** (for example, alcohol, opioid or cannabis). Section I.C.5.b.2 says to assign **only one code**, chosen by this hierarchy:\n\n• Use + abuse → code **abuse** only\n• Abuse + dependence → code **dependence** only\n• Use + abuse + dependence → code **dependence** only\n• Use + dependence → code **dependence** only\n\n**Easy way to remember:** dependence beats abuse, and abuse beats use. Code the highest one documented.\n\n**What it does NOT mean:** the hierarchy applies to the **same substance**. The guideline's wording is \"of the same substance.\" It does not tell you to collapse patterns for different substances into one code.",
+   "visual": {
+    "title": "Hierarchy: One Code Only",
+    "sub": "Same substance, more than one pattern documented",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Use + abuse",
+      "b": "Abuse"
+     },
+     {
+      "h": "Abuse + dependence",
+      "b": "Dependence"
+     },
+     {
+      "h": "Use + abuse + dependence",
+      "b": "Dependence"
+     },
+     {
+      "h": "Use + dependence",
+      "b": "Dependence"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Applying the Hierarchy",
+   "content": "**Documentation:** In the history the provider writes \"opioid abuse.\" In the assessment the provider writes \"opioid dependence.\"\n\n**Which guideline applies:** Section I.C.5.b.2 — if both abuse and dependence are documented for the same substance, assign only the code for dependence.\n\n**Decision:** One code for opioid dependence. No separate opioid abuse code.\n\n**Second scenario:** The provider documents \"cannabis use\" and \"cannabis abuse.\" Per the same guideline, assign only the code for **abuse**.",
+   "visual": {
+    "title": "Hierarchy in Action",
+    "sub": "Section I.C.5.b.2",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Opioid abuse + dependence",
+      "b": "Report dependence only"
+     },
+     {
+      "h": "Cannabis use + abuse",
+      "b": "Report abuse only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents alcohol use, alcohol abuse, and alcohol dependence for the same patient. According to Section I.C.5.b.2, what is assigned?",
+   "options": [
+    "Three codes: use, abuse and dependence",
+    "Only the code for alcohol dependence",
+    "Two codes: abuse and dependence",
+    "Only the code for alcohol abuse"
+   ],
+   "correct": 1,
+   "explanation": "Correct: only dependence. Section I.C.5.b.2 says that when use, abuse and dependence are all documented for the same substance, assign only the code for dependence. Three codes and two codes are wrong because the guideline says only one code should be assigned to identify the pattern of use. Abuse only is wrong because dependence is higher in the hierarchy.",
+   "visual": {
+    "topic": "Use, abuse, dependence",
+    "hint": "The guideline allows only one code per substance."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Unspecified Psychoactive Substance \"Use\"",
+   "content": "Section I.C.5.b.3 limits the codes for **unspecified psychoactive substance use** (F10.9-, F11.9-, F12.9-, F13.9-, F14.9-, F15.9-, F16.9-, F18.9-, F19.9-). All of the following must be true:\n\n• The code is based on **provider documentation**.\n• It meets the definition of a **reportable diagnosis** (see Section III, Reporting Additional Diagnoses).\n• The substance use is **associated with** a substance related disorder (Chapter 5 disorders such as sexual dysfunction, sleep disorder, or a mental or behavioral disorder) **or** a medical condition.\n• That relationship is **documented by the provider**.\n\n**What it does NOT mean:** a simple mention of substance use, with no related disorder or medical condition linked by the provider, does not meet this guideline for these codes.",
+   "visual": {
+    "title": "When \"Use\" Codes Qualify",
+    "sub": "Section I.C.5.b.3: all four must be met",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Provider documented",
+      "b": "Based on provider documentation"
+     },
+     {
+      "h": "2. Reportable",
+      "b": "Meets Section III definition"
+     },
+     {
+      "h": "3. Associated condition",
+      "b": "Related disorder or medical condition"
+     },
+     {
+      "h": "4. Link documented",
+      "b": "Provider documents the relationship"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.5.b.3, when may a code for unspecified psychoactive substance use (such as F12.9-) be assigned?",
+   "options": [
+    "Whenever any clinician notes that the patient uses the substance",
+    "Only when the patient is in remission",
+    "Only when the provider also documents abuse of the same substance",
+    "Only when the use is associated with a substance related disorder or medical condition, the provider documents that relationship, and it meets the definition of a reportable diagnosis"
+   ],
+   "correct": 3,
+   "explanation": "Correct: the use must be linked by the provider to a substance related disorder or medical condition and be reportable. Section I.C.5.b.3 says these codes are assigned based on provider documentation, when they meet the definition of a reportable diagnosis, and only when the use is associated with a substance related disorder or medical condition and the provider documents that relationship. Any clinician's mention is not enough. Remission is a separate topic (I.C.5.b.1). If abuse is also documented, the hierarchy in I.C.5.b.2 says to code abuse only, not use.",
+   "visual": {
+    "topic": "Unspecified use codes",
+    "hint": "Look for every condition the guideline lists."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Medical Conditions Caused by Substances",
+   "content": "Section I.C.5.b.4 says that a **medical condition** due to substance use, abuse or dependence is **not** classified as a substance-induced disorder.\n\n**What to do instead:**\n\n• Assign the code for the **medical condition** as directed by the Alphabetical Index, **and**\n• Assign the appropriate psychoactive substance **use, abuse or dependence** code.\n\n**The guideline's own example:** alcoholic pancreatitis due to alcohol dependence →\n• a code from subcategory **K85.2**, Alcohol induced acute pancreatitis, **plus**\n• a code from subcategory **F10.2**, such as **F10.20**, Alcohol dependence, uncomplicated.\n\n**Exam trap:** it would **not** be appropriate to assign **F10.288**, Alcohol dependence with other alcohol-induced disorder, for this case. The pancreatitis is a medical condition, not a substance-induced (mental) disorder.",
+   "visual": {
+    "title": "Alcoholic Pancreatitis",
+    "sub": "The guideline example in Section I.C.5.b.4",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Medical condition",
+      "b": "K85.2 alcohol induced acute pancreatitis"
+     },
+     {
+      "h": "Substance code",
+      "b": "F10.2-, e.g., F10.20 alcohol dependence, uncomplicated"
+     },
+     {
+      "h": "NOT appropriate",
+      "b": "F10.288 dependence with other alcohol-induced disorder"
+     },
+     {
+      "h": "Why",
+      "b": "A medical condition is not a substance-induced disorder"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has alcoholic pancreatitis due to alcohol dependence. Based on the example in Section I.C.5.b.4, which coding is correct?",
+   "options": [
+    "A code from subcategory K85.2 and a code from subcategory F10.2, such as F10.20",
+    "F10.288 only",
+    "F10.288 and a code from subcategory K85.2",
+    "A code from subcategory K85.2 only"
+   ],
+   "correct": 0,
+   "explanation": "Correct: K85.2 plus F10.2 (such as F10.20). Section I.C.5.b.4 says medical conditions due to substance use, abuse and dependence are not classified as substance-induced disorders; assign the medical condition code plus the use, abuse or dependence code, and its example names K85.2 with F10.20. The guideline states it would not be appropriate to assign F10.288, so both options containing F10.288 are wrong. K85.2 alone leaves out the required dependence code.",
+   "visual": {
+    "topic": "Substance-related medical condition",
+    "hint": "Two codes: the condition and the dependence."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Blood Alcohol Level (Y90)",
+   "content": "Section I.C.5.b.5 covers category **Y90**, Evidence of alcohol involvement determined by blood alcohol level.\n\nA Y90 code **may** be assigned when **both** of these are true:\n\n• The blood alcohol level information is documented, **and**\n• The patient's provider has documented a condition classifiable to **category F10**, Alcohol related disorders.\n\n**Important detail:** the blood alcohol level itself **does not need to be documented by the patient's provider** to be coded. The guideline points to Section I.B.14 for blood alcohol level documentation by clinicians other than the patient's provider.\n\n**What it does NOT mean:** Y90 is tied to a provider-documented F10 condition. The guideline's condition for Y90 is that F10 condition.",
+   "visual": {
+    "title": "Y90 Checklist",
+    "sub": "Section I.C.5.b.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "BAL documented",
+      "b": "Need not be by the provider"
+     },
+     {
+      "h": "F10 condition",
+      "b": "Must be documented by the provider"
+     },
+     {
+      "h": "Then",
+      "b": "A Y90 code may be assigned"
+     },
+     {
+      "h": "Cross-reference",
+      "b": "Section I.B.14"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.5.b.5, which statement about category Y90 is correct?",
+   "options": [
+    "The blood alcohol level must be documented by the patient's provider before Y90 can be coded",
+    "Y90 is assigned instead of the F10 code",
+    "Y90 may be assigned when the blood alcohol level is documented and the patient's provider has documented a condition classifiable to category F10",
+    "Y90 may be assigned for any patient who has a blood alcohol level drawn"
+   ],
+   "correct": 2,
+   "explanation": "Correct: BAL documented plus a provider-documented F10 condition. Section I.C.5.b.5 says a Y90 code may be assigned when this information is documented and the patient's provider has documented a condition classifiable to category F10. Requiring the provider to document the level is wrong because the guideline says the blood alcohol level does not need to be documented by the patient's provider. Nothing in the guideline says Y90 replaces the F10 code. Having a level drawn is not enough; the provider-documented F10 condition is required.",
+   "visual": {
+    "topic": "Blood alcohol level",
+    "hint": "Who must document what?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.5.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Factitious Disorder and Munchausen",
+   "content": "Section I.C.5.c separates two situations.\n\n**1. Factitious disorder imposed on self (Munchausen's syndrome)**\n• A person falsely reports or causes **their own** physical or psychological signs or symptoms.\n• Assign the appropriate code from subcategory **F68.1-**, Factitious disorder imposed on self.\n\n**2. Munchausen's syndrome by proxy (MSBP)**\n• Also called \"factitious disorder imposed on another\" or \"factitious disorder by proxy.\"\n• A **caregiver (perpetrator)** falsely reports or causes an illness or injury in **another person (victim)** under their care, such as a child, an elderly adult, or a person who has a disability.\n• **The perpetrator, not the victim, receives this diagnosis.** Assign **F68.A**, Factitious disorder imposed on another, to the **perpetrator's** record.\n• On the **victim's** record, assign the appropriate code from **T74** (abuse, neglect and other maltreatment, **confirmed**) or **T76** (**suspected**).\n\nThe guideline cross-references Section I.C.19.f, Adult and child abuse, neglect and other maltreatment.",
+   "visual": {
+    "title": "Whose Record Gets Which Code?",
+    "sub": "Section I.C.5.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Self (Munchausen)",
+      "b": "Patient record: F68.1-"
+     },
+     {
+      "h": "Perpetrator (MSBP)",
+      "b": "Perpetrator record: F68.A"
+     },
+     {
+      "h": "Victim - confirmed",
+      "b": "Victim record: T74"
+     },
+     {
+      "h": "Victim - suspected",
+      "b": "Victim record: T76"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Munchausen by Proxy",
+   "content": "**Documentation:** A child is seen repeatedly for symptoms. The provider documents that the parent has been causing the child's illness and diagnoses the parent with factitious disorder imposed on another. The abuse is documented as confirmed.\n\n**Which guideline applies:** Section I.C.5.c.\n\n**Decision:**\n• **Child's (victim's) record:** the appropriate code from category T74 (confirmed). If the provider had documented it as suspected, category T76 would be used.\n• **Parent's (perpetrator's) record:** F68.A, Factitious disorder imposed on another — only if the parent is the patient being coded.\n\n**Exam trap:** F68.A never goes on the child's record. The guideline says the perpetrator, not the victim, receives this diagnosis.",
+   "visual": {
+    "title": "MSBP Coding",
+    "sub": "Two people, two records",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Victim (child)",
+      "b": "T74 confirmed or T76 suspected"
+     },
+     {
+      "h": "Perpetrator (parent)",
+      "b": "F68.A on the perpetrator record"
+     },
+     {
+      "h": "Never",
+      "b": "F68.A on the victim record"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A child is the victim of confirmed Munchausen's syndrome by proxy. According to Section I.C.5.c, what is assigned on the child's record?",
+   "options": [
+    "F68.A, Factitious disorder imposed on another",
+    "A code from subcategory F68.1-, Factitious disorder imposed on self",
+    "No code, because the disorder belongs to the caregiver",
+    "The appropriate code from category T74"
+   ],
+   "correct": 3,
+   "explanation": "Correct: a code from category T74. Section I.C.5.c says that for the victim, assign the appropriate code from category T74 (confirmed) or T76 (suspected); this case is confirmed. F68.A goes on the perpetrator's record, not the victim's. F68.1- is for factitious disorder imposed on self. Assigning no code ignores the guideline's direction to code the victim with T74 or T76.",
+   "visual": {
+    "topic": "Munchausen by proxy",
+    "hint": "Perpetrator and victim are coded differently."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Under Section I.C.5.c, a patient is documented as having Munchausen's syndrome (falsely causing their own symptoms). Which code is assigned?",
+   "options": [
+    "F68.A",
+    "A code from category T76",
+    "A code from subcategory F68.1-",
+    "A code from category T74"
+   ],
+   "correct": 2,
+   "explanation": "Correct: F68.1-. Section I.C.5.c says that for documented factitious disorder imposed on self or Munchausen's syndrome, assign the appropriate code from subcategory F68.1-, Factitious disorder imposed on self. F68.A is for factitious disorder imposed on another (by proxy), assigned to the perpetrator. Categories T74 and T76 are for the victim of MSBP.",
+   "visual": {
+    "topic": "Factitious disorder",
+    "hint": "Self or another person?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.5.d"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Dementia Severity",
+   "content": "Section I.C.5.d says dementia (categories **F01, F02 and F03**) is classified by **etiology** (cause) and **severity**: unspecified, mild, moderate or severe.\n\n• Choosing the severity level **requires the provider's clinical judgment**.\n• Assign severity **only from provider documentation**, unless the classification instructs otherwise.\n• **No severity documented?** Assign the code for **unspecified severity**.\n\n**Progression during an inpatient stay:** if a patient is admitted to an inpatient acute care hospital or other inpatient facility setting with dementia at one severity level and it progresses to a higher level, assign **one code for the highest severity level reported during the stay**.\n\n**What it does NOT mean:** you do not report two dementia codes (one for each severity level) for the same stay, and the coder does not infer severity from nursing notes or test results.",
+   "visual": {
+    "title": "Dementia Severity Rules",
+    "sub": "Section I.C.5.d, categories F01, F02, F03",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Classified by",
+      "b": "Etiology and severity"
+     },
+     {
+      "h": "Severity levels",
+      "b": "Unspecified, mild, moderate, severe"
+     },
+     {
+      "h": "Not documented",
+      "b": "Use unspecified severity"
+     },
+     {
+      "h": "Progresses inpatient",
+      "b": "One code: highest severity"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Dementia That Worsens During the Stay",
+   "content": "**Documentation:** A patient is admitted to an acute care hospital. The admitting note documents mild dementia. Later in the stay, the provider documents that the dementia has progressed to moderate.\n\n**Which guideline applies:** Section I.C.5.d — assign one code for the highest severity level reported during the stay.\n\n**Decision:** One dementia code reflecting **moderate** severity. Do not also report the mild severity code.\n\n**Contrast:** If the provider never documents a severity level, assign the code for unspecified severity.",
+   "visual": {
+    "title": "Highest Severity Wins",
+    "sub": "Inpatient progression of dementia",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Admission",
+      "b": "Mild documented"
+     },
+     {
+      "h": "Later in stay",
+      "b": "Moderate documented"
+     },
+     {
+      "h": "Code",
+      "b": "One code: moderate"
+     },
+     {
+      "h": "Do not",
+      "b": "Report both mild and moderate"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted to an inpatient facility with dementia documented as mild. During the stay the provider documents severe dementia. According to Section I.C.5.d, what should be coded?",
+   "options": [
+    "One code for the highest severity level reported during the stay (severe)",
+    "Two codes: one for mild and one for severe dementia",
+    "One code for mild dementia, the severity present on admission",
+    "One code for unspecified severity, because the documentation changed"
+   ],
+   "correct": 0,
+   "explanation": "Correct: one code for severe. Section I.C.5.d says that if a patient is admitted with dementia at one severity level and it progresses to a higher level, assign one code for the highest severity level reported during the stay. Two codes is wrong because the guideline says one code. The severity on admission is not used when a higher level is reported. Unspecified severity is only for when the documentation does not provide severity information.",
+   "visual": {
+    "topic": "Dementia progression",
+    "hint": "How many codes, and which level?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.5.d, the provider documents dementia and its cause but does not mention severity. What should the coder do with severity?",
+   "options": [
+    "Assign mild severity as the default",
+    "Assign the code for unspecified severity",
+    "Determine severity from the nursing cognitive assessment",
+    "Leave the dementia uncoded until severity is documented"
+   ],
+   "correct": 1,
+   "explanation": "Correct: unspecified severity. Section I.C.5.d says that if the documentation does not provide information about the severity of the dementia, assign the appropriate code for unspecified severity. There is no default to mild in the guideline. Severity selection requires the provider's clinical judgment and provider documentation, so the coder does not use a nursing assessment. Leaving the condition uncoded is not what the guideline directs.",
+   "visual": {
+    "topic": "Dementia severity",
+    "hint": "What does the guideline say when severity is missing?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Lesson 15 to a Real Record",
+   "content": "Use these steps when a record includes obesity, psychological pain, substance use, factitious disorder or dementia.\n\n1. **Obesity:** Follow the Alphabetic Index; the code may be in E66 or elsewhere (E88.82, O99.21). Assign an obesity class code from E66.81 only if the **provider** documents the class. If class 3 and morbid obesity are both documented, code class 3 only.\n2. **Pain with psychological factors:** \"Exclusively\" psychological → F45.41, no G89. Pain with a psychological component → F45.42 plus a G89 code.\n3. **Substances — same substance, several patterns?** Apply the hierarchy (dependence > abuse > use) and assign one code.\n4. **Remission?** Code it only if the provider documents it. Mild → abuse in remission; moderate or severe → dependence in remission.\n5. **Unspecified use?** Code only when the provider links the use to a substance related disorder or medical condition and it is reportable.\n6. **Medical condition due to a substance?** Code the medical condition per the Index plus the use/abuse/dependence code (e.g., K85.2 + F10.20, not F10.288).\n7. **Blood alcohol level?** Y90 may be added if the level is documented and the provider documented an F10 condition.\n8. **Factitious disorder:** Self → F68.1-. By proxy → F68.A on the perpetrator; T74 (confirmed) or T76 (suspected) on the victim.\n9. **Dementia:** Code etiology and provider-documented severity; unspecified if none; inpatient progression → one code for the highest level.",
+   "visual": {
+    "title": "Lesson 15 Workflow",
+    "sub": "Check provider documentation at every step",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2 Obesity, pain",
+      "b": "Class by provider; F45.41 vs F45.42"
+     },
+     {
+      "h": "3-5 Substances",
+      "b": "Hierarchy, remission, use links"
+     },
+     {
+      "h": "6-7 Medical, BAL",
+      "b": "Condition + F10 code; Y90"
+     },
+     {
+      "h": "8 Factitious",
+      "b": "F68.1-, F68.A, T74/T76"
+     },
+     {
+      "h": "9 Dementia",
+      "b": "Provider severity; highest level"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Obesity codes** are mainly in E66, but also in other categories such as E88.82 and O99.21 (I.C.4.b).\n• **Obesity class** (E66.81) must be documented by the provider; class 3 + morbid obesity → code class 3 only (I.C.4.b.1).\n• **F45.41** (exclusively psychological pain) is never coded with G89; **F45.42** is coded with a G89 code (I.C.5.a).\n• **Remission** is a provider judgment; mild → abuse in remission, moderate/severe → dependence in remission (I.C.5.b.1).\n• **Hierarchy** for the same substance: one code, dependence > abuse > use (I.C.5.b.2).\n• **Medical conditions due to substances** are not substance-induced disorders: code the condition plus the use/abuse/dependence code (I.C.5.b.4).\n• **Y90** needs a provider-documented F10 condition; the BAL itself need not be documented by the provider (I.C.5.b.5).\n• **Munchausen by proxy:** F68.A on the perpetrator; T74/T76 on the victim. **Dementia:** provider-documented severity, unspecified if none, highest level for inpatient progression (I.C.5.c–d).",
+   "visual": {
+    "title": "Lesson 15 Summary",
+    "sub": "The rules most likely to appear on the exam",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Obesity class",
+      "b": "Provider documents; class 3 wins"
+     },
+     {
+      "h": "F45.41 / F45.42",
+      "b": "No G89 / with G89"
+     },
+     {
+      "h": "Substances",
+      "b": "One code: dependence > abuse > use"
+     },
+     {
+      "h": "Medical condition",
+      "b": "Condition + F10.20, not F10.288"
+     },
+     {
+      "h": "MSBP",
+      "b": "F68.A perpetrator; T74/T76 victim"
+     },
+     {
+      "h": "Dementia",
+      "b": "Highest severity during stay"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents cannabis use and cannabis dependence for the same patient. According to Section I.C.5.b.2, what is coded?",
+   "options": [
+    "Cannabis use and cannabis dependence",
+    "Only cannabis use",
+    "Only cannabis dependence",
+    "Cannabis abuse, as a compromise between the two"
+   ],
+   "correct": 2,
+   "explanation": "Correct: only dependence. Section I.C.5.b.2 says that if both use and dependence are documented, assign only the code for dependence. Coding both is wrong because only one code should be assigned for the pattern of use. Use only is wrong because dependence is higher in the hierarchy. Abuse was not documented, and the guideline never substitutes an undocumented pattern.",
+   "visual": {
+    "topic": "Substance hierarchy",
+    "hint": "Which pattern ranks highest?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with acute pain has documentation of a psychological component. Which pair of codes does Section I.C.5.a direct?",
+   "options": [
+    "F45.42 and a code from category G89",
+    "F45.41 and a code from category G89",
+    "F45.41 only",
+    "A code from category G89 only"
+   ],
+   "correct": 0,
+   "explanation": "Correct: F45.42 with a G89 code. Section I.C.5.a says F45.42, Pain disorders with related psychological factors, should be used with a code from category G89 if there is documentation of a psychological component for a patient with acute or chronic pain. F45.41 is for pain exclusively related to psychological disorders, and G89 may not be assigned with it (Excludes1), so both F45.41 options are wrong. G89 alone leaves out the documented psychological component.",
+   "visual": {
+    "topic": "Pain and psychology",
+    "hint": "Is the pain exclusively psychological?"
+   }
+  }
+ ]
+}

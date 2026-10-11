@@ -1,0 +1,712 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Newborns and Congenital Conditions",
+   "content": "The last two lessons were about the **mother's** record. This lesson switches to the **baby's** record and to conditions present from birth.\n\n• **Chapter 16 (P00-P96): Certain Conditions Originating in the Perinatal Period.** For coding purposes, the perinatal period is **before birth through the 28th day following birth**.\n• **Chapter 17 (Q00-QA1): Congenital malformations, deformations, chromosomal abnormalities, and genetic disorders.**\n\nYou will learn the birth-record principal diagnosis (Z38), when to use Z05 observation codes, which newborn conditions to code, prematurity and low birth weight (P05, P07), newborn sepsis (P36), stillbirth (P95), COVID-19 in newborns, and how to code congenital conditions at any age.\n\n**FY 2027 change:** The chapter 17 title and guideline now include **\"genetic disorders\"**, and each sentence now says \"malformation/deformation, chromosomal abnormality, or genetic disorder.\"",
+   "visual": {
+    "title": "Mother vs Newborn Records",
+    "sub": "Each chapter stays on its own record",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Chapter 15 (O codes)",
+      "b": "Mother's record only"
+     },
+     {
+      "h": "Chapter 16 (P codes)",
+      "b": "Never on the mother's record"
+     },
+     {
+      "h": "Perinatal period",
+      "b": "Before birth to day 28 after"
+     },
+     {
+      "h": "Chapter 17 (Q codes)",
+      "b": "Any age; FY 2027 adds genetic disorders"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.16"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.16.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Where Chapter 16 Codes Go (I.C.16.a.1, a.4)",
+   "content": "**The record rule (I.C.16.a.1):**\n\n• Chapter 16 codes are **never** used on the **maternal** record.\n• Chapter 15 (obstetric) codes are **never** permitted on the **newborn** record.\n\n**The age rule (I.C.16.a.1 and a.4):** Chapter 16 codes may be used **throughout the life of the patient** if the condition is **still present**. If a condition originates in the perinatal period and continues throughout life, keep using the perinatal code **regardless of the patient's age**.\n\n**What it does NOT mean:** The 28-day perinatal period describes when the condition **began**, not a deadline for using the code.",
+   "visual": {
+    "title": "Perinatal Codes: Who and When",
+    "sub": "Record rule and age rule",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Mother's record",
+      "b": "No chapter 16 codes"
+     },
+     {
+      "h": "Newborn's record",
+      "b": "No chapter 15 codes"
+     },
+     {
+      "h": "Later in life",
+      "b": "Still use P code if condition present"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Birth Record Principal Diagnosis (I.C.16.a.2)",
+   "content": "**Birth episode:** Assign a code from **category Z38, Liveborn infants according to place of birth and type of delivery**, as the **principal diagnosis**.\n\n**Only once:** A Z38 code is assigned **only once**, to a newborn **at the time of birth**.\n\n**Transfers:** If the newborn is **transferred** to another institution, the **receiving hospital does not use** a Z38 code.\n\n**Newborn record only:** Z38 is **not** used on the mother's record. (Compare Z37, Outcome of delivery, which goes on the mother's record — Section I.C.15.b.5.)\n\n**Exam trap:** Z37 = mother's record, outcome of delivery. Z38 = baby's birth record, principal diagnosis.",
+   "visual": {
+    "title": "Z37 vs Z38",
+    "sub": "Two Z codes, two records",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z37",
+      "b": "Mother's record: outcome of delivery"
+     },
+     {
+      "h": "Z38",
+      "b": "Newborn's birth record: principal dx"
+     },
+     {
+      "h": "Transfer",
+      "b": "Receiving hospital: no Z38"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A newborn is born at Hospital A and transferred on day 2 to Hospital B for care. According to Section I.C.16.a.2, should Hospital B assign a code from category Z38?",
+   "options": [
+    "Yes, as the principal diagnosis",
+    "No, a Z38 code should not be used at the receiving hospital",
+    "Yes, as a secondary diagnosis",
+    "Only if the newborn is still within the 28-day perinatal period"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.16.a.2 says a Z38 code is assigned only once, to a newborn at the time of birth, and if a newborn is transferred to another institution, a Z38 code should not be used at the receiving hospital. Options A and C are wrong because the receiving hospital does not use Z38 at all. Option D is wrong because the 28-day perinatal period does not change this rule.",
+   "visual": {
+    "topic": "Z38 and transfers",
+    "hint": "Z38 is assigned only once."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Other Chapters, Birth vs Community (I.C.16.a.3, a.5)",
+   "content": "**Other chapters (I.C.16.a.3):**\n\n• Codes from other chapters may be used with chapter 16 codes if they give **more specific detail**.\n• **Sign and symptom** codes may be assigned when a **definitive diagnosis has not been established**.\n• If the **reason for the encounter is a perinatal condition**, the chapter 16 code is **sequenced first**.\n\n**Birth process or community acquired (I.C.16.a.5):**\n\n• If a newborn's condition could be **either** due to the birth process **or** community acquired, and the documentation **does not say which**, the **default is the birth process** → use the chapter 16 code.\n• If the condition **is documented as community acquired**, do **not** assign a chapter 16 code.\n• For COVID-19 in a newborn, the guideline points to Section I.C.16.h.",
+   "visual": {
+    "title": "Birth Process or Community?",
+    "sub": "When documentation is silent",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Not documented",
+      "b": "Default: birth process → chapter 16"
+     },
+     {
+      "h": "Community acquired",
+      "b": "No chapter 16 code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A newborn has a condition that could be due to the birth process or community acquired, and the documentation does not indicate which. Per Section I.C.16.a.5, what should the coder do?",
+   "options": [
+    "Assume it is due to the birth process and use the chapter 16 code",
+    "Query the provider and leave the condition uncoded",
+    "Assume community acquired and use a code from another chapter",
+    "Assign both a chapter 16 code and a community-acquired code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.16.a.5 says that when the documentation does not indicate which, the default is due to the birth process and the code from chapter 16 should be used. Option B is wrong because the guideline supplies a default for this situation. Option C reverses the default. Option D is wrong because a chapter 16 code is not assigned when the condition is community acquired, so both would not be reported.",
+   "visual": {
+    "topic": "Default for newborn conditions",
+    "hint": "The guideline gives a default."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Code All Clinically Significant Conditions (I.C.16.a.6)",
+   "content": "All clinically significant conditions noted on the **routine newborn examination** should be coded. A condition is clinically significant if it requires:\n\n• clinical evaluation; or\n• therapeutic treatment; or\n• diagnostic procedures; or\n• extended length of hospital stay; or\n• increased nursing care and/or monitoring; or\n• has **implications for future health care needs**\n\n**How this differs from adult rules:** The note says these are the same as the general guidelines for \"additional diagnoses,\" **except** the last point, **implications for future health care needs**. That point is special to the newborn guidelines. Code conditions that the **provider has specified** as having implications for future health care needs.",
+   "visual": {
+    "title": "Clinically Significant?",
+    "sub": "Any ONE of these is enough",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Evaluation",
+      "b": "Clinical evaluation"
+     },
+     {
+      "h": "Treatment",
+      "b": "Therapeutic treatment"
+     },
+     {
+      "h": "Diagnostics",
+      "b": "Diagnostic procedures"
+     },
+     {
+      "h": "Longer stay",
+      "b": "Extended length of stay"
+     },
+     {
+      "h": "More nursing",
+      "b": "Increased care or monitoring"
+     },
+     {
+      "h": "Future needs",
+      "b": "Provider-specified; newborn-only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to the note in Section I.C.16.a.6, which criterion for a clinically significant newborn condition is NOT part of the general guidelines for additional diagnoses?",
+   "options": [
+    "Requires therapeutic treatment",
+    "Requires diagnostic procedures",
+    "Requires increased nursing care and/or monitoring",
+    "Has implications for future health care needs"
+   ],
+   "correct": 3,
+   "explanation": "Correct: The note in Section I.C.16.a.6 says the perinatal guidelines are the same as the general coding guidelines for additional diagnoses, except for the final point regarding implications for future health care needs. Options A, B and C are listed in the same section as criteria that match the general additional-diagnosis guidelines.",
+   "visual": {
+    "topic": "Newborn-only criterion",
+    "hint": "Look at the final point and the note."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.16.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Z05 Observation Codes (I.C.16.b)",
+   "content": "**What Z05 is for (I.C.16.b.1):** Category **Z05, Observation and evaluation of newborn for suspected diseases and conditions ruled out**, is used when a **healthy newborn** is evaluated for a suspected condition that, **after study, is not present**.\n\n**When NOT to use Z05:** If the newborn has **signs or symptoms** of the suspected problem, **code the sign or symptom** instead.\n\n**Placement:**\n\n• **On the birth record (I.C.16.b.3):** Z05 is a **secondary** code, **after** the Z38 code.\n• **On other records (I.C.16.b.2):** Z05 may be the **principal or first-listed** code for readmissions or encounters when the Z38 code no longer applies.\n\n**Who qualifies:** Z05 codes are only for **healthy newborns and infants** for which **no condition is found** after study.",
+   "visual": {
+    "title": "Z05: Suspected, Ruled Out",
+    "sub": "Healthy newborn, nothing found after study",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Birth record",
+      "b": "Z38 first, Z05 second"
+     },
+     {
+      "h": "Later encounter",
+      "b": "Z05 may be first-listed"
+     },
+     {
+      "h": "Signs or symptoms present",
+      "b": "Code the sign/symptom, not Z05"
+     },
+     {
+      "h": "Condition found",
+      "b": "Code the condition, not Z05"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Z05 on the Birth Record",
+   "content": "**Documentation:** A healthy newborn is born in the hospital. A condition is suspected, the baby is evaluated, and after study the condition is ruled out. The baby has no signs or symptoms of it.\n\n**Guidelines:** Sections I.C.16.a.2 and I.C.16.b.1/b.3.\n\n**Decision:** Z38 code as the **principal** diagnosis, followed by a Z05 code as a **secondary** diagnosis.\n\n**Variation 1:** The baby has a **symptom** of the suspected problem → code the **symptom**, not Z05.\n\n**Variation 2:** The baby is brought back days later for evaluation of a suspected condition that is ruled out → Z05 may be **first-listed**, since Z38 no longer applies.",
+   "visual": {
+    "title": "Z05 Decisions",
+    "sub": "Same idea, different settings",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Birth stay, ruled out",
+      "b": "Z38, then Z05"
+     },
+     {
+      "h": "Has a symptom",
+      "b": "Code the symptom"
+     },
+     {
+      "h": "Readmission, ruled out",
+      "b": "Z05 first-listed"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A newborn on the birth admission is evaluated for a suspected condition and shows a related symptom. According to Section I.C.16.b.1, how is this coded?",
+   "options": [
+    "Z38 code, then a Z05 code",
+    "Z05 code as principal",
+    "Z38 code, then the code for the sign or symptom",
+    "Z05 code and the symptom code together"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.16.b.1 says not to use a Z05 code when the patient is documented to have signs or symptoms of a suspected problem; code the sign or symptom. On the birth record, Z38 remains the principal diagnosis (Section I.C.16.a.2). Options A, B and D are wrong because Z05 is not used when signs or symptoms are documented; Option B also ignores that Z38 is principal on the birth record.",
+   "visual": {
+    "topic": "Z05 vs symptoms",
+    "hint": "Is the baby truly without signs or symptoms?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.16.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Coding Additional Perinatal Diagnoses (I.C.16.c)",
+   "content": "**I.C.16.c.1:** Assign codes for conditions that:\n\n• require **treatment** or **further investigation**,\n• **prolong the length of stay**, or\n• require **resource utilization**.\n\n**I.C.16.c.2:** Assign codes for conditions that the **provider has specified** as having **implications for future health care needs**.\n\n**Important note:** The guideline says the \"future health care needs\" rule **should not be used for adult patients**.\n\n**What it does NOT mean:** The coder does not decide on their own that a condition has future implications. The provider must specify it.",
+   "visual": {
+    "title": "Future Health Care Needs",
+    "sub": "A newborn-only reason to code",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Newborn",
+      "b": "Code if provider specifies future implications"
+     },
+     {
+      "h": "Adult",
+      "b": "This rule should not be used"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Per Section I.C.16.c.2, which statement about coding conditions with implications for future health care needs is correct?",
+   "options": [
+    "The coder may decide which conditions have future implications",
+    "Codes are assigned when the provider has specified the condition has implications for future health care needs, and the rule should not be used for adult patients",
+    "The rule applies equally to adult patients",
+    "These conditions are coded only if they prolong the length of stay"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.16.c.2 says to assign codes for conditions that the provider has specified as having implications for future health care needs, and its note says this guideline should not be used for adult patients. Option A is wrong because the provider must specify it. Option C contradicts the note. Option D is wrong because prolonging the stay is a separate reason under Section I.C.16.c.1, not a requirement for c.2.",
+   "visual": {
+    "topic": "Future implications",
+    "hint": "Who specifies it, and for which patients?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.16.d"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.16.e"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Prematurity and Birth Weight (I.C.16.d)",
+   "content": "**Documentation required:** Providers use **different criteria** to determine prematurity, so a code for prematurity **should not be assigned unless it is documented**.\n\n**Categories involved:**\n\n• **P05**, Disorders of newborn related to slow fetal growth and fetal malnutrition\n• **P07**, Disorders of newborn related to short gestation and low birth weight, not elsewhere classified\n\nCodes from these categories are based on the **recorded birth weight** and **estimated gestational age**.\n\n**Two P07 codes:** When **both** birth weight and gestational age are available, assign **two codes from P07**, with **birth weight sequenced before gestational age**.",
+   "visual": {
+    "title": "P07 Sequencing",
+    "sub": "When both values are recorded",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1st P07 code",
+      "b": "Birth weight"
+     },
+     {
+      "h": "2nd P07 code",
+      "b": "Gestational age"
+     },
+     {
+      "h": "Prematurity",
+      "b": "Only if documented"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Low Birth Weight Later in Life (I.C.16.e)",
+   "content": "**What it says:** P07 codes may be used for a **child or adult** who was **premature or had a low birth weight as a newborn** and this is **affecting the patient's current health status**.\n\n**The condition for using it:** It must be affecting the patient's **current** health status. A history of prematurity alone, with no current effect, does not meet this guideline.\n\nThe guideline cross-references Section I.C.21 (Factors influencing health status and contact with health services, Status).",
+   "visual": {
+    "title": "P07 Beyond the Newborn",
+    "sub": "Only if it affects current health",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Affects current health",
+      "b": "P07 code may be used"
+     },
+     {
+      "h": "No current effect",
+      "b": "Does not meet I.C.16.e"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A premature newborn's record documents both the birth weight and the estimated gestational age. According to Section I.C.16.d, how is this coded?",
+   "options": [
+    "Two P07 codes, with birth weight sequenced before gestational age",
+    "One P07 code for gestational age only",
+    "Two P07 codes, with gestational age sequenced first",
+    "One P05 code for birth weight and one P07 code for gestational age"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.16.d says that when both birth weight and gestational age are available, two codes from category P07 are assigned, with the code for birth weight sequenced before the code for gestational age. Option B is wrong because both values are coded. Option C reverses the order. Option D is wrong because the guideline calls for two codes from category P07.",
+   "visual": {
+    "topic": "P07 sequencing",
+    "hint": "Weight or age first?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An adult patient was born with low birth weight, and the provider documents that this is affecting the patient's current health status. Per Section I.C.16.e, can a code from category P07 be used?",
+   "options": [
+    "No, P07 codes are only for newborns",
+    "No, only a personal history code may be used",
+    "Yes, but only during the 28-day perinatal period",
+    "Yes, because the low birth weight is affecting the patient's current health status"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.16.e says P07 codes are for use for a child or adult who was premature or had a low birth weight as a newborn and this is affecting the patient's current health status. Options A and C are wrong because the guideline extends P07 to children and adults. Option B is wrong because the guideline directs P07 when the current health status is affected.",
+   "visual": {
+    "topic": "Low birth weight in adults",
+    "hint": "Is it affecting current health?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.16.f"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Bacterial Sepsis of Newborn (I.C.16.f)",
+   "content": "**Category P36, Bacterial sepsis of newborn**, includes **congenital sepsis**.\n\n**Default:** If a perinate is documented with sepsis **without** documentation of congenital or community acquired, the **default is congenital** → assign a **P36** code.\n\n**Organism codes:**\n\n• If the P36 code **includes** the causal organism → do **not** add a code from **B95** or **B96**.\n• If the P36 code **does not include** the organism → **add a code from B96**.\n\n**Severe sepsis:** If applicable, add codes for **severe sepsis (R65.2-)** and any associated **acute organ dysfunction**.\n\n**Exam trap:** Compare puerperal sepsis O85 (mother), which always needs an organism code (Section I.C.15.k). For P36, the organism code depends on whether the P36 code already names it.",
+   "visual": {
+    "title": "P36 Organism Rule",
+    "sub": "Does the P36 code name the organism?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Organism in P36 code",
+      "b": "No B95/B96 code added"
+     },
+     {
+      "h": "Organism not in code",
+      "b": "Add a B96 code"
+     },
+     {
+      "h": "Undocumented source",
+      "b": "Default: congenital, P36"
+     },
+     {
+      "h": "Severe sepsis",
+      "b": "Add R65.2- + organ dysfunction"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A perinate is documented with sepsis, with no documentation of whether it is congenital or community acquired. The P36 code assigned does not include the causal organism. According to Section I.C.16.f, what is correct?",
+   "options": [
+    "Assign a code from category A41 only",
+    "Assign a P36 code only; organism codes are never added",
+    "Assign a P36 code and an additional code from category B96",
+    "Assume community acquired and do not use P36"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.16.f says that without documentation of congenital or community acquired, the default is congenital and a P36 code is assigned; if the P36 code does not include the causal organism, an additional code from category B96 is assigned. Option A is wrong because the guideline directs P36 for this newborn. Option B is wrong because B96 is required when the P36 code lacks the organism. Option D reverses the default.",
+   "visual": {
+    "topic": "Newborn sepsis",
+    "hint": "Default source, then check for the organism."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.16.g"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Stillbirth, Code P95 (I.C.16.g)",
+   "content": "**Code P95, Stillbirth**, has three firm limits:\n\n• It is **only** for use in institutions that **maintain separate records for stillbirths**.\n• **No other code** should be used with P95.\n• P95 should **not** be used on the **mother's** record.",
+   "visual": {
+    "title": "P95 Stillbirth",
+    "sub": "Three limits",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Where",
+      "b": "Only facilities with separate stillbirth records"
+     },
+     {
+      "h": "With other codes?",
+      "b": "No other code with P95"
+     },
+     {
+      "h": "Mother's record?",
+      "b": "Never"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about code P95, Stillbirth, is correct according to Section I.C.16.g?",
+   "options": [
+    "It is assigned on the mother's record after a stillbirth",
+    "It is used only in institutions that maintain separate records for stillbirths, and no other code is used with it",
+    "It is sequenced after a code from category Z38",
+    "It is used with manifestation codes to describe the cause"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.16.g says P95 is only for use in institutions that maintain separate records for stillbirths, no other code should be used with P95, and it should not be used on the mother's record. Option A contradicts the last rule. Options C and D are wrong because no other code should be used with P95.",
+   "visual": {
+    "topic": "Stillbirth code",
+    "hint": "P95 stands alone."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.16.h"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: COVID-19 in a Newborn (I.C.16.h)",
+   "content": "**Newborn tests positive, no documentation of how it was transmitted:** Assign **U07.1, COVID-19**, plus codes for associated manifestation(s) in neonates/newborns.\n\n**Provider documents it was contracted in utero or during the birth process:** Assign **P35.8, Other congenital viral diseases**, and **U07.1, COVID-19**.\n\n**Birth episode:** On the newborn's birth record, the appropriate **Z38** code is still the **principal diagnosis**.\n\n**What it does NOT mean:** The birth-process default from Section I.C.16.a.5 does not decide this; the guideline here says to use U07.1 (without P35.8) in the absence of documentation indicating a specific type of transmission.",
+   "visual": {
+    "title": "Newborn COVID-19",
+    "sub": "Transmission documentation decides",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No transmission documented",
+      "b": "U07.1 + manifestations"
+     },
+     {
+      "h": "In utero or birth process",
+      "b": "P35.8 + U07.1"
+     },
+     {
+      "h": "Birth episode",
+      "b": "Z38 is still principal"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A newborn on the birth admission tests positive for COVID-19. The provider documents that it was contracted during the birth process. According to Section I.C.16.h, which codes apply?",
+   "options": [
+    "Z38 code as principal, plus P35.8 and U07.1",
+    "U07.1 as principal, then a Z38 code",
+    "Z38 code as principal, plus U07.1 only",
+    "P35.8 as principal, then U07.1"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.16.h says that when the provider documents the COVID-19 was contracted in utero or during the birth process, assign P35.8 and U07.1, and on the birth episode the Z38 code is the principal diagnosis. Option B is wrong because Z38 is principal on the birth record. Option C is wrong because P35.8 is required when transmission in utero or during birth is documented. Option D is wrong because Z38, not P35.8, is principal on the birth episode.",
+   "visual": {
+    "topic": "Newborn COVID-19",
+    "hint": "Transmission was documented; it is the birth stay."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.17"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Coding Congenital Conditions (I.C.17, part 1)",
+   "content": "**When to code:** Assign code(s) from **Q00-QA1** when a **malformation/deformation, chromosomal abnormality, or genetic disorder** is documented.\n\n**Position:** It may be the **principal/first-listed** diagnosis **or** a **secondary** diagnosis.\n\n**Manifestations:**\n\n• If the condition **does not have a unique code**, assign additional code(s) for any **manifestations** present.\n• If the code **specifically identifies** the condition, **do not separately code** manifestations that are an **inherent component** of the anomaly.\n• **Do** assign additional codes for manifestations that are **not** an inherent component.",
+   "visual": {
+    "title": "Manifestations Rule",
+    "sub": "Does a unique code exist?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No unique code",
+      "b": "Code the manifestations present"
+     },
+     {
+      "h": "Specific code exists",
+      "b": "Skip inherent manifestations"
+     },
+     {
+      "h": "Not inherent",
+      "b": "Code those manifestations"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Congenital Conditions Over a Lifetime (I.C.17, part 2)",
+   "content": "**Any age:** Chapter 17 codes may be used **throughout the life of the patient**.\n\n**Diagnosed later:** A condition present at birth may not be identified until **later in life**. Whenever the provider diagnoses it, it is appropriate to assign a code from **Q00-QA1**.\n\n**Corrected:** If a congenital malformation or deformity has been **corrected**, use a **personal history code** to identify the history.\n\n**Birth admission:** The **Z38** code is sequenced as the **principal** diagnosis, **followed by** any congenital anomaly codes from **Q00-QA1**.\n\n**FY 2027 change:** The chapter title and guideline now name **genetic disorders** along with malformations, deformations, and chromosomal abnormalities.",
+   "visual": {
+    "title": "Chapter 17 Across a Lifetime",
+    "sub": "Birth, later diagnosis, after correction",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Birth admission",
+      "b": "Z38 first, then Q00-QA1"
+     },
+     {
+      "h": "Found later in life",
+      "b": "Q00-QA1 when diagnosed"
+     },
+     {
+      "h": "Still present",
+      "b": "Q code at any age"
+     },
+     {
+      "h": "Corrected",
+      "b": "Personal history code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An adult is diagnosed by the provider with a congenital malformation that was present at birth but never identified before. According to Section I.C.17, what is appropriate?",
+   "options": [
+    "A personal history code, because the condition began at birth",
+    "A code from chapter 16, because the condition originated in the perinatal period",
+    "No code, because chapter 17 codes are limited to the birth admission",
+    "A code from Q00-QA1, because chapter 17 codes may be assigned whenever the provider diagnoses the condition"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.17 says a condition present at birth may not be identified until later in life, and whenever it is diagnosed by the provider, it is appropriate to assign a code from Q00-QA1; chapter 17 codes may be used throughout the life of the patient. Option A is wrong because a personal history code is for a malformation or deformity that has been corrected. Option B is wrong because the guideline directs Q00-QA1 for these conditions. Option C contradicts the lifetime rule.",
+   "visual": {
+    "topic": "Congenital dx in adults",
+    "hint": "Present at birth, found later."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A congenital condition has a specific code that identifies it. One manifestation is an inherent component of the anomaly, and another manifestation is not. Per Section I.C.17, what is coded?",
+   "options": [
+    "The chapter 17 code only",
+    "The chapter 17 code plus both manifestations",
+    "The chapter 17 code plus only the manifestation that is not an inherent component",
+    "Only the two manifestation codes"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.17 says that when the code specifically identifies the condition, manifestations that are an inherent component should not be coded separately, and additional codes should be assigned for manifestations that are not an inherent component. Option A misses the non-inherent manifestation. Option B wrongly codes the inherent one. Option D omits the chapter 17 code, which is assigned when the condition is documented.",
+   "visual": {
+    "topic": "Inherent manifestations",
+    "hint": "Separate inherent from not inherent."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying the Newborn and Congenital Rules",
+   "content": "1. **Confirm the record:** baby's record → chapter 16 and Z38 codes are allowed, chapter 15 codes are not (I.C.16.a.1–a.2).\n2. **Birth episode?** Z38 is principal; only once; not at a receiving hospital after transfer (I.C.16.a.2).\n3. **Suspected condition ruled out?** Z05 after Z38 on the birth record, or first-listed on a later encounter; if signs/symptoms exist, code them instead (I.C.16.b).\n4. **Which conditions to code?** Clinically significant ones (evaluation, treatment, diagnostics, longer stay, more nursing care, or provider-specified future health care needs) (I.C.16.a.6, I.C.16.c).\n5. **Unclear source?** Default to birth process / congenital (I.C.16.a.5, I.C.16.f), except COVID-19 (I.C.16.h).\n6. **Prematurity / birth weight:** only if documented; two P07 codes, weight before age (I.C.16.d).\n7. **Sepsis:** P36; add B96 only if the P36 code lacks the organism (I.C.16.f).\n8. **Stillbirth:** P95 alone, only where separate stillbirth records exist (I.C.16.g).\n9. **Congenital condition:** Q00-QA1 at any age; manifestations only if not inherent; personal history code if corrected; Z38 before Q codes on the birth admission (I.C.17).",
+   "visual": {
+    "title": "Newborn Record Checklist",
+    "sub": "Work through the record in this order",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2",
+      "b": "Right record? Z38 birth principal"
+     },
+     {
+      "h": "3-4",
+      "b": "Z05 rules; code significant conditions"
+     },
+     {
+      "h": "5-6",
+      "b": "Default source; P07 weight then age"
+     },
+     {
+      "h": "7-8",
+      "b": "P36 organism; P95 alone"
+     },
+     {
+      "h": "9",
+      "b": "Q00-QA1 at any age"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Perinatal period** = before birth through day 28. Chapter 16 codes never go on the mother's record; chapter 15 codes never go on the newborn's. P codes continue for life if the condition is present (I.C.16, I.C.16.a).\n• **Z38** is the birth-record principal diagnosis, assigned once, not at a receiving hospital (I.C.16.a.2).\n• **Default** for birth-process vs community acquired: birth process (I.C.16.a.5); sepsis default: congenital, P36 (I.C.16.f).\n• **Z05**: healthy newborn, condition ruled out; never when signs/symptoms are present; secondary after Z38 on the birth record (I.C.16.b).\n• **Future health care needs** is a newborn-only reason to code, and the provider must specify it (I.C.16.a.6, I.C.16.c).\n• **P07**: weight before gestational age; prematurity only if documented; P07 later in life only if affecting current health (I.C.16.d–e).\n• **P95** stands alone. **COVID-19** newborn: U07.1; add P35.8 if in utero/birth transmission is documented (I.C.16.g–h).\n• **Chapter 17 (FY 2027 now includes genetic disorders):** Q00-QA1 at any age; skip inherent manifestations; history code once corrected; Z38 first at birth (I.C.17).",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Chapters 16 and 17",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Records",
+      "b": "P codes never on mother's"
+     },
+     {
+      "h": "Birth",
+      "b": "Z38 principal, once"
+     },
+     {
+      "h": "Defaults",
+      "b": "Birth process; congenital"
+     },
+     {
+      "h": "Z05",
+      "b": "Ruled out, no symptoms"
+     },
+     {
+      "h": "P07",
+      "b": "Weight before age"
+     },
+     {
+      "h": "Chapter 17",
+      "b": "Any age; FY 2027 genetic"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.16, how is the perinatal period defined for coding and reporting purposes?",
+   "options": [
+    "From conception through delivery",
+    "Before birth through the 28th day following birth",
+    "From the last month of pregnancy to five months after birth",
+    "From birth through six weeks after birth"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.16 defines the perinatal period as before birth through the 28th day following birth. Option C is the peripartum period from Section I.C.15.o.1, and Option D resembles the six-week postpartum period from the same section; both describe the mother, not the perinatal period. Option A is not a definition in the guidelines.",
+   "visual": {
+    "topic": "Perinatal period",
+    "hint": "Count the days after birth."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "On a newborn's birth admission, the provider documents a congenital anomaly. Per Section I.C.17, how is the record sequenced?",
+   "options": [
+    "The Z38 code first, followed by the congenital anomaly code(s) from Q00-QA1",
+    "The congenital anomaly code first, then the Z38 code",
+    "A code from category Z37 first, then the anomaly code",
+    "Only the Z38 code; anomalies are coded at a later encounter"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.17 says that for the birth admission, the appropriate Z38 code is sequenced as the principal diagnosis, followed by any congenital anomaly codes in Q00-QA1. Option B reverses the order. Option C is wrong because Z37 goes on the mother's record (Section I.C.15.b.5), and Z38 is used only on the newborn record. Option D is wrong because the anomaly is coded when documented.",
+   "visual": {
+    "topic": "Birth admission sequencing",
+    "hint": "What is always principal on a birth record?"
+   }
+  }
+ ]
+}

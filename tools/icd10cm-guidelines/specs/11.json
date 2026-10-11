@@ -1,0 +1,676 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "COVID-19 and Coronavirus Infections",
+   "content": "Section I.C.1.g gives the rules for coding **COVID-19**, the infection due to **SARS-CoV-2**. It is one of the longest guidelines in Chapter 1 and covers almost every kind of COVID-related encounter:\n\n• **Confirmed** vs suspected cases (a)\n• **Sequencing** U07.1 (b)\n• **Respiratory** manifestations such as pneumonia, bronchitis, ARDS and respiratory failure (c)\n• **Non-respiratory** manifestations (d)\n• **Exposure**, **screening**, and **signs and symptoms** without a diagnosis (e, f, g)\n• **Asymptomatic positive tests** (h)\n• **History**, **follow-up** and **antibody testing** (i, j, k)\n• **Multisystem inflammatory syndrome** (l)\n• **Post COVID-19 condition** (m)\n• **Underimmunization** status (n)\n\nThe official text is long, so read it in parts, then work through each sub-rule.",
+   "visual": {
+    "title": "COVID-19 Coding Map",
+    "boxes": [
+     {
+      "h": "Active infection",
+      "b": "U07.1 + manifestation codes"
+     },
+     {
+      "h": "Not confirmed",
+      "b": "Symptoms; Z20.822 if exposed"
+     },
+     {
+      "h": "After COVID",
+      "b": "Z86.16, Z09, U09.9"
+     },
+     {
+      "h": "Other encounters",
+      "b": "Z11.52, Z01.84, M35.81, Z28.31-"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.g at a glance"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.1.g"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Code Only Confirmed Cases (I.C.1.g.1.a)",
+   "content": "**Rule:** Code only a **confirmed** diagnosis of COVID-19 as documented by the provider. For a confirmed diagnosis, assign **U07.1, COVID-19**.\n\n**What counts as confirmed?** The **provider's documentation that the individual has COVID-19** is enough. A **positive test result does not need to be documented**.\n\n**Exception to Section II.H:** Normally, inpatient diagnoses qualified as \"probable\" or \"suspected\" are coded as if they existed (Section II.H). COVID-19 is an **exception**.\n\n**Not confirmed:** If the provider documents **\"suspected,\" \"possible,\" \"probable,\" or \"inconclusive\"** COVID-19, do **not** assign U07.1. Instead, **code the signs and symptoms** reported (see I.C.1.g.1.g).",
+   "visual": {
+    "title": "Is COVID-19 Confirmed?",
+    "boxes": [
+     {
+      "h": "Provider documents it",
+      "b": "U07.1 - no positive test needed"
+     },
+     {
+      "h": "Suspected or probable",
+      "b": "No U07.1 - code symptoms (also possible)"
+     },
+     {
+      "h": "Inconclusive",
+      "b": "No U07.1 - code symptoms"
+     },
+     {
+      "h": "Inpatient?",
+      "b": "Same rule: exception to II.H"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.g.1.a"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient's discharge summary states \"probable COVID-19\" with fever and cough. According to Section I.C.1.g.1.a, what should be coded?",
+   "options": [
+    "U07.1, because inpatient probable diagnoses are coded as if they existed",
+    "The signs and symptoms reported, not U07.1",
+    "U07.1 plus the symptom codes",
+    "Z11.52, Encounter for screening for COVID-19"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.g.1.a says if the provider documents \"suspected,\" \"possible,\" \"probable,\" or \"inconclusive\" COVID-19, do not assign U07.1; code the signs and symptoms instead. This is an exception to inpatient guideline Section II.H, so Option A is wrong. Option C is wrong because U07.1 is not assigned at all. Option D is wrong because this patient has symptoms and is not being screened.",
+   "visual": {
+    "topic": "Probable COVID-19",
+    "hint": "Confirmed cases only, even for inpatients."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents \"COVID-19\" in the assessment. No positive test result appears in the record. Per Section I.C.1.g.1.a, what should the coder do?",
+   "options": [
+    "Assign U07.1, because the provider's documentation is sufficient",
+    "Query the provider for a positive test result",
+    "Code only the symptoms until a test is documented",
+    "Assign Z20.822"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.g.1.a says confirmation does not require documentation of a positive test result; the provider's documentation that the individual has COVID-19 is sufficient, so U07.1 is assigned. Option B is unnecessary because a positive test is not required. Option C is wrong because the diagnosis is confirmed by the provider. Option D is for exposure without a confirmed infection (I.C.1.g.1.e).",
+   "visual": {
+    "topic": "Confirmation",
+    "hint": "Does the guideline require a lab result?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Sequencing U07.1 (I.C.1.g.1.b)",
+   "content": "**General rule:** When COVID-19 meets the definition of principal diagnosis, **U07.1 is sequenced first**, followed by the codes for the **associated manifestations**.\n\n**Exceptions:** Another guideline may require certain codes to be sequenced first. The guideline names three:\n• **Obstetrics** (see Section I.C.15.s, COVID-19 in pregnancy, childbirth, and the puerperium)\n• **Sepsis** (see Section I.C.1.d, for a COVID-19 infection that progresses to sepsis)\n• **Transplant complications** (see Section I.C.19.g.3.a for a COVID-19 infection in a lung transplant patient)\n\nFor COVID-19 infection in a **newborn**, see Section I.C.16.h.\n\n**What it does NOT mean:** U07.1 is not automatically first in every record. Check whether one of these other guidelines applies before sequencing.",
+   "visual": {
+    "title": "Is U07.1 Sequenced First?",
+    "boxes": [
+     {
+      "h": "Usually",
+      "b": "Yes, then manifestation codes"
+     },
+     {
+      "h": "Obstetrics",
+      "b": "See Section I.C.15.s"
+     },
+     {
+      "h": "Sepsis",
+      "b": "See Section I.C.1.d"
+     },
+     {
+      "h": "Lung transplant",
+      "b": "See Section I.C.19.g.3.a"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.g.1.b"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.1.g.1.b, which of the following is NOT named as a situation where another guideline may require other codes to be sequenced before U07.1?",
+   "options": [
+    "Obstetrics",
+    "Sepsis",
+    "Transplant complications",
+    "Personal history of COVID-19"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.g.1.b names obstetrics, sepsis, and transplant complications as examples where another guideline requires certain codes to be sequenced first. Personal history of COVID-19 (Z86.16, I.C.1.g.1.i) is not a sequencing exception; it describes a past infection, not an active one. Options A, B and C are all named in the guideline.",
+   "visual": {
+    "topic": "U07.1 sequencing",
+    "hint": "Three exceptions are named in the guideline."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Respiratory Manifestations (I.C.1.g.1.c)",
+   "content": "When the reason for the encounter or admission is a **respiratory manifestation** of COVID-19:\n• **U07.1** is the **principal/first-listed** diagnosis\n• The respiratory manifestation code(s) are **additional** diagnoses\n\n**Pairings named in the guideline:**\n• Pneumonia confirmed as due to COVID-19: U07.1 + **J12.82**, Pneumonia due to coronavirus disease 2019\n• Acute bronchitis confirmed as due to COVID-19: U07.1 + **J20.8**, Acute bronchitis due to other specified organisms\n• Bronchitis NOS due to COVID-19: U07.1 + **J40**, Bronchitis, not specified as acute or chronic\n• Lower respiratory infection NOS, or acute respiratory infection NOS: U07.1 + **J22**, Unspecified acute lower respiratory infection\n• Respiratory infection NOS: U07.1 + **J98.8**, Other specified respiratory disorders\n• ARDS due to COVID-19: U07.1 + **J80**, Acute respiratory distress syndrome\n• Acute respiratory failure due to COVID-19: U07.1 + **J96.0-**, Acute respiratory failure\n\n**NOS** means \"not otherwise specified\": the provider gave no more detail.",
+   "visual": {
+    "title": "COVID-19 Respiratory Pairs",
+    "boxes": [
+     {
+      "h": "Pneumonia",
+      "b": "U07.1 + J12.82"
+     },
+     {
+      "h": "Acute bronchitis",
+      "b": "U07.1 + J20.8"
+     },
+     {
+      "h": "Bronchitis NOS",
+      "b": "U07.1 + J40"
+     },
+     {
+      "h": "Lower/acute resp inf NOS",
+      "b": "U07.1 + J22"
+     },
+     {
+      "h": "Respiratory infection NOS",
+      "b": "U07.1 + J98.8"
+     },
+     {
+      "h": "ARDS / resp failure",
+      "b": "U07.1 + J80 / J96.0-"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.g.1.c: U07.1 first, manifestation after"
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Three Similar-Sounding Infections",
+   "content": "These three are easy to mix up on an exam. Read the exact words the provider used.\n\n**\"COVID-19 with lower respiratory infection\"** (not otherwise specified)\n→ U07.1 + **J22** (Section I.C.1.g.1.c.iii)\n\n**\"COVID-19 with acute respiratory infection\"** (not otherwise specified)\n→ U07.1 + **J22** (same paragraph: acute respiratory infection NOS is grouped with lower respiratory infection NOS)\n\n**\"COVID-19 with respiratory infection\"** (not otherwise specified)\n→ U07.1 + **J98.8** (second paragraph of I.C.1.g.1.c.iii)\n\nSimilarly, \"acute bronchitis\" due to COVID-19 is J20.8, but \"bronchitis\" with no acute/chronic specification is J40 (I.C.1.g.1.c.ii).",
+   "visual": {
+    "title": "Read the Exact Words",
+    "boxes": [
+     {
+      "h": "Lower resp. infection NOS",
+      "b": "U07.1 + J22"
+     },
+     {
+      "h": "Acute resp. infection NOS",
+      "b": "U07.1 + J22"
+     },
+     {
+      "h": "Respiratory infection NOS",
+      "b": "U07.1 + J98.8"
+     },
+     {
+      "h": "Bronchitis NOS",
+      "b": "U07.1 + J40"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.g.1.c.ii-iii"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for pneumonia confirmed as due to COVID-19. Per Section I.C.1.g.1.c, what is the correct coding?",
+   "options": [
+    "J12.82 first, then U07.1",
+    "J12.82 only",
+    "U07.1 first, then J12.82",
+    "U07.1 only"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.g.1.c says when the reason for admission is a respiratory manifestation of COVID-19, assign U07.1 as principal and the manifestation as an additional diagnosis; for pneumonia confirmed as due to COVID-19, the codes are U07.1 and J12.82. Option A reverses the sequence. Options B and D each leave out a required code.",
+   "visual": {
+    "topic": "COVID-19 pneumonia",
+    "hint": "Which code is principal for a respiratory manifestation?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents \"COVID-19 with respiratory infection\" and gives no further detail. According to Section I.C.1.g.1.c.iii, which codes are assigned?",
+   "options": [
+    "U07.1 and J22",
+    "U07.1 and J98.8",
+    "U07.1 and J40",
+    "U07.1 and J80"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.g.1.c.iii says COVID-19 associated with a respiratory infection, NOS, is coded U07.1 and J98.8, Other specified respiratory disorders. Option A (J22) is for a lower respiratory infection NOS or an acute respiratory infection NOS. Option C (J40) is for bronchitis NOS. Option D (J80) is for ARDS.",
+   "visual": {
+    "topic": "Respiratory infection NOS",
+    "hint": "The word \"lower\" or \"acute\" changes the code."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "For acute respiratory failure due to COVID-19, which codes does Section I.C.1.g.1.c.v instruct?",
+   "options": [
+    "U07.1 and a code from J96.0-",
+    "U07.1 and J80",
+    "J96.0- only",
+    "U07.1 and J22"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.g.1.c.v says for acute respiratory failure due to COVID-19, assign U07.1 and code J96.0-, Acute respiratory failure. Option B is the pairing for ARDS. Option C leaves out U07.1. Option D is for lower or acute respiratory infection NOS.",
+   "visual": {
+    "topic": "Respiratory failure",
+    "hint": "Respiratory failure and ARDS have different codes."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Non-Respiratory Manifestations (I.C.1.g.1.d)",
+   "content": "COVID-19 can show up outside the lungs. The guideline's example is **viral enteritis**.\n\n**Rule:** When the reason for the encounter/admission is a **non-respiratory** manifestation of COVID-19:\n• **U07.1** is the **principal/first-listed** diagnosis\n• The manifestation code(s) are **additional** diagnoses\n\nThis is the **same pattern** as respiratory manifestations: COVID-19 first, the manifestation after (unless another guideline, such as obstetrics, sepsis or transplant complications, requires a different order, per I.C.1.g.1.b).",
+   "visual": {
+    "title": "Same Pattern Either Way",
+    "boxes": [
+     {
+      "h": "Respiratory (c)",
+      "b": "U07.1 first, manifestation after"
+     },
+     {
+      "h": "Non-respiratory (d)",
+      "b": "U07.1 first, manifestation after"
+     }
+    ],
+    "cols": 2,
+    "sub": "Sections I.C.1.g.1.c and d"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Exposure and Screening (I.C.1.g.1.e-f)",
+   "content": "**Exposure (e)** — **Z20.822, Contact with and (suspected) exposure to COVID-19**, is assigned for:\n• **Asymptomatic** individuals with actual or suspected exposure, and\n• **Symptomatic** individuals with actual or suspected exposure when the infection has been **ruled out**, or test results are **inconclusive or unknown**\n\nSee Section I.C.21.c.1 (Contact/Exposure) for more on category Z20. If COVID-19 is **confirmed**, go back to I.C.1.g.1.a (U07.1).\n\n**Screening (f)** — For screening for COVID-19, **including preoperative testing**, assign **Z11.52, Encounter for screening for COVID-19**.\n\n**Exam trap:** Exposure (Z20.822) describes contact with the virus. Screening (Z11.52) describes the reason for the test encounter. A preoperative COVID test is screening per the guideline.",
+   "visual": {
+    "title": "Exposure vs Screening",
+    "boxes": [
+     {
+      "h": "Exposed, no symptoms",
+      "b": "Z20.822"
+     },
+     {
+      "h": "Symptoms, ruled out",
+      "b": "Z20.822"
+     },
+     {
+      "h": "Test inconclusive/unknown",
+      "b": "Z20.822"
+     },
+     {
+      "h": "Screening / preop test",
+      "b": "Z11.52"
+     }
+    ],
+    "cols": 2,
+    "sub": "Sections I.C.1.g.1.e and f"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Signs and Symptoms Only (I.C.1.g.1.g)",
+   "content": "If a patient presents with signs or symptoms associated with COVID-19 but a **definitive diagnosis has not been established**, code **each presenting sign and symptom**. The guideline's examples:\n• **R05.1**, Acute cough, or **R05.9**, Cough, unspecified\n• **R06.02**, Shortness of breath\n• **R50.9**, Fever, unspecified\n\n**Plus exposure:** If the patient with signs/symptoms also has an **actual or suspected contact with or exposure** to COVID-19, add **Z20.822** as an **additional** code.\n\nThis is where I.C.1.g.1.a sends you when the provider documents suspected, possible, probable, or inconclusive COVID-19.",
+   "visual": {
+    "title": "Symptoms, No Diagnosis",
+    "boxes": [
+     {
+      "h": "Cough",
+      "b": "R05.1 (acute) or R05.9"
+     },
+     {
+      "h": "Shortness of breath",
+      "b": "R06.02"
+     },
+     {
+      "h": "Fever",
+      "b": "R50.9"
+     },
+     {
+      "h": "Also exposed?",
+      "b": "Add Z20.822"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.g.1.g"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient comes in for a COVID-19 test before scheduled surgery. She has no symptoms and no known exposure. Per Section I.C.1.g.1.f, which code is assigned?",
+   "options": [
+    "Z20.822",
+    "U07.1",
+    "Z01.84",
+    "Z11.52"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.g.1.f says for screening for COVID-19, including preoperative testing, assign Z11.52, Encounter for screening for COVID-19. Option A is for actual or suspected exposure, which this patient does not have. Option B requires a confirmed diagnosis. Option C is for antibody testing (I.C.1.g.1.k).",
+   "visual": {
+    "topic": "Preoperative testing",
+    "hint": "Is this patient exposed, or being screened?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has fever and shortness of breath after close contact with a family member who has COVID-19. No definitive COVID-19 diagnosis has been established. Per Section I.C.1.g.1.g, how is this coded?",
+   "options": [
+    "U07.1",
+    "Z20.822 only",
+    "R50.9 and R06.02, plus Z20.822 as an additional code",
+    "Z11.52"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.g.1.g says to code each presenting sign and symptom (such as R50.9, Fever, unspecified, and R06.02, Shortness of breath) when no definitive diagnosis is established, and to add Z20.822 as an additional code when there is actual or suspected exposure. Option A is wrong because COVID-19 is not confirmed. Option B leaves out the presenting symptoms. Option D is for screening, not symptomatic patients.",
+   "visual": {
+    "topic": "Symptoms + exposure",
+    "hint": "Code what the patient has, then the exposure."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Asymptomatic Positive Test (I.C.1.g.1.h)",
+   "content": "A patient with **no symptoms** tests positive for COVID-19, but the **provider has not documented** a diagnosis of COVID-19.\n\n**Rule:** **Query the provider** as to whether the individual has COVID-19.\n\n**Why?** The guideline explains that a **false positive** laboratory test is possible, and it is the **provider's responsibility** to confirm the diagnosis and document it.\n\n**What it does NOT mean:** The coder does not assign U07.1 from a lab result alone, and does not ignore the result either. The answer is a query.",
+   "visual": {
+    "title": "Positive Test, No Diagnosis",
+    "boxes": [
+     {
+      "h": "Situation",
+      "b": "Asymptomatic, positive test, no provider diagnosis"
+     },
+     {
+      "h": "Action",
+      "b": "Query the provider"
+     },
+     {
+      "h": "Reason",
+      "b": "False positives are possible; the provider confirms"
+     }
+    ],
+    "cols": 1,
+    "sub": "Section I.C.1.g.1.h"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: History, Follow-Up, and Antibody Testing (I.C.1.g.1.i-k)",
+   "content": "**Personal history (i):** For patients with a history of COVID-19, assign **Z86.16, Personal history of COVID-19**.\n\n**Follow-up after resolution (j):** For individuals who previously had COVID-19, **without** residual symptoms or conditions, seen for follow-up evaluation, with **negative** COVID-19 test results, assign:\n• **Z09**, Encounter for follow-up examination after completed treatment for conditions other than malignant neoplasm, and\n• **Z86.16**, Personal history of COVID-19\n\nIf the person **has** symptoms or conditions related to the previous infection, see I.C.1.g.1.m (Post COVID-19 condition).\n\n**Antibody testing (k):** For antibody testing that is **not** to confirm a current infection and **not** a follow-up test after resolution, assign **Z01.84, Encounter for antibody response examination**. If the test is to confirm a current infection, follow the guidelines above; for follow-up testing after infection, see I.C.1.g.1.j.",
+   "visual": {
+    "title": "After or Around COVID-19",
+    "boxes": [
+     {
+      "h": "History",
+      "b": "Z86.16"
+     },
+     {
+      "h": "Resolved, negative test",
+      "b": "Z09 + Z86.16"
+     },
+     {
+      "h": "Follow-up with symptoms",
+      "b": "See (m): U09.9"
+     },
+     {
+      "h": "Antibody test (other)",
+      "b": "Z01.84"
+     }
+    ],
+    "cols": 2,
+    "sub": "Sections I.C.1.g.1.i, j, k"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient tests positive for COVID-19 on a routine test, has no symptoms, and the provider has not documented a COVID-19 diagnosis. According to Section I.C.1.g.1.h, what should the coder do?",
+   "options": [
+    "Assign U07.1 based on the positive test",
+    "Query the provider as to whether the individual has COVID-19",
+    "Assign Z20.822",
+    "Assign Z86.16"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.g.1.h says for asymptomatic individuals who test positive with no provider documentation of a COVID-19 diagnosis, query the provider, because a false positive test is possible and the provider must confirm and document the diagnosis. Option A is wrong because U07.1 requires the provider's documentation (I.C.1.g.1.a). Option C is for exposure. Option D is for a history of COVID-19.",
+   "visual": {
+    "topic": "Asymptomatic positive",
+    "hint": "Who is responsible for confirming the diagnosis?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient who had COVID-19 last month returns for a follow-up evaluation. The infection has resolved, there are no residual symptoms or conditions, and the COVID-19 test is negative. Per Section I.C.1.g.1.j, which codes apply?",
+   "options": [
+    "Z09 and Z86.16",
+    "U07.1 and Z09",
+    "U09.9 and Z86.16",
+    "Z01.84"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.g.1.j says for individuals who previously had COVID-19, without residual symptoms or conditions, seen for follow-up with negative test results, assign Z09 and Z86.16. Option B is wrong because there is no current infection. Option C is wrong because U09.9 is for symptoms or conditions related to a previous infection (I.C.1.g.1.m), and there are none. Option D is for antibody testing that is not a follow-up after resolution.",
+   "visual": {
+    "topic": "Follow-up visit",
+    "hint": "No residual symptoms and a negative test."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Multisystem Inflammatory Syndrome (I.C.1.g.1.l)",
+   "content": "**MIS** stands for **multisystem inflammatory syndrome**. The coding depends on the patient's COVID-19 status:\n\n**MIS with (current) COVID-19:**\n• **U07.1** principal/first-listed\n• **M35.81**, Multisystem inflammatory syndrome, additional\n\n**MIS in a patient with a history of COVID-19:**\n• **M35.81** and **U09.9**, Post COVID-19 condition, unspecified\n\n**MIS with known or suspected exposure, and no current infection or history:**\n• **M35.81** and **Z20.822**, Contact with and (suspected) exposure to COVID-19\n\nIn every case, add codes for any **associated complications** of MIS.",
+   "visual": {
+    "title": "MIS: Check COVID-19 Status",
+    "boxes": [
+     {
+      "h": "Current COVID-19",
+      "b": "U07.1 first + M35.81"
+     },
+     {
+      "h": "History of COVID-19",
+      "b": "M35.81 + U09.9"
+     },
+     {
+      "h": "Exposure only",
+      "b": "M35.81 + Z20.822"
+     },
+     {
+      "h": "All cases",
+      "b": "Add codes for MIS complications"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.g.1.l"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A child who had COVID-19 two months ago now develops multisystem inflammatory syndrome. There is no current COVID-19 infection. According to Section I.C.1.g.1.l, which codes are assigned?",
+   "options": [
+    "U07.1 and M35.81",
+    "M35.81 and Z20.822",
+    "M35.81 and Z86.16",
+    "M35.81 and U09.9"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.g.1.l says if an individual with a history of COVID-19 develops MIS, assign M35.81 and U09.9, Post COVID-19 condition, unspecified. Option A is for MIS with a current COVID-19 infection. Option B is for MIS with exposure but no current infection or history. Option C is not the pairing the MIS guideline gives for a history of COVID-19.",
+   "visual": {
+    "topic": "MIS after COVID-19",
+    "hint": "The patient had COVID-19 in the past."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Post COVID-19 Condition (I.C.1.g.1.m)",
+   "content": "**Rule:** For **sequela** of COVID-19 (a condition left after the infection), or symptoms/conditions that develop **following a previous** COVID-19 infection, assign:\n• Code(s) for the **specific symptom(s) or condition(s)** related to the previous infection, if known, and\n• **U09.9, Post COVID-19 condition, unspecified**\n\n**Not for active infection:** U09.9 should **not** be assigned for manifestations of an **active (current)** COVID-19 infection.\n\n**Old condition + new infection:** If a patient has a condition associated with a **previous** COVID-19 infection and develops a **new active** infection, U09.9 **may be assigned together with U07.1**. Also code:\n• The specific condition(s) associated with the **previous** infection, and\n• The manifestation(s) of the **new active** infection",
+   "visual": {
+    "title": "U09.9: When to Use It",
+    "boxes": [
+     {
+      "h": "After a past infection",
+      "b": "Condition code + U09.9"
+     },
+     {
+      "h": "Active infection only",
+      "b": "No U09.9 - use U07.1"
+     },
+     {
+      "h": "Old condition + new case",
+      "b": "U09.9 + U07.1 + both sets of codes"
+     }
+    ],
+    "cols": 1,
+    "sub": "Section I.C.1.g.1.m"
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Old Condition, New Infection",
+   "content": "**Scenario:** A patient has a condition that the provider documents as associated with a COVID-19 infection last year. The patient now has a **new, active** COVID-19 infection with pneumonia.\n\n**Guidelines:** I.C.1.g.1.m and I.C.1.g.1.c.i.\n\n**Codes:**\n• **U07.1** for the new active infection\n• **J12.82** for pneumonia confirmed as due to COVID-19 (manifestation of the new infection)\n• **U09.9** to show the patient also has a condition associated with a previous COVID-19 infection\n• The code for the **specific condition** linked to the previous infection\n\n**Contrast:** If the patient had only the new pneumonia and no condition from the past infection, U09.9 would **not** be used, because U09.9 is not assigned for manifestations of an active infection.",
+   "visual": {
+    "title": "Two Infections, Two Code Sets",
+    "boxes": [
+     {
+      "h": "New infection",
+      "b": "U07.1 + J12.82"
+     },
+     {
+      "h": "Previous infection",
+      "b": "U09.9 + specific condition"
+     }
+    ],
+    "cols": 2,
+    "sub": "Sections I.C.1.g.1.m and c.i"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with an active COVID-19 infection has acute respiratory distress syndrome due to that current infection. Should U09.9 be assigned, according to Section I.C.1.g.1.m?",
+   "options": [
+    "Yes, U09.9 is assigned with every COVID-19 manifestation",
+    "Yes, but only as the principal diagnosis",
+    "No, U09.9 should not be assigned for manifestations of an active (current) COVID-19 infection",
+    "No, because ARDS cannot be coded with COVID-19"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.g.1.m says U09.9 should not be assigned for manifestations of an active (current) COVID-19 infection. This case is coded U07.1 and J80 per I.C.1.g.1.c.iv. Options A and B are wrong because U09.9 is for conditions following a previous infection. Option D is wrong because I.C.1.g.1.c.iv specifically gives codes for ARDS due to COVID-19.",
+   "visual": {
+    "topic": "U09.9 and active infection",
+    "hint": "Is the ARDS from a past or a current infection?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Underimmunization Status (I.C.1.g.1.n)",
+   "content": "Two codes describe a patient's COVID-19 vaccination status:\n\n• **Z28.310, Unvaccinated for COVID-19**: may be assigned when the patient has **not received a COVID-19 vaccine of any type**.\n• **Z28.311, Partially vaccinated for COVID-19**: may be assigned when the patient has been **partially vaccinated** as per the recommendations of the **Centers for Disease Control and Prevention (CDC)** in place at the time of the encounter.\n\n**Who can document it?** The guideline points to Section I.B.14. That section lists **underimmunization status** among the few exceptions where codes may be based on documentation by clinicians other than the patient's provider.\n\nNote the wording: these codes **may** be assigned. The guideline does not make them mandatory.",
+   "visual": {
+    "title": "COVID-19 Vaccine Status",
+    "boxes": [
+     {
+      "h": "No vaccine of any type",
+      "b": "Z28.310, Unvaccinated"
+     },
+     {
+      "h": "Partially vaccinated",
+      "b": "Z28.311, per CDC recommendations at the time"
+     },
+     {
+      "h": "Documentation",
+      "b": "Other clinicians allowed (I.B.14)"
+     }
+    ],
+    "cols": 1,
+    "sub": "Section I.C.1.g.1.n"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A nurse documents that a patient has never received any type of COVID-19 vaccine. Based on Sections I.C.1.g.1.n and I.B.14, which statement is correct?",
+   "options": [
+    "Z28.311 may be assigned",
+    "Z28.310 may be assigned, and underimmunization status may be based on documentation by clinicians other than the patient's provider",
+    "Z28.310 may be assigned only if the physician documents it",
+    "No code exists for vaccination status"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.g.1.n says Z28.310, Unvaccinated for COVID-19, may be assigned when the patient has not received a COVID-19 vaccine of any type, and it refers to Section I.B.14, which lists underimmunization status as an exception where code assignment may be based on documentation from other clinicians. Option A is for partial vaccination. Option C ignores the I.B.14 exception. Option D is wrong because Z28.310 and Z28.311 exist for this purpose.",
+   "visual": {
+    "topic": "Vaccine status",
+    "hint": "Check who is allowed to document underimmunization."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying I.C.1.g on a Real Record",
+   "content": "1. **Is COVID-19 confirmed by the provider?** Provider says the patient has it = **U07.1** (no positive test needed). Suspected, possible, probable, or inconclusive = no U07.1; code symptoms (I.C.1.g.1.a, g).\n2. **Positive test but no provider diagnosis, no symptoms?** Query (h).\n3. **Sequencing:** U07.1 first, then manifestations, unless obstetrics, sepsis, or transplant guidelines say otherwise (b).\n4. **Manifestations:** match the exact wording to the respiratory pairing (J12.82, J20.8, J40, J22, J98.8, J80, J96.0-) or code the non-respiratory manifestation (c, d).\n5. **No active infection?** Exposure = Z20.822 (e). Screening or preop test = Z11.52 (f). History = Z86.16 (i). Resolved follow-up with negative test = Z09 + Z86.16 (j). Antibody test = Z01.84 (k).\n6. **Conditions after a past infection?** Specific condition + U09.9; never U09.9 for an active infection's manifestations (m).\n7. **MIS?** Choose U07.1, U09.9, or Z20.822 with M35.81 based on COVID-19 status (l).\n8. **Vaccine status documented?** Z28.310 or Z28.311 may be added (n).",
+   "visual": {
+    "title": "COVID-19 Record Workflow",
+    "boxes": [
+     {
+      "h": "1-2",
+      "b": "Confirmed? Query if positive test only"
+     },
+     {
+      "h": "3-4",
+      "b": "Sequence U07.1; pair manifestations"
+     },
+     {
+      "h": "5-6",
+      "b": "No active case: Z codes or U09.9"
+     },
+     {
+      "h": "7-8",
+      "b": "MIS status; vaccine status"
+     }
+    ],
+    "cols": 2,
+    "sub": "Step-by-step on a real record"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **U07.1** only for provider-confirmed COVID-19; no positive test needed. Suspected, possible, probable, or inconclusive = code symptoms. This is an **exception to Section II.H** (I.C.1.g.1.a).\n• U07.1 is sequenced **first** with manifestations after, **unless** obstetrics, sepsis, or transplant complication guidelines say otherwise (b, c, d).\n• Know the respiratory pairs: **J12.82** pneumonia, **J20.8** acute bronchitis, **J40** bronchitis NOS, **J22** lower/acute respiratory infection NOS, **J98.8** respiratory infection NOS, **J80** ARDS, **J96.0-** acute respiratory failure (c).\n• **Z20.822** = exposure; **Z11.52** = screening, including preop; symptoms + exposure = symptom codes + Z20.822 (e, f, g).\n• Asymptomatic positive test with no provider diagnosis = **query** (h).\n• **Z86.16** history; **Z09 + Z86.16** resolved follow-up with negative test; **Z01.84** other antibody testing (i, j, k).\n• **U09.9** for conditions after a previous infection, never for an active infection's manifestations; may be used with U07.1 for a new infection (m).\n• MIS = **M35.81** + U07.1, U09.9, or Z20.822 by status; vaccine status **Z28.310 / Z28.311** (l, n).",
+   "visual": {
+    "title": "COVID-19: Remember These",
+    "boxes": [
+     {
+      "h": "U07.1",
+      "b": "Confirmed by provider only"
+     },
+     {
+      "h": "Z20.822 / Z11.52",
+      "b": "Exposure / screening"
+     },
+     {
+      "h": "U09.9",
+      "b": "Post COVID-19 condition"
+     },
+     {
+      "h": "Z86.16",
+      "b": "Personal history"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.g summary"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient presents with symptoms after an exposure to COVID-19. Testing rules out the infection. Per Section I.C.1.g.1.e, which code describes the exposure?",
+   "options": [
+    "Z20.822",
+    "U07.1",
+    "Z11.52",
+    "U09.9"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.g.1.e says for symptomatic individuals with actual or suspected exposure to COVID-19 when the infection has been ruled out, or test results are inconclusive or unknown, assign Z20.822. Option B is wrong because the infection was ruled out. Option C is for screening encounters. Option D is for conditions following a previous COVID-19 infection.",
+   "visual": {
+    "topic": "Exposure, ruled out",
+    "hint": "The infection was ruled out, but the exposure happened."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for viral enteritis that the provider documents as a manifestation of confirmed COVID-19. No obstetric, sepsis, or transplant guideline applies. Per Section I.C.1.g.1.d, what is principal?",
+   "options": [
+    "The viral enteritis code",
+    "Z20.822",
+    "Either may be principal",
+    "U07.1, COVID-19"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.g.1.d says when the reason for the encounter/admission is a non-respiratory manifestation (e.g., viral enteritis) of COVID-19, assign U07.1 as the principal/first-listed diagnosis and the manifestation code(s) as additional diagnoses. Option A reverses the order. Option B is for exposure without confirmed infection. Option C is wrong because the guideline sets a specific order.",
+   "visual": {
+    "topic": "Non-respiratory manifestation",
+    "hint": "Is the pattern different from respiratory manifestations?"
+   }
+  }
+ ]
+}

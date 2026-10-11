@@ -1,0 +1,72 @@
+# Weekly check for a new ICD-10-CM Official Guidelines PDF on cms.gov.
+# When CMS publishes one (new fiscal year, or a mid-year update), this job:
+#   1. regenerates the book's verbatim "Official Text" cards from the new PDF,
+#   2. writes an exact section-by-section change report, and
+#   3. opens a pull request plus an issue so the update can be reviewed.
+# The plain-English explanations and quizzes still need a review pass for the
+# sections that changed; the report lists those lessons.
+# See tools/icd10cm-guidelines/README.md.
+name: ICD-10-CM guidelines watch
+
+on:
+  schedule:
+    - cron: '17 14 * * 1'   # Mondays 14:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: icd10cm-guidelines-watch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install pdftotext
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Check CMS for a newer guidelines PDF
+        id: watch
+        run: python3 tools/icd10cm-guidelines/watch.py
+
+      - name: Open a pull request and an issue for the new version
+        if: steps.watch.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FY: ${{ steps.watch.outputs.fy }}
+          UPDATED: ${{ steps.watch.outputs.updated }}
+          STATUS: ${{ steps.watch.outputs.status }}
+          REPORT: ${{ steps.watch.outputs.report }}
+        run: |
+          set -euo pipefail
+          BRANCH="icd10cm-guidelines-fy${FY}-${UPDATED}"
+          TITLE="ICD-10-CM Official Guidelines FY ${FY} (updated ${UPDATED//-/ }) published"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            echo "Branch $BRANCH already exists; an update for this version is already open."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -A tools/icd10cm-guidelines icd10cm-guidelines-fy2027-data.js index.html
+          git commit -m "ICD-10-CM guidelines: update official text to FY ${FY} (updated ${UPDATED//-/ })" -m "Automated by .github/workflows/icd10cm-guidelines-watch.yml. Status: ${STATUS}."
+          git push -u origin "$BRANCH"
+          PR_URL=""
+          if PR_URL=$(gh pr create --draft --base main --head "$BRANCH" --title "$TITLE" --body-file "$REPORT" 2>&1); then
+            echo "Opened $PR_URL"
+          else
+            echo "Could not open a PR (repository setting 'Allow GitHub Actions to create pull requests' may be off): $PR_URL"
+            PR_URL="Branch pushed: https://github.com/${GITHUB_REPOSITORY}/tree/${BRANCH} (open a PR from it)"
+          fi
+          { echo "A new version of the ICD-10-CM Official Guidelines is on cms.gov."; echo; echo "$PR_URL"; echo; cat "$REPORT"; } > /tmp/issue.md
+          gh issue create --title "$TITLE" --body-file /tmp/issue.md

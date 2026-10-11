@@ -1,0 +1,532 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Coding Ulcers: Stage, Severity and Change",
+   "content": "Chapter 12 of the guidelines covers **Diseases of the Skin and Subcutaneous Tissue (L00-L99)**. Its guidance focuses on two kinds of ulcers:\n\n• **Pressure ulcers** (category **L89**) — skin and tissue damage caused by pressure. They are coded by **site** and **stage**.\n• **Non-pressure chronic ulcers** — coded by **site** and **severity**.\n\nCoders are tested heavily on these rules because they involve several look-alike situations: unstageable vs unspecified stage, healed vs healing, and an ulcer that gets worse during the stay.\n\nIn this lesson:\n\n• **I.C.12.a** — the seven pressure ulcer rules (stages, unstageable, documentation, healed, healing, progression, deep tissue damage)\n• **I.C.12.b** — the parallel rules for non-pressure chronic ulcers (healed, healing, progression)",
+   "visual": {
+    "title": "Chapter 12 Ulcer Rules",
+    "sub": "Section I.C.12 (L00-L99)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Pressure ulcers (L89)",
+      "b": "Site + stage"
+     },
+     {
+      "h": "Non-pressure ulcers",
+      "b": "Site + severity"
+     },
+     {
+      "h": "I.C.12.a",
+      "b": "Seven pressure ulcer rules"
+     },
+     {
+      "h": "I.C.12.b",
+      "b": "Three non-pressure ulcer rules"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.12"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.12.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Pressure Ulcer Stages",
+   "content": "**Section I.C.12.a.1.** Codes in **category L89**, Pressure ulcer, identify **two things**: the **site** (where on the body) and the **stage** (how severe).\n\nICD-10-CM classifies pressure ulcer stages by severity using:\n\n• **stages 1-4**\n• **deep tissue pressure injury**\n• **unspecified stage**\n• **unstageable**\n\n**Multiple ulcers:** assign **as many L89 codes as needed** to identify **all** the pressure ulcers the patient has.\n\n**Who can document the stage:** the guideline refers to Section I.B.14. That section allows the **pressure ulcer stage** to be taken from documentation by clinicians other than the patient's provider (for example, a nurse often documents the stages). However, the **pressure ulcer diagnosis itself** must be documented by the patient's provider.",
+   "visual": {
+    "title": "Category L89 Basics",
+    "sub": "Section I.C.12.a.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Each code shows",
+      "b": "Site and stage"
+     },
+     {
+      "h": "Stage options",
+      "b": "1-4, deep tissue, unspecified, unstageable"
+     },
+     {
+      "h": "Several ulcers",
+      "b": "One L89 code for each, as needed"
+     },
+     {
+      "h": "Stage from a nurse?",
+      "b": "Allowed per Section I.B.14"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Unstageable vs Unspecified Stage",
+   "content": "**Section I.C.12.a.2** separates two codes that students often confuse.\n\n**Unstageable (L89.--0):** the stage **cannot be clinically determined**. The guideline's examples: the ulcer is **covered by eschar** (dead tissue) or has been **treated with a skin or muscle graft**. Assignment is based on the clinical documentation.\n\n**Unspecified stage (L89.--9):** there is **no documentation** regarding the stage.\n\nThe guideline says directly: the unstageable code **should not be confused** with the unspecified stage code.\n\n**Debridement during the encounter:** if the stage of an unstageable ulcer is **revealed after debridement** (removal of dead tissue), assign **only** the code for the **stage revealed** following debridement. Do not also report the unstageable code.\n\n(In the code patterns, the dashes stand for the characters that identify the site.)",
+   "visual": {
+    "title": "Unstageable vs Unspecified",
+    "sub": "Section I.C.12.a.2",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Unstageable L89.--0",
+      "b": "Stage cannot be determined (eschar, graft)"
+     },
+     {
+      "h": "Unspecified L89.--9",
+      "b": "No documentation of the stage"
+     },
+     {
+      "h": "Stage revealed by debridement",
+      "b": "Only the revealed stage code"
+     },
+     {
+      "h": "Key point",
+      "b": "Do not confuse the two codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Which Stage Code?",
+   "content": "**Scenario 1.** Wound care note: \"Sacral pressure ulcer covered with eschar; stage cannot be determined.\"\n\n• Guideline: I.C.12.a.2 → **unstageable** (L89.--0) for the site.\n\n**Scenario 2.** Physician documents \"pressure ulcer of right heel.\" No one documents a stage anywhere in the record.\n\n• Guideline: I.C.12.a.2 → **unspecified stage** (L89.--9). There is no documentation of the stage.\n\n**Scenario 3.** An unstageable sacral ulcer is debrided during the stay, and the stage revealed is stage 4.\n\n• Guideline: I.C.12.a.2 → assign **only** the stage 4 code for that site.\n\n**Scenario 4.** The patient has a stage 2 ulcer on the left hip and a stage 3 ulcer on the sacrum.\n\n• Guideline: I.C.12.a.1 → assign an L89 code for **each** ulcer.",
+   "visual": {
+    "title": "Choose the Pressure Ulcer Code",
+    "sub": "Applying I.C.12.a.1 and I.C.12.a.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Eschar, stage unknown",
+      "b": "Unstageable L89.--0"
+     },
+     {
+      "h": "2. No stage documented",
+      "b": "Unspecified L89.--9"
+     },
+     {
+      "h": "3. Debrided, stage 4",
+      "b": "Only the stage 4 code"
+     },
+     {
+      "h": "4. Two ulcers",
+      "b": "Two L89 codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pressure ulcer on the sacrum is documented as covered by eschar so its stage cannot be clinically determined. Per Section I.C.12.a.2, which type of code applies?",
+   "options": [
+    "Unstageable (L89.--0)",
+    "Unspecified stage (L89.--9)",
+    "Pressure-induced deep tissue damage (L89.--6)",
+    "No code until the stage is known"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.12.a.2 says the unstageable codes (L89.--0) are \"used for pressure ulcers whose stage cannot be clinically determined (e.g., the ulcer is covered by eschar...).\" Unspecified stage (L89.--9) is for when there is no documentation regarding the stage, and the guideline says not to confuse the two. L89.--6 is for pressure-induced deep tissue damage. The guideline provides a code, so the coder does not wait.",
+   "visual": {
+    "topic": "Ulcer covered by eschar",
+    "hint": "Is the stage undocumented, or impossible to determine?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "During the encounter, an unstageable pressure ulcer is debrided and found to be stage 3. According to Section I.C.12.a.2, what is assigned?",
+   "options": [
+    "The unstageable code and the stage 3 code",
+    "Only the unstageable code",
+    "The unspecified stage code",
+    "Only the code for the stage revealed following debridement (stage 3)"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.12.a.2 states \"If during an encounter, the stage of an unstageable pressure ulcer is revealed after debridement, assign only the code for the stage revealed following debridement.\" Reporting both, or only the unstageable code, ignores the word \"only.\" Unspecified stage is for no stage documentation, but here the stage is documented.",
+   "visual": {
+    "topic": "Stage revealed after debridement",
+    "hint": "Notice the word \"only\" in the guideline."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Documentation, Healed and Healing",
+   "content": "**Section I.C.12.a.3 — documented stage.** The stage code is guided by **clinical documentation of the stage** or documentation of **terms found in the Alphabetic Index**. If the record uses a clinical term for the stage that is **not in the Index**, and **no stage is documented**, **query the provider**.\n\n**Section I.C.12.a.4 — healed on admission.** If documentation says the pressure ulcer is **completely healed** at the time of admission, **no code is assigned**.\n\n**Section I.C.12.a.5 — healing.** An ulcer described as **healing** is still coded:\n\n• Assign the stage code **based on the documentation**.\n• If the record gives **no stage** for the healing ulcer → **unspecified stage**.\n• If it is **unclear** whether the ulcer is **current (new)** or a **healing** ulcer being treated → **query the provider**.\n• If the ulcer was **present on admission but healed at discharge** → assign the code for the **site and stage at the time of admission**.\n\n**Exam trap:** \"healed\" (on admission) = no code. \"Healing\" = code it.",
+   "visual": {
+    "title": "Healed vs Healing",
+    "sub": "Sections I.C.12.a.3 to I.C.12.a.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Healed on admission",
+      "b": "No code"
+     },
+     {
+      "h": "Healing, stage given",
+      "b": "Code the documented stage"
+     },
+     {
+      "h": "Healing, no stage",
+      "b": "Unspecified stage"
+     },
+     {
+      "h": "POA, healed by discharge",
+      "b": "Site and stage at admission"
+     },
+     {
+      "h": "New vs healing unclear",
+      "b": "Query the provider"
+     },
+     {
+      "h": "Term not in Index",
+      "b": "No stage stated: query"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with a pressure ulcer that the provider documents as \"completely healed.\" According to Section I.C.12.a.4, what is coded for the ulcer?",
+   "options": [
+    "The original stage of the ulcer",
+    "The unspecified stage code",
+    "No code is assigned",
+    "The unstageable code"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.12.a.4 says \"No code is assigned if the documentation states that the pressure ulcer is completely healed at the time of admission.\" Coding the original stage, an unspecified stage, or unstageable would report a pressure ulcer that no longer exists. Note the difference from a healing ulcer (I.C.12.a.5), which is coded.",
+   "visual": {
+    "topic": "Healed pressure ulcer",
+    "hint": "Is the ulcer still present at admission?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A stage 3 pressure ulcer is present on admission and has completely healed by discharge. Per Section I.C.12.a.5, how is it coded?",
+   "options": [
+    "No code, because it healed during the stay",
+    "Assign the code for the site and stage at the time of admission (stage 3)",
+    "Assign the unspecified stage code",
+    "Query the provider in every case"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.12.a.5 states \"For ulcers that were present on admission but healed at the time of discharge, assign the code for the site and stage of the pressure ulcer at the time of admission.\" Option A confuses this with I.C.12.a.4, which applies only when the ulcer is healed at the time of admission. The stage is documented, so unspecified is wrong. A query is only required when it is unclear whether the ulcer is current or healing.",
+   "visual": {
+    "topic": "Healed by discharge",
+    "hint": "Was it healed at admission, or only by discharge?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The record describes a healing pressure ulcer of the left buttock but gives no information about its stage. Per Section I.C.12.a.5, which code is assigned?",
+   "options": [
+    "The appropriate code for unspecified stage",
+    "The unstageable code",
+    "No code, because healing ulcers are not reported",
+    "The stage 1 code, since it is healing"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.12.a.5 says \"If the documentation does not provide information about the stage of the healing pressure ulcer, assign the appropriate code for unspecified stage.\" Healing ulcers are coded, so C is wrong. Unstageable is for ulcers whose stage cannot be clinically determined (I.C.12.a.2), not for missing documentation. Assuming stage 1 is guessing and has no support in the guideline.",
+   "visual": {
+    "topic": "Healing ulcer, no stage",
+    "hint": "Missing documentation points to one specific code."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Progression and Deep Tissue Damage",
+   "content": "**Section I.C.12.a.6 — the ulcer gets worse during the stay.** If a patient is admitted to an **inpatient hospital** with a pressure ulcer at one stage and it **progresses to a higher stage**, assign **two separate codes**:\n\n1. one code for the **site and stage on admission**, and\n2. a second code for the **same ulcer site** and the **highest stage reported during the stay**.\n\n**Section I.C.12.a.7 — deep tissue damage.** For **pressure-induced deep tissue damage** or **deep tissue pressure injury**, assign **only** the code for pressure-induced deep tissue damage (**L89.--6**).\n\n**Exam trap:** progression gives **two** codes for one ulcer (admission stage + highest stage). Debridement revealing the stage of an unstageable ulcer (I.C.12.a.2) gives **one** code (only the revealed stage). Do not mix these up.",
+   "visual": {
+    "title": "Progression vs Revealed Stage",
+    "sub": "I.C.12.a.6 and a.7, compared with a.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Progresses during stay",
+      "b": "TWO codes: admission + highest"
+     },
+     {
+      "h": "Revealed by debridement",
+      "b": "ONE code: revealed stage only"
+     },
+     {
+      "h": "Deep tissue injury",
+      "b": "Only L89.--6"
+     },
+     {
+      "h": "Setting in I.C.12.a.6",
+      "b": "Inpatient hospital admission"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: An Ulcer That Progresses",
+   "content": "**Documentation:** A patient is admitted to the hospital with a **stage 2** pressure ulcer of the sacrum. On day 4 it is documented as **stage 3**. On day 8 it is documented as **stage 4**.\n\n**Guideline:** Section I.C.12.a.6.\n\n**Decision:**\n\n• Code 1: sacral pressure ulcer, **stage 2** (the stage on admission).\n• Code 2: sacral pressure ulcer, **stage 4** (the highest stage reported during the stay).\n• The stage 3 in between is **not** separately coded, because the guideline calls for the admission stage and the highest stage.\n\n**Contrast:** a different patient has \"deep tissue pressure injury of the right heel.\" Section I.C.12.a.7 → assign only the pressure-induced deep tissue damage code (L89.--6) for that site.",
+   "visual": {
+    "title": "Sacral Ulcer Timeline",
+    "sub": "Stage 2 → 3 → 4 during one stay",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Admission: stage 2",
+      "b": "CODED (stage on admission)"
+     },
+     {
+      "h": "Day 4: stage 3",
+      "b": "Not separately coded"
+     },
+     {
+      "h": "Day 8: stage 4",
+      "b": "CODED (highest stage)"
+     },
+     {
+      "h": "Total codes",
+      "b": "Two, same site"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient is admitted with a stage 2 pressure ulcer of the right hip, which progresses to stage 3 during the stay. According to Section I.C.12.a.6, how many codes are assigned for this ulcer, and which?",
+   "options": [
+    "One code, for stage 3 only",
+    "One code, for stage 2 only",
+    "Two codes: stage 2 and unspecified stage",
+    "Two codes: right hip stage 2 (on admission) and right hip stage 3 (highest stage during the stay)"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.12.a.6 says \"two separate codes should be assigned: one code for the site and stage of the ulcer on admission and a second code for the same ulcer site and the highest stage reported during the stay.\" A single code loses either the admission or the highest stage. Unspecified stage is wrong because both stages are documented.",
+   "visual": {
+    "topic": "Ulcer progression",
+    "hint": "The guideline asks for the stage at two points in time."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents \"deep tissue pressure injury of the left heel.\" What does Section I.C.12.a.7 direct?",
+   "options": [
+    "Assign the unstageable code (L89.--0)",
+    "Assign the deep tissue code plus a stage 4 code",
+    "Assign only the code for pressure-induced deep tissue damage (L89.--6)",
+    "Assign the unspecified stage code (L89.--9)"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.12.a.7 states \"For pressure-induced deep tissue damage or deep tissue pressure injury, assign only the appropriate code for pressure-induced deep tissue damage (L89.--6).\" Adding a stage 4 code contradicts \"only.\" Unstageable (L89.--0) is for ulcers whose stage cannot be clinically determined, and unspecified (L89.--9) is for no stage documentation; deep tissue pressure injury has its own code.",
+   "visual": {
+    "topic": "Deep tissue pressure injury",
+    "hint": "Deep tissue injury is one of the listed stage categories."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.12.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Non-Pressure Chronic Ulcers",
+   "content": "Section I.C.12.b applies the same patterns to **non-pressure chronic ulcers** — but these are described by **severity**, not stage.\n\n**I.C.12.b.1 — healed on admission:** no code is assigned if documentation states the non-pressure ulcer is **completely healed** at admission.\n\n**I.C.12.b.2 — healing:**\n\n• Code a healing non-pressure ulcer **based on the documentation**.\n• No information about severity → code for **unspecified severity**.\n• Unclear whether it is **current (new)** or a **healing** ulcer being treated → **query the provider**.\n• **Present on admission, healed at discharge** → code the **site and severity at the time of admission**.\n\n**I.C.12.b.3 — progression:** if an inpatient is admitted with a non-pressure ulcer at one severity level and it **progresses to a higher severity level**, assign **two codes**: the site and severity on admission, and the same site with the **highest severity** reported during the stay.\n\nThe section ends with a reference to Section I.B.14, which lists **depth of non-pressure chronic ulcers** among the items that may be taken from other clinicians' documentation.",
+   "visual": {
+    "title": "Non-Pressure Chronic Ulcers",
+    "sub": "Section I.C.12.b: severity, not stage",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Healed on admission",
+      "b": "No code"
+     },
+     {
+      "h": "Healing, no severity",
+      "b": "Unspecified severity"
+     },
+     {
+      "h": "POA, healed by discharge",
+      "b": "Site and severity at admission"
+     },
+     {
+      "h": "Progresses during stay",
+      "b": "Two codes: admission + highest"
+     },
+     {
+      "h": "New vs healing unclear",
+      "b": "Query the provider"
+     },
+     {
+      "h": "Depth by other clinician",
+      "b": "Allowed per Section I.B.14"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Side by Side: Pressure vs Non-Pressure Rules",
+   "content": "The two sections mirror each other. The main difference is the word used for how bad the ulcer is.\n\n• **Measured by:** pressure = **stage**; non-pressure = **severity**.\n• **Healed at admission:** no code for either.\n• **Healing, nothing documented:** unspecified **stage** (pressure) or unspecified **severity** (non-pressure).\n• **POA, healed at discharge:** site + stage, or site + severity, at admission.\n• **Gets worse during an inpatient stay:** two codes for either — admission level + highest level.\n• **New vs healing unclear:** query, for either.\n\n**Rules only in I.C.12.a:** unstageable vs unspecified, stage revealed after debridement, terms not found in the Alphabetic Index, and deep tissue damage (L89.--6).",
+   "visual": {
+    "title": "Same Pattern, Different Word",
+    "sub": "Pressure = stage. Non-pressure = severity.",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Both: healed on admission",
+      "b": "No code"
+     },
+     {
+      "h": "Both: healing",
+      "b": "Code it; unspecified if none"
+     },
+     {
+      "h": "Both: POA, healed later",
+      "b": "Code status at admission"
+     },
+     {
+      "h": "Both: worsens",
+      "b": "Two codes"
+     },
+     {
+      "h": "Pressure only",
+      "b": "Unstageable, debridement"
+     },
+     {
+      "h": "Pressure only",
+      "b": "Deep tissue damage L89.--6"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with a non-pressure chronic ulcer of the left calf described as \"healing.\" No severity is documented. Per Section I.C.12.b.2, what should be assigned?",
+   "options": [
+    "No code, because the ulcer is healing",
+    "The appropriate code for unspecified severity",
+    "The unspecified stage code from category L89",
+    "A query is always required for healing ulcers"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.12.b.2 says that if the documentation does not provide information about the severity of the healing non-pressure ulcer, \"assign the appropriate code for unspecified severity.\" Healing ulcers are coded (only completely healed ulcers at admission get no code). Category L89 is for pressure ulcers, not non-pressure ulcers. A query is needed only when it is unclear whether the ulcer is current or healing.",
+   "visual": {
+    "topic": "Healing non-pressure ulcer",
+    "hint": "Non-pressure ulcers are described by severity."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient is admitted with a non-pressure chronic ulcer of the right foot that progresses to a higher severity level during the stay. According to Section I.C.12.b.3, what is assigned?",
+   "options": [
+    "Two codes: one for the site and severity on admission and one for the same site and the highest severity reported during the stay",
+    "Only the code for the severity on admission",
+    "Only the code for the highest severity",
+    "A pressure ulcer code, because the ulcer progressed"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.12.b.3 says \"two separate codes should be assigned: one code for the site and severity level of the ulcer on admission and a second code for the same ulcer site and the highest severity level reported during the stay.\" A single code loses one of the two required points. Progression does not turn a non-pressure ulcer into a pressure ulcer.",
+   "visual": {
+    "topic": "Non-pressure ulcer progression",
+    "hint": "This rule mirrors the pressure ulcer progression rule."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying the Ulcer Rules on a Record",
+   "content": "Work through each ulcer in the record with these steps.\n\n1. **Pressure or non-pressure?** Pressure ulcers → category L89, coded by **site and stage**. Non-pressure chronic ulcers → coded by **site and severity**.\n2. **One code per ulcer.** Assign as many L89 codes as needed for all pressure ulcers (I.C.12.a.1).\n3. **Healed at admission?** Completely healed → no code (I.C.12.a.4, I.C.12.b.1).\n4. **Find the stage/severity.** Use clinical documentation or Index terms. A nurse or other clinician may document the stage or depth (Section I.B.14), but the provider must document the ulcer diagnosis. Term not in the Index and no stage → query (I.C.12.a.3).\n5. **Stage can't be determined** (eschar, graft) → unstageable L89.--0. **Nothing documented** → unspecified stage L89.--9 or unspecified severity (I.C.12.a.2, a.5, b.2).\n6. **Debrided and stage revealed?** Only the revealed stage (I.C.12.a.2).\n7. **Deep tissue pressure injury?** Only L89.--6 (I.C.12.a.7).\n8. **Changed during an inpatient stay?** Worsened → two codes (admission + highest). Healed by discharge → code the status at admission. New vs healing unclear → query (I.C.12.a.5-6, I.C.12.b.2-3).",
+   "visual": {
+    "title": "Ulcer Coding Path",
+    "sub": "Eight checks from Section I.C.12",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2 Type and count",
+      "b": "L89 by stage; others by severity"
+     },
+     {
+      "h": "3 Healed on admission",
+      "b": "No code"
+     },
+     {
+      "h": "4 Source of stage",
+      "b": "Docs/Index; I.B.14; query"
+     },
+     {
+      "h": "5 Can't tell vs not stated",
+      "b": "L89.--0 vs L89.--9"
+     },
+     {
+      "h": "6-7 Debrided / deep",
+      "b": "Revealed stage; L89.--6"
+     },
+     {
+      "h": "8 Changes in stay",
+      "b": "Two codes / admission status"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **L89** codes show **site and stage**; assign as many as needed for all pressure ulcers (I.C.12.a.1).\n• **Unstageable (L89.--0)** = stage cannot be clinically determined (eschar, graft). **Unspecified (L89.--9)** = no stage documented. Do not confuse them (I.C.12.a.2).\n• Stage revealed by **debridement** during the encounter → **only** the revealed stage (I.C.12.a.2).\n• Stage term not in the Index and no stage documented → **query** (I.C.12.a.3).\n• **Healed at admission** → no code. **Healing** → code it; unspecified stage/severity if not documented (I.C.12.a.4-5, I.C.12.b.1-2).\n• **POA, healed at discharge** → code the site and stage/severity **at admission** (I.C.12.a.5, I.C.12.b.2).\n• **Worsens during an inpatient stay** → **two codes**: admission and highest (I.C.12.a.6, I.C.12.b.3).\n• **Deep tissue pressure injury** → only **L89.--6** (I.C.12.a.7).",
+   "visual": {
+    "title": "Lesson Summary",
+    "sub": "Pressure and non-pressure ulcers",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Unstageable vs unspec.",
+      "b": "Can't determine vs not stated"
+     },
+     {
+      "h": "Healed vs healing",
+      "b": "No code vs code it"
+     },
+     {
+      "h": "Worsens in stay",
+      "b": "Two codes"
+     },
+     {
+      "h": "Deep tissue injury",
+      "b": "Only L89.--6"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents a pressure ulcer of the sacrum. The record does not say whether it is a new ulcer or a healing ulcer being treated, and the difference matters for the code. What does Section I.C.12.a.5 direct?",
+   "options": [
+    "Assume it is a new ulcer",
+    "Assume it is healing and use unspecified stage",
+    "Assign no code",
+    "Query the provider"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.12.a.5 states \"If the documentation is unclear as to whether the patient has a current (new) pressure ulcer or if the patient is being treated for a healing pressure ulcer, query the provider.\" Options A and B guess instead of asking. Option C is only correct when documentation states the ulcer was completely healed at admission (I.C.12.a.4).",
+   "visual": {
+    "topic": "New or healing?",
+    "hint": "When documentation is unclear, what is the coder's tool?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement correctly contrasts two pressure ulcer rules in Section I.C.12.a?",
+   "options": [
+    "Both progression during a stay and debridement revealing a stage result in two codes",
+    "Both result in only the highest stage code",
+    "Progression during a stay results in two codes; a stage revealed after debridement results in only the revealed stage code",
+    "Progression results in one code; debridement results in two codes"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.12.a.6 calls for two codes when an ulcer progresses during an inpatient stay (the stage on admission and the highest stage). Section I.C.12.a.2 says that when debridement reveals the stage of an unstageable ulcer, assign only the code for the revealed stage. Options A, B and D each misstate at least one of these two rules.",
+   "visual": {
+    "topic": "Progression vs debridement",
+    "hint": "One rule says \"two separate codes,\" the other says \"only.\""
+   }
+  }
+ ]
+}

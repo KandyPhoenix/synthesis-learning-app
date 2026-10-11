@@ -1,0 +1,904 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Nine Rules That Shape Everyday Coding Decisions",
+   "content": "This lesson finishes the core of **Section I.B, General Coding Guidelines**. These rules apply across every chapter of ICD-10-CM, so you will use them on almost every record you code.\n\nYou will learn how to handle:\n\n• **Sequela (late effects)** — residual conditions left after an illness or injury is over (I.B.10)\n• **Impending or threatened** conditions (I.B.11)\n• Reporting the **same code only once** per encounter (I.B.12)\n• **Laterality** — left, right, bilateral, and unspecified sides (I.B.13)\n• When documentation from **clinicians other than the provider** can be used (I.B.14)\n• **Syndromes** (I.B.15)\n• **Complications of care** (I.B.16)\n• **Borderline** diagnoses (I.B.17)\n• Proper use of **sign/symptom and unspecified codes** (I.B.18)\n\nEach rule is shown word for word, explained in plain English, and then tested. Several of these are classic exam topics because they look similar to other rules but work differently.",
+   "visual": {
+    "title": "General Guidelines, Part II",
+    "sub": "Section I.B.10 through I.B.18",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Sequela",
+      "b": "Residual effect after the acute phase ends"
+     },
+     {
+      "h": "Impending/Threatened",
+      "b": "Check the Index before coding"
+     },
+     {
+      "h": "Same code once",
+      "b": "One unique code per encounter"
+     },
+     {
+      "h": "Laterality",
+      "b": "Left, right, bilateral, unspecified"
+     },
+     {
+      "h": "Other clinicians",
+      "b": "Limited list of exceptions"
+     },
+     {
+      "h": "Complications",
+      "b": "Cause-and-effect must be documented"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.10"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: What a Sequela Is",
+   "content": "A **sequela** (plural: sequelae), also called a **late effect**, is the **residual effect** — the condition left behind — after the **acute phase** of an illness or injury is over.\n\nKey points from Section I.B.10:\n\n• **No time limit.** A sequela code can be used no matter how long after the original illness or injury.\n• The residual can show up **early** (the guideline's example is cerebral infarction) or **months or years later** (such as after a previous injury).\n• The guideline's examples of sequela:\n  – scar formation resulting from a burn\n  – deviated septum due to a nasal fracture\n  – infertility due to tubal occlusion from old tuberculosis\n\nIn each example, the original problem (burn, fracture, tuberculosis) is no longer in its acute phase. What the patient has now is the **residual condition** (scar, deviated septum, infertility).\n\n**What it does NOT mean:** a sequela is not a condition that is still in its acute phase. If the acute illness or injury is still being treated, it is not a sequela.",
+   "visual": {
+    "title": "Sequela = Residual Effect",
+    "sub": "The acute phase is over; a condition remains",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Original problem",
+      "b": "Burn, nasal fracture, old tuberculosis"
+     },
+     {
+      "h": "Residual (sequela)",
+      "b": "Scar, deviated septum, infertility"
+     },
+     {
+      "h": "Time limit?",
+      "b": "None. Can be early or years later"
+     },
+     {
+      "h": "Acute phase code",
+      "b": "Never used with the late effect code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Sequencing a Sequela: Two Codes, Set Order",
+   "content": "Section I.B.10 says coding of sequela **generally requires two codes**, sequenced in this order:\n\n1. **The condition or nature of the sequela** — what the patient has now (for example, the scar).\n2. **The sequela code** — the code that shows this is a late effect of an earlier illness or injury.\n\n**Exception.** The two-code order does not apply when:\n\n• the code for the sequela is followed by a **manifestation code** identified in the Tabular List and title, or\n• the sequela code has been **expanded at the 4th, 5th or 6th character level** to include the manifestation(s).\n\nIn those cases, the classification itself tells you how to report the residual.\n\n**Never combine acute and late effect.** The guideline states that the code for the **acute phase** of an illness or injury that led to the sequela is **never** used with a code for the late effect.\n\nThe guideline also points you to three related sections: I.C.9 (sequelae of cerebrovascular disease), I.C.15 (sequelae of complication of pregnancy, childbirth and the puerperium), and I.C.19 (application of 7th characters for Chapter 19).",
+   "visual": {
+    "title": "Sequela Coding Order",
+    "sub": "Section I.B.10",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1st: Nature of sequela",
+      "b": "The residual condition the patient has now"
+     },
+     {
+      "h": "2nd: Sequela code",
+      "b": "Shows it is a late effect of the earlier problem"
+     },
+     {
+      "h": "Exception",
+      "b": "Manifestation code follows, or code expanded to include it"
+     },
+     {
+      "h": "Never",
+      "b": "Acute phase code together with the late effect code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Scar From an Old Burn",
+   "content": "**Documentation:** A patient is seen for a scar on the forearm. The provider documents that the scar is the result of a burn the patient had several years ago. The burn healed long ago.\n\n**Which guideline applies?** Section I.B.10, Sequela. Scar formation resulting from a burn is one of the guideline's own examples.\n\n**Decision:**\n\n• The burn is no longer in its acute phase, so this is a sequela.\n• The years that have passed do not matter — there is no time limit.\n• Sequence the **scar (the nature of the sequela) first**, then the **sequela code** second.\n• Do **not** report a code for the acute burn along with the late effect code.\n\n**Exam trap:** Students often put the original injury first because it \"came first\" in time. The guideline says the opposite — the residual condition goes first.",
+   "visual": {
+    "title": "Scar From an Old Burn",
+    "sub": "Applying Section I.B.10",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Patient has now",
+      "b": "Scar (residual condition)"
+     },
+     {
+      "h": "Caused by",
+      "b": "Burn that healed years ago"
+     },
+     {
+      "h": "Sequence 1st",
+      "b": "The scar"
+     },
+     {
+      "h": "Sequence 2nd",
+      "b": "The sequela code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.B.10, how is a sequela generally coded?",
+   "options": [
+    "The sequela code first, then the condition or nature of the sequela",
+    "Only the code for the acute illness or injury",
+    "The condition or nature of the sequela first, then the sequela code",
+    "Only the code for the residual condition, with no sequela code"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.B.10 states that coding of sequela generally requires two codes, with the condition or nature of the sequela sequenced first and the sequela code second. The first option reverses the order. The second option is wrong because the acute phase code is never used with a code for the late effect. The fourth option is wrong because the guideline generally requires two codes (the exception is when a manifestation code follows or the sequela code has been expanded to include the manifestation).",
+   "visual": {
+    "topic": "Sequela sequencing",
+    "hint": "Think about which is reported first: what the patient has now, or where it came from."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has a deviated septum due to a nasal fracture that happened 10 years ago. Which statement is correct under Section I.B.10?",
+   "options": [
+    "There is no time limit, so the deviated septum is coded as a sequela, and the acute fracture code is not used",
+    "Code the acute nasal fracture and the deviated septum together",
+    "This cannot be coded as a sequela because too much time has passed",
+    "The fracture should be coded as the first-listed diagnosis because it occurred first"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.B.10 states there is no time limit on when a sequela code can be used, lists deviated septum due to a nasal fracture as an example of sequela, and says the code for the acute phase is never used with a code for the late effect. Option C is wrong because there is no time limit. Option B is wrong because the acute phase code is never used with the late effect code. Option D is wrong because the nature of the sequela is sequenced first, not the original injury.",
+   "visual": {
+    "topic": "Sequela time limit",
+    "hint": "Recall what Section I.B.10 says about how long after an injury a sequela can be coded."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.11"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Impending or Threatened Conditions",
+   "content": "Sometimes at **discharge** the provider describes a condition as **\"impending\"** or **\"threatened\"** — meaning it was about to happen or at risk of happening. Section I.B.11 gives a decision path:\n\n**Step 1 — Did it occur?**\n• **Yes:** code it as a **confirmed diagnosis**.\n\n**Step 2 — If it did not occur, check the Alphabetic Index:**\n• Look for a subentry for \"impending\" or \"threatened\" under the condition.\n• Also look at the main term entries **\"Impending\"** and **\"Threatened.\"**\n\n**Step 3 — Act on what you find:**\n• **Subterms listed:** assign the code given.\n• **Subterms not listed:** code the **existing underlying condition(s)**, **not** the condition described as impending or threatened.\n\n**What it does NOT mean:** you do not code an impending condition as if it happened just because the provider used the word. The Index decides whether a specific impending/threatened code exists.",
+   "visual": {
+    "title": "Impending or Threatened",
+    "sub": "Section I.B.11 decision path",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Did it occur?",
+      "b": "Yes: code as confirmed diagnosis"
+     },
+     {
+      "h": "If not: check Index",
+      "b": "Subentry under condition, plus main terms Impending, Threatened"
+     },
+     {
+      "h": "Subterm listed",
+      "b": "Assign the code given"
+     },
+     {
+      "h": "Subterm not listed",
+      "b": "Code the existing underlying condition(s)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Threatened, but It Did Not Happen",
+   "content": "**Documentation:** At discharge, the provider describes a condition as \"threatened.\" The condition did not actually occur during the stay. The patient does have an underlying condition that was treated.\n\n**Which guideline applies?** Section I.B.11.\n\n**Decision path:**\n\n1. The condition did **not** occur, so you cannot code it as confirmed.\n2. Look in the Alphabetic Index under the condition for a subentry \"threatened\" (and \"impending\"), and look at the main terms \"Threatened\" and \"Impending.\"\n3. If the Index lists the subterm, assign the code it gives.\n4. If the Index does not list it, code the existing **underlying condition(s)** only.\n\n**Exam trap:** The answer depends on the **Index**, not on how serious the threatened condition sounds. Always check both the condition's subentries and the main terms.",
+   "visual": {
+    "title": "Threatened, Did Not Occur",
+    "sub": "Let the Alphabetic Index decide",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Occurred",
+      "b": "Code as confirmed"
+     },
+     {
+      "h": "Did not occur",
+      "b": "Go to Alphabetic Index"
+     },
+     {
+      "h": "Index has subterm",
+      "b": "Use that code"
+     },
+     {
+      "h": "No subterm",
+      "b": "Code underlying condition(s) only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "At discharge, a condition is described as \"impending.\" It did not occur, and the Alphabetic Index has no \"impending\" or \"threatened\" subterm for it. What should the coder do under Section I.B.11?",
+   "options": [
+    "Code the condition as a confirmed diagnosis",
+    "Query the provider before assigning any code",
+    "Code the condition with an unspecified code",
+    "Code the existing underlying condition(s), not the impending condition"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.B.11 says that if the condition did not occur and the subterms are not listed in the Alphabetic Index, code the existing underlying condition(s) and not the condition described as impending or threatened. Option A applies only if the condition actually did occur. Option C is not part of the I.B.11 decision path. Option B is not required by I.B.11 — the guideline itself tells you what to code when no subterm exists.",
+   "visual": {
+    "topic": "Impending conditions",
+    "hint": "Follow the decision path: did it occur, and what does the Index list?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.12"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Report Each Code Only Once",
+   "content": "Section I.B.12 is short but important: **each unique ICD-10-CM diagnosis code may be reported only once for an encounter.**\n\nThe guideline names two situations where this comes up:\n\n• **Bilateral conditions with no distinct laterality codes.** If the condition is on both sides but the code does not identify a side, the same code would apply to both sides — so you report it **once**.\n• **Two different conditions classified to the same code.** If two different documented conditions both land on the same ICD-10-CM code, you report that code **once**.\n\n**What it does NOT mean:** it does not stop you from coding both sides when the classification has separate left and right codes. Those are different codes (see I.B.13, next).",
+   "visual": {
+    "title": "Same Code, Once Per Encounter",
+    "sub": "Section I.B.12",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Bilateral, no side codes",
+      "b": "Same code applies to both sides: report it once"
+     },
+     {
+      "h": "Two conditions, one code",
+      "b": "Both classify to one code: report it once"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.13"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Laterality Basics",
+   "content": "**Laterality** means the side of the body: **left, right, or bilateral** (both sides). Some ICD-10-CM codes include the side.\n\nThe first paragraph of Section I.B.13 gives three rules:\n\n• **Codes can show the side:** some codes specify left, right or bilateral. (The second paragraph of I.B.13 shows when to assign the bilateral code.)\n• **No bilateral code, but the condition is bilateral:** assign **separate codes for the left and the right side**.\n• **Side not identified in the record:** assign the code for the **unspecified side**.\n\n**Exam trap — I.B.12 vs I.B.13:** If the code has no laterality at all, a bilateral condition is reported **once** (I.B.12). If the code has left and right options but no bilateral option, report **both** the left and the right codes (I.B.13).",
+   "visual": {
+    "title": "Laterality Decision",
+    "sub": "Section I.B.13, first paragraph",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Bilateral code exists",
+      "b": "Use the bilateral code"
+     },
+     {
+      "h": "No bilateral code",
+      "b": "Assign separate left and right codes"
+     },
+     {
+      "h": "Side not documented",
+      "b": "Assign the unspecified side code"
+     },
+     {
+      "h": "No side in code at all",
+      "b": "Report the code once (I.B.12)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Bilateral Conditions Treated in Separate Encounters",
+   "content": "The second paragraph of I.B.13 covers a patient whose bilateral condition is treated **one side at a time** in separate encounters. The guideline's example is **cataract surgery performed on each eye in separate encounters**.\n\n**First encounter (treating the first side):**\n• Assign the **bilateral** code, because the condition still exists on both sides at that time.\n\n**Second encounter (after one side was treated and the condition no longer exists there):**\n• Assign the **unilateral** code for the side where the condition still exists.\n• Do **not** assign the bilateral code — the patient no longer has the condition in the previously treated site.\n\n**Exception:** If treatment of the first side did **not completely resolve** the condition, the **bilateral** code is still appropriate at the later encounter.\n\nThe idea: code what exists **at the time of each encounter**.",
+   "visual": {
+    "title": "One Side at a Time",
+    "sub": "Section I.B.13, cataract example",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Encounter 1",
+      "b": "Both sides affected: bilateral code"
+     },
+     {
+      "h": "Encounter 2",
+      "b": "First side resolved: unilateral code for remaining side"
+     },
+     {
+      "h": "First side not resolved",
+      "b": "Bilateral code still appropriate"
+     },
+     {
+      "h": "Principle",
+      "b": "Code what exists at each encounter"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Who Can Document the Side, and When to Query",
+   "content": "The third paragraph of I.B.13 deals with **where** laterality information can come from:\n\n• **Provider did not document the side:** code assignment for the affected side **may be based on documentation from other clinicians** in the medical record. (Laterality is one of the exceptions listed in I.B.14.)\n• **Conflicting documentation about the side:** **query the patient's provider** for clarification.\n• **Unspecified side codes should rarely be used** — for example, when the documentation is insufficient to determine the side **and** it is not possible to obtain clarification.\n\n**What it does NOT mean:** \"unspecified side\" is not a shortcut when the side is written elsewhere in the record. Check other clinicians' notes first, and query if they conflict.",
+   "visual": {
+    "title": "Finding the Affected Side",
+    "sub": "Section I.B.13, third paragraph",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Provider silent on side",
+      "b": "May use other clinicians' notes"
+     },
+     {
+      "h": "Conflicting sides",
+      "b": "Query the patient's provider"
+     },
+     {
+      "h": "Unspecified side",
+      "b": "Rarely: only if record is insufficient and no clarification"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Cataract Surgery, Two Encounters",
+   "content": "**Documentation:** A patient has cataracts in both eyes. Surgery is done on the right eye first. Several weeks later the patient returns for surgery on the left eye. The right eye no longer has the cataract.\n\n**Which guideline applies?** Section I.B.13 (this is the guideline's own example).\n\n**Decision:**\n\n• **Right-eye surgery encounter:** assign the **bilateral** code, since the condition exists on both sides at that time.\n• **Left-eye surgery encounter:** assign the **unilateral left** code, because the condition no longer exists in the right eye.\n\n**Variation:** If the first surgery had **not completely resolved** the condition in the right eye, the bilateral code would still be appropriate for the second encounter.",
+   "visual": {
+    "title": "Cataracts, Both Eyes",
+    "sub": "Applying Section I.B.13",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Surgery 1 (right eye)",
+      "b": "Bilateral code"
+     },
+     {
+      "h": "Surgery 2 (left eye)",
+      "b": "Left unilateral code"
+     },
+     {
+      "h": "If right not resolved",
+      "b": "Bilateral code at surgery 2"
+     },
+     {
+      "h": "Why",
+      "b": "Code what exists now"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a bilateral condition has the first side treated today. The condition still exists on both sides at the start of this encounter. According to Section I.B.13, which code is assigned for this encounter?",
+   "options": [
+    "The unilateral code for the side being treated",
+    "The bilateral code",
+    "The unspecified side code",
+    "Separate codes for the left and right side, even though a bilateral code exists"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.B.13 says to assign the bilateral code, as the condition still exists on both sides, including for the encounter to treat the first side. Option A is wrong because the condition still exists on both sides. Option C is wrong because the side is known. Option D is wrong because separate left and right codes are assigned only when no bilateral code is provided.",
+   "visual": {
+    "topic": "Bilateral, first encounter",
+    "hint": "What exists on the day of the first treatment?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A bilateral condition exists, but ICD-10-CM provides no bilateral code — only a left code and a right code. What does Section I.B.13 instruct?",
+   "options": [
+    "Assign the code for the unspecified side",
+    "Assign the right-side code only",
+    "Assign separate codes for both the left and right side",
+    "Report one code, because the same condition can be reported only once"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.B.13 states, \"If no bilateral code is provided and the condition is bilateral, assign separate codes for both the left and right side.\" Option A is wrong because the side is known. Option B leaves out the left side. Option D confuses this with I.B.12, which applies when there are no distinct codes identifying laterality — here, separate left and right codes exist.",
+   "visual": {
+    "topic": "Laterality",
+    "hint": "Are the left and right codes the same code or different codes?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's provider did not document which knee is affected. A physical therapist's note in the record says the left knee, and a nurse's note says the right knee. What should the coder do?",
+   "options": [
+    "Query the patient's provider for clarification",
+    "Assign the bilateral code",
+    "Assign the unspecified side code without further action",
+    "Use the physical therapist's note because therapy documentation is more detailed"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.B.13 states that if there is conflicting medical record documentation regarding the affected side, the patient's provider should be queried for clarification. Option D picks one conflicting note without clarification. Option B is not supported — nothing documents both sides. Option C is wrong because unspecified side codes should rarely be used, such as when it is not possible to obtain clarification; here a query is possible.",
+   "visual": {
+    "topic": "Conflicting laterality",
+    "hint": "What does I.B.13 say to do when notes disagree about the side?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.14"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Whose Documentation Counts?",
+   "content": "The general rule in Section I.B.14: **code assignment is based on the documentation by the patient's provider** — the physician or other qualified healthcare practitioner **legally accountable for establishing the patient's diagnosis**.\n\nThere are a **few exceptions** where codes may be based on documentation by **other clinicians**. \"Other clinicians\" means healthcare professionals permitted — based on regulatory or accreditation requirements or internal hospital policies — to document in the patient's official medical record.\n\nThe guideline's examples of who often documents this information:\n\n• a **dietitian** often documents the BMI\n• a **nurse** often documents pressure ulcer stages\n• an **emergency medical technician** often documents the coma scale\n\n**The big catch:** the **associated diagnosis** must still be documented by the **patient's provider**. The guideline lists overweight, obesity, acute stroke, pressure ulcer, or a condition classifiable to category F10, Alcohol related disorders.",
+   "visual": {
+    "title": "Provider vs Other Clinicians",
+    "sub": "Section I.B.14",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "General rule",
+      "b": "Code from the patient's provider's documentation"
+     },
+     {
+      "h": "Exceptions",
+      "b": "A short list may come from other clinicians"
+     },
+     {
+      "h": "Associated diagnosis",
+      "b": "Must be documented by the provider"
+     },
+     {
+      "h": "Conflict",
+      "b": "Query the patient's provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "The Exception List and the Secondary-Only Rule",
+   "content": "Section I.B.14 lists the codes that may be based on documentation from clinicians other than the patient's provider:\n\n• Body Mass Index (**BMI**)\n• **Depth** of non-pressure chronic ulcers\n• **Pressure ulcer stage**\n• **Coma scale**\n• **NIH stroke scale (NIHSS)**\n• **Social determinants of health (SDOH)** classified to Chapter 21\n• **Laterality**\n• **Blood alcohol level**\n• **Underimmunization status**\n• **Firearm injury intent**\n\n**Secondary diagnoses only:** the guideline states that the BMI, coma scale, NIHSS, blood alcohol level codes, codes for social determinants of health, and underimmunization status should **only be reported as secondary diagnoses**.\n\n**Conflicts:** if documentation conflicts — whether from the **same** clinician or **different** clinicians — query the patient's provider.\n\nFor more on SDOH coding, the guideline refers you to Section I.C.21.c.17.",
+   "visual": {
+    "title": "Other-Clinician Exceptions",
+    "sub": "Ten items listed in Section I.B.14",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Measurements",
+      "b": "BMI, ulcer depth, pressure ulcer stage"
+     },
+     {
+      "h": "Scales",
+      "b": "Coma scale, NIHSS"
+     },
+     {
+      "h": "Other items",
+      "b": "SDOH, laterality, blood alcohol level"
+     },
+     {
+      "h": "Also",
+      "b": "Underimmunization status, firearm injury intent"
+     },
+     {
+      "h": "Secondary only",
+      "b": "BMI, coma scale, NIHSS, blood alcohol, SDOH, underimmunization"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: BMI From the Dietitian",
+   "content": "**Documentation:** The dietitian's note records the patient's BMI. The attending physician (the patient's provider) documents **obesity** in the progress note.\n\n**Which guideline applies?** Section I.B.14.\n\n**Decision:**\n\n• The **BMI** may be coded from the dietitian's documentation — BMI is on the exception list.\n• The **obesity** diagnosis is documented by the provider, which is required for the associated diagnosis.\n• The BMI code is reported **only as a secondary diagnosis**.\n\n**Variation (exam trap):** If **only** the dietitian wrote \"obesity\" and the provider never documented it, the associated diagnosis is not supported — the guideline says it must be documented by the patient's provider. The exception covers the **BMI value**, not the diagnosis.",
+   "visual": {
+    "title": "BMI and Obesity",
+    "sub": "Applying Section I.B.14",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "BMI value",
+      "b": "May come from dietitian"
+     },
+     {
+      "h": "Obesity diagnosis",
+      "b": "Must come from provider"
+     },
+     {
+      "h": "BMI code placement",
+      "b": "Secondary diagnosis only"
+     },
+     {
+      "h": "Notes conflict",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A nurse documents the stage of a pressure ulcer in the record. Under Section I.B.14, which statement is correct?",
+   "options": [
+    "The nurse's note is enough to code both the pressure ulcer diagnosis and the stage",
+    "The stage can only be coded if the provider also documents the stage",
+    "Nothing documented by a nurse may ever be used for code assignment",
+    "The pressure ulcer stage may be based on the nurse's documentation, but the pressure ulcer diagnosis must be documented by the patient's provider"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.B.14 lists pressure ulcer stage as an exception that may be based on other clinicians' documentation, and states the associated diagnosis (such as pressure ulcer) must be documented by the patient's provider. Option A is wrong because the diagnosis itself must come from the provider. Option C is wrong because I.B.14 lists exceptions. Option B is wrong because the stage is one of the items that may come from other clinicians.",
+   "visual": {
+    "topic": "Other clinicians' documentation",
+    "hint": "Separate the measurement from the diagnosis."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which of the following does Section I.B.14 say should ONLY be reported as a secondary diagnosis?",
+   "options": [
+    "Pressure ulcer stage",
+    "Coma scale",
+    "Laterality",
+    "Depth of non-pressure chronic ulcers"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.B.14 states that the BMI, coma scale, NIHSS, blood alcohol level codes, codes for social determinants of health and underimmunization status should only be reported as secondary diagnoses. Pressure ulcer stage, laterality and depth of non-pressure chronic ulcers are on the exception list for other-clinician documentation, but they are not in the secondary-only sentence.",
+   "visual": {
+    "topic": "Secondary-only codes",
+    "hint": "Recall the sentence that begins \"The BMI, coma scale...\""
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.15"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Coding Syndromes",
+   "content": "A **syndrome** is a group of signs and conditions that occur together. Section I.B.15 sets up an order of steps:\n\n1. **Follow the Alphabetic Index** guidance for the syndrome.\n2. **If the Index gives no guidance:** assign codes for the **documented manifestations** of the syndrome.\n3. **Additional manifestation codes:** codes for manifestations that are **not an integral part of the disease process** may also be assigned when the condition **does not have a unique code**.\n\n**What it does NOT mean:** do not skip the Index and code manifestations right away. Manifestation-based coding is the fallback when the Index gives no guidance.",
+   "visual": {
+    "title": "Coding a Syndrome",
+    "sub": "Section I.B.15",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Step 1",
+      "b": "Follow Alphabetic Index guidance"
+     },
+     {
+      "h": "Step 2: no Index guidance",
+      "b": "Code the documented manifestations"
+     },
+     {
+      "h": "Extra manifestations",
+      "b": "If not integral and no unique code exists"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents a syndrome, and the Alphabetic Index has no entry giving guidance for it. According to Section I.B.15, what should the coder do?",
+   "options": [
+    "Do not code the syndrome",
+    "Assign an unspecified code only",
+    "Assign codes for the documented manifestations of the syndrome",
+    "Query the provider for a different diagnosis"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.B.15 states, \"In the absence of Alphabetic Index guidance, assign codes for the documented manifestations of the syndrome.\" Options A, B and D are not what the guideline instructs; it gives a clear fallback when the Index has no guidance.",
+   "visual": {
+    "topic": "Syndromes",
+    "hint": "What is the fallback when the Index is silent?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.16"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: When Is It a Complication of Care?",
+   "content": "Section I.B.16 says code assignment for complications of care is based on the **provider's documentation of the relationship** between the condition and the care or procedure (unless the classification instructs otherwise). This applies to complications of care **in any chapter**.\n\nRequirements for coding a complication:\n\n• **Cause-and-effect:** there must be a relationship between the care provided and the condition.\n• **Clinical significance:** the documentation must support that the condition is clinically significant.\n\nOther key points:\n\n• **Not every** condition that happens during or after care or surgery is a complication.\n• The provider does **not** have to write the word **\"complication.\"** For example, if the condition **alters the course of the surgery** as documented in the operative report, reporting a complication code would be appropriate.\n• If the relationship is **unclear**, **query the provider**.",
+   "visual": {
+    "title": "Complication of Care Test",
+    "sub": "Section I.B.16",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Cause and effect",
+      "b": "Care or procedure caused the condition"
+     },
+     {
+      "h": "Clinically significant",
+      "b": "Documentation must support it"
+     },
+     {
+      "h": "Word not required",
+      "b": "Provider need not write complication"
+     },
+     {
+      "h": "Unclear link",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: The Operative Report",
+   "content": "**Scenario 1:** The operative report documents that a condition occurred during the surgery and that the surgeon had to change the planned course of the operation because of it. The word \"complication\" never appears.\n\n**Guideline:** Section I.B.16 gives this exact type of example — if the condition alters the course of the surgery as documented in the operative report, it is appropriate to report a complication code.\n\n**Scenario 2:** A condition is noted after a procedure, but nothing in the record says whether the procedure caused it.\n\n**Guideline:** Not all conditions that occur during or following care are complications. There must be a cause-and-effect relationship. Because the documentation is not clear, **query the provider**.\n\n**Exam trap:** Timing alone (\"it happened after surgery\") does not make a condition a complication.",
+   "visual": {
+    "title": "Complication or Not?",
+    "sub": "Applying Section I.B.16",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Alters course of surgery",
+      "b": "Documented in op report: complication code appropriate"
+     },
+     {
+      "h": "Just happened after",
+      "b": "Timing alone is not enough"
+     },
+     {
+      "h": "Link unclear",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A condition developed after a procedure. The provider did not document whether the procedure caused it. Under Section I.B.16, what should the coder do?",
+   "options": [
+    "Query the provider for clarification of the relationship",
+    "Assign a complication code because the condition followed the procedure",
+    "Never code the condition",
+    "Assign a complication code only if the word \"complication\" appears somewhere in the record"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.B.16 says to query the provider for clarification if the documentation is not clear as to the relationship between the condition and the care or procedure. Option B is wrong because not all conditions that occur during or following care are complications; a cause-and-effect relationship is required. Option C is not supported by the guideline. Option D is wrong because it is not necessary for the provider to explicitly document the term \"complication.\"",
+   "visual": {
+    "topic": "Complications of care",
+    "hint": "Does timing alone prove cause and effect?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.17"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Borderline Diagnoses",
+   "content": "If the provider documents a **\"borderline\"** diagnosis at the time of discharge, Section I.B.17 says:\n\n• **Code it as confirmed**, unless the classification provides a **specific entry** (the guideline's example is borderline diabetes).\n• If a borderline condition **has a specific index entry**, code it that way.\n• **Same rule in every setting:** borderline conditions are **not uncertain diagnoses**, so there is **no distinction between inpatient and outpatient**.\n• If documentation about a borderline condition is unclear, coders are encouraged to **query**.\n\n**Exam trap — borderline vs uncertain:** Uncertain terms like \"probable\" or \"suspected\" are handled differently by setting. Section II.H (inpatient) codes them as if established, while Section IV.H (outpatient) says not to code them. \"Borderline\" is **not** one of those uncertain terms, so the setting does not matter.",
+   "visual": {
+    "title": "Borderline Diagnosis",
+    "sub": "Section I.B.17",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Default",
+      "b": "Code as confirmed"
+     },
+     {
+      "h": "Specific Index entry",
+      "b": "Code to that entry, e.g. borderline diabetes"
+     },
+     {
+      "h": "Setting",
+      "b": "Same in inpatient and outpatient"
+     },
+     {
+      "h": "Unclear",
+      "b": "Query for clarification"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An outpatient provider documents a \"borderline\" condition at the end of the visit. The classification has no specific entry for the borderline form. How is it coded under Section I.B.17?",
+   "options": [
+    "Code signs and symptoms only, because this is an outpatient visit",
+    "Code it as confirmed only for inpatient admissions",
+    "Do not code it, because borderline is an uncertain term",
+    "Code the condition as confirmed"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.B.17 says a borderline diagnosis is coded as confirmed unless the classification provides a specific entry, and since borderline conditions are not uncertain diagnoses, no distinction is made between inpatient and outpatient. Options A and C wrongly treat borderline as an uncertain diagnosis subject to outpatient rules. Option B wrongly limits the rule to inpatient care.",
+   "visual": {
+    "topic": "Borderline diagnosis",
+    "hint": "Is borderline an uncertain diagnosis?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.18"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Signs, Symptoms and Unspecified Codes Are Allowed",
+   "content": "Section I.B.18 makes it clear that **sign/symptom codes** and **\"unspecified\" codes** have **acceptable, even necessary, uses**.\n\n• **Specific codes** should be reported when they are supported by the medical record documentation and clinical knowledge of the patient's condition.\n• But sometimes signs/symptoms or unspecified codes are **the best choices** for accurately reflecting the encounter.\n• **Core principle:** each encounter should be coded **to the level of certainty known for that encounter**.\n\nThe guideline also repeats that **coder and provider must work together** for complete and accurate documentation, and that **without consistent, complete documentation, accurate coding cannot be achieved**. Review the **entire record** to determine the specific reason for the encounter and the conditions treated.",
+   "visual": {
+    "title": "Code to the Level of Certainty",
+    "sub": "Section I.B.18",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Specific code",
+      "b": "When documentation supports it"
+     },
+     {
+      "h": "Sign/symptom code",
+      "b": "When no definitive diagnosis yet"
+     },
+     {
+      "h": "Unspecified code",
+      "b": "When more detail is not known"
+     },
+     {
+      "h": "Review",
+      "b": "The entire record"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "When to Use Sign/Symptom vs Unspecified Codes",
+   "content": "The last paragraph of I.B.18 separates two situations:\n\n**1. No definitive diagnosis by the end of the encounter**\n• It is appropriate to report codes for the **sign(s) and/or symptom(s)** instead of a definitive diagnosis.\n\n**2. Diagnosis known, but not its specific type**\n• When sufficient clinical information is not known or available to assign a more specific code, report the appropriate **\"unspecified\"** code.\n• The guideline's example: a diagnosis of **pneumonia** has been determined, but **not the specific type**.\n\n**What is inappropriate:**\n• Selecting a **specific code that the documentation does not support**.\n• Conducting **medically unnecessary diagnostic testing** just to get a more specific code.\n\nUnspecified codes should be reported when they most accurately reflect what is known **at the time of that particular encounter**.",
+   "visual": {
+    "title": "Sign/Symptom or Unspecified?",
+    "sub": "Section I.B.18, last paragraph",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No diagnosis yet",
+      "b": "Report sign/symptom codes"
+     },
+     {
+      "h": "Diagnosis, no type",
+      "b": "Report unspecified code, e.g. pneumonia type unknown"
+     },
+     {
+      "h": "Not allowed",
+      "b": "Specific code the record does not support"
+     },
+     {
+      "h": "Not allowed",
+      "b": "Unneeded tests just for a specific code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents pneumonia, but the specific type has not been determined at the end of the encounter. According to Section I.B.18, what is appropriate?",
+   "options": [
+    "Choose the most common specific type of pneumonia",
+    "Report the appropriate unspecified code for pneumonia",
+    "Report only the patient's symptoms",
+    "Hold the claim until tests determine the type"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.B.18 uses this exact example — when a diagnosis of pneumonia has been determined but not the specific type, it is acceptable to report the appropriate unspecified code. Option A selects a specific code not supported by documentation, which the guideline calls inappropriate. Option C is for when no definitive diagnosis has been established; here pneumonia is diagnosed. Option D is not supported; each encounter is coded to the level of certainty known for that encounter, and medically unnecessary testing to get a more specific code is inappropriate.",
+   "visual": {
+    "topic": "Unspecified codes",
+    "hint": "The diagnosis is known; only the type is missing."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "By the end of an encounter, the provider has not established a definitive diagnosis for the patient's complaints. What does Section I.B.18 say is appropriate?",
+   "options": [
+    "Assign the most likely diagnosis",
+    "Do not assign any diagnosis code",
+    "Report codes for the sign(s) and/or symptom(s)",
+    "Assign a borderline diagnosis code"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.B.18 states, \"If a definitive diagnosis has not been established by the end of the encounter, it is appropriate to report codes for sign(s) and/or symptom(s) in lieu of a definitive diagnosis.\" Option A codes a diagnosis that has not been established. Option B ignores the guideline's instruction. Option D confuses this with I.B.17, which applies only when the provider documents a borderline diagnosis.",
+   "visual": {
+    "topic": "Signs and symptoms",
+    "hint": "What is known for certain at the end of this encounter?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying These Rules on a Real Record",
+   "content": "Use these steps when a record raises one of this lesson's issues:\n\n1. **Read the entire record** to find the reason for the encounter and the conditions treated (I.B.18).\n2. **Residual of an old illness or injury?** Code the nature of the sequela first, then the sequela code; never add the acute phase code (I.B.10).\n3. **\"Impending\" or \"threatened\" at discharge?** If it occurred, code as confirmed. If not, check the Index; use a listed subterm, or code the underlying condition (I.B.11).\n4. **Side of the body?** Use bilateral, left/right, or unspecified per I.B.13. For staged treatment, code what exists at each encounter. Query if notes conflict.\n5. **Same code twice?** Report each unique code once per encounter (I.B.12).\n6. **Information from a nurse, dietitian, EMT or other clinician?** Use it only for items on the I.B.14 list, confirm the provider documented the associated diagnosis, and report secondary-only codes as secondary.\n7. **Syndrome?** Follow the Index; if none, code the documented manifestations (I.B.15).\n8. **Condition after care?** Code a complication only with a documented cause-and-effect relationship and clinical significance; query if unclear (I.B.16).\n9. **\"Borderline\"?** Code as confirmed unless a specific entry exists, in any setting (I.B.17).\n10. **Still uncertain?** Use signs/symptoms or unspecified codes to match the level of certainty (I.B.18).",
+   "visual": {
+    "title": "Record Review Checklist",
+    "sub": "Sections I.B.10 to I.B.18",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Sequela",
+      "b": "Residual first, sequela code second"
+     },
+     {
+      "h": "Impending",
+      "b": "Occurred? Index subterm?"
+     },
+     {
+      "h": "Laterality",
+      "b": "Code what exists; query conflicts"
+     },
+     {
+      "h": "Other clinicians",
+      "b": "Only listed items"
+     },
+     {
+      "h": "Complications",
+      "b": "Cause and effect plus significance"
+     },
+     {
+      "h": "Certainty",
+      "b": "Code what is known now"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Sequela:** no time limit; code the nature of the sequela first and the sequela code second; never use the acute phase code with the late effect code (I.B.10).\n• **Impending/threatened:** if it occurred, code as confirmed; if not, code a listed Index subterm or the underlying condition (I.B.11).\n• **One code, once:** each unique code is reported only once per encounter (I.B.12).\n• **Laterality:** no bilateral code means separate left and right codes; staged treatment is coded based on what still exists; unspecified side should rarely be used; query conflicts (I.B.13).\n• **Other clinicians:** only the listed items (BMI, ulcer depth, pressure ulcer stage, coma scale, NIHSS, SDOH, laterality, blood alcohol level, underimmunization status, firearm injury intent); the associated diagnosis must come from the provider (I.B.14).\n• **Complications:** need a documented cause-and-effect relationship and clinical significance; the word \"complication\" is not required (I.B.16).\n• **Borderline:** coded as confirmed unless the classification has a specific entry; same in all settings (I.B.17).\n• **Sign/symptom and unspecified codes** are acceptable when they reflect the level of certainty for the encounter (I.B.18).",
+   "visual": {
+    "title": "Lesson Summary",
+    "sub": "General Guidelines I.B.10 to I.B.18",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Sequela",
+      "b": "Residual first; no time limit"
+     },
+     {
+      "h": "Laterality",
+      "b": "Code what exists now"
+     },
+     {
+      "h": "Other clinicians",
+      "b": "Short list; diagnosis from provider"
+     },
+     {
+      "h": "Complications",
+      "b": "Cause and effect required"
+     },
+     {
+      "h": "Borderline",
+      "b": "Confirmed, any setting"
+     },
+     {
+      "h": "Unspecified",
+      "b": "Fine when it fits what is known"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about documentation of complications of care is correct under Section I.B.16?",
+   "options": [
+    "There must be a cause-and-effect relationship between the care and the condition, and the condition must be clinically significant",
+    "Any condition that occurs after surgery is a complication",
+    "The provider must use the word \"complication\" for a complication code to be assigned",
+    "The guideline applies only to codes in the injury chapter"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.B.16 states there must be a cause-and-effect relationship between the care provided and the condition, and the documentation must support that the condition is clinically significant. Option C is wrong because it is not necessary to explicitly document the term \"complication.\" Option B is wrong because not all conditions that occur during or following care are complications. Option D is wrong because the guideline extends to complications of care regardless of the chapter the code is located in.",
+   "visual": {
+    "topic": "Complications of care",
+    "hint": "Recall the two requirements the guideline names."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for infertility due to tubal occlusion from old tuberculosis. The tuberculosis is no longer active. Which approach follows Section I.B.10?",
+   "options": [
+    "Code only the tuberculosis, since it caused the infertility",
+    "Code active tuberculosis first, then infertility",
+    "Code the sequela code alone",
+    "Code the infertility (nature of the sequela) first, followed by the sequela code"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.B.10 lists infertility due to tubal occlusion from old tuberculosis as an example of sequela and states the condition or nature of the sequela is sequenced first and the sequela code second. Options A and B use the code for the acute phase, which is never used with a code for the late effect. Option C leaves out the nature of the sequela, which is sequenced first.",
+   "visual": {
+    "topic": "Sequela example",
+    "hint": "The tuberculosis is old; what does the patient have now?"
+   }
+  }
+ ]
+}

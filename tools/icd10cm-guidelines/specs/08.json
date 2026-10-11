@@ -1,0 +1,772 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Starting the Chapter-Specific Guidelines: Chapter 1",
+   "content": "Up to now you have studied **general** guidelines that apply everywhere. This lesson begins **Section I.C, Chapter-Specific Coding Guidelines** — rules for particular diagnoses and conditions.\n\nWe start with **Chapter 1: Certain Infectious and Parasitic Diseases (A00-B99), U07.1, U09.9**, and three of its guidelines:\n\n• **I.C.1.a — HIV infections.** When to assign **B20** (HIV disease), **Z21** (asymptomatic HIV infection status), or **R75** (inconclusive laboratory evidence of HIV); how to sequence them; and how to code pregnancy, HIV testing, antiretroviral therapy, and pre-exposure prophylaxis (PrEP).\n• **I.C.1.b — Infectious agents** as the cause of diseases classified to other chapters (categories **B95**, **B96**, **B97**).\n• **I.C.1.c — Infections resistant to antibiotics** (category **Z16**).\n\nHIV coding is a frequent exam topic because it is one of the few places where the guidelines override the usual inpatient rule for uncertain diagnoses.",
+   "visual": {
+    "title": "Chapter 1 Guidelines, Part 1",
+    "sub": "Section I.C.1.a to I.C.1.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "I.C.1.a HIV",
+      "b": "B20, Z21, R75 and sequencing"
+     },
+     {
+      "h": "HIV special cases",
+      "b": "Pregnancy, testing, ART, PrEP"
+     },
+     {
+      "h": "I.C.1.b Organisms",
+      "b": "B95, B96, B97 as added codes"
+     },
+     {
+      "h": "I.C.1.c Resistance",
+      "b": "Z16 after the infection code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: How Chapter-Specific Guidelines Fit In",
+   "content": "Section I.C introduces the chapter-specific guidelines. It makes three points:\n\n• They apply **in addition to** the general coding guidelines — they do not replace them.\n• **Unless otherwise indicated**, they apply to **all health care settings** (inpatient and outpatient).\n• For **selecting the principal diagnosis**, refer to **Section II**.\n\n**What it does NOT mean:** a chapter-specific guideline does not automatically apply only to inpatients. Watch for any guideline that \"otherwise indicates\" a setting; if none is stated, it applies everywhere.",
+   "visual": {
+    "title": "Section I.C at a Glance",
+    "sub": "Chapter-specific guidelines",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Adds to",
+      "b": "The general coding guidelines"
+     },
+     {
+      "h": "Settings",
+      "b": "All, unless otherwise indicated"
+     },
+     {
+      "h": "Principal diagnosis",
+      "b": "See Section II"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C, to which settings do the chapter-specific guidelines apply?",
+   "options": [
+    "Only hospital inpatient admissions",
+    "Only outpatient encounters",
+    "All health care settings, unless otherwise indicated",
+    "Only the settings named in Section II"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C states, \"Unless otherwise indicated, these guidelines apply to all health care settings.\" Options A and B limit them to one setting, which the guideline does not do. Option D is wrong because Section II is referenced only for guidelines on the selection of principal diagnosis.",
+   "visual": {
+    "topic": "Chapter-specific guidelines",
+    "hint": "Read the second sentence of Section I.C."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.1"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.1.a"
+  },
+  {
+   "type": "concept",
+   "title": "HIV Rule 1: Code Only Confirmed Cases",
+   "content": "Section I.C.1.a.1 says: **code only confirmed cases** of HIV infection/illness.\n\n**Why this is special:** it is an **exception to the hospital inpatient guideline in Section II, H**. Normally, Section II.H lets inpatient coders code a condition documented as \"probable,\" \"suspected,\" \"likely,\" and similar terms as if it existed. That does **not** apply to HIV.\n\n**What counts as confirmation?**\n\n• Confirmation does **not** require documentation of **positive serology or culture** for HIV.\n• The **provider's diagnostic statement** that the patient is **HIV positive** or has an **HIV-related illness** is sufficient.\n\n**Exam trap:** \"Suspected HIV\" on an inpatient discharge summary is **not** coded as HIV, even though other suspected conditions might be coded as if established for an inpatient.",
+   "visual": {
+    "title": "Code Only Confirmed HIV",
+    "sub": "Section I.C.1.a.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Rule",
+      "b": "Code only confirmed HIV cases"
+     },
+     {
+      "h": "Exception to",
+      "b": "Inpatient uncertain dx rule, II.H"
+     },
+     {
+      "h": "Confirmation is",
+      "b": "Provider statement of HIV+ or HIV illness"
+     },
+     {
+      "h": "Not required",
+      "b": "Positive serology or culture"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient discharge summary lists \"suspected HIV infection.\" No HIV-positive status or HIV-related illness is documented. What does Section I.C.1.a.1 instruct?",
+   "options": [
+    "Code only confirmed cases of HIV; this suspected HIV is not coded as HIV",
+    "Code HIV as if it were established, as for any inpatient uncertain diagnosis",
+    "Code HIV only if positive serology is in the record",
+    "Code B20 because the patient is an inpatient"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.a.1 says to code only confirmed cases of HIV infection/illness, and that this is an exception to the hospital inpatient guideline Section II, H. Option B applies the general inpatient rule, which HIV is an exception to. Option C is wrong because confirmation does not require positive serology or culture; the provider's diagnostic statement is sufficient. Option D is wrong because B20 requires confirmed HIV disease, not just an inpatient setting.",
+   "visual": {
+    "topic": "Confirmed HIV only",
+    "hint": "HIV is an exception to which inpatient rule?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "HIV Rule 2: When to Assign B20",
+   "content": "Section I.C.1.a.2(a) says **B20, Human immunodeficiency virus [HIV] disease**, should be assigned if:\n\n• the term **\"AIDS\"** is documented, or\n• the term **\"HIV disease\"** is documented, or\n• the patient is **treated for any HIV-related illness**, or\n• the patient is described as having **any condition(s) resulting from HIV positive status**.\n\n**Once B20, always B20 (I.C.1.a.2(g)):**\n\n• Patients with a **prior diagnosis of an HIV-related illness** are coded to **B20**.\n• Once an HIV-related illness has developed, **B20 should always be assigned on every subsequent admission/encounter**.\n• A patient previously diagnosed with any HIV illness (B20) should **never** be assigned **R75** or **Z21**.",
+   "visual": {
+    "title": "When B20 Applies",
+    "sub": "Section I.C.1.a.2(a) and (g)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Documented",
+      "b": "AIDS or HIV disease"
+     },
+     {
+      "h": "Treated for",
+      "b": "Any HIV-related illness"
+     },
+     {
+      "h": "Described as",
+      "b": "Condition from HIV+ status"
+     },
+     {
+      "h": "Once B20",
+      "b": "Always B20; never R75 or Z21 later"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "HIV Rule 3: Sequencing B20",
+   "content": "Sections I.C.1.a.2(b) through (d) explain where B20 goes.\n\n**(b) Admitted for an HIV-related condition:**\n• Principal diagnosis: **B20**, followed by codes for all reported HIV-related conditions.\n• **Exception:** if the reason for admission is **hemolytic-uremic syndrome associated with HIV disease**, assign **D59.31, Infection-associated hemolytic-uremic syndrome**, followed by **B20**.\n\n**(c) HIV disease, admitted for an unrelated condition** (such as a traumatic injury):\n• Principal diagnosis: the **unrelated condition** (e.g., the nature of injury code).\n• **B20** is a **secondary** diagnosis, along with codes for other documented conditions.\n\n**(d) Newly diagnosed or not:**\n• Whether the patient is **newly diagnosed** or has had **previous admissions/encounters** for HIV is **irrelevant** to sequencing.",
+   "visual": {
+    "title": "Sequencing B20",
+    "sub": "Section I.C.1.a.2(b) to (d)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Admitted for HIV condition",
+      "b": "B20 first, then the conditions"
+     },
+     {
+      "h": "Exception: HIV-related HUS",
+      "b": "D59.31 first, then B20"
+     },
+     {
+      "h": "Admitted for unrelated",
+      "b": "Unrelated condition first; B20 secondary"
+     },
+     {
+      "h": "New vs known HIV",
+      "b": "Irrelevant to sequencing"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Same Patient, Two Admissions",
+   "content": "**Admission 1:** A patient with AIDS is admitted for treatment of an HIV-related illness.\n\n• **Guideline:** I.C.1.a.2(b).\n• **Decision:** **B20** is the principal diagnosis, followed by the code(s) for the HIV-related condition(s).\n\n**Admission 2:** The same patient is later admitted for a traumatic injury from a fall. The injury is unrelated to HIV.\n\n• **Guideline:** I.C.1.a.2(c).\n• **Decision:** The **injury** (nature of injury code) is the principal diagnosis. **B20** is a secondary diagnosis. Other documented conditions are also coded as secondary diagnoses.\n• Under I.C.1.a.2(g), **B20** is still assigned — once an HIV-related illness has developed, B20 is assigned on every subsequent encounter.\n\n**Exception to remember:** if the admission were for **hemolytic-uremic syndrome associated with HIV disease**, **D59.31** would be sequenced before **B20**.",
+   "visual": {
+    "title": "Two Admissions, One Patient",
+    "sub": "Applying I.C.1.a.2(b), (c), (g)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "For HIV illness",
+      "b": "B20 first, then the illness"
+     },
+     {
+      "h": "For unrelated injury",
+      "b": "Injury first, B20 secondary"
+     },
+     {
+      "h": "Later encounters",
+      "b": "B20 every time"
+     },
+     {
+      "h": "HIV-related HUS",
+      "b": "D59.31, then B20"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with HIV disease is admitted for treatment of a fractured femur from a car accident. The fracture is unrelated to HIV. What is the correct sequencing under Section I.C.1.a.2(c)?",
+   "options": [
+    "B20 as principal diagnosis, fracture as secondary",
+    "Fracture only; B20 is not reported for unrelated admissions",
+    "Z21 as principal diagnosis",
+    "The fracture (nature of injury code) as principal diagnosis, B20 as secondary"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.a.2(c) states that if a patient with HIV disease is admitted for an unrelated condition (such as a traumatic injury), the code for the unrelated condition should be the principal diagnosis and B20 is reported as a secondary diagnosis. Option A applies only when admitted for an HIV-related condition. Option C is wrong because a patient with HIV disease is coded to B20, not Z21. Option B is wrong because B20 is still reported, as a secondary diagnosis.",
+   "visual": {
+    "topic": "HIV and unrelated admission",
+    "hint": "Why was the patient admitted?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted because of hemolytic-uremic syndrome associated with HIV disease. According to Section I.C.1.a.2(b), how is this sequenced?",
+   "options": [
+    "B20, followed by D59.31",
+    "D59.31, Infection-associated hemolytic-uremic syndrome, followed by B20",
+    "D59.31 only",
+    "Z21, followed by D59.31"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.a.2(b) gives this as the exception to the B20-first rule: assign code D59.31, Infection-associated hemolytic-uremic syndrome, followed by code B20. Option A follows the general rule, which does not apply to this exception. Option C leaves out B20. Option D is wrong because the patient has HIV disease, which is coded to B20, not Z21.",
+   "visual": {
+    "topic": "HIV sequencing exception",
+    "hint": "This is the one named exception to B20 first."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is newly diagnosed with HIV disease during an admission for an HIV-related illness. Does the new diagnosis change the sequencing?",
+   "options": [
+    "Yes; newly diagnosed patients are coded with Z21 first",
+    "Yes; the HIV-related illness is sequenced before B20 for new diagnoses",
+    "No; whether the patient is newly diagnosed is irrelevant to sequencing, so B20 is principal followed by the HIV-related condition",
+    "No; B20 is never principal"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.a.2(d) says whether the patient is newly diagnosed or has had previous admissions/encounters for HIV conditions is irrelevant to the sequencing decision, and I.C.1.a.2(b) says that for admission for an HIV-related condition, B20 is principal followed by the HIV-related conditions. Options A and B invent a different rule for new diagnoses. Option D contradicts I.C.1.a.2(b).",
+   "visual": {
+    "topic": "Newly diagnosed HIV",
+    "hint": "Does timing of the diagnosis matter?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "HIV Rule 4: Z21 and R75",
+   "content": "Two codes are for patients **without** HIV disease as described for B20.\n\n**Z21, Asymptomatic human immunodeficiency virus [HIV] infection status** — I.C.1.a.2(e):\n• Assign when **\"HIV positive,\" \"HIV test positive,\"** or similar terminology is documented, **and** there is **no documentation of symptoms or HIV-related illness**.\n\n**R75, Inconclusive laboratory evidence of human immunodeficiency virus [HIV]** — I.C.1.a.2(f):\n• Patients with documentation of **inconclusive HIV serology** may be assigned R75.\n\n**The one-way door — I.C.1.a.2(g):**\n• Patients previously diagnosed with **any HIV illness (B20)** should **never** be assigned **R75** or **Z21**.\n\n**Exam trap:** \"HIV positive\" alone is **Z21**, not B20. But once the patient has had an HIV-related illness, it is **B20** from then on, even if the patient feels well today.",
+   "visual": {
+    "title": "B20 vs Z21 vs R75",
+    "sub": "Section I.C.1.a.2(a), (e), (f), (g)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "B20",
+      "b": "AIDS, HIV disease, or HIV-related illness"
+     },
+     {
+      "h": "Z21",
+      "b": "HIV positive, no symptoms or HIV illness"
+     },
+     {
+      "h": "R75",
+      "b": "Inconclusive HIV serology"
+     },
+     {
+      "h": "After any B20",
+      "b": "Never R75 or Z21 again"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents \"HIV positive.\" There is no documentation of symptoms or any HIV-related illness, now or in the past. Which code does Section I.C.1.a.2(e) direct?",
+   "options": [
+    "Z21, Asymptomatic human immunodeficiency virus [HIV] infection status",
+    "B20, Human immunodeficiency virus [HIV] disease",
+    "R75, Inconclusive laboratory evidence of human immunodeficiency virus [HIV]",
+    "Z11.4, Encounter for screening for human immunodeficiency virus [HIV]"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.a.2(e) states that when \"HIV positive,\" \"HIV test positive,\" or similar terminology is documented, and there is no documentation of symptoms or HIV-related illness, code Z21 should be assigned. Option B requires AIDS, HIV disease, or an HIV-related illness. Option C is for inconclusive serology, not a positive status. Option D is for screening a patient without signs or symptoms, not for documented HIV-positive status.",
+   "visual": {
+    "topic": "Asymptomatic HIV",
+    "hint": "Are there symptoms or an HIV-related illness?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient had an HIV-related illness two years ago. Today the patient is seen and the provider documents \"HIV positive, currently no symptoms.\" Which code is correct under Section I.C.1.a.2(g)?",
+   "options": [
+    "Z21, because the patient has no symptoms today",
+    "R75, because current status is unclear",
+    "No HIV code, because there are no symptoms",
+    "B20, because once an HIV-related illness has developed, B20 is assigned on every subsequent encounter"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.a.2(g) states that patients with documentation of a prior diagnosis of an HIV-related illness should be coded to B20, that B20 should always be assigned on every subsequent admission/encounter once an HIV-related illness has developed, and that such patients should never be assigned R75 or Z21. Options A and B assign codes the guideline says never to use for these patients. Option C ignores the guideline.",
+   "visual": {
+    "topic": "Previously diagnosed HIV illness",
+    "hint": "Once a patient has had an HIV-related illness, can the code change back?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "HIV Rule 5: Pregnancy, Childbirth and the Puerperium",
+   "content": "Section I.C.1.a.2(h) covers HIV during **pregnancy, childbirth or the puerperium** (the period after delivery).\n\n**Symptomatic HIV disease or an HIV-related illness:**\n1. A code from subcategory **O98.7**, Human immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium\n2. **B20**\n3. Additional code(s) for any HIV-related illness(es)\n\n**Asymptomatic HIV infection status, or HIV-positive:**\n1. A code from subcategory **O98.7**\n2. **Z21**\n\n**Why O98.7 comes first:** the guideline states that **codes from Chapter 15 always take sequencing priority**.",
+   "visual": {
+    "title": "HIV in Pregnancy",
+    "sub": "Section I.C.1.a.2(h)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Symptomatic or HIV illness",
+      "b": "O98.7, then B20, then illness codes"
+     },
+     {
+      "h": "Asymptomatic or HIV+",
+      "b": "O98.7, then Z21"
+     },
+     {
+      "h": "Why O98.7 first",
+      "b": "Chapter 15 always takes priority"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient is documented as HIV positive with no symptoms and no HIV-related illness. According to Section I.C.1.a.2(h), how is this coded?",
+   "options": [
+    "Z21 only",
+    "A code from subcategory O98.7, followed by Z21",
+    "B20, followed by a code from O98.7",
+    "A code from subcategory O98.7, followed by B20"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.a.2(h) states that when a patient presents during pregnancy, childbirth or the puerperium with documented asymptomatic HIV infection status or is HIV-positive, assign a code from subcategory O98.7 followed by code Z21. Option A leaves out O98.7, and Chapter 15 codes always take sequencing priority. Options C and D use B20, which is for symptomatic HIV disease or an HIV-related illness (and option C also puts O98.7 second).",
+   "visual": {
+    "topic": "HIV in pregnancy",
+    "hint": "Is the patient symptomatic, and which chapter goes first?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "HIV Rule 6: Encounters for HIV Testing",
+   "content": "Section I.C.1.a.2(i) depends on whether the patient has **signs or symptoms**.\n\n**No signs or symptoms, tested for HIV:**\n• Assign **Z11.4, Encounter for screening for human immunodeficiency virus [HIV]**.\n• Use additional codes for any associated **high-risk behavior**, if applicable.\n\n**Signs or symptoms present, tested for HIV:**\n• **Code the signs and symptoms.**\n• **Z71.7, Human immunodeficiency virus [HIV] counseling**, may be added if counseling is provided during the encounter for the test.\n• **Do not** assign Z11.4 when HIV signs or symptoms are present.\n\n**Follow-up visit for test results:**\n• **Negative** result: assign **Z71.7**.\n• **Positive** result: follow the earlier HIV guidelines and assign codes as appropriate.",
+   "visual": {
+    "title": "HIV Testing Encounters",
+    "sub": "Section I.C.1.a.2(i)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No signs or symptoms",
+      "b": "Z11.4, plus high-risk behavior codes"
+     },
+     {
+      "h": "Signs or symptoms",
+      "b": "Code them; Z71.7 if counseled; no Z11.4"
+     },
+     {
+      "h": "Results negative",
+      "b": "Z71.7"
+     },
+     {
+      "h": "Results positive",
+      "b": "Follow earlier HIV guidelines"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Three Testing Visits",
+   "content": "**Visit A:** A patient with no signs or symptoms asks for an HIV test. The provider documents a high-risk behavior.\n• **Decision:** **Z11.4**, plus an additional code for the associated high-risk behavior (I.C.1.a.2(i)).\n\n**Visit B:** A patient with signs and symptoms that the provider thinks could be HIV-related is tested, and the provider counsels the patient.\n• **Decision:** Code the **signs and symptoms**. **Z71.7** may be added because counseling was provided. **Z11.4 is not assigned** because signs or symptoms are present.\n\n**Visit C:** Visit A's patient returns for results. The result is **negative**.\n• **Decision:** **Z71.7, Human immunodeficiency virus [HIV] counseling.**\n\n**Exam trap:** Z11.4 is a **screening** code — it is for patients **without** signs or symptoms.",
+   "visual": {
+    "title": "Three HIV Testing Visits",
+    "sub": "Applying Section I.C.1.a.2(i)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "A: no symptoms",
+      "b": "Z11.4 + risk behavior code"
+     },
+     {
+      "h": "B: symptoms",
+      "b": "Signs/symptoms; Z71.7 if counseled"
+     },
+     {
+      "h": "C: negative result",
+      "b": "Z71.7"
+     },
+     {
+      "h": "Never with symptoms",
+      "b": "Z11.4"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with signs and symptoms of HIV presents for HIV testing, and counseling is provided. Which coding approach follows Section I.C.1.a.2(i)?",
+   "options": [
+    "Z11.4 only",
+    "Z11.4 followed by the signs and symptoms",
+    "Code the signs and symptoms; Z71.7 may be added for the counseling; do not assign Z11.4",
+    "B20, because the patient has symptoms"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.a.2(i) says that if a patient with signs or symptoms presents for HIV testing, code the signs and symptoms; Z71.7 may be assigned if counseling is provided; and Z11.4 should not be assigned if HIV signs or symptoms are present. Options A and B use Z11.4, which is not allowed when signs or symptoms are present. Option D is wrong because only confirmed cases of HIV are coded (I.C.1.a.1); a test visit with symptoms is not a confirmed diagnosis.",
+   "visual": {
+    "topic": "HIV testing with symptoms",
+    "hint": "Is this a screening encounter?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient returns to learn the results of an HIV test, and the result is negative. Which code does Section I.C.1.a.2(i) direct?",
+   "options": [
+    "Z71.7, Human immunodeficiency virus [HIV] counseling",
+    "R75, Inconclusive laboratory evidence of human immunodeficiency virus [HIV]",
+    "Z11.4, Encounter for screening for human immunodeficiency virus [HIV]",
+    "Z21, Asymptomatic human immunodeficiency virus [HIV] infection status"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.a.2(i) states that when a patient presents for follow up regarding HIV test results and the result is negative, assign code Z71.7. Option C is for the testing (screening) encounter, not the results follow-up. Option B is for inconclusive serology, not a negative result. Option D is for a documented HIV-positive status.",
+   "visual": {
+    "topic": "HIV test results",
+    "hint": "What does the guideline say for a negative result?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "HIV Rule 7: Antiretroviral Medication",
+   "content": "Section I.C.1.a.2(j) covers patients **currently managed on antiretroviral medications**.\n\n• **Documented HIV disease, HIV-related illness or AIDS** and on antiretroviral medication: assign **B20**.\n• **Documented HIV positive status** and on antiretroviral medication: assign **Z21**, **in the absence of** any additional documentation of HIV disease, HIV-related illness or AIDS.\n• **Z79.899, Other long term (current) drug therapy**, **may** be assigned as an additional code to identify the long-term (current) use of antiretroviral medications.\n\n**What it does NOT mean:** being on antiretroviral medication does **not** by itself turn HIV positive status into B20. The choice still depends on what is documented.",
+   "visual": {
+    "title": "HIV on Antiretrovirals",
+    "sub": "Section I.C.1.a.2(j)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "HIV disease, illness, AIDS",
+      "b": "B20"
+     },
+     {
+      "h": "HIV positive status only",
+      "b": "Z21"
+     },
+     {
+      "h": "Optional add-on",
+      "b": "Z79.899 long-term drug therapy"
+     },
+     {
+      "h": "Medication alone",
+      "b": "Does not make it B20"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient documented as HIV positive is managed on antiretroviral medication. There is no documentation of HIV disease, HIV-related illness or AIDS. What does Section I.C.1.a.2(j) direct?",
+   "options": [
+    "B20, because the patient takes antiretroviral medication",
+    "Z79.899 only",
+    "R75",
+    "Z21, with Z79.899 permitted as an additional code"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.a.2(j) states that a patient with documented HIV positive status currently managed on antiretroviral medication is assigned Z21 in the absence of additional documentation of HIV disease, HIV-related illness or AIDS, and that Z79.899 may be assigned as an additional code for the long-term use of antiretroviral medications. Option A wrongly treats the medication as proof of HIV disease. Option C is for inconclusive serology. Option B leaves out the HIV status code; Z79.899 is an additional code.",
+   "visual": {
+    "topic": "Antiretroviral therapy",
+    "hint": "What does the documentation say about HIV disease?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "HIV Rule 8: Pre-Exposure Prophylaxis (PrEP)",
+   "content": "Section I.C.1.a.2(k) covers encounters for **HIV prophylaxis**.\n\n• When a patient presents for administration of **pre-exposure prophylaxis** medication for HIV, assign **Z29.81, Encounter for HIV pre-exposure prophylaxis**.\n• **PrEP** is intended to **prevent infection** in people who are at risk for getting HIV through sex or injection drug use.\n• **Any risk factors** for HIV should **also be coded**.\n\n**Exam trap — PrEP vs antiretroviral management:** PrEP is for someone **without** HIV who is trying to prevent infection (Z29.81). Antiretroviral management under (j) is for a patient who already has documented HIV disease (B20) or HIV positive status (Z21).",
+   "visual": {
+    "title": "PrEP vs HIV Treatment",
+    "sub": "Section I.C.1.a.2(j) and (k)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "PrEP visit",
+      "b": "Z29.81 plus risk factor codes"
+     },
+     {
+      "h": "Purpose of PrEP",
+      "b": "Prevent HIV in at-risk people"
+     },
+     {
+      "h": "ART, HIV disease",
+      "b": "B20"
+     },
+     {
+      "h": "ART, HIV+ status",
+      "b": "Z21"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient presents for administration of HIV pre-exposure prophylaxis medication. Which statement follows Section I.C.1.a.2(k)?",
+   "options": [
+    "Assign Z21 because the patient is taking HIV medication",
+    "Assign Z29.81, Encounter for HIV pre-exposure prophylaxis, and also code any risk factors for HIV",
+    "Assign Z11.4 because the visit relates to HIV",
+    "Assign Z79.899 only"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.a.2(k) states that when a patient presents for administration of pre-exposure prophylaxis medication for HIV, assign code Z29.81, and any risk factors for HIV should also be coded. Option A is for documented HIV positive status, which PrEP patients do not have. Option C is for screening tests, not PrEP administration. Option D is an optional add-on for antiretroviral management in patients with HIV under I.C.1.a.2(j), not the PrEP code.",
+   "visual": {
+    "topic": "PrEP encounters",
+    "hint": "What is PrEP intended to do?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.1.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Adding the Organism Code",
+   "content": "Some infections are classified in **chapters other than Chapter 1**, and their codes **do not identify the organism**. Section I.C.1.b says that in these cases you need an **additional code from Chapter 1** to identify the organism.\n\nThe categories to use:\n\n• **B95** — Streptococcus, Staphylococcus, and Enterococcus as the cause of diseases classified to other chapters\n• **B96** — Other bacterial agents as the cause of diseases classified to other chapters\n• **B97** — Viral agents as the cause of diseases classified to other chapters\n\n**How you know:** an **instructional note** at the infection code advises that an additional organism code is required.\n\n**What it does NOT mean:** B95-B97 are **additional** codes. They identify the organism; they do not replace the code for the infection.",
+   "visual": {
+    "title": "Identifying the Organism",
+    "sub": "Section I.C.1.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "When",
+      "b": "Infection code elsewhere lacks organism"
+     },
+     {
+      "h": "B95",
+      "b": "Strep, Staph, Enterococcus"
+     },
+     {
+      "h": "B96",
+      "b": "Other bacterial agents"
+     },
+     {
+      "h": "B97",
+      "b": "Viral agents"
+     },
+     {
+      "h": "Clue",
+      "b": "Instructional note at the infection code"
+     },
+     {
+      "h": "Role",
+      "b": "Additional code, not a replacement"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Infection Code Without an Organism",
+   "content": "**Documentation:** A patient is treated for an infection that is classified in a body-system chapter (not Chapter 1). The provider documents that the infection is caused by a Staphylococcus organism. The infection code itself does not name any organism, and the Tabular List has an instructional note saying to use an additional code to identify the organism.\n\n**Which guideline applies?** Section I.C.1.b.\n\n**Decision:**\n\n• Assign the code for the **infection**.\n• Add a code from category **B95** (Streptococcus, Staphylococcus, and Enterococcus as the cause of diseases classified to other chapters) to identify the organism.\n\n**If the organism were a virus,** the additional code would come from **B97**; for other bacterial agents, **B96**.",
+   "visual": {
+    "title": "Infection Plus Organism",
+    "sub": "Applying Section I.C.1.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Infection code",
+      "b": "From another chapter, no organism"
+     },
+     {
+      "h": "Note says",
+      "b": "Use additional code for organism"
+     },
+     {
+      "h": "Staph documented",
+      "b": "Add a B95 code"
+     },
+     {
+      "h": "Viral or other bacteria",
+      "b": "B97 or B96"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An infection classified to a chapter other than Chapter 1 has a code that does not identify the organism. The documented organism is a virus. According to Section I.C.1.b, what should be added?",
+   "options": [
+    "A code from category B95",
+    "A code from category B96",
+    "A code from category B97",
+    "Nothing; the infection code is sufficient"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.b states that a code from category B97, Viral agents as the cause of diseases classified to other chapters, is used as an additional code to identify the organism. Option A (B95) is for Streptococcus, Staphylococcus, and Enterococcus. Option B (B96) is for other bacterial agents. Option D is wrong because when no organism is identified in the infection code, an additional Chapter 1 code is necessary.",
+   "visual": {
+    "topic": "Organism codes",
+    "hint": "Match the organism type to B95, B96 or B97."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.1.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Antibiotic-Resistant Infections",
+   "content": "Section I.C.1.c says many bacterial infections are **resistant to current antibiotics**, and it is necessary to **identify all infections documented as antibiotic resistant**.\n\nThe rule:\n\n• Assign a code from category **Z16, Resistance to antimicrobial drugs**,\n• **following** the infection code,\n• **only if** the infection code **does not** already identify drug resistance.\n\n**What it does NOT mean:**\n• Z16 is not placed **before** the infection code.\n• Z16 is not added when the infection code **already** includes the drug resistance — that would repeat the same information.",
+   "visual": {
+    "title": "Coding Drug Resistance",
+    "sub": "Section I.C.1.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Order",
+      "b": "Infection code first, then Z16"
+     },
+     {
+      "h": "Use Z16 when",
+      "b": "Infection code does not show resistance"
+     },
+     {
+      "h": "Skip Z16 when",
+      "b": "Infection code already shows it"
+     },
+     {
+      "h": "Requirement",
+      "b": "Documented as antibiotic resistant"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents an infection as antibiotic resistant. The infection code already identifies the drug resistance. According to Section I.C.1.c, what should the coder do about category Z16?",
+   "options": [
+    "Do not assign Z16, because the infection code already identifies the drug resistance",
+    "Assign Z16 after the infection code",
+    "Assign Z16 first, then the infection code",
+    "Assign Z16 only for inpatient encounters"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.c says to assign a code from category Z16 following the infection code only if the infection code does not identify drug resistance. Here it does, so Z16 is not added. Option C reverses the order and adds an unnecessary code. Option B would apply only if the infection code did not identify drug resistance. Option D is wrong because Section I.C says chapter-specific guidelines apply to all health care settings unless otherwise indicated, and I.C.1.c does not limit the setting.",
+   "visual": {
+    "topic": "Antibiotic resistance",
+    "hint": "Does the infection code already include the resistance?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Chapter 1 Rules on a Real Record",
+   "content": "**For any record that mentions HIV:**\n\n1. **Is HIV confirmed?** Only confirmed cases are coded. The provider's statement of HIV positive or HIV-related illness is enough; serology is not required (I.C.1.a.1).\n2. **Pick the status code:**\n   • AIDS, HIV disease, HIV-related illness, or any **prior** HIV-related illness: **B20** (a), (g)\n   • HIV positive, no symptoms or HIV-related illness: **Z21** (e)\n   • Inconclusive serology: **R75** (f) — never for a patient previously assigned B20\n3. **Pregnancy, childbirth or puerperium?** O98.7 first, then B20 (plus HIV illnesses) or Z21 (h).\n4. **Sequence:** admitted for an HIV-related condition = B20 first (except HIV-associated hemolytic-uremic syndrome: D59.31, then B20); admitted for an unrelated condition = that condition first, B20 secondary (b), (c).\n5. **Testing visit?** No signs/symptoms: Z11.4. Signs/symptoms: code them (Z71.7 if counseled; no Z11.4). Negative results follow-up: Z71.7 (i).\n6. **On antiretrovirals?** B20 or Z21 based on documentation; Z79.899 may be added (j). **PrEP?** Z29.81 plus risk factors (k).\n\n**For infections from other chapters:**\n\n7. Infection code lacks the organism? Add B95, B96 or B97 (I.C.1.b).\n8. Documented antibiotic resistance not shown in the infection code? Add Z16 after the infection code (I.C.1.c).",
+   "visual": {
+    "title": "Chapter 1 Coding Steps",
+    "sub": "Section I.C.1.a to I.C.1.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Confirmed?",
+      "b": "Provider statement is enough"
+     },
+     {
+      "h": "2. Status",
+      "b": "B20, Z21 or R75"
+     },
+     {
+      "h": "3. Pregnancy",
+      "b": "O98.7 first"
+     },
+     {
+      "h": "4. Sequencing",
+      "b": "Why admitted?"
+     },
+     {
+      "h": "5. Testing, ART, PrEP",
+      "b": "Z11.4, Z71.7, Z79.899, Z29.81"
+     },
+     {
+      "h": "6. Organism, resistance",
+      "b": "B95-B97; Z16 after"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• Chapter-specific guidelines apply in **all settings unless otherwise indicated** (I.C).\n• **Code only confirmed HIV** — an exception to the inpatient uncertain diagnosis rule (II.H). The provider's statement is enough; no serology needed (I.C.1.a.1).\n• **B20** for AIDS, HIV disease, or any HIV-related illness. **Once B20, always B20** — never R75 or Z21 afterward (I.C.1.a.2(a), (g)).\n• **Z21** for HIV positive with no symptoms or HIV-related illness; **R75** for inconclusive serology (e), (f).\n• Admitted **for** an HIV-related condition: **B20 first** (exception: **D59.31** then B20). Admitted for an **unrelated** condition: that condition first, B20 secondary. New vs. old diagnosis does not matter (b)-(d).\n• Pregnancy: **O98.7 first** — Chapter 15 always takes priority (h).\n• Testing: **Z11.4** only without signs/symptoms; **Z71.7** for counseling or negative results (i). Antiretrovirals: B20 or Z21 per documentation, Z79.899 optional (j). PrEP: **Z29.81** plus risk factors (k).\n• **B95-B97** identify organisms for infections coded elsewhere; **Z16** follows the infection code only when resistance is not already in it (I.C.1.b, I.C.1.c).",
+   "visual": {
+    "title": "Lesson Summary",
+    "sub": "Chapter 1: HIV, organisms, resistance",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Confirmed only",
+      "b": "HIV is an exception to II.H"
+     },
+     {
+      "h": "B20",
+      "b": "Disease or illness; once B20, always"
+     },
+     {
+      "h": "Z21 / R75",
+      "b": "HIV+ no illness / inconclusive"
+     },
+     {
+      "h": "Pregnancy",
+      "b": "O98.7 first"
+     },
+     {
+      "h": "Testing",
+      "b": "Z11.4 no symptoms; Z71.7"
+     },
+     {
+      "h": "Add-on codes",
+      "b": "B95-B97 organism; Z16 resistance"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Under Section I.C.1.a.1, which of the following is sufficient to confirm HIV for coding purposes?",
+   "options": [
+    "Only a positive HIV culture",
+    "Only positive HIV serology",
+    "A nurse's note that the patient may have HIV",
+    "The provider's diagnostic statement that the patient is HIV positive or has an HIV-related illness"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.a.1 states that confirmation does not require documentation of positive serology or culture for HIV; the provider's diagnostic statement that the patient is HIV positive or has an HIV-related illness is sufficient. Options A and B are wrong because serology or culture is not required. Option C is uncertain (\"may have\") and is not the provider's diagnostic statement; only confirmed cases are coded.",
+   "visual": {
+    "topic": "Confirming HIV",
+    "hint": "Whose statement confirms HIV, and does it require lab proof?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient previously diagnosed with an HIV-related illness now has documentation of inconclusive HIV serology. Which code applies under Section I.C.1.a.2(g)?",
+   "options": [
+    "R75, Inconclusive laboratory evidence of human immunodeficiency virus [HIV]",
+    "B20, Human immunodeficiency virus [HIV] disease",
+    "Z21, Asymptomatic human immunodeficiency virus [HIV] infection status",
+    "Z11.4, Encounter for screening for human immunodeficiency virus [HIV]"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.a.2(g) states that patients with a prior diagnosis of an HIV-related illness should be coded to B20 and should never be assigned R75 or Z21. Options A and C are the two codes the guideline says never to assign for these patients. Option D is a screening code for patients without signs or symptoms being tested; it does not describe this patient's HIV status.",
+   "visual": {
+    "topic": "Once B20, always B20",
+    "hint": "Which codes does (g) say are never assigned to these patients?"
+   }
+  }
+ ]
+}

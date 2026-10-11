@@ -1,0 +1,740 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Chapter 18: Symptoms, Signs and Abnormal Findings",
+   "content": "Not every encounter ends with a firm diagnosis. A patient may arrive with a symptom, the provider may run tests, and the record may still show no confirmed cause. **Chapter 18 (R00-R99)** gives coders a place to report those symptoms, signs and abnormal findings.\n\nThis lesson covers Section I.C.18 of the FY 2027 guidelines, word for word, then explains each rule:\n\n• When a symptom code may be reported (I.C.18.a)\n• When a symptom may be added to a definitive diagnosis, and when it may not (I.C.18.b)\n• Combination codes that already include symptoms (I.C.18.c)\n• Repeated falls vs. history of falling (I.C.18.d)\n• Coma, the coma scale and the Glasgow coma scale codes (I.C.18.e)\n• A deleted guideline: functional quadriplegia (I.C.18.f)\n• SIRS due to a non-infectious process (I.C.18.g)\n• Death NOS, code R99 (I.C.18.h)\n• The NIH stroke scale codes (I.C.18.i)\n\nThese rules show up often on coding exams because they test whether you can tell a symptom that adds information from one that is already part of the diagnosis.",
+   "visual": {
+    "title": "Chapter 18 at a glance",
+    "sub": "Section I.C.18: R00-R99",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Symptom codes",
+      "b": "Used when no related definitive diagnosis is confirmed"
+     },
+     {
+      "h": "Symptom + diagnosis",
+      "b": "Only when the symptom is not routine for that diagnosis"
+     },
+     {
+      "h": "Special codes",
+      "b": "Falls, coma, coma scale, SIRS, R99, NIHSS"
+     },
+     {
+      "h": "Exam focus",
+      "b": "Know when NOT to add a symptom code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.18"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: What Chapter 18 Holds",
+   "content": "Section I.C.18 says Chapter 18 contains four kinds of things:\n\n• **Symptoms** (what the patient reports or experiences)\n• **Signs** (what is observed)\n• **Abnormal results** of clinical or other investigative procedures\n• **Ill-defined conditions** for which no diagnosis classifiable elsewhere is recorded\n\nThe second sentence is just as important: **signs and symptoms that point to a specific diagnosis have been assigned to a category in other chapters.** So Chapter 18 is not the home of every symptom. Some symptoms are classified in the body-system chapter that matches the diagnosis they point to.\n\n**What it does NOT mean:** It does not mean you should code from Chapter 18 whenever a symptom is mentioned. The rules in I.C.18.a through I.C.18.c tell you when a symptom code is actually reported.",
+   "visual": {
+    "title": "What lives in R00-R99",
+    "sub": "Section I.C.18",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Symptoms and signs",
+      "b": "Reported or observed findings"
+     },
+     {
+      "h": "Abnormal results",
+      "b": "From clinical or other investigative procedures"
+     },
+     {
+      "h": "Ill-defined conditions",
+      "b": "No diagnosis classifiable elsewhere is recorded"
+     },
+     {
+      "h": "Not here",
+      "b": "Symptoms that point to a specific diagnosis are in other chapters"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.18.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: When Symptom Codes Are Acceptable",
+   "content": "Section I.C.18.a gives one simple test: symptom and sign codes are acceptable for reporting **when a related definitive diagnosis has not been established (confirmed) by the provider.**\n\n**Key terms:**\n• **Definitive diagnosis** = a diagnosis the provider has confirmed.\n• **Related** = the confirmed diagnosis explains the symptom.\n\n**When it applies:** The provider documents a symptom, works it up, and does not confirm what is causing it. The symptom code tells the story of the encounter.\n\n**What it does NOT mean:** It does not let you replace a confirmed diagnosis with a symptom. Once the provider confirms a related diagnosis, the next rule (I.C.18.b) controls whether the symptom is still reported.",
+   "visual": {
+    "title": "The symptom-code test",
+    "sub": "Section I.C.18.a",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Diagnosis confirmed?",
+      "b": "No: a related diagnosis is not confirmed, so the symptom code is acceptable"
+     },
+     {
+      "h": "Yes",
+      "b": "Go to I.C.18.b to decide if the symptom is still added"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.18.a, when are codes for symptoms and signs acceptable for reporting?",
+   "options": [
+    "Only in the outpatient setting",
+    "When a related definitive diagnosis has not been established (confirmed) by the provider",
+    "Whenever the symptom is listed in the chief complaint",
+    "Only when the provider documents that no diagnosis will ever be found"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.18.a states symptom and sign codes are acceptable \"when a related definitive diagnosis has not been established (confirmed) by the provider.\" The rule does not limit this to the outpatient setting, so that option is wrong. A symptom in the chief complaint is not enough on its own; if a related diagnosis is confirmed, I.C.18.b decides whether the symptom is added. Nothing in the text requires the provider to say a diagnosis will never be found.",
+   "visual": {
+    "topic": "Use of symptom codes",
+    "hint": "Look for the word 'confirmed' in I.C.18.a."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.18.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Symptom Plus a Definitive Diagnosis",
+   "content": "Section I.C.18.b has two halves.\n\n**1. When you MAY add the symptom:** A sign or symptom may be reported in addition to a related definitive diagnosis **when it is not routinely associated with that diagnosis.** The guideline's own example is the various signs and symptoms of **complex syndromes**. When you do this, the **definitive diagnosis is sequenced first**, then the symptom code.\n\n**2. When you may NOT add the symptom:** Signs or symptoms that are **associated routinely with a disease process** should not be assigned as additional codes, **unless the classification instructs otherwise.**\n\n**Think of it this way:** a routine symptom is already \"built into\" the diagnosis, so coding it again adds nothing. An unusual symptom adds information the diagnosis code does not carry.",
+   "visual": {
+    "title": "Add the symptom or not?",
+    "sub": "Section I.C.18.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Routine for the disease",
+      "b": "Do NOT code it, unless the classification instructs"
+     },
+     {
+      "h": "Not routine for it",
+      "b": "May code it as an additional code"
+     },
+     {
+      "h": "Sequencing",
+      "b": "Definitive diagnosis first, then the symptom"
+     },
+     {
+      "h": "Example in the text",
+      "b": "Signs and symptoms of complex syndromes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Routine vs. Not-Routine Symptom",
+   "content": "**Scenario A:** The provider confirms a diagnosis and documents a symptom that is a usual, expected part of that disease.\n→ **Guideline:** Section I.C.18.b, second paragraph.\n→ **Decision:** Code the definitive diagnosis only. The routine symptom is not added.\n\n**Scenario B:** The provider confirms a complex syndrome and documents an additional sign that is not routinely associated with it.\n→ **Guideline:** Section I.C.18.b, first paragraph.\n→ **Decision:** Code the definitive diagnosis **first**, then add the symptom code.\n\n**Scenario C:** The symptom is routine for the disease, but the classification has an instruction telling you to also code it.\n→ **Guideline:** Section I.C.18.b, \"unless otherwise instructed by the classification.\"\n→ **Decision:** Follow the instruction.\n\n**Exam trap:** The question is not \"Was the symptom documented?\" The question is \"Is the symptom routinely part of this diagnosis?\"",
+   "visual": {
+    "title": "Three outcomes",
+    "sub": "Applying Section I.C.18.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "A: routine symptom",
+      "b": "Diagnosis only"
+     },
+     {
+      "h": "B: not routine",
+      "b": "Diagnosis first, then the symptom"
+     },
+     {
+      "h": "C: instruction says code",
+      "b": "Follow the classification"
+     },
+     {
+      "h": "Question to ask",
+      "b": "Is it routine for this disease?"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider confirms a complex syndrome and also documents a sign that is not routinely associated with that syndrome. According to Section I.C.18.b, what should the coder do?",
+   "options": [
+    "Code only the sign, because it is more specific",
+    "Code only the syndrome, because symptoms are never coded with a definitive diagnosis",
+    "Code the sign first, followed by the syndrome",
+    "Code the syndrome first, followed by the sign"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.18.b allows a sign or symptom to be reported in addition to a related definitive diagnosis when it is not routinely associated with that diagnosis, such as with complex syndromes, and says the definitive diagnosis should be sequenced before the symptom code. Coding only the sign ignores the confirmed diagnosis. Saying symptoms are never coded with a definitive diagnosis contradicts the first paragraph of I.C.18.b. Putting the sign first reverses the required sequence.",
+   "visual": {
+    "topic": "Symptom with a definitive diagnosis",
+    "hint": "Two parts: may you add it, and which goes first?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.18.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Combination Codes That Include Symptoms",
+   "content": "A **combination code** is a single code that describes more than one thing. Section I.C.18.c says ICD-10-CM has a number of combination codes that identify **both the definitive diagnosis and common symptoms** of that diagnosis.\n\n**The rule:** When you use one of these combination codes, **do not assign an additional code for the symptom.** The symptom is already captured.\n\n**How it differs from I.C.18.b:**\n• I.C.18.b is about symptoms that are *routine* for a disease (not added) or *not routine* (may be added).\n• I.C.18.c is about a symptom that is *written into the code itself*. Adding a separate symptom code would report the same fact twice.",
+   "visual": {
+    "title": "One code, two facts",
+    "sub": "Section I.C.18.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Combination code",
+      "b": "Diagnosis + its common symptom in one code"
+     },
+     {
+      "h": "Extra symptom code?",
+      "b": "No. It is already included"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A coder finds a combination code that identifies both the definitive diagnosis and the symptom the patient has. According to Section I.C.18.c, what is correct?",
+   "options": [
+    "Assign the combination code and do not add a separate code for that symptom",
+    "Assign the combination code and add the symptom code to show severity",
+    "Assign the symptom code and the diagnosis code separately instead",
+    "Assign only the symptom code from Chapter 18"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.18.c states that when using a combination code that identifies both the definitive diagnosis and common symptoms of that diagnosis, an additional code should not be assigned for the symptom. Adding the symptom code duplicates information already in the combination code. Splitting it into separate codes ignores the available combination code. Coding only the symptom ignores the confirmed diagnosis.",
+   "visual": {
+    "topic": "Combination codes",
+    "hint": "What does the combination code already contain?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.18.d"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Repeated Falls vs. History of Falling",
+   "content": "Section I.C.18.d compares two codes that students often mix up.\n\n**R29.6, Repeated falls**\n• Use for encounters when a patient has **recently fallen** and the **reason for the fall is being investigated.**\n\n**Z91.81, History of falling**\n• Use when a patient has **fallen in the past** and is **at risk for future falls.**\n\n**Both together:** When appropriate, R29.6 and Z91.81 **may be assigned together.** They are not mutually exclusive.\n\n**Memory hook:** R29.6 looks at the current work-up (\"why is this patient falling?\"). Z91.81 looks at past falls and future risk.",
+   "visual": {
+    "title": "R29.6 vs Z91.81",
+    "sub": "Section I.C.18.d",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "R29.6 Repeated falls",
+      "b": "Recent fall; the cause is being investigated"
+     },
+     {
+      "h": "Z91.81 History of falling",
+      "b": "Fell in the past; at risk for future falls"
+     },
+     {
+      "h": "Together?",
+      "b": "Yes, both may be assigned when appropriate"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Coding Falls",
+   "content": "**Scenario 1:** A patient is seen after falling at home this week. The provider is ordering tests to find out why the patient keeps falling.\n→ Section I.C.18.d: recent fall + reason being investigated → **R29.6, Repeated falls.**\n\n**Scenario 2:** A patient fell several times last year and the provider documents that the patient is at risk for future falls. There is no current fall being worked up.\n→ Section I.C.18.d: fallen in the past + at risk → **Z91.81, History of falling.**\n\n**Scenario 3:** A patient recently fell, the cause is being investigated, and the patient also has a history of falls with ongoing risk.\n→ Section I.C.18.d: \"When appropriate, both codes R29.6 and Z91.81 may be assigned together.\"",
+   "visual": {
+    "title": "Which fall code?",
+    "sub": "Applying Section I.C.18.d",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Recent fall, work-up",
+      "b": "R29.6"
+     },
+     {
+      "h": "Past falls, at risk",
+      "b": "Z91.81"
+     },
+     {
+      "h": "Both situations",
+      "b": "R29.6 and Z91.81 together"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient had several falls in past years and is documented as at risk for future falls. No recent fall is being investigated. Which code does Section I.C.18.d point to?",
+   "options": [
+    "R29.6, Repeated falls",
+    "R99, Ill-defined and unknown cause of mortality",
+    "Z91.81, History of falling",
+    "No code; falls are only coded when they cause an injury"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.18.d says Z91.81, History of falling, is for use when a patient has fallen in the past and is at risk for future falls. R29.6 is for a patient who has recently fallen and the reason for the fall is being investigated, which is not the case here. R99 is only for a patient pronounced dead on arrival (I.C.18.h). Nothing in I.C.18.d requires an injury before a fall code may be used.",
+   "visual": {
+    "topic": "Repeated falls",
+    "hint": "Is a recent fall being worked up, or is this about past falls and risk?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.18.e"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Unspecified Coma (R40.20)",
+   "content": "The opening of Section I.C.18.e covers **R40.20, Unspecified coma.** Assign it when:\n\n• the **underlying cause of the coma is not known**, or\n• the cause is a **traumatic brain injury** and the **coma scale is not documented** in the medical record.\n\n**The \"do not report\" rule:** For a patient with a **medically induced coma** or a **sedated patient**, do not report:\n• codes for unspecified coma,\n• individual Glasgow coma scale scores, or\n• total Glasgow coma scale scores.\n\n**Why it matters:** A coma that the care team causes on purpose, or sedation, is not the same as a coma from disease or injury, so these codes are not reported for it.",
+   "visual": {
+    "title": "When R40.20 is used",
+    "sub": "Section I.C.18.e, opening paragraphs",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Cause unknown",
+      "b": "Assign R40.20"
+     },
+     {
+      "h": "TBI, no coma scale",
+      "b": "Assign R40.20"
+     },
+     {
+      "h": "Medically induced coma",
+      "b": "Do NOT report coma or GCS codes"
+     },
+     {
+      "h": "Sedated patient",
+      "b": "Do NOT report coma or GCS codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Coma Scale Codes",
+   "content": "Section I.C.18.e.1 explains the **coma scale codes, R40.21- to R40.24-.**\n\n**When they are used:**\n• They can be used **with traumatic brain injury codes.**\n• They **cannot** be used with **R40.2A, Nontraumatic coma due to underlying condition.**\n• They are **primarily for trauma registries**, but may be used in any setting where the information is collected.\n• **Sequencing:** coma scale codes go **after** the diagnosis code(s).\n\n**How to build the scale:**\n• You need **one code from each subcategory** to complete the scale.\n• The **7th character** tells **when the scale was recorded.**\n• The 7th character should **match for all three codes.**\n\n**Exam trap:** Coma scale codes pair with *traumatic* brain injury codes. They are not used with R40.2A, which is the *nontraumatic* coma code.",
+   "visual": {
+    "title": "Coma scale code rules",
+    "sub": "Section I.C.18.e.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Use with",
+      "b": "Traumatic brain injury codes"
+     },
+     {
+      "h": "Never with",
+      "b": "R40.2A, nontraumatic coma due to underlying condition"
+     },
+     {
+      "h": "Sequencing",
+      "b": "After the diagnosis code(s)"
+     },
+     {
+      "h": "Building the scale",
+      "b": "One code per subcategory; same 7th character on all three"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Which Coma Score to Report",
+   "content": "The rest of Section I.C.18.e.1 tells you which score to capture.\n\n• **Minimum:** report the **initial score documented on presentation at your facility.** This may be a score from the **emergency medicine technician (EMT)** or from the **emergency department.**\n• **Optional:** a facility may choose to capture multiple coma scale scores.\n• **Only a total is documented:** assign **R40.24-, Glasgow coma scale, total score**, when only the total score is documented and not the individual scores.\n• **Several scores in the first 24 hours after admission:** assign **only the code for the score at the time of admission.** ICD-10-CM does not classify coma scores reported after admission but less than 24 hours later.\n\nThe section ends by pointing to **Section I.B.14** for coma scale documentation by clinicians other than the patient's provider.",
+   "visual": {
+    "title": "Picking the score",
+    "sub": "Section I.C.18.e.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "At minimum",
+      "b": "Initial score on presentation (EMT or ED)"
+     },
+     {
+      "h": "Only a total documented",
+      "b": "Assign R40.24-"
+     },
+     {
+      "h": "Many scores in first 24 h",
+      "b": "Report only the score at admission"
+     },
+     {
+      "h": "Who may document",
+      "b": "See Section I.B.14"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Coma Scale Decisions",
+   "content": "**Scenario 1:** A trauma patient has a traumatic brain injury. The ED documents only a total Glasgow coma scale score, not the individual scores.\n→ Section I.C.18.e.1: assign the TBI code first, then **R40.24-, Glasgow coma scale, total score.**\n\n**Scenario 2:** A TBI patient's record contains no coma scale at all, and the patient is in a coma.\n→ Section I.C.18.e: cause is a TBI and the coma scale is not documented → **R40.20, Unspecified coma.**\n\n**Scenario 3:** The record shows a coma score at admission and two more scores 6 and 12 hours later.\n→ Section I.C.18.e.1: assign only the code for the score at the time of admission.\n\n**Scenario 4:** The patient is in a medically induced coma after surgery.\n→ Section I.C.18.e: do not report unspecified coma or any Glasgow coma scale codes.",
+   "visual": {
+    "title": "Four coma scenarios",
+    "sub": "Applying Section I.C.18.e",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1: total score only",
+      "b": "TBI code, then R40.24-"
+     },
+     {
+      "h": "2: TBI, no scale",
+      "b": "R40.20"
+     },
+     {
+      "h": "3: many early scores",
+      "b": "Admission score only"
+     },
+     {
+      "h": "4: induced coma",
+      "b": "No coma or GCS codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a traumatic brain injury has only a total Glasgow coma scale score documented. According to Section I.C.18.e.1, which code captures the score?",
+   "options": [
+    "R40.2A, Nontraumatic coma due to underlying condition",
+    "R40.24-, Glasgow coma scale, total score",
+    "R40.20, Unspecified coma",
+    "No code, because the individual scores are missing"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.18.e.1 says to assign R40.24-, Glasgow coma scale, total score, when only the total score is documented and not the individual scores. R40.2A is for nontraumatic coma and the coma scale codes cannot be used with it. R40.20 is for coma with unknown cause, or a TBI when the coma scale is not documented; here a total score is documented. Missing individual scores does not prevent coding, because R40.24- exists for exactly this case.",
+   "visual": {
+    "topic": "Glasgow coma scale",
+    "hint": "What does the guideline say when only the total is documented?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient in the ICU is sedated and a nurse records Glasgow coma scale scores. According to Section I.C.18.e, what should the coder report for the coma scale?",
+   "options": [
+    "Nothing: do not report unspecified coma or Glasgow coma scale scores for a sedated patient",
+    "R40.20 for the coma plus the total score",
+    "Only the individual scores, never the total",
+    "The highest score recorded during the stay"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.18.e states: \"Do not report codes for unspecified coma, individual or total Glasgow coma scale scores for a patient with a medically induced coma or a sedated patient.\" Reporting R40.20 or any individual or total score breaks that rule. The guidelines never tell you to report the highest score; for non-sedated patients the minimum is the initial score on presentation.",
+   "visual": {
+    "topic": "Coma and sedation",
+    "hint": "Read the 'do not report' sentence in I.C.18.e."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Coma scale scores are recorded at admission and again 8 hours after admission. According to Section I.C.18.e.1, which score is coded?",
+   "options": [
+    "Both scores",
+    "Only the score 8 hours after admission, because it is more current",
+    "Only the score at the time of admission",
+    "Neither, because multiple scores make the record unclear"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.18.e.1 says if multiple coma scores are captured within the first 24 hours after hospital admission, assign only the code for the score at the time of admission, and ICD-10-CM does not classify coma scores reported after admission but less than 24 hours later. So the 8-hour score is not coded, which rules out coding both or coding only the later score. Multiple scores do not stop you from coding; the rule tells you which one to use.",
+   "visual": {
+    "topic": "Coma scores in the first 24 hours",
+    "hint": "Which score does the 24-hour rule keep?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.18.f"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: A Deleted Guideline",
+   "content": "Section I.C.18.f, Functional quadriplegia, reads: **\"GUIDELINE HAS BEEN DELETED EFFECTIVE OCTOBER 1, 2017.\"**\n\nThe heading stays in the guidelines so that the lettering of the later sections (g, h, i) does not change. There is no active rule here to apply.\n\n**What it means for you:** Do not look for coding instructions under I.C.18.f. If an exam or reference cites \"I.C.18.f,\" remember that the guideline itself has been deleted.",
+   "visual": {
+    "title": "I.C.18.f is deleted",
+    "sub": "Functional quadriplegia",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Status",
+      "b": "Deleted effective October 1, 2017"
+     },
+     {
+      "h": "Why the heading remains",
+      "b": "Later sections keep their letters"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.18.g"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: SIRS Due to a Non-Infectious Process",
+   "content": "**SIRS** stands for **systemic inflammatory response syndrome.** Section I.C.18.g says SIRS can develop from certain **non-infectious** disease processes, such as **trauma, malignant neoplasm, or pancreatitis.**\n\n**When SIRS is documented with a noninfectious condition and no subsequent infection is documented:**\n1. Code the **underlying condition first** (for example, an injury).\n2. Follow it with **R65.10**, SIRS of non-infectious origin **without** acute organ dysfunction, or **R65.11**, SIRS of non-infectious origin **with** acute organ dysfunction.\n3. If an associated acute organ dysfunction is documented, add the code(s) for the **specific type of organ dysfunction** in addition to R65.11.\n\n**When to query:** If acute organ dysfunction is documented but it **cannot be determined** whether it is associated with SIRS or due to another condition (for example, directly due to the trauma), **query the provider.**",
+   "visual": {
+    "title": "SIRS, non-infectious",
+    "sub": "Section I.C.18.g",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Sequence first",
+      "b": "The underlying condition, such as the injury"
+     },
+     {
+      "h": "2a. No organ dysfunction",
+      "b": "R65.10"
+     },
+     {
+      "h": "2b. With organ dysfunction",
+      "b": "R65.11 + specific dysfunction code(s)"
+     },
+     {
+      "h": "Dysfunction cause unclear",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: SIRS After Trauma",
+   "content": "**Scenario 1:** A patient is admitted with a traumatic injury. The provider documents SIRS due to the trauma. No infection is documented and no organ dysfunction is documented.\n→ Section I.C.18.g: injury code first, then **R65.10.**\n\n**Scenario 2:** Same patient, but the provider documents acute organ dysfunction associated with the SIRS.\n→ Section I.C.18.g: injury code first, then **R65.11**, plus the code(s) for the specific organ dysfunction.\n\n**Scenario 3:** Acute organ dysfunction is documented, but the record does not make clear whether it is from the SIRS or directly from the trauma.\n→ Section I.C.18.g: **query the provider** before choosing R65.10 vs. R65.11.\n\n**Exam trap:** R65.10 and R65.11 are never sequenced before the underlying condition in this guideline.",
+   "visual": {
+    "title": "SIRS decisions",
+    "sub": "Applying Section I.C.18.g",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No organ dysfunction",
+      "b": "Injury, then R65.10"
+     },
+     {
+      "h": "Dysfunction due to SIRS",
+      "b": "Injury, R65.11, dysfunction code"
+     },
+     {
+      "h": "Cause unclear",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with pancreatitis develops SIRS. No infection is documented. The provider documents acute organ dysfunction but the record does not show whether it is due to the SIRS or to another condition. According to Section I.C.18.g, what should the coder do?",
+   "options": [
+    "Assign R65.11 first, then the pancreatitis",
+    "Assign the pancreatitis and R65.10 without asking",
+    "Assign only the organ dysfunction code",
+    "Query the provider"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.18.g says that if acute organ dysfunction is documented but it cannot be determined if it is associated with SIRS or due to another condition, the provider should be queried. Putting R65.11 first is wrong because the underlying condition is sequenced first. Choosing R65.10 without asking guesses at a question the guideline says to send to the provider. Coding only the organ dysfunction leaves out both the underlying condition and the SIRS.",
+   "visual": {
+    "topic": "SIRS of non-infectious origin",
+    "hint": "What does I.C.18.g say when the cause of organ dysfunction is unclear?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.18.h"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Death NOS (R99)",
+   "content": "Section I.C.18.h limits **R99, Ill-defined and unknown cause of mortality**, to one **very limited circumstance:**\n\n• a patient who has **already died** is **brought into** an emergency department or other healthcare facility, and\n• is **pronounced dead upon arrival.**\n\n**What it does NOT mean:** R99 **does not represent the discharge disposition of death.** A patient who is treated and then dies during the stay is not coded with R99 just because the discharge status is \"expired.\"",
+   "visual": {
+    "title": "R99 is narrow",
+    "sub": "Section I.C.18.h",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Use R99",
+      "b": "Already dead; pronounced dead on arrival"
+     },
+     {
+      "h": "Do NOT use R99",
+      "b": "To show a discharge disposition of death"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with pneumonia, is treated for several days, and dies in the hospital. A student wants to add R99 to show the death. According to Section I.C.18.h, is that correct?",
+   "options": [
+    "Yes, R99 is added whenever a patient dies",
+    "No, R99 does not represent the discharge disposition of death; it is only for a patient pronounced dead upon arrival",
+    "Yes, but only as the principal diagnosis",
+    "No, because R99 is only used in physician offices"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.18.h says R99 is only for a patient who has already died and is brought into an emergency department or other facility and pronounced dead upon arrival, and that it does not represent the discharge disposition of death. Adding it for every death, or as a principal diagnosis here, conflicts with that. The guideline names emergency departments and other healthcare facilities, so limiting it to physician offices is wrong.",
+   "visual": {
+    "topic": "Death NOS",
+    "hint": "Was this patient dead on arrival?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.18.i"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: NIH Stroke Scale Codes",
+   "content": "Section I.C.18.i covers the **NIH stroke scale (NIHSS)** codes, **R29.7- -**.\n\n• They can be used **with acute stroke codes (I60-I63)** to show the patient's **neurological status** and the **severity of the stroke.**\n• **Sequencing:** NIHSS codes go **after** the acute stroke diagnosis code(s).\n• **Minimum:** report the **initial score documented.**\n• **Optional:** a facility may choose to capture multiple stroke scale scores.\n• **Who may document:** see **Section I.B.14** for NIHSS documentation by clinicians other than the patient's provider.\n\n**Compare with coma scale:** both scale types are sequenced after the diagnosis, both require at least the initial score, and both point to Section I.B.14. The coma scale pairs with traumatic brain injury codes; the NIHSS pairs with acute stroke codes I60-I63.",
+   "visual": {
+    "title": "NIHSS codes R29.7- -",
+    "sub": "Section I.C.18.i",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Pairs with",
+      "b": "Acute stroke codes I60-I63"
+     },
+     {
+      "h": "Shows",
+      "b": "Neurological status and stroke severity"
+     },
+     {
+      "h": "Sequencing",
+      "b": "After the acute stroke code(s)"
+     },
+     {
+      "h": "Minimum",
+      "b": "Initial score documented"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.18.i, how are NIH stroke scale codes (R29.7- -) sequenced?",
+   "options": [
+    "Before the acute stroke code, to show severity first",
+    "As the principal diagnosis when the score is high",
+    "After the acute stroke diagnosis code(s)",
+    "They are never reported with acute stroke codes"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.18.i says the stroke scale codes should be sequenced after the acute stroke diagnosis code(s) and can be used in conjunction with acute stroke codes (I60-I63). Sequencing them first, or as principal diagnosis, reverses that rule. Saying they are never reported with stroke codes contradicts the guideline, which pairs them with I60-I63.",
+   "visual": {
+    "topic": "NIHSS stroke scale",
+    "hint": "Diagnosis or scale: which comes first?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Chapter 18 on a Real Record",
+   "content": "Use these steps when a record contains symptoms, signs or scale scores:\n\n1. **Is a related definitive diagnosis confirmed?** If not, the symptom code is acceptable (I.C.18.a).\n2. **If confirmed, is the symptom routine for that diagnosis?** Routine → do not add it unless the classification instructs. Not routine → add it, diagnosis first (I.C.18.b).\n3. **Is there a combination code** that includes the symptom? If yes, do not add a separate symptom code (I.C.18.c).\n4. **Falls:** recent fall under investigation → R29.6; past falls with risk → Z91.81; both when appropriate (I.C.18.d).\n5. **Coma:** cause unknown, or TBI without a scale → R40.20. Sedated or medically induced coma → no coma or GCS codes. Coma scale with TBI codes, after the diagnosis, never with R40.2A, matching 7th characters (I.C.18.e).\n6. **SIRS without infection:** underlying condition first, then R65.10 or R65.11; query if the cause of organ dysfunction is unclear (I.C.18.g).\n7. **R99** only for a patient pronounced dead on arrival (I.C.18.h).\n8. **NIHSS** after the acute stroke code (I60-I63), at least the initial score (I.C.18.i).",
+   "visual": {
+    "title": "Chapter 18 checklist",
+    "sub": "Work through these in order",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-3",
+      "b": "Symptom: confirmed? routine? combination code?"
+     },
+     {
+      "h": "4",
+      "b": "Falls: R29.6 and/or Z91.81"
+     },
+     {
+      "h": "5",
+      "b": "Coma: R40.20 rules and coma scale rules"
+     },
+     {
+      "h": "6-8",
+      "b": "SIRS, R99, NIHSS"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• Chapter 18 holds symptoms, signs, abnormal findings and ill-defined conditions with **no diagnosis classifiable elsewhere** (I.C.18).\n• Symptom codes are acceptable when a related definitive diagnosis has **not been confirmed** (I.C.18.a).\n• Add a symptom to a confirmed diagnosis **only if it is not routine** for that diagnosis, and sequence the **diagnosis first** (I.C.18.b).\n• Never add a symptom code that a **combination code** already includes (I.C.18.c).\n• **R29.6** = recent fall being investigated; **Z91.81** = past falls with future risk; both may be used together (I.C.18.d).\n• **R40.20** for coma of unknown cause or TBI without a documented scale; no coma or GCS codes for **sedated or medically induced coma**; coma scale codes follow the diagnosis and are not used with **R40.2A** (I.C.18.e).\n• Non-infectious **SIRS**: underlying condition first, then **R65.10/R65.11**; query when the cause of organ dysfunction is unclear (I.C.18.g).\n• **R99** is only for dead on arrival, not the disposition of death (I.C.18.h); **NIHSS** codes follow acute stroke codes I60-I63 (I.C.18.i).",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Section I.C.18 in eight lines",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Symptoms",
+      "b": "Unconfirmed: code. Routine: skip. Unusual: add after"
+     },
+     {
+      "h": "Falls",
+      "b": "R29.6 recent; Z91.81 history"
+     },
+     {
+      "h": "Coma",
+      "b": "R40.20; no codes if sedated"
+     },
+     {
+      "h": "SIRS / R99 / NIHSS",
+      "b": "Condition first; DOA only; after stroke"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider confirms a diagnosis and also documents a symptom that is routinely associated with that disease. The classification gives no instruction to code the symptom. According to Section I.C.18.b, what should the coder do?",
+   "options": [
+    "Code the symptom first and the diagnosis second",
+    "Code both, with the diagnosis first",
+    "Code only the symptom",
+    "Code the diagnosis and do not assign the routine symptom"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.18.b states signs or symptoms that are associated routinely with a disease process should not be assigned as additional codes, unless otherwise instructed by the classification. There is no such instruction here, so only the diagnosis is coded. Coding both (in either order) applies only to symptoms that are not routinely associated with the diagnosis. Coding only the symptom ignores the confirmed diagnosis, and I.C.18.a allows symptom codes only when a related diagnosis has not been confirmed.",
+   "visual": {
+    "topic": "Routine symptoms",
+    "hint": "Is this symptom routine for the disease?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about coma scale codes is supported by Section I.C.18.e.1?",
+   "options": [
+    "They are used with R40.2A, Nontraumatic coma due to underlying condition",
+    "They can be used with traumatic brain injury codes and are sequenced after the diagnosis code(s)",
+    "Only one code is needed, from any subcategory",
+    "The 7th character may differ among the three codes"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.18.e.1 says the coma scale codes can be used in conjunction with traumatic brain injury codes and should be sequenced after the diagnosis code(s). The same section says they cannot be used with R40.2A, that one code from each subcategory is needed to complete the scale, and that the 7th character should match for all three codes. Each wrong option contradicts one of those sentences.",
+   "visual": {
+    "topic": "Coma scale codes",
+    "hint": "Check the pairing, sequencing, number of codes and 7th character."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient who had already died is brought into the emergency department and is pronounced dead upon arrival. Which code does Section I.C.18.h describe for this situation?",
+   "options": [
+    "R99, Ill-defined and unknown cause of mortality",
+    "R40.20, Unspecified coma",
+    "R65.10, SIRS of non-infectious origin without acute organ dysfunction",
+    "Z91.81, History of falling"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.18.h says R99 is only for the very limited circumstance when a patient who has already died is brought into an emergency department or other facility and is pronounced dead upon arrival, which matches this scenario. R40.20 is for coma of unknown cause or TBI without a coma scale (I.C.18.e). R65.10 is for non-infectious SIRS without organ dysfunction (I.C.18.g). Z91.81 is for past falls with future risk (I.C.18.d).",
+   "visual": {
+    "topic": "Death NOS",
+    "hint": "Match the scenario to the 'very limited circumstance'."
+   }
+  }
+ ]
+}

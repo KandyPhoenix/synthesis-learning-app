@@ -1,0 +1,936 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Choosing the Principal Diagnosis",
+   "content": "This lesson finishes Section I with **Chapter 22, Codes for Special Purposes (U00-U85)**, and then moves into **Section II: Selection of Principal Diagnosis**.\n\nSection II answers one of the most tested questions in inpatient coding: **which condition goes first?** The **principal diagnosis** is the first code reported on an inpatient record, and the official definition comes from the **Uniform Hospital Discharge Data Set (UHDDS)**.\n\nIn this lesson you will learn:\n\n• The three Chapter 22 codes listed in the guidelines and where their rules live\n• The UHDDS definition of principal diagnosis and the settings it applies to\n• When a symptom code can and cannot be principal (II.A)\n• What to do with interrelated, equal, or \"either/or\" diagnoses (II.B–II.D)\n• Treatment not carried out, complications of care, and uncertain diagnoses (II.F–II.H)\n• Admissions from observation and from outpatient surgery (II.I–II.J)\n• Rehabilitation admissions (II.K)",
+   "visual": {
+    "title": "Section II at a Glance",
+    "sub": "Rules for picking the first-listed inpatient diagnosis",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Definition",
+      "b": "UHDDS: chiefly responsible for occasioning the admission"
+     },
+     {
+      "h": "Symptoms (II.A)",
+      "b": "Not principal once a related definitive dx exists"
+     },
+     {
+      "h": "Ties (II.B-II.D)",
+      "b": "Interrelated, equal, or either/or conditions"
+     },
+     {
+      "h": "Special cases (II.F-II.K)",
+      "b": "Cancelled treatment, complications, observation, rehab"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.22"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Chapter 22 Codes",
+   "content": "Chapter 22 is **Codes for Special Purposes (U00-U85)**. The guideline text for this chapter is short: it lists three codes and, for each one, points you to the section of the guidelines that explains how to use it.\n\n• **U07.0** Vaping-related disorder → see **Section I.C.10.e.**, Vaping-related disorders\n• **U07.1** COVID-19 → see **Section I.C.1.g.1.**, COVID-19 infection\n• **U09.9** Post COVID-19 condition, unspecified → see **Section I.C.1.g.1.m.**\n\n**What this means for you:** the Chapter 22 entry itself does not give separate coding instructions. To code one of these conditions correctly, follow the cross-reference to the chapter-specific guideline (Chapter 10 for vaping, Chapter 1 for COVID-19).",
+   "visual": {
+    "title": "Chapter 22: Follow the Pointer",
+    "sub": "Each U code sends you to another guideline section",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "U07.0",
+      "b": "Vaping-related disorder. See Section I.C.10.e."
+     },
+     {
+      "h": "U07.1",
+      "b": "COVID-19. See Section I.C.1.g.1."
+     },
+     {
+      "h": "U09.9",
+      "b": "Post COVID-19 condition, unspecified. See I.C.1.g.1.m."
+     },
+     {
+      "h": "Takeaway",
+      "b": "Chapter 22 text gives pointers, not separate rules"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to the Chapter 22 guideline, where should a coder look for instructions on using code U07.0, Vaping-related disorder?",
+   "options": [
+    "Section I.C.1.g.1., COVID-19 infection",
+    "Section I.C.19.e., Adverse effects and poisoning",
+    "Section I.C.10.e., Vaping-related disorders",
+    "Section II.A, Symptoms and ill-defined conditions"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.22 lists U07.0 Vaping-related disorder with the note \"see Section I.C.10.e., Vaping-related disorders.\" Section I.C.1.g.1. is the cross-reference for U07.1 COVID-19, not vaping. Section I.C.19.e. is not the reference Chapter 22 gives for U07.0. Section II.A covers symptom codes as principal diagnosis and has nothing to do with this code.",
+   "visual": {
+    "topic": "Chapter 22 cross-references",
+    "hint": "Each U code in Chapter 22 is followed by a 'see' note."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: What Is the Principal Diagnosis?",
+   "content": "**The rule:** \"The circumstances of inpatient admission always govern the selection of principal diagnosis.\"\n\nThe **UHDDS definition** of principal diagnosis is: \"that condition established **after study** to be **chiefly responsible for occasioning the admission** of the patient to the hospital for care.\"\n\nBreak it into two parts:\n\n• **After study** – the condition is the one established once the workup is done, not just a guess written at the door.\n• **Chiefly responsible for occasioning the admission** – it is the main reason the patient had to be admitted, not simply the most serious or most expensive condition treated during the stay.\n\n**What it does NOT mean:** it does not mean \"the first thing the doctor wrote\" or \"the condition that used the most resources.\" It is tied to why the admission occurred.",
+   "visual": {
+    "title": "UHDDS Principal Diagnosis",
+    "sub": "Two parts of one definition",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "After study",
+      "b": "Established once the workup is done"
+     },
+     {
+      "h": "Chiefly responsible",
+      "b": "Main reason the admission occurred"
+     },
+     {
+      "h": "Governed by",
+      "b": "The circumstances of inpatient admission"
+     },
+     {
+      "h": "Not the same as",
+      "b": "The most serious condition treated"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Where Section II Applies and What Comes First",
+   "content": "**Settings.** UHDDS definitions were first used by hospitals to report inpatient data in a standard way (published in the July 31, 1985, Federal Register). The guideline says their use has been **expanded to all non-outpatient settings**:\n\n• Acute care, short term, long term care and psychiatric hospitals\n• Home health agencies\n• Rehab facilities\n• Nursing homes\n• **Hospice services (all levels of care)**\n\n**Order of authority.** \"In determining principal diagnosis, **coding conventions** in the ICD-10-CM, the Tabular List and Alphabetic Index **take precedence** over these official coding guidelines.\" So if a convention (for example, a \"code first\" note) dictates sequencing, follow the convention.\n\n**Documentation.** The guideline stresses that without consistent, complete documentation, applying the coding guidelines is \"a difficult, if not impossible, task.\"\n\n**Exam trap:** Section IV.A states that the UHDDS definition of principal diagnosis does **not** apply to hospital-based outpatient services and provider-based office visits. Outpatient records use the term **first-listed diagnosis** instead.",
+   "visual": {
+    "title": "Who Uses the UHDDS Definition?",
+    "sub": "Non-outpatient settings, including hospice",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Applies",
+      "b": "Acute, long term care, psych hospitals"
+     },
+     {
+      "h": "Applies",
+      "b": "Home health, rehab, nursing homes"
+     },
+     {
+      "h": "Applies",
+      "b": "Hospice services, all levels of care"
+     },
+     {
+      "h": "Does NOT apply",
+      "b": "Outpatient services and office visits"
+     },
+     {
+      "h": "Top authority",
+      "b": "Conventions in Index and Tabular List"
+     },
+     {
+      "h": "Then",
+      "b": "These official coding guidelines"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which setting does Section II list as one where the UHDDS definitions also apply?",
+   "options": [
+    "Hospice services (all levels of care)",
+    "Provider-based office visits",
+    "Hospital-based outpatient surgery",
+    "Emergency department visits that are not admitted"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section II states \"The UHDDS definitions also apply to hospice services (all levels of care),\" and lists other non-outpatient settings such as home health agencies, rehab facilities and nursing homes. Provider-based office visits and hospital-based outpatient services are outpatient; Section IV states the UHDDS definition of principal diagnosis does not apply to them. An emergency department visit that is not admitted is an outpatient encounter, not one of the non-outpatient settings listed.",
+   "visual": {
+    "topic": "UHDDS settings",
+    "hint": "Think about which settings are non-outpatient."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "When determining principal diagnosis, what does Section II say takes precedence over the official coding guidelines?",
+   "options": [
+    "The attending physician's billing preferences",
+    "The condition with the highest reimbursement",
+    "The admitting diagnosis written in the emergency department",
+    "The coding conventions in ICD-10-CM, the Tabular List and Alphabetic Index"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section II states \"coding conventions in the ICD-10-CM, the Tabular List and Alphabetic Index take precedence over these official coding guidelines.\" Billing preferences and reimbursement are not part of the definition at all. The admitting diagnosis is not what governs; the principal diagnosis is the condition established after study to be chiefly responsible for occasioning the admission.",
+   "visual": {
+    "topic": "Order of authority",
+    "hint": "Section II points back to Section I.A."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II.A"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Symptoms as Principal Diagnosis (II.A)",
+   "content": "**The rule:** Codes for symptoms, signs, and ill-defined conditions from **Chapter 18** are **not** used as principal diagnosis **when a related definitive diagnosis has been established**.\n\nKey words:\n\n• **Related** – the symptom must be connected to the diagnosis that was found.\n• **Definitive diagnosis established** – the workup actually reached a diagnosis.\n\n**When it applies:** a patient comes in with a symptom, the workup finds the cause, and the cause is documented. The diagnosis goes first; the symptom code is not principal.\n\n**What it does NOT say:** II.A does not forbid a Chapter 18 code as principal in every case. It only blocks it when a **related** definitive diagnosis has been established.",
+   "visual": {
+    "title": "Symptom vs Definitive Diagnosis",
+    "sub": "Section II.A",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Related dx established",
+      "b": "Code the diagnosis as principal"
+     },
+     {
+      "h": "No related dx found",
+      "b": "II.A does not block the symptom"
+     },
+     {
+      "h": "Source of symptom codes",
+      "b": "Chapter 18"
+     },
+     {
+      "h": "Key word",
+      "b": "RELATED definitive diagnosis"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Symptom Then Diagnosis",
+   "content": "**Documentation:** A patient is admitted with severe abdominal pain. After imaging and lab work, the attending physician documents **acute appendicitis** as the cause of the pain, and the patient has surgery.\n\n**Which guideline applies?** Section II.A. The abdominal pain is a symptom (Chapter 18), and a **related definitive diagnosis** (acute appendicitis) has been established.\n\n**Decision:** Sequence the appendicitis as the principal diagnosis. The abdominal pain is not used as the principal diagnosis.\n\n**Contrast:** If the workup had **not** established any related definitive diagnosis, Section II.A would not prevent the symptom from being reported.",
+   "visual": {
+    "title": "Symptom With a Found Cause",
+    "sub": "Applying Section II.A",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Admitted for",
+      "b": "Severe abdominal pain"
+     },
+     {
+      "h": "After study",
+      "b": "Acute appendicitis documented"
+     },
+     {
+      "h": "Principal",
+      "b": "The appendicitis"
+     },
+     {
+      "h": "Not principal",
+      "b": "The pain (Chapter 18 symptom)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with shortness of breath. After study, the provider documents a related definitive diagnosis that explains the symptom. According to Section II.A, what should be sequenced as principal diagnosis?",
+   "options": [
+    "The shortness of breath, because it was the reason the patient came in",
+    "The related definitive diagnosis",
+    "Either one, at the coder's choice",
+    "Neither; the coder must query before coding"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section II.A states that codes for symptoms, signs, and ill-defined conditions from Chapter 18 are not to be used as principal diagnosis when a related definitive diagnosis has been established. The symptom is therefore not principal even though it prompted the visit. \"Either one\" is wrong because II.A gives a clear direction. A query is not needed: the documentation already contains the related definitive diagnosis.",
+   "visual": {
+    "topic": "Symptoms as principal",
+    "hint": "Was a related definitive diagnosis established?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II.B"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Interrelated Conditions (II.B)",
+   "content": "**The rule:** When **two or more interrelated conditions** each potentially meet the definition of principal diagnosis, **either may be sequenced first**, unless something indicates otherwise.\n\n**What \"interrelated\" means** (the guideline's own examples):\n\n• Diseases in the **same ICD-10-CM chapter**\n• **Manifestations characteristically associated** with a certain disease\n\n**The exceptions** – do not use free choice if any of these point to one condition:\n\n• The **circumstances of the admission**\n• The **therapy provided**\n• The **Tabular List**\n• The **Alphabetic Index**\n\nSo the coder's choice is the fallback, not the starting point.",
+   "visual": {
+    "title": "Interrelated Conditions",
+    "sub": "Either may go first UNLESS...",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Interrelated",
+      "b": "Same chapter, or a disease and its manifestation"
+     },
+     {
+      "h": "Default",
+      "b": "Either condition may be sequenced first"
+     },
+     {
+      "h": "Unless",
+      "b": "Circumstances of admission or therapy say otherwise"
+     },
+     {
+      "h": "Unless",
+      "b": "The Tabular List or Index directs sequencing"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II.C"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Diagnoses That Equally Qualify (II.C)",
+   "content": "**The rule:** In the **unusual** instance when two or more diagnoses **equally** meet the criteria for principal diagnosis, **any one** may be sequenced first.\n\nThe tie is judged by:\n\n• Circumstances of admission\n• Diagnostic workup and/or therapy provided\n\nAnd it only applies when the **Alphabetic Index, Tabular List, or another coding guideline does not provide sequencing direction**.\n\n**Exam trap – II.B vs II.C:**\n\n• **II.B** is about conditions that are **interrelated** (same chapter, or disease plus manifestation).\n• **II.C** is about diagnoses that are not described as interrelated but **equally** meet the definition.\n\nBoth end with \"either/any may be first,\" and both give way to other direction when it exists.",
+   "visual": {
+    "title": "II.B vs II.C",
+    "sub": "Two different ties, same fallback",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "II.B Interrelated",
+      "b": "Related conditions, e.g., same chapter"
+     },
+     {
+      "h": "II.C Equal",
+      "b": "Diagnoses that equally meet the definition"
+     },
+     {
+      "h": "Both: fallback",
+      "b": "Either/any one may be sequenced first"
+     },
+     {
+      "h": "Both: but first",
+      "b": "Follow Index, Tabular, or other direction"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Two interrelated conditions from the same ICD-10-CM chapter each potentially meet the definition of principal diagnosis, but the therapy provided was directed almost entirely at one of them. According to Section II.B, how should they be sequenced?",
+   "options": [
+    "Either may be sequenced first, with no exceptions",
+    "Sequence them in alphabetical order",
+    "Sequence the condition the therapy indicates, because therapy provided can indicate otherwise",
+    "Report only one of the two conditions"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section II.B allows either interrelated condition to be sequenced first \"unless the circumstances of the admission, the therapy provided, the Tabular List, or the Alphabetic Index indicate otherwise.\" Here the therapy provided points to one condition. \"No exceptions\" ignores that clause. Alphabetical order is not a rule in the guidelines. Nothing in II.B says to drop one of the conditions.",
+   "visual": {
+    "topic": "Interrelated conditions",
+    "hint": "Read the 'unless' clause of II.B."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section II.C, when may any one of two or more diagnoses be sequenced first?",
+   "options": [
+    "Whenever the coder cannot decide quickly",
+    "When they equally meet the criteria for principal diagnosis and the Index, Tabular List, or another guideline gives no sequencing direction",
+    "Only when both diagnoses are symptoms from Chapter 18",
+    "Whenever the patient is admitted through the emergency department"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section II.C applies \"in the unusual instance when two or more diagnoses equally meet the criteria for principal diagnosis\" (based on circumstances of admission, diagnostic workup and/or therapy) and the Alphabetic Index, Tabular List, or another coding guideline does not provide sequencing direction. Indecision alone is not a criterion. II.C is not limited to Chapter 18 symptoms (and II.A limits symptoms as principal). The point of entry to the hospital is not part of this rule.",
+   "visual": {
+    "topic": "Equally meeting the definition",
+    "hint": "II.C calls this an 'unusual instance.'"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II.D"
+  },
+  {
+   "type": "official",
+   "ref": "II.E"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: \"Either/Or\" Diagnoses (II.D) and Deleted II.E",
+   "content": "**II.D – the rule:** In rare instances, two or more **contrasting or comparative** diagnoses are documented as **\"either/or\"** (or similar terms). Then:\n\n1. **Code both as if they were confirmed.**\n2. **Sequence according to the circumstances of the admission.**\n3. If no further determination can be made, **either diagnosis may be sequenced first**.\n\n**II.E:** The guideline \"A symptom(s) followed by contrasting/comparative diagnoses\" **has been deleted effective October 1, 2014**. The heading stays in the guidelines, but there is no rule to apply under it.\n\n**Do not confuse with II.H:** II.D is about two named diagnoses offered as alternatives. II.H is about a single diagnosis qualified with a word of uncertainty such as \"probable\" or \"suspected.\"",
+   "visual": {
+    "title": "Either/Or Diagnoses",
+    "sub": "Section II.D (II.E is deleted)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Step 1",
+      "b": "Code both as if confirmed"
+     },
+     {
+      "h": "Step 2",
+      "b": "Sequence by circumstances of admission"
+     },
+     {
+      "h": "Step 3",
+      "b": "No further determination? Either first"
+     },
+     {
+      "h": "II.E",
+      "b": "Deleted effective October 1, 2014"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Either/Or at Discharge",
+   "content": "**Documentation:** The discharge summary for an inpatient reads: \"Abdominal findings due to **diverticulitis versus appendicitis**.\" Both conditions were worked up and treated, and the record does not show that one, more than the other, occasioned the admission.\n\n**Which guideline applies?** Section II.D, two contrasting/comparative diagnoses documented as \"either/or.\"\n\n**Decision:**\n\n• Code **both** diagnoses as if they were confirmed.\n• Look at the circumstances of the admission to decide which is principal.\n• Because no further determination can be made here, **either diagnosis may be sequenced first**.",
+   "visual": {
+    "title": "Diagnosis A versus Diagnosis B",
+    "sub": "Applying Section II.D",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Documented",
+      "b": "Diverticulitis versus appendicitis"
+     },
+     {
+      "h": "Code",
+      "b": "Both, as if confirmed"
+     },
+     {
+      "h": "Sequence",
+      "b": "By circumstances of the admission"
+     },
+     {
+      "h": "If still tied",
+      "b": "Either may be sequenced first"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient's final diagnostic statement lists two contrasting diagnoses joined by \"versus.\" According to Section II.D, how are they coded?",
+   "options": [
+    "Code both as if confirmed and sequence according to the circumstances of the admission",
+    "Code only the first one listed",
+    "Code neither; code the symptoms instead",
+    "Code both, but always sequence the more serious one first"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section II.D says contrasting or comparative diagnoses documented as \"either/or\" (or similar terminology) \"are coded as if the diagnoses were confirmed and the diagnoses are sequenced according to the circumstances of the admission.\" Coding only the first one listed ignores the rule. Coding symptoms instead reflects the deleted Section II.E heading, not a current rule. Severity is not the sequencing criterion; circumstances of the admission are, and if no determination can be made either may be first.",
+   "visual": {
+    "topic": "Either/or diagnoses",
+    "hint": "II.D treats both diagnoses the same way."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "What is the current status of Section II.E, \"A symptom(s) followed by contrasting/comparative diagnoses\"?",
+   "options": [
+    "It applies only to outpatient encounters",
+    "It requires the symptom to be sequenced first",
+    "It was merged into Section III.B",
+    "It was deleted effective October 1, 2014"
+   ],
+   "correct": 3,
+   "explanation": "Correct: The official text of Section II.E reads \"GUIDELINE HAS BEEN DELETED EFFECTIVE OCTOBER 1, 2014.\" It does not apply to outpatient encounters (outpatient rules are in Section IV), it does not give any sequencing instruction, and nothing in the guidelines says it was merged into Section III.B, which covers abnormal findings.",
+   "visual": {
+    "topic": "Section II.E",
+    "hint": "Read the text printed under the II.E heading."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II.F"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Treatment Not Carried Out (II.F)",
+   "content": "**The rule:** Sequence as principal diagnosis **the condition which, after study, occasioned the admission**, **even though treatment may not have been carried out** due to unforeseen circumstances.\n\n**Why it matters:** The principal diagnosis is defined by why the patient was admitted. A cancelled procedure does not change that reason.\n\n**Example:** A patient is admitted for planned surgery on a known condition. Before the operation, an unforeseen circumstance arises and the surgery is cancelled. The condition that occasioned the admission is still the principal diagnosis.\n\n**Related outpatient rule:** Section IV.A.1 gives a parallel instruction for outpatient surgery: code the reason for the surgery first \"even if the surgery is not performed due to a contraindication.\"",
+   "visual": {
+    "title": "Plan Changed, Principal Did Not",
+    "sub": "Section II.F",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Admitted for",
+      "b": "A condition needing treatment"
+     },
+     {
+      "h": "Then",
+      "b": "Treatment not carried out"
+     },
+     {
+      "h": "Why",
+      "b": "Unforeseen circumstances"
+     },
+     {
+      "h": "Principal",
+      "b": "Still the condition that occasioned admission"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for surgical treatment of a condition, but the surgery is cancelled because of unforeseen circumstances. According to Section II.F, what is the principal diagnosis?",
+   "options": [
+    "A code explaining why the surgery was cancelled, sequenced first",
+    "Nothing can be reported because treatment did not occur",
+    "The condition that, after study, occasioned the admission",
+    "Whatever condition was treated instead, even if minor"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section II.F says to \"sequence as the principal diagnosis the condition, which after study occasioned the admission to the hospital, even though treatment may not have been carried out due to unforeseen circumstances.\" Section II.F does not tell you to put the cancellation reason first. The admission is still reported even though the planned treatment did not happen. A minor condition treated instead did not occasion the admission.",
+   "visual": {
+    "topic": "Original treatment plan not carried out",
+    "hint": "The reason for admission does not change."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II.G"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Complications of Care (II.G)",
+   "content": "**The rule, part 1:** When the admission is **for treatment of a complication** resulting from surgery or other medical care, **the complication code is the principal diagnosis**.\n\n**The rule, part 2:** If the complication is classified to the **T80-T88** series and that code **lacks the necessary specificity** to describe the complication, **assign an additional code for the specific complication**.\n\n**When it applies:** the complication itself is the reason for this admission.\n\n**What it does NOT say:** it does not say every condition after surgery is a complication. Whether something is a complication is covered elsewhere in the guidelines (Section I.B.16 and the Chapter 19 complications-of-care guidelines).",
+   "visual": {
+    "title": "Admitted for a Complication",
+    "sub": "Section II.G",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Principal",
+      "b": "The complication code"
+     },
+     {
+      "h": "If T80-T88 code is vague",
+      "b": "Add a code for the specific complication"
+     },
+     {
+      "h": "Applies when",
+      "b": "Complication is reason for admission"
+     },
+     {
+      "h": "Covers",
+      "b": "Surgery or other medical care"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for treatment of a complication of earlier medical care. The complication is classified to the T80-T88 series, but that code does not fully describe the specific complication. According to Section II.G, what should the coder do?",
+   "options": [
+    "Sequence the complication code as principal and assign an additional code for the specific complication",
+    "Report only the T80-T88 code",
+    "Sequence the original condition that was treated as principal",
+    "Report a symptom code instead of the complication"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section II.G says the complication code is sequenced as principal diagnosis, and \"if the complication is classified to the T80-T88 series and the code lacks the necessary specificity in describing the complication, an additional code for the specific complication should be assigned.\" Reporting only the T code leaves out required specificity. The original condition is not principal because this admission is for the complication. A symptom code is not called for when the complication is documented.",
+   "visual": {
+    "topic": "Complications of care",
+    "hint": "II.G has two sentences; both apply here."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II.H"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Uncertain Diagnosis, Inpatient (II.H)",
+   "content": "**The rule:** If the diagnosis documented **at the time of discharge** is qualified with an uncertainty term, **code the condition as if it existed or was established**.\n\n**Uncertainty terms listed:** \"probable,\" \"suspected,\" \"likely,\" \"questionable,\" \"possible,\" \"still to be ruled out,\" \"compatible with,\" \"consistent with,\" or other similar terms.\n\n**Why:** the bases are the diagnostic workup, arrangements for further workup or observation, and initial therapeutic approach that correspond most closely with the established diagnosis.\n\n**Where it applies:** **only** to inpatient admissions to **short-term, acute, long-term care and psychiatric hospitals**.\n\n**Exam trap:** Outpatient coding is the opposite. Section IV.H says **do not** code diagnoses documented as \"probable,\" \"suspected,\" \"questionable,\" \"rule out,\" and similar terms; code to the highest degree of certainty, such as symptoms or signs.",
+   "visual": {
+    "title": "Uncertain Diagnosis: Setting Rules",
+    "sub": "Same words, opposite outcomes",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Inpatient (II.H)",
+      "b": "Code as if it existed or was established"
+     },
+     {
+      "h": "Outpatient (IV.H)",
+      "b": "Do NOT code it; code signs or symptoms"
+     },
+     {
+      "h": "Timing (II.H)",
+      "b": "Diagnosis documented at discharge"
+     },
+     {
+      "h": "Hospitals (II.H)",
+      "b": "Short-term, acute, LTC, psychiatric"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: \"Probable\" at Discharge",
+   "content": "**Documentation:** An inpatient in a short-term acute care hospital is discharged with a final diagnosis of **\"probable viral pneumonia.\"** The patient was worked up and treated for it during the stay.\n\n**Which guideline applies?** Section II.H, Uncertain Diagnosis (inpatient).\n\n**Decision:** Code the viral pneumonia **as if it existed or was established**.\n\n**Same words, outpatient:** If the same \"probable viral pneumonia\" appeared on an outpatient clinic note, Section IV.H says not to code it. The coder would code to the highest degree of certainty for that visit, such as the documented signs and symptoms.",
+   "visual": {
+    "title": "One Phrase, Two Settings",
+    "sub": "\"Probable viral pneumonia\"",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Acute care inpatient",
+      "b": "Code the pneumonia as established"
+     },
+     {
+      "h": "Office visit",
+      "b": "Code the signs and symptoms instead"
+     },
+     {
+      "h": "Inpatient rule",
+      "b": "Section II.H"
+     },
+     {
+      "h": "Outpatient rule",
+      "b": "Section IV.H"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "At discharge from a psychiatric hospital, the attending documents a diagnosis as \"consistent with\" a specific condition. According to Section II.H, how should it be coded?",
+   "options": [
+    "Code only the presenting symptoms",
+    "Do not code it until it is confirmed at a later visit",
+    "Query is mandatory; uncertain terms can never be coded",
+    "Code the condition as if it existed or was established"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section II.H lists \"consistent with\" among the uncertainty terms and directs the coder to \"code the condition as if it existed or was established.\" Its note says the rule applies to inpatient admissions to short-term, acute, long-term care and psychiatric hospitals, so a psychiatric hospital inpatient qualifies. Coding only symptoms is the outpatient approach (Section IV.H). Waiting for confirmation and treating uncertain terms as never codable both contradict II.H.",
+   "visual": {
+    "topic": "Uncertain diagnosis (inpatient)",
+    "hint": "Check the note at the end of II.H for settings."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II.I"
+  },
+  {
+   "type": "official",
+   "ref": "II.I.1"
+  },
+  {
+   "type": "official",
+   "ref": "II.I.2"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Admission From Observation (II.I)",
+   "content": "**II.I.1 – Medical observation:** A patient is placed in an **observation unit for a medical condition**. The condition **worsens or does not improve**, and the patient is admitted as an inpatient of **the same hospital** for **the same medical condition**.\n\n→ The principal diagnosis is **the medical condition which led to the hospital admission**.\n\n**II.I.2 – Post-operative observation:** A patient is placed in observation to **monitor a condition (or complication) that develops following outpatient surgery**, then is admitted as an inpatient of the same hospital.\n\n→ Apply the **UHDDS definition**: \"that condition established after study to be chiefly responsible for occasioning the admission of the patient to the hospital for care.\"\n\n**Note the difference:** II.I.1 names the answer (the medical condition). II.I.2 does not name a code; it tells you to apply the UHDDS definition to the facts.",
+   "visual": {
+    "title": "Observation Then Inpatient",
+    "sub": "Section II.I.1 vs II.I.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "II.I.1 Medical obs",
+      "b": "Same condition worsens or does not improve"
+     },
+     {
+      "h": "II.I.1 Principal",
+      "b": "The medical condition that led to admission"
+     },
+     {
+      "h": "II.I.2 Post-op obs",
+      "b": "Condition develops after outpatient surgery"
+     },
+     {
+      "h": "II.I.2 Principal",
+      "b": "Apply the UHDDS definition"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is placed in the observation unit for a medical condition. The condition does not improve, and the patient is admitted as an inpatient of the same hospital for that same condition. According to Section II.I.1, what is the principal diagnosis?",
+   "options": [
+    "A Z code for observation",
+    "The medical condition which led to the hospital admission",
+    "Any new condition found during the inpatient stay",
+    "The reason for a prior outpatient surgery"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section II.I.1 states that in this situation \"the principal diagnosis would be the medical condition which led to the hospital admission.\" An observation Z code is not what II.I.1 directs. A new condition found later did not lead to the admission. Outpatient surgery is addressed by II.I.2 and II.J, not this scenario.",
+   "visual": {
+    "topic": "Admission following medical observation",
+    "hint": "Same hospital, same medical condition."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II.J"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Admission From Outpatient Surgery (II.J)",
+   "content": "**The situation:** The patient has surgery in the hospital's **outpatient surgery department** and is then **admitted for continuing inpatient care at the same hospital**. Three possibilities:\n\n1. **Reason for admission is a complication** → assign **the complication** as principal diagnosis.\n2. **No complication or other condition is documented as the reason** for admission → assign **the reason for the outpatient surgery** as principal.\n3. **Reason is another condition unrelated to the surgery** → assign **the unrelated condition** as principal.\n\n**Tip:** Start by finding what the documentation says is the reason for the inpatient admission. That answer picks the bullet.",
+   "visual": {
+    "title": "Outpatient Surgery Then Admission",
+    "sub": "Section II.J: find the reason for admission",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Complication",
+      "b": "Complication is principal"
+     },
+     {
+      "h": "Nothing documented",
+      "b": "Reason for the outpatient surgery"
+     },
+     {
+      "h": "Unrelated condition",
+      "b": "Unrelated condition is principal"
+     },
+     {
+      "h": "Applies when",
+      "b": "Same hospital, continuing inpatient care"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Examples: Three Admissions After Outpatient Surgery",
+   "content": "Each patient had surgery in the same hospital's outpatient surgery department and was then admitted as an inpatient.\n\n**Patient 1:** The surgeon documents that the patient is admitted because of a complication of the procedure. → **Principal: the complication** (II.J, first bullet).\n\n**Patient 2:** The patient is admitted for continued care, and no complication or other condition is documented as the reason. → **Principal: the reason for the outpatient surgery** (II.J, second bullet).\n\n**Patient 3:** The patient is admitted because of a condition the provider documents as unrelated to the surgery. → **Principal: the unrelated condition** (II.J, third bullet).",
+   "visual": {
+    "title": "Three Patients, Three Answers",
+    "sub": "Applying Section II.J",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Patient 1",
+      "b": "Complication documented: complication first"
+     },
+     {
+      "h": "Patient 2",
+      "b": "Nothing documented: reason for surgery"
+     },
+     {
+      "h": "Patient 3",
+      "b": "Unrelated condition: that condition"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "After surgery in the hospital's outpatient surgery department, a patient is admitted as an inpatient of the same hospital. No complication or other condition is documented as the reason for the admission. According to Section II.J, what is the principal diagnosis?",
+   "options": [
+    "A complication code, because admission after surgery implies a complication",
+    "A code for the observation stay",
+    "The reason for the outpatient surgery",
+    "An unrelated chronic condition"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section II.J states \"If no complication, or other condition, is documented as the reason for the inpatient admission, assign the reason for the outpatient surgery as the principal diagnosis.\" A complication is used only when the documentation states it is the reason for admission; admission alone does not imply one. No observation stay is described here. An unrelated condition is principal only when it is documented as the reason for admission.",
+   "visual": {
+    "topic": "Admission from outpatient surgery",
+    "hint": "What does the record say caused the admission?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "II.K"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Rehabilitation Admissions (II.K), Part 1",
+   "content": "**The rule:** When the purpose of the admission/encounter is **rehabilitation**, **sequence first the code for the condition for which the service is being performed**.\n\n**The guideline's example:** Admission/encounter for rehabilitation for right-sided dominant hemiplegia following a cerebrovascular infarction → report **I69.351**, Hemiplegia and hemiparesis following cerebral infarction affecting right dominant side, as the first-listed or principal diagnosis.\n\n**Why:** the hemiplegia is the condition still present and being rehabilitated, so its code goes first.\n\nNote the wording \"first-listed **or** principal diagnosis\": Section II.K applies to both inpatient admissions and outpatient encounters for rehab.",
+   "visual": {
+    "title": "Rehab: Condition Still Present",
+    "sub": "Section II.K, first paragraph",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Purpose",
+      "b": "Rehabilitation"
+     },
+     {
+      "h": "Sequence first",
+      "b": "Condition the service is for"
+     },
+     {
+      "h": "Guideline example",
+      "b": "I69.351 after cerebral infarction"
+     },
+     {
+      "h": "Applies to",
+      "b": "Admissions and encounters"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Rehabilitation Admissions (II.K), Part 2",
+   "content": "**When the condition is no longer present:** report the appropriate **aftercare code** as first-listed or principal diagnosis, **unless** the rehab follows an **injury**.\n\n**Rehab after active treatment of an injury:** assign the **injury code** with the appropriate **seventh character for subsequent encounter** as first-listed or principal.\n\n**The guideline's two examples:**\n\n• Severe degenerative osteoarthritis of the hip → hip replacement → rehab admission: report **Z47.1**, Aftercare following joint replacement surgery.\n• Hip replacement for **right intertrochanteric femur fracture** → rehab: report **S72.141D**, Displaced intertrochanteric fracture of right femur, subsequent encounter for closed fracture with routine healing.\n\n**Exam trap:** both patients had a hip replacement. The difference is **why**: a disease (osteoarthritis) leads to an aftercare Z code; an **injury** (fracture) leads to the injury code with a subsequent encounter 7th character.\n\nSee Section I.C.21.c.7. (Aftercare) and Section I.C.19.a. (7th characters for injury codes).",
+   "visual": {
+    "title": "Rehab After Hip Replacement",
+    "sub": "Why the hip was replaced decides the code",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "For osteoarthritis",
+      "b": "Z47.1 Aftercare after joint replacement"
+     },
+     {
+      "h": "For hip fracture",
+      "b": "S72.141D, subsequent encounter"
+     },
+     {
+      "h": "Rule: no injury",
+      "b": "Aftercare code first"
+     },
+     {
+      "h": "Rule: injury",
+      "b": "Injury code, subsequent encounter"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient had a hip replacement for severe degenerative osteoarthritis of the hip and is now admitted for rehabilitation. According to the example in Section II.K, what is reported as the principal diagnosis?",
+   "options": [
+    "The osteoarthritis code, because it was the reason for surgery",
+    "Z47.1, Aftercare following joint replacement surgery",
+    "S72.141D, the injury code for subsequent encounter",
+    "A Chapter 18 symptom code for difficulty walking"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section II.K gives this exact example: for rehab after hip replacement for severe degenerative osteoarthritis, \"report code Z47.1, Aftercare following joint replacement surgery, as the first-listed or principal diagnosis.\" The osteoarthritis is no longer the condition being treated, so the aftercare code applies. S72.141D is the guideline's example for rehab after a hip replacement for a femur fracture, which is an injury. A symptom code is not what II.K directs.",
+   "visual": {
+    "topic": "Rehab: aftercare vs injury",
+    "hint": "Was the hip replaced because of a disease or an injury?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient requires rehabilitation after a hip replacement done for a right intertrochanteric femur fracture. According to Section II.K, what is the first-listed or principal diagnosis?",
+   "options": [
+    "S72.141D, Displaced intertrochanteric fracture of right femur, subsequent encounter for closed fracture with routine healing",
+    "Z47.1, Aftercare following joint replacement surgery",
+    "The fracture code with the initial encounter 7th character",
+    "I69.351, Hemiplegia and hemiparesis following cerebral infarction affecting right dominant side"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section II.K states that for rehabilitation services following active treatment of an injury, assign the injury code with the seventh character for subsequent encounter, and gives S72.141D for this exact scenario. Z47.1 is the guideline's example for hip replacement due to osteoarthritis, not injury. The initial encounter character is wrong because rehab follows active treatment, so the guideline calls for the subsequent encounter character. I69.351 is the guideline's stroke rehabilitation example, unrelated here.",
+   "visual": {
+    "topic": "Rehab after injury",
+    "hint": "Rehab after an injury uses the injury code."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Section II on a Real Inpatient Record",
+   "content": "Use these steps to select a principal diagnosis:\n\n1. **Confirm the setting.** Section II (UHDDS) applies to non-outpatient settings, including hospice. For outpatient records, use Section IV instead.\n2. **Find why the patient was admitted.** Read the history and physical, progress notes and discharge summary. The circumstances of admission govern.\n3. **Check conventions first.** Index and Tabular instructions (code first, etc.) take precedence over the guidelines.\n4. **Symptom or diagnosis?** If a related definitive diagnosis was established, the Chapter 18 symptom is not principal (II.A).\n5. **Two candidates?** Interrelated (II.B), equal (II.C), or either/or (II.D): follow any direction first; otherwise either may be sequenced first.\n6. **Special situations:** treatment cancelled (II.F), complication of care (II.G), uncertain diagnosis at discharge (II.H), admission from observation (II.I), from outpatient surgery (II.J), or for rehab (II.K).\n7. **Query** the provider when documentation does not support a clear choice.",
+   "visual": {
+    "title": "Principal Diagnosis Workflow",
+    "sub": "Seven steps through Section II",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2",
+      "b": "Confirm setting; find reason for admission"
+     },
+     {
+      "h": "3",
+      "b": "Follow conventions first"
+     },
+     {
+      "h": "4",
+      "b": "Symptom vs related definitive diagnosis"
+     },
+     {
+      "h": "5",
+      "b": "Interrelated, equal, or either/or"
+     },
+     {
+      "h": "6",
+      "b": "F, G, H, I, J, K special situations"
+     },
+     {
+      "h": "7",
+      "b": "Query when documentation is unclear"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Principal diagnosis (UHDDS):** the condition established after study to be chiefly responsible for occasioning the admission. Circumstances of admission always govern.\n• UHDDS definitions apply to **all non-outpatient settings**, including hospice; **conventions take precedence** over the guidelines.\n• **II.A:** a Chapter 18 symptom is not principal when a **related** definitive diagnosis is established.\n• **II.B / II.C / II.D:** interrelated, equal, or either/or diagnoses – follow any direction first; otherwise either may go first. **II.E is deleted** (October 1, 2014).\n• **II.F:** the condition that occasioned admission stays principal even if treatment was not carried out.\n• **II.G:** a complication of care treated on admission is principal; add a specific code if the T80-T88 code lacks specificity.\n• **II.H:** inpatient uncertain diagnoses at discharge are coded as if established (opposite of outpatient IV.H).\n• **II.I–II.K:** observation, outpatient surgery and rehab admissions each have their own rule.",
+   "visual": {
+    "title": "Section II Key Takeaways",
+    "sub": "Rules to know cold",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Definition",
+      "b": "After study, chiefly responsible"
+     },
+     {
+      "h": "Symptoms",
+      "b": "Not principal if related dx found"
+     },
+     {
+      "h": "Uncertain (inpatient)",
+      "b": "Code as if established"
+     },
+     {
+      "h": "Rehab",
+      "b": "Condition, aftercare, or injury code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement best matches the UHDDS definition of principal diagnosis quoted in Section II?",
+   "options": [
+    "The most serious condition treated during the stay",
+    "The first diagnosis written by the emergency physician",
+    "The condition that required the most resources",
+    "The condition established after study to be chiefly responsible for occasioning the admission"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section II quotes the UHDDS: principal diagnosis is \"that condition established after study to be chiefly responsible for occasioning the admission of the patient to the hospital for care.\" Severity, the first diagnosis written, and resource use are not part of that definition.",
+   "visual": {
+    "topic": "UHDDS definition",
+    "hint": "Look for the words 'after study.'"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A coder sees \"suspected\" in two records: an inpatient discharge summary from an acute care hospital and a physician office note. Which statement is correct?",
+   "options": [
+    "Code the condition as established in both records",
+    "Code it in neither record",
+    "Code it as established in the inpatient record (II.H), but not in the office record (IV.H)",
+    "Code it as established in the office record only"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section II.H tells inpatient coders at short-term, acute, long-term care and psychiatric hospitals to code a \"suspected\" condition at discharge as if it existed. Section IV.H tells outpatient coders not to code diagnoses documented as \"suspected\" and to code the highest degree of certainty instead, and notes this differs from the inpatient hospital practice. So the two records are handled differently; the other options apply one rule to both settings or reverse them.",
+   "visual": {
+    "topic": "Uncertain diagnosis by setting",
+    "hint": "Inpatient and outpatient rules are opposites."
+   }
+  }
+ ]
+}

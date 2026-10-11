@@ -1,0 +1,656 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Conventions II: Punctuation, Other vs Unspecified, Includes and Excludes",
+   "content": "This lesson continues Section I.A, the conventions built into ICD-10-CM. These are small marks and short notes, but they change which codes you can report and whether two codes can be reported together.\n\nYou will learn:\n\n• What **brackets, parentheses, colons and commas** mean in the Index and Tabular List\n• The difference between **\"other\"** and **\"unspecified\"** codes\n• What **Includes notes** and **inclusion terms** do\n• The two kinds of **Excludes notes** - **Excludes1** and **Excludes2** - and the exception to Excludes1\n\nExcludes1 vs Excludes2 is one of the most heavily tested convention topics, so the second half of this lesson spends extra time on it.",
+   "visual": {
+    "title": "Small Marks, Big Effects",
+    "sub": "Punctuation, other vs unspecified, and the notes",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Punctuation",
+      "b": "[ ]  ( )  :  ,"
+     },
+     {
+      "h": "Other vs unspecified",
+      "b": "Detail without a code vs missing detail"
+     },
+     {
+      "h": "Includes",
+      "b": "Define or give examples"
+     },
+     {
+      "h": "Excludes1 / Excludes2",
+      "b": "Never together / may be together"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.7"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Brackets and Parentheses",
+   "content": "**Brackets [ ]** have two different jobs depending on where you see them:\n• In the **Tabular List**: they enclose **synonyms, alternative wording or explanatory phrases**.\n• In the **Alphabetic Index**: they **identify manifestation codes**. (You will see in Lesson 04, I.A.13, that the code in brackets is always sequenced second.)\n\n**Parentheses ( )** are used in **both** the Index and the Tabular List:\n• They enclose **supplementary words** that may be present or absent in the statement of a disease or procedure **without affecting the code number**.\n• These words are called **nonessential modifiers**.\n\n**Exam trap:** Brackets mean something different in the Index than in the Tabular List. Parentheses mean the same thing in both.",
+   "visual": {
+    "title": "Brackets vs Parentheses",
+    "sub": "Where you see them changes what they mean",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "[ ] in Tabular",
+      "b": "Synonyms, alternative wording, explanations"
+     },
+     {
+      "h": "[ ] in Index",
+      "b": "Identify manifestation codes"
+     },
+     {
+      "h": "( ) in both",
+      "b": "Nonessential modifiers"
+     },
+     {
+      "h": "Effect of ( )",
+      "b": "Present or absent: same code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Nonessential Modifiers and the Enteritis Example",
+   "content": "The nonessential modifiers in the Alphabetic Index to Diseases **apply to subterms following a main term** - with one exception:\n\n**When a nonessential modifier and a subentry are mutually exclusive, the subentry takes precedence.**\n\nThe official example:\n• Main term: **Enteritis**\n• **\"acute\"** is a **nonessential modifier** (in parentheses)\n• **\"chronic\"** is a **subentry**\n• Acute and chronic are mutually exclusive, so the nonessential modifier \"acute\" **does not apply** to the subentry \"chronic.\"\n\n**Why it matters:** A nonessential modifier normally carries down to the subterms. But a condition cannot be both described by a modifier and by a subentry that contradicts it. When that happens, follow the subentry.",
+   "visual": {
+    "title": "Modifier vs Subentry",
+    "sub": "When they conflict, the subentry wins",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Normal rule",
+      "b": "Nonessential modifiers apply to subterms"
+     },
+     {
+      "h": "Exception",
+      "b": "Mutually exclusive: subentry takes precedence"
+     },
+     {
+      "h": "Enteritis",
+      "b": "\"acute\" = nonessential modifier"
+     },
+     {
+      "h": "Enteritis",
+      "b": "\"chronic\" = subentry; \"acute\" does not apply"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Colons and Commas",
+   "content": "**Colons ( : )**\n• Used in the **Tabular List** after an **incomplete term** that needs **one or more of the modifiers following the colon** to make it assignable to a given category.\n• In other words, the term before the colon is not enough on its own. One of the words after the colon must also be documented.\n\n**Commas ( , )**\n• Used in the **Alphabetic Index**.\n• They have **different meanings based on the context** of the Index entry, including:\n  • alternate verbiage\n  • modifier (essential and nonessential)\n  • alternative for \"and/or\"\n\n**Tip:** Because a comma's meaning depends on context, read the full Index entry carefully rather than assuming a single meaning.",
+   "visual": {
+    "title": "Colons and Commas",
+    "sub": "Two more punctuation marks",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Colon (Tabular)",
+      "b": "Term needs a modifier that follows the colon"
+     },
+     {
+      "h": "Comma (Index)",
+      "b": "Meaning depends on context"
+     },
+     {
+      "h": "Comma meanings",
+      "b": "Alternate verbiage; modifier; \"and/or\""
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.A.7, what do brackets identify when they appear in the Alphabetic Index?",
+   "options": [
+    "Nonessential modifiers",
+    "Synonyms and alternative wording",
+    "Manifestation codes",
+    "Incomplete terms that need a modifier"
+   ],
+   "correct": 2,
+   "explanation": "Section I.A.7 states: \"Brackets are used in the Alphabetic Index to identify manifestation codes.\" Nonessential modifiers are enclosed in parentheses. Synonyms and alternative wording are what brackets enclose in the Tabular List, not the Index. Incomplete terms that need a modifier are marked by a colon in the Tabular List.",
+   "visual": {
+    "topic": "Punctuation",
+    "hint": "Brackets have one meaning in the Index and another in the Tabular List."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "In the Alphabetic Index under Enteritis, \"acute\" is a nonessential modifier and \"chronic\" is a subentry. According to Section I.A.7, how does \"acute\" relate to the subentry \"chronic\"?",
+   "options": [
+    "\"Acute\" does not apply to \"chronic,\" because when a nonessential modifier and a subentry are mutually exclusive, the subentry takes precedence",
+    "\"Acute\" applies to \"chronic,\" so the code means acute and chronic",
+    "\"Acute\" must be documented before \"chronic\" can be coded",
+    "Both must be coded separately"
+   ],
+   "correct": 0,
+   "explanation": "Section I.A.7 explains that nonessential modifiers apply to subterms following a main term \"except when a nonessential modifier and a subentry are mutually exclusive, the subentry takes precedence,\" and states that \"the nonessential modifier 'acute' does not apply to the subentry 'chronic'.\" So acute does not carry down to chronic. Nonessential modifiers by definition do not need to be documented. The text gives no instruction here to code both.",
+   "visual": {
+    "topic": "Nonessential modifiers",
+    "hint": "What happens when a modifier and a subentry contradict each other?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.8"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The \"And\" Cross-Reference",
+   "content": "Section I.A.8 contains only a cross-reference: **See Section I.A.14. Use of the term \"And\".**\n\nYou will study I.A.14 in Lesson 04. In short, it says the word **\"and\"** should be interpreted to mean either **\"and\" or \"or\"** when it appears in a title. Its example: \"tuberculosis of bones,\" \"tuberculosis of joints\" and \"tuberculosis of bones and joints\" are all classified to subcategory A18.0, Tuberculosis of bones and joints.\n\n**Why it is here:** The guidelines keep a placeholder at I.A.8 so the numbering still points you to the rule.",
+   "visual": {
+    "title": "Where Is the \"And\" Rule?",
+    "sub": "I.A.8 points to I.A.14",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "I.A.8",
+      "b": "Cross-reference only"
+     },
+     {
+      "h": "I.A.14",
+      "b": "\"and\" means \"and\" or \"or\" in a title"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.9"
+  },
+  {
+   "type": "official",
+   "ref": "I.A.9.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: \"Other\" Codes",
+   "content": "Section I.A.9.a explains **\"other\"** or **\"other specified\"** codes:\n\n• They are for use when **the information in the medical record provides detail for which a specific code does not exist**.\n• **Alphabetic Index entries with NEC** in the line designate \"other\" codes in the Tabular List.\n• Those Index entries represent **specific disease entities for which no specific code exists**, so the term is included within an \"other\" code.\n\n**Key idea:** \"Other\" means the provider **was** specific - the problem is that ICD-10-CM does not have its own code for that specific condition.\n\nThis connects to the NEC abbreviation from Lesson 02: NEC = \"other specified.\"",
+   "visual": {
+    "title": "\"Other\" Codes",
+    "sub": "Specific documentation, no specific code",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Record",
+      "b": "Provides specific detail"
+     },
+     {
+      "h": "Classification",
+      "b": "No specific code for that detail"
+     },
+     {
+      "h": "Index clue",
+      "b": "Entry with NEC in the line"
+     },
+     {
+      "h": "Result",
+      "b": "Use the \"other\" code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.9.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: \"Unspecified\" Codes",
+   "content": "Section I.A.9.b explains **\"unspecified\"** codes:\n\n• They are for use when **the information in the medical record is insufficient** to assign a more specific code.\n• **For those categories for which an unspecified code is not provided, the \"other specified\" code may represent both other and unspecified.**\n\nThe text also points you to **Section I.B.18, Use of Signs/Symptom/Unspecified Codes**, studied in a later lesson.\n\n**Key idea:** \"Unspecified\" means the **record** lacks detail. \"Other\" means the **classification** lacks a specific code.\n\n**Exam trap:** If a category has no unspecified code, do not look for one that does not exist. The \"other specified\" code may cover both situations in that category.",
+   "visual": {
+    "title": "Other vs Unspecified",
+    "sub": "Who is missing the detail?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "\"Other\"",
+      "b": "The record HAS detail; no specific code exists"
+     },
+     {
+      "h": "\"Unspecified\"",
+      "b": "The record LACKS detail"
+     },
+     {
+      "h": "No unspecified code?",
+      "b": "\"Other specified\" may represent both"
+     },
+     {
+      "h": "Clue in Index",
+      "b": "NEC points to \"other\" codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Other or Unspecified?",
+   "content": "**Scenario 1:** The provider documents a condition with a specific type. The coder looks it up in the Alphabetic Index and the entry includes **NEC**. In the Tabular List, there is no code for that specific type.\n→ **\"Other\" code** (I.A.9.a). The record provides detail, but no specific code exists.\n\n**Scenario 2:** The provider documents only the general name of a condition with no type, site or other detail. The category has an unspecified code.\n→ **\"Unspecified\" code** (I.A.9.b). The record is insufficient to assign a more specific code.\n\n**Scenario 3:** Same as Scenario 2, but the category has **no** unspecified code.\n→ The **\"other specified\"** code may represent both other and unspecified (I.A.9.b).",
+   "visual": {
+    "title": "Choosing Between Them",
+    "sub": "Three scenarios, one decision rule",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Detail, no code",
+      "b": "\"Other\" code"
+     },
+     {
+      "h": "No detail",
+      "b": "\"Unspecified\" code"
+     },
+     {
+      "h": "No detail, no unspecified",
+      "b": "\"Other specified\" covers both"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider's documentation is too limited to assign a more specific code, and the category provides an unspecified code. According to Section I.A.9, which type of code should be used?",
+   "options": [
+    "An \"other\" code",
+    "An NEC code",
+    "No code until the provider adds detail",
+    "An \"unspecified\" code"
+   ],
+   "correct": 3,
+   "explanation": "Section I.A.9.b states: \"Codes titled 'unspecified' are for use when the information in the medical record is insufficient to assign a more specific code.\" \"Other\" codes (and the NEC entries that point to them, I.A.9.a) are for when the record provides detail for which a specific code does not exist - the opposite situation. The guidelines provide unspecified codes exactly so a code can be assigned when detail is limited.",
+   "visual": {
+    "topic": "Other vs unspecified",
+    "hint": "Is the detail missing from the record or from the classification?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A category has no unspecified code, and the documentation lacks detail. According to Section I.A.9.b, what may the \"other specified\" code represent in this category?",
+   "options": [
+    "Only conditions documented in detail",
+    "Both other and unspecified",
+    "Nothing; the category cannot be used",
+    "Only conditions marked NOS in the Index"
+   ],
+   "correct": 1,
+   "explanation": "Section I.A.9.b states: \"For those categories for which an unspecified code is not provided, the 'other specified' code may represent both other and unspecified.\" So it is not limited to detailed documentation, and the category can still be used. The text does not limit the code to NOS entries.",
+   "visual": {
+    "topic": "Unspecified codes",
+    "hint": "What fills the gap when there is no unspecified code?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.10"
+  },
+  {
+   "type": "official",
+   "ref": "I.A.11"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Includes Notes and Inclusion Terms",
+   "content": "**Includes notes (I.A.10)**\n• Appear **immediately under a three-character code title**.\n• They **further define, or give examples of, the content of the category**.\n\n**Inclusion terms (I.A.11)**\n• A list of terms included under **some codes**.\n• They are **the conditions for which that code is to be used**.\n• They may be **synonyms** of the code title, or - for **\"other specified\"** codes - a **list of the various conditions** assigned to that code.\n• **The inclusion terms are not necessarily exhaustive.** Additional terms found **only in the Alphabetic Index** may also be assigned to a code.\n\n**Exam trap:** Do not reject a code just because the documented term is not in its inclusion list. If the Alphabetic Index sends you to that code, it may still be correct.",
+   "visual": {
+    "title": "Includes vs Inclusion Terms",
+    "sub": "Two ways the Tabular List describes content",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Includes note",
+      "b": "Under a 3-character title; defines or gives examples"
+     },
+     {
+      "h": "Inclusion terms",
+      "b": "Under some codes; conditions that use the code"
+     },
+     {
+      "h": "Synonyms or a list",
+      "b": "List form for \"other specified\" codes"
+     },
+     {
+      "h": "Not exhaustive",
+      "b": "Index may add more terms"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: An Inclusion Term in Action",
+   "content": "Section I.A.12.a gives a real example of inclusion terms:\n\n• Code **F45.8**, Other somatoform disorders, has **\"teeth grinding\"** as an inclusion term.\n• **Psychogenic dysmenorrhea** is **also** an inclusion term under F45.8.\n\nNotice that F45.8 is an **\"other specified\"** code, and its inclusion terms are a **list of various conditions** assigned to that code - exactly what I.A.11 describes.\n\n**What this teaches:** Inclusion terms under an \"other\" code may look unrelated to each other. They are grouped because each is a condition the code is used for.",
+   "visual": {
+    "title": "Inclusion Terms Under F45.8",
+    "sub": "An \"other specified\" code lists various conditions",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "F45.8",
+      "b": "Other somatoform disorders"
+     },
+     {
+      "h": "Inclusion term",
+      "b": "Teeth grinding"
+     },
+     {
+      "h": "Inclusion term",
+      "b": "Psychogenic dysmenorrhea"
+     },
+     {
+      "h": "Why a list?",
+      "b": "\"Other specified\" codes list conditions"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents a condition. The Alphabetic Index directs the coder to a code, but the exact term is not listed among that code's inclusion terms in the Tabular List. According to Section I.A.11, what is true?",
+   "options": [
+    "The code cannot be used because the term is not listed",
+    "The coder must always use the unspecified code instead",
+    "The inclusion terms are not necessarily exhaustive, and additional terms found only in the Alphabetic Index may also be assigned to a code",
+    "The coder must report the category instead"
+   ],
+   "correct": 2,
+   "explanation": "Section I.A.11 states: \"The inclusion terms are not necessarily exhaustive. Additional terms found only in the Alphabetic Index may also be assigned to a code.\" So the code is not ruled out. Switching to an unspecified code ignores the Index direction. Reporting a category is not permitted when it is subdivided (I.A.3).",
+   "visual": {
+    "topic": "Inclusion terms",
+    "hint": "Are inclusion lists complete?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.12"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Two Types of Excludes Notes",
+   "content": "Section I.A.12 introduces **two types of Excludes notes**: **Excludes1** and **Excludes2**.\n\n• Each type has a **different definition for use**.\n• But they are similar in one way: they indicate that **codes excluded from each other are independent of each other**.\n\nThe next two cards cover each type. Keep this one-line summary in mind:\n\n• **Excludes1 = \"NOT CODED HERE!\"** - never used at the same time (with one exception).\n• **Excludes2 = \"Not included here\"** - both may be used together when appropriate.",
+   "visual": {
+    "title": "Excludes Notes",
+    "sub": "Two types, one shared idea: independence",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Excludes1",
+      "b": "\"NOT CODED HERE!\""
+     },
+     {
+      "h": "Excludes2",
+      "b": "\"Not included here\""
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.12.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Excludes1",
+   "content": "An **Excludes1** note is a **pure excludes note**. It means **\"NOT CODED HERE!\"**\n\n• The code excluded should **never be used at the same time** as the code above the Excludes1 note.\n• It is used when **two conditions cannot occur together**, such as a **congenital form versus an acquired form** of the same condition.\n\n**The exception**\n• An exception applies when **the two conditions are unrelated to each other**. Then both may be reported.\n• **If it is not clear whether the two conditions are related or not, query the provider.**\n\n**Think of it this way:** Excludes1 usually protects you from coding the same problem twice, or coding two forms that cannot both be true. If the two conditions clearly have nothing to do with each other, the note does not stop you.",
+   "visual": {
+    "title": "Excludes1",
+    "sub": "Never together - unless clearly unrelated",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Meaning",
+      "b": "\"NOT CODED HERE!\""
+     },
+     {
+      "h": "Rule",
+      "b": "Never use both codes at the same time"
+     },
+     {
+      "h": "Typical use",
+      "b": "Congenital vs acquired form"
+     },
+     {
+      "h": "Exception",
+      "b": "Conditions unrelated: both may be coded"
+     },
+     {
+      "h": "Unclear?",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: The Official Excludes1 Example (F45.8 and G47.63)",
+   "content": "Section I.A.12.a walks through this exact case:\n\n• Code **F45.8**, Other somatoform disorders, has an **Excludes1** note for **\"sleep related teeth grinding (G47.63)\"**.\n• Why? Because **\"teeth grinding\"** is an inclusion term under F45.8.\n\n**Case A - teeth grinding only:** Only **one** of these two codes should be assigned for teeth grinding. The Excludes1 note applies.\n\n**Case B - two different conditions:** The patient has **psychogenic dysmenorrhea** (also an inclusion term under F45.8) **and** sleep related teeth grinding.\n• These two conditions are **clearly unrelated** to each other.\n• So it is **appropriate to report F45.8 and G47.63 together** - the Excludes1 exception applies.\n\n**Case C - unclear relationship:** If it is not clear whether the two conditions involving an Excludes1 note are related, **query the provider**.",
+   "visual": {
+    "title": "F45.8 + G47.63",
+    "sub": "When the Excludes1 exception applies",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Teeth grinding only",
+      "b": "Assign only one of the two codes"
+     },
+     {
+      "h": "Dysmenorrhea + grinding",
+      "b": "Clearly unrelated: report both"
+     },
+     {
+      "h": "Not sure if related?",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Code F45.8 has an Excludes1 note for sleep related teeth grinding (G47.63). A patient has psychogenic dysmenorrhea (an inclusion term under F45.8) and sleep related teeth grinding. According to Section I.A.12.a, what should the coder do?",
+   "options": [
+    "Report F45.8 and G47.63 together, because the two conditions are clearly unrelated",
+    "Report only F45.8, because of the Excludes1 note",
+    "Report only G47.63, because of the Excludes1 note",
+    "Report neither code and query the provider"
+   ],
+   "correct": 0,
+   "explanation": "Section I.A.12.a uses this exact example: psychogenic dysmenorrhea and sleep related teeth grinding \"are clearly unrelated to each other, and so it would be appropriate to report F45.8 and G47.63 together.\" Reporting only one code would apply the Excludes1 rule where its exception applies. A query is needed only when it is not clear whether the conditions are related; here they are clearly unrelated.",
+   "visual": {
+    "topic": "Excludes1 exception",
+    "hint": "Are the two conditions related to each other?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Two conditions are linked by an Excludes1 note, and the documentation does not make clear whether they are related. According to Section I.A.12.a, what should the coder do?",
+   "options": [
+    "Report both codes",
+    "Report the first code listed in the record",
+    "Report neither code",
+    "Query the provider"
+   ],
+   "correct": 3,
+   "explanation": "Section I.A.12.a states: \"If it is not clear whether the two conditions involving an Excludes1 note are related or not, query the provider.\" Reporting both assumes the conditions are unrelated, which is not established. Picking the first code listed has no basis in the guideline. Reporting neither would leave documented conditions uncoded.",
+   "visual": {
+    "topic": "Excludes1 and queries",
+    "hint": "What does the guideline say to do when relatedness is unclear?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.12.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Excludes2",
+   "content": "An **Excludes2** note represents **\"Not included here.\"**\n\n• The condition excluded is **not part of the condition represented by the code**.\n• **But a patient may have both conditions at the same time.**\n• When an Excludes2 note appears under a code, it is **acceptable to use both the code and the excluded code together, when appropriate**.\n\n**What it does NOT mean:** Excludes2 does not *require* you to code the excluded condition. It only tells you the excluded condition is coded elsewhere and **may** be added when the patient has it.",
+   "visual": {
+    "title": "Excludes2",
+    "sub": "Not included here - but both may be coded",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Meaning",
+      "b": "\"Not included here\""
+     },
+     {
+      "h": "Excluded condition",
+      "b": "Not part of this code"
+     },
+     {
+      "h": "Both present?",
+      "b": "Patient may have both"
+     },
+     {
+      "h": "Coding",
+      "b": "Both codes OK, when appropriate"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Exam Trap: Excludes1 vs Excludes2 Side by Side",
+   "content": "**Excludes1**\n• Phrase: **\"NOT CODED HERE!\"**\n• The two conditions **cannot occur together** (e.g., congenital vs acquired form).\n• **Never** use both codes at the same time.\n• **Exception:** the two conditions are unrelated to each other. If unclear, query the provider.\n\n**Excludes2**\n• Phrase: **\"Not included here.\"**\n• The excluded condition is not part of this code, **but the patient may have both**.\n• Both codes may be used together **when appropriate**.\n\n**Memory hook:** Excludes**1** = only **1** of the two codes (unless unrelated). Excludes**2** = **2** codes are allowed.\n\n**Shared idea (I.A.12):** Both types indicate that the codes excluded from each other are **independent** of each other.",
+   "visual": {
+    "title": "Excludes1 vs Excludes2",
+    "sub": "The most-tested comparison in Section I.A",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Excludes1",
+      "b": "NOT CODED HERE! Never together"
+     },
+     {
+      "h": "Excludes2",
+      "b": "Not included here. May be together"
+     },
+     {
+      "h": "Excludes1 exception",
+      "b": "Unrelated conditions: both OK"
+     },
+     {
+      "h": "Memory hook",
+      "b": "1 = one code; 2 = two codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A code has an Excludes2 note for another condition. The patient has both conditions at the same time. According to Section I.A.12.b, what may the coder do?",
+   "options": [
+    "Report only the code above the note",
+    "Use both the code and the excluded code together, when appropriate",
+    "Report only the excluded code",
+    "Query the provider before reporting either"
+   ],
+   "correct": 1,
+   "explanation": "Section I.A.12.b states: \"When an Excludes2 note appears under a code, it is acceptable to use both the code and the excluded code together, when appropriate,\" because \"a patient may have both conditions at the same time.\" Reporting only one would leave a documented condition uncoded. The query instruction belongs to Excludes1 when relatedness is unclear, not to Excludes2.",
+   "visual": {
+    "topic": "Excludes2",
+    "hint": "\"Not included here\" is not the same as \"never together.\""
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which phrase does Section I.A.12 use to describe an Excludes1 note?",
+   "options": [
+    "\"Not included here\"",
+    "\"Code also\"",
+    "\"NOT CODED HERE!\"",
+    "\"Use additional code\""
+   ],
+   "correct": 2,
+   "explanation": "Section I.A.12.a says a type 1 Excludes note \"is a pure excludes note. It means 'NOT CODED HERE!'\" \"Not included here\" describes Excludes2 (I.A.12.b). \"Code also\" and \"use additional code\" are different instructional notes covered in Lesson 04, not Excludes notes.",
+   "visual": {
+    "topic": "Excludes1 definition",
+    "hint": "One of these is a pure excludes note."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying It: Reading the Notes on a Real Record",
+   "content": "When you verify a code in the Tabular List, work through these steps based on Sections I.A.7 - I.A.12:\n\n1. **Read the punctuation.** Words in parentheses are nonessential modifiers. A colon means one of the following modifiers must be documented. Brackets in the Index flag a manifestation code.\n2. **Watch for modifier/subentry conflicts.** If they are mutually exclusive, the subentry takes precedence (I.A.7).\n3. **Decide other vs unspecified.** Detail present but no specific code = \"other.\" Detail missing = \"unspecified.\" No unspecified code = \"other specified\" may represent both (I.A.9).\n4. **Read the Includes note** under the three-character title and the **inclusion terms** under the code. Remember inclusion terms are not exhaustive (I.A.11).\n5. **Check every Excludes note** that applies to the code.\n6. **Excludes1:** Do not report both - unless the two conditions are unrelated. If unclear, query the provider.\n7. **Excludes2:** Report both when the patient has both and it is appropriate.",
+   "visual": {
+    "title": "Verifying a Code",
+    "sub": "Seven checks for Section I.A.7 - I.A.12",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2. Punctuation",
+      "b": "Modifiers, colons, brackets"
+     },
+     {
+      "h": "3. Other / unspecified",
+      "b": "Who lacks the detail?"
+     },
+     {
+      "h": "4. Includes",
+      "b": "Notes and inclusion terms"
+     },
+     {
+      "h": "5-7. Excludes",
+      "b": "1: never together; 2: may be together"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Brackets**: synonyms/explanations in the Tabular List; **manifestation codes** in the Index. **Parentheses**: nonessential modifiers in both. **Colon**: Tabular term needs a following modifier. **Comma**: Index; meaning depends on context.\n• Nonessential modifiers apply to subterms - **unless mutually exclusive, then the subentry takes precedence** (Enteritis: \"acute\" does not apply to \"chronic\").\n• **\"Other\"** codes: the record has detail for which no specific code exists (Index NEC). **\"Unspecified\"** codes: the record is insufficient. With no unspecified code, \"other specified\" may represent both.\n• **Includes notes** sit under three-character titles. **Inclusion terms** are not exhaustive.\n• **Excludes1** = \"NOT CODED HERE!\" - never together, **except** when the conditions are unrelated; if unclear, **query the provider**.\n• **Excludes2** = \"Not included here\" - both may be coded together when appropriate.",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Conventions II in one view",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Punctuation",
+      "b": "[ ] ( ) : ,"
+     },
+     {
+      "h": "Other vs unspecified",
+      "b": "Classification vs record lacks detail"
+     },
+     {
+      "h": "Inclusion terms",
+      "b": "Not exhaustive"
+     },
+     {
+      "h": "Excludes1 / 2",
+      "b": "Never together / may be together"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which situation is the guidelines' example of when an Excludes1 note is used?",
+   "options": [
+    "A congenital form versus an acquired form of the same condition",
+    "Two conditions that commonly occur together",
+    "A condition and its manifestation",
+    "Any two conditions in the same chapter"
+   ],
+   "correct": 0,
+   "explanation": "Section I.A.12.a states: \"An Excludes1 is used when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition.\" Conditions that can occur together match the Excludes2 description (\"a patient may have both conditions at the same time\"), not Excludes1. Etiology and manifestation pairs are handled by \"code first\" and \"use additional code\" notes (I.A.13). Being in the same chapter is not a criterion in the text.",
+   "visual": {
+    "topic": "Excludes1 use",
+    "hint": "Excludes1 is for conditions that cannot occur together."
+   }
+  }
+ ]
+}
