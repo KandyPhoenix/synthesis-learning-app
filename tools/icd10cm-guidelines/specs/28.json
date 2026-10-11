@@ -1,0 +1,572 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Burns and Corrosions",
+   "content": "Burn coding asks you to track several things at once: the **type** of burn, its **depth**, its **site**, how much **body surface** is involved, whether it is **current or a sequela**, and the **external cause.** Section I.C.19.d brings all of these together.\n\nThis lesson shows Section I.C.19.d word for word, then breaks it into parts:\n\n• Burns vs. corrosions, and how current burns are classified\n• Sequencing multiple burns and related conditions (1)\n• Burns of the same site (2), non-healing burns (3), infected burns (4)\n• Separate codes for each site, and when T30 or \"multiple sites\" codes apply (5)\n• Extent of body surface: categories T31 and T32 and the rule of nines (6)\n• Sequela of burns, and current burns with sequelae on the same record (7, 8)\n• External cause codes with burns (9)",
+   "visual": {
+    "title": "Burns and corrosions",
+    "sub": "Section I.C.19.d",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "What kind?",
+      "b": "Burn (heat, electricity, radiation) or corrosion (chemical)"
+     },
+     {
+      "h": "How deep and where?",
+      "b": "Depth by degree; separate code per site"
+     },
+     {
+      "h": "How much?",
+      "b": "T31/T32 extent of body surface"
+     },
+     {
+      "h": "Current or old?",
+      "b": "A or D for current; S for sequela"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.19.d"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Burns vs. Corrosions",
+   "content": "Section I.C.19.d starts with definitions.\n\n• **Burn codes** are for **thermal burns** that come from a **heat source**, such as a fire or hot appliance. They are also for burns from **electricity** and **radiation.**\n• **Sunburns are an exception:** the guideline says burn codes are for thermal burns *except sunburns.*\n• **Corrosions** are burns due to **chemicals.**\n• **The guidelines are the same** for burns and corrosions.\n\n**What it means:** Choosing between a burn and a corrosion code depends on the cause. Once you have chosen, every rule in this section applies the same way to both.",
+   "visual": {
+    "title": "Burn or corrosion?",
+    "sub": "Section I.C.19.d, opening",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Burn",
+      "b": "Heat source (fire, hot appliance), electricity, radiation"
+     },
+     {
+      "h": "Not a burn code",
+      "b": "Sunburn"
+     },
+     {
+      "h": "Corrosion",
+      "b": "Burn due to chemicals"
+     },
+     {
+      "h": "Rules",
+      "b": "Same guidelines for both"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: How Current Burns Are Classified",
+   "content": "**Current burns (T20-T25)** are classified three ways:\n\n• by **depth**,\n• by **extent**, and\n• by **agent** (X code).\n\n**Depth (degree):**\n• **First degree** = erythema (redness)\n• **Second degree** = blistering\n• **Third degree** = full-thickness involvement\n\n**Eye and internal organs (T26-T28)** are different: they are classified **by site, but not by degree.**\n\n**Exam trap:** Do not look for a degree when coding a burn of the eye or an internal organ. Those categories do not use degree.",
+   "visual": {
+    "title": "Classifying current burns",
+    "sub": "Section I.C.19.d",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "T20-T25",
+      "b": "Depth, extent and agent (X code)"
+     },
+     {
+      "h": "First degree",
+      "b": "Erythema"
+     },
+     {
+      "h": "Second degree",
+      "b": "Blistering"
+     },
+     {
+      "h": "Third degree",
+      "b": "Full-thickness involvement"
+     },
+     {
+      "h": "T26-T28 eye/internal",
+      "b": "By site, NOT by degree"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.19.d, how are burns of the eye and internal organs (T26-T28) classified?",
+   "options": [
+    "By site, but not by degree",
+    "By degree only",
+    "By extent of body surface only",
+    "By the rule of nines"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.19.d states that burns of the eye and internal organs (T26-T28) are classified by site, but not by degree. Depth by degree applies to current burns T20-T25, not T26-T28. Extent of body surface is captured by T31/T32, and the rule of nines is the basis for T31 and T32, not for classifying eye and internal organ burns.",
+   "visual": {
+    "topic": "Burns of eye and internal organs",
+    "hint": "Which burns are classified without a degree?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Sequencing Burns (Rule 1)",
+   "content": "Section I.C.19.d.1 sets the sequencing rules:\n\n• **More than one burn:** sequence first the code for the **highest degree** of burn.\n• **(a)** When the encounter is for treatment of **external multiple burns**, sequence first the burn of the **highest degree.**\n• **(b)** When a patient has **both internal and external burns**, the **circumstances of admission** govern the principal or first-listed diagnosis.\n• **(c)** When a patient is admitted for burn injuries **and other related conditions such as smoke inhalation and/or respiratory failure**, the **circumstances of admission** govern the principal or first-listed diagnosis.\n\n**What it does NOT mean:** The highest-degree rule is for multiple *external* burns. It does not automatically put an external burn ahead of an internal burn or a related condition like respiratory failure; for those, the circumstances of admission decide.",
+   "visual": {
+    "title": "Burn sequencing",
+    "sub": "Section I.C.19.d.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Multiple external burns",
+      "b": "Highest degree first"
+     },
+     {
+      "h": "Internal + external",
+      "b": "Circumstances of admission decide"
+     },
+     {
+      "h": "Burns + smoke inhalation",
+      "b": "Circumstances of admission decide"
+     },
+     {
+      "h": "Burns + resp. failure",
+      "b": "Circumstances of admission decide"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Sequencing Burns",
+   "content": "**Scenario 1:** A patient is treated for a first-degree burn of one arm and a third-degree burn of the other arm.\n→ Section I.C.19.d.1(a): external multiple burns → sequence the **third-degree burn first.**\n\n**Scenario 2:** A patient is admitted with external burns and smoke inhalation after a house fire.\n→ Section I.C.19.d.1(c): the **circumstances of admission** determine which is principal.\n\n**Scenario 3:** A patient has both internal and external burns.\n→ Section I.C.19.d.1(b): the **circumstances of admission** determine which is principal.",
+   "visual": {
+    "title": "Which burn goes first?",
+    "sub": "Applying Section I.C.19.d.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Several external burns",
+      "b": "Highest degree first"
+     },
+     {
+      "h": "Burns + smoke inhalation",
+      "b": "Circumstances of admission"
+     },
+     {
+      "h": "Internal + external burns",
+      "b": "Circumstances of admission"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for burn injuries and respiratory failure. According to Section I.C.19.d.1, what determines the principal diagnosis?",
+   "options": [
+    "The burn is always principal",
+    "The respiratory failure is always principal",
+    "The circumstances of admission",
+    "Whichever condition is listed first in the record"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.d.1(c) states that when a patient is admitted for burn injuries and other related conditions such as smoke inhalation and/or respiratory failure, the circumstances of admission govern the selection of the principal or first-listed diagnosis. Neither condition is 'always' principal, and the order in the record does not decide it.",
+   "visual": {
+    "topic": "Burns with related conditions",
+    "hint": "What does I.C.19.d.1(c) say governs?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Same Site, Non-Healing and Infected Burns (Rules 2-4)",
+   "content": "**2) Burns of the same anatomic site:** When burns are on the **same site and same side** but of **different degrees**, classify them to the subcategory for the **highest degree recorded.** The guideline's example: for second and third degree burns of the right thigh, assign **only code T24.311-.**\n\n**3) Non-healing burns:** Non-healing burns are coded as **acute burns.** **Necrosis of burned skin** is coded as a **non-healed burn.**\n\n**4) Infected burn:** For any documented **infected burn site**, use an **additional code for the infection.**\n\n**Compare with Rule 1:** Rule 1 sequences burns at *different* sites by highest degree. Rule 2 combines burns at the *same* site and side into *one* code for the highest degree.",
+   "visual": {
+    "title": "Rules 2, 3 and 4",
+    "sub": "Section I.C.19.d.2 to I.C.19.d.4",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Same site + side",
+      "b": "One code: highest degree (e.g., T24.311-)"
+     },
+     {
+      "h": "Non-healing burn",
+      "b": "Code as an acute burn"
+     },
+     {
+      "h": "Necrosis of burned skin",
+      "b": "Code as a non-healed burn"
+     },
+     {
+      "h": "Infected burn site",
+      "b": "Add a code for the infection"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has second and third degree burns of the right thigh. According to Section I.C.19.d.2, what is coded?",
+   "options": [
+    "One code for the second degree burn and one for the third degree burn",
+    "Only T24.311-, for the highest degree recorded",
+    "T30, Burn and corrosion, body region unspecified",
+    "A code from T31 only"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.d.2 says burns of the same anatomic site and same side but of different degrees are classified to the subcategory for the highest degree recorded, and gives this exact example: assign only code T24.311-. Two separate codes contradict 'assign only.' T30 is vague and should rarely be used; the site here is known. T31 is for extent of body surface, used when the site is not specified or more data is needed, not as the only code for a known site.",
+   "visual": {
+    "topic": "Burns of the same site",
+    "hint": "Same site, same side, different degrees."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient returns with necrosis of burned skin. According to Section I.C.19.d.3, how is it coded?",
+   "options": [
+    "As a sequela with 7th character S",
+    "As a non-healed burn",
+    "As a healed burn with no code",
+    "As a corrosion"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.d.3 states that non-healing burns are coded as acute burns and necrosis of burned skin should be coded as a non-healed burn. A sequela (S) is for late effects such as scars or contractures of a healed burn, not a burn that has not healed. The burn has not healed, so 'healed with no code' is wrong. Corrosion means a chemical burn and has nothing to do with healing status.",
+   "visual": {
+    "topic": "Non-healing burns",
+    "hint": "Has this burn healed?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Separate Codes for Each Site (Rule 5)",
+   "content": "Section I.C.19.d.5 says:\n\n• **Assign separate codes for each burn site.**\n• **Category T30**, Burn and corrosion, body region unspecified, is **extremely vague** and should **rarely be used.**\n• Codes for burns of **\"multiple sites\"** should only be assigned when the documentation **does not specify the individual sites.**\n\n**What it means:** When the record names each burned site, code each one. The vague options (T30, \"multiple sites\") are a last resort when the record does not give the detail.",
+   "visual": {
+    "title": "One code per site",
+    "sub": "Section I.C.19.d.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Each burn site",
+      "b": "Its own code"
+     },
+     {
+      "h": "T30 region unspecified",
+      "b": "Extremely vague; rarely used"
+     },
+     {
+      "h": "Multiple sites code",
+      "b": "Only if individual sites not specified"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Extent of Body Surface (Rule 6)",
+   "content": "Section I.C.19.d.6 covers **T31** (burns classified by extent of body surface) and **T32** (corrosions classified by extent).\n\n**Assign T31 or T32 for acute burns or corrosions when:**\n• the site is **not specified**, or\n• there is a **need for additional data.**\n\n**When T31 is advisable as an additional code:**\n• to provide data for **evaluating burn mortality**, such as data needed by **burn units**;\n• for reporting purposes when there is mention of a **third-degree burn involving 20 percent or more** of the body surface.\n\n**Never:** T31 and T32 should **not be used for sequelae** of burns or corrosions.",
+   "visual": {
+    "title": "T31 and T32",
+    "sub": "Section I.C.19.d.6",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Use when",
+      "b": "Site not specified, or more data needed"
+     },
+     {
+      "h": "Advisable",
+      "b": "Burn mortality data; burn units"
+     },
+     {
+      "h": "Also advisable",
+      "b": "Third degree burn of 20% or more"
+     },
+     {
+      "h": "Never",
+      "b": "For sequelae of burns or corrosions"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Rule of Nines",
+   "content": "Categories T31 and T32 are based on the classic **rule of nines** for estimating body surface involved. The guideline assigns:\n\n• **Head and neck:** 9 percent\n• **Each arm:** 9 percent\n• **Each leg:** 18 percent\n• **Anterior trunk:** 18 percent\n• **Posterior trunk:** 18 percent\n• **Genitalia:** 1 percent\n\nAdded together: 9 + 9 + 9 + 18 + 18 + 18 + 18 + 1 = **100 percent.** (Head/neck 9, two arms 18, two legs 36, anterior trunk 18, posterior trunk 18, genitalia 1.)\n\n**Adjustments:** Providers may change these percentages for **infants and children**, who have proportionately larger heads than adults, and for patients who have **large buttocks, thighs, or abdomen** that involve burns.",
+   "visual": {
+    "title": "Rule of nines",
+    "sub": "Section I.C.19.d.6",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Head and neck",
+      "b": "9%"
+     },
+     {
+      "h": "Each arm",
+      "b": "9%"
+     },
+     {
+      "h": "Each leg",
+      "b": "18%"
+     },
+     {
+      "h": "Anterior trunk",
+      "b": "18%"
+     },
+     {
+      "h": "Posterior trunk",
+      "b": "18%"
+     },
+     {
+      "h": "Genitalia",
+      "b": "1%"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Using the Rule of Nines",
+   "content": "**Scenario:** A patient has burns of the entire anterior trunk and the entire right arm.\n\n**Step 1 - Look up each area in the rule of nines (Section I.C.19.d.6):**\n• Anterior trunk = 18 percent\n• One arm = 9 percent\n\n**Step 2 - Add them:** 18 + 9 = **27 percent** of the body surface.\n\n**Step 3 - Apply the guideline:** Each burn site still gets its own code (I.C.19.d.5). A T31 code may be added when there is a need for additional data. If the documentation mentions a **third-degree burn involving 20 percent or more** of the body surface, T31 is advisable as an additional code for reporting purposes.\n\n**Note:** The provider may adjust the percentages for a child or for a patient with large buttocks, thighs or abdomen involved.",
+   "visual": {
+    "title": "Adding up body surface",
+    "sub": "Anterior trunk + one arm",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Anterior trunk",
+      "b": "18%"
+     },
+     {
+      "h": "Right arm",
+      "b": "9%"
+     },
+     {
+      "h": "Total",
+      "b": "18 + 9 = 27%"
+     },
+     {
+      "h": "Third degree, 20%+",
+      "b": "T31 advisable as an additional code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Using the rule of nines in Section I.C.19.d.6, what percentage is assigned to both legs together?",
+   "options": [
+    "18 percent",
+    "9 percent",
+    "27 percent",
+    "36 percent"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.19.d.6 assigns each leg 18 percent, so both legs are 18 + 18 = 36 percent. 18 percent is one leg only. 9 percent is the value for each arm or the head and neck. 27 percent does not match any combination of two legs.",
+   "visual": {
+    "topic": "Rule of nines",
+    "hint": "How much is each leg worth?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.19.d.6, which statement about categories T31 and T32 is correct?",
+   "options": [
+    "They are the first-listed codes for every burn",
+    "They should not be used for sequelae of burns or corrosions",
+    "They are used only for burns of the eye and internal organs",
+    "Providers may never adjust their percentages"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.d.6 says codes from T31 and T32 should not be used for sequelae of burns or corrosions. The guideline does not make them first-listed for every burn; they are for acute burns when the site is not specified or more data is needed. Eye and internal organ burns are T26-T28. The text says providers may change the percentages for infants and children and for patients with large buttocks, thighs or abdomen involved.",
+   "visual": {
+    "topic": "T31 and T32",
+    "hint": "Current burns, or sequelae?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Sequela of Burns (Rules 7 and 8)",
+   "content": "**7) Encounters for treatment of sequela of burns:** Encounters for the **late effects** of burns or corrosions (for example, **scars or joint contractures**) are coded with a burn or corrosion code with **7th character S** for sequela.\n\n**8) Sequelae with a current burn:** When appropriate, a code for a **current burn** (7th character **A** or **D**) and a burn code with 7th character **S** may **both** be assigned on the same record, when both a current burn and sequelae of an old burn exist.\n\n**Why both?** The guideline explains that burns and corrosions **do not heal at the same rate.** A current healing wound may still exist alongside the sequela of a burn that has already healed.\n\nSee **Section I.B.10, Sequela (Late Effects).**",
+   "visual": {
+    "title": "Current burn + old sequela",
+    "sub": "Section I.C.19.d.7 and I.C.19.d.8",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Scar or contracture",
+      "b": "Burn code with 7th character S"
+     },
+     {
+      "h": "Current burn",
+      "b": "7th character A or D"
+     },
+     {
+      "h": "Both present?",
+      "b": "Both may be on the same record"
+     },
+     {
+      "h": "Reason",
+      "b": "Burns do not heal at the same rate"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: External Cause Codes With Burns (Rule 9)",
+   "content": "Section I.C.19.d.9 says an **external cause code should be used** with burns and corrosions to identify:\n\n• the **source** of the burn,\n• the **intent**, and\n• the **place where it occurred.**\n\nThis is part of how current burns are classified \"by agent (X code),\" mentioned at the start of Section I.C.19.d.",
+   "visual": {
+    "title": "External cause with burns",
+    "sub": "Section I.C.19.d.9",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Source",
+      "b": "What caused the burn"
+     },
+     {
+      "h": "Intent",
+      "b": "How it happened"
+     },
+     {
+      "h": "Place",
+      "b": "Where it occurred"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Burns Over Time",
+   "content": "**Scenario:** A patient comes in for treatment of a contracture caused by an old, healed burn of the hand. During the same visit, the provider also treats a new burn of the forearm.\n\n• **Old burn contracture:** Section I.C.19.d.7 → burn code with **7th character S** (sequela). Per Section I.C.19.a, the specific sequela (the contracture) is sequenced first, followed by the burn code with S.\n• **New forearm burn:** current burn → 7th character **A** (or **D**, depending on whether active treatment is complete).\n• **Both together:** Section I.C.19.d.8 allows both on the same record.\n• **External cause:** Section I.C.19.d.9 → add an external cause code for the source, intent and place of the current burn.\n• **T31?** Not for the sequela (I.C.19.d.6).",
+   "visual": {
+    "title": "Old and new burns together",
+    "sub": "Applying I.C.19.d.6 to I.C.19.d.9",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Old burn contracture",
+      "b": "Contracture, then burn code with S"
+     },
+     {
+      "h": "New forearm burn",
+      "b": "Burn code with A or D"
+     },
+     {
+      "h": "Same record?",
+      "b": "Yes, both allowed"
+     },
+     {
+      "h": "T31 for sequela?",
+      "b": "No"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is treated for a scar from a healed burn and also for a current burn at another site. According to Section I.C.19.d.8, what is correct?",
+   "options": [
+    "Code only the current burn",
+    "Code only the sequela",
+    "Both a current burn code (7th character A or D) and a burn code with 7th character S may be assigned",
+    "Use a T31 code for both"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.d.8 says that when appropriate, both a code for a current burn with 7th character A or D and a burn code with 7th character S may be assigned on the same record when both a current burn and sequelae of an old burn exist, because burns do not heal at the same rate. Coding only one leaves out a condition being treated. T31/T32 should not be used for sequelae (I.C.19.d.6).",
+   "visual": {
+    "topic": "Current burn and sequela",
+    "hint": "Can both appear on one record?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Coding Burns and Corrosions Step by Step",
+   "content": "1. **Burn or corrosion?** Heat source, electricity or radiation → burn; chemicals → corrosion. Sunburn is not coded with these burn codes (I.C.19.d).\n2. **Current or sequela?** Scars or contractures from a healed burn → 7th character S (I.C.19.d.7). Non-healing burns and necrosis of burned skin → acute (I.C.19.d.3).\n3. **Code each site separately.** Avoid T30 and \"multiple sites\" unless the sites are not specified (I.C.19.d.5).\n4. **Same site and side, different degrees?** One code for the highest degree (I.C.19.d.2).\n5. **Eye or internal organ?** T26-T28 by site, not degree (I.C.19.d).\n6. **Infection?** Add a code for the infection (I.C.19.d.4).\n7. **Sequence:** multiple external burns → highest degree first; internal + external, or burns + smoke inhalation/respiratory failure → circumstances of admission (I.C.19.d.1).\n8. **Extent:** T31/T32 when the site is not specified or more data is needed; advisable for burn-mortality data and for a third-degree burn of 20 percent or more; never for sequelae (I.C.19.d.6).\n9. **External cause code** for source, intent and place (I.C.19.d.9).",
+   "visual": {
+    "title": "Burn coding workflow",
+    "sub": "Nine checks",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2",
+      "b": "Type; current or sequela"
+     },
+     {
+      "h": "3-6",
+      "b": "Site codes, same-site rule, eye, infection"
+     },
+     {
+      "h": "7",
+      "b": "Sequencing"
+     },
+     {
+      "h": "8-9",
+      "b": "T31/T32 extent; external cause"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Burns** come from heat sources (not sunburn), electricity and radiation; **corrosions** are chemical burns; the same rules apply to both.\n• Current burns **T20-T25**: depth, extent and agent. **T26-T28** (eye, internal organs): site only, no degree.\n• Multiple external burns: **highest degree first.** Internal + external, or burns + smoke inhalation/respiratory failure: **circumstances of admission.**\n• Same site and side, different degrees: **one code for the highest degree** (e.g., T24.311-).\n• Non-healing burns and necrosis = **acute/non-healed**; infected burn = **add infection code.**\n• **Separate codes for each site**; T30 and \"multiple sites\" only when sites are not specified.\n• **T31/T32** use the rule of nines (9, 9 each arm, 18 each leg, 18, 18, 1); advisable for a third-degree burn of 20 percent or more; **never for sequelae.**\n• Sequela = **7th character S**; may be coded with a current burn (A or D). Always add an **external cause code.**",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Section I.C.19.d",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Type and depth",
+      "b": "Burn vs corrosion; degree by depth"
+     },
+     {
+      "h": "Sequencing",
+      "b": "Highest degree, or circumstances"
+     },
+     {
+      "h": "Extent",
+      "b": "T31/T32, rule of nines, not sequela"
+     },
+     {
+      "h": "Time",
+      "b": "S for sequela; A/D for current"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Burn documentation lists the specific sites of each burn. A student wants to use T30, Burn and corrosion, body region unspecified. According to Section I.C.19.d.5, is this correct?",
+   "options": [
+    "Yes, T30 is preferred for patients with several burns",
+    "Yes, but only with a T31 code",
+    "No, because T30 is only for corrosions",
+    "No, assign separate codes for each burn site; T30 is extremely vague and should rarely be used"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.19.d.5 says to assign separate codes for each burn site, that T30 is extremely vague and should rarely be used, and that 'multiple sites' codes should only be assigned when the documentation does not specify the individual sites. Here the sites are documented. T30 is not preferred for multiple burns, and pairing it with T31 does not fix the problem. T30's title includes both burns and corrosions, so 'only for corrosions' is wrong.",
+   "visual": {
+    "topic": "Separate burn sites",
+    "hint": "Are the individual sites documented?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.19.d, which of the following is a corrosion?",
+   "options": [
+    "A burn from a hot appliance",
+    "A burn due to a chemical",
+    "A burn from electricity",
+    "A burn from radiation"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.d defines corrosions as burns due to chemicals. Burns from a heat source such as a hot appliance, and burns from electricity and radiation, are all covered by the burn codes, not the corrosion codes.",
+   "visual": {
+    "topic": "Burns vs corrosions",
+    "hint": "What causes a corrosion?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,596 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Start Here: How the Official Guidelines Work",
+   "content": "Every ICD-10-CM code you assign on an exam or on the job is governed by two things: the **classification itself** (the Alphabetic Index and Tabular List, with their conventions and instructional notes) and the **ICD-10-CM Official Guidelines for Coding and Reporting**.\n\nThis lesson is your map of the guidelines before you study any single rule. You will learn:\n\n• **Who** publishes the guidelines and who approves them (the Cooperating Parties)\n• **Why** following them is not optional (HIPAA)\n• **What wins** when the classification and the guidelines seem to disagree\n• **How** the document is organized: Sections I, II, III and IV, plus Appendix I\n• Two key definitions used everywhere: **encounter** and **provider**\n• **What changed** in the FY 2027 edition (effective October 1, 2026 - September 30, 2027)\n\nEvery later lesson builds on this foundation, so read it carefully.",
+   "visual": {
+    "title": "Your Map of the Guidelines",
+    "sub": "Who writes them, why they are required, how they are organized",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Who",
+      "b": "CMS and NCHS provide them; the 4 Cooperating Parties approve"
+     },
+     {
+      "h": "Why",
+      "b": "Adherence is required under HIPAA"
+     },
+     {
+      "h": "What wins",
+      "b": "Classification conventions take precedence over guidelines"
+     },
+     {
+      "h": "How organized",
+      "b": "Sections I-IV, plus Appendix I"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "PREFACE"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: What the Guidelines Are",
+   "content": "The Introduction says the guidelines are provided by two federal agencies within the Department of Health and Human Services (DHHS):\n\n• **CMS** - the Centers for Medicare and Medicaid Services\n• **NCHS** - the National Center for Health Statistics\n\nKey facts from the text:\n\n• The guidelines are a **companion document** to the official version of ICD-10-CM published on the NCHS website. You use them together; one does not replace the other.\n• **ICD-10-CM** stands for International Classification of Diseases, 10th Revision, Clinical Modification.\n• ICD-10-CM is a **morbidity classification** (a system for classifying illness, not just causes of death) published by the United States for classifying **diagnoses and reason for visits in all health care settings**.\n• ICD-10-CM is **based on ICD-10**, the statistical classification of disease published by the **World Health Organization (WHO)**.\n\n**What it does NOT mean:** The guidelines are not a code book. They do not list codes for you to pick from. They are rules that accompany the codes in the Index and Tabular List.",
+   "visual": {
+    "title": "Where ICD-10-CM Comes From",
+    "sub": "From the WHO classification to the U.S. guidelines",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "WHO",
+      "b": "Publishes ICD-10, the statistical classification of disease"
+     },
+     {
+      "h": "United States",
+      "b": "ICD-10-CM: a morbidity classification based on ICD-10"
+     },
+     {
+      "h": "CMS + NCHS",
+      "b": "Provide the guidelines as a companion document"
+     },
+     {
+      "h": "All settings",
+      "b": "Used to classify diagnoses and reasons for visits"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Cooperating Parties",
+   "content": "The guidelines are **approved** by the four organizations that make up the **Cooperating Parties for the ICD-10-CM**:\n\n1. **AHA** - American Hospital Association\n2. **AHIMA** - American Health Information Management Association\n3. **CMS** - Centers for Medicare and Medicaid Services\n4. **NCHS** - National Center for Health Statistics\n\nThe Introduction ends that thought with an important sentence: **\"Only this set of guidelines, approved by the Cooperating Parties, is official.\"**\n\n**Exam trap:** Notice the difference between *providing* and *approving*. CMS and NCHS **provide** the guidelines. All **four** Cooperating Parties **approve** them. If an exam answer lists WHO or the AMA as a Cooperating Party, it is wrong - the text names only AHA, AHIMA, CMS and NCHS.",
+   "visual": {
+    "title": "The 4 Cooperating Parties",
+    "sub": "Only guidelines they approve are official",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "AHA",
+      "b": "American Hospital Association"
+     },
+     {
+      "h": "AHIMA",
+      "b": "American Health Information Management Association"
+     },
+     {
+      "h": "CMS",
+      "b": "Centers for Medicare and Medicaid Services"
+     },
+     {
+      "h": "NCHS",
+      "b": "National Center for Health Statistics"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to the Introduction to the guidelines, which group of organizations makes up the Cooperating Parties for the ICD-10-CM?",
+   "options": [
+    "AHA, AMA, CMS and WHO",
+    "AHIMA, CMS, NCHS and WHO",
+    "AHA, AHIMA, CMS and NCHS",
+    "CMS and NCHS only"
+   ],
+   "correct": 2,
+   "explanation": "The Introduction states the guidelines \"have been approved by the four organizations that make up the Cooperating Parties for the ICD-10-CM: the American Hospital Association (AHA), the American Health Information Management Association (AHIMA), CMS, and NCHS.\" The AMA is not named. WHO publishes ICD-10, the base classification, but is not a Cooperating Party. CMS and NCHS alone *provide* the guidelines, but approval comes from all four Cooperating Parties.",
+   "visual": {
+    "topic": "Cooperating Parties",
+    "hint": "Four organizations approve the guidelines - two of them are federal agencies."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Conventions Take Precedence",
+   "content": "The guidelines are **\"a set of rules that have been developed to accompany and complement the official conventions and instructions provided within the ICD-10-CM itself.\"**\n\nThen comes one of the most important sentences in the whole document:\n\n**\"The instructions and conventions of the classification take precedence over guidelines.\"**\n\nWhat this means for you:\n\n• **Conventions and instructions** are the notes built into the Alphabetic Index and Tabular List (for example, Excludes1 notes, \"code first\" notes, and 7th character requirements).\n• If an instruction in the Tabular List or Index tells you to do something, that instruction **wins** over a general guideline.\n• The guidelines are **based on** the coding and sequencing instructions in the Tabular List and Alphabetic Index, **but provide additional instruction**.\n\n**What it does NOT mean:** It does not mean the guidelines are optional. They are required (see the HIPAA card). It only sets the order of authority when the two seem to conflict.",
+   "visual": {
+    "title": "Order of Authority",
+    "sub": "When the classification and a guideline differ",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "1st: Classification",
+      "b": "Conventions and instructions in the Index and Tabular List"
+     },
+     {
+      "h": "2nd: Guidelines",
+      "b": "Accompany, complement and add instruction"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: HIPAA Makes the Guidelines Required",
+   "content": "The Introduction states: **\"Adherence to these guidelines when assigning ICD-10-CM diagnosis codes is required under the Health Insurance Portability and Accountability Act (HIPAA).\"**\n\nIt also says the **diagnosis codes (Tabular List and Alphabetic Index) have been adopted under HIPAA for all healthcare settings.**\n\nSo two things are tied to HIPAA:\n\n• The **code set** itself (Tabular List and Alphabetic Index), adopted for all healthcare settings\n• **Adherence to the guidelines** when assigning ICD-10-CM diagnosis codes\n\n**What it does NOT mean:** This lesson only states what the guidelines text says. The text does not describe HIPAA penalties or enforcement, so do not assume details that are not in it.",
+   "visual": {
+    "title": "HIPAA and ICD-10-CM",
+    "sub": "Two things the Introduction ties to HIPAA",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "The code set",
+      "b": "Tabular List and Index adopted under HIPAA for all settings"
+     },
+     {
+      "h": "The guidelines",
+      "b": "Adherence is required when assigning diagnosis codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A new coder says, \"The official guidelines are just helpful suggestions - I can skip them if I know the codes.\" Based on the Introduction, what is the best response?",
+   "options": [
+    "Adherence to the guidelines when assigning ICD-10-CM diagnosis codes is required under HIPAA",
+    "That is correct; only the Tabular List is required",
+    "That is correct for outpatient settings only",
+    "The guidelines are required only for Medicare patients"
+   ],
+   "correct": 0,
+   "explanation": "The Introduction states that \"adherence to these guidelines when assigning ICD-10-CM diagnosis codes is required under the Health Insurance Portability and Accountability Act (HIPAA).\" It does not limit this to the Tabular List, to outpatient settings, or to Medicare patients. In fact, the text says the code set was adopted under HIPAA \"for all healthcare settings.\"",
+   "visual": {
+    "topic": "HIPAA requirement",
+    "hint": "What does the Introduction say about following the guidelines?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Documentation and the Whole Record",
+   "content": "The Introduction stresses teamwork and documentation:\n\n• **\"A joint effort between the healthcare provider and the coder is essential\"** to achieve complete and accurate documentation, code assignment, and reporting.\n• The guidelines were developed to assist **both** the provider and the coder in identifying the diagnoses to report.\n• **\"The importance of consistent, complete documentation in the medical record cannot be overemphasized. Without such documentation accurate coding cannot be achieved.\"**\n• **\"The entire record should be reviewed\"** to determine the specific reason for the encounter and the conditions treated.\n\n**Why it matters:** A coder codes from documentation. If the record does not support a condition, the coder cannot accurately code it. And a coder should not stop reading after the first page - the whole record must be reviewed.",
+   "visual": {
+    "title": "Coding Depends on Documentation",
+    "sub": "A joint effort between provider and coder",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Provider",
+      "b": "Documents consistently and completely"
+     },
+     {
+      "h": "Coder",
+      "b": "Reviews the entire record"
+     },
+     {
+      "h": "Goal",
+      "b": "Find the specific reason for the encounter"
+     },
+     {
+      "h": "Without documentation",
+      "b": "Accurate coding cannot be achieved"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: \"Encounter\" and \"Provider\"",
+   "content": "Two words appear on nearly every page of the guidelines, and the Introduction defines both.\n\n**Encounter**\n• \"The term encounter is used for all settings, including hospital admissions.\"\n• So when a guideline says \"encounter,\" it can mean an office visit **or** an inpatient admission, unless the guideline says otherwise.\n\n**Provider**\n• \"The term provider is used throughout the guidelines to mean physician or any qualified health care practitioner who is legally accountable for establishing the patient's diagnosis.\"\n• So \"provider\" is not limited to physicians. The deciding factor is being **legally accountable for establishing the patient's diagnosis**.\n\n**Exam trap:** Do not read \"encounter\" as outpatient only. The text explicitly includes hospital admissions.",
+   "visual": {
+    "title": "Two Defined Terms",
+    "sub": "Used throughout every section of the guidelines",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Encounter",
+      "b": "All settings, including hospital admissions"
+     },
+     {
+      "h": "Provider",
+      "b": "Physician or qualified practitioner legally accountable for the diagnosis"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "In the context of the official guidelines, which statement about the term \"encounter\" is correct?",
+   "options": [
+    "It refers only to outpatient office visits",
+    "It refers only to emergency department visits",
+    "It refers only to visits with a physician",
+    "It is used for all settings, including hospital admissions"
+   ],
+   "correct": 3,
+   "explanation": "The Introduction states: \"The term encounter is used for all settings, including hospital admissions.\" It is therefore not limited to outpatient visits or emergency department visits, and it is not defined by the type of practitioner seen.",
+   "visual": {
+    "topic": "Defined terms",
+    "hint": "Read the sentence that defines \"encounter\" in the Introduction."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which person fits the guidelines' definition of \"provider\"?",
+   "options": [
+    "Any member of the hospital staff who writes in the chart",
+    "A physician or any qualified health care practitioner who is legally accountable for establishing the patient's diagnosis",
+    "Only a physician",
+    "The coder who assigns the codes"
+   ],
+   "correct": 1,
+   "explanation": "The Introduction defines provider as \"physician or any qualified health care practitioner who is legally accountable for establishing the patient's diagnosis.\" Any staff member who writes in the chart does not automatically meet this definition. The term is not limited to physicians. The coder assigns codes but does not establish the diagnosis.",
+   "visual": {
+    "topic": "Defined terms",
+    "hint": "The key phrase is \"legally accountable.\""
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: How the Document Is Organized",
+   "content": "The Introduction lists the sections:\n\n• **Section I** - the structure and conventions of the classification, general guidelines that apply to the entire classification, and chapter-specific guidelines that correspond to the chapters as they are arranged in the classification.\n• **Section II** - guidelines for selection of **principal diagnosis** for **non-outpatient** settings.\n• **Section III** - guidelines for reporting **additional diagnoses** in **non-outpatient** settings.\n• **Section IV** - **outpatient** coding and reporting.\n\nThe guidelines also contain **Appendix I**, which covers the **present on admission (POA)** indicator. (The FY 2027 change list notes edits to Appendix I sentences such as \"A POA indicator is assigned to the principal and secondary diagnoses.\") You will study it in its own lesson.\n\nThe Introduction closes with a warning: **\"It is necessary to review all sections of the guidelines to fully understand all of the rules and instructions needed to code properly.\"**",
+   "visual": {
+    "title": "Sections of the Guidelines",
+    "sub": "Know where to look before you look",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Section I",
+      "b": "Conventions, general and chapter-specific guidelines"
+     },
+     {
+      "h": "Section II",
+      "b": "Principal diagnosis, non-outpatient settings"
+     },
+     {
+      "h": "Section III",
+      "b": "Additional diagnoses, non-outpatient settings"
+     },
+     {
+      "h": "Section IV",
+      "b": "Outpatient coding and reporting"
+     },
+     {
+      "h": "Appendix I",
+      "b": "Present on admission (POA) reporting"
+     },
+     {
+      "h": "All sections",
+      "b": "Review all to code properly"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Which Section Do I Open?",
+   "content": "Use the Introduction's description of each section to route a question.\n\n**Scenario 1:** An inpatient coder must decide which condition is the principal diagnosis for a hospital admission.\n→ **Section II** (selection of principal diagnosis for non-outpatient settings).\n\n**Scenario 2:** An inpatient coder wonders whether a chronic condition treated during the stay should be reported as an additional diagnosis.\n→ **Section III** (reporting additional diagnoses in non-outpatient settings).\n\n**Scenario 3:** A physician office coder is coding a routine office visit.\n→ **Section IV** (outpatient coding and reporting).\n\n**Scenario 4:** Any coder needs to know what an Excludes1 note means.\n→ **Section I** (conventions that apply to the entire classification).\n\nRemember the closing sentence of the Introduction: you must review **all** sections to fully understand the rules, so these are starting points, not the only places to read.",
+   "visual": {
+    "title": "Routing a Coding Question",
+    "sub": "Match the question to the section",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Inpatient principal dx",
+      "b": "Section II"
+     },
+     {
+      "h": "Inpatient additional dx",
+      "b": "Section III"
+     },
+     {
+      "h": "Office visit",
+      "b": "Section IV"
+     },
+     {
+      "h": "Meaning of a convention",
+      "b": "Section I"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient coder needs guidance on selecting the principal diagnosis for a hospital admission. Which section of the guidelines covers this?",
+   "options": [
+    "Section I",
+    "Section III",
+    "Section II",
+    "Section IV"
+   ],
+   "correct": 2,
+   "explanation": "Per the Introduction, Section II \"includes guidelines for selection of principal diagnosis for non-outpatient settings.\" Section I covers conventions, general guidelines and chapter-specific guidelines. Section III covers reporting additional diagnoses in non-outpatient settings. Section IV is for outpatient coding and reporting.",
+   "visual": {
+    "topic": "Organization of the guidelines",
+    "hint": "Principal diagnosis rules for non-outpatient settings have their own section."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Reading the FY 2027 Document Itself",
+   "content": "The title block of the FY 2027 guidelines tells you how to spot what changed:\n\n• **FY 2027 - UPDATED October 1, 2026** (effective October 1, 2026 - September 30, 2027)\n• **Bold text** = narrative changes\n• **Underlined items** = moved within the guidelines since the April 2026, FY 2026 version\n• **Italics** = revisions to heading changes\n\n**Study tip:** In this app, the official text cards show the guideline wording. When you work from the printed CMS document, scan for bold first - that is where the wording changed.",
+   "visual": {
+    "title": "Reading the FY 2027 Edition",
+    "sub": "Formatting signals in the official document",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Effective",
+      "b": "Oct 1, 2026 - Sept 30, 2027"
+     },
+     {
+      "h": "Bold",
+      "b": "Narrative changes"
+     },
+     {
+      "h": "Underlined",
+      "b": "Items moved since the April 2026 version"
+     },
+     {
+      "h": "Italics",
+      "b": "Revisions to heading changes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Opening of Section I",
+   "content": "Section I opens with two sentences that set the scope for everything that follows:\n\n1. **\"The conventions, general guidelines and chapter-specific guidelines are applicable to all health care settings unless otherwise indicated.\"**\n   • Section I rules apply to inpatient, outpatient and every other setting, unless a specific rule says it is limited.\n\n2. **\"The conventions and instructions of the classification take precedence over guidelines.\"**\n   • This repeats the precedence rule from the Introduction. It is stated twice because it matters.\n\n**Contrast with Sections II and III:** Those sections are for **non-outpatient** settings. Section I is for **all** settings unless otherwise indicated.",
+   "visual": {
+    "title": "Section I Applies Everywhere",
+    "sub": "Unless a rule says otherwise",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Section I",
+      "b": "All health care settings, unless otherwise indicated"
+     },
+     {
+      "h": "Sections II and III",
+      "b": "Non-outpatient settings"
+     },
+     {
+      "h": "Section IV",
+      "b": "Outpatient settings"
+     },
+     {
+      "h": "Always",
+      "b": "Classification conventions take precedence"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to the opening paragraph of Section I, to which settings do the conventions, general guidelines and chapter-specific guidelines apply?",
+   "options": [
+    "All health care settings unless otherwise indicated",
+    "Inpatient settings only",
+    "Outpatient settings only",
+    "Only settings that bill Medicare"
+   ],
+   "correct": 0,
+   "explanation": "Section I states: \"The conventions, general guidelines and chapter-specific guidelines are applicable to all health care settings unless otherwise indicated.\" It is not limited to inpatient or outpatient settings, and it says nothing about payer type. The setting-specific sections are II and III (non-outpatient) and IV (outpatient).",
+   "visual": {
+    "topic": "Scope of Section I",
+    "hint": "Look for the phrase \"unless otherwise indicated.\""
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A Tabular List instructional note tells the coder to do one thing, but a general guideline seems to suggest something different. Based on the Introduction and Section I, what should the coder follow?",
+   "options": [
+    "The general guideline, because guidelines are required by HIPAA",
+    "Whichever option produces the higher-paying code",
+    "Neither; the coder must always query the provider",
+    "The instruction in the classification, because conventions and instructions of the classification take precedence over guidelines"
+   ],
+   "correct": 3,
+   "explanation": "Both the Introduction and the opening of Section I state that \"the conventions and instructions of the classification take precedence over guidelines.\" HIPAA requires adherence to the guidelines, but that does not reverse the order of authority. Payment is not a factor the text names for choosing a code; the rule is about precedence. A query is for unclear documentation, not for conflicts between the classification and a guideline.",
+   "visual": {
+    "topic": "Precedence",
+    "hint": "Which comes first: the classification or the guidelines?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "What Changed for FY 2027",
+   "content": "These are the **only** differences found when the FY 2027 guidelines (effective October 1, 2026) were compared with the FY 2026 guidelines (effective October 1, 2025). Do not assume any other changes.\n\n1. **I.C.9.a.1 Hypertension with Heart Disease:** now reads \"Hypertension with **one or more** heart conditions classified to ...\" (was \"Hypertension with heart conditions classified to ...\"). Two sentences were split, with no change in meaning.\n2. **I.C.9.a.10 Hypertensive Crisis:** \"Code also any identified hypertensive disease (I10-I15, **I1A**)\" - I1A (resistant hypertension) was added to the range.\n3. **Chapter 17** title and guideline now include **\"genetic disorders\"**: Congenital malformations, deformations, chromosomal abnormalities, and genetic disorders.\n4. **I.C.21.c History Z codes:** NEW code **Z84.A**, Family history of exposure to diethylstilbestrol (DES) - for when a family member was exposed to DES that could put the patient at higher risk (example: maternal grandmother exposed to DES).\n5. **I.C.21.c Miscellaneous Z codes:** NEW note under **Z91.B**, Personal risk factor of exposure to diethylstilbestrol - shows the patient was directly exposed to DES in utero (example: mother exposed to DES while the patient was in utero).\n6. **Wording-only edits** (no rule change): Chapter 3 title \"Disease\" to \"Diseases\"; Chapter 18 intro sentence; the Z05 newborn observation sentence; and Appendix I (POA) sentences.",
+   "visual": {
+    "title": "FY 2027 Changes",
+    "sub": "The verified list - nothing more",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Hypertension",
+      "b": "\"One or more\" heart conditions; I1A added to crisis"
+     },
+     {
+      "h": "Chapter 17",
+      "b": "Now includes genetic disorders"
+     },
+     {
+      "h": "Z84.A (new)",
+      "b": "Family history of DES exposure"
+     },
+     {
+      "h": "Z91.B note (new)",
+      "b": "Patient directly exposed to DES in utero"
+     },
+     {
+      "h": "Wording only",
+      "b": "Ch 3 title, Ch 18 intro, Z05, Appendix I"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Z84.A vs Z91.B for DES Exposure",
+   "content": "The FY 2027 notes draw a clear line between two DES (diethylstilbestrol) codes. The deciding question is: **who was exposed?**\n\n**Scenario A:** The record documents that the patient's **maternal grandmother** was exposed to DES, which could put the patient at higher risk.\n→ **Z84.A**, Family history of exposure to diethylstilbestrol. The exposure belongs to a **family member**. (This is the example given in the FY 2027 note.)\n\n**Scenario B:** The record documents that the patient's **mother** was exposed to DES **while the patient was in utero**.\n→ **Z91.B**, Personal risk factor of exposure to diethylstilbestrol. The **patient** was directly exposed in utero. (This is the example given in the FY 2027 note.)\n\nYou will study the full Z code rules in the Chapter 21 lessons.",
+   "visual": {
+    "title": "DES: Who Was Exposed?",
+    "sub": "The FY 2027 notes separate family vs personal exposure",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z84.A",
+      "b": "A family member was exposed (e.g., maternal grandmother)"
+     },
+     {
+      "h": "Z91.B",
+      "b": "The patient was exposed in utero (mother exposed during pregnancy)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Under the FY 2027 guideline notes, the record shows the patient's mother was exposed to diethylstilbestrol (DES) while the patient was in utero. Which code does the note describe for this situation?",
+   "options": [
+    "Z84.A, Family history of exposure to diethylstilbestrol",
+    "Z91.B, Personal risk factor of exposure to diethylstilbestrol",
+    "No code; DES exposure is not reportable",
+    "Both codes, always"
+   ],
+   "correct": 1,
+   "explanation": "The FY 2027 note under Z91.B says it is assigned to show the patient was directly exposed to DES in utero (e.g., the patient's mother was exposed to DES while the patient was in utero). Z84.A is for when a family member was exposed in a way that could put the patient at higher risk - the example given is a maternal grandmother. DES exposure is reportable, so \"no code\" is wrong. The notes do not tell you to always report both.",
+   "visual": {
+    "topic": "FY 2027: DES codes",
+    "hint": "Ask whether the patient personally was exposed in utero."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which of the following is one of the verified FY 2027 changes to the guidelines?",
+   "options": [
+    "Section II was deleted",
+    "The Cooperating Parties now include the WHO",
+    "Chapter 17 now includes \"genetic disorders\" in its title and guideline",
+    "Excludes2 notes were renamed"
+   ],
+   "correct": 2,
+   "explanation": "The verified FY 2027 change list states that the Chapter 17 title and guideline now include \"genetic disorders\": Congenital malformations, deformations, chromosomal abnormalities, and genetic disorders. None of the other options appear in the verified change list: Section II still exists, the Cooperating Parties remain AHA, AHIMA, CMS and NCHS, and Excludes notes were not changed.",
+   "visual": {
+    "topic": "FY 2027 changes",
+    "hint": "Only items on the verified change list are real changes."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying It: Your Starting Routine",
+   "content": "Use this routine every time you open a record, built only from the Introduction and Section I opening:\n\n1. **Review the entire record** to determine the specific reason for the encounter and the conditions treated.\n2. **Identify the setting.** Is it an inpatient admission (non-outpatient) or an outpatient encounter? This tells you whether Sections II/III or Section IV will apply later.\n3. **Remember Section I applies to all settings** unless a rule says otherwise.\n4. **Use the classification and the guidelines together.** The guidelines are a companion to the official ICD-10-CM.\n5. **When they seem to conflict, follow the classification.** Conventions and instructions of the classification take precedence over guidelines.\n6. **Confirm the diagnosis comes from the provider** - the physician or qualified practitioner legally accountable for establishing the diagnosis.\n7. **If documentation is incomplete,** remember that without consistent, complete documentation accurate coding cannot be achieved; coding is a joint effort with the provider.",
+   "visual": {
+    "title": "Starting Routine",
+    "sub": "Seven habits from the Introduction",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Read",
+      "b": "Review the entire record"
+     },
+     {
+      "h": "2. Setting",
+      "b": "Inpatient or outpatient?"
+     },
+     {
+      "h": "3. Section I",
+      "b": "Applies to all settings"
+     },
+     {
+      "h": "4. Together",
+      "b": "Classification plus guidelines"
+     },
+     {
+      "h": "5. Conflict",
+      "b": "Classification wins"
+     },
+     {
+      "h": "6. Provider",
+      "b": "Diagnosis from the accountable provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• The guidelines are provided by **CMS and NCHS** (agencies of DHHS) as a **companion** to the official ICD-10-CM.\n• They are approved by the four **Cooperating Parties: AHA, AHIMA, CMS and NCHS**. Only this set is official.\n• **Adherence is required under HIPAA**, and the code set was adopted under HIPAA for all healthcare settings.\n• **The conventions and instructions of the classification take precedence over guidelines** - stated in both the Introduction and Section I.\n• **Encounter** covers all settings, including hospital admissions. **Provider** means the physician or qualified practitioner legally accountable for establishing the diagnosis.\n• **Section I** applies to all settings unless otherwise indicated; **II** = principal diagnosis (non-outpatient); **III** = additional diagnoses (non-outpatient); **IV** = outpatient. **Appendix I** covers POA.\n• Review the **entire record**; without complete documentation, accurate coding cannot be achieved.\n• FY 2027 changes are limited to the verified list (hypertension wording and I1A, Chapter 17 genetic disorders, Z84.A, the Z91.B note, and wording-only edits).",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "The foundation for every other lesson",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Who",
+      "b": "CMS + NCHS provide; 4 Cooperating Parties approve"
+     },
+     {
+      "h": "Required",
+      "b": "HIPAA"
+     },
+     {
+      "h": "Precedence",
+      "b": "Classification over guidelines"
+     },
+     {
+      "h": "Structure",
+      "b": "Sections I-IV plus Appendix I"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about the relationship between the guidelines and ICD-10-CM is accurate according to the Introduction?",
+   "options": [
+    "The guidelines are a companion document to the official version of ICD-10-CM and are based on its Tabular List and Alphabetic Index instructions",
+    "The guidelines replace the Tabular List",
+    "ICD-10-CM is based on the guidelines",
+    "The guidelines apply only to hospital inpatient coding"
+   ],
+   "correct": 0,
+   "explanation": "The Introduction says the guidelines \"should be used as a companion document to the official version of the ICD-10-CM\" and that they \"are based on the coding and sequencing instructions in the Tabular List and Alphabetic Index of ICD-10-CM, but provide additional instruction.\" They do not replace the Tabular List. ICD-10-CM is based on the WHO's ICD-10, not on the guidelines. Section I applies to all health care settings unless otherwise indicated, so the guidelines are not inpatient only.",
+   "visual": {
+    "topic": "Guidelines and the classification",
+    "hint": "Think \"companion,\" not \"replacement.\""
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "ICD-10-CM is based on which classification?",
+   "options": [
+    "A classification published by the AHA",
+    "The ICD-10-CM Official Guidelines",
+    "A classification published by AHIMA",
+    "ICD-10, the statistical classification of disease published by the World Health Organization"
+   ],
+   "correct": 3,
+   "explanation": "The Introduction states: \"The ICD-10-CM is based on the ICD-10, the statistical classification of disease published by the World Health Organization (WHO).\" The other options are not named in the text as the basis of ICD-10-CM. The AHA is a Cooperating Party that approves the guidelines; the guidelines accompany ICD-10-CM rather than serving as its basis, and AHIMA is also a Cooperating Party, not the publisher of the base classification.",
+   "visual": {
+    "topic": "Origin of ICD-10-CM",
+    "hint": "The base classification is international."
+   }
+  }
+ ]
+}

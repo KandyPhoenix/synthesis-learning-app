@@ -1,0 +1,876 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Pregnancy Coding, Part I: The Ground Rules",
+   "content": "Chapter 15 of ICD-10-CM covers **pregnancy, childbirth, and the puerperium** (the period after delivery). It uses the code range **O00-O9A**.\n\nObstetric (OB) coding has its own rules that override many habits you learned in other chapters. Chapter 15 codes jump to the front of the line, they belong only on the mother's chart, and most of them need a final character for the **trimester**.\n\nIn this lesson you will learn:\n\n• Section I.C.15.a: the general rules (sequencing priority, maternal record only, trimester, 7th character for the fetus, completed weeks)\n• Section I.C.15.b: how to pick the principal or first-listed diagnosis for prenatal visits, high-risk supervision, and admissions with or without delivery\n• Section I.C.15.c: pre-existing conditions versus conditions caused by the pregnancy\n• Section I.C.15.d: pre-existing hypertension in pregnancy\n• Section I.C.15.e: when a fetal condition can be coded on the mother's record\n\nThese rules appear often on coding and RHIT exams, especially sequencing and the Z34 / O09 / O80 / Z37 codes.",
+   "visual": {
+    "title": "Chapter 15 at a Glance",
+    "sub": "Pregnancy, Childbirth, and the Puerperium (O00-O9A)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Goes first",
+      "b": "Chapter 15 codes have sequencing priority"
+     },
+     {
+      "h": "Mother only",
+      "b": "Never on the newborn record"
+     },
+     {
+      "h": "Trimester",
+      "b": "Most codes end with a trimester character"
+     },
+     {
+      "h": "Fetal conditions",
+      "b": "Only when they change the mother's care"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Chapter 15 Goes First (I.C.15.a.1)",
+   "content": "**What it says:** If a patient is pregnant and the encounter involves the pregnancy, you use codes from **O00-O9A**. These codes have **sequencing priority**, meaning they are listed before codes from other chapters.\n\n**Other chapters still help.** You may add codes from other chapters to give more detail about the condition. The chapter 15 code comes first; the other-chapter code adds specifics.\n\n**The one exception: incidental pregnancy.** If the **provider documents** that the pregnancy is **incidental** to the encounter (the visit has nothing to do with the pregnancy), assign **Z33.1, Pregnant state, incidental**, *in place of* any chapter 15 codes.\n\n**Who decides?** The guideline says it is the **provider's responsibility** to state that the condition being treated is not affecting the pregnancy. The coder does not decide this on their own.\n\n**What it does NOT mean:** It does not mean you drop all other codes. It also does not let a coder assume a visit is unrelated to the pregnancy just because it seems unrelated.",
+   "visual": {
+    "title": "Chapter 15 vs Z33.1",
+    "sub": "Default rule and its one exception",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Default",
+      "b": "Pregnant patient: chapter 15 code listed first, other chapters may add detail"
+     },
+     {
+      "h": "Exception",
+      "b": "Provider documents pregnancy is incidental: Z33.1 replaces chapter 15 codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Incidental Pregnancy",
+   "content": "**Documentation:** A pregnant patient is seen for a problem the provider clearly documents as **not affecting the pregnancy**, and the provider states the pregnancy is incidental to the visit.\n\n**Guideline:** Section I.C.15.a.1.\n\n**Decision:** Code the condition being treated and assign **Z33.1, Pregnant state, incidental**. Do **not** assign chapter 15 codes.\n\n**Contrast:** If the provider does **not** make that statement, the coder cannot assume it. The default is that chapter 15 codes apply and are sequenced first. The guideline places the responsibility on the provider.",
+   "visual": {
+    "title": "Who Says It Is Incidental?",
+    "sub": "The provider must document it",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Provider says incidental",
+      "b": "Use Z33.1 instead of chapter 15 codes"
+     },
+     {
+      "h": "No such statement",
+      "b": "Chapter 15 code is sequenced first"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.15.a.1, when should code Z33.1, Pregnant state, incidental, be assigned?",
+   "options": [
+    "Whenever a pregnant patient is seen for a condition outside chapter 15",
+    "When the provider documents that the pregnancy is incidental to the encounter",
+    "When the coder judges that the condition does not affect the pregnancy",
+    "Together with a chapter 15 code on every prenatal visit"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.15.a.1 says that if the provider documents that the pregnancy is incidental to the encounter, Z33.1 is used in place of any chapter 15 codes. Option A is wrong because a non-obstetric condition alone is not enough; the provider must state the pregnancy is incidental. Option C is wrong because the guideline says it is the provider's responsibility, not the coder's, to state the condition is not affecting the pregnancy. Option D is wrong because Z33.1 replaces chapter 15 codes; it is not used with them.",
+   "visual": {
+    "topic": "Incidental pregnancy",
+    "hint": "Think about who must make the statement."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Mother's Record Only (I.C.15.a.2)",
+   "content": "**What it says:** Chapter 15 codes go **only on the maternal record**, never on the newborn's record.\n\n**Why it matters:** The mother and the baby each have their own chart. Chapter 15 describes the pregnancy, which is the mother's condition. When a problem affects the baby, it is coded on the baby's record using other chapters (the perinatal chapter is covered in a later lesson).\n\n**Exam trap:** A question may describe a newborn whose mother had a pregnancy complication and offer an O code as an answer for the baby. That is never correct under Section I.C.15.a.2.",
+   "visual": {
+    "title": "Two Patients, Two Records",
+    "sub": "Chapter 15 belongs to the mother",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Mother's record",
+      "b": "Chapter 15 codes (O00-O9A) are used here"
+     },
+     {
+      "h": "Newborn's record",
+      "b": "Chapter 15 codes are never used here"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Trimester Character (I.C.15.a.3)",
+   "content": "**What it says:** Most chapter 15 codes end with a **final character for the trimester** of pregnancy. The trimester timeframes are listed at the beginning of chapter 15 in the Tabular List.\n\n**Why some codes lack a trimester:** If trimester is not part of a code, either the condition **always occurs in a specific trimester**, or the trimester concept **does not apply**. Some codes offer only certain trimesters because the condition does not occur in all of them, though it may occur in more than one.\n\n**How to choose the trimester:**\n\n• Base it on the **provider's documentation** of the trimester, or of the **number of weeks**, for the **current** admission or encounter.\n• This applies to **pre-existing conditions** too, not only to conditions caused by the pregnancy.\n• The provider's documented number of weeks may be used to pick the trimester code.\n\n**What it does NOT mean:** You do not pick the trimester from when a pre-existing condition was first diagnosed. You use the trimester of the current encounter.",
+   "visual": {
+    "title": "Choosing the Trimester",
+    "sub": "Use the current encounter's documentation",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Source",
+      "b": "Provider documents trimester or number of weeks"
+     },
+     {
+      "h": "Timing",
+      "b": "Trimester of the current admission or encounter"
+     },
+     {
+      "h": "Applies to",
+      "b": "Pre-existing AND pregnancy-caused conditions"
+     },
+     {
+      "h": "No trimester?",
+      "b": "Condition fits one trimester, or trimester does not apply"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The \"In Childbirth\" Option (I.C.15.a.3)",
+   "content": "**What it says:** When **delivery occurs during the current admission** and the complication's code has an **\"in childbirth\"** option, assign the \"in childbirth\" code.\n\nIf the classification **does not** offer an \"in childbirth\" option for that complication, assign the code for the **current trimester** instead.\n\n**Decision rule:**\n\n1. Did the patient deliver during this admission?\n2. If yes, does the complication's code have an \"in childbirth\" choice? If yes, use it.\n3. If there is no \"in childbirth\" choice, use the current trimester.",
+   "visual": {
+    "title": "Delivered This Admission?",
+    "sub": "Pick \"in childbirth\" when the code offers it",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "\"In childbirth\" exists",
+      "b": "Assign the \"in childbirth\" code"
+     },
+     {
+      "h": "No such option",
+      "b": "Assign the code for the current trimester"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a pregnancy complication delivers during the current admission. The complication's category offers an \"in childbirth\" option. Per Section I.C.15.a.3, what should the coder assign?",
+   "options": [
+    "The \"in childbirth\" code",
+    "The code for the trimester when the complication was first diagnosed",
+    "The \"unspecified trimester\" code",
+    "The code for the third trimester, since delivery always happens then"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.15.a.3 says that whenever delivery occurs during the current admission and there is an \"in childbirth\" option for the complication, the \"in childbirth\" code should be assigned. Option B is wrong because the trimester is based on the current encounter, and here the \"in childbirth\" option takes precedence. Option C is wrong because the unspecified code is for rare cases with insufficient documentation (Section I.C.15.a.5). Option D is wrong because the trimester code is only used when no \"in childbirth\" option exists.",
+   "visual": {
+    "topic": "In childbirth option",
+    "hint": "Delivery happened during this stay."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Admissions Spanning Two Trimesters (I.C.15.a.4)",
+   "content": "**The situation:** A patient is admitted for a pregnancy complication in one trimester and stays in the hospital into the **next** trimester. Which trimester character do you assign for the antepartum complication?\n\n**Rule 1 — complication developed during this stay:** Use the trimester **when the complication developed**, **not** the trimester at discharge.\n\n**Rule 2 — condition developed before this admission, or is pre-existing:** Use the trimester **at the time of the admission/encounter**.\n\n**Exam trap:** The discharge trimester is never the answer under this guideline.",
+   "visual": {
+    "title": "Stay Crosses a Trimester",
+    "sub": "Never use the discharge trimester",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Developed during stay",
+      "b": "Trimester when it developed"
+     },
+     {
+      "h": "Pre-existing or earlier",
+      "b": "Trimester at admission"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Long Antepartum Stay",
+   "content": "**Documentation:** A patient is admitted with a complication of pregnancy that began during the admission while she was in one trimester. She remains hospitalized and is discharged after she has entered the next trimester.\n\n**Guideline:** Section I.C.15.a.4.\n\n**Decision:** Assign the trimester character for the trimester **when the complication developed**, not the trimester at discharge.\n\n**Variation:** If the same patient had a **pre-existing** condition that was the reason for the stay, the trimester character would reflect the trimester **at the time of admission**.",
+   "visual": {
+    "title": "Which Trimester?",
+    "sub": "Same stay, two different rules",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "New complication",
+      "b": "When it developed"
+     },
+     {
+      "h": "Pre-existing condition",
+      "b": "At admission"
+     },
+     {
+      "h": "Discharge trimester",
+      "b": "Not used for either"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with a pre-existing condition complicating pregnancy and stays in the hospital into the next trimester. According to Section I.C.15.a.4, which trimester character is assigned?",
+   "options": [
+    "The trimester at the time of discharge",
+    "The unspecified trimester, because two trimesters are involved",
+    "Two codes, one for each trimester",
+    "The trimester at the time of the admission"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.15.a.4 says that if the condition developed before the current admission/encounter or is pre-existing, the trimester character for the trimester at the time of the admission/encounter is assigned. Option A is wrong because the guideline specifically rejects the discharge trimester. Option B is wrong because the unspecified trimester is only for insufficient documentation (Section I.C.15.a.5). Option C is wrong because the guideline directs one trimester character, not one per trimester.",
+   "visual": {
+    "topic": "Multi-trimester stays",
+    "hint": "The condition existed before this stay began."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Unspecified Trimester (I.C.15.a.5)",
+   "content": "**What it says:** Every category with trimester codes also has an **\"unspecified trimester\"** code. It should **rarely** be used.\n\n**When it is acceptable:** Only when the documentation is **insufficient** to determine the trimester **and** it is **not possible to obtain clarification** (for example, by asking the provider).\n\n**What it does NOT mean:** It is not a shortcut when the trimester is simply not written in one spot. If the number of weeks is documented, Section I.C.15.a.3 lets you use it to assign the trimester.",
+   "visual": {
+    "title": "Unspecified Trimester",
+    "sub": "Rarely used; both conditions must be true",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Condition 1",
+      "b": "Record does not show the trimester"
+     },
+     {
+      "h": "Condition 2",
+      "b": "Clarification cannot be obtained"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: 7th Character for the Fetus (I.C.15.a.6)",
+   "content": "**What it says:** Certain categories need a **7th character** to identify **which fetus** the complication applies to. The categories listed in the guideline are: **O31, O32, O33.3 - O33.6, O35, O36, O40, O41, O60.1, O60.2, O64, and O69**.\n\n**Assign 7th character \"0\"** in three situations:\n\n• **Single gestations** (one fetus)\n• When documentation is **insufficient** to determine the fetus affected and clarification **cannot be obtained**\n• When it is **not possible to clinically determine** which fetus is affected\n\n**What it does NOT mean:** The 7th character is not added to every chapter 15 code. It applies only \"where applicable\" to the listed categories.",
+   "visual": {
+    "title": "7th Character \"0\"",
+    "sub": "Used in three situations for the listed categories",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Single gestation",
+      "b": "One fetus: assign 0"
+     },
+     {
+      "h": "Not documented",
+      "b": "Fetus unclear, no clarification: assign 0"
+     },
+     {
+      "h": "Cannot determine",
+      "b": "Clinically impossible to tell: assign 0"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.15.a.6, which situation calls for the 7th character \"0\" on a code from category O36?",
+   "options": [
+    "A twin pregnancy where the provider documents which twin is affected",
+    "Any delivery admission",
+    "A single gestation",
+    "Any time the trimester is unknown"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.15.a.6 lists three uses of 7th character \"0\": single gestations, insufficient documentation of the affected fetus with no clarification possible, and when it is not clinically possible to determine which fetus is affected. Option A is wrong because the affected fetus is documented, so \"0\" does not fit. Option B is wrong because delivery is not one of the listed reasons. Option D is wrong because the trimester and the 7th character are separate; an unknown trimester relates to Section I.C.15.a.5.",
+   "visual": {
+    "topic": "Fetus identification",
+    "hint": "How many fetuses are there?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Completed Weeks of Gestation (I.C.15.a.7)",
+   "content": "**What it says:** \"Completed\" weeks means **full weeks**. Extra days do not round up.\n\n**The guideline's own example:** If the provider documents **39 weeks and 6 days**, assign the code for **39 weeks** of gestation, because the patient has **not yet reached 40 completed weeks**.\n\n**Exam trap:** Do not round to the nearest week. Count only full weeks.",
+   "visual": {
+    "title": "Completed Weeks",
+    "sub": "Full weeks only; never round up",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Documented",
+      "b": "39 weeks and 6 days"
+     },
+     {
+      "h": "Code assigned",
+      "b": "39 weeks of gestation"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents a gestation of 39 weeks and 6 days. Per Section I.C.15.a.7, which weeks-of-gestation code is assigned?",
+   "options": [
+    "40 weeks, because 6 days rounds up",
+    "39 weeks, because 40 completed weeks have not been reached",
+    "Unspecified weeks, because the days cannot be coded",
+    "Either 39 or 40 weeks, at the coder's choice"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.15.a.7 uses this exact example. \"Completed\" weeks means full weeks, so 39 weeks and 6 days is coded as 39 weeks. Option A is wrong because the guideline says not to round up. Option C is wrong because the weeks are clearly documented. Option D is wrong because the guideline gives one answer, not a choice.",
+   "visual": {
+    "topic": "Completed weeks",
+    "hint": "Count full weeks only."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Routine Prenatal Visits — Z34 (I.C.15.b.1)",
+   "content": "**What it says:** For a **routine outpatient prenatal visit** with **no complications**, use a code from **category Z34, Encounter for supervision of normal pregnancy**, as the **first-listed** diagnosis.\n\n**The key restriction:** Z34 codes **should not be used in conjunction with chapter 15 codes**. If a complication needs a chapter 15 code, the visit is not a \"normal pregnancy\" visit and Z34 does not fit.\n\n**What it does NOT mean:** Z34 is not for high-risk pregnancies. Those have their own category (O09), covered next.",
+   "visual": {
+    "title": "Routine Prenatal Visit",
+    "sub": "No complications, outpatient",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Use",
+      "b": "Z34 as the first-listed diagnosis"
+     },
+     {
+      "h": "Do not combine",
+      "b": "Z34 is not used with chapter 15 codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: High-Risk Supervision — O09 (I.C.15.b.2)",
+   "content": "**What it says:** Codes from **category O09, Supervision of high-risk pregnancy**, are for the **prenatal period only**.\n\n**Routine prenatal visits for high-risk pregnancies:** Use an O09 code as the **first-listed** diagnosis. **Secondary chapter 15 codes may be added** if appropriate. (Compare Z34, which cannot be combined with chapter 15 codes.)\n\n**At labor and delivery:** O09 no longer applies.\n\n• If there are **complications** during labor or delivery resulting from the high-risk pregnancy, assign the applicable **chapter 15 complication codes**.\n• If there are **no complications** during the labor or delivery episode, assign **O80, Encounter for full-term uncomplicated delivery**.",
+   "visual": {
+    "title": "O09: Prenatal Only",
+    "sub": "What happens before and at delivery",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Prenatal visit",
+      "b": "O09 first-listed; chapter 15 codes may be added"
+     },
+     {
+      "h": "Delivery, complications",
+      "b": "Chapter 15 complication codes"
+     },
+     {
+      "h": "Delivery, no complications",
+      "b": "O80"
+     },
+     {
+      "h": "O09 at delivery?",
+      "b": "No: prenatal period only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Exam Trap: Z34 vs O09",
+   "content": "Both categories are used as the first-listed diagnosis for routine outpatient prenatal visits. The difference:\n\n• **Z34** — normal pregnancy, no complications. **Not** used with chapter 15 codes (Section I.C.15.b.1).\n• **O09** — high-risk pregnancy. Secondary chapter 15 codes **may** be used with it if appropriate (Section I.C.15.b.2).\n\n**Scenario:** A patient whose pregnancy the provider documents as high risk comes in for a routine prenatal check. The coder assigns an O09 code first-listed, and may add other chapter 15 codes if appropriate. Z34 would be wrong because the pregnancy is not documented as normal and Z34 cannot be paired with chapter 15 codes.",
+   "visual": {
+    "title": "Z34 vs O09",
+    "sub": "Both are first-listed for routine prenatal visits",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z34",
+      "b": "Normal pregnancy. No chapter 15 codes with it."
+     },
+     {
+      "h": "O09",
+      "b": "High-risk pregnancy. Chapter 15 codes may be added."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a high-risk pregnancy is admitted and has a full-term delivery with no complications during the labor or delivery episode. According to Section I.C.15.b.2, what is assigned?",
+   "options": [
+    "O80, Encounter for full-term uncomplicated delivery",
+    "A code from category O09, Supervision of high-risk pregnancy",
+    "A code from category Z34",
+    "Z33.1, Pregnant state, incidental"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.15.b.2 says O09 codes are for the prenatal period only, and if there are no complications during the labor or delivery episode, assign O80. Option B is wrong because O09 is used only during the prenatal period. Option C is wrong because Z34 is for routine outpatient prenatal visits (Section I.C.15.b.1). Option D is wrong because Z33.1 is only when the provider documents the pregnancy is incidental (Section I.C.15.a.1).",
+   "visual": {
+    "topic": "High-risk delivery",
+    "hint": "O09 has a time limit."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about category Z34 is correct, per Section I.C.15.b.1?",
+   "options": [
+    "It is sequenced after a chapter 15 code at every prenatal visit",
+    "It is used for routine prenatal visits for high-risk pregnancies",
+    "It is assigned on the delivery admission",
+    "It is used for routine outpatient prenatal visits with no complications and is not used with chapter 15 codes"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.15.b.1 says Z34 is the first-listed diagnosis for routine outpatient prenatal visits when no complications are present and should not be used in conjunction with chapter 15 codes. Option A is wrong because Z34 is first-listed and is not used with chapter 15 codes. Option B is wrong because high-risk routine prenatal visits use category O09 (Section I.C.15.b.2). Option C is wrong because the guideline places Z34 on routine outpatient prenatal visits, not delivery admissions.",
+   "visual": {
+    "topic": "Z34 use",
+    "hint": "Normal, outpatient, prenatal."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: No Delivery This Episode (I.C.15.b.3)",
+   "content": "**What it says:** When **no delivery occurs**, the principal diagnosis is the **principal complication of the pregnancy that necessitated the encounter** (the reason the patient came in).\n\n**More than one complication?** If several complications exist and **all are treated or monitored**, **any** of them may be sequenced first.\n\n**What it does NOT mean:** It does not let you choose a complication that was neither treated nor monitored to sequence first.",
+   "visual": {
+    "title": "No Delivery Occurs",
+    "sub": "Principal = the complication that brought her in",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "One complication",
+      "b": "It is the principal diagnosis"
+     },
+     {
+      "h": "Several, all treated",
+      "b": "Any may be sequenced first"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: A Delivery Occurs (I.C.15.b.4)",
+   "content": "**Main rule:** When an OB patient is admitted and **delivers during that admission**, the **condition that prompted the admission** is the principal diagnosis.\n\n**Several reasons for admission?** Sequence the one **most related to the delivery** as principal.\n\n**Complications of the delivery** are coded as **additional** diagnoses.\n\n**Cesarean delivery:**\n\n• If the patient was **admitted with a condition that resulted in the cesarean**, that condition is the principal diagnosis.\n• If the **reason for admission was unrelated** to the condition that resulted in the cesarean, the condition related to the **reason for admission** is principal.\n\n**The common thread:** The reason for the admission drives the principal diagnosis.",
+   "visual": {
+    "title": "Delivery During the Stay",
+    "sub": "The reason for admission drives sequencing",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Single reason",
+      "b": "Condition that prompted admission"
+     },
+     {
+      "h": "Several reasons",
+      "b": "The one most related to delivery"
+     },
+     {
+      "h": "C-section, same reason",
+      "b": "Condition causing the cesarean"
+     },
+     {
+      "h": "C-section, other reason",
+      "b": "Reason for the admission"
+     },
+     {
+      "h": "Delivery complication",
+      "b": "Additional diagnosis"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Cesarean Delivery Sequencing",
+   "content": "**Scenario A:** A patient is admitted because of a pregnancy condition. That same condition leads the team to perform a cesarean delivery.\n\n→ **Principal:** the condition that resulted in the cesarean (Section I.C.15.b.4).\n\n**Scenario B:** A patient is admitted for one pregnancy condition. During the stay, a **different** condition develops and leads to a cesarean.\n\n→ **Principal:** the condition related to the **reason for the admission**. The guideline also says a code for any complication of the delivery is assigned as an additional diagnosis.\n\n**Both scenarios:** Add a code from **category Z37, Outcome of delivery**, because a delivery occurred (Section I.C.15.b.5).",
+   "visual": {
+    "title": "Cesarean: Which Is Principal?",
+    "sub": "Ask why she was admitted",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Admitted for the cause",
+      "b": "Cause of the cesarean is principal"
+     },
+     {
+      "h": "Admitted for other reason",
+      "b": "Reason for admission is principal"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for one pregnancy complication. Later in the stay an unrelated condition develops and results in a cesarean delivery. Per Section I.C.15.b.4, what is the principal diagnosis?",
+   "options": [
+    "The condition that resulted in the cesarean",
+    "A code from category Z37, Outcome of delivery",
+    "The condition related to the reason for the admission",
+    "Any of the conditions, at the coder's choice"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.15.b.4 says that if the reason for admission was unrelated to the condition resulting in the cesarean delivery, the condition related to the reason for the admission is the principal diagnosis. Option A is wrong because that applies only when the patient was admitted with the condition that resulted in the cesarean. Option B is wrong because Z37 is included on the record as an outcome code, not as the principal diagnosis here. Option D is wrong because the \"any may be sequenced first\" rule is for episodes with no delivery (Section I.C.15.b.3).",
+   "visual": {
+    "topic": "Cesarean sequencing",
+    "hint": "Why was she admitted in the first place?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An antepartum patient is admitted and no delivery occurs. She has two pregnancy complications, and both are treated. According to Section I.C.15.b.3, how is the principal diagnosis chosen?",
+   "options": [
+    "The complication that developed first must be sequenced first",
+    "Either complication may be sequenced first",
+    "A code from category Z34 is sequenced first",
+    "The complication with the later trimester is sequenced first"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.15.b.3 says that when more than one complication exists, all of which are treated or monitored, any of the complication codes may be sequenced first. Option A is wrong because the guideline does not rank by which developed first. Option C is wrong because Z34 is for routine outpatient prenatal visits with no complications (Section I.C.15.b.1). Option D is wrong because no such rule exists in the guideline.",
+   "visual": {
+    "topic": "No-delivery sequencing",
+    "hint": "Both are treated."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Outcome of Delivery — Z37 (I.C.15.b.5)",
+   "content": "**What it says:** A code from **category Z37, Outcome of delivery**, must be included on **every maternal record when a delivery has occurred**.\n\n**Where it is NOT used:**\n\n• On **subsequent** records (later encounters after the delivery)\n• On the **newborn** record\n\n**Memory tip:** Z37 tells the outcome of the delivery on the mother's delivery record, once.",
+   "visual": {
+    "title": "Z37: Outcome of Delivery",
+    "sub": "Every maternal delivery record, and nowhere else",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Use",
+      "b": "Mother's record for the delivery episode"
+     },
+     {
+      "h": "Do not use",
+      "b": "Subsequent records or the newborn record"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.15.b.5, on which record is a code from category Z37, Outcome of delivery, assigned?",
+   "options": [
+    "Every maternal record when a delivery has occurred",
+    "The newborn's birth record",
+    "Every subsequent postpartum visit record",
+    "Only cesarean delivery records"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.15.b.5 says a Z37 code should be included on every maternal record when a delivery has occurred. Option B is wrong because Z37 codes are not to be used on the newborn record. Option C is wrong because they are not used on subsequent records. Option D is wrong because the rule covers every delivery, not just cesareans.",
+   "visual": {
+    "topic": "Z37 placement",
+    "hint": "Whose record, and which encounter?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Pre-existing vs Due to Pregnancy (I.C.15.c)",
+   "content": "**What it says:** Some chapter 15 categories separate conditions that **existed before the pregnancy** (pre-existing) from those that are a **direct result of the pregnancy**. The coder must **assess which one applies** to pick the correct code.\n\n**Categories that do not make the distinction** may be used for **either** type.\n\n**Puerperium codes during the delivery stay:** If a condition **arises postpartum during the delivery encounter**, it is acceptable to use codes specifically for the **puerperium** together with codes complicating pregnancy and childbirth.\n\n**What it does NOT mean:** It does not mean every chapter 15 category asks this question. Only certain categories make the distinction.",
+   "visual": {
+    "title": "Pre-existing or Pregnancy-Related?",
+    "sub": "Some categories split them; others accept both",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Pre-existing",
+      "b": "Existed before the pregnancy"
+     },
+     {
+      "h": "Due to pregnancy",
+      "b": "Direct result of the pregnancy"
+     },
+     {
+      "h": "No distinction",
+      "b": "Category may be used for either"
+     },
+     {
+      "h": "Postpartum, same stay",
+      "b": "Puerperium codes may be added"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A condition arises postpartum during the delivery encounter. According to Section I.C.15.c, which statement is correct?",
+   "options": [
+    "Only a code complicating childbirth may be used",
+    "Puerperium codes are never used during the delivery encounter",
+    "The condition is coded with a code from category Z37 only",
+    "It is acceptable to use codes specifically for the puerperium with codes complicating pregnancy and childbirth"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.15.c says it is acceptable to use codes specifically for the puerperium with codes complicating pregnancy and childbirth if a condition arises postpartum during the delivery encounter. Option A is wrong because the guideline allows the puerperium code too. Option B directly contradicts the guideline. Option C is wrong because Z37 identifies the outcome of delivery (Section I.C.15.b.5), not a postpartum condition.",
+   "visual": {
+    "topic": "Postpartum during delivery stay",
+    "hint": "The guideline permits a combination."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.d"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Pre-existing Hypertension (I.C.15.d)",
+   "content": "**What it says:** **Category O10, Pre-existing hypertension complicating pregnancy, childbirth and the puerperium**, includes codes for **hypertensive heart disease** and **hypertensive chronic kidney disease**.\n\n**The extra code:** When you assign an O10 code that includes hypertensive heart disease or hypertensive chronic kidney disease, you must **add a secondary code from the appropriate hypertension category** to specify the **type of heart failure** or the type of **chronic kidney disease**.\n\n**Order:** O10 code first (chapter 15 priority), then the hypertension-category code for the detail.\n\n**Cross-reference:** The guideline points to Section I.C.9, Hypertension, for the hypertension rules themselves.",
+   "visual": {
+    "title": "O10 + Hypertension Code",
+    "sub": "Chapter 15 first, then the detail",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1st: O10 code",
+      "b": "Pre-existing hypertension with heart or CKD"
+     },
+     {
+      "h": "2nd: hypertension code",
+      "b": "Specifies the heart failure or CKD"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient has pre-existing hypertensive chronic kidney disease. Per Section I.C.15.d, after assigning the appropriate code from category O10, what else is required?",
+   "options": [
+    "Nothing; O10 fully describes the condition",
+    "Code Z33.1 to show the pregnancy",
+    "A secondary code from the appropriate hypertension category to specify the chronic kidney disease",
+    "A code from category O09 as the principal diagnosis"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.15.d says that when assigning an O10 code that includes hypertensive heart disease or hypertensive chronic kidney disease, a secondary code from the appropriate hypertension category is needed to specify the type of heart failure or chronic kidney disease. Option A is wrong because the guideline requires the secondary code. Option B is wrong because Z33.1 is only when the provider documents the pregnancy is incidental (Section I.C.15.a.1). Option D is wrong because O09 is for supervision of high-risk pregnancy and nothing in Section I.C.15.d requires it.",
+   "visual": {
+    "topic": "Pre-existing hypertension",
+    "hint": "O10 needs a partner code here."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.e"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Fetal Conditions on the Mother's Chart (I.C.15.e.1)",
+   "content": "**What it says:** Codes from **category O35, Maternal care for known or suspected fetal abnormality and damage**, and **O36, Maternal care for other fetal problems**, are assigned **only when the fetal condition actually modifies the management of the mother**.\n\n**Examples of modifying management (from the guideline):**\n\n• Requiring **diagnostic studies**\n• Requiring **additional observation**\n• Requiring **special care**\n• Requiring **termination of pregnancy**\n\n**What it does NOT mean:** \"The fact that the fetal condition exists does not justify assigning a code from this series to the mother's record.\" A fetal problem that changes nothing about the mother's care is not coded with O35 or O36.",
+   "visual": {
+    "title": "O35 / O36 Test",
+    "sub": "Did the fetal condition change the mother's care?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Yes: studies, observation",
+      "b": "O35/O36 may be assigned"
+     },
+     {
+      "h": "Yes: care or termination",
+      "b": "O35/O36 may be assigned"
+     },
+     {
+      "h": "No change in her care",
+      "b": "Do not assign O35/O36"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: In Utero Surgery (I.C.15.e.2)",
+   "content": "**What it says:** When **surgery is performed on the fetus**, assign a diagnosis code from **category O35** that identifies the **fetal condition**, plus the appropriate **procedure code**.\n\n**Two firm rules:**\n\n• **No chapter 16 (perinatal) codes** on the mother's record to identify fetal conditions.\n• Surgery in utero is **still coded as an obstetric encounter** (it is the mother's encounter).\n\n**Exam trap:** A tempting wrong answer is a perinatal (P) code to describe the fetus's condition on the mother's chart. The guideline forbids it.",
+   "visual": {
+    "title": "Surgery on the Fetus",
+    "sub": "Still the mother's obstetric encounter",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Diagnosis",
+      "b": "O35 code naming the fetal condition"
+     },
+     {
+      "h": "Procedure",
+      "b": "Code the procedure performed"
+     },
+     {
+      "h": "Not allowed",
+      "b": "Chapter 16 codes on the mother's record"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Fetal Condition and Maternal Care",
+   "content": "**Scenario A:** An ultrasound shows a suspected fetal abnormality. The provider orders **additional diagnostic studies** and **extra observation** of the mother.\n\n→ The fetal condition modified the mother's management, so a code from **O35** is appropriate (Section I.C.15.e.1). Because O35 is one of the categories listed in Section I.C.15.a.6, a 7th character identifies the fetus; for a single gestation it is \"0\".\n\n**Scenario B:** A fetal finding is noted but the provider documents no change in the mother's care.\n\n→ Do **not** assign O35 or O36. Existence of the fetal condition alone does not justify the code.\n\n**Scenario C:** The fetus undergoes in utero surgery.\n\n→ O35 code for the fetal condition plus the procedure code; no chapter 16 codes on the mother's record (Section I.C.15.e.2).",
+   "visual": {
+    "title": "Three Fetal Scenarios",
+    "sub": "Code only what changed the mother's care",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "A: extra studies",
+      "b": "O35 + 7th character"
+     },
+     {
+      "h": "B: no change",
+      "b": "No O35/O36"
+     },
+     {
+      "h": "C: fetal surgery",
+      "b": "O35 + procedure code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Surgery is performed in utero on a fetus. Per Section I.C.15.e.2, how is this coded?",
+   "options": [
+    "With a chapter 16 perinatal code on the mother's record for the fetal condition",
+    "With a code from category O35 identifying the fetal condition, plus the procedure code, as an obstetric encounter",
+    "On a separate fetal record using chapter 15 codes",
+    "With a code from category O36 only, without a procedure code"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.15.e.2 says a code from category O35 identifying the fetal condition is assigned, along with the appropriate procedure code, and the surgery is still coded as an obstetric encounter. Option A is wrong because no chapter 16 code should be used on the mother's record to identify fetal conditions. Option C is wrong because chapter 15 codes are used only on the maternal record (Section I.C.15.a.2). Option D is wrong because the guideline names category O35 and requires the procedure code.",
+   "visual": {
+    "topic": "In utero surgery",
+    "hint": "It is still the mother's encounter."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A fetal condition is identified, but it does not change the mother's care in any way. According to Section I.C.15.e.1, should a code from O35 or O36 be assigned to the mother's record?",
+   "options": [
+    "No, the codes are assigned only when the fetal condition modifies the mother's management",
+    "Yes, any known fetal condition must be coded on the mother's record",
+    "Yes, but only as a secondary diagnosis",
+    "No, fetal conditions are always coded with chapter 16 codes on the mother's record"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.15.e.1 says O35 and O36 are assigned only when the fetal condition is actually responsible for modifying the management of the mother, and the fact that it exists does not justify the code. Options B and C are wrong because existence alone does not justify the code, whatever its position. Option D is wrong because Section I.C.15.e.2 says no chapter 16 code should be used on the mother's record to identify fetal conditions.",
+   "visual": {
+    "topic": "O35/O36 criteria",
+    "hint": "Existence alone is not enough."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Part I on a Real OB Record",
+   "content": "Use these steps in order when you open a maternal record:\n\n1. **Is the patient pregnant (or postpartum) and is the pregnancy involved?** If the provider documents the pregnancy is incidental, use Z33.1 instead of chapter 15 codes (I.C.15.a.1). Otherwise chapter 15 codes come first.\n2. **Confirm it is the mother's record.** Chapter 15 codes never go on the newborn record (I.C.15.a.2).\n3. **Pick the encounter type and the principal/first-listed diagnosis:**\n   • Routine prenatal, normal pregnancy: Z34, no chapter 15 codes with it (I.C.15.b.1)\n   • Routine prenatal, high-risk: O09 first; chapter 15 codes may be added (I.C.15.b.2)\n   • No delivery: the complication that necessitated the encounter (I.C.15.b.3)\n   • Delivery: the condition that prompted admission; check the cesarean rule (I.C.15.b.4)\n4. **Assign the trimester** from the provider's documentation for this encounter; use \"in childbirth\" if delivery occurred and the option exists; follow the multi-trimester rule (I.C.15.a.3–a.5).\n5. **Add the 7th character** for the listed categories; \"0\" for single gestations (I.C.15.a.6).\n6. **Count completed weeks** only (I.C.15.a.7).\n7. **Decide pre-existing vs pregnancy-related** (I.C.15.c); for O10 with heart disease or CKD, add the hypertension-category code (I.C.15.d).\n8. **Fetal conditions:** O35/O36 only if the mother's management changed (I.C.15.e).\n9. **Delivery occurred?** Add a Z37 code to the maternal record (I.C.15.b.5).",
+   "visual": {
+    "title": "OB Coding Checklist",
+    "sub": "Work through the record in this order",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2",
+      "b": "Pregnancy involved? Mother's record?"
+     },
+     {
+      "h": "3",
+      "b": "Choose principal / first-listed"
+     },
+     {
+      "h": "4-6",
+      "b": "Trimester, 7th character, weeks"
+     },
+     {
+      "h": "7-8",
+      "b": "Pre-existing? Fetal conditions?"
+     },
+     {
+      "h": "9",
+      "b": "Delivery: add Z37"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Chapter 15 codes (O00-O9A) have sequencing priority**; Z33.1 replaces them only when the provider documents the pregnancy is incidental (I.C.15.a.1).\n• Chapter 15 codes go **only on the maternal record** (I.C.15.a.2).\n• Trimester comes from the provider's documentation for the **current** encounter; use **\"in childbirth\"** when delivery occurs and the option exists; for stays crossing trimesters, use when the complication **developed** (or admission trimester for pre-existing conditions). Unspecified trimester is rare (I.C.15.a.3–a.5).\n• 7th character **\"0\"** = single gestation or fetus cannot be identified (I.C.15.a.6). **Completed weeks** = full weeks (I.C.15.a.7).\n• **Z34** = routine normal prenatal, not with chapter 15 codes; **O09** = high-risk prenatal only; uncomplicated delivery = **O80** (I.C.15.b.1–b.2).\n• Delivery admissions: the **reason for admission** is principal; a **Z37** code goes on every maternal delivery record (I.C.15.b.4–b.5).\n• O10 with heart disease or CKD needs a **secondary hypertension-category code** (I.C.15.d).\n• **O35/O36** only when the fetal condition changes the mother's care; in utero surgery = O35 + procedure, no chapter 16 codes (I.C.15.e).",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Chapter 15, Part I",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Priority",
+      "b": "Chapter 15 first; Z33.1 if incidental"
+     },
+     {
+      "h": "Trimester",
+      "b": "Current encounter; in childbirth"
+     },
+     {
+      "h": "Prenatal",
+      "b": "Z34 normal, O09 high-risk"
+     },
+     {
+      "h": "Delivery",
+      "b": "Reason for admission + Z37"
+     },
+     {
+      "h": "O10",
+      "b": "Add hypertension code"
+     },
+     {
+      "h": "Fetus",
+      "b": "O35/O36 if care changes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a documented normal pregnancy has a routine outpatient prenatal visit at which no complications are present. What is the first-listed diagnosis?",
+   "options": [
+    "A code from category O09, Supervision of high-risk pregnancy",
+    "Z33.1, Pregnant state, incidental",
+    "O80, Encounter for full-term uncomplicated delivery",
+    "A code from category Z34, Encounter for supervision of normal pregnancy"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.15.b.1 says a Z34 code is the first-listed diagnosis for routine outpatient prenatal visits when no complications are present. Option A is wrong because O09 is for high-risk pregnancies (Section I.C.15.b.2). Option B is wrong because Z33.1 is for encounters where the provider documents the pregnancy is incidental (Section I.C.15.a.1); a prenatal visit is about the pregnancy. Option C is wrong because O80 is for a delivery encounter.",
+   "visual": {
+    "topic": "Routine prenatal visit",
+    "hint": "Normal, routine, no complications."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with a complication of pregnancy during one trimester, and the complication developed during that admission. She remains hospitalized into the next trimester. Which trimester character does Section I.C.15.a.4 require?",
+   "options": [
+    "The trimester at discharge",
+    "The unspecified trimester",
+    "The trimester when the complication developed",
+    "The trimester when the pregnancy was confirmed"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.15.a.4 says the trimester character for the antepartum complication is based on the trimester when the complication developed, not the trimester of the discharge. Option A is explicitly rejected by the guideline. Option B is wrong because unspecified trimester is only for insufficient documentation (Section I.C.15.a.5). Option D is not a rule in the guidelines.",
+   "visual": {
+    "topic": "Multi-trimester stays",
+    "hint": "When did the problem start?"
+   }
+  }
+ ]
+}

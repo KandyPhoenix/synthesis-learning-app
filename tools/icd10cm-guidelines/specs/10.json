@@ -1,0 +1,380 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "MRSA and Zika Virus Infections",
+   "content": "This lesson covers two short but frequently tested Chapter 1 guidelines.\n\n**Section I.C.1.e: MRSA conditions.** **MRSA** stands for **methicillin resistant Staphylococcus aureus**, a bacterium that does not respond to the antibiotic methicillin. The guideline tells you:\n• When to use a **combination code** (one code that names both the condition and the organism)\n• When to use a condition code **plus B95.62**\n• How to code **colonization** (carrying the organism without illness) for both MRSA and **MSSA** (methicillin susceptible Staphylococcus aureus)\n\n**Section I.C.1.f: Zika virus infections.** This guideline is about **uncertain diagnoses**: Zika is coded only when **confirmed**, which is an exception to the usual inpatient rule for uncertain diagnoses.",
+   "visual": {
+    "title": "Two Chapter 1 Topics",
+    "boxes": [
+     {
+      "h": "MRSA (I.C.1.e)",
+      "b": "Combination code vs B95.62; colonization Z22.32-"
+     },
+     {
+      "h": "Zika (I.C.1.f)",
+      "b": "Confirmed cases only: A92.5"
+     }
+    ],
+    "cols": 2,
+    "sub": "What this lesson covers"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.1.e"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: MRSA Combination Codes (I.C.1.e.1.a)",
+   "content": "A **combination code** is a single code that captures two things at once, here **the condition** and **the organism (MRSA)**.\n\n**Rule:** If the patient's infection is due to MRSA and that infection **has a combination code** that includes the organism, assign the combination code. The guideline's examples:\n• **A41.02**, Sepsis due to Methicillin resistant Staphylococcus aureus\n• **J15.212**, Pneumonia due to Methicillin resistant Staphylococcus aureus\n\n**Do NOT add:**\n• **B95.62**, Methicillin resistant Staphylococcus aureus infection as the cause of diseases classified elsewhere, because the combination code already includes both the infection type and the MRSA organism\n• A code from subcategory **Z16.11**, Resistance to penicillins\n\nFor MRSA sepsis, the sepsis rules in Section I.C.1.d still apply to sequencing (the guideline cross-references them).",
+   "visual": {
+    "title": "Combination Code Available",
+    "boxes": [
+     {
+      "h": "Assign",
+      "b": "The combination code, e.g. A41.02 or J15.212"
+     },
+     {
+      "h": "Do not add",
+      "b": "B95.62 - organism already in the code"
+     },
+     {
+      "h": "Do not add",
+      "b": "Code from Z16.11, Resistance to penicillins"
+     },
+     {
+      "h": "MRSA sepsis",
+      "b": "Also follow sepsis rules (I.C.1.d)"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.e.1.a"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is diagnosed with pneumonia due to MRSA. According to Section I.C.1.e.1.a, how should this be coded?",
+   "options": [
+    "J15.212 plus B95.62",
+    "J15.212 only, with no B95.62 and no Z16.11 code",
+    "A pneumonia code plus B95.62",
+    "J15.212 plus a code from subcategory Z16.11"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.e.1.a says that when an MRSA infection has a combination code, assign it (e.g., J15.212, Pneumonia due to Methicillin resistant Staphylococcus aureus), and do not assign B95.62 or a code from subcategory Z16.11. Option A is wrong because B95.62 is redundant with the combination code. Option C is the method for infections that have no combination code (I.C.1.e.1.b). Option D is wrong because Z16.11 is specifically not assigned.",
+   "visual": {
+    "topic": "MRSA pneumonia",
+    "hint": "Does a single code already name both the condition and the organism?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: No Combination Code (I.C.1.e.1.b)",
+   "content": "Some infections do **not** have a combination code that includes MRSA. The guideline gives examples of current infections such as a **wound infection**, a **stitch abscess**, and a **urinary tract infection**.\n\n**Rule:** When there is documentation of a **current** infection due to MRSA and no combination code exists:\n1. Assign the code for the **condition** (the infection)\n2. Add **B95.62**, Methicillin resistant Staphylococcus aureus infection as the cause of diseases classified elsewhere\n3. Do **not** assign a code from subcategory **Z16.11**, Resistance to penicillins\n\n**Exam trap:** The Z16.11 rule is the same in both situations (1.a and 1.b): it is not assigned for MRSA infections. What changes is only whether B95.62 is needed.",
+   "visual": {
+    "title": "Combination Code or Not?",
+    "boxes": [
+     {
+      "h": "Has combination code",
+      "b": "Use it alone. No B95.62."
+     },
+     {
+      "h": "No combination code",
+      "b": "Condition code + B95.62"
+     },
+     {
+      "h": "Either way",
+      "b": "No Z16.11 code"
+     }
+    ],
+    "cols": 1,
+    "sub": "Section I.C.1.e.1.a vs 1.b"
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: MRSA Wound Infection vs MRSA Sepsis",
+   "content": "**Scenario A:** The provider documents a current stitch abscess due to MRSA.\n• A stitch abscess is one of the current-infection examples listed in I.C.1.e.1.b; here, assume no combination code includes MRSA.\n• **Section I.C.1.e.1.b:** code the stitch abscess **plus B95.62**. No Z16.11 code.\n\n**Scenario B:** The provider documents sepsis due to MRSA.\n• Sepsis has a combination code: **A41.02**, Sepsis due to Methicillin resistant Staphylococcus aureus.\n• **Section I.C.1.e.1.a:** assign A41.02. Do **not** add B95.62 or Z16.11.\n• Follow Section I.C.1.d for sepsis sequencing (and add R65.2 only if severe sepsis or associated organ dysfunction is documented).",
+   "visual": {
+    "title": "Two MRSA Records",
+    "boxes": [
+     {
+      "h": "A: stitch abscess",
+      "b": "Abscess code + B95.62"
+     },
+     {
+      "h": "B: sepsis",
+      "b": "A41.02 only (no B95.62)"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.e.1.a and 1.b"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents a urinary tract infection due to MRSA. This infection has no combination code that includes the organism. Per Section I.C.1.e.1.b, what is assigned?",
+   "options": [
+    "The urinary tract infection code plus B95.62",
+    "Only the urinary tract infection code",
+    "The urinary tract infection code plus Z16.11",
+    "B95.62 only"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.e.1.b says that for a current MRSA infection without a combination code, assign the code for the condition along with B95.62, and do not assign a code from subcategory Z16.11. Option B leaves out the organism. Option C is wrong because Z16.11 is specifically not assigned. Option D is wrong because B95.62 identifies the organism causing a disease classified elsewhere, so the condition itself must also be coded.",
+   "visual": {
+    "topic": "MRSA without combo code",
+    "hint": "What identifies the organism when the condition code does not?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Colonization (I.C.1.e.1.c)",
+   "content": "**Colonization** (also called **carriage**) means MSSA or MRSA is **present on or in the body without necessarily causing illness**. A person who is colonized is called a **carrier**.\n\nThe provider might document a positive colonization test as **\"MRSA screen positive\"** or **\"MRSA nasal swab positive.\"**\n\n**Codes:**\n• MRSA colonization: **Z22.322**, Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus\n• MSSA colonization: **Z22.321**, Carrier or suspected carrier of Methicillin susceptible Staphylococcus aureus\n\n**What it does NOT mean:** Colonization is **not necessarily** a disease process or the cause of a condition the patient has, **unless the provider documents it as such**. A positive screen is not an infection by itself.",
+   "visual": {
+    "title": "Colonized vs Infected",
+    "boxes": [
+     {
+      "h": "MRSA colonization",
+      "b": "Z22.322, carrier of MRSA"
+     },
+     {
+      "h": "MSSA colonization",
+      "b": "Z22.321, carrier of MSSA"
+     },
+     {
+      "h": "Colonization means",
+      "b": "Present without necessarily causing illness"
+     },
+     {
+      "h": "Infection?",
+      "b": "Only if the provider documents it"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.e.1.c"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Colonization AND Infection (I.C.1.e.1.d)",
+   "content": "Sometimes a patient is documented as having **both** MRSA colonization **and** an MRSA infection during the same hospital admission.\n\n**Rule:** Both may be assigned:\n• **Z22.322**, Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus\n• A code for the **MRSA infection** (a combination code, or the condition code plus B95.62, following 1.a and 1.b)\n\n**Exam trap:** Students sometimes think the infection code \"absorbs\" the carrier status. The guideline says the two **may both be assigned** when both are documented.",
+   "visual": {
+    "title": "Both Documented",
+    "boxes": [
+     {
+      "h": "Colonization",
+      "b": "Z22.322"
+     },
+     {
+      "h": "Infection",
+      "b": "Combination code, or condition + B95.62"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.e.1.d: both may be assigned"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's chart shows \"MRSA nasal swab positive.\" The provider documents MRSA colonization and no infection. According to Section I.C.1.e.1.c, which code is assigned?",
+   "options": [
+    "B95.62",
+    "Z22.321",
+    "A41.02",
+    "Z22.322"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.e.1.c says to assign Z22.322, Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus, for patients documented as having MRSA colonization, and notes a positive colonization test may be documented as \"MRSA nasal swab positive.\" Option A is for a current MRSA infection without a combination code. Option B is for MSSA colonization. Option C is MRSA sepsis, which is not documented.",
+   "visual": {
+    "topic": "MRSA colonization",
+    "hint": "Colonization is not the same as infection."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "During one admission, the provider documents both MRSA colonization and an MRSA infection. Per Section I.C.1.e.1.d, what is correct?",
+   "options": [
+    "Code only the infection",
+    "Code only Z22.322",
+    "Z22.322 and a code for the MRSA infection may both be assigned",
+    "Query the provider, because both cannot exist at once"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.e.1.d states that if a patient is documented as having both MRSA colonization and infection during a hospital admission, Z22.322 and a code for the MRSA infection may both be assigned. Options A and B each drop a documented condition. Option D is wrong because the guideline expressly addresses this combination, so no query is needed on that basis.",
+   "visual": {
+    "topic": "Colonization + infection",
+    "hint": "Can both be reported in the same admission?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.1.f"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Zika Virus (I.C.1.f.1)",
+   "content": "**Rule:** Code only a **confirmed** diagnosis of Zika virus, as documented by the provider: **A92.5, Zika virus disease**.\n\n**What counts as confirmed?** The provider's **diagnostic statement that the condition is confirmed** is enough. The documentation does **not** need to state the type of test performed.\n\n**Mode of transmission:** A92.5 is assigned **regardless of the stated mode of transmission**.\n\n**Not confirmed:** If the provider documents **\"suspected,\" \"possible,\" or \"probable\"** Zika, do **not** assign A92.5. Instead assign:\n• Code(s) for the **reason for the encounter** (such as fever, rash, or joint pain), or\n• **Z20.821**, Contact with and (suspected) exposure to Zika virus",
+   "visual": {
+    "title": "Zika: Confirmed or Not?",
+    "boxes": [
+     {
+      "h": "Confirmed by provider",
+      "b": "A92.5, Zika virus disease"
+     },
+     {
+      "h": "Suspected/possible/probable",
+      "b": "No A92.5"
+     },
+     {
+      "h": "Instead code",
+      "b": "Symptoms (fever, rash, joint pain) or Z20.821"
+     }
+    ],
+    "cols": 1,
+    "sub": "Section I.C.1.f.1"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Exam Trap: Zika vs the Inpatient Uncertain Diagnosis Rule",
+   "content": "**Section II.H (Uncertain Diagnosis)** normally says that for **inpatient** admissions, if the diagnosis at discharge is qualified as \"probable,\" \"suspected,\" \"possible,\" and similar terms, you code the condition **as if it existed**. (Section II.H applies only to inpatient admissions to short-term, acute, long-term care and psychiatric hospitals.)\n\n**Section I.C.1.f.1 says Zika is an exception to Section II.H.** Even for an inpatient, \"suspected Zika\" or \"probable Zika\" is **not** coded as A92.5.\n\n**Bottom line:**\n• Most inpatient uncertain diagnoses: code as if established (II.H)\n• Zika: code only if confirmed by the provider (I.C.1.f.1)",
+   "visual": {
+    "title": "Uncertain Diagnosis Rules",
+    "boxes": [
+     {
+      "h": "Section II.H (inpatient)",
+      "b": "Probable/suspected: code as if it existed"
+     },
+     {
+      "h": "Zika exception",
+      "b": "Probable/suspected: do NOT code A92.5"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.f.1 is an exception to Section II.H"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient's discharge summary states \"probable Zika virus disease\" with fever and rash. According to Section I.C.1.f.1, how should this be coded?",
+   "options": [
+    "A92.5, because inpatient uncertain diagnoses are coded as if they existed",
+    "Codes for the fever and rash, or Z20.821, but not A92.5",
+    "A92.5 plus Z20.821",
+    "Query the provider for the type of test performed before assigning A92.5"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.f.1 says if the provider documents \"suspected,\" \"possible\" or \"probable\" Zika, do not assign A92.5; assign code(s) explaining the reason for the encounter (such as fever, rash, or joint pain) or Z20.821. Option A is wrong because this guideline is an exception to inpatient guideline Section II.H. Option C is wrong because A92.5 is not assigned for probable Zika. Option D is wrong because confirmation does not require documentation of the type of test; the issue here is that Zika is only probable.",
+   "visual": {
+    "topic": "Probable Zika",
+    "hint": "This guideline is an exception to the inpatient uncertain diagnosis rule."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents \"Zika virus disease, confirmed\" but does not state which test was performed. The patient acquired the infection through a route other than a mosquito bite. Per Section I.C.1.f.1, what is assigned?",
+   "options": [
+    "A92.5, Zika virus disease",
+    "Z20.821, because the test type is not documented",
+    "Nothing until the test type and mode of transmission are documented",
+    "Symptom codes only"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.f.1 says confirmation does not require documentation of the type of test performed; the provider's diagnostic statement that the condition is confirmed is sufficient, and A92.5 is assigned regardless of the stated mode of transmission. Option B is wrong because Z20.821 is for suspected cases or exposure. Option C is wrong because neither the test type nor the transmission mode is required. Option D is wrong because the diagnosis is confirmed, so A92.5 is assigned.",
+   "visual": {
+    "topic": "Confirmed Zika",
+    "hint": "What does the guideline say is sufficient for confirmation?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying I.C.1.e and I.C.1.f on a Real Record",
+   "content": "**MRSA documentation:**\n1. Is it an **infection** or **colonization**? \"MRSA screen positive\" or \"nasal swab positive\" points to colonization; infection must be documented by the provider (I.C.1.e.1.c).\n2. **Colonization only:** Z22.322 (MRSA) or Z22.321 (MSSA).\n3. **Infection:** does the condition have a **combination code** with MRSA (e.g., A41.02, J15.212)? If yes, use it alone (I.C.1.e.1.a). If no, code the condition plus **B95.62** (I.C.1.e.1.b).\n4. Never add a **Z16.11** code for MRSA infections.\n5. **Both** colonization and infection documented? Both may be coded (I.C.1.e.1.d).\n6. MRSA sepsis? Also apply Section I.C.1.d.\n\n**Zika documentation:**\n1. Is the diagnosis **confirmed** by the provider? Then **A92.5**, no matter the test type or transmission mode.\n2. Suspected, possible, or probable? Code the **symptoms** or **Z20.821**. This applies in the inpatient setting too.",
+   "visual": {
+    "title": "MRSA and Zika Workflow",
+    "boxes": [
+     {
+      "h": "MRSA step 1",
+      "b": "Infection or colonization?"
+     },
+     {
+      "h": "MRSA step 2",
+      "b": "Combination code? If not, add B95.62"
+     },
+     {
+      "h": "Zika step 1",
+      "b": "Confirmed by the provider?"
+     },
+     {
+      "h": "Zika step 2",
+      "b": "If not: symptoms or Z20.821"
+     }
+    ],
+    "cols": 2,
+    "sub": "Step-by-step on a real record"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• MRSA infection **with a combination code** (e.g., A41.02, J15.212): assign the combination code only, no B95.62 (I.C.1.e.1.a).\n• MRSA infection **without a combination code** (e.g., wound infection, stitch abscess, UTI): condition code **plus B95.62** (I.C.1.e.1.b).\n• **Never** add a Z16.11 code, Resistance to penicillins, for an MRSA infection (I.C.1.e.1.a-b).\n• **Colonization** = present without necessarily causing illness: **Z22.322** (MRSA), **Z22.321** (MSSA). Not a disease unless the provider says so (I.C.1.e.1.c).\n• Colonization and infection documented together: **both may be coded** (I.C.1.e.1.d).\n• Zika: code **A92.5** only when **confirmed** by the provider; test type and mode of transmission are not required (I.C.1.f.1).\n• Suspected, possible, or probable Zika: **symptoms** or **Z20.821**. This is an **exception to Section II.H**.",
+   "visual": {
+    "title": "MRSA and Zika: Remember",
+    "boxes": [
+     {
+      "h": "Combination code",
+      "b": "Use alone; no B95.62"
+     },
+     {
+      "h": "No combination code",
+      "b": "Condition + B95.62"
+     },
+     {
+      "h": "Carrier",
+      "b": "Z22.322 MRSA / Z22.321 MSSA"
+     },
+     {
+      "h": "Zika",
+      "b": "Confirmed only: A92.5"
+     }
+    ],
+    "cols": 2,
+    "sub": "Sections I.C.1.e and I.C.1.f summary"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which situation calls for code Z22.321?",
+   "options": [
+    "A patient documented as having MRSA colonization",
+    "A patient with a stitch abscess due to MRSA",
+    "A patient with suspected Zika exposure",
+    "A patient documented as having MSSA colonization"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.e.1.c says to assign Z22.321, Carrier or suspected carrier of Methicillin susceptible Staphylococcus aureus, for patients documented as having MSSA colonization. Option A takes Z22.322. Option B is coded with the condition code plus B95.62 (I.C.1.e.1.b). Option C relates to Z20.821 (I.C.1.f.1).",
+   "visual": {
+    "topic": "MSSA vs MRSA carrier",
+    "hint": "Susceptible vs resistant: which one is MSSA?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents \"MRSA screen positive\" and, separately, a cellulitis that the provider does not attribute to MRSA. Under Section I.C.1.e.1.c, how should the coder treat the colonization?",
+   "options": [
+    "Assume the cellulitis is caused by MRSA and add B95.62",
+    "Do not report colonization when any infection is present",
+    "Report the colonization as Z22.322; colonization is not necessarily the cause of a condition unless the provider documents it",
+    "Report Z16.11 to show resistance"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.e.1.c says colonization is not necessarily indicative of a disease process or the cause of a specific condition the patient may have unless documented as such by the provider; MRSA colonization is reported with Z22.322. Option A is wrong because the coder may not assume the link. Option B is wrong because nothing in the guideline drops colonization when an infection is present (I.C.1.e.1.d even allows both for MRSA infection). Option D is wrong because Z16.11 is not assigned in the MRSA guideline's instructions.",
+   "visual": {
+    "topic": "Colonization as cause",
+    "hint": "Who decides whether the colonization caused the condition?"
+   }
+  }
+ ]
+}

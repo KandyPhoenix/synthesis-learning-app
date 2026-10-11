@@ -1,0 +1,468 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Eye and Ear Guidelines",
+   "content": "Chapter 7 covers Diseases of the Eye and Adnexa (H00-H59). Its guidelines focus on two topics:\n\n• **I.C.7.a Glaucoma** — how many codes to assign, how to handle **both eyes** (bilateral glaucoma) when the type and stage match or differ, what to do when the stage changes during an admission, and the difference between the **indeterminate** stage and the **unspecified** stage.\n• **I.C.7.b Blindness** — which code to use when blindness or low vision is documented without a visual impairment category.\n\nChapter 8, Diseases of the Ear and Mastoid Process (H60-H95), has **no chapter-specific guidelines** yet; the section is reserved for future expansion.\n\nGlaucoma coding depends on three facts in the record: the **type** of glaucoma, the **eye** affected, and the **stage**. The stage is reported with a **seventh character**.",
+   "visual": {
+    "title": "Lesson 17 Roadmap",
+    "sub": "Chapters 7 and 8",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Glaucoma codes",
+      "b": "Type, eye, stage"
+     },
+     {
+      "h": "Bilateral glaucoma",
+      "b": "Same or different type/stage"
+     },
+     {
+      "h": "Stage changes",
+      "b": "Admitted, then progresses"
+     },
+     {
+      "h": "Stage 4 vs 0",
+      "b": "Indeterminate vs unspecified"
+     },
+     {
+      "h": "Blindness",
+      "b": "H54.3, H54.6-, H54.7"
+     },
+     {
+      "h": "Chapter 8",
+      "b": "Reserved: no guidelines yet"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.7"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.7.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Assigning Glaucoma Codes",
+   "content": "Section I.C.7.a.1 says: assign **as many codes from category H40, Glaucoma, as needed** to identify:\n\n• the **type** of glaucoma,\n• the **affected eye**, and\n• the glaucoma **stage**.\n\nThe stage is carried in the **seventh character** of the code (Section I.C.7.a.2 and a.5 refer to it this way).\n\n**What this means:** one code is not always enough. If one code cannot capture the type, eye and stage for every affected eye, more H40 codes are needed. The rest of Section I.C.7.a tells you exactly when to use one code and when to use more than one.",
+   "visual": {
+    "title": "Three Facts for Every H40",
+    "sub": "Section I.C.7.a.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Type",
+      "b": "Which kind of glaucoma"
+     },
+     {
+      "h": "Eye",
+      "b": "Right, left, or both"
+     },
+     {
+      "h": "Stage",
+      "b": "Seventh character"
+     },
+     {
+      "h": "How many codes?",
+      "b": "As many as needed"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Bilateral Glaucoma, Same Type and Stage",
+   "content": "Section I.C.7.a.2 covers a patient with glaucoma in **both eyes** where both eyes have the **same type and same stage**.\n\n**If there is a code for bilateral glaucoma:**\n• Report **only** the code for the type of glaucoma, **bilateral**, with the seventh character for the stage. One code.\n\n**If the classification does NOT provide a bilateral code** (the guideline names subcategories **H40.10** and **H40.20**):\n• Report **only one code** for the type of glaucoma with the appropriate seventh character for the stage.\n\n**Either way: same type + same stage in both eyes = one code.**",
+   "visual": {
+    "title": "Same Type, Same Stage",
+    "sub": "Section I.C.7.a.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Bilateral code exists",
+      "b": "One code: type, bilateral, 7th char for stage"
+     },
+     {
+      "h": "No bilateral code",
+      "b": "One code: type, 7th char for stage"
+     },
+     {
+      "h": "Examples of no laterality",
+      "b": "H40.10 and H40.20"
+     },
+     {
+      "h": "Result",
+      "b": "Always ONE code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has the same type and stage of glaucoma in both eyes, and the classification has a bilateral code for that type. According to Section I.C.7.a.2, what is reported?",
+   "options": [
+    "One code for the right eye and one code for the left eye",
+    "Two bilateral codes, one for each stage",
+    "Only the code for the type of glaucoma, bilateral, with the seventh character for the stage",
+    "Only an unspecified glaucoma code"
+   ],
+   "correct": 2,
+   "explanation": "Correct: one bilateral code with the stage seventh character. Section I.C.7.a.2 says that when both eyes have the same type and stage and a bilateral code exists, report only the code for the type of glaucoma, bilateral, with the seventh character for the stage. Separate right and left codes are for eyes with different types or stages where laterality is distinguished (I.C.7.a.3). There is only one stage here, so two bilateral codes make no sense. An unspecified code ignores the documented type and stage.",
+   "visual": {
+    "topic": "Bilateral glaucoma",
+    "hint": "Same type and stage, and a bilateral code exists."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Bilateral Glaucoma, Different Types or Stages",
+   "content": "Section I.C.7.a.3 covers both eyes with glaucoma where the eyes are **different**. There are three situations:\n\n**1. Different type or stage, and the classification distinguishes laterality** (has right/left codes):\n• Assign the appropriate code **for each eye** rather than the bilateral code.\n\n**2. Different type, and the classification does not distinguish laterality** (subcategories H40.10 and H40.20):\n• Assign **one code for each type** of glaucoma, each with the appropriate seventh character for the stage.\n\n**3. Same type but different stage, and the classification does not distinguish laterality** (subcategories H40.10 and H40.20):\n• Assign a code for the type of glaucoma **for each eye**, each with the seventh character for the **stage documented for that eye**.",
+   "visual": {
+    "title": "Eyes Differ",
+    "sub": "Section I.C.7.a.3",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Laterality codes exist",
+      "b": "One code per eye; not the bilateral code"
+     },
+     {
+      "h": "No laterality, diff type",
+      "b": "One code per type, each with its stage"
+     },
+     {
+      "h": "No laterality, diff stage",
+      "b": "Type code for each eye, each with its own stage"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Different Stages, No Laterality",
+   "content": "**Documentation:** Glaucoma of the same type in both eyes. The provider documents a different stage for the right eye and the left eye. The type falls in a subcategory the guideline lists as not distinguishing laterality (H40.10 or H40.20).\n\n**Which guideline applies:** Section I.C.7.a.3, third paragraph — same type, different stage, no laterality.\n\n**Decision:** Two codes for the same type of glaucoma: one with the seventh character for the right eye's stage, and one with the seventh character for the left eye's stage.\n\n**Contrast:** If both eyes had the **same** stage, Section I.C.7.a.2 says report **only one code** with the seventh character for that stage.",
+   "visual": {
+    "title": "Stage Differs by Eye",
+    "sub": "No laterality in the subcategory",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Right eye",
+      "b": "Type code + 7th char for right eye stage"
+     },
+     {
+      "h": "Left eye",
+      "b": "Type code + 7th char for left eye stage"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has bilateral glaucoma. Each eye has a different type of glaucoma, and the classification distinguishes laterality. According to Section I.C.7.a.3, what is assigned?",
+   "options": [
+    "The appropriate code for each eye, rather than the bilateral code",
+    "The code for bilateral glaucoma",
+    "One code for the more severe eye only",
+    "One code for each type with no seventh character"
+   ],
+   "correct": 0,
+   "explanation": "Correct: a code for each eye. Section I.C.7.a.3 says that when each eye has a different type or stage and the classification distinguishes laterality, assign the appropriate code for each eye rather than the code for bilateral glaucoma. The bilateral code is used only when both eyes have the same type and stage (I.C.7.a.2). Coding only one eye leaves out a documented condition and conflicts with Section I.C.7.a.1 (as many codes as needed). The stage seventh character is always needed to identify the stage.",
+   "visual": {
+    "topic": "Different types",
+    "hint": "Laterality is available here."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Both eyes have the same type of glaucoma but different stages. The type is in subcategory H40.10, which does not distinguish laterality. According to Section I.C.7.a.3, how is this coded?",
+   "options": [
+    "One code with the seventh character for the higher stage",
+    "One code with the seventh character \"0\", unspecified",
+    "A bilateral code with the seventh character \"4\"",
+    "A code for the type of glaucoma for each eye, each with the seventh character for the stage documented for that eye"
+   ],
+   "correct": 3,
+   "explanation": "Correct: a code for each eye with that eye's stage. Section I.C.7.a.3 says that when each eye has the same type but different stage and the classification does not distinguish laterality (e.g., H40.10), assign a code for the type for each eye with the seventh character for the specific stage documented for each eye. The \"highest stage\" rule (I.C.7.a.4) is for a stage that progresses during an admission, not for two eyes with different stages. Seventh character \"0\" is for no stage documentation. Seventh character \"4\" is for indeterminate stage, and H40.10 has no bilateral code.",
+   "visual": {
+    "topic": "Different stages",
+    "hint": "Each eye keeps its own stage."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Stage Changes, and Indeterminate vs Unspecified",
+   "content": "**Stage evolves during an admission (I.C.7.a.4)**\n• If a patient is admitted with glaucoma and the stage **progresses during the admission**, assign the code for the **highest stage documented**.\n\n**Indeterminate stage (I.C.7.a.5)**\n• Seventh character **\"4\" = indeterminate stage**. It is used for glaucomas whose stage **cannot be clinically determined**, and its assignment should be based on the **clinical documentation**.\n• Seventh character **\"0\" = unspecified**. It is assigned when there is **no documentation** regarding the stage.\n\n**Exam trap:** \"4\" and \"0\" are not interchangeable. \"Indeterminate\" means the provider looked and could not determine the stage. \"Unspecified\" means the record simply says nothing about the stage.",
+   "visual": {
+    "title": "Stage Rules",
+    "sub": "Sections I.C.7.a.4 and I.C.7.a.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Stage progresses",
+      "b": "Code the highest stage documented"
+     },
+     {
+      "h": "7th char \"4\"",
+      "b": "Indeterminate: cannot be determined"
+     },
+     {
+      "h": "7th char \"0\"",
+      "b": "Unspecified: no stage documentation"
+     },
+     {
+      "h": "Do not confuse",
+      "b": "4 and 0 mean different things"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The ophthalmologist documents that the patient's glaucoma stage cannot be clinically determined. According to Section I.C.7.a.5, which seventh character is assigned?",
+   "options": [
+    "\"0\", unspecified",
+    "\"4\", indeterminate stage",
+    "The seventh character for the highest stage",
+    "No seventh character is needed"
+   ],
+   "correct": 1,
+   "explanation": "Correct: \"4\", indeterminate stage. Section I.C.7.a.5 says the seventh character \"4\" is used for glaucomas whose stage cannot be clinically determined, based on the clinical documentation. \"0\" is for when there is no documentation regarding the stage, and the guideline warns not to confuse the two. The highest-stage rule (I.C.7.a.4) is for a stage that progresses during an admission. A seventh character for stage is part of the H40 code assignment described in I.C.7.a.",
+   "visual": {
+    "topic": "Glaucoma stage",
+    "hint": "Could not be determined vs not documented."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with glaucoma, and the documented stage progresses during the admission. According to Section I.C.7.a.4, what is coded?",
+   "options": [
+    "The stage documented on admission",
+    "The code for the highest stage documented",
+    "Both stages, one code each",
+    "The indeterminate stage, because the stage changed"
+   ],
+   "correct": 1,
+   "explanation": "Correct: the highest stage documented. Section I.C.7.a.4 says that if a patient is admitted with glaucoma and the stage progresses during the admission, assign the code for the highest stage documented. The admission stage is not used once a higher stage is documented. Coding both stages is not what the guideline directs. Indeterminate stage is for a stage that cannot be clinically determined, not one that changed.",
+   "visual": {
+    "topic": "Stage progression",
+    "hint": "Which stage wins?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.7.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Blindness Without a Category",
+   "content": "Section I.C.7.b applies when the provider documents **blindness** or **low vision** but does **not** document the **visual impairment category**. Pick the code by how many eyes are documented:\n\n• **Both eyes** → **H54.3**, Unqualified visual loss, both eyes\n• **One eye** → a code from **H54.6-**, Unqualified visual loss, one eye\n• **Not stated** whether one or both eyes (\"blindness\" or \"visual loss\" with no information about the eyes) → **H54.7**, Unspecified visual loss\n\n**What it does NOT cover:** this guideline is for documentation without a visual impairment category. It does not tell you how to code when the category is documented.",
+   "visual": {
+    "title": "Blindness, No Category",
+    "sub": "Section I.C.7.b",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Both eyes",
+      "b": "H54.3 unqualified visual loss, both eyes"
+     },
+     {
+      "h": "One eye",
+      "b": "H54.6- unqualified visual loss, one eye"
+     },
+     {
+      "h": "Eyes not stated",
+      "b": "H54.7 unspecified visual loss"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Low Vision, Category Not Documented",
+   "content": "**Scenario A:** \"Low vision, both eyes.\" No visual impairment category is documented.\n• Section I.C.7.b → **H54.3**, Unqualified visual loss, both eyes.\n\n**Scenario B:** \"Blind in the left eye.\" No visual impairment category is documented.\n• Section I.C.7.b → a code from **H54.6-**, Unqualified visual loss, one eye.\n\n**Scenario C:** \"History notes blindness.\" Nothing says which eye or whether both eyes are affected, and no category is documented.\n• Section I.C.7.b → **H54.7**, Unspecified visual loss.",
+   "visual": {
+    "title": "Count the Eyes",
+    "sub": "Same guideline, three outcomes",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Both eyes",
+      "b": "H54.3"
+     },
+     {
+      "h": "One eye",
+      "b": "H54.6-"
+     },
+     {
+      "h": "Not stated",
+      "b": "H54.7"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents \"blindness\" with no information about whether one or both eyes are affected and no visual impairment category. According to Section I.C.7.b, which code is assigned?",
+   "options": [
+    "H54.3, Unqualified visual loss, both eyes",
+    "A code from H54.6-, Unqualified visual loss, one eye",
+    "No code until the category is documented",
+    "H54.7, Unspecified visual loss"
+   ],
+   "correct": 3,
+   "explanation": "Correct: H54.7. Section I.C.7.b says that if \"blindness\" or \"visual loss\" is documented without any information about whether one or both eyes are affected, assign H54.7, Unspecified visual loss. H54.3 requires documentation of both eyes. H54.6- requires documentation of one eye. The guideline gives a code for this situation, so leaving it uncoded is wrong.",
+   "visual": {
+    "topic": "Blindness",
+    "hint": "How many eyes are documented?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "\"Low vision, both eyes\" is documented without a visual impairment category. According to Section I.C.7.b, what is assigned?",
+   "options": [
+    "H54.3, Unqualified visual loss, both eyes",
+    "H54.7, Unspecified visual loss",
+    "Two codes from H54.6-, one for each eye",
+    "A code from category H40"
+   ],
+   "correct": 0,
+   "explanation": "Correct: H54.3. Section I.C.7.b says that if \"blindness\" or \"low vision\" of both eyes is documented but the visual impairment category is not, assign H54.3, Unqualified visual loss, both eyes. H54.7 is for when it is not known whether one or both eyes are affected. H54.6- is for one eye, and the guideline gives a single both-eyes code instead. Category H40 is glaucoma.",
+   "visual": {
+    "topic": "Low vision",
+    "hint": "Both eyes are documented."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.8"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Chapter 8 Has No Specific Guidelines Yet",
+   "content": "Section I.C.8, Diseases of the Ear and Mastoid Process (H60-H95), reads only: **\"Reserved for future guideline expansion.\"**\n\n**What this means:**\n\n• There are **no chapter-specific guidelines** for ear conditions in the FY 2027 guidelines.\n• Ear conditions are still coded. You follow the **conventions** (Section I.A), the **general coding guidelines** (Section I.B), and the instructional notes in the Tabular List and Alphabetic Index, just as for any other chapter.\n\n**Exam tip:** If a question asks what the chapter-specific guideline for Chapter 8 says, the answer is that the section is reserved for future guideline expansion.",
+   "visual": {
+    "title": "Chapter 8: Ear and Mastoid",
+    "sub": "H60-H95",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Chapter guidelines",
+      "b": "Reserved for future expansion"
+     },
+     {
+      "h": "Still apply",
+      "b": "Conventions and general guidelines"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "What does Section I.C.8, Diseases of the Ear and Mastoid Process (H60-H95), contain in the FY 2027 guidelines?",
+   "options": [
+    "Detailed rules for coding hearing loss laterality",
+    "Rules that replace the general coding guidelines for ear conditions",
+    "The statement \"Reserved for future guideline expansion\"",
+    "A list of ear codes that may not be used as principal diagnosis"
+   ],
+   "correct": 2,
+   "explanation": "Correct: the section is reserved for future guideline expansion. That is the only text in Section I.C.8. The other options describe rules that do not appear in this section; Chapter 8 has no chapter-specific rules, and nothing in it replaces the general guidelines.",
+   "visual": {
+    "topic": "Chapter 8",
+    "hint": "What text does the section contain?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Lesson 17 to a Real Record",
+   "content": "**Glaucoma (H40):**\n1. Identify the **type**, the **eye(s)** and the **stage** for each eye from the documentation.\n2. **Both eyes, same type and stage?** One code — the bilateral code if one exists; otherwise one code for the type (e.g., H40.10, H40.20) with the stage seventh character.\n3. **Eyes differ, laterality available?** One code for each eye, not the bilateral code.\n4. **Eyes differ, no laterality (H40.10, H40.20)?** Different types → one code per type, each with its stage. Same type, different stages → a code for each eye with that eye's stage.\n5. **Stage progressed during the admission?** Code the highest stage documented.\n6. **Stage not clinically determinable?** Seventh character \"4\". **No stage documentation at all?** Seventh character \"0\".\n\n**Blindness / low vision with no visual impairment category:**\n7. Both eyes → H54.3. One eye → H54.6-. Not stated → H54.7.\n\n**Ear (Chapter 8):**\n8. No chapter-specific guidelines; apply the conventions and general guidelines.",
+   "visual": {
+    "title": "Lesson 17 Workflow",
+    "sub": "Type, eye, stage; then count the eyes",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1 Gather facts",
+      "b": "Type, eye, stage"
+     },
+     {
+      "h": "2 Same in both eyes",
+      "b": "One code"
+     },
+     {
+      "h": "3-4 Eyes differ",
+      "b": "Per eye or per type"
+     },
+     {
+      "h": "5-6 Stage rules",
+      "b": "Highest; 4 vs 0"
+     },
+     {
+      "h": "7 Blindness",
+      "b": "H54.3, H54.6-, H54.7"
+     },
+     {
+      "h": "8 Ear",
+      "b": "General guidelines only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• Assign **as many H40 codes as needed** to show type, affected eye and stage (I.C.7.a.1).\n• **Same type and stage in both eyes = one code**: the bilateral code if it exists, otherwise one code for the type with the stage seventh character (I.C.7.a.2).\n• **Different type or stage with laterality available** → a code for each eye, not the bilateral code (I.C.7.a.3).\n• **No laterality (H40.10, H40.20)**: different types → one code per type; same type, different stages → a code for each eye with its own stage (I.C.7.a.3).\n• **Stage progresses during admission** → code the highest stage documented (I.C.7.a.4).\n• **Seventh character \"4\"** = indeterminate (cannot be determined); **\"0\"** = unspecified (no documentation) (I.C.7.a.5).\n• **Blindness/low vision without a category**: both eyes H54.3; one eye H54.6-; not stated H54.7 (I.C.7.b).\n• **Chapter 8** is reserved for future guideline expansion (I.C.8).",
+   "visual": {
+    "title": "Lesson 17 Summary",
+    "sub": "Eye and ear guidelines at a glance",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "H40 basics",
+      "b": "Type, eye, stage"
+     },
+     {
+      "h": "Same both eyes",
+      "b": "One code"
+     },
+     {
+      "h": "Eyes differ",
+      "b": "Per eye or per type"
+     },
+     {
+      "h": "Stage 4 vs 0",
+      "b": "Indeterminate vs unspecified"
+     },
+     {
+      "h": "Blindness",
+      "b": "H54.3 / H54.6- / H54.7"
+     },
+     {
+      "h": "Chapter 8",
+      "b": "Reserved"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Both eyes have different types of glaucoma, and the subcategories involved (such as H40.10 and H40.20) do not distinguish laterality. According to Section I.C.7.a.3, what is assigned?",
+   "options": [
+    "One bilateral code",
+    "Only the code for the more advanced type",
+    "One code with seventh character \"0\"",
+    "One code for each type of glaucoma, each with the appropriate seventh character for the stage"
+   ],
+   "correct": 3,
+   "explanation": "Correct: one code for each type, each with its stage. Section I.C.7.a.3 says that when each eye has a different type and the classification does not distinguish laterality (subcategories H40.10 and H40.20), assign one code for each type of glaucoma with the appropriate seventh character for the stage. A bilateral code is for the same type and stage in both eyes, and these subcategories have none. Coding only one type leaves out a documented condition. Seventh character \"0\" is only for no stage documentation.",
+   "visual": {
+    "topic": "Different types, no laterality",
+    "hint": "One code per type."
+   }
+  }
+ ]
+}

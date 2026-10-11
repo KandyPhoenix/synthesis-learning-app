@@ -1,0 +1,572 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Present on Admission: Was It There at the Start?",
+   "content": "Every inpatient diagnosis code tells **what** the patient had. The **Present on Admission (POA) indicator** tells **when**: was the condition present at the time the order for inpatient admission occurred, or did it develop during the stay?\n\n**Appendix I** gives the POA Reporting Guidelines. They are a **supplement** to the main guidelines and are used to assign a POA indicator to each diagnosis and external cause of injury code reported on claim forms (**UB-04 and 837 Institutional**).\n\nIn this lesson you will learn:\n\n• What POA means and which codes get an indicator\n• The reporting options **Y, N, U, W** and when the field is left blank\n• Rules for chronic conditions, uncertain diagnoses, combination codes and infections\n• Special rules for obstetrical, perinatal, congenital and external cause codes",
+   "visual": {
+    "title": "POA at a Glance",
+    "sub": "Appendix I: Present on Admission Reporting",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Y",
+      "b": "Present at the time of inpatient admission"
+     },
+     {
+      "h": "N",
+      "b": "Not present at the time of inpatient admission"
+     },
+     {
+      "h": "U",
+      "b": "Documentation insufficient to determine"
+     },
+     {
+      "h": "W",
+      "b": "Provider cannot clinically determine"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "APP"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: What POA Guidelines Do (and Don't Do)",
+   "content": "• **Purpose:** to help assign the POA indicator for **each diagnosis and external cause of injury code** reported on claim forms (UB-04 and 837 Institutional).\n• **They do NOT decide what to code.** The POA guidelines are applied to the **final set of codes** already assigned under **Sections I, II, and III**. First code, then assign POA.\n• **They do not replace** any guideline in the main body.\n• **Documentation from any provider** involved in the patient's care may be used to support the POA decision. \"Provider\" means a physician or any qualified healthcare practitioner legally accountable for establishing the diagnosis.\n• **They are not a substitute for the provider's clinical judgment.** Query the provider about linking signs/symptoms, timing of test results, and timing of findings.\n• **Exempt list:** the CDC website lists codes that do not require a POA indicator – circumstances of the encounter or factors influencing health status that are not a current disease or injury, or conditions that are always present on admission.",
+   "visual": {
+    "title": "POA Comes After Coding",
+    "sub": "Code first, then assign POA",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Step 1",
+      "b": "Assign codes under Sections I, II, III"
+     },
+     {
+      "h": "Step 2",
+      "b": "Assign a POA indicator to each code"
+     },
+     {
+      "h": "Evidence",
+      "b": "Any provider involved in care"
+     },
+     {
+      "h": "Unclear?",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: General Reporting Requirements",
+   "content": "**Who reports POA:** all claims involving inpatient admissions to general acute care hospitals or other facilities subject to a law or regulation mandating collection of POA information.\n\n**Definition:** **present at the time the order for inpatient admission occurs**.\n\n**Key point:** conditions that develop during an **outpatient encounter** – including the **emergency department, observation, or outpatient surgery** – are **considered present on admission**.\n\n**Which codes:** the **principal and secondary diagnoses** (as defined in Section II) and the **external cause of injury codes**.\n\n**Also:** inconsistent, missing, conflicting or unclear documentation must still be resolved by the provider. And if a condition **would not be coded** under UHDDS definitions and current guidelines, **no POA indicator** is reported for it.",
+   "visual": {
+    "title": "When Is \"Admission\"?",
+    "sub": "The moment the inpatient order occurs",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Before the order",
+      "b": "ED, observation, outpatient surgery"
+     },
+     {
+      "h": "Those conditions",
+      "b": "Considered present on admission"
+     },
+     {
+      "h": "Indicator goes on",
+      "b": "Principal, secondary, external cause"
+     },
+     {
+      "h": "Not coded?",
+      "b": "No POA indicator reported"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient develops a condition while in the emergency department, before the order for inpatient admission is written. According to Appendix I, what is the POA status?",
+   "options": [
+    "Not present on admission, because it developed in the hospital",
+    "Unknown",
+    "Present on admission",
+    "Clinically undetermined"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Appendix I defines POA as \"present at the time the order for inpatient admission occurs -- conditions that develop during an outpatient encounter, including emergency department, observation, or outpatient surgery, are considered as present on admission.\" Being inside the hospital building does not make it N. U and W are for unclear documentation or a provider who cannot clinically determine; neither applies when the timing is known.",
+   "visual": {
+    "topic": "Definition of POA",
+    "hint": "When does 'admission' happen for POA purposes?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Appendix I, the POA guidelines are applied to which codes?",
+   "options": [
+    "The principal and secondary diagnoses and the external cause of injury codes",
+    "Only the principal diagnosis",
+    "Only codes for chronic conditions",
+    "Only codes for complications"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Appendix I states \"A POA indicator is assigned to the principal and secondary diagnoses (as defined in Section II of the Official Guidelines for Coding and Reporting) and the external cause of injury codes.\" The other options list only part of that set, or a category the guideline does not single out.",
+   "visual": {
+    "topic": "Which codes get POA",
+    "hint": "Three groups of codes are named."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Y, N, U, W and Blank",
+   "content": "**Reporting options:**\n\n• **Y – Yes:** present at the time of inpatient admission\n• **N – No:** not present at the time of inpatient admission\n• **U – Unknown:** documentation is **insufficient** to determine if the condition was present on admission\n• **W – Clinically undetermined:** the **provider is unable to clinically determine** whether the condition was present on admission\n• **Unreported/Not used:** exempt from POA reporting\n\n**Blank field:** leave the POA field blank **only** if the code is on the **exempt list**. \"This is the **only circumstance** in which the field may be left blank.\"\n\n**U vs W – the exam trap:**\n\n• **U** = the **documentation** doesn't say. \"U\" should **not be routinely assigned**; coders are encouraged to **query** the provider.\n• **W** = the **provider documents** that it **cannot be clinically determined**.",
+   "visual": {
+    "title": "U vs W",
+    "sub": "Unknown is not the same as undetermined",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "U: Unknown",
+      "b": "Record is unclear: query first"
+     },
+     {
+      "h": "W: Undetermined",
+      "b": "Provider says it can't be determined"
+     },
+     {
+      "h": "Blank",
+      "b": "Only for exempt-list codes"
+     },
+     {
+      "h": "U use",
+      "b": "Not routine; very limited cases"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The record is unclear about whether a condition was present on admission, and the provider has not been asked. According to Appendix I, what should the coder do first?",
+   "options": [
+    "Assign W",
+    "Leave the POA field blank",
+    "Assign N",
+    "Query the provider for clarification"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Appendix I says \"If at the time of code assignment the documentation is unclear as to whether a condition was present on admission or not, it is appropriate to query the provider for clarification,\" and \"U should not be routinely assigned... Coders are encouraged to query the provider when the documentation is unclear.\" W is for when the provider documents that it cannot be clinically determined. A blank field is allowed only for exempt-list codes. N requires documentation that it was not present.",
+   "visual": {
+    "topic": "Unclear POA documentation",
+    "hint": "U should not be routine."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents that it cannot be clinically determined whether a condition was present at the time of admission. Which POA indicator is assigned?",
+   "options": [
+    "Y",
+    "W",
+    "U",
+    "N"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Appendix I says assign \"W\" when the medical record documentation indicates that it cannot be clinically determined whether or not the condition was present on admission. U is for documentation that is unclear or insufficient, not a provider's explicit statement. Y and N require knowing whether it was or was not present.",
+   "visual": {
+    "topic": "Clinically undetermined",
+    "hint": "The provider made a statement about it."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Appendix I, when may the POA field be left blank?",
+   "options": [
+    "Whenever the coder is unsure",
+    "For all secondary diagnoses",
+    "When the code is on the list of codes for which the POA indicator is not applicable (exempt list)",
+    "When the patient was admitted through the emergency department"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Appendix I says leave the field blank \"if the condition is on the list of ICD-10-CM codes for which the POA indicator is not applicable. This is the only circumstance in which the field may be left blank.\" Uncertainty calls for a query (or U/W), not a blank. Secondary diagnoses do receive POA indicators. ED admissions are not an exemption.",
+   "visual": {
+    "topic": "Blank POA field",
+    "hint": "Appendix I names only one circumstance."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Timeframe and Explicit Documentation",
+   "content": "**No deadline:** there is **no required timeframe** for when a provider must identify or document a condition as present on admission. A definitive diagnosis may take **several days** after admission; that **does not mean** the condition was not present on admission.\n\n**Explicit statements:**\n\n• Assign **Y** for any condition the provider **explicitly documents** as present on admission.\n• Assign **N** for any condition the provider **explicitly documents** as not present at the time of admission.\n\n**Diagnosed before admission:** assign **Y** (the guideline's examples: hypertension, diabetes mellitus, asthma).\n\n**Diagnosed during the stay but clearly present before admission:** assign **Y**.\n\n**Suspected at admission, confirmed later:** diagnoses confirmed after admission are POA if, at the time of admission, they were documented as **suspected, possible, rule out, differential diagnosis**, or are the **underlying cause of a symptom** present at admission.\n\n**Develops during an outpatient encounter before the written inpatient order:** **Y**.",
+   "visual": {
+    "title": "When Y Applies",
+    "sub": "Common reasons for Y",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Explicitly documented",
+      "b": "Provider says POA: Y"
+     },
+     {
+      "h": "Known before admission",
+      "b": "E.g., hypertension, asthma: Y"
+     },
+     {
+      "h": "Clearly present, dx later",
+      "b": "Y"
+     },
+     {
+      "h": "Suspected at admission",
+      "b": "Confirmed later: Y"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with a symptom. Four days later the provider confirms the underlying cause of that symptom. According to Appendix I, what POA indicator is assigned to the confirmed diagnosis?",
+   "options": [
+    "N, because it was diagnosed after admission",
+    "Y, because it is the underlying cause of a symptom present at admission",
+    "U, because the diagnosis was delayed",
+    "W, because the timing is uncertain"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Appendix I states diagnoses subsequently confirmed after admission are considered present on admission if they \"constitute an underlying cause of a symptom that is present at the time of admission,\" and that there is no required timeframe for documenting POA; a definitive diagnosis taking several days \"does not mean that the condition was not present on admission.\" N ignores this rule. U and W are for unclear documentation or a provider who cannot determine, which is not the case here.",
+   "visual": {
+    "topic": "Diagnosis confirmed after admission",
+    "hint": "The symptom was there on day one."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Chronic, Acute and Uncertain Conditions",
+   "content": "**Chronic condition with acute exacerbation during the admission:**\n\n• If **one code covers both** the chronic condition and the exacerbation → use the rules for **codes with multiple clinical concepts**.\n• If the code identifies **only the chronic condition**, not the exacerbation (guideline example: acute exacerbation of chronic leukemia) → assign **Y**.\n\n**Acute and chronic conditions:**\n\n• **Acute** conditions: **Y** if present at admission, **N** if not.\n• **Chronic** conditions: **Y**, even if not diagnosed until after admission.\n\n**Possible, probable, suspected, or rule out at discharge:** **Y** if based on signs, symptoms or clinical findings **suspected at the time of admission**; **N** if based on findings **not present on admission**.\n\n**Impending or threatened at discharge:** **Y** if based on symptoms or clinical findings **present on admission**; **N** if they were **not present on admission**.",
+   "visual": {
+    "title": "Chronic, Acute, Uncertain",
+    "sub": "How timing of findings drives POA",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Chronic condition",
+      "b": "Y, even if diagnosed later"
+     },
+     {
+      "h": "Acute condition",
+      "b": "Y if present, N if not"
+     },
+     {
+      "h": "Uncertain dx at discharge",
+      "b": "Y or N by when findings began"
+     },
+     {
+      "h": "Impending/threatened",
+      "b": "Y or N by when findings began"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has a chronic condition that the provider does not diagnose until the third day of the inpatient stay. According to Appendix I, which POA indicator is assigned?",
+   "options": [
+    "Y",
+    "N",
+    "U",
+    "W"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Appendix I says \"Assign 'Y' for chronic conditions, even though the condition may not be diagnosed until after admission.\" N would be correct only if the condition was not present at admission, and a chronic condition is treated as present. U and W are for unclear documentation or a provider who cannot clinically determine.",
+   "visual": {
+    "topic": "Chronic conditions and POA",
+    "hint": "When did a chronic condition begin?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The final diagnosis says \"probable\" for a condition, and that diagnosis was based on clinical findings that were NOT present on admission. Which POA indicator is assigned?",
+   "options": [
+    "Y",
+    "U",
+    "W",
+    "N"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Appendix I states \"If the final diagnosis contains a possible, probable, suspected, or rule out diagnosis, and this diagnosis was based on signs, symptoms or clinical findings that were not present on admission, assign 'N'.\" Y applies only when the findings were suspected at the time of admission. U and W are not used because the timing of the findings is known.",
+   "visual": {
+    "topic": "Uncertain diagnosis and POA",
+    "hint": "When did the findings appear?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Codes With Multiple Concepts and Shared Codes",
+   "content": "**Codes that contain multiple clinical concepts:**\n\n• **N** if **at least one** concept in the code was **not** present on admission. Guideline examples: COPD with acute exacerbation where the exacerbation was not POA; a gastric ulcer that does not start bleeding until after admission; an asthma patient who develops status asthmaticus after admission.\n• **Y** if **all** concepts were present on admission (example: duodenal ulcer that perforates prior to admission).\n\n**Infection codes that include the organism:** **Y** if the infection (or signs of it) were present on admission, **even though culture results come later** (example: admitted with pneumonia; Pseudomonas documented as the organism a few days later).\n\n**Same code for two or more conditions:**\n\n• **Y** if **all** conditions represented by the code were POA (example: bilateral unspecified age-related cataracts).\n• **N** if **any** was not POA (example: traumatic secondary and recurrent hemorrhage and seroma, coded to **T79.2**, with only one present on admission).",
+   "visual": {
+    "title": "One Code, Several Parts",
+    "sub": "All parts present = Y; any part missing = N",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "All concepts POA",
+      "b": "Y"
+     },
+     {
+      "h": "Any concept not POA",
+      "b": "N"
+     },
+     {
+      "h": "Infection, organism later",
+      "b": "Y if infection was POA"
+     },
+     {
+      "h": "Shared code, any not POA",
+      "b": "N, e.g., T79.2 example"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Examples: Multiple Concepts",
+   "content": "**Example 1:** A patient with COPD is admitted for an unrelated condition. On day 2, the COPD has an acute exacerbation. The code used describes COPD with acute exacerbation.\n→ **N**: at least one concept (the exacerbation) was not present on admission.\n\n**Example 2:** A patient is admitted with a duodenal ulcer that had already perforated before admission.\n→ **Y**: all concepts in the code were present on admission.\n\n**Example 3:** A patient is admitted with pneumonia. Three days later, the provider documents Pseudomonas as the organism.\n→ **Y**: the infection was present on admission even though the culture result came later.\n\nAll three examples come directly from the Appendix I text.",
+   "visual": {
+    "title": "Three POA Decisions",
+    "sub": "From Appendix I examples",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "COPD, exacerbates day 2",
+      "b": "N"
+     },
+     {
+      "h": "Ulcer perforated before",
+      "b": "Y"
+     },
+     {
+      "h": "Pneumonia, organism later",
+      "b": "Y"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with a gastric ulcer that does not start bleeding until after admission. The code assigned describes a gastric ulcer with bleeding. According to Appendix I, what is the POA indicator?",
+   "options": [
+    "Y, because the ulcer was present on admission",
+    "U, because the timing is unclear",
+    "N, because at least one clinical concept in the code was not present on admission",
+    "W, because bleeding cannot be timed"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Appendix I says assign \"N\" if at least one of the clinical concepts included in the code was not present on admission, and gives this exact example: \"gastric ulcer that does not start bleeding until after admission.\" Y would require all concepts to be present. U and W do not apply because the timing is documented.",
+   "visual": {
+    "topic": "Codes with multiple concepts",
+    "hint": "Was every part of the code present at admission?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with pneumonia. The provider documents the causal organism a few days later from culture results. According to Appendix I, which POA indicator is assigned to the infection code that includes the organism?",
+   "options": [
+    "Y, because the infection (or signs of the infection) was present on admission",
+    "N, because the organism was not known at admission",
+    "U, because cultures were pending",
+    "W"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Appendix I states that for infection codes that include the causal organism, assign \"Y\" if the infection (or signs of the infection) were present on admission, \"even though the culture results may not be known until after admission.\" Not knowing the organism at admission does not make it N or U. W is for when the provider cannot clinically determine the timing.",
+   "visual": {
+    "topic": "Infection codes with organism",
+    "hint": "Culture timing does not change POA."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Obstetric, Perinatal and Congenital Conditions",
+   "content": "**Obstetrical conditions:**\n\n• **Delivering or not** during this stay **does not affect** POA.\n• The deciding factor: was the pregnancy complication or obstetrical condition **present at the time of admission**?\n• **Y** example: admitted in preterm labor. **N** examples: 2nd degree laceration during delivery, postpartum hemorrhage during the current stay, fetal distress that develops after admission.\n• If an obstetric code includes **more than one diagnosis** and **any** was not POA → **N** (example: **Category O11**, Pre-existing hypertension with pre-eclampsia).\n\n**Perinatal conditions:** newborns are **not considered admitted until after birth**. Any condition present at birth or that developed in utero → **Y**, including conditions that occur **during delivery** (examples: injury during delivery, meconium aspiration, exposure to streptococcus B in the vaginal canal).\n\n**Congenital conditions and anomalies:** **Y** – they are always considered present on admission – **except** categories **Q00-Q99**, which are on the **exempt list**.",
+   "visual": {
+    "title": "OB, Newborn, Congenital",
+    "sub": "Special POA groups",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "OB complication",
+      "b": "Y if present at admission"
+     },
+     {
+      "h": "OB code, 2+ dx, any later",
+      "b": "N, e.g., category O11"
+     },
+     {
+      "h": "Newborn, at/before birth",
+      "b": "Y, includes during delivery"
+     },
+     {
+      "h": "Q00-Q99 anomalies",
+      "b": "Exempt list"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A newborn has an injury that occurred during delivery. According to Appendix I, which POA indicator is assigned?",
+   "options": [
+    "N, because the injury happened in the hospital",
+    "U",
+    "The field is left blank",
+    "Y, because newborns are not considered admitted until after birth"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Appendix I says \"Newborns are not considered to be admitted until after birth. Therefore, any condition present at birth or that developed in utero is considered present at admission and should be assigned 'Y'. This includes conditions that occur during delivery (e.g., injury during delivery...).\" N is wrong because the injury occurred before the newborn's admission. U does not apply because the timing is known. A blank field is only for exempt-list codes.",
+   "visual": {
+    "topic": "Perinatal POA",
+    "hint": "When is a newborn 'admitted'?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient with pre-existing hypertension is admitted. Pre-eclampsia develops after admission, and the combined condition is coded to Category O11, Pre-existing hypertension with pre-eclampsia. Which POA indicator is assigned?",
+   "options": [
+    "Y, because the hypertension was pre-existing",
+    "N, because one of the diagnoses identified by the code was not present on admission",
+    "Y, because the patient delivered during the stay",
+    "Blank, because obstetric codes are exempt"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Appendix I states \"If the obstetrical code includes more than one diagnosis and any of the diagnoses identified by the code were not present on admission assign 'N'. (e.g., Category O11, Pre-existing hypertension with pre-eclampsia).\" The pre-existing hypertension alone does not make it Y. Appendix I says delivery does not affect POA assignment. Obstetric codes are not described as exempt.",
+   "visual": {
+    "topic": "Obstetric codes with two diagnoses",
+    "hint": "Any part not present means..."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: External Cause of Injury Codes",
+   "content": "External cause codes also get a POA indicator.\n\n• **Y** for an external cause of morbidity that occurred **prior to inpatient admission**. Guideline examples: patient fell out of bed **at home**; patient fell out of bed **in the emergency room prior to admission**.\n• **N** for an external cause that occurred **during inpatient hospitalization**. Guideline examples: patient fell out of a **hospital bed during the hospital stay**; adverse reaction to a medication **administered after inpatient admission**.\n\n**Exam trap:** a fall in the **emergency room before the admission order** is **Y**, not N, because conditions arising during an outpatient encounter such as the ED are considered present on admission.",
+   "visual": {
+    "title": "External Causes and POA",
+    "sub": "Where and when did it happen?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Fell at home",
+      "b": "Y"
+     },
+     {
+      "h": "Fell in ER pre-admission",
+      "b": "Y"
+     },
+     {
+      "h": "Fell from hospital bed",
+      "b": "N"
+     },
+     {
+      "h": "Reaction to inpatient drug",
+      "b": "N"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient falls out of bed in the emergency room before the inpatient admission order. According to Appendix I, what POA indicator is assigned to the external cause code for the fall?",
+   "options": [
+    "N",
+    "U",
+    "Y",
+    "W"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Appendix I says assign \"Y\" for any external cause code representing an external cause of morbidity that occurred prior to inpatient admission, and gives \"patient fell out of bed in emergency room prior to admission\" as an example. N applies to events during the inpatient hospitalization, such as falling out of a hospital bed during the stay. U and W do not apply because the timing is known.",
+   "visual": {
+    "topic": "External cause POA",
+    "hint": "The ER is before the inpatient order."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Assigning POA Indicators on an Inpatient Claim",
+   "content": "1. **Finish coding first.** Assign all codes under Sections I, II and III. POA does not decide what to code.\n2. **Check the exempt list.** If the code is exempt, leave the POA field blank (the only time it may be blank).\n3. **Look for explicit provider statements.** Explicitly POA → Y; explicitly not POA → N.\n4. **Find the admission moment:** the inpatient order. Anything arising in the ED, observation or outpatient surgery before that is POA.\n5. **Apply the special rules:** chronic (Y), acute (by timing), uncertain or impending diagnoses (by when findings began), multiple-concept and shared codes (N if any part not POA), infections with later organism (Y), OB, perinatal, congenital, external causes.\n6. **Still unclear? Query the provider.** Use U only in limited circumstances; use W only when the provider documents that it cannot be clinically determined.",
+   "visual": {
+    "title": "POA Assignment Steps",
+    "sub": "Six steps for each reported code",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Code first",
+      "b": "Sections I, II, III"
+     },
+     {
+      "h": "2. Exempt?",
+      "b": "Leave the field blank"
+     },
+     {
+      "h": "3. Explicit",
+      "b": "Provider statement wins"
+     },
+     {
+      "h": "4. Order time",
+      "b": "Outpatient events = POA"
+     },
+     {
+      "h": "5. Special rules",
+      "b": "Chronic, OB, newborn, etc."
+     },
+     {
+      "h": "6. Unclear",
+      "b": "Query; U and W sparingly"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• POA means **present at the time the order for inpatient admission occurs**; conditions arising in the **ED, observation, or outpatient surgery** are POA.\n• POA is assigned **after** coding, to principal and secondary diagnoses and external cause of injury codes.\n• **Y** = present, **N** = not present, **U** = documentation insufficient (not routine; query), **W** = provider cannot clinically determine. **Blank only for exempt codes.**\n• No required timeframe: a diagnosis made days later can still be POA. **Chronic conditions are Y** even if diagnosed later.\n• Multiple-concept or shared codes: **N if any part** was not present on admission.\n• Infection with organism found later: **Y** if the infection was present on admission.\n• Newborns: conditions present at birth, in utero, or during delivery are **Y**. Q00-Q99 anomalies are exempt.\n• External causes: **Y** before admission (including the ED); **N** during the inpatient stay.",
+   "visual": {
+    "title": "Appendix I Key Takeaways",
+    "sub": "POA rules to know",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Admission moment",
+      "b": "The inpatient order"
+     },
+     {
+      "h": "U vs W",
+      "b": "Unclear record vs provider can't say"
+     },
+     {
+      "h": "Any part not POA",
+      "b": "N"
+     },
+     {
+      "h": "Blank",
+      "b": "Exempt-list codes only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about POA reporting is correct according to Appendix I?",
+   "options": [
+    "The POA guidelines determine which conditions should be coded",
+    "There is no required timeframe for when a provider must document that a condition was present on admission",
+    "Delivery during the current stay changes the POA indicator for obstetric conditions",
+    "U should be assigned whenever a diagnosis is made after admission"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Appendix I states \"There is no required timeframe as to when a provider... must identify or document a condition to be present on admission.\" The POA guidelines are \"not intended to provide guidance on when a condition should be coded.\" Appendix I says whether or not the patient delivers \"does not affect assignment of the POA indicator.\" U \"should not be routinely assigned\" and is for unclear documentation, not for every diagnosis made after admission.",
+   "visual": {
+    "topic": "POA review",
+    "hint": "Three of these statements contradict Appendix I."
+   }
+  }
+ ]
+}

@@ -1,0 +1,672 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Conventions III: Code First, With, See Also, Code Also and Defaults",
+   "content": "This lesson finishes Section I.A, the conventions of ICD-10-CM. These notes and terms tell you **how many codes** to assign, **in what order**, and **when two conditions are presumed to be related**.\n\nYou will learn:\n\n• The **etiology/manifestation** convention: \"use additional code,\" \"code first,\" and \"in diseases classified elsewhere\"\n• How **\"and\"** is read in a code title\n• The **\"with\"** presumption of a causal relationship - and its exceptions\n• **\"See\"** vs **\"see also\"** in the Alphabetic Index\n• The **\"code also\"** note\n• **Default codes**\n• Why code assignment is based on the **provider's diagnostic statement**, not clinical criteria\n\nEtiology/manifestation sequencing and the \"with\" presumption are heavily tested.",
+   "visual": {
+    "title": "Sequencing and Linking",
+    "sub": "How notes control order and relationships",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Etiology / manifestation",
+      "b": "Underlying condition first"
+     },
+     {
+      "h": "\"With\"",
+      "b": "Presumed causal link"
+     },
+     {
+      "h": "\"See\" / \"See also\"",
+      "b": "Must follow / may follow"
+     },
+     {
+      "h": "\"Code also\"",
+      "b": "Two codes, no set order"
+     },
+     {
+      "h": "Default code",
+      "b": "Next to the main term"
+     },
+     {
+      "h": "Diagnostic statement",
+      "b": "Provider says it exists"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.13"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Etiology First, Manifestation Second",
+   "content": "Some conditions have an **underlying etiology** (the cause) and **multiple body system manifestations** (the effects) due to that etiology.\n\nFor these, ICD-10-CM has a convention that **requires the underlying condition to be sequenced first, if applicable, followed by the manifestation**.\n\nWherever such a combination exists, the Tabular List has two matching notes:\n\n• A **\"use additional code\"** note at the **etiology** code\n• A **\"code first\"** note at the **manifestation** code\n\nThese notes indicate the proper sequencing order: **etiology followed by manifestation**.\n\n**Memory hook:** The etiology code says \"use additional code\" (add the manifestation after me). The manifestation code says \"code first\" (put the cause before me).",
+   "visual": {
+    "title": "Two Matching Notes",
+    "sub": "Etiology code and manifestation code point to each other",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Etiology code",
+      "b": "\"Use additional code\" note"
+     },
+     {
+      "h": "Manifestation code",
+      "b": "\"Code first\" note"
+     },
+     {
+      "h": "Sequence",
+      "b": "1st: etiology"
+     },
+     {
+      "h": "Sequence",
+      "b": "2nd: manifestation"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: \"In Diseases Classified Elsewhere\"",
+   "content": "In most cases, manifestation codes have **\"in diseases classified elsewhere\"** in the code title. Codes with this title:\n\n• Are a component of the etiology/manifestation convention - the title tells you it is a **manifestation code**.\n• Are **never permitted to be used as first-listed or principal diagnosis codes**.\n• **Must be used in conjunction with an underlying condition code** and **must be listed following** the underlying condition.\n\nThe text names **category F02, Dementia in other diseases classified elsewhere**, as an example.\n\n**But watch out:** There are manifestation codes that do **not** have \"in diseases classified elsewhere\" in the title. For those, there is still a \"use additional code\" note at the etiology code and a \"code first\" note at the manifestation code, and **the sequencing rules still apply**.",
+   "visual": {
+    "title": "\"In Diseases Classified Elsewhere\"",
+    "sub": "A manifestation title - never first-listed",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Never",
+      "b": "First-listed or principal diagnosis"
+     },
+     {
+      "h": "Always",
+      "b": "Paired with an underlying condition code"
+     },
+     {
+      "h": "Order",
+      "b": "Listed after the underlying condition"
+     },
+     {
+      "h": "No such title?",
+      "b": "Notes still apply; same sequencing"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Brackets in the Index and Other Uses of the Notes",
+   "content": "**Alphabetic Index structure**\n• In the Index, both conditions are listed **together**: the **etiology code first**, followed by the **manifestation code(s) in brackets**.\n• **The code in brackets is always to be sequenced second.**\n• (Recall from I.A.7: brackets in the Index identify manifestation codes.)\n\n**Not only for etiology/manifestation pairs**\n• \"Code first\" and \"use additional code\" notes are **also used as sequencing rules for certain codes that are not part of an etiology/manifestation combination**.\n• The text refers you to **Section I.B.7, Multiple coding for a single condition** (Lesson 05).\n\n**Exam trap:** A \"code first\" note does not automatically mean the code is a manifestation code. It is always a sequencing instruction, but it can appear on other codes too.",
+   "visual": {
+    "title": "Brackets = Sequence Second",
+    "sub": "The Index mirrors the Tabular List notes",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Index entry",
+      "b": "Etiology code, then [manifestation]"
+     },
+     {
+      "h": "Code in brackets",
+      "b": "Always sequenced second"
+     },
+     {
+      "h": "Notes elsewhere",
+      "b": "Also used for non-manifestation codes"
+     },
+     {
+      "h": "Cross-reference",
+      "b": "Section I.B.7"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Dementia with Parkinson's Disease",
+   "content": "This is the official example in Section I.A.13.\n\n**Documentation:** Dementia with Parkinson's disease.\n\n**Alphabetic Index:** A code from **category G20** is listed first, followed by code **F02.80** or **F02.81-** in brackets.\n\n**What each code represents:**\n• **G20-** represents the **underlying etiology**, Parkinson's disease. It **must be sequenced first**.\n• **F02.80** and **F02.81-** represent the **manifestation** of dementia in diseases classified elsewhere, **with or without behavioral disturbance**. They are sequenced second.\n\n**Sequence:**\n1. Code from category G20 (Parkinson's disease)\n2. F02.80 or the appropriate F02.81- code (dementia)\n\n**Why F02 can never be first:** Category F02 is titled \"Dementia in other diseases classified elsewhere,\" and \"in diseases classified elsewhere\" codes are never permitted as first-listed or principal diagnosis codes.",
+   "visual": {
+    "title": "Dementia in Parkinson's Disease",
+    "sub": "The official etiology/manifestation example",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1st: G20-",
+      "b": "Etiology: Parkinson's disease"
+     },
+     {
+      "h": "2nd: F02.80 / F02.81-",
+      "b": "Manifestation: dementia"
+     },
+     {
+      "h": "Index shows",
+      "b": "G20- then [F02.80 or F02.81-]"
+     },
+     {
+      "h": "Rule",
+      "b": "Bracketed code goes second"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for dementia with Parkinson's disease. According to Section I.A.13, how should the codes be sequenced?",
+   "options": [
+    "F02.80 or F02.81- first, then the code from category G20",
+    "Either order is acceptable",
+    "The code from category G20 first, then F02.80 or F02.81-",
+    "Only the code from category G20 is reported"
+   ],
+   "correct": 2,
+   "explanation": "Section I.A.13 states that a code from category G20 \"represents the underlying etiology, Parkinson's disease, and must be sequenced first, whereas codes F02.80 and F02.81- represent the manifestation.\" F02 codes are \"in diseases classified elsewhere\" codes, which are never permitted as first-listed or principal diagnosis codes, so they cannot go first. The order is not optional. Reporting only G20 would leave out the documented dementia.",
+   "visual": {
+    "topic": "Etiology/manifestation",
+    "hint": "Which code represents the cause?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.A.13, which statement about codes with \"in diseases classified elsewhere\" in the title is correct?",
+   "options": [
+    "They are never permitted to be used as first-listed or principal diagnosis codes",
+    "They may be principal diagnoses when the underlying condition is unknown",
+    "They are always sequenced first",
+    "They are reported alone without an underlying condition code"
+   ],
+   "correct": 0,
+   "explanation": "Section I.A.13 states: \"'In diseases classified elsewhere' codes are never permitted to be used as first-listed or principal diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition.\" There is no exception for an unknown underlying condition in this text, they are never sequenced first, and they cannot be reported alone.",
+   "visual": {
+    "topic": "\"In diseases classified elsewhere\"",
+    "hint": "The word \"never\" is in the rule."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "In the Alphabetic Index, a condition is listed with one code followed by a second code in brackets. According to Section I.A.13, how is the code in brackets sequenced?",
+   "options": [
+    "Always first",
+    "Based on the reason for the encounter",
+    "Only if the provider documents it twice",
+    "Always second"
+   ],
+   "correct": 3,
+   "explanation": "Section I.A.13 states: \"In the Alphabetic Index both conditions are listed together with the etiology code first followed by the manifestation codes in brackets. The code in brackets is always to be sequenced second.\" It is never first, and the guideline does not make its position depend on the encounter or on repeated documentation.",
+   "visual": {
+    "topic": "Index brackets",
+    "hint": "Brackets in the Index identify manifestation codes."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.14"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: \"And\" Means \"And\" or \"Or\"",
+   "content": "Section I.A.14 says: **the word \"and\" should be interpreted to mean either \"and\" or \"or\" when it appears in a title.**\n\n**Official example:** Subcategory **A18.0** is titled **Tuberculosis of bones and joints**. All three of these are classified to A18.0:\n\n• \"tuberculosis of bones\"\n• \"tuberculosis of joints\"\n• \"tuberculosis of bones and joints\"\n\n**Why it matters:** You do not need both conditions in the title to be present. If either one is documented, the title still fits.\n\n(Section I.A.8 is simply a cross-reference to this rule.)",
+   "visual": {
+    "title": "\"And\" in a Title",
+    "sub": "Either one, or both",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Bones only",
+      "b": "A18.0"
+     },
+     {
+      "h": "Joints only",
+      "b": "A18.0"
+     },
+     {
+      "h": "Bones and joints",
+      "b": "A18.0"
+     },
+     {
+      "h": "Rule",
+      "b": "\"and\" = \"and\" or \"or\""
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has tuberculosis of the joints only. Subcategory A18.0 is titled \"Tuberculosis of bones and joints.\" According to Section I.A.14, does this documentation fit A18.0?",
+   "options": [
+    "No, both bones and joints must be involved",
+    "Yes, because \"and\" in a title means either \"and\" or \"or\"",
+    "No, the coder must use an unspecified code",
+    "Only if the provider also documents bone involvement"
+   ],
+   "correct": 1,
+   "explanation": "Section I.A.14 states that \"and\" should be interpreted to mean either \"and\" or \"or\" when it appears in a title, and its example says \"tuberculosis of joints\" is classified to subcategory A18.0, Tuberculosis of bones and joints. So both sites do not need to be involved, no unspecified code is needed, and bone involvement does not have to be documented.",
+   "visual": {
+    "topic": "\"And\"",
+    "hint": "Read \"and\" in a title as \"and/or.\""
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.15"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The \"With\" Presumption",
+   "content": "Section I.A.15 says the word **\"with\"** or **\"in\"** should be interpreted to mean **\"associated with\" or \"due to\"** when it appears in:\n\n• a **code title**,\n• the **Alphabetic Index** (either under a main term or subterm), or\n• an **instructional note in the Tabular List**.\n\n**The presumption:** The classification **presumes a causal relationship** between two conditions linked by these terms in the Alphabetic Index or Tabular List. These conditions **should be coded as related even in the absence of provider documentation explicitly linking them**.\n\n**Two exceptions - do NOT presume the link when:**\n1. The documentation **clearly states the conditions are unrelated**, or\n2. **Another guideline** specifically **requires a documented linkage** between the two conditions. The text's example is the **sepsis guideline** for \"acute organ dysfunction that is not clearly associated with the sepsis.\"",
+   "visual": {
+    "title": "\"With\" / \"In\" = Linked",
+    "sub": "Presumed causal relationship, with two exceptions",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Where",
+      "b": "Code titles, Index, Tabular notes"
+     },
+     {
+      "h": "Presumption",
+      "b": "Code as related, even without a link"
+     },
+     {
+      "h": "Exception 1",
+      "b": "Documentation says unrelated"
+     },
+     {
+      "h": "Exception 2",
+      "b": "A guideline requires documented link"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: When the Provider Must Link the Conditions",
+   "content": "The second half of I.A.15 covers the opposite situation:\n\n**\"For conditions not specifically linked by these relational terms in the classification or when a guideline requires that a linkage between two conditions be explicitly documented, provider documentation must link the conditions in order to code them as related.\"**\n\nSo:\n\n• **Linked by \"with\"/\"in\" in the classification** → presumed related (unless an exception applies).\n• **Not linked by these terms in the classification** → the **provider must document** the link before you code them as related.\n• **A guideline requires explicit linkage** → the **provider must document** the link.\n\n**Index layout tip:** The word **\"with\"** in the Alphabetic Index is sequenced **immediately following the main term or subterm, not in alphabetical order**. Look for it right under the term, not down in the W's.",
+   "visual": {
+    "title": "Presumed or Documented?",
+    "sub": "Where the link must come from",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Linked by \"with\"/\"in\"",
+      "b": "Presumed related"
+     },
+     {
+      "h": "Not linked in ICD-10-CM",
+      "b": "Provider must document link"
+     },
+     {
+      "h": "Guideline requires link",
+      "b": "Provider must document link"
+     },
+     {
+      "h": "\"With\" in the Index",
+      "b": "Right after the term, not A-Z"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Applying the \"With\" Rule",
+   "content": "These scenarios use only the logic of Section I.A.15 (no specific codes).\n\n**Scenario 1:** Two conditions are linked by \"with\" in the Alphabetic Index. The provider documents both conditions but says nothing about whether they are related.\n→ **Code them as related.** The classification presumes a causal relationship even without explicit documentation.\n\n**Scenario 2:** Same two conditions, but the provider writes that they are **unrelated**.\n→ **Do not code them as related.** The documentation clearly states the conditions are unrelated.\n\n**Scenario 3:** Two conditions are **not** linked by \"with\" or \"in\" anywhere in the classification. The provider documents both but does not link them.\n→ **Do not code them as related.** For conditions not linked by these relational terms, provider documentation must link them.\n\n**Scenario 4:** A specific guideline requires a documented linkage (like the sepsis guideline example).\n→ **The presumption does not apply.** The provider must document the link.",
+   "visual": {
+    "title": "Four \"With\" Scenarios",
+    "sub": "Is the link presumed or must it be documented?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Linked, silent record",
+      "b": "Code as related"
+     },
+     {
+      "h": "Linked, says unrelated",
+      "b": "Do not code as related"
+     },
+     {
+      "h": "Not linked in ICD-10-CM",
+      "b": "Need provider link"
+     },
+     {
+      "h": "Guideline requires link",
+      "b": "Need provider link"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Two conditions are linked by the term \"with\" in the Alphabetic Index. The provider documents both conditions but does not state whether they are related. No other guideline requires a documented linkage. According to Section I.A.15, how should they be coded?",
+   "options": [
+    "As unrelated, because the provider did not link them",
+    "Query the provider before assigning any code",
+    "As related, because the classification presumes a causal relationship",
+    "Code only the first condition"
+   ],
+   "correct": 2,
+   "explanation": "Section I.A.15 states that the classification \"presumes a causal relationship between the two conditions linked by these terms\" and that they \"should be coded as related even in the absence of provider documentation explicitly linking them,\" unless the documentation clearly states they are unrelated or another guideline requires a documented linkage. Neither exception applies here, so coding them as unrelated is wrong, a query is not required for the presumption, and both documented conditions should be coded.",
+   "visual": {
+    "topic": "The \"with\" presumption",
+    "hint": "Is explicit linking required when the classification uses \"with\"?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.A.15, which situation REMOVES the \"with\" presumption?",
+   "options": [
+    "The documentation clearly states the conditions are unrelated",
+    "The provider documents both conditions in the same note",
+    "The conditions are listed in different chapters",
+    "The patient is an outpatient"
+   ],
+   "correct": 0,
+   "explanation": "Section I.A.15 lists the exceptions: the conditions should be coded as related \"unless the documentation clearly states the conditions are unrelated or when another guideline exists that specifically requires a documented linkage.\" Documenting both in the same note does not remove the presumption. Chapter placement and outpatient status are not exceptions named in the text.",
+   "visual": {
+    "topic": "\"With\" exceptions",
+    "hint": "There are only two exceptions in the text."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Where does the word \"with\" appear in the Alphabetic Index, according to Section I.A.15?",
+   "options": [
+    "In alphabetical order among the subterms",
+    "Only in the Table of Drugs and Chemicals",
+    "At the end of each main term's list of subterms",
+    "Immediately following the main term or subterm, not in alphabetical order"
+   ],
+   "correct": 3,
+   "explanation": "Section I.A.15 states: \"The word 'with' in the Alphabetic Index is sequenced immediately following the main term or subterm, not in alphabetical order.\" It is not placed alphabetically or at the end of the list, and the text does not limit it to the Table of Drugs and Chemicals.",
+   "visual": {
+    "topic": "\"With\" in the Index",
+    "hint": "Where would you look first under a main term?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.16"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: \"See\" vs \"See Also\"",
+   "content": "Both instructions follow a **main term in the Alphabetic Index**, but they are not equal.\n\n**\"See\"**\n• Indicates that **another term should be referenced**.\n• **It is necessary to go to the main term referenced** with the \"see\" note to locate the correct code.\n• \"See\" = **must** follow.\n\n**\"See also\"**\n• Indicates there is **another main term that may also be referenced** that may provide additional Alphabetic Index entries that may be useful.\n• **It is not necessary to follow the \"see also\" note when the original main term provides the necessary code.**\n• \"See also\" = **may** follow.",
+   "visual": {
+    "title": "\"See\" vs \"See Also\"",
+    "sub": "Required vs optional cross-references",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "\"See\"",
+      "b": "Must go to the referenced term"
+     },
+     {
+      "h": "\"See also\"",
+      "b": "May look; optional if you have the code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "In the Alphabetic Index, a main term is followed by a \"see also\" instruction, and the original main term already provides the necessary code. According to Section I.A.16, what should the coder do?",
+   "options": [
+    "The coder must always follow the \"see also\" note",
+    "It is not necessary to follow the \"see also\" note",
+    "The coder must query the provider",
+    "The coder must use both codes"
+   ],
+   "correct": 1,
+   "explanation": "Section I.A.16 states: \"It is not necessary to follow the 'see also' note when the original main term provides the necessary code.\" The mandatory instruction is \"see\" (\"It is necessary to go to the main term referenced\"), not \"see also.\" A query is not related to this Index instruction, and \"see also\" does not require two codes.",
+   "visual": {
+    "topic": "\"See also\"",
+    "hint": "Which cross-reference is optional?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.17"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: \"Code Also\"",
+   "content": "Section I.A.17: A **\"code also\"** note instructs that **two codes may be required to fully describe a condition**, but this note **does not provide sequencing direction**.\n\n**The sequencing depends on the circumstances of the encounter.**\n\n**Exam trap - compare the notes:**\n• **\"Code first\"** and **\"use additional code\"** (I.A.13): two codes **and** a set order.\n• **\"Code also\"** (I.A.17): two codes may be required, **no set order** - the circumstances of the encounter decide.",
+   "visual": {
+    "title": "\"Code Also\" vs \"Code First\"",
+    "sub": "Same idea of two codes, different sequencing rules",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "\"Code first\"",
+      "b": "Two codes; the other code goes first"
+     },
+     {
+      "h": "\"Use additional code\"",
+      "b": "Two codes; the added code goes second"
+     },
+     {
+      "h": "\"Code also\"",
+      "b": "Two codes may be required; no order set"
+     },
+     {
+      "h": "\"Code also\" order",
+      "b": "Depends on the encounter"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A Tabular List entry has a \"code also\" note. According to Section I.A.17, how are the two codes sequenced?",
+   "options": [
+    "The code with the note is always first",
+    "The code with the note is always second",
+    "The sequencing depends on the circumstances of the encounter",
+    "Alphabetically"
+   ],
+   "correct": 2,
+   "explanation": "Section I.A.17 states that a \"code also\" note \"does not provide sequencing direction. The sequencing depends on the circumstances of the encounter.\" Fixed first or second placement describes \"code first\" and \"use additional code\" notes (I.A.13), not \"code also.\" Alphabetical order is not a sequencing rule in the guidelines.",
+   "visual": {
+    "topic": "\"Code also\"",
+    "hint": "Does this note set an order?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.18"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Default Codes",
+   "content": "Section I.A.18: A code listed **next to a main term** in the Alphabetic Index is called a **default code**.\n\nThe default code represents:\n• the condition **most commonly associated with the main term**, **or**\n• the **unspecified code** for the condition.\n\n**When to use it:** If a condition is documented **without any additional information**, such as acute or chronic, **the default code should be assigned**. The text's example is **appendicitis**.\n\n**What it does NOT mean:** The default code is not used when the documentation gives additional information that leads to a more specific subterm. It is for documentation without additional detail. (You still verify the code in the Tabular List - Section I.B.1.)",
+   "visual": {
+    "title": "Default Codes",
+    "sub": "The code next to the main term",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Where",
+      "b": "Next to the main term in the Index"
+     },
+     {
+      "h": "Represents",
+      "b": "Most common condition, or unspecified"
+     },
+     {
+      "h": "Use when",
+      "b": "No additional information documented"
+     },
+     {
+      "h": "Example",
+      "b": "\"Appendicitis\" with no acute/chronic"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents \"appendicitis\" with no additional information such as acute or chronic. According to Section I.A.18, which code should be assigned?",
+   "options": [
+    "The default code listed next to the main term in the Alphabetic Index",
+    "The code for chronic appendicitis",
+    "No code until the provider specifies acute or chronic",
+    "A symptom code"
+   ],
+   "correct": 0,
+   "explanation": "Section I.A.18 uses this example: \"If a condition is documented in a medical record (for example, appendicitis) without any additional information, such as acute or chronic, the default code should be assigned.\" Choosing chronic would add information not in the record. The guideline does not say to wait for more detail, and a diagnosis has been documented, so a symptom code is not the answer.",
+   "visual": {
+    "topic": "Default codes",
+    "hint": "What does the Index give you when no detail is documented?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.A.19"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Code Assignment and Clinical Criteria",
+   "content": "Section I.A.19 sets a basic principle:\n\n• **The assignment of a diagnosis code is based on the provider's diagnostic statement that the condition exists.**\n• **The provider's statement that the patient has a particular condition is sufficient.**\n• **Code assignment is not based on clinical criteria used by the provider to establish the diagnosis.**\n• **If there is conflicting medical record documentation, query the provider.**\n\n**What this means for a coder:** You do not second-guess a documented diagnosis because you think the lab values or findings do not meet a definition you know. The provider's statement is enough.\n\n**What it does NOT mean:** It does not mean ignoring contradictions. If the record conflicts with itself, the answer is a **query**, not choosing one side on your own.",
+   "visual": {
+    "title": "Who Decides the Diagnosis?",
+    "sub": "The provider's statement is sufficient",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Basis for the code",
+      "b": "Provider's diagnostic statement"
+     },
+     {
+      "h": "Not the basis",
+      "b": "Clinical criteria used by provider"
+     },
+     {
+      "h": "Statement alone",
+      "b": "Sufficient"
+     },
+     {
+      "h": "Conflicting documentation",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Clinical Criteria vs the Diagnostic Statement",
+   "content": "**Scenario 1:** The provider documents that the patient has a particular condition. The coder reviews the findings and believes they do not meet the criteria the coder learned in a clinical course.\n→ **Code the condition.** Under I.A.19, the provider's statement is sufficient, and code assignment is not based on clinical criteria used by the provider.\n\n**Scenario 2:** One provider note documents the condition, and another note in the same record documents that the condition was ruled out, with no explanation.\n→ **Query the provider.** Under I.A.19, conflicting medical record documentation calls for a query.\n\n**Key difference:** The coder's own clinical opinion is never the reason to drop a diagnosis. Conflicting **documentation** is the reason to query.",
+   "visual": {
+    "title": "Code, or Query?",
+    "sub": "Applying Section I.A.19",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Coder doubts the criteria",
+      "b": "Code what the provider states"
+     },
+     {
+      "h": "Record contradicts itself",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider clearly documents that a patient has a condition. The coder notes that the documented test results do not seem to meet the usual clinical criteria. According to Section I.A.19, what should the coder do?",
+   "options": [
+    "Do not code the condition because the clinical criteria are not met",
+    "Code a symptom instead",
+    "Change the diagnosis to an unspecified code",
+    "Code the condition, because code assignment is based on the provider's diagnostic statement, not on clinical criteria"
+   ],
+   "correct": 3,
+   "explanation": "Section I.A.19 states: \"The provider's statement that the patient has a particular condition is sufficient. Code assignment is not based on clinical criteria used by the provider to establish the diagnosis.\" Dropping the diagnosis, substituting a symptom, or downgrading to an unspecified code would all be the coder overriding the provider's diagnostic statement. A query is called for only when the documentation conflicts, which is not the case here.",
+   "visual": {
+    "topic": "Clinical criteria",
+    "hint": "What is code assignment based on?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying It: Sequencing and Linking on a Real Record",
+   "content": "Use these steps based on Sections I.A.13 - I.A.19:\n\n1. **Confirm the diagnosis** is stated by the provider. The statement is sufficient; if documentation conflicts, query (I.A.19).\n2. **Look up the main term.** Follow any **\"see\"** note (required). Follow **\"see also\"** only if the original main term does not give you the code (I.A.16).\n3. **Check \"with\" right under the term** - it is not in alphabetical order (I.A.15).\n4. **If two conditions are linked by \"with\" or \"in,\"** code them as related unless the record says they are unrelated or a guideline requires a documented link (I.A.15).\n5. **If no detail is documented,** use the **default code** next to the main term (I.A.18).\n6. **Watch for a bracketed code** in the Index - sequence it second (I.A.13).\n7. **In the Tabular List, follow the notes:** \"use additional code\" at the etiology code, \"code first\" at the manifestation code; never put an \"in diseases classified elsewhere\" code first (I.A.13).\n8. **For a \"code also\" note,** report both codes when required and sequence by the circumstances of the encounter (I.A.17).\n9. **Read \"and\" in a title as \"and/or\"** (I.A.14).",
+   "visual": {
+    "title": "Sequencing Checklist",
+    "sub": "Nine steps from Sections I.A.13 - I.A.19",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Diagnosis",
+      "b": "Provider statement; query conflicts"
+     },
+     {
+      "h": "2-3. Index",
+      "b": "\"See\" vs \"see also\"; \"with\""
+     },
+     {
+      "h": "4-5. Link and default",
+      "b": "Presumed link; default code"
+     },
+     {
+      "h": "6-7. Etiology first",
+      "b": "Brackets and \"code first\" go 2nd"
+     },
+     {
+      "h": "8. Code also",
+      "b": "Order by the encounter"
+     },
+     {
+      "h": "9. \"And\"",
+      "b": "Means \"and\" or \"or\""
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Etiology/manifestation:** \"use additional code\" at the etiology, \"code first\" at the manifestation. Sequence **etiology first, manifestation second**.\n• **\"In diseases classified elsewhere\"** codes are **never** first-listed or principal; they must follow the underlying condition (example: G20- then F02.80 or F02.81-).\n• In the Index, **the code in brackets is always sequenced second**.\n• **\"And\"** in a title means **\"and\" or \"or\"** (A18.0 example).\n• **\"With\"/\"in\"** = presumed causal relationship - code as related unless the record says unrelated or a guideline requires a documented link. Otherwise, the provider must link conditions.\n• **\"See\"** must be followed; **\"see also\"** need not be when you already have the code.\n• **\"Code also\"** = two codes may be required, **no sequencing direction**.\n• **Default code** = code next to the main term; use it when no additional information is documented.\n• **Code from the provider's diagnostic statement**, not clinical criteria; **query** conflicting documentation.",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Conventions III in one view",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Etiology first",
+      "b": "Manifestation second"
+     },
+     {
+      "h": "\"With\"",
+      "b": "Presumed link, two exceptions"
+     },
+     {
+      "h": "\"Code also\"",
+      "b": "No set order"
+     },
+     {
+      "h": "Provider statement",
+      "b": "Sufficient; query conflicts"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which pair correctly matches the instructional note to its location in an etiology/manifestation combination, according to Section I.A.13?",
+   "options": [
+    "\"Code first\" at the etiology code; \"use additional code\" at the manifestation code",
+    "\"Use additional code\" at the etiology code; \"code first\" at the manifestation code",
+    "\"Code also\" at both codes",
+    "\"See also\" at the manifestation code"
+   ],
+   "correct": 1,
+   "explanation": "Section I.A.13 states: \"Wherever such a combination exists, there is a 'use additional code' note at the etiology code, and a 'code first' note at the manifestation code.\" Putting \"code first\" at the etiology code reverses them. \"Code also\" (I.A.17) does not set sequencing, and \"see also\" (I.A.16) is an Alphabetic Index instruction, not a Tabular List sequencing note.",
+   "visual": {
+    "topic": "Etiology/manifestation notes",
+    "hint": "Which code tells you to put the cause first?"
+   }
+  }
+ ]
+}

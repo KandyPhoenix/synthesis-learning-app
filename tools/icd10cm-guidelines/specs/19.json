@@ -1,0 +1,880 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Heart and Stroke Rules You Will Use Constantly",
+   "content": "Coronary artery disease, strokes and heart attacks are some of the most common conditions you will code in a hospital. The guidelines for them are short, but each sentence carries a rule that changes code selection or sequencing.\n\nIn this lesson you will learn:\n\n• **Section I.C.9.b** — combination codes for atherosclerotic heart disease with angina, and sequencing when a patient with CAD is admitted for an acute MI\n• **Section I.C.9.c** — what documentation is needed before coding an intraoperative or postprocedural stroke\n• **Section I.C.9.d** — category **I69** for the lasting deficits (sequelae) of cerebrovascular disease, including the dominant/nondominant side defaults\n• **Section I.C.9.e** — acute myocardial infarction (AMI): STEMI vs NSTEMI, the 4-week rule, subsequent MIs (category **I22**), other MI types and MI with coronary microvascular dysfunction\n\nEach section is shown word for word first, then explained, then quizzed.",
+   "visual": {
+    "title": "CAD, Stroke Sequelae and AMI",
+    "sub": "Four guideline sections from Chapter 9",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "I.C.9.b CAD + angina",
+      "b": "Combination codes; AMI sequenced before CAD"
+     },
+     {
+      "h": "I.C.9.c Surgical CVA",
+      "b": "Needs documented cause and effect"
+     },
+     {
+      "h": "I.C.9.d Stroke sequelae",
+      "b": "Category I69 for lasting neurologic deficits"
+     },
+     {
+      "h": "I.C.9.e Acute MI",
+      "b": "STEMI/NSTEMI, 4 weeks, I22, MI types"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.9.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: CAD With Angina",
+   "content": "**Atherosclerosis** is the buildup of plaque in an artery. When it affects the coronary arteries it is called coronary artery disease (CAD). **Angina pectoris** is chest pain caused by reduced blood flow to the heart.\n\nSection I.C.9.b says ICD-10-CM has **combination codes** — single codes that capture both conditions together:\n\n• **I25.11**, Atherosclerotic heart disease of native coronary artery with angina pectoris\n• **I25.7**, Atherosclerosis of coronary artery bypass graft(s) and coronary artery of transplanted heart with angina pectoris\n\nWhen you use one of these combination codes, you do **not** add a separate code for the angina. The combination code already says \"with angina pectoris.\"\n\n**Native** coronary artery means the patient's own artery. The I25.7 subcategory covers bypass grafts and the coronary arteries of a transplanted heart.",
+   "visual": {
+    "title": "One Code Covers Both",
+    "sub": "Section I.C.9.b combination codes",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "I25.11",
+      "b": "Native coronary artery atherosclerosis WITH angina pectoris"
+     },
+     {
+      "h": "I25.7",
+      "b": "Bypass graft(s) / transplanted heart atherosclerosis WITH angina"
+     },
+     {
+      "h": "Angina code needed?",
+      "b": "No. The combination code already includes the angina."
+     },
+     {
+      "h": "Key idea",
+      "b": "Two conditions, one combination code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Assumed Link",
+   "content": "The guideline lets the coder **assume a causal relationship** between atherosclerosis and angina when a patient has both. The provider does not have to write \"angina due to CAD.\"\n\n**The one exception:** if the documentation says the angina is due to **something other than** the atherosclerosis, the assumption does not apply, and the combination code should not be used to link them.\n\n**What this does NOT mean:** it does not let you assume a link between every pair of heart conditions. The assumption in Section I.C.9.b is specifically between atherosclerosis and angina pectoris.\n\n**Exam trap:** students often think the provider must state the link (as some other guidelines require). Here the link is assumed — unless documentation points to a different cause.",
+   "visual": {
+    "title": "Atherosclerosis + Angina",
+    "sub": "Is the link assumed?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Both documented",
+      "b": "Link assumed. Use the combination code."
+     },
+     {
+      "h": "Angina due to other cause",
+      "b": "Documentation breaks the link. Do not assume it."
+     },
+     {
+      "h": "Provider says \"due to\"?",
+      "b": "Not required for this pair"
+     },
+     {
+      "h": "Scope",
+      "b": "Only atherosclerosis and angina pectoris"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: CAD Patient Admitted for an AMI",
+   "content": "The second paragraph of Section I.C.9.b is a sequencing rule.\n\nIf a patient who has coronary artery disease is **admitted due to an acute myocardial infarction (AMI)**, the **AMI is sequenced before** the coronary artery disease.\n\nWhy: the AMI is the reason for this admission. The CAD is a chronic condition that is still reported, but it goes after the AMI.\n\nThe guideline then points you to Section I.C.9.e, which covers how to code the AMI itself (later in this lesson).",
+   "visual": {
+    "title": "Sequencing: CAD + AMI",
+    "sub": "Patient with CAD admitted due to an AMI",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "First-listed",
+      "b": "The acute myocardial infarction (AMI)"
+     },
+     {
+      "h": "After it",
+      "b": "The coronary artery disease"
+     },
+     {
+      "h": "Why",
+      "b": "The AMI is the reason for the admission"
+     },
+     {
+      "h": "See also",
+      "b": "Section I.C.9.e for coding the AMI"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Combination Code and AMI Sequencing",
+   "content": "**Scenario 1.** Physician documents: \"Atherosclerotic heart disease of native coronary arteries. Stable angina.\" Nothing says the angina has another cause.\n\n• Guideline: Section I.C.9.b — the causal relationship can be assumed.\n• Decision: report the combination code from subcategory **I25.11**. Do not add a separate angina code.\n\n**Scenario 2.** Physician documents: \"Angina, felt to be due to a cause other than her coronary atherosclerosis.\"\n\n• Guideline: Section I.C.9.b — the documentation indicates the angina is due to something other than the atherosclerosis, so the link is **not** assumed.\n\n**Scenario 3.** A patient with known CAD is admitted because of an acute MI.\n\n• Guideline: Section I.C.9.b — sequence the **AMI first**, then the CAD.",
+   "visual": {
+    "title": "Applying Section I.C.9.b",
+    "sub": "Three short scenarios",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "1. CAD + angina",
+      "b": "Assume link. Combination code I25.11."
+     },
+     {
+      "h": "2. Other cause stated",
+      "b": "Link not assumed"
+     },
+     {
+      "h": "3. CAD, admitted for AMI",
+      "b": "AMI first, then CAD"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.9.b, when a combination code such as I25.11 is assigned, what should the coder do about the angina pectoris?",
+   "options": [
+    "Not add a separate angina code, because the combination code includes it",
+    "Add a separate code for the angina pectoris after I25.11",
+    "Sequence a separate angina code first",
+    "Query the provider to confirm the angina is due to the atherosclerosis"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.9.b states that when using one of these combination codes \"it is not necessary to use an additional code for angina pectoris.\" Adding a separate angina code (first or after) duplicates what the combination code already says. A query is not needed to link the two, because the guideline says a causal relationship can be assumed unless documentation indicates another cause.",
+   "visual": {
+    "topic": "CAD with angina",
+    "hint": "Think about what the words \"with angina pectoris\" in the code title already capture."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with long-standing coronary artery disease is admitted because of an acute myocardial infarction. Per Section I.C.9.b, how are these sequenced?",
+   "options": [
+    "Coronary artery disease first, then the AMI",
+    "Only the AMI is coded; CAD is not reported",
+    "Either may be sequenced first at the coder's choice",
+    "AMI first, then the coronary artery disease"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.9.b says that if a patient with CAD is admitted due to an AMI, \"the AMI should be sequenced before the coronary artery disease.\" CAD first reverses the rule. The guideline sequences both conditions, so it does not say to drop the CAD. It is not left to coder choice; the guideline gives a direct sequencing instruction.",
+   "visual": {
+    "topic": "CAD and AMI sequencing",
+    "hint": "Which condition caused this admission?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.9.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Strokes During or After a Procedure",
+   "content": "A **cerebrovascular accident (CVA)** is a stroke. Section I.C.9.c covers a stroke that happens **during** a procedure (intraoperative) or **after** it (postprocedural).\n\n**Rule 1 — documentation of cause and effect.** To assign an intraoperative or postprocedural CVA code, the medical record should **clearly specify the cause-and-effect relationship** between the medical intervention and the stroke. A stroke that simply happens after surgery is not automatically a surgical complication.\n\n**Rule 2 — what drives the code choice.** Proper code assignment depends on:\n\n• whether it was an **infarction** or a **hemorrhage**\n• whether it happened **intraoperatively** or **postoperatively**\n• for a **cerebral hemorrhage**, the **type of procedure** performed\n\n**What it does NOT say:** it does not let the coder decide on their own that the procedure caused the stroke. If the relationship is not clearly documented, the coder cannot assign the intraoperative/postprocedural code on timing alone.",
+   "visual": {
+    "title": "Intraop/Postop CVA",
+    "sub": "Section I.C.9.c decision points",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Cause and effect?",
+      "b": "Must be clearly documented by the provider"
+     },
+     {
+      "h": "Infarction or hemorrhage?",
+      "b": "Changes the code"
+     },
+     {
+      "h": "Intraop or postop?",
+      "b": "Changes the code"
+     },
+     {
+      "h": "Hemorrhage only",
+      "b": "Depends on the type of procedure"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has a stroke two days after hip surgery. The provider documents the stroke but says nothing about a relationship to the surgery. Based on Section I.C.9.c, which statement is correct?",
+   "options": [
+    "The coder should assign a postprocedural CVA code because the stroke followed surgery",
+    "All strokes after surgery are coded as intraoperative",
+    "A postprocedural CVA code requires documentation clearly specifying the cause-and-effect relationship",
+    "The type of procedure determines the code for every postoperative infarction"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.9.c says documentation \"should clearly specify the cause-and-effect relationship between the medical intervention and the cerebrovascular accident\" in order to assign an intraoperative or postprocedural CVA code. Timing alone is not enough, so option A is wrong. Option B is wrong because intraoperative and postoperative are separate distinctions in the guideline. Option D is wrong because the guideline ties the type of procedure to cerebral hemorrhage, not infarction.",
+   "visual": {
+    "topic": "Postprocedural stroke",
+    "hint": "Does timing alone establish a complication?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.9.d"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: What Category I69 Means",
+   "content": "**Sequela** (plural sequelae) means a condition that remains after the original illness — sometimes called a **late effect**.\n\nSection I.C.9.d.1 says **category I69, Sequelae of cerebrovascular disease**, is used when conditions from categories **I60-I67** (cerebrovascular diseases such as strokes) have caused **neurologic deficits** that are classified elsewhere.\n\nKey points from the text:\n\n• I69 identifies the cerebrovascular disease as the **cause** of a lasting deficit.\n• The deficits **persist after the initial onset** of the I60-I67 condition.\n• A deficit may be **present from the onset** or may **arise at any time after** the onset. There is no waiting period in the guideline before a deficit can be a sequela.\n\n**Exam trap:** I69 is not about how much time has passed. It is about a neurologic deficit that resulted from the earlier cerebrovascular condition.",
+   "visual": {
+    "title": "Category I69 at a Glance",
+    "sub": "Sequelae (late effects) of cerebrovascular disease",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Cause",
+      "b": "A condition from I60-I67"
+     },
+     {
+      "h": "Result",
+      "b": "A neurologic deficit that persists"
+     },
+     {
+      "h": "When deficit appears",
+      "b": "At onset OR any time after"
+     },
+     {
+      "h": "Time limit?",
+      "b": "None stated in the guideline"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Dominant vs Nondominant Side",
+   "content": "I69 codes that specify **hemiplegia, hemiparesis and monoplegia** identify whether the **dominant** or **nondominant** side is affected. (Hemiplegia is paralysis of one side of the body; hemiparesis is weakness of one side; monoplegia is paralysis of one limb.)\n\nOften the record says \"right\" or \"left\" but not \"dominant\" or \"nondominant.\" When the affected side is documented but not specified as dominant/nondominant, **and the classification system does not indicate a default**, use these defaults:\n\n• **Ambidextrous** patient → **dominant**\n• **Left** side affected → **non-dominant**\n• **Right** side affected → **dominant**\n\n**Memory aid:** the defaults assume most people are right-handed, so right = dominant, left = non-dominant. Ambidextrous = dominant.\n\n**Exam trap:** these defaults apply only when dominance is **not** documented. If the provider documents that the affected left side is the dominant side, follow the documentation.",
+   "visual": {
+    "title": "Side Defaults for I69",
+    "sub": "When dominance is not documented (I.C.9.d.1)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Right side affected",
+      "b": "Default: DOMINANT"
+     },
+     {
+      "h": "Left side affected",
+      "b": "Default: NON-DOMINANT"
+     },
+     {
+      "h": "Ambidextrous patient",
+      "b": "Default: DOMINANT"
+     },
+     {
+      "h": "Dominance documented",
+      "b": "Follow the documentation"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Choosing the Side",
+   "content": "**Scenario A.** \"Right hemiparesis due to old cerebral infarction.\" Dominance is not documented.\n\n• Guideline: Section I.C.9.d.1 — right side affected → default **dominant**.\n\n**Scenario B.** \"Left hemiplegia following prior stroke.\" Dominance not documented.\n\n• Default: **non-dominant**.\n\n**Scenario C.** \"Patient is ambidextrous. Left monoplegia of upper limb from prior stroke.\"\n\n• The guideline's ambidextrous rule applies → **dominant**, even though the left side is affected.\n\n**Scenario D.** \"Left hemiparesis affecting the patient's dominant side.\"\n\n• Dominance is documented, so the defaults do not apply. Code the dominant side as documented.",
+   "visual": {
+    "title": "Pick the Side",
+    "sub": "Applying the Section I.C.9.d.1 defaults",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "A. Right, not specified",
+      "b": "Dominant"
+     },
+     {
+      "h": "B. Left, not specified",
+      "b": "Non-dominant"
+     },
+     {
+      "h": "C. Ambidextrous, left",
+      "b": "Dominant"
+     },
+     {
+      "h": "D. Left, dominant stated",
+      "b": "Dominant per documentation"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Per Section I.C.9.d.1, a patient has left-sided hemiplegia as a sequela of a stroke. The record does not say whether the left side is dominant, and the patient is not described as ambidextrous. Which side designation is the default?",
+   "options": [
+    "Dominant",
+    "Non-dominant",
+    "Unspecified side",
+    "Query is required; no default exists"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.9.d.1 states \"If the left side is affected, the default is non-dominant.\" Dominant is the default for the right side and for ambidextrous patients, not for the left side. \"Unspecified\" and \"query required\" are wrong because the guideline supplies a default when the affected side is documented but dominance is not.",
+   "visual": {
+    "topic": "I69 laterality default",
+    "hint": "Which side do the defaults treat as the usual dominant side?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An ambidextrous patient has left hemiparesis from an old stroke. According to Section I.C.9.d.1, which default applies?",
+   "options": [
+    "Dominant, because the default for ambidextrous patients is dominant",
+    "Unspecified, because ambidextrous patients have no dominant side",
+    "Non-dominant, because the left side is affected",
+    "Either, at the coder's discretion"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.9.d.1 says \"For ambidextrous patients, the default should be dominant.\" The left-side rule (non-dominant) is for patients not described as ambidextrous, so option C misapplies it. The guideline does not leave it unspecified or to coder discretion; it names a default.",
+   "visual": {
+    "topic": "Ambidextrous default",
+    "hint": "The ambidextrous rule is listed separately from the left/right rules."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: I69 With I60-I67, and No Deficits",
+   "content": "**Section I.C.9.d.2 — both at once.** A code from **I69** may be reported on the same record as a code from **I60-I67** if the patient has a **current** cerebrovascular disease **and** deficits from an **old** cerebrovascular disease. Example: a patient with lasting deficits from a past stroke who is now having a new stroke.\n\n**Section I.C.9.d.3 — no deficits, no I69.** Codes from category I69 **should not be assigned if the patient does not have neurologic deficits.** The heading of this rule pairs I69 with **Z86.73**, Personal history of transient ischemic attack (TIA) and cerebral infarction, and the guideline refers you to Section I.C.21.4 for the use of personal history codes.\n\n**What it does NOT mean:** a past stroke alone does not justify an I69 code. I69 requires a neurologic deficit that remains.",
+   "visual": {
+    "title": "I69 Combinations",
+    "sub": "Sections I.C.9.d.2 and I.C.9.d.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "New stroke + old deficits",
+      "b": "I69 may be coded WITH I60-I67"
+     },
+     {
+      "h": "Old stroke, no deficits",
+      "b": "Do NOT assign I69"
+     },
+     {
+      "h": "History code in heading",
+      "b": "Z86.73 (see I.C.21.4)"
+     },
+     {
+      "h": "I69 requires",
+      "b": "A neurologic deficit"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Old Stroke, New Stroke",
+   "content": "**Scenario 1.** A patient with right hemiparesis from a stroke last year is admitted with a new acute cerebral infarction.\n\n• Guideline: Section I.C.9.d.2 — the patient has a current cerebrovascular disease and deficits from an old one. A code from **I60-I67** for the current condition and an **I69** code for the old deficits may both be assigned.\n\n**Scenario 2.** A patient had a stroke three years ago and recovered fully. The provider documents \"history of stroke, no residual deficits.\"\n\n• Guideline: Section I.C.9.d.3 — no neurologic deficits, so **no I69 code**. The rule's heading names Z86.73 for this personal history situation (see Section I.C.21.4).",
+   "visual": {
+    "title": "Old Stroke Scenarios",
+    "sub": "Is there a lasting neurologic deficit?",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Deficit + new stroke",
+      "b": "I60-I67 code and I69 code"
+     },
+     {
+      "h": "No deficit, history only",
+      "b": "No I69; see Z86.73 heading"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for an unrelated problem. The provider notes a cerebral infarction five years ago with no residual neurologic deficits. According to Section I.C.9.d.3, should a code from category I69 be assigned?",
+   "options": [
+    "Yes, because any old stroke is a sequela",
+    "Yes, but only if the stroke was more than one year ago",
+    "No, because I69 can never be used outside the inpatient setting",
+    "No, because I69 codes should not be assigned when there are no neurologic deficits"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.9.d.3 says codes from category I69 \"should not be assigned if the patient does not have neurologic deficits.\" Option A is wrong because I69 describes deficits, not the stroke history itself. Option B invents a time limit; the guideline states deficits may arise at any time and gives no one-year rule. Option C invents a setting restriction that is not in the text.",
+   "visual": {
+    "topic": "I69 without deficits",
+    "hint": "What must be present for a sequela code?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Per Section I.C.9.d.2, when may a code from category I69 be reported together with a code from I60-I67?",
+   "options": [
+    "Never; the two are mutually exclusive",
+    "Only when the deficit appeared at the onset of the current stroke",
+    "When the patient has a current cerebrovascular disease and deficits from an old cerebrovascular disease",
+    "Only when the provider documents dominance"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.9.d.2 allows I69 codes with I60-I67 codes \"if the patient has a current cerebrovascular disease and deficits from an old cerebrovascular disease.\" They are not mutually exclusive, so A is wrong. Option B confuses this with the I.C.9.d.1 statement about when deficits may appear. Option D confuses this with the dominance defaults.",
+   "visual": {
+    "topic": "I69 with I60-I67",
+    "hint": "Think current disease plus old deficits."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.9.e"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Type 1 STEMI and NSTEMI",
+   "content": "Section I.C.9.e.1 covers **type 1** acute myocardial infarction (AMI).\n\n• **STEMI** = ST elevation myocardial infarction. **NSTEMI** = non-ST elevation myocardial infarction. (\"ST\" refers to a segment on the ECG.)\n• Type 1 AMI codes identify the **site**, such as anterolateral wall or true posterior wall.\n• **Subcategories I21.0-I21.2 and code I21.3** are for type 1 **STEMI**.\n• **Code I21.4**, Non-ST elevation (NSTEMI) myocardial infarction, is for type 1 **NSTEMI** and **nontransmural MIs**.\n\n**When the type changes during care:**\n\n• Type 1 **NSTEMI evolves to STEMI** → assign the **STEMI** code.\n• Type 1 **STEMI converts to NSTEMI due to thrombolytic therapy** → it is **still coded as STEMI**.\n\n**Memory aid:** for type 1, once it has been a STEMI, it stays coded as a STEMI in both directions described here.",
+   "visual": {
+    "title": "Type 1 AMI Codes",
+    "sub": "Section I.C.9.e.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "STEMI",
+      "b": "Subcategories I21.0-I21.2 and code I21.3"
+     },
+     {
+      "h": "NSTEMI / nontransmural",
+      "b": "Code I21.4"
+     },
+     {
+      "h": "NSTEMI evolves to STEMI",
+      "b": "Assign the STEMI code"
+     },
+     {
+      "h": "STEMI to NSTEMI (lytics)",
+      "b": "Still coded as STEMI"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The 4-Week Rule",
+   "content": "Section I.C.9.e.1 also sets a **time frame** for using category **I21**.\n\n**MI is 4 weeks old or less:** codes from category I21 may continue to be reported for encounters during that time — **including transfers to another acute setting or a postacute setting** — as long as the MI meets the definition of an \"other diagnosis\" (Section III, Reporting Additional Diagnoses).\n\n**After 4 weeks, still receiving care for the MI:** assign the appropriate **aftercare** code, **not** a code from category I21.\n\n**Old or healed MI, no further care needed:** code **I25.2**, Old myocardial infarction, may be assigned.\n\n**Exam trap:** the 4-week window is measured from the MI, not from admission. A transfer to a rehab or other postacute facility within 4 weeks can still carry the I21 code.",
+   "visual": {
+    "title": "Timeline for an MI",
+    "sub": "Which code family? (I.C.9.e.1)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "0 to 4 weeks",
+      "b": "I21 may continue, incl. transfers/postacute"
+     },
+     {
+      "h": "After 4 weeks, still care",
+      "b": "Appropriate aftercare code, not I21"
+     },
+     {
+      "h": "Old or healed, no care",
+      "b": "I25.2, Old myocardial infarction"
+     },
+     {
+      "h": "I21 condition",
+      "b": "MI meets \"other diagnosis\" definition"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient had a type 1 NSTEMI that evolved into a STEMI during the same admission. Per Section I.C.9.e.1, how is it coded?",
+   "options": [
+    "As an NSTEMI, because that was the initial diagnosis",
+    "As a STEMI",
+    "With both an NSTEMI code and a STEMI code",
+    "As I21.9, because the type changed"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.9.e.1 says \"If a type 1 NSTEMI evolves to STEMI, assign the STEMI code.\" Coding the initial NSTEMI ignores the rule. Reporting both is not what the guideline instructs; it names a single code. I21.9 is the default for unspecified AMI or unspecified type (Section I.C.9.e.2), and here the type is documented.",
+   "visual": {
+    "topic": "NSTEMI to STEMI",
+    "hint": "Which direction is the change, and what does the guideline assign?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient presented with a type 1 STEMI. After thrombolytic therapy, the provider documents that it converted to an NSTEMI. According to Section I.C.9.e.1, how is it coded?",
+   "options": [
+    "As a STEMI",
+    "As an NSTEMI, code I21.4",
+    "As I21.9, Acute myocardial infarction, unspecified",
+    "As I25.2, Old myocardial infarction"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.9.e.1 states \"If a type 1 STEMI converts to NSTEMI due to thrombolytic therapy, it is still coded as STEMI.\" I21.4 is wrong because the conversion was due to thrombolytic therapy. I21.9 is for unspecified AMI or type, not a documented STEMI. I25.2 is for old or healed MIs not requiring further care.",
+   "visual": {
+    "topic": "STEMI after thrombolytics",
+    "hint": "Does treatment-driven conversion change the code?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Six weeks after an acute MI, a patient is still receiving care related to the MI. According to Section I.C.9.e.1, what should be assigned?",
+   "options": [
+    "A code from category I21",
+    "A code from category I22",
+    "Code I25.2, Old myocardial infarction, only",
+    "The appropriate aftercare code rather than a code from category I21"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.9.e.1 says that for encounters after the 4-week time frame when the patient is still receiving care related to the MI, \"the appropriate aftercare code should be assigned, rather than a code from category I21.\" I21 is for MIs 4 weeks old or less. I25.2 is for old or healed MIs not requiring further care, and this patient still needs care. I22 is for a new (subsequent) AMI within 4 weeks of the first.",
+   "visual": {
+    "topic": "MI after 4 weeks",
+    "hint": "Is the MI still within 4 weeks, and is care still going on?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Unspecified AMI and Subendocardial AMI",
+   "content": "**Section I.C.9.e.2 — unspecified.**\n\n• **I21.9**, Acute myocardial infarction, unspecified, is the **default** for unspecified AMI or unspecified type.\n• If only **type 1 STEMI** or **transmural MI** is documented **without the site**, assign **I21.3**, ST elevation (STEMI) myocardial infarction of unspecified site.\n\n**Section I.C.9.e.3 — nontransmural or subendocardial with a site.** If an AMI is documented as **nontransmural** or **subendocardial**, but the **site is provided**, it is **still coded as a subendocardial AMI**. The named site does not change that.\n\nThe guideline also points to Section I.C.21.3 for coding status post administration of tPA (a clot-dissolving drug) in a different facility within the last 24 hours.\n\n**Exam trap:** I21.9 and I21.3 are both \"unspecified\" in some way. I21.9 = the AMI or its type is unspecified. I21.3 = it is a type 1 STEMI (or transmural MI) but the **site** is unspecified.",
+   "visual": {
+    "title": "Unspecified vs No Site",
+    "sub": "Sections I.C.9.e.2 and I.C.9.e.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "AMI, type unspecified",
+      "b": "Default I21.9"
+     },
+     {
+      "h": "Type 1 STEMI, no site",
+      "b": "I21.3 (STEMI, unspecified site)"
+     },
+     {
+      "h": "Transmural MI, no site",
+      "b": "I21.3"
+     },
+     {
+      "h": "Subendocardial + site",
+      "b": "Still a subendocardial AMI"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents only \"transmural myocardial infarction\" with no site. Which code does Section I.C.9.e.2 direct?",
+   "options": [
+    "I21.9, Acute myocardial infarction, unspecified",
+    "I21.4, Non-ST elevation (NSTEMI) myocardial infarction",
+    "I21.3, ST elevation (STEMI) myocardial infarction of unspecified site",
+    "I25.2, Old myocardial infarction"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.9.e.2 says \"If only type 1 STEMI or transmural MI without the site is documented, assign code I21.3.\" I21.9 is the default when the AMI or its type is unspecified, but here transmural MI is documented. I21.4 is for type 1 NSTEMI and nontransmural MIs, the opposite of transmural. I25.2 is for old or healed MIs.",
+   "visual": {
+    "topic": "Transmural MI, no site",
+    "hint": "Transmural and site-unspecified point to one specific code."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Subsequent AMI (Category I22)",
+   "content": "Section I.C.9.e.4 covers a **new AMI within 4 weeks** of a first AMI.\n\n• Use a code from **category I22**, Subsequent ST elevation (STEMI) and non-ST elevation (NSTEMI) myocardial infarction, when a patient who had a **type 1 or unspecified** AMI has a new AMI **within the 4-week time frame** of the initial AMI.\n• An I22 code **must be used together with** a code from category **I21**.\n• **Sequencing** of I22 and I21 depends on the **circumstances of the encounter**.\n\n**When NOT to use I22:**\n\n• Do not assign I22 for subsequent MIs **other than type 1 or unspecified**.\n• Subsequent **type 2** AMI → assign **only I21.A1**.\n• Subsequent **type 4 or type 5** AMI → assign **only I21.A9**.\n• If the subsequent MI is a **different type** from the first, assign the I21 codes for **each type** and **no I22**.\n\n**Bottom line:** I22 is used only when **both** the initial and the subsequent MI are type 1 or unspecified.",
+   "visual": {
+    "title": "When Is I22 Used?",
+    "sub": "Section I.C.9.e.4",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Both type 1/unspecified",
+      "b": "I22 with an I21 code"
+     },
+     {
+      "h": "Subsequent type 2",
+      "b": "Only I21.A1"
+     },
+     {
+      "h": "Subsequent type 4 or 5",
+      "b": "Only I21.A9"
+     },
+     {
+      "h": "Different types",
+      "b": "I21 code for each type; no I22"
+     },
+     {
+      "h": "Time frame",
+      "b": "New AMI within 4 weeks of first"
+     },
+     {
+      "h": "I22 order vs I21",
+      "b": "Depends on the encounter"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Is It a Subsequent MI?",
+   "content": "**Scenario 1.** Two weeks after a type 1 STEMI, the patient has another type 1 AMI.\n\n• Both are type 1, and the new one is within 4 weeks. Guideline: Section I.C.9.e.4 → an **I22** code **with** an **I21** code. Their order depends on the circumstances of the encounter.\n\n**Scenario 2.** Ten days after a type 1 NSTEMI, the patient has a **type 2** MI.\n\n• The subsequent MI is type 2, and the types differ. Do **not** use I22. Assign the I21 codes for each type, which includes **I21.A1** for the type 2 MI.\n\n**Scenario 3.** Three weeks after a type 1 AMI, the patient has a **type 4** MI.\n\n• For a subsequent type 4 AMI, assign **I21.A9** and no I22.\n\n**Scenario 4.** Six weeks after a type 1 AMI, a new AMI occurs.\n\n• Outside the 4-week window, so the I22 definition (new AMI within 4 weeks) is not met.",
+   "visual": {
+    "title": "I22 Decision Check",
+    "sub": "Two questions before using I22",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Within 4 weeks?",
+      "b": "No: I22 does not apply"
+     },
+     {
+      "h": "Both type 1/unspecified?",
+      "b": "No: I21 codes only, no I22"
+     },
+     {
+      "h": "Both answers yes",
+      "b": "I22 plus an I21 code"
+     },
+     {
+      "h": "I22 alone?",
+      "b": "Never; must be used with I21"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Per Section I.C.9.e.4, which statement about category I22 is correct?",
+   "options": [
+    "An I22 code may be reported alone",
+    "An I22 code must be used in conjunction with a code from category I21",
+    "I22 is always sequenced before I21",
+    "I22 is used for any subsequent MI regardless of type"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.9.e.4 states \"A code from category I22 must be used in conjunction with a code from category I21.\" It cannot be reported alone. Sequencing \"depends on the circumstances of the encounter,\" so it is not always first. And I22 is not assigned for subsequent MIs other than type 1 or unspecified.",
+   "visual": {
+    "topic": "Category I22 rules",
+    "hint": "Recall what I22 must always be paired with."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Two weeks after a type 1 STEMI, a patient has a type 2 myocardial infarction. According to Section I.C.9.e.4, how should the subsequent MI be coded?",
+   "options": [
+    "Only I21.A1 for the type 2 MI; no I22 code",
+    "I21.A9, Other myocardial infarction type",
+    "A code from category I22 with an I21 code",
+    "I24.89 for the demand ischemia"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.9.e.4 says \"For subsequent type 2 AMI assign only code I21.A1\" and that I22 should only be assigned if both MIs are type 1 or unspecified. I22 is wrong because the subsequent MI is type 2. I21.A9 is for types 3, 4a, 4b, 4c and 5. Section I.C.9.e.5 specifically says not to assign I24.89 for the demand ischemia.",
+   "visual": {
+    "topic": "Subsequent type 2 MI",
+    "hint": "Is the subsequent MI type 1 or unspecified?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Other Types of MI",
+   "content": "Section I.C.9.e.5 sorts myocardial infarctions by **type**:\n\n• **Type 1** → codes **I21.0-I21.4**. Codes I21.01-I21.4 should **only** be assigned for type 1 AMIs.\n• **Type 2** (MI due to **demand ischemia** or secondary to **ischemic imbalance**) → **I21.A1**, Myocardial infarction type 2, with the **underlying cause coded first**, if applicable.\n  – Do **not** assign **I24.89**, Other forms of acute ischemic heart disease, for the demand ischemia.\n  – If a type 2 AMI is described as **NSTEMI or STEMI**, assign **only I21.A1**.\n• **Types 3, 4a, 4b, 4c and 5** → **I21.A9**, Other myocardial infarction type.\n\nFinally, **\"Code also\" and \"Code first\" notes** should be followed for complications and for **postprocedural MIs during or following cardiac surgery**.\n\n**Exam trap:** the words STEMI and NSTEMI do not automatically send you to I21.0-I21.4. If the provider calls it a type 2 MI, it goes to I21.A1 even when STEMI or NSTEMI is also documented.",
+   "visual": {
+    "title": "MI Type Drives the Code",
+    "sub": "Section I.C.9.e.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Type 1",
+      "b": "I21.0-I21.4 (only for type 1)"
+     },
+     {
+      "h": "Type 2",
+      "b": "I21.A1; underlying cause first"
+     },
+     {
+      "h": "Type 2 called STEMI/NSTEMI",
+      "b": "Still only I21.A1"
+     },
+     {
+      "h": "Types 3, 4a, 4b, 4c, 5",
+      "b": "I21.A9"
+     },
+     {
+      "h": "Demand ischemia",
+      "b": "Do NOT add I24.89"
+     },
+     {
+      "h": "Cardiac surgery MI",
+      "b": "Follow Code also/Code first"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: MI With Coronary Microvascular Dysfunction",
+   "content": "Section I.C.9.e.6 defines **coronary microvascular dysfunction (CMD)** as a condition that affects the **microvasculature** (the heart's smallest blood vessels) by **restricting microvascular flow** and **increasing microvascular resistance**.\n\nCode **I21.B**, Myocardial infarction with coronary microvascular dysfunction, is assigned for:\n\n• myocardial infarction with coronary microvascular **disease**\n• myocardial infarction with coronary microvascular **dysfunction**\n• myocardial infarction with **non-obstructive coronary arteries (MINOCA)** with microvascular disease\n\n**Watch the wording:** the guideline lists MINOCA **with microvascular disease**. Do not stretch the rule to cases the text does not list.",
+   "visual": {
+    "title": "Code I21.B",
+    "sub": "MI with coronary microvascular dysfunction (I.C.9.e.6)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "CMD means",
+      "b": "Restricted microvascular flow, raised resistance"
+     },
+     {
+      "h": "MI + microvascular disease",
+      "b": "I21.B"
+     },
+     {
+      "h": "MI + CMD (dysfunction)",
+      "b": "I21.B"
+     },
+     {
+      "h": "MINOCA + microvasc. dis.",
+      "b": "I21.B"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents \"type 2 NSTEMI due to demand ischemia.\" According to Section I.C.9.e.5, which code(s) are assigned for the MI?",
+   "options": [
+    "I21.4 only",
+    "I21.A1 and I24.89",
+    "I21.4 and I21.A1",
+    "I21.A1 only for the MI (with the underlying cause coded first, if applicable)"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.9.e.5 says type 2 MI is assigned to I21.A1 with the underlying cause coded first, if applicable, and \"If a type 2 AMI is described as NSTEMI or STEMI, only assign code I21.A1.\" I21.4 is wrong because codes I21.01-I21.4 should only be assigned for type 1 AMIs. I24.89 is wrong because the guideline says not to assign it for the demand ischemia. Combining I21.4 and I21.A1 breaks both rules.",
+   "visual": {
+    "topic": "Type 2 described as NSTEMI",
+    "hint": "Which matters more here: the word NSTEMI or the type?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which code does Section I.C.9.e.5 assign for a type 4b myocardial infarction?",
+   "options": [
+    "I21.A1, Myocardial infarction type 2",
+    "I21.B, Myocardial infarction with coronary microvascular dysfunction",
+    "I21.A9, Other myocardial infarction type",
+    "I21.9, Acute myocardial infarction, unspecified"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.9.e.5 states \"Acute myocardial infarctions type 3, 4a, 4b, 4c and 5 are assigned to code I21.A9.\" I21.A1 is only for type 2. I21.B is for MI with coronary microvascular dysfunction (I.C.9.e.6). I21.9 is the default for unspecified AMI or type, but here the type is documented.",
+   "visual": {
+    "topic": "MI types 3 to 5",
+    "hint": "The guideline groups several numbered types into one code."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents \"myocardial infarction with non-obstructive coronary arteries (MINOCA) with microvascular disease.\" Per Section I.C.9.e.6, which code is assigned?",
+   "options": [
+    "I21.A1",
+    "I21.B",
+    "I21.A9",
+    "I25.2"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.9.e.6 says I21.B is assigned for \"myocardial infarction with non-obstructive coronary arteries (MINOCA) with microvascular disease,\" as well as MI with coronary microvascular disease or dysfunction. I21.A1 is for type 2 MI, I21.A9 for types 3, 4a, 4b, 4c and 5, and I25.2 for an old or healed MI.",
+   "visual": {
+    "topic": "MINOCA",
+    "hint": "Find the code tied to coronary microvascular dysfunction."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying These Rules on a Cardiac or Stroke Record",
+   "content": "Use these steps when you code a record with heart disease or cerebrovascular disease.\n\n1. **CAD and angina both present?** Use the combination code (I25.11 or I25.7). No separate angina code. Assume the link unless documentation names another cause (I.C.9.b).\n2. **Admitted due to an AMI in a CAD patient?** Sequence the AMI before the CAD (I.C.9.b).\n3. **Stroke during or after a procedure?** Code it as intraoperative/postprocedural only if documentation clearly states cause and effect. Note infarction vs hemorrhage, intraop vs postop, and (for hemorrhage) the procedure type (I.C.9.c).\n4. **Old stroke?** If neurologic deficits remain, use I69. Apply the dominant/nondominant defaults only when dominance is not documented. No deficits → no I69 (I.C.9.d).\n5. **AMI?** Identify the **type**. Type 1 → I21.0-I21.4 by STEMI/NSTEMI and site; type 2 → I21.A1; types 3, 4a, 4b, 4c, 5 → I21.A9; MI with CMD → I21.B (I.C.9.e.5-6).\n6. **Check the date of the MI.** 4 weeks or less → I21 may continue; after 4 weeks with ongoing care → aftercare code; old/healed, no care → I25.2 (I.C.9.e.1).\n7. **Second MI within 4 weeks?** I22 with I21 only if both MIs are type 1 or unspecified (I.C.9.e.4).",
+   "visual": {
+    "title": "Cardiac/Stroke Coding Path",
+    "sub": "Seven checks from Sections I.C.9.b-e",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2 CAD",
+      "b": "Combination code; AMI before CAD"
+     },
+     {
+      "h": "3 Procedure CVA",
+      "b": "Cause and effect documented?"
+     },
+     {
+      "h": "4 Old stroke",
+      "b": "Deficits? I69 with side defaults"
+     },
+     {
+      "h": "5 AMI type",
+      "b": "Type decides the I21 code"
+     },
+     {
+      "h": "6 MI age",
+      "b": "4 weeks / aftercare / I25.2"
+     },
+     {
+      "h": "7 Second MI",
+      "b": "I22 only if both type 1/unsp."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **I25.11 and I25.7** are combination codes for atherosclerosis with angina. No extra angina code. The causal link is assumed unless documentation says otherwise (I.C.9.b).\n• A CAD patient **admitted due to an AMI** → AMI first, then CAD (I.C.9.b).\n• Intraoperative/postprocedural CVA codes need **documented cause and effect**; code choice depends on infarction vs hemorrhage, timing, and (for hemorrhage) procedure type (I.C.9.c).\n• **I69** = lasting neurologic deficits from I60-I67 conditions. Defaults when dominance is not documented: right = dominant, left = non-dominant, ambidextrous = dominant. No deficits → no I69 (I.C.9.d).\n• Type 1 **NSTEMI evolving to STEMI** → STEMI code; **STEMI converted to NSTEMI by thrombolytics** → still STEMI (I.C.9.e.1).\n• I21 may continue while the MI is **4 weeks old or less**; after that, aftercare code if still in care; **I25.2** for old/healed MI needing no care (I.C.9.e.1).\n• **I21.9** = unspecified AMI or type; **I21.3** = type 1 STEMI or transmural MI without site (I.C.9.e.2).\n• **I22** only when both MIs are type 1 or unspecified, within 4 weeks, always with I21. Type 2 → **I21.A1** (never I24.89 for the demand ischemia); types 3-5 → **I21.A9**; MI with CMD → **I21.B** (I.C.9.e.4-6).",
+   "visual": {
+    "title": "Lesson Summary",
+    "sub": "CAD, stroke sequelae and AMI",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "CAD + angina",
+      "b": "Combination code, link assumed"
+     },
+     {
+      "h": "I69",
+      "b": "Deficits only; side defaults"
+     },
+     {
+      "h": "AMI timing",
+      "b": "4 weeks; aftercare; I25.2"
+     },
+     {
+      "h": "AMI type",
+      "b": "Type 1 I21.0-I21.4; I21.A1; I21.A9"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with an acute MI. The provider documents only \"acute myocardial infarction\" with no type and no other detail. Per Section I.C.9.e.2, which code is the default?",
+   "options": [
+    "I21.9",
+    "I21.4",
+    "I21.3",
+    "I22"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.9.e.2 states \"Code I21.9, Acute myocardial infarction, unspecified, is the default for unspecified acute myocardial infarction or unspecified type.\" I21.3 is for type 1 STEMI or transmural MI without the site. I21.4 is for type 1 NSTEMI and nontransmural MIs. I22 is for a subsequent AMI within 4 weeks and must be used with an I21 code.",
+   "visual": {
+    "topic": "Unspecified AMI",
+    "hint": "Nothing about type or ST elevation is documented."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with CAD is admitted with chest pain. The provider documents \"stable angina; coronary atherosclerosis of a coronary artery bypass graft.\" Following Section I.C.9.b, which approach is correct?",
+   "options": [
+    "Code the atherosclerosis and a separate angina code",
+    "Use I25.11 because the patient has CAD",
+    "Query the provider whether the angina is due to the atherosclerosis before linking them",
+    "Use a combination code from subcategory I25.7 with no additional angina code"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.9.b names I25.7 as the combination subcategory for atherosclerosis of coronary artery bypass graft(s) with angina pectoris, and says no additional angina code is needed. A separate angina code duplicates the combination code. A query is not required because a causal relationship can be assumed unless documentation indicates another cause. I25.11 is for the native coronary artery, not a bypass graft.",
+   "visual": {
+    "topic": "Bypass graft with angina",
+    "hint": "Native artery or bypass graft?"
+   }
+  }
+ ]
+}

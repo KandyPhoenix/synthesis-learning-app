@@ -1,0 +1,884 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Chapter 20: How, Where, and Why It Happened",
+   "content": "Most codes describe **what** is wrong with a patient. Chapter 20 codes (V00-Y99) describe **how** it happened. They are called **external cause codes**.\n\nAccording to Section I.C.20, these codes capture:\n\n• the **cause** (how the injury or condition happened)\n• the **intent** (unintentional/accidental, or intentional such as suicide or assault)\n• the **place** where the event occurred\n• the **activity** of the patient at the time\n• the person's **status** (for example, civilian or military)\n\nIn this lesson you will learn the general rules (Section I.C.20.a), the place, activity and status codes (I.C.20.b-d and k), what to do when space is limited or several events occur (I.C.20.e-f), and the special rules for abuse, unknown intent, sequelae and terrorism (I.C.20.g-j).",
+   "visual": {
+    "title": "External Cause Codes",
+    "sub": "Chapter 20 (V00-Y99) answers five questions",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Cause",
+      "b": "How did it happen?"
+     },
+     {
+      "h": "Intent",
+      "b": "Accident, self-harm, or assault?"
+     },
+     {
+      "h": "Place",
+      "b": "Where was the patient? (Y92)"
+     },
+     {
+      "h": "Activity",
+      "b": "What was the patient doing? (Y93)"
+     },
+     {
+      "h": "Status",
+      "b": "Military, work, or non-work? (Y99)"
+     },
+     {
+      "h": "Never first",
+      "b": "Never the principal or first-listed diagnosis"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Chapter 20 Overview",
+   "content": "Section I.C.20 opens with three big ideas.\n\n**1. Never first.** An external cause code is never the first-listed or principal diagnosis. It always supports another code that describes the injury or condition.\n\n**2. Purpose.** These codes exist to provide data for **injury research** and for evaluating **injury prevention strategies**. They tell the story of the event: cause, intent, place, activity and status.\n\n**3. Reporting is not nationally required.** There is **no national requirement** to report external cause codes. Reporting is required only if:\n\n• the provider is subject to a **state-based** external cause reporting mandate, or\n• a particular **payer** requires the codes.\n\nWithout a mandate, providers are **encouraged** to report them voluntarily.\n\n**What it does NOT mean:** \"Not required\" does not mean \"not allowed.\" When a facility does report them, all of the Chapter 20 guidelines still apply.",
+   "visual": {
+    "title": "Chapter 20 Big Picture",
+    "sub": "Section I.C.20",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Sequencing",
+      "b": "Never principal or first-listed"
+     },
+     {
+      "h": "Purpose",
+      "b": "Injury research and prevention data"
+     },
+     {
+      "h": "Required when",
+      "b": "State mandate or payer requires"
+     },
+     {
+      "h": "Otherwise",
+      "b": "Voluntary, but encouraged"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.20, when is reporting of ICD-10-CM external cause codes required?",
+   "options": [
+    "Always, for every injury on every claim",
+    "Never; external cause codes may not be reported unless the patient dies",
+    "Only for inpatient admissions",
+    "Only when the provider is subject to a state-based mandate or a particular payer requires them"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.20 states there is no national requirement for mandatory external cause code reporting; reporting is required only under a state-based mandate or when a particular payer requires the codes. Otherwise reporting is voluntary but encouraged.\n\nA is wrong because there is no national mandate. C is wrong because the guideline does not tie the requirement to the inpatient setting. B is wrong because providers are encouraged to report them voluntarily; nothing limits them to deaths.",
+   "visual": {
+    "topic": "External cause reporting",
+    "hint": "Think about who can make these codes mandatory."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Where and How Long (I.C.20.a.1-2)",
+   "content": "**a.1 Which codes can an external cause code go with?** Any code in the range **A00.0-T88.9** or **Z00-Z99** that represents a health condition due to an external cause.\n\n• They are **most** useful with injuries.\n• They are also valid for **infections or diseases due to an external source**, and other conditions, such as a **heart attack that occurs during strenuous physical activity**.\n\n**a.2 How long do you keep using it?** Assign the external cause code for **each encounter** where the injury or condition is being treated, with the correct **7th character**:\n\n• **A** = initial encounter\n• **D** = subsequent encounter\n• **S** = sequela\n\nMost Chapter 20 categories have these three values. The key rule: the 7th character of the external cause code should **match the 7th character of the code for the associated injury or condition** at that encounter, even if the patient sees a new or different provider.",
+   "visual": {
+    "title": "Matching the 7th Character",
+    "sub": "Section I.C.20.a.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Injury code ends in A",
+      "b": "External cause code ends in A (initial encounter)"
+     },
+     {
+      "h": "Injury code ends in D",
+      "b": "External cause code ends in D (subsequent encounter)"
+     },
+     {
+      "h": "Injury code ends in S",
+      "b": "External cause code ends in S (sequela)"
+     },
+     {
+      "h": "New provider?",
+      "b": "Still match the injury code's 7th character"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Tell the Whole Story (I.C.20.a.3-5)",
+   "content": "**a.3 Use the full range.** Use external cause codes to completely describe:\n\n• the cause\n• the intent\n• the place of occurrence\n• if applicable, the activity of the patient at the time of the event\n• the patient's status\n\nThis applies to all injuries and other health conditions due to an external cause.\n\n**a.4 As many as necessary.** Assign as many external cause codes as needed to fully explain **each** cause. If only **one** external cause code can be recorded, assign the code **most related to the principal diagnosis**.\n\n**a.5 How to find the right one.** Code selection is guided by the **Alphabetic Index of External Causes** and by the **Inclusion and Exclusion notes in the Tabular List**. The External Cause index is a separate index from the main Index to Diseases and Injuries.",
+   "visual": {
+    "title": "Building the Full Picture",
+    "sub": "Sections I.C.20.a.3-5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "a.3 Full range",
+      "b": "Cause, intent, place, activity, status"
+     },
+     {
+      "h": "a.4 As many as needed",
+      "b": "Only one allowed? Pick the one most related to the principal dx"
+     },
+     {
+      "h": "a.5 Where to look",
+      "b": "External Cause Index, then Tabular notes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Never Principal, Combination Codes, and When to Skip (I.C.20.a.6-8)",
+   "content": "**a.6 Never principal.** An external cause code can **never** be a principal (first-listed) diagnosis. This repeats the opening rule of Section I.C.20 because it is so important.\n\n**a.7 Combination external cause codes.** Some external cause codes describe **sequential events** that result in an injury, such as a **fall which results in striking against an object**. The injury may be due to either event or both. Choose the combination code that matches the **sequence of events**, **regardless of which event caused the most serious injury**.\n\n**a.8 When no Chapter 20 code is needed.** If a code from another chapter already includes the **external cause and intent**, no Chapter 20 code is needed. The guideline's example is **T36.0X1-, Poisoning by penicillins, accidental (unintentional)**. That code already says what happened (poisoning by penicillin) and the intent (accidental).",
+   "visual": {
+    "title": "Rules a.6 to a.8",
+    "sub": "Section I.C.20.a.6-8",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "a.6",
+      "b": "Never principal / first-listed"
+     },
+     {
+      "h": "a.7 Combination codes",
+      "b": "Follow the sequence of events, not the worst injury"
+     },
+     {
+      "h": "a.8 Already included?",
+      "b": "Cause + intent in another chapter's code = no Ch. 20 code"
+     },
+     {
+      "h": "a.8 Example",
+      "b": "T36.0X1- Poisoning by penicillins, accidental"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Following an Injury Across Visits",
+   "content": "**Documentation:** A patient is treated in the emergency department for an injury from an accident. Two weeks later the patient sees a different provider in a clinic for routine healing care of the same injury. The injury code at the clinic visit carries the 7th character for a subsequent encounter.\n\n**Which guideline applies?** Section I.C.20.a.2.\n\n**Decision:**\n\n• ED visit: the injury code uses the initial-encounter character, so the external cause code also uses **A**.\n• Clinic visit: the injury code uses the subsequent-encounter character, so the external cause code also uses **D**.\n• The fact that a **different provider** sees the patient does not change the rule. The external cause 7th character **matches the injury code's 7th character for that encounter**.\n\n**Also note:** Place of occurrence (Y92), activity (Y93) and status (Y99) codes are used only once, at the **initial** encounter (Sections I.C.20.b, c and k). You will study those rules later in this lesson.",
+   "visual": {
+    "title": "Same Event, Two Encounters",
+    "sub": "Section I.C.20.a.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Visit 1: ED",
+      "b": "Injury code = initial. Ext. cause ends in A"
+     },
+     {
+      "h": "Visit 2: clinic",
+      "b": "Injury code = subsequent. Ext. cause ends in D"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen by a new orthopedic provider for a subsequent encounter for an injury. The injury code carries the 7th character for a subsequent encounter. According to Section I.C.20.a.2, what 7th character should the external cause code carry?",
+   "options": [
+    "A, because this is the new provider's first time seeing the patient",
+    "S, because the injury happened in the past",
+    "D, to match the 7th character of the injury code for this encounter",
+    "No 7th character, because external cause codes do not use 7th characters"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.20.a.2 says that while the patient may see a new or different provider, the 7th character for the external cause should match the 7th character of the code assigned for the associated injury or condition for the encounter. Here that is D, subsequent encounter.\n\nA is wrong because a new provider does not make it an initial encounter for the external cause code. B is wrong because S is for sequela, and no sequela is described. D is wrong because most Chapter 20 categories do have a 7th character requirement (only certain categories, such as Y92, use none).",
+   "visual": {
+    "topic": "7th character matching",
+    "hint": "The external cause code follows the injury code."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has an accidental poisoning reported with code T36.0X1-, Poisoning by penicillins, accidental (unintentional). According to Section I.C.20.a.8, is a Chapter 20 external cause code needed to show the cause and intent?",
+   "options": [
+    "Yes, a Chapter 20 code is always required with any poisoning",
+    "No, because the cause and intent are already included in the code from another chapter",
+    "Yes, and it must be sequenced first",
+    "No, because external cause codes are never reported for medications"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.20.a.8 states no external cause code from Chapter 20 is needed if the external cause and intent are included in a code from another chapter, and gives T36.0X1-, Poisoning by penicillins, accidental (unintentional), as the example.\n\nA is wrong because the guideline names this exact situation as one where no Chapter 20 code is needed. C is wrong because an external cause code can never be sequenced first (I.C.20.a.6). D is wrong because the guideline does not ban external cause codes for medications; it only says one is not needed when the cause and intent are already in the code.",
+   "visual": {
+    "topic": "When no Ch. 20 code is needed",
+    "hint": "Does the poisoning code already say how and with what intent?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient trips, falls, and strikes her head on a table. The fall itself caused only a bruise, but striking the table caused the more serious injury. Per Section I.C.20.a.7, how should the combination external cause code be chosen?",
+   "options": [
+    "Choose the combination code that corresponds to the sequence of events, regardless of which event caused the most serious injury",
+    "Code only the fall, because it happened first",
+    "Choose the code for whichever event caused the most serious injury",
+    "Do not use a combination code when two events occur"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.20.a.7 says certain external cause codes are combination codes for sequential events, such as a fall which results in striking against an object. The combination code used should correspond to the sequence of events regardless of which caused the most serious injury.\n\nC is wrong because the guideline specifically says the most serious injury does not drive the choice. B is wrong because a combination code captures both events; coding only the fall leaves out part of the sequence. D is wrong because combination codes exist exactly for this kind of sequence.",
+   "visual": {
+    "topic": "Combination external cause codes",
+    "hint": "Look at the order things happened."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Place of Occurrence (Y92)",
+   "content": "**What it is:** Category **Y92, Place of occurrence of the external cause**, tells **where** the patient was at the time of the injury or other condition.\n\n**Rules from Section I.C.20.b:**\n\n• Y92 codes are **secondary** codes, listed **after other external cause codes**.\n• Generally, assign a place code **only once, at the initial encounter** for treatment.\n• **Exception:** in the rare case that a **new injury occurs during hospitalization**, an additional place of occurrence code may be assigned.\n• **No 7th characters** are used for Y92.\n• Do **not** use **Y92.9** if the place is **not stated** or is **not applicable**.\n\n**Exam trap:** Students often think \"place not documented\" means \"use the unspecified place code.\" The guideline says the opposite: if the place is not stated, do not use Y92.9.",
+   "visual": {
+    "title": "Place of Occurrence: Y92",
+    "sub": "Section I.C.20.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Sequencing",
+      "b": "After the other external cause codes"
+     },
+     {
+      "h": "How often",
+      "b": "Once, at the initial encounter"
+     },
+     {
+      "h": "Exception",
+      "b": "New injury during hospitalization"
+     },
+     {
+      "h": "7th character",
+      "b": "None for Y92"
+     },
+     {
+      "h": "Place not stated?",
+      "b": "Do NOT use Y92.9"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Activity Codes (Y93)",
+   "content": "**What it is:** Category **Y93, Activity code**, describes what the patient was **doing** when the injury or other health condition occurred.\n\n**Rules from Section I.C.20.c:**\n\n• Used **only once, at the initial encounter** for treatment.\n• Only **one** Y93 code should be recorded on a medical record.\n• Activity codes are **not applicable** to **poisonings, adverse effects, misadventures or sequela**.\n• Do **not** assign **Y93.9, Unspecified activity**, if the activity is not stated.\n• A Y93 code is appropriate with external cause and intent codes **if identifying the activity provides additional information** about the event.\n\n**Compare with place (Y92):** The place rule allows an extra place code for a new injury during a hospital stay. The activity rule does not have that exception: only one Y93 code per record.",
+   "visual": {
+    "title": "Activity Codes: Y93",
+    "sub": "Section I.C.20.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "How often",
+      "b": "Once, at the initial encounter"
+     },
+     {
+      "h": "How many",
+      "b": "Only one Y93 per medical record"
+     },
+     {
+      "h": "Not for",
+      "b": "Poisonings, adverse effects, misadventures, sequela"
+     },
+     {
+      "h": "Not stated?",
+      "b": "Do NOT use Y93.9"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for treatment of an adverse effect of a correctly prescribed drug. According to Section I.C.20.c, should a Y93 activity code be assigned?",
+   "options": [
+    "Yes, always assign an activity code with any external cause",
+    "Only if the patient was at work",
+    "Yes, assign Y93.9 because the activity was not documented",
+    "No, activity codes are not applicable to adverse effects"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.20.c states the activity codes are not applicable to poisonings, adverse effects, misadventures or sequela.\n\nA is wrong because the guideline lists exceptions, and adverse effects are one of them. C is wrong for two reasons: activity codes do not apply here at all, and Y93.9 should not be assigned when the activity is not stated. B is wrong because work status is captured by Y99 status codes, not by deciding whether to use Y93.",
+   "visual": {
+    "topic": "Activity codes",
+    "hint": "Check the list of situations where Y93 does not apply."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is injured in a fall at an unknown location. The record does not say where the fall happened. Per Section I.C.20.b, what should the coder do about the place of occurrence?",
+   "options": [
+    "Assign Y92.9 because the place is unknown",
+    "Assign Y92.9 at every encounter",
+    "Do not assign Y92.9; the place is not stated",
+    "Query whether Y92.9 should be sequenced first"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.20.b says do not use place of occurrence code Y92.9 if the place is not stated or is not applicable.\n\nA is wrong because the guideline specifically says not to use Y92.9 when the place is not stated. B is wrong because a place code is generally assigned only once, at the initial encounter, and Y92.9 is not used here at all. D is wrong because Y92 codes are secondary codes used after other external cause codes; they are never sequenced first.",
+   "visual": {
+    "topic": "Place not stated",
+    "hint": "What does the guideline say about Y92.9?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.d"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.e"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Order and Limits (I.C.20.d-e)",
+   "content": "**Section I.C.20.d: order and count.**\n\n• Place of occurrence, activity, and external cause status codes are sequenced **after** the main external cause code(s).\n• No matter how many external cause codes are assigned, there should generally be only **one** place code, **one** activity code, and **one** status code per encounter.\n• Again, the one exception: a **new injury during hospitalization** may get an additional place code.\n\n**Section I.C.20.e: when the reporting format limits the number of codes.**\n\n• Report the code for the **cause/intent most related to the principal diagnosis**.\n• If the format allows more, report the **cause/intent of additional events** (including **medical misadventures**) **before** using space for place, activity, or status codes.\n\n**In short:** cause and intent codes come first and have priority for limited space. Place, activity and status are \"extra detail\" codes.",
+   "visual": {
+    "title": "Order of External Cause Codes",
+    "sub": "Sections I.C.20.d and I.C.20.e",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Main cause/intent",
+      "b": "Most related to principal dx first"
+     },
+     {
+      "h": "2. Other causes/intents",
+      "b": "Includes medical misadventures"
+     },
+     {
+      "h": "3. Place, activity, status",
+      "b": "Generally one of each, sequenced last"
+     },
+     {
+      "h": "Limited space?",
+      "b": "Fill it with causes, not place/activity/status"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A claim form allows only two external cause codes. The patient had two separate events (a main accident and a medical misadventure), and the coder also knows the place and the activity. According to Section I.C.20.e, which two should be reported?",
+   "options": [
+    "The place code and the activity code",
+    "The cause/intent most related to the principal diagnosis, then the cause/intent of the additional event",
+    "The activity code and the status code",
+    "Only the status code, because it is required with every external cause code"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.20.e says that if the format limits the number of external cause codes, report the code for the cause/intent most related to the principal diagnosis. If the format permits additional codes, the cause/intent of the additional events, including medical misadventures, should be reported rather than the codes for place, activity, or external status.\n\nA and C are wrong because place, activity and status rank below additional cause/intent codes when space is limited. D is wrong because the status code does not take priority over cause/intent codes, and a status code alone would not explain how the injury happened.",
+   "visual": {
+    "topic": "Limited reporting space",
+    "hint": "Cause and intent come before extra detail."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.f"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Which External Cause Goes First? (I.C.20.f)",
+   "content": "When **two or more events cause separate injuries**, assign an external cause code **for each cause**. Then pick the **first-listed** external cause code using this priority order:\n\n1. **Child and adult abuse** (takes priority over all others)\n2. **Terrorism** (over all others except abuse)\n3. **Cataclysmic events** (over all others except abuse and terrorism)\n4. **Transport accidents** (over all others except cataclysmic events, abuse and terrorism)\n5. All other causes\n\n**Activity and external cause status codes** are assigned **after all causal (intent) external cause codes**.\n\nWithin that hierarchy, the first-listed external cause code should correspond to the **cause of the most serious diagnosis** due to an assault, accident, or self-harm.\n\n**Memory aid:** **A-T-C-T**: Abuse, Terrorism, Cataclysm, Transport. (This is a study aid, not official wording.)",
+   "visual": {
+    "title": "External Cause Priority",
+    "sub": "Section I.C.20.f: first-listed external cause code",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Abuse",
+      "b": "Child and adult abuse: top priority"
+     },
+     {
+      "h": "2. Terrorism",
+      "b": "Over all except abuse"
+     },
+     {
+      "h": "3. Cataclysmic events",
+      "b": "Over all except abuse, terrorism"
+     },
+     {
+      "h": "4. Transport accidents",
+      "b": "Over all except the three above"
+     },
+     {
+      "h": "5. Everything else",
+      "b": "Then most serious diagnosis"
+     },
+     {
+      "h": "Last",
+      "b": "Activity and status codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Two Events, Two Causes",
+   "content": "**Documentation:** A patient is injured in a transport accident. While being freed from the vehicle, a separate event causes a second, unrelated injury. Both injuries are coded.\n\n**Which guideline applies?** Section I.C.20.f.\n\n**Decision:**\n\n• Two events caused separate injuries, so an external cause code is assigned **for each cause**.\n• Transport accidents take priority over all other external cause codes except cataclysmic events, abuse and terrorism. None of those apply here.\n• So the **transport accident** external cause code is listed **first** among the external cause codes.\n• Any activity and status codes come **after** all of the causal codes.\n\n**Reminder:** All of these external cause codes still follow the injury codes. An external cause code is never the principal or first-listed diagnosis (I.C.20.a.6).",
+   "visual": {
+    "title": "Applying the Hierarchy",
+    "sub": "Section I.C.20.f",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Injury codes",
+      "b": "Listed before any external cause code"
+     },
+     {
+      "h": "Transport accident",
+      "b": "First external cause listed"
+     },
+     {
+      "h": "Other event",
+      "b": "Next causal code"
+     },
+     {
+      "h": "Activity, status",
+      "b": "After all causal codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A child has injuries from confirmed abuse and also injuries from a transport accident during the same episode. According to Section I.C.20.f, which external cause code is listed first?",
+   "options": [
+    "The child abuse (assault) code, because abuse takes priority over all other external cause codes",
+    "The transport accident code, because transport accidents always come first",
+    "Whichever caused the less serious injury",
+    "The activity code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.20.f states that external cause codes for child and adult abuse take priority over all other external cause codes.\n\nB is wrong because transport accidents rank below abuse, terrorism and cataclysmic events. C is wrong because the guideline points to the cause of the most serious diagnosis, not the least serious, and only within the hierarchy. D is wrong because activity and status codes are assigned after all causal (intent) external cause codes.",
+   "visual": {
+    "topic": "External cause hierarchy",
+    "hint": "Which category sits at the very top?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Per Section I.C.20.f, external cause codes for terrorism events take priority over all other external cause codes EXCEPT which one?",
+   "options": [
+    "Transport accidents",
+    "Cataclysmic events",
+    "Place of occurrence",
+    "Child and adult abuse"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.20.f says external cause codes for terrorism events take priority over all other external cause codes except child and adult abuse.\n\nA is wrong because transport accidents rank below terrorism. B is wrong because cataclysmic events rank below terrorism (they take priority over all others except abuse and terrorism). C is wrong because place codes are secondary codes sequenced after the causal codes (I.C.20.b and d).",
+   "visual": {
+    "topic": "Terrorism priority",
+    "hint": "Only one category outranks terrorism."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.g"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Abuse, Neglect and Maltreatment (I.C.20.g)",
+   "content": "**Abuse is classified as assault.** Adult and child abuse, neglect and maltreatment are classified as **assault**. Any of the assault codes may be used to show the external cause of an injury from **confirmed** abuse.\n\n**Perpetrator code.** For **confirmed** cases of abuse, neglect and maltreatment, **when the perpetrator is known**, a code from **Y07, Perpetrator of maltreatment and neglect**, should accompany any other assault codes.\n\n**What it does NOT mean:**\n\n• Y07 is not assigned when the perpetrator is **not known**.\n• This rule is about **confirmed** cases. The guideline points to Section I.C.19 for the full abuse, neglect and maltreatment rules (covered in the Chapter 19 lesson).",
+   "visual": {
+    "title": "Abuse = Assault",
+    "sub": "Section I.C.20.g",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Confirmed abuse",
+      "b": "Use assault external cause codes"
+     },
+     {
+      "h": "Perpetrator known",
+      "b": "Add a Y07 code with the assault codes"
+     },
+     {
+      "h": "Perpetrator unknown",
+      "b": "No Y07 code"
+     },
+     {
+      "h": "More detail",
+      "b": "See Section I.C.19"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A child is treated for injuries from confirmed abuse. The record documents that the perpetrator was the child's caregiver. According to Section I.C.20.g, what should accompany the assault external cause code?",
+   "options": [
+    "Nothing; the perpetrator is never coded",
+    "A code from Y38, Terrorism",
+    "A code from Y07, Perpetrator of maltreatment and neglect",
+    "A code from Y93 instead of the assault code"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.20.g states that for confirmed cases of abuse, neglect and maltreatment, when the perpetrator is known, a code from Y07, Perpetrator of maltreatment and neglect, should accompany any other assault codes.\n\nB is wrong because Y38 is for injuries identified by the FBI as terrorism (I.C.20.j). A is wrong because the guideline specifically calls for Y07 when the perpetrator is known. D is wrong because Y93 is the activity category and never replaces the cause/intent code.",
+   "visual": {
+    "topic": "Perpetrator codes",
+    "hint": "The perpetrator is known and the abuse is confirmed."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.h"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Unknown vs. Undetermined Intent (I.C.20.h)",
+   "content": "Intent means whether the event was an **accident**, **self-harm**, or **assault**.\n\n**Unknown or unspecified intent:** If the intent is unknown or unspecified, code the intent as **accidental**.\n\n**Transport accidents:** All transport accident categories **assume accidental intent**.\n\n**Undetermined intent (h.1):** External cause codes for events of **undetermined intent** are only for use if the documentation **specifies that the intent cannot be determined**.\n\n**Exam trap:** \"Unknown\" and \"undetermined\" sound alike but lead to different codes.\n\n• Record is simply **silent** on intent → **accidental**.\n• Provider **documents that intent cannot be determined** → **undetermined intent** codes.",
+   "visual": {
+    "title": "Unknown vs. Undetermined",
+    "sub": "Section I.C.20.h",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Intent not stated",
+      "b": "Code as accidental"
+     },
+     {
+      "h": "Transport accidents",
+      "b": "Always assume accidental"
+     },
+     {
+      "h": "Documented undeterminable",
+      "b": "Record says intent cannot be determined: use undetermined intent"
+     },
+     {
+      "h": "Do not guess",
+      "b": "Undetermined only when documented"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An adult is treated for a cut. The record describes the injury but says nothing about whether it was accidental, self-inflicted, or from an assault. According to Section I.C.20.h, how is intent coded?",
+   "options": [
+    "As undetermined intent",
+    "As accidental",
+    "As assault",
+    "Intent is not coded until the provider is queried"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.20.h states that if the intent of the cause of an injury is unknown or unspecified, code the intent as accidental intent.\n\nA is wrong because undetermined intent codes are only for use if the documentation specifies that the intent cannot be determined (I.C.20.h.1); this record is simply silent. C is wrong because nothing documents an assault. D is wrong because the guideline gives a default (accidental) for unknown or unspecified intent.",
+   "visual": {
+    "topic": "Unknown intent",
+    "hint": "The record is silent, not uncertain."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents: \"After evaluation, it cannot be determined whether this overdose was intentional or accidental.\" According to Section I.C.20.h.1, which is correct?",
+   "options": [
+    "Undetermined intent may be used because the documentation specifies that the intent cannot be determined",
+    "Code as accidental intent, because intent is unknown",
+    "Code as self-harm, because overdoses are presumed intentional",
+    "Code as assault"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.20.h.1 says external cause codes for events of undetermined intent are only for use if the documentation in the record specifies that the intent cannot be determined. Here the provider says exactly that.\n\nB is wrong because the accidental default is for intent that is unknown or unspecified; this record specifically states that intent cannot be determined. C is wrong because the guidelines contain no presumption of self-harm. D is wrong because nothing supports an assault.",
+   "visual": {
+    "topic": "Undetermined intent",
+    "hint": "What exactly did the provider document?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.i"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Sequelae of External Causes (I.C.20.i)",
+   "content": "A **sequela** (late effect) is a condition that remains after the acute phase of an injury. (See Section I.B.10 for the general sequela rules.)\n\n**i.1** Sequelae are reported with the external cause code using the **7th character \"S\"**. Use these with any report of a late effect or sequela resulting from a previous injury.\n\n**i.2** A sequela external cause code should **never** be used with a **related current** nature of injury code.\n\n**i.3** Use a late effect external cause code for subsequent visits **when a late effect of the initial injury is being treated**. Do **not** use one for follow-up care (for example, to assess healing or to receive rehabilitative therapy) when **no late effect has been documented**.\n\n**What it does NOT mean:** Rehab or a healing check after an injury is not automatically a sequela. A late effect must be **documented**.",
+   "visual": {
+    "title": "External Cause Sequelae",
+    "sub": "Section I.C.20.i",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "i.1 7th character S",
+      "b": "Use with any documented late effect"
+     },
+     {
+      "h": "i.2 Never with",
+      "b": "A related current injury code"
+     },
+     {
+      "h": "i.3 No late effect",
+      "b": "Follow-up or rehab only: do not use the S code"
+     },
+     {
+      "h": "Activity / status",
+      "b": "Not applicable to sequela"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Rehab Visit vs. Late Effect",
+   "content": "**Scenario 1:** A patient returns for rehabilitative therapy after an injury. The provider documents normal healing. **No late effect is documented.**\n\n• Guideline: Section I.C.20.i.3.\n• Decision: Do **not** use a sequela (S) external cause code. The guideline says not to use a late effect external cause code for follow-up care, such as rehabilitative therapy, when no late effect has been documented.\n\n**Scenario 2:** Months later, the same patient is treated for a documented late effect (sequela) of that old injury.\n\n• Guideline: Sections I.C.20.i.1 and I.C.20.i.3.\n• Decision: Use the external cause code with the 7th character **S**, because a late effect of the initial injury is being treated.\n• Do **not** add a Y93 activity code or a Y99 status code: activity and status codes are not applicable to sequela (I.C.20.c and k).",
+   "visual": {
+    "title": "Is a Late Effect Documented?",
+    "sub": "Section I.C.20.i.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No late effect documented",
+      "b": "No S external cause code for follow-up/rehab"
+     },
+     {
+      "h": "Late effect documented",
+      "b": "External cause code with 7th character S"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.20.i.2, a sequela external cause code should never be used with which of the following?",
+   "options": [
+    "A code for a late effect",
+    "Any other external cause code",
+    "A Z code",
+    "A related current nature of injury code"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.20.i.2 states a sequela external cause code should never be used with a related current nature of injury code.\n\nA is wrong because sequela external cause codes are meant to be used with any report of a late effect (I.C.20.i.1). C is wrong because the guideline places no such limit on Z codes. B is wrong because the rule is about related current injury codes, not other external cause codes.",
+   "visual": {
+    "topic": "Sequela external cause",
+    "hint": "A late effect and a current injury tell different stories."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.j"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Terrorism (I.C.20.j)",
+   "content": "**j.1 Identified by the FBI.** When the Federal Government (FBI) identifies the cause of an injury as terrorism:\n\n• The **first-listed** external cause code should be from category **Y38, Terrorism**.\n• The FBI definition of terrorism is in the inclusion note at the beginning of category Y38.\n• Use an additional code for **place of occurrence (Y92.-)**.\n• **More than one Y38 code** may be assigned if the injury resulted from more than one mechanism of terrorism.\n\n**j.2 Only suspected.** When terrorism is only **suspected**, do **not** assign a Y38 code. Classify suspected cases as **assault**.\n\n**j.3 Y38.9, Terrorism, secondary effects.** Use for conditions occurring **subsequent to** the terrorist event, **not** for conditions due to the initial terrorist act. It is acceptable to assign Y38.9 **with another Y38 code** if there is an injury from the initial event **and** an injury that is a subsequent result of it.\n\n**Exam trap:** Suspected terrorism is the opposite of how some other \"uncertain\" situations are handled. Here, suspected = assault, not terrorism.",
+   "visual": {
+    "title": "Terrorism Codes: Y38",
+    "sub": "Section I.C.20.j",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "FBI identifies terrorism",
+      "b": "Y38 first among external causes; add Y92.-"
+     },
+     {
+      "h": "Several mechanisms",
+      "b": "More than one Y38 code allowed"
+     },
+     {
+      "h": "Only suspected",
+      "b": "No Y38. Classify as assault"
+     },
+     {
+      "h": "Y38.9",
+      "b": "Conditions subsequent to the event, not the initial act"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "News reports suggest an explosion may have been a terrorist act, but the FBI has not identified it as terrorism. A patient is treated for injuries from the explosion. Per Section I.C.20.j.2, how should the cause be classified?",
+   "options": [
+    "Assign a Y38 code because terrorism is suspected",
+    "Assign Y38.9, Terrorism, secondary effects",
+    "Classify as assault; do not assign a Y38 code",
+    "Classify as undetermined intent"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.20.j.2 says when the cause of an injury is suspected to be the result of terrorism, a code from category Y38 should not be assigned. Suspected cases should be classified as assault.\n\nA is wrong because Y38 is reserved for causes identified by the Federal Government (FBI) as terrorism (I.C.20.j.1). B is wrong because Y38.9 is also a Y38 code and is for conditions occurring subsequent to a terrorist event. D is wrong because the guideline directs suspected terrorism to assault, not undetermined intent.",
+   "visual": {
+    "topic": "Suspected terrorism",
+    "hint": "Has the FBI made the call?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.20.j.3, when should code Y38.9, Terrorism, secondary effects, be assigned?",
+   "options": [
+    "For injuries caused directly by the initial terrorist act",
+    "For conditions occurring subsequent to the terrorist event",
+    "For any suspected terrorist event",
+    "Only as the principal diagnosis"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.20.j.3 says to assign Y38.9 for conditions occurring subsequent to the terrorist event, and that it should not be assigned for conditions due to the initial terrorist act. It may be assigned with another Y38 code when there is both an injury from the initial event and an injury that is a subsequent result.\n\nA is wrong because the guideline says Y38.9 should not be assigned for conditions due to the initial act. C is wrong because suspected cases get no Y38 code at all; they are classified as assault (I.C.20.j.2). D is wrong because an external cause code can never be a principal diagnosis (I.C.20.a.6).",
+   "visual": {
+    "topic": "Terrorism secondary effects",
+    "hint": "Initial act vs. what came after."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.20.k"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: External Cause Status (Y99)",
+   "content": "**What it is:** Category **Y99, External cause status**, shows the person's **work status** at the time of the event. It shows whether:\n\n• the event occurred during **military activity**,\n• a **non-military person was at work**, or\n• a person (including a **student or volunteer**) was involved in a **non-work activity**.\n\n**When to assign it (Section I.C.20.k):**\n\n• Assign a Y99 code **whenever any other external cause code is assigned**, including an Activity code, such as with transport accidents and falls.\n• **Not applicable** to **poisonings, adverse effects, misadventures or late effects**.\n• Do **not** assign Y99 if **no other external cause codes** (cause, activity) apply to the encounter.\n• Used **only once, at the initial encounter**. Only **one** Y99 code per medical record.\n• Do **not** assign **Y99.9, Unspecified external cause status**, if the status is not stated.",
+   "visual": {
+    "title": "External Cause Status: Y99",
+    "sub": "Section I.C.20.k",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Assign when",
+      "b": "Any other external cause code is assigned"
+     },
+     {
+      "h": "Not for",
+      "b": "Poisonings, adverse effects, misadventures, late effects"
+     },
+     {
+      "h": "Never alone",
+      "b": "Needs another cause or activity code"
+     },
+     {
+      "h": "How often",
+      "b": "Once, initial encounter; one per record"
+     },
+     {
+      "h": "Status not stated?",
+      "b": "Do NOT use Y99.9"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is treated at the initial encounter for injuries from a fall. External cause codes for the fall and the place are assigned. The record does not document whether the patient was working, in military service, or doing a non-work activity. Per Section I.C.20.k, what should the coder do about status?",
+   "options": [
+    "Do not assign Y99.9, because the status is not stated",
+    "Assign Y99.9, Unspecified external cause status",
+    "Assign a Y99 code at every future encounter",
+    "Assign two Y99 codes to cover both possibilities"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.20.k says do not assign code Y99.9, Unspecified external cause status, if the status is not stated.\n\nB is wrong for that reason. C is wrong because an external cause status code is used only once, at the initial encounter for treatment. D is wrong because only one code from Y99 should be recorded on a medical record.",
+   "visual": {
+    "topic": "Status not stated",
+    "hint": "Unspecified status codes are not a default."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Chapter 20 on a Real Record",
+   "content": "Use these steps when an injury or other condition has an external cause.\n\n1. **Code the condition first.** Code the injury or condition. External cause codes are never principal or first-listed (I.C.20, I.C.20.a.6).\n2. **Check whether a Chapter 20 code is needed.** If a code from another chapter already includes the cause and intent (example: T36.0X1-), no Chapter 20 code is needed (I.C.20.a.8).\n3. **Find the cause code.** Use the Alphabetic Index of External Causes and the Tabular inclusion/exclusion notes (I.C.20.a.5). For sequential events, use the combination code that follows the sequence (I.C.20.a.7).\n4. **Decide the intent.** Unknown/unspecified = accidental. Undetermined only when documented as such. Transport = accidental. Confirmed abuse = assault, plus Y07 if the perpetrator is known. FBI-identified terrorism = Y38; suspected = assault (I.C.20.g, h, j).\n5. **Match the 7th character** to the injury code (A, D or S) (I.C.20.a.2). Use S only for documented late effects, never with a related current injury code (I.C.20.i).\n6. **Order multiple causes:** abuse, terrorism, cataclysmic, transport, then others; most serious diagnosis first (I.C.20.f).\n7. **Initial encounter only:** add one place (Y92), one activity (Y93) and one status (Y99) code when applicable and documented. Never Y92.9, Y93.9 or Y99.9 when not stated. No Y93/Y99 for poisonings, adverse effects, misadventures or sequela (I.C.20.b, c, d, k).\n8. **Limited space?** Report cause/intent codes before place, activity or status (I.C.20.e).",
+   "visual": {
+    "title": "Chapter 20 Workflow",
+    "sub": "From the injury code to the status code",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Steps 1-2",
+      "b": "Condition first; is Ch. 20 even needed?"
+     },
+     {
+      "h": "Steps 3-4",
+      "b": "Find the cause; decide the intent"
+     },
+     {
+      "h": "Steps 5-6",
+      "b": "Match 7th character; order causes"
+     },
+     {
+      "h": "Steps 7-8",
+      "b": "Place, activity, status once; causes before extras"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways: External Causes of Morbidity",
+   "content": "• External cause codes are **never** principal or first-listed. No national mandate requires them, but states or payers may (I.C.20).\n• The external cause **7th character matches** the injury code's 7th character for each encounter (I.C.20.a.2).\n• No Chapter 20 code is needed when another chapter's code already includes cause and intent, such as T36.0X1- (I.C.20.a.8).\n• Place (Y92), activity (Y93) and status (Y99) codes: once, at the initial encounter, one of each, sequenced after cause codes. Never Y92.9, Y93.9 or Y99.9 when not stated (I.C.20.b, c, d, k).\n• Priority for the first-listed external cause: **abuse, terrorism, cataclysmic, transport**, then the cause of the most serious diagnosis (I.C.20.f).\n• Unknown intent = **accidental**; undetermined intent only when documented (I.C.20.h).\n• Sequela (S) external cause codes only for documented late effects, never with a related current injury code (I.C.20.i).\n• FBI-identified terrorism = Y38 listed first; suspected terrorism = assault; Y38.9 = subsequent effects only (I.C.20.j).",
+   "visual": {
+    "title": "Chapter 20 Key Takeaways",
+    "sub": "Section I.C.20 in eight points",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Never first",
+      "b": "Supports another code"
+     },
+     {
+      "h": "7th character",
+      "b": "Matches the injury code"
+     },
+     {
+      "h": "Y92 / Y93 / Y99",
+      "b": "Once, initial visit; no .9 if not stated"
+     },
+     {
+      "h": "Priority",
+      "b": "Abuse, terror, cataclysm, transport"
+     },
+     {
+      "h": "Intent unknown",
+      "b": "Accidental"
+     },
+     {
+      "h": "Terrorism",
+      "b": "FBI = Y38; suspected = assault"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen at the initial encounter for injuries from a transport accident. Which statement about the external cause codes is correct under Section I.C.20?",
+   "options": [
+    "The transport accident code may be the principal diagnosis because it explains the visit",
+    "Intent must be documented as accidental before an accident code can be used",
+    "The activity code is sequenced before the transport accident code",
+    "The transport accident code follows the injury code; a Y99 status code may be assigned, when applicable, at this initial encounter"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. An external cause code can never be a principal (first-listed) diagnosis (I.C.20.a.6), so it follows the injury code. Section I.C.20.k says a Y99 code should be assigned, when applicable, with other external cause codes such as transport accidents, and only once, at the initial encounter.\n\nA is wrong because of I.C.20.a.6. B is wrong because Section I.C.20.h says all transport accident categories assume accidental intent. C is wrong because activity and status codes are assigned following all causal (intent) external cause codes (I.C.20.f) and are sequenced after the main external cause code(s) (I.C.20.d).",
+   "visual": {
+    "topic": "Putting it together",
+    "hint": "Think about sequencing and initial-encounter-only codes."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "During an inpatient stay for an injury from an accident at home, the patient falls in the hospital and suffers a new injury. According to Sections I.C.20.b and I.C.20.d, which is true?",
+   "options": [
+    "Only one external cause code of any kind may be assigned for the stay",
+    "A second activity code must be assigned for the new injury",
+    "A second place of occurrence code may be assigned for the new injury",
+    "A second status code must be assigned"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Sections I.C.20.b and I.C.20.d both say that in the rare instance that a new injury occurs during hospitalization, an additional place of occurrence code may be assigned.\n\nB is wrong because only one code from Y93 should be recorded on a medical record (I.C.20.c). A is wrong because a.4 says to assign as many external cause codes as necessary, and f says each cause gets its own code. D is wrong because only one code from Y99 should be recorded on a medical record (I.C.20.k).",
+   "visual": {
+    "topic": "New injury in the hospital",
+    "hint": "Which of the three extra-detail codes has an exception?"
+   }
+  }
+ ]
+}

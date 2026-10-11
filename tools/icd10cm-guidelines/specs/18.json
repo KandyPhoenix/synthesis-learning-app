@@ -1,0 +1,708 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Hypertension: The High-Yield Rules",
+   "content": "Hypertension (high blood pressure) is one of the most frequently coded conditions and one of the most tested topics on coding exams. Section I.C.9.a, in Chapter 9 (Diseases of the Circulatory System, I00-I99), explains:\n\n• The **presumed causal relationship** between hypertension and heart or kidney involvement\n• **Hypertensive heart disease (I11)**, **hypertensive chronic kidney disease (I12)**, and the **combination category I13**\n• Hypertensive **cerebrovascular disease** and **retinopathy**\n• **Secondary, transient, controlled, uncontrolled**, **crisis**, **pulmonary** and **resistant** hypertension\n\n**FY 2027 changes in this section (verified):**\n• I.C.9.a.1 now reads \"Hypertension with **one or more** heart conditions classified to ...\" in both paragraphs (FY 2026 said \"with heart conditions\").\n• Wording only: the sentence about I13 versus I11/I12 and the acute renal failure sentence were split into separate sentences, with no change in meaning.\n• I.C.9.a.10 (Hypertensive Crisis): the code-also range now reads **I10-I15, I1A** — I1A (resistant hypertension) was added.",
+   "visual": {
+    "title": "Lesson 18 Roadmap",
+    "sub": "Section I.C.9.a, Hypertension",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Presumed link",
+      "b": "\"With\" links HTN to heart and kidney"
+     },
+     {
+      "h": "I11 / I12 / I13",
+      "b": "Heart, CKD, or both"
+     },
+     {
+      "h": "Cerebro / retina",
+      "b": "I60-I69, H35.0"
+     },
+     {
+      "h": "Types of HTN",
+      "b": "Secondary, transient, controlled"
+     },
+     {
+      "h": "Crisis / pulmonary",
+      "b": "I16, I27"
+     },
+     {
+      "h": "Resistant",
+      "b": "I1A.0, added code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.9"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.9.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Presumed Causal Relationship",
+   "content": "The opening paragraphs of Section I.C.9.a set the most important rule in this lesson.\n\n**Heart and kidney involvement are presumed to be caused by hypertension.**\n• In the Alphabetic Index, hypertension is linked to heart involvement and to kidney involvement by the term **\"with.\"**\n• So these conditions are coded **as related even if the provider does not explicitly link them**.\n• **Exception:** the documentation **clearly states the conditions are unrelated**.\n\n**Other conditions are NOT presumed to be related.**\n• For hypertension and conditions **not** linked by relational terms such as \"with,\" \"associated with\" or \"due to\" in the classification, the **provider must document the link** before you code them as related.\n\n**Exam trap:** Students often think the provider must write \"hypertensive heart disease\" or \"CKD due to hypertension.\" For heart and kidney involvement, the link is presumed. The coder needs documentation only to break the link (unrelated) or, for other conditions, to make one.",
+   "visual": {
+    "title": "Presumed vs Documented Link",
+    "sub": "Opening paragraphs of Section I.C.9.a",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Heart + HTN",
+      "b": "Presumed related (\"with\")"
+     },
+     {
+      "h": "Kidney + HTN",
+      "b": "Presumed related (\"with\")"
+     },
+     {
+      "h": "Unless",
+      "b": "Provider clearly says unrelated"
+     },
+     {
+      "h": "Other conditions",
+      "b": "Provider must document the link"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has hypertension and chronic kidney disease. The provider does not state whether the two are related. According to Section I.C.9.a, how should the coder treat them?",
+   "options": [
+    "Code them separately because the provider did not link them",
+    "Query the provider before assigning any code",
+    "Code them as related, because the classification presumes a causal relationship between hypertension and kidney involvement",
+    "Code only the hypertension"
+   ],
+   "correct": 2,
+   "explanation": "Correct: code them as related. Section I.C.9.a says the classification presumes a causal relationship between hypertension and kidney involvement (linked by \"with\" in the Alphabetic Index), so they are coded as related even without provider documentation explicitly linking them, unless the documentation clearly states they are unrelated. Coding separately would be correct only if the provider documented them as unrelated. A query is not needed because the guideline supplies the presumption. Coding only the hypertension ignores the documented CKD.",
+   "visual": {
+    "topic": "Presumed causal relationship",
+    "hint": "What does the word \"with\" do in the Index?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Hypertension With Heart Disease (I11)",
+   "content": "Section I.C.9.a.1 splits the heart conditions into two groups. Both groups go to category **I11, Hypertensive heart disease**.\n\n**Group 1 — I11 PLUS a code for the heart condition:**\n• **I50.-**, Heart failure\n• **I51.4**, Myocarditis, unspecified\n• **I51.89**, Other ill-defined heart diseases\n• **I51.9**, Heart disease, unspecified\n→ Use additional code(s) from category **I50** or **I51** to identify the heart condition.\n\n**Group 2 — I11 ONLY (no additional code):**\n• **I51.5**, Myocardial degeneration\n• **I51.7**, Cardiomegaly\n→ No additional code is assigned to identify the specific heart condition.\n\n**FY 2027 wording:** both paragraphs now say \"one or more heart conditions,\" making clear the rule applies whether one or several of these heart conditions is present.",
+   "visual": {
+    "title": "I11: Add a Code or Not?",
+    "sub": "Section I.C.9.a.1",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "I50.-, I51.4, I51.89, I51.9",
+      "b": "I11 + code for the heart condition"
+     },
+     {
+      "h": "I51.5, I51.7",
+      "b": "I11 only; no additional code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: When the Heart Condition Is Unrelated",
+   "content": "The third paragraph of Section I.C.9.a.1 handles the exception to the presumed link.\n\n• If the provider has documented that the heart condition (I50.-, I51.4-I51.7, I51.89, I51.9) is **unrelated** to the hypertension, the conditions are **coded separately**.\n• Assign the applicable hypertension code: **I10**, Essential (primary) hypertension, or a code from category **I15**, Secondary hypertension.\n• Code the heart condition on its own.\n• **Sequence according to the circumstances** of the admission/encounter.\n\n**What it does NOT mean:** the absence of a link is not the same as documentation that the conditions are unrelated. Only a provider statement that they are unrelated breaks the presumption.",
+   "visual": {
+    "title": "Breaking the Presumption",
+    "sub": "Section I.C.9.a.1, third paragraph",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Provider says unrelated",
+      "b": "Code separately"
+     },
+     {
+      "h": "Hypertension code",
+      "b": "I10 or a code from I15"
+     },
+     {
+      "h": "Heart condition",
+      "b": "Its own code"
+     },
+     {
+      "h": "Sequencing",
+      "b": "By circumstances of encounter"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Hypertension and Heart Failure",
+   "content": "**Scenario A:** \"Hypertension. Heart failure.\" Nothing about whether they are related.\n• Guideline: Section I.C.9.a (presumed link) and I.C.9.a.1.\n• Codes: a code from **I11**, Hypertensive heart disease, **plus** a code from **I50** to identify the heart failure.\n\n**Scenario B:** \"Hypertension. Cardiomegaly.\"\n• Guideline: Section I.C.9.a.1, second paragraph.\n• Codes: a code from **I11** only. No additional code for the cardiomegaly (I51.7).\n\n**Scenario C:** \"Essential hypertension. Heart failure, which in my judgment is unrelated to the hypertension.\"\n• Guideline: Section I.C.9.a.1, third paragraph.\n• Codes: **I10** and a code from **I50**, coded separately and sequenced by the circumstances of the encounter.",
+   "visual": {
+    "title": "Three Heart Scenarios",
+    "sub": "Section I.C.9.a.1",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "HTN + heart failure",
+      "b": "I11 + I50 code"
+     },
+     {
+      "h": "HTN + cardiomegaly",
+      "b": "I11 only"
+     },
+     {
+      "h": "Documented unrelated",
+      "b": "I10 + I50 code, separately"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has hypertension and cardiomegaly. According to Section I.C.9.a.1, how is this coded?",
+   "options": [
+    "A code from category I11 only; no additional code identifies the cardiomegaly",
+    "A code from category I11 plus I51.7",
+    "I10 plus I51.7",
+    "I51.7 only"
+   ],
+   "correct": 0,
+   "explanation": "Correct: I11 only. Section I.C.9.a.1 says hypertension with heart conditions classified to I51.5 or I51.7 (Cardiomegaly) is assigned to category I11 and no additional code is assigned to identify the specific heart condition. I11 plus I51.7 applies the \"use additional code\" rule that belongs to I50.-, I51.4, I51.89 and I51.9. I10 plus I51.7 would be correct only if the provider documented the conditions as unrelated. I51.7 alone ignores the presumed hypertension link.",
+   "visual": {
+    "topic": "Hypertensive heart disease",
+    "hint": "Which heart conditions get no extra code?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has hypertension and heart failure. The provider documents that the heart failure is unrelated to the hypertension. According to Section I.C.9.a.1, what should be assigned?",
+   "options": [
+    "A code from I11 plus a code from I50",
+    "A code from I13",
+    "Only a code from I50",
+    "The applicable hypertension code (I10 or a code from I15) and the heart failure code, coded separately and sequenced by the circumstances of the encounter"
+   ],
+   "correct": 3,
+   "explanation": "Correct: code them separately. Section I.C.9.a.1 says the same heart conditions with hypertension are coded separately if the provider has documented they are unrelated, using I10 or a code from I15, sequenced according to the circumstances of the admission/encounter. I11 plus I50 is the presumed-related coding, which the provider's statement overrides. I13 requires heart disease and chronic kidney disease with hypertension. I50 alone leaves out the hypertension.",
+   "visual": {
+    "topic": "Unrelated heart condition",
+    "hint": "The provider broke the link."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Hypertensive Chronic Kidney Disease (I12)",
+   "content": "Section I.C.9.a.2 covers hypertension with chronic kidney disease (CKD).\n\n• Assign a code from **I12, Hypertensive chronic kidney disease**, when **both** hypertension and a condition classifiable to **N18, Chronic kidney disease (CKD)**, are present.\n• **Exception:** do not code CKD as hypertensive if the provider indicates the CKD is **not related** to the hypertension.\n• Use a code from **N18** as a **secondary** code with the I12 code to identify the **stage** of CKD.\n• If the patient also has **acute renal failure**, the acute renal failure should **also be coded**. Sequence according to the circumstances of the admission/encounter.\n\nThe guideline cross-references Section I.C.14, Chronic kidney disease.",
+   "visual": {
+    "title": "I12 Checklist",
+    "sub": "Section I.C.9.a.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "HTN + CKD (N18)",
+      "b": "Code from I12"
+     },
+     {
+      "h": "Stage of CKD",
+      "b": "N18 code as secondary"
+     },
+     {
+      "h": "Acute renal failure too",
+      "b": "Also code it"
+     },
+     {
+      "h": "Provider says unrelated",
+      "b": "Do not code as hypertensive"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has hypertension and stage 3 chronic kidney disease, with no statement that they are unrelated. According to Section I.C.9.a.2, which coding approach is correct?",
+   "options": [
+    "I10 and an N18 code",
+    "A code from I12, with an N18 code as a secondary code to identify the CKD stage",
+    "An N18 code first, followed by a code from I12",
+    "A code from I12 only; the stage is included"
+   ],
+   "correct": 1,
+   "explanation": "Correct: I12 with N18 as a secondary code. Section I.C.9.a.2 says to assign a code from category I12 when both hypertension and a condition classifiable to N18 are present, and to use the appropriate N18 code as a secondary code to identify the stage. I10 plus N18 would apply only if the provider indicated the CKD is not related to the hypertension. The guideline says N18 is secondary, so sequencing N18 first is wrong. I12 alone leaves out the required stage code.",
+   "visual": {
+    "topic": "Hypertensive CKD",
+    "hint": "Which code shows the stage?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Hypertensive Heart and CKD (I13)",
+   "content": "Section I.C.9.a.3 covers the patient who has **all three**: hypertension, heart disease and chronic kidney disease.\n\n• Category **I13, Hypertensive heart and chronic kidney disease**, contains **combination codes** that include hypertension, heart disease and CKD.\n• If **heart failure** is present, assign an **additional code from I50** to identify the type of heart failure.\n• Use the appropriate **N18** code as a **secondary** code to identify the **CKD stage**.\n• The **Includes note at I13** says the conditions included at I11 and I12 are included together in I13. So for hypertension + heart disease + CKD, use **I13, not I11 or I12**.\n• For patients with both **acute renal failure** and CKD, the acute renal failure should **also be coded**. Sequence according to the circumstances of the admission/encounter.\n\n**Exam trap:** Do not report I11 and I12 together. I13 already combines them.",
+   "visual": {
+    "title": "I13 Combination Code",
+    "sub": "Section I.C.9.a.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "HTN + heart + CKD",
+      "b": "I13, never I11 + I12"
+     },
+     {
+      "h": "Heart failure present",
+      "b": "Add a code from I50"
+     },
+     {
+      "h": "CKD stage",
+      "b": "Add an N18 code (secondary)"
+     },
+     {
+      "h": "Acute renal failure",
+      "b": "Also code it"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Heart Failure and CKD With Hypertension",
+   "content": "**Documentation:** \"Hypertension. Chronic heart failure. Chronic kidney disease, stage 4.\" No statement that any condition is unrelated.\n\n**Which guidelines apply:**\n• Section I.C.9.a — heart and kidney involvement are presumed related to hypertension.\n• Section I.C.9.a.3 — hypertension with both heart and chronic kidney disease → I13.\n\n**Decision:**\n• A code from **I13**, Hypertensive heart and chronic kidney disease\n• An additional code from **I50** to identify the type of heart failure\n• A secondary code from **N18** to identify the stage of CKD\n\n**Wrong approach:** a code from I11 plus a code from I12. The Includes note at I13 says those conditions are included together in I13.",
+   "visual": {
+    "title": "All Three Present",
+    "sub": "Section I.C.9.a.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Combination code",
+      "b": "I13"
+     },
+     {
+      "h": "Heart failure type",
+      "b": "Code from I50"
+     },
+     {
+      "h": "CKD stage",
+      "b": "Code from N18"
+     },
+     {
+      "h": "Not allowed",
+      "b": "I11 + I12 together"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has hypertension, heart disease, and chronic kidney disease. According to Section I.C.9.a.3, which category should be used for the hypertensive disease?",
+   "options": [
+    "I11 and I12 together",
+    "I13",
+    "I10, with separate heart and kidney codes",
+    "I12 only"
+   ],
+   "correct": 1,
+   "explanation": "Correct: I13. Section I.C.9.a.3 says that if a patient has hypertension, heart disease and chronic kidney disease, a code from I13 should be used, not codes from I11 or I12, because the Includes note at I13 includes the I11 and I12 conditions together. I11 and I12 together is exactly what the guideline says not to do. I10 with separate codes ignores the presumed causal relationship. I12 alone leaves out the heart disease.",
+   "visual": {
+    "topic": "Heart and kidney disease",
+    "hint": "Look for the combination category."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has hypertension, chronic kidney disease, and heart failure. Under Section I.C.9.a.3, which codes are needed in addition to the I13 code?",
+   "options": [
+    "None; I13 includes everything",
+    "A code from I11 and a code from I12",
+    "A code from N18 only",
+    "A code from I50 to identify the type of heart failure and a code from N18 to identify the CKD stage"
+   ],
+   "correct": 3,
+   "explanation": "Correct: I50 and N18. Section I.C.9.a.3 says that if heart failure is present, assign an additional code from category I50 to identify the type of heart failure, and that the appropriate N18 code should be used as a secondary code with I13 to identify the CKD stage. \"None\" ignores both instructions. I11 and I12 are not used with I13. N18 only leaves out the required heart failure code.",
+   "visual": {
+    "topic": "I13 additional codes",
+    "hint": "Two additional details must be shown."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Cerebrovascular Disease and Retinopathy",
+   "content": "**Hypertensive cerebrovascular disease (I.C.9.a.4)**\n• **First** assign the appropriate code from categories **I60-I69**.\n• **Then** assign the appropriate hypertension code.\n• The sequence is fixed by the guideline: cerebrovascular code first.\n\n**Hypertensive retinopathy (I.C.9.a.5)**\n• Use subcategory **H35.0**, Background retinopathy and retinal vascular changes, **along with** a code from categories **I10-I15** to include the systemic hypertension.\n• **Sequencing is based on the reason for the encounter.**\n\n**Exam trap:** Cerebrovascular disease has a fixed order (I60-I69 first). Retinopathy does not; its order depends on the reason for the encounter.",
+   "visual": {
+    "title": "Brain and Eye",
+    "sub": "Sections I.C.9.a.4 and I.C.9.a.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Cerebrovascular",
+      "b": "I60-I69 first, then HTN code"
+     },
+     {
+      "h": "Retinopathy",
+      "b": "H35.0 + code from I10-I15"
+     },
+     {
+      "h": "Cerebro sequencing",
+      "b": "Fixed: I60-I69 first"
+     },
+     {
+      "h": "Retina sequencing",
+      "b": "By reason for encounter"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has hypertensive cerebrovascular disease. According to Section I.C.9.a.4, how are the codes sequenced?",
+   "options": [
+    "The appropriate code from categories I60-I69 first, followed by the appropriate hypertension code",
+    "Hypertension code first, then the code from I60-I69",
+    "Sequencing is based on the reason for the encounter",
+    "Only a hypertension code is assigned"
+   ],
+   "correct": 0,
+   "explanation": "Correct: I60-I69 first, then hypertension. Section I.C.9.a.4 says to first assign the appropriate code from categories I60-I69, followed by the appropriate hypertension code. Hypertension first reverses the required order. \"Based on the reason for the encounter\" is the rule for hypertensive retinopathy (I.C.9.a.5), not cerebrovascular disease. A hypertension code alone leaves out the cerebrovascular disease.",
+   "visual": {
+    "topic": "Hypertensive cerebrovascular disease",
+    "hint": "The guideline uses the word \"first.\""
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Secondary and Transient Hypertension",
+   "content": "**Secondary hypertension (I.C.9.a.6)**\n• Secondary hypertension is **due to an underlying condition**.\n• **Two codes are required:** one for the **underlying etiology** and one from category **I15** for the hypertension.\n• Sequencing is determined by the **reason for admission/encounter**.\n\n**Transient hypertension (I.C.9.a.7)**\n• Assign **R03.0**, Elevated blood pressure reading without diagnosis of hypertension, **unless** the patient has an **established diagnosis of hypertension**.\n• For **transient hypertension of pregnancy**, assign **O13.-**, Gestational [pregnancy-induced] hypertension without significant proteinuria, or **O14.-**, Pre-eclampsia.\n\n**What R03.0 does NOT mean:** it is not used for a patient who already has an established diagnosis of hypertension.",
+   "visual": {
+    "title": "Secondary and Transient",
+    "sub": "Sections I.C.9.a.6 and I.C.9.a.7",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Secondary HTN",
+      "b": "Etiology code + I15 code"
+     },
+     {
+      "h": "Secondary sequencing",
+      "b": "By reason for encounter"
+     },
+     {
+      "h": "Transient, no HTN dx",
+      "b": "R03.0"
+     },
+     {
+      "h": "Transient in pregnancy",
+      "b": "O13.- or O14.-"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with no established diagnosis of hypertension has a single elevated blood pressure reading, documented as transient hypertension. The patient is not pregnant. According to Section I.C.9.a.7, what is assigned?",
+   "options": [
+    "I10, Essential (primary) hypertension",
+    "A code from I15",
+    "R03.0, Elevated blood pressure reading without diagnosis of hypertension",
+    "O13.-"
+   ],
+   "correct": 2,
+   "explanation": "Correct: R03.0. Section I.C.9.a.7 says to assign R03.0 for transient hypertension unless the patient has an established diagnosis of hypertension. I10 is wrong because there is no established hypertension diagnosis. I15 is for secondary hypertension, which requires an underlying condition (I.C.9.a.6). O13.- is for transient hypertension of pregnancy.",
+   "visual": {
+    "topic": "Transient hypertension",
+    "hint": "Is there an established diagnosis?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.9.a.6, how many codes are required for secondary hypertension?",
+   "options": [
+    "One code from category I15",
+    "One code from category I10",
+    "Two codes from category I15",
+    "Two codes: one for the underlying etiology and one from category I15"
+   ],
+   "correct": 3,
+   "explanation": "Correct: two codes, the etiology plus I15. Section I.C.9.a.6 says secondary hypertension is due to an underlying condition and two codes are required: one to identify the underlying etiology and one from category I15 to identify the hypertension. A single I15 code leaves out the cause. I10 is essential (primary) hypertension, not secondary. Two I15 codes still leaves out the etiology.",
+   "visual": {
+    "topic": "Secondary hypertension",
+    "hint": "What causes secondary hypertension?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Controlled and Uncontrolled Hypertension",
+   "content": "**Controlled hypertension (I.C.9.a.8)**\n• This statement usually refers to an existing state of hypertension **under control by therapy**.\n• Assign the appropriate code from categories **I10-I15**, Hypertensive diseases.\n\n**Uncontrolled hypertension (I.C.9.a.9)**\n• May refer to **untreated** hypertension **or** hypertension **not responding** to the current therapeutic regimen.\n• **In either case**, assign the appropriate code from categories **I10-I15**.\n\n**Key point:** \"controlled\" and \"uncontrolled\" do not change the code category. Both go to the hypertensive diseases categories I10-I15. Do not confuse \"uncontrolled\" with **hypertensive crisis** (I16) or **resistant** hypertension (I1A.0), which have their own guidelines.",
+   "visual": {
+    "title": "Controlled vs Uncontrolled",
+    "sub": "Sections I.C.9.a.8 and I.C.9.a.9",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Controlled",
+      "b": "Under control by therapy: I10-I15"
+     },
+     {
+      "h": "Uncontrolled",
+      "b": "Untreated or not responding: I10-I15"
+     },
+     {
+      "h": "Same result",
+      "b": "Code from I10-I15 either way"
+     },
+     {
+      "h": "Different rules",
+      "b": "Crisis (I16), resistant (I1A.0)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents \"uncontrolled essential hypertension\" in a patient not responding to the current medication regimen. No crisis, urgency, emergency or resistant hypertension is documented. According to Section I.C.9.a.9, what is assigned?",
+   "options": [
+    "A code from category I16, Hypertensive crisis",
+    "R03.0",
+    "The appropriate code from categories I10-I15, Hypertensive diseases",
+    "I1A.0, Resistant hypertension"
+   ],
+   "correct": 2,
+   "explanation": "Correct: a code from I10-I15. Section I.C.9.a.9 says uncontrolled hypertension may refer to untreated hypertension or hypertension not responding to the current therapeutic regimen, and in either case assign the appropriate code from categories I10-I15. I16 requires documented hypertensive urgency, emergency or crisis (I.C.9.a.10). R03.0 is for transient hypertension without an established diagnosis (I.C.9.a.7). I1A.0 requires the provider to document apparent treatment resistant, treatment resistant, or true resistant hypertension (I.C.9.a.12).",
+   "visual": {
+    "topic": "Uncontrolled hypertension",
+    "hint": "Uncontrolled is not the same as crisis or resistant."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Hypertensive Crisis (I16)",
+   "content": "Section I.C.9.a.10:\n\n• Assign a code from category **I16, Hypertensive crisis**, for documented **hypertensive urgency**, **hypertensive emergency**, or **unspecified hypertensive crisis**.\n• **Code also** any identified hypertensive disease (**I10-I15, I1A**).\n• **Sequencing is based on the reason for the encounter.**\n\n**FY 2027 change:** the code-also range now includes **I1A** (resistant hypertension). In FY 2026 the range was only I10-I15.\n\n**What this means:** the I16 code identifies the crisis; the patient's underlying hypertensive disease is coded as well.",
+   "visual": {
+    "title": "Hypertensive Crisis",
+    "sub": "Section I.C.9.a.10",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Documented terms",
+      "b": "Urgency, emergency, or crisis"
+     },
+     {
+      "h": "Assign",
+      "b": "Code from I16"
+     },
+     {
+      "h": "Code also",
+      "b": "Hypertensive disease I10-I15, I1A"
+     },
+     {
+      "h": "FY 2027",
+      "b": "I1A added to the range"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with documented hypertensive heart disease is seen for a documented hypertensive emergency. According to Section I.C.9.a.10, which statement is correct?",
+   "options": [
+    "Assign a code from I16 and also code the identified hypertensive disease; sequencing is based on the reason for the encounter",
+    "Assign only a code from I16; the hypertensive disease is included",
+    "Assign only a code from I11",
+    "Assign R03.0 because the blood pressure is elevated"
+   ],
+   "correct": 0,
+   "explanation": "Correct: I16 plus the identified hypertensive disease, sequenced by the reason for the encounter. Section I.C.9.a.10 says to assign a code from I16 for documented hypertensive urgency, emergency or unspecified crisis, to code also any identified hypertensive disease (I10-I15, I1A), and that sequencing is based on the reason for the encounter. I16 alone ignores the code-also instruction. I11 alone omits the documented emergency. R03.0 is only for elevated readings without an established diagnosis of hypertension.",
+   "visual": {
+    "topic": "Hypertensive crisis",
+    "hint": "Look for the code-also instruction."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Pulmonary and Resistant Hypertension",
+   "content": "**Pulmonary hypertension (I.C.9.a.11)**\n• Classified to category **I27**, Other pulmonary heart diseases.\n• For **secondary** pulmonary hypertension (**I27.1, I27.2-**), **code also** any associated conditions or adverse effects of drugs or toxins.\n• Sequencing is based on the reason for the encounter, **except** for adverse effects of drugs (see Section I.C.19.e).\n\n**Resistant hypertension (I.C.9.a.12)**\n• Definition from the guideline: blood pressure of a patient with hypertension that **remains above goal in spite of the use of antihypertensive medications**.\n• Assign **I1A.0**, Resistant hypertension, as an **additional code** when the provider documents **apparent treatment resistant hypertension**, **treatment resistant hypertension**, or **true resistant hypertension**.\n• A code for the **specific type of existing hypertension is sequenced first**, if known.",
+   "visual": {
+    "title": "Pulmonary and Resistant",
+    "sub": "Sections I.C.9.a.11 and I.C.9.a.12",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Pulmonary HTN",
+      "b": "Category I27"
+     },
+     {
+      "h": "Secondary pulmonary",
+      "b": "I27.1, I27.2-: code also causes"
+     },
+     {
+      "h": "Resistant HTN",
+      "b": "I1A.0 as an additional code"
+     },
+     {
+      "h": "Sequenced first",
+      "b": "Specific type of HTN, if known"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Resistant Hypertension",
+   "content": "**Documentation:** \"Essential hypertension, treatment resistant. BP remains above goal despite three antihypertensive medications.\"\n\n**Which guideline applies:** Section I.C.9.a.12 — assign I1A.0 as an additional code when treatment resistant hypertension is documented by the provider; a code for the specific type of existing hypertension is sequenced first, if known.\n\n**Decision:**\n• First: **I10**, Essential (primary) hypertension (the specific type is known)\n• Additional: **I1A.0**, Resistant hypertension\n\n**Contrast:** \"Uncontrolled hypertension\" alone, without one of the resistant terms the guideline lists, is coded under Section I.C.9.a.9 (I10-I15) — not I1A.0.",
+   "visual": {
+    "title": "Resistant Hypertension Order",
+    "sub": "Section I.C.9.a.12",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "First",
+      "b": "Specific type of HTN, e.g., I10"
+     },
+     {
+      "h": "Additional",
+      "b": "I1A.0 resistant hypertension"
+     },
+     {
+      "h": "Required wording",
+      "b": "Apparent treatment resistant, treatment resistant, or true resistant"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents essential hypertension that is \"true resistant hypertension.\" According to Section I.C.9.a.12, how is it coded?",
+   "options": [
+    "I1A.0 only",
+    "I10 first, with I1A.0 as an additional code",
+    "I1A.0 first, followed by I10",
+    "A code from I16"
+   ],
+   "correct": 1,
+   "explanation": "Correct: I10 first, then I1A.0. Section I.C.9.a.12 says to assign I1A.0 as an additional code when apparent treatment resistant, treatment resistant, or true resistant hypertension is documented, and that a code for the specific type of existing hypertension is sequenced first, if known. I1A.0 alone omits the known type. I1A.0 first reverses the required order. I16 requires documented urgency, emergency or crisis.",
+   "visual": {
+    "topic": "Resistant hypertension",
+    "hint": "I1A.0 is an additional code."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.9.a.11, a patient has secondary pulmonary hypertension. Which instruction applies?",
+   "options": [
+    "Assign only a code from I15, Secondary hypertension",
+    "Assign R03.0",
+    "Assign the code from category I27 (such as I27.1 or I27.2-) and code also any associated conditions or adverse effects of drugs or toxins",
+    "Assign a code from I16"
+   ],
+   "correct": 2,
+   "explanation": "Correct: I27 code plus associated conditions or adverse effects. Section I.C.9.a.11 says pulmonary hypertension is classified to category I27, and for secondary pulmonary hypertension (I27.1, I27.2-) code also any associated conditions or adverse effects of drugs or toxins. I15 is for secondary (systemic) hypertension, not pulmonary hypertension. R03.0 is for transient elevated readings. I16 is for hypertensive crisis.",
+   "visual": {
+    "topic": "Pulmonary hypertension",
+    "hint": "Which category holds pulmonary hypertension?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Lesson 18 to a Real Record",
+   "content": "1. **Identify every condition** documented with the hypertension: heart, kidney, cerebrovascular, retinal, pregnancy, crisis, pulmonary, resistance.\n2. **Heart or kidney involvement?** Presume it is related unless the provider clearly says it is unrelated. Other conditions need a documented link.\n3. **Heart only?** I11. Add an I50/I51 code for I50.-, I51.4, I51.89, I51.9; no extra code for I51.5 or I51.7.\n4. **CKD only?** I12 + N18 (stage) as secondary. Code acute renal failure too, if present.\n5. **Heart and CKD?** I13 (never I11 + I12) + N18 for stage + I50 if heart failure. Code acute renal failure too, if present.\n6. **Cerebrovascular?** I60-I69 first, then the hypertension code. **Retinopathy?** H35.0 + I10-I15, sequenced by reason for the encounter.\n7. **Secondary?** Etiology + I15. **Transient?** R03.0 (no established diagnosis) or O13.-/O14.- in pregnancy.\n8. **Controlled or uncontrolled?** I10-I15.\n9. **Crisis (urgency/emergency)?** I16 + code also the hypertensive disease (I10-I15, I1A).\n10. **Pulmonary?** I27; for I27.1/I27.2- code also associated conditions or adverse effects. **Resistant?** Specific type first, I1A.0 additional.",
+   "visual": {
+    "title": "Lesson 18 Workflow",
+    "sub": "Work through the record in this order",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2 Link check",
+      "b": "Presumed for heart and kidney"
+     },
+     {
+      "h": "3-5 I11 / I12 / I13",
+      "b": "Plus I50, N18 as needed"
+     },
+     {
+      "h": "6 Brain, eye",
+      "b": "I60-I69 first; H35.0"
+     },
+     {
+      "h": "7-8 Type of HTN",
+      "b": "I15, R03.0, I10-I15"
+     },
+     {
+      "h": "9 Crisis",
+      "b": "I16 + hypertensive disease"
+     },
+     {
+      "h": "10 Pulm, resistant",
+      "b": "I27; I1A.0 additional"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Heart and kidney involvement are presumed related** to hypertension (\"with\" in the Index) unless the documentation clearly states they are unrelated; other conditions need a provider-documented link.\n• **I11:** add an I50/I51 code for I50.-, I51.4, I51.89, I51.9; **no** extra code for I51.5 or I51.7. FY 2027 wording: \"one or more heart conditions.\"\n• **I12:** HTN + CKD, with N18 secondary for the stage; code acute renal failure too.\n• **I13:** HTN + heart disease + CKD — never I11 + I12; add I50 for heart failure and N18 for stage.\n• **Cerebrovascular:** I60-I69 first. **Retinopathy:** H35.0 + I10-I15, by reason for encounter.\n• **Secondary:** etiology + I15. **Transient:** R03.0 unless HTN is established; O13.-/O14.- in pregnancy. **Controlled/uncontrolled:** I10-I15.\n• **Crisis:** I16 + code also hypertensive disease (I10-I15, I1A — I1A added for FY 2027).\n• **Pulmonary:** I27. **Resistant:** specific type first, I1A.0 as an additional code.",
+   "visual": {
+    "title": "Lesson 18 Summary",
+    "sub": "Hypertension rules to know cold",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Presumed link",
+      "b": "Heart and kidney"
+     },
+     {
+      "h": "I11",
+      "b": "I51.5, I51.7: no extra code"
+     },
+     {
+      "h": "I12 / I13",
+      "b": "N18 secondary; I13 not I11+I12"
+     },
+     {
+      "h": "Cerebrovascular",
+      "b": "I60-I69 first"
+     },
+     {
+      "h": "Crisis",
+      "b": "I16 + code also I10-I15, I1A"
+     },
+     {
+      "h": "Resistant",
+      "b": "Type first, then I1A.0"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which change to Section I.C.9.a.10, Hypertensive Crisis, appears in the FY 2027 guidelines?",
+   "options": [
+    "I1A was added to the code-also range, which now reads I10-I15, I1A",
+    "Category I16 was deleted",
+    "Hypertensive crisis must now always be sequenced first",
+    "R03.0 must now be assigned with every I16 code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: I1A was added to the code-also range. The verified FY 2027 change list shows that Section I.C.9.a.10 now says \"Code also any identified hypertensive disease (I10-I15, I1A).\" Category I16 was not deleted; the guideline still assigns it. The guideline still says sequencing is based on the reason for the encounter. Nothing in the guideline pairs R03.0 with I16.",
+   "visual": {
+    "topic": "FY 2027 change",
+    "hint": "Which code range grew?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has hypertension and hypertensive retinopathy. According to Section I.C.9.a.5, which is correct?",
+   "options": [
+    "Use only a code from H35.0",
+    "Always sequence the hypertension code first",
+    "Always sequence H35.0 first",
+    "Use subcategory H35.0 along with a code from categories I10-I15; sequencing is based on the reason for the encounter"
+   ],
+   "correct": 3,
+   "explanation": "Correct: H35.0 with an I10-I15 code, sequenced by the reason for the encounter. Section I.C.9.a.5 says subcategory H35.0 should be used along with a code from categories I10-I15 to include the systemic hypertension, and the sequencing is based on the reason for the encounter. H35.0 alone leaves out the systemic hypertension. Both \"always first\" options are wrong because the guideline does not fix the order.",
+   "visual": {
+    "topic": "Hypertensive retinopathy",
+    "hint": "Is the order fixed or flexible?"
+   }
+  }
+ ]
+}

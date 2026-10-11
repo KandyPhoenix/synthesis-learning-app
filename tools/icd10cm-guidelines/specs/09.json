@@ -1,0 +1,680 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Sepsis, Severe Sepsis and Septic Shock",
+   "content": "Sepsis is one of the most heavily tested topics in Chapter 1 (Certain Infectious and Parasitic Diseases). It is also a frequent source of coding errors, because the rules depend on **exactly what the provider documents** and **when the condition developed**.\n\nSection I.C.1.d of the Official Guidelines covers:\n\n• How to code **sepsis** and **severe sepsis** (1)\n• **Septic shock** (2)\n• **Sequencing** severe sepsis as principal or secondary (3)\n• Sepsis with a **localized infection** such as pneumonia (4)\n• Sepsis due to a **postprocedural infection** (5)\n• Sepsis tied to a **noninfectious process** such as trauma or a burn (6)\n• Pointers to the obstetric and newborn sepsis guidelines (7, 8)\n• **Hemolytic-uremic syndrome** associated with sepsis (9)\n\nYou will read the official text first, then work through each sub-rule in plain English, with worked examples and quizzes along the way.",
+   "visual": {
+    "title": "Sepsis: The Big Picture",
+    "boxes": [
+     {
+      "h": "Sepsis",
+      "b": "Code the underlying systemic infection (A41.9 if unspecified)"
+     },
+     {
+      "h": "Severe sepsis",
+      "b": "Infection code + R65.2- + codes for the organ dysfunction"
+     },
+     {
+      "h": "Septic shock",
+      "b": "A type of organ dysfunction: R65.21 or T81.12-"
+     },
+     {
+      "h": "Sequencing",
+      "b": "Depends on POA status and the reason for admission"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d at a glance"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.1.d"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Coding Sepsis (I.C.1.d.1.a)",
+   "content": "**Sepsis** is coded by assigning the code for the **underlying systemic infection**. If the documentation does not specify the type of infection or the organism causing it, the guideline gives a default: **A41.9, Sepsis, unspecified organism**.\n\n**What it does NOT mean:** sepsis alone is not severe sepsis. Section I.C.1.d.1.a says a code from subcategory **R65.2, Severe sepsis**, should **not** be assigned unless **severe sepsis** or an **associated acute organ dysfunction** is documented.\n\nSo the question to ask is: does the record document severe sepsis, or an acute organ dysfunction linked to the sepsis? If not, there is no R65.2 code.",
+   "visual": {
+    "title": "Sepsis Without Severe Sepsis",
+    "boxes": [
+     {
+      "h": "Documented",
+      "b": "Sepsis, organism not stated"
+     },
+     {
+      "h": "Code",
+      "b": "A41.9, Sepsis, unspecified organism"
+     },
+     {
+      "h": "Add R65.2?",
+      "b": "No - only if severe sepsis or linked organ dysfunction is documented"
+     },
+     {
+      "h": "Rule",
+      "b": "Section I.C.1.d.1.a"
+     }
+    ],
+    "cols": 2,
+    "sub": "Sepsis alone = the systemic infection code"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Blood Cultures and Urosepsis",
+   "content": "**Negative or inconclusive blood cultures (I.C.1.d.1.a.i)**\n\nA negative or inconclusive blood culture does **not** rule out sepsis when the patient has clinical evidence of the condition. The coder does not drop the sepsis diagnosis just because the culture was negative. However, the guideline says the **provider should be queried**.\n\n**Urosepsis (I.C.1.d.1.a.ii)**\n\n• **Urosepsis** is a **nonspecific term**.\n• It is **not** the same as sepsis.\n• It has **no default code** in the Alphabetic Index.\n• If the provider uses this term, the provider **must be queried** for clarification.\n\n**Exam trap:** Do not code urosepsis as sepsis, and do not code it as a urinary tract infection on your own. The guideline's answer is a query.",
+   "visual": {
+    "title": "Two Query Situations",
+    "boxes": [
+     {
+      "h": "Negative cultures",
+      "b": "Do not rule out sepsis if clinical evidence exists. Query the provider."
+     },
+     {
+      "h": "Urosepsis",
+      "b": "Nonspecific. Not sepsis. No default code. Query the provider."
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.1.a.i and ii"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents \"urosepsis\" in the discharge summary and nothing more specific. According to Section I.C.1.d.1.a.ii, what should the coder do?",
+   "options": [
+    "Assign A41.9, Sepsis, unspecified organism",
+    "Query the provider for clarification",
+    "Code a urinary tract infection as the default",
+    "Assign a code from subcategory R65.2"
+   ],
+   "correct": 1,
+   "explanation": "Correct: query the provider. Section I.C.1.d.1.a.ii says urosepsis is a nonspecific term, is not synonymous with sepsis, has no default code in the Alphabetic Index, and the provider must be queried. A41.9 is wrong because urosepsis is not to be considered sepsis. Coding a urinary tract infection is wrong because the guideline states there is no default code. R65.2 is wrong because severe sepsis has not been documented.",
+   "visual": {
+    "topic": "Urosepsis",
+    "hint": "Think about whether this term has any default code at all."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Organ Dysfunction and Sepsis",
+   "content": "**Sepsis with organ dysfunction (I.C.1.d.1.a.iii)**\n\nIf the patient has sepsis **and** an associated acute organ dysfunction or **multiple organ dysfunction (MOD)**, follow the rules for coding **severe sepsis**.\n\n**Organ dysfunction not clearly linked to sepsis (I.C.1.d.1.a.iv)**\n\n• If the record says the acute organ dysfunction is related to a **different medical condition**, do **not** assign a code from subcategory R65.2.\n• The organ dysfunction **must be associated with the sepsis** to assign the severe sepsis code.\n• If the documentation is **not clear** whether the organ dysfunction is due to the sepsis or another condition, **query the provider**.\n\nThe key word is **associated**. Two conditions in the same record are not automatically linked.",
+   "visual": {
+    "title": "Is the Organ Dysfunction Linked?",
+    "boxes": [
+     {
+      "h": "Linked to sepsis",
+      "b": "Code as severe sepsis (R65.2-)"
+     },
+     {
+      "h": "Due to another condition",
+      "b": "No R65.2 code"
+     },
+     {
+      "h": "Unclear",
+      "b": "Query the provider"
+     }
+    ],
+    "cols": 1,
+    "sub": "Section I.C.1.d.1.a.iii and iv"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with sepsis also has an acute organ dysfunction. The provider documents that the organ dysfunction is due to a medical condition other than the sepsis. Per Section I.C.1.d.1.a.iv, should a code from subcategory R65.2 be assigned?",
+   "options": [
+    "No, because the organ dysfunction must be associated with the sepsis",
+    "Yes, because sepsis and an organ dysfunction are both present",
+    "Yes, but only as a secondary diagnosis",
+    "No, query the provider first in every case"
+   ],
+   "correct": 0,
+   "explanation": "Correct: no. Section I.C.1.d.1.a.iv says that when documentation indicates the acute organ dysfunction is related to a condition other than the sepsis, do not assign R65.2; the organ dysfunction must be associated with the sepsis. Option B is wrong because both being present is not enough. Option C is wrong because the code is not assigned at all here. Option D is wrong because a query is required only when the documentation is not clear; here the provider clearly linked it to another condition.",
+   "visual": {
+    "topic": "Organ dysfunction link",
+    "hint": "What does the provider say caused the organ dysfunction?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Severe Sepsis (I.C.1.d.1.b)",
+   "content": "Severe sepsis needs **at least 2 codes**, in this order:\n\n1. A code for the **underlying systemic infection** (if the causal organism is not documented, **A41.9, Sepsis, unspecified organism**)\n2. A code from subcategory **R65.2, Severe sepsis**\n\nPlus: **additional code(s) for the associated acute organ dysfunction** are also required.\n\nThe guideline also notes that because severe sepsis is complex, **some cases may require querying the provider** before the codes are assigned.\n\n**What it does NOT mean:** R65.2 does not replace the infection code. It is always added after the systemic infection code.",
+   "visual": {
+    "title": "Severe Sepsis: Minimum Codes",
+    "boxes": [
+     {
+      "h": "1st",
+      "b": "Underlying systemic infection (A41.9 if organism not documented)"
+     },
+     {
+      "h": "2nd",
+      "b": "Code from subcategory R65.2, Severe sepsis"
+     },
+     {
+      "h": "Also",
+      "b": "Code(s) for each associated acute organ dysfunction"
+     }
+    ],
+    "cols": 1,
+    "sub": "Section I.C.1.d.1.b"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.1.d.1.b, what is the minimum number of codes required to report severe sepsis?",
+   "options": [
+    "One: a code from subcategory R65.2",
+    "Two: an R65.2 code followed by the systemic infection code",
+    "Three: R65.1, R65.2 and the infection code",
+    "Two: the systemic infection code followed by an R65.2 code"
+   ],
+   "correct": 3,
+   "explanation": "Correct: two, with the systemic infection first and R65.2 second. Section I.C.1.d.1.b says severe sepsis requires a minimum of 2 codes: first the underlying systemic infection, followed by a code from subcategory R65.2 (with organ dysfunction codes also required). Option A is wrong because R65.2 alone is never enough. Option B reverses the required order. Option C is wrong because R65.1 is SIRS of non-infectious origin, and Section I.C.1.d.6 says only one code from category R65 should be assigned.",
+   "visual": {
+    "topic": "Severe sepsis codes",
+    "hint": "Count the codes and check their order."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Septic Shock (I.C.1.d.2)",
+   "content": "**Septic shock** generally refers to **circulatory failure associated with severe sepsis**. That makes it a **type of acute organ dysfunction**.\n\n**How to code it:**\n\n1. The code for the **systemic infection** is sequenced **first**\n2. Followed by **R65.21, Severe sepsis with septic shock**, or **T81.12, Postprocedural septic shock**\n3. Plus codes for any **other acute organ dysfunctions**\n\n**Never principal:** As the Tabular List sequencing instructions note, the code for septic shock **cannot be assigned as a principal diagnosis**.\n\n**Exam trap:** Septic shock is not a separate category from severe sepsis. Per the guideline, it represents severe sepsis with a type of organ dysfunction (circulatory failure).",
+   "visual": {
+    "title": "Septic Shock Sequencing",
+    "boxes": [
+     {
+      "h": "First",
+      "b": "Systemic infection code"
+     },
+     {
+      "h": "Then",
+      "b": "R65.21, or T81.12- if postprocedural"
+     },
+     {
+      "h": "Also",
+      "b": "Other acute organ dysfunctions"
+     },
+     {
+      "h": "Never",
+      "b": "Septic shock code as principal diagnosis"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.2"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about septic shock is correct according to Section I.C.1.d.2?",
+   "options": [
+    "Septic shock can be the principal diagnosis when it is the reason for admission",
+    "Septic shock is coded with R65.21 alone",
+    "Septic shock represents a type of acute organ dysfunction and its code follows the systemic infection code",
+    "Septic shock is coded with A41.9 only, since shock is integral to sepsis"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.d.2 states septic shock generally refers to circulatory failure associated with severe sepsis and represents a type of acute organ dysfunction; the systemic infection code is sequenced first, followed by R65.21 or T81.12. Option A is wrong because the code for septic shock cannot be assigned as a principal diagnosis. Option B is wrong because the systemic infection code must be sequenced first. Option D is wrong because the guideline requires R65.21 (or T81.12) to be assigned.",
+   "visual": {
+    "topic": "Septic shock",
+    "hint": "Is septic shock its own diagnosis, or a kind of organ dysfunction?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Sequencing Severe Sepsis (I.C.1.d.3)",
+   "content": "Where severe sepsis goes depends on **whether it was present on admission (POA)**.\n\n**Present on admission and meets the definition of principal diagnosis:**\n• Principal diagnosis = the **underlying systemic infection**\n• Followed by the appropriate **R65.2** code\n\n**Develops during the encounter (not POA):**\n• The underlying systemic infection **and** the R65.2 code are both assigned as **secondary diagnoses**\n\n**Always true:** a code from subcategory R65.2 can **never** be assigned as a principal diagnosis.\n\n**POA unclear:** Severe sepsis may be present on admission but not confirmed until later. If the documentation is not clear whether severe sepsis was POA, **query the provider**.\n\nFor infection-associated hemolytic-uremic syndrome with severe sepsis, the guideline points you to I.C.1.d.9 (covered later in this lesson).",
+   "visual": {
+    "title": "Was Severe Sepsis POA?",
+    "boxes": [
+     {
+      "h": "Yes (and meets PDx)",
+      "b": "Infection = principal, then R65.2-"
+     },
+     {
+      "h": "No (developed later)",
+      "b": "Infection + R65.2- both secondary"
+     },
+     {
+      "h": "Not clear",
+      "b": "Query the provider"
+     },
+     {
+      "h": "R65.2- as principal?",
+      "b": "Never"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.3"
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Severe Sepsis Developing After Admission",
+   "content": "**Scenario:** A patient is admitted for a condition unrelated to infection. On day three, the provider documents severe sepsis with an associated acute organ dysfunction. The provider clearly documents it was not present on admission.\n\n**Which guideline applies?** Section I.C.1.d.3: when severe sepsis develops during an encounter (not present on admission), the underlying systemic infection and the appropriate R65.2 code are assigned as **secondary diagnoses**.\n\n**Decision:**\n• The systemic infection code and the R65.2 code are both reported as secondary diagnoses, not as principal.\n• Per Section I.C.1.d.1.b, the code for the associated acute organ dysfunction is also assigned.\n\nIf the record had been unclear about whether the severe sepsis was present at admission, the coder would query the provider (I.C.1.d.3).",
+   "visual": {
+    "title": "Severe Sepsis Not POA",
+    "boxes": [
+     {
+      "h": "Principal",
+      "b": "Not the sepsis codes"
+     },
+     {
+      "h": "Secondary",
+      "b": "Systemic infection code"
+     },
+     {
+      "h": "Secondary",
+      "b": "R65.2- code"
+     },
+     {
+      "h": "Secondary",
+      "b": "Organ dysfunction code(s)"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.3"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with severe sepsis that was present on admission and meets the definition of principal diagnosis. The organism is not documented. Which sequencing follows Section I.C.1.d.3?",
+   "options": [
+    "R65.2 code first, then A41.9",
+    "A41.9 first, then the appropriate R65.2 code, plus organ dysfunction code(s)",
+    "The organ dysfunction code first, then A41.9",
+    "A41.9 only"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.d.3 says the underlying systemic infection is principal, followed by the R65.2 code; Section I.C.1.d.1.b says A41.9 is used when the organism is not documented and organ dysfunction codes are also required. Option A is wrong because an R65.2 code can never be principal. Option C is wrong because the infection must be sequenced first. Option D is wrong because severe sepsis requires a minimum of 2 codes.",
+   "visual": {
+    "topic": "Severe sepsis POA",
+    "hint": "Which code can never be principal?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Severe sepsis is diagnosed on day 2 of an admission, and the record does not make clear whether it was present at the time of admission. Per Section I.C.1.d.3, what should the coder do?",
+   "options": [
+    "Query the provider",
+    "Assume it was present on admission",
+    "Assume it developed after admission",
+    "Leave severe sepsis uncoded"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.d.3 states that severe sepsis may be present on admission but not confirmed until after admission, and if the documentation is not clear whether it was present on admission, the provider should be queried. Options B and C are wrong because the coder may not assume POA status either way. Option D is wrong because the severe sepsis is documented and must be reported; only its POA status is unclear.",
+   "visual": {
+    "topic": "POA uncertainty",
+    "hint": "The guideline gives one specific action when POA status is unclear."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Sepsis With a Localized Infection (I.C.1.d.4)",
+   "content": "A **localized infection** is an infection in one site, such as **pneumonia** or **cellulitis**.\n\n**Admitted for sepsis/severe sepsis AND a localized infection:**\n1. Code(s) for the **underlying systemic infection** first\n2. The **localized infection** as a **secondary** diagnosis\n3. If severe sepsis: an **R65.2** code, also secondary\n\n**Admitted with a localized infection; sepsis develops AFTER admission:**\n1. The **localized infection** first\n2. Followed by the appropriate **sepsis/severe sepsis** codes\n\nThe deciding question is the same as in I.C.1.d.3: **was the sepsis there when the patient was admitted?**\n\nFor hemolytic-uremic syndrome associated with sepsis, see I.C.1.d.9.",
+   "visual": {
+    "title": "Sepsis + Localized Infection",
+    "boxes": [
+     {
+      "h": "Sepsis on admission",
+      "b": "Systemic infection 1st, localized infection 2nd"
+     },
+     {
+      "h": "Sepsis after admission",
+      "b": "Localized infection 1st, sepsis codes after"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.4"
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Pneumonia and Sepsis",
+   "content": "**Scenario A:** A patient is admitted with sepsis and pneumonia, both present at admission. The provider does not document the organism for the sepsis.\n\n• Section I.C.1.d.4: the systemic infection is coded first and the pneumonia is secondary.\n• Section I.C.1.d.1.a: with no organism specified, the systemic infection code is A41.9.\n• **Sequence:** A41.9, then the pneumonia code.\n\n**Scenario B:** A patient is admitted with pneumonia. Sepsis develops on day four, after admission.\n\n• Section I.C.1.d.4: the localized infection (pneumonia) is assigned first, followed by the sepsis code(s).\n\n**Same diagnoses, different order** — the timing of the sepsis decides.",
+   "visual": {
+    "title": "Same Diagnoses, Two Orders",
+    "boxes": [
+     {
+      "h": "A: sepsis on admission",
+      "b": "1. A41.9  2. Pneumonia"
+     },
+     {
+      "h": "B: sepsis develops later",
+      "b": "1. Pneumonia  2. Sepsis code(s)"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.4"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with cellulitis. Two days later, the provider documents sepsis that developed after admission. According to Section I.C.1.d.4, what is sequenced first?",
+   "options": [
+    "The sepsis code",
+    "A code from subcategory R65.2",
+    "Either may be sequenced first",
+    "The cellulitis code"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.d.4 says that if the patient is admitted with a localized infection and sepsis/severe sepsis does not develop until after admission, the localized infection is assigned first, followed by the sepsis codes. Option A would be correct only if sepsis were the reason for admission. Option B is wrong because there is no documentation of severe sepsis here, and an R65.2 code can never be principal. Option C is wrong because the guideline gives a specific order.",
+   "visual": {
+    "topic": "Localized infection",
+    "hint": "When did the sepsis start compared to the admission?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Postprocedural Sepsis (I.C.1.d.5.a-b)",
+   "content": "**Causal relationship (5.a):** As with all postprocedural complications, code assignment depends on the **provider's documentation** that the infection is related to the procedure. The coder does not assume the link.\n\n**Sepsis following a surgical site infection (5.b):**\n1. **First** (if known): the code that identifies the site of the infection: **T81.41 to T81.43** or **T81.49** (Infection following a procedure), or **O86.00 to O86.03** or **O86.09** (Infection of obstetric surgical wound)\n2. **Additional code** for sepsis: **T81.44** (sepsis following a procedure) or **O86.04** (sepsis following an obstetrical procedure)\n3. **Additional code** for the infectious agent\n4. If **severe sepsis**: the R65.2 code plus code(s) for any acute organ dysfunction\n\n**Infection following infusion, transfusion, therapeutic injection, or immunization:**\n1. **First:** subcategory **T80.2** or code **T88.0-**\n2. Then the code for the **specific infection**\n3. If severe sepsis: R65.2 code plus organ dysfunction code(s)",
+   "visual": {
+    "title": "Postprocedural Sepsis Order",
+    "boxes": [
+     {
+      "h": "1. Site of infection",
+      "b": "T81.41-T81.43, T81.49, or O86.00-O86.03, O86.09"
+     },
+     {
+      "h": "2. Sepsis",
+      "b": "T81.44 or O86.04"
+     },
+     {
+      "h": "3. Organism",
+      "b": "Code for the infectious agent"
+     },
+     {
+      "h": "4. If severe",
+      "b": "R65.2- + organ dysfunction"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.5.b (surgical site)"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Postprocedural Septic Shock (I.C.1.d.5.c)",
+   "content": "If a postprocedural infection has led to **postprocedural septic shock**:\n\n1. Assign the codes listed above for **sepsis due to a postprocedural infection**\n2. Follow them with **T81.12-, Postprocedural septic shock**\n3. **Do NOT assign R65.21**, Severe sepsis with septic shock\n4. Add code(s) for any **acute organ dysfunction**\n\n**Exam trap:** For septic shock, there are two possible shock codes named in I.C.1.d.2: R65.21 and T81.12. When the shock is postprocedural, Section I.C.1.d.5.c tells you to use T81.12- and specifically **not** R65.21.",
+   "visual": {
+    "title": "Which Shock Code?",
+    "boxes": [
+     {
+      "h": "Postprocedural shock",
+      "b": "T81.12- (do not add R65.21)"
+     },
+     {
+      "h": "Other septic shock",
+      "b": "R65.21, Severe sepsis with septic shock"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.2 vs I.C.1.d.5.c"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient develops sepsis due to a documented postoperative surgical site infection, which progresses to postprocedural septic shock. Which statement follows Section I.C.1.d.5.c?",
+   "options": [
+    "Assign R65.21 and T81.12- together",
+    "Assign R65.21 as the principal diagnosis",
+    "Assign the postprocedural sepsis codes, followed by T81.12-, and do not assign R65.21",
+    "Assign only T81.12-"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.d.5.c says to assign the codes for sepsis due to a postprocedural infection, followed by T81.12-, Postprocedural septic shock, and not to assign R65.21, plus codes for any acute organ dysfunction. Option A is wrong because R65.21 is specifically excluded. Option B is wrong for two reasons: R65.21 is not used here, and a septic shock code cannot be principal (I.C.1.d.2). Option D is wrong because the infection and sepsis codes from I.C.1.d.5.b are also required.",
+   "visual": {
+    "topic": "Postprocedural shock",
+    "hint": "One shock code is specifically ruled out for postprocedural cases."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient develops an infection following a transfusion, which leads to sepsis. Per Section I.C.1.d.5.b, what is coded first?",
+   "options": [
+    "The code for the specific infection",
+    "A code from subcategory T80.2, Infections following infusion, transfusion, and therapeutic injection",
+    "T81.44, sepsis following a procedure",
+    "A code from subcategory R65.2"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.d.5.b says that for infections following infusion, transfusion, therapeutic injection, or immunization, a code from subcategory T80.2 or code T88.0- is coded first, followed by the code for the specific infection. Option A is wrong because the specific infection follows T80.2. Option C applies to sepsis following a postprocedural surgical site (wound) infection, not a transfusion. Option D is wrong because no severe sepsis is documented, and R65.2 is never sequenced first.",
+   "visual": {
+    "topic": "Transfusion infection",
+    "hint": "Look at the second paragraph of I.C.1.d.5.b."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Noninfectious Process Leading to Sepsis (I.C.1.d.6)",
+   "content": "Sometimes a **noninfectious condition**, such as **trauma**, a **burn**, or a serious injury, leads to an infection that results in sepsis or severe sepsis.\n\n**Sequencing:**\n• If the **noninfectious condition** meets the definition of principal diagnosis: code it **first**, followed by the code for the **resulting infection**.\n• If the **infection** meets the definition of principal diagnosis: sequence the infection **before** the noninfectious condition.\n• If **both** meet the definition of principal diagnosis: **either** may be principal.\n• If severe sepsis is present: add an **R65.2** code plus any associated organ dysfunction code(s).\n\n**Only one code from category R65:** Category R65 is Symptoms and signs specifically associated with systemic inflammation and infection. Only **one** code from it should be assigned. So when a noninfectious condition leads to an infection resulting in severe sepsis, assign the **R65.2** code and do **not** add **R65.1**, Systemic inflammatory response syndrome (SIRS) of non-infectious origin.\n\nFor SIRS due to a non-infectious process (without infection), see Section I.C.18.",
+   "visual": {
+    "title": "Burn or Trauma Leading to Sepsis",
+    "boxes": [
+     {
+      "h": "Condition is PDx",
+      "b": "Noninfectious condition 1st, then infection"
+     },
+     {
+      "h": "Infection is PDx",
+      "b": "Infection before the condition"
+     },
+     {
+      "h": "Both qualify",
+      "b": "Either may be principal"
+     },
+     {
+      "h": "R65 codes",
+      "b": "Only one: use R65.2-, not R65.1-"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.6"
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Burn Leading to Severe Sepsis",
+   "content": "**Scenario:** A patient is admitted for a serious burn. The burn becomes infected and the provider documents severe sepsis associated with the burn, with an acute organ dysfunction. The burn meets the definition of principal diagnosis.\n\n**Guideline:** Section I.C.1.d.6.\n\n**Decision:**\n1. The **burn** (noninfectious condition) is sequenced first.\n2. The code for the **resulting infection** follows.\n3. An **R65.2** code is added because severe sepsis is present, along with the **organ dysfunction** code.\n4. **No R65.1** code: only one code from category R65 may be assigned, and for severe sepsis that is the R65.2 code.\n\nIf the infection, rather than the burn, met the definition of principal diagnosis, the infection would be sequenced before the burn.",
+   "visual": {
+    "title": "Burn + Severe Sepsis",
+    "boxes": [
+     {
+      "h": "1st",
+      "b": "Burn (meets PDx definition)"
+     },
+     {
+      "h": "2nd",
+      "b": "Resulting infection"
+     },
+     {
+      "h": "Then",
+      "b": "R65.2- and organ dysfunction"
+     },
+     {
+      "h": "Not coded",
+      "b": "R65.1- (SIRS non-infectious)"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.6"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Trauma leads to an infection that results in severe sepsis. Per Section I.C.1.d.6, which R65 code(s) should be assigned?",
+   "options": [
+    "Only the appropriate R65.2 code",
+    "Both R65.1 and R65.2 codes",
+    "Only an R65.1 code",
+    "No R65 code, because the cause was noninfectious"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.d.6 says only one code from category R65 should be assigned, so when a non-infectious condition leads to an infection resulting in severe sepsis, assign the appropriate R65.2 code and do not additionally assign R65.1. Option B violates the one-code rule. Option C is wrong because the guideline names R65.2 for this situation and says not to add R65.1. Option D is wrong because severe sepsis is present, so R65.2 is required.",
+   "visual": {
+    "topic": "Category R65",
+    "hint": "How many codes from category R65 are allowed?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient admitted for a serious injury develops a resulting infection and sepsis. Both the injury and the infection meet the definition of principal diagnosis. According to Section I.C.1.d.6, which may be principal?",
+   "options": [
+    "Only the injury",
+    "Only the infection",
+    "Neither; sepsis must be principal",
+    "Either the injury or the infection"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.d.6 states that when both the associated non-infectious condition and the infection meet the definition of principal diagnosis, either may be assigned as principal diagnosis. Options A and B are each correct only when that condition alone meets the definition of principal diagnosis. Option C is wrong because the guideline lets either the noninfectious condition or the infection be principal.",
+   "visual": {
+    "topic": "Both qualify as PDx",
+    "hint": "Read the last sentence of the sequencing paragraph in I.C.1.d.6."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Obstetric and Newborn Sepsis (I.C.1.d.7-8)",
+   "content": "These two sub-sections do not give coding rules of their own. They send you to other chapters:\n\n• **Sepsis and septic shock complicating abortion, pregnancy, childbirth, and the puerperium (7):** see **Section I.C.15**.\n• **Newborn sepsis (8):** see **Section I.C.16.f**, Bacterial sepsis of newborn.\n\n**Why this matters:** For these patients, the Chapter 1 sepsis rules in this lesson are not the whole story. Always check the chapter-specific guideline the cross-reference points to.",
+   "visual": {
+    "title": "Cross-References",
+    "boxes": [
+     {
+      "h": "Obstetric sepsis",
+      "b": "See Section I.C.15"
+     },
+     {
+      "h": "Newborn sepsis",
+      "b": "See Section I.C.16.f"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d.7 and 8"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Hemolytic-Uremic Syndrome (I.C.1.d.9)",
+   "content": "If the **reason for admission** is **hemolytic-uremic syndrome that is associated with sepsis**:\n\n1. **Principal diagnosis:** **D59.31, Infection-associated hemolytic-uremic syndrome**\n2. **Secondary diagnoses:** the code for the **underlying systemic infection** and any other conditions, such as **severe sepsis**\n\n**Exam trap:** This is an exception to the usual pattern where the systemic infection is sequenced first. Sections I.C.1.d.3 and I.C.1.d.4 both point you here for this situation.",
+   "visual": {
+    "title": "HUS With Sepsis",
+    "boxes": [
+     {
+      "h": "Principal",
+      "b": "D59.31, Infection-associated hemolytic-uremic syndrome"
+     },
+     {
+      "h": "Secondary",
+      "b": "Underlying systemic infection, severe sepsis, other conditions"
+     }
+    ],
+    "cols": 1,
+    "sub": "Section I.C.1.d.9"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for hemolytic-uremic syndrome associated with sepsis. Per Section I.C.1.d.9, what is the principal diagnosis?",
+   "options": [
+    "The underlying systemic infection",
+    "A code from subcategory R65.2",
+    "D59.31, Infection-associated hemolytic-uremic syndrome",
+    "A41.9, Sepsis, unspecified organism, always"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.1.d.9 says to assign D59.31, Infection-associated hemolytic-uremic syndrome, as the principal diagnosis when the reason for admission is hemolytic-uremic syndrome associated with sepsis; the underlying systemic infection and other conditions such as severe sepsis are secondary. Option A is the usual sepsis rule, but this guideline is the exception. Option B is wrong because an R65.2 code can never be principal. Option D is wrong because the systemic infection is secondary here.",
+   "visual": {
+    "topic": "HUS and sepsis",
+    "hint": "This guideline is an exception to the usual infection-first rule."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying I.C.1.d on a Real Record",
+   "content": "Work through these steps in order:\n\n1. **Confirm the diagnosis is documented.** Is it sepsis? Is the term actually \"urosepsis\"? If urosepsis, query (I.C.1.d.1.a.ii). Negative cultures do not rule out sepsis, but query (I.C.1.d.1.a.i).\n2. **Identify the systemic infection.** Organism not documented? Use A41.9 (I.C.1.d.1.a).\n3. **Look for acute organ dysfunction.** Is it documented as associated with the sepsis? Yes = severe sepsis with R65.2 (I.C.1.d.1.a.iii, 1.b). Due to another condition = no R65.2. Unclear = query (I.C.1.d.1.a.iv).\n4. **Septic shock?** Add R65.21, or T81.12- if postprocedural; never as principal (I.C.1.d.2, 5.c).\n5. **Check special situations:** postprocedural infection (5), noninfectious cause such as a burn (6), obstetric (7), newborn (8), hemolytic-uremic syndrome (9).\n6. **Decide the timing.** Present on admission and meets PDx = systemic infection first. Developed after admission = secondary. Unclear = query (I.C.1.d.3, 4).\n7. **Add organ dysfunction codes** and make sure only one R65 code is used (I.C.1.d.6).",
+   "visual": {
+    "title": "Sepsis Coding Workflow",
+    "boxes": [
+     {
+      "h": "1-2",
+      "b": "Confirm the term; find the systemic infection"
+     },
+     {
+      "h": "3-4",
+      "b": "Organ dysfunction linked? Septic shock?"
+     },
+     {
+      "h": "5",
+      "b": "Special situations (5)-(9)"
+     },
+     {
+      "h": "6-7",
+      "b": "POA timing; organ codes; one R65 code"
+     }
+    ],
+    "cols": 2,
+    "sub": "A step-by-step check for every sepsis record"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Sepsis** = code the underlying systemic infection; **A41.9** if the type or organism is not specified (I.C.1.d.1.a).\n• **R65.2** only when severe sepsis or an **associated** acute organ dysfunction is documented. Organ dysfunction due to another condition = no R65.2; unclear = query (I.C.1.d.1.a.iv).\n• **Urosepsis** is not sepsis and has no default code: query. Negative cultures do not rule out sepsis: query (I.C.1.d.1.a.i-ii).\n• **Severe sepsis** = at least 2 codes (infection, then R65.2) plus organ dysfunction codes (I.C.1.d.1.b).\n• **R65.2** codes and the **septic shock** code are **never principal** (I.C.1.d.2, I.C.1.d.3).\n• **Timing decides sequencing:** sepsis present on admission = systemic infection first; developed later = secondary (I.C.1.d.3-4).\n• **Postprocedural septic shock** = T81.12-, not R65.21 (I.C.1.d.5.c).\n• **Only one R65 code**; noninfectious cause leading to severe sepsis = R65.2, not R65.1 (I.C.1.d.6). **HUS with sepsis** = D59.31 principal (I.C.1.d.9).",
+   "visual": {
+    "title": "Sepsis: Remember These",
+    "boxes": [
+     {
+      "h": "A41.9",
+      "b": "Default when organism unknown"
+     },
+     {
+      "h": "R65.2-",
+      "b": "Never principal; needs linked organ dysfunction"
+     },
+     {
+      "h": "T81.12-",
+      "b": "Postprocedural septic shock"
+     },
+     {
+      "h": "Query",
+      "b": "Urosepsis, unclear link, unclear POA"
+     }
+    ],
+    "cols": 2,
+    "sub": "Section I.C.1.d summary"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has clinical evidence of sepsis, but the blood cultures come back negative. According to Section I.C.1.d.1.a.i, which statement is correct?",
+   "options": [
+    "Sepsis cannot be coded without a positive blood culture",
+    "Negative cultures do not preclude a sepsis diagnosis, but the provider should be queried",
+    "The coder should change the diagnosis to urosepsis",
+    "Code R65.2 instead of the infection code"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.d.1.a.i says negative or inconclusive blood cultures do not preclude a diagnosis of sepsis in patients with clinical evidence of the condition; however, the provider should be queried. Option A contradicts the guideline. Option C is wrong because urosepsis is a nonspecific term the coder should never substitute (I.C.1.d.1.a.ii). Option D is wrong because R65.2 requires documented severe sepsis or associated organ dysfunction and never replaces the infection code.",
+   "visual": {
+    "topic": "Blood cultures",
+    "hint": "Do lab results override the clinical diagnosis here?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted with sepsis and pneumonia, both present on admission, and develops septic shock. Which sequence best follows Sections I.C.1.d.2 and I.C.1.d.4?",
+   "options": [
+    "Systemic infection, R65.21, pneumonia (plus any other organ dysfunction codes)",
+    "Septic shock code, systemic infection, pneumonia",
+    "Pneumonia, systemic infection, R65.21",
+    "R65.21, pneumonia, systemic infection"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.1.d.4 puts the systemic infection first and the localized infection (pneumonia) as secondary when sepsis was a reason for admission; Section I.C.1.d.2 places R65.21 after the systemic infection code. Options B and D are wrong because the septic shock code cannot be principal. Option C is wrong because pneumonia is sequenced first only when sepsis develops after admission (I.C.1.d.4).",
+   "visual": {
+    "topic": "Shock + pneumonia",
+    "hint": "Combine the rules for septic shock and for localized infections."
+   }
+  }
+ ]
+}

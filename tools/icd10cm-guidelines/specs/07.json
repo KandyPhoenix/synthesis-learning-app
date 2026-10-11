@@ -1,0 +1,652 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Disasters and Multiple Sites: Two Special Rules",
+   "content": "This lesson covers the last two general guidelines in Section I.B:\n\n• **Section I.B.19 — Coding for healthcare encounters in hurricane aftermath.** After a hurricane, many patients are treated for injuries and for problems caused by losing their homes, power, or access to care. This guideline explains how to use **external cause of morbidity codes** and **Z codes** so the data about the disaster is complete and accurate.\n• **Section I.B.20 — Multiple sites coding.** What \"multiple\" means in ICD-10-CM and when to code each site separately versus using a \"multiple sites\" code.\n\nThe hurricane guideline is also a good review of how external cause codes work in general: they **explain** an injury, they are **never** the principal or first-listed diagnosis, and they are sequenced **after** the injury code.",
+   "visual": {
+    "title": "Hurricane and Multiple Sites",
+    "sub": "Section I.B.19 and I.B.20",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "I.B.19.a",
+      "b": "When to use external cause codes"
+     },
+     {
+      "h": "I.B.19.b",
+      "b": "Sequencing: hurricane first among external causes"
+     },
+     {
+      "h": "I.B.19.c",
+      "b": "Injuries not caused directly by the storm"
+     },
+     {
+      "h": "I.B.19.d",
+      "b": "Z codes for social and access issues"
+     },
+     {
+      "h": "I.B.20",
+      "b": "Multiple = two or more sites"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.19"
+  },
+  {
+   "type": "official",
+   "ref": "I.B.19.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: External Cause Codes After a Hurricane",
+   "content": "An **external cause of morbidity code** explains **how** an injury or health condition happened. Section I.B.19.a says one should be assigned to identify the cause of injuries incurred as a result of the hurricane.\n\nWhat external cause codes capture (per the guideline):\n\n• **Cause** — how the injury or health condition happened\n• **Intent** — unintentional/accidental, or intentional (such as suicide or assault)\n• **Place** where the event occurred\n• **Activity** of the patient at the time of the event\n• **Status** of the person (e.g., civilian, military)\n\nThese codes are **supplemental** — they add to the ICD-10-CM codes that describe the injury itself.",
+   "visual": {
+    "title": "What External Cause Codes Tell",
+    "sub": "Section I.B.19.a",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Cause",
+      "b": "How it happened"
+     },
+     {
+      "h": "Intent",
+      "b": "Accidental, or intentional"
+     },
+     {
+      "h": "Place",
+      "b": "Where it happened"
+     },
+     {
+      "h": "Activity",
+      "b": "What the patient was doing"
+     },
+     {
+      "h": "Status",
+      "b": "e.g., civilian, military"
+     },
+     {
+      "h": "Role",
+      "b": "Supplemental, never principal"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "The Sequencing and Setting Rules in I.B.19.a",
+   "content": "Section I.B.19.a also sets firm rules on placement and use:\n\n• **Never principal or first-listed.** External cause codes are never recorded as a principal diagnosis (first-listed in non-inpatient settings).\n• **Injury code first.** The appropriate injury code is sequenced **before** any external cause codes.\n• **Injury, adverse effect or poisoning required.** Do **not** assign external cause codes for encounters to treat hurricane victims' medical conditions when **no injury, adverse effect or poisoning** is involved.\n• **Every encounter.** Assign external cause codes for **each encounter** for care and treatment of the injury.\n• **All settings.** External cause codes may be assigned in all health care settings.\n• **Broad definition of setting.** After the hurricane, a healthcare setting is **any location where medical care is provided by licensed healthcare professionals**.\n\n**Exam trap:** A hurricane victim treated for a medical condition with no injury, adverse effect or poisoning does **not** get an external cause code just because the hurricane happened.",
+   "visual": {
+    "title": "Placement Rules",
+    "sub": "Section I.B.19.a",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Never first",
+      "b": "Not principal or first-listed"
+     },
+     {
+      "h": "Injury code first",
+      "b": "External cause codes follow"
+     },
+     {
+      "h": "No injury, no code",
+      "b": "Medical conditions alone: none"
+     },
+     {
+      "h": "Each encounter",
+      "b": "Assign for every injury visit"
+     },
+     {
+      "h": "Any setting",
+      "b": "Where licensed professionals give care"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Treated at a Shelter",
+   "content": "**Documentation:** After a hurricane, a licensed nurse practitioner treats a patient for a laceration at an emergency shelter. The patient was cut by debris during the storm. The patient returns two days later for wound care.\n\n**Which guideline applies?** Section I.B.19.a.\n\n**Decision:**\n\n• The shelter **counts as a healthcare setting** — care was provided by a licensed healthcare professional.\n• Sequence the **injury (laceration) code first**, then the external cause code(s).\n• Assign the external cause code(s) at the **first visit and again at the follow-up visit**, since both are encounters for care and treatment of the injury.\n\n**Variation:** If another evacuee at the shelter is seen only for a medical condition with **no injury, adverse effect or poisoning**, no external cause code is assigned.",
+   "visual": {
+    "title": "Care at a Shelter",
+    "sub": "Applying Section I.B.19.a",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Setting",
+      "b": "Shelter counts: licensed provider"
+     },
+     {
+      "h": "1st code",
+      "b": "The injury"
+     },
+     {
+      "h": "Then",
+      "b": "External cause code(s)"
+     },
+     {
+      "h": "Follow-up visit",
+      "b": "External cause codes again"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.B.19.a, where are external cause of morbidity codes sequenced for a hurricane-related injury?",
+   "options": [
+    "After the appropriate injury code",
+    "As the principal diagnosis, because they explain the reason for the visit",
+    "Only on the first encounter for the injury",
+    "They are not used in non-inpatient settings"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.B.19.a states that external cause codes are never recorded as a principal diagnosis (first-listed in non-inpatient settings) and that the appropriate injury code should be sequenced before any external cause codes. Option B contradicts that. Option C is wrong because external cause codes should be assigned for each encounter for care and treatment of the injury. Option D is wrong because they may be assigned in all health care settings.",
+   "visual": {
+    "topic": "External cause sequencing",
+    "hint": "Which comes first: what the injury is, or how it happened?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "After a hurricane, a patient comes to a clinic for a refill of a regular medication for a chronic medical condition. There is no injury, adverse effect or poisoning. What does Section I.B.19.a say about external cause codes?",
+   "options": [
+    "Assign the hurricane external cause code as the first-listed code",
+    "Assign the hurricane external cause code as a secondary code",
+    "Do not assign external cause codes for this encounter",
+    "Assign external cause codes only if the clinic is a hospital"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.B.19.a says external cause codes should not be assigned for encounters to treat hurricane victims' medical conditions when no injury, adverse effect or poisoning is involved. Options A and B assign codes the guideline says not to use (and A also violates the never-first-listed rule). Option D is wrong because setting is not the issue; external cause codes may be assigned in all health care settings when they apply.",
+   "visual": {
+    "topic": "When external cause codes apply",
+    "hint": "Is there an injury, adverse effect or poisoning?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.19.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Hurricane Code Goes First Among External Causes",
+   "content": "Section I.B.19.b explains how to order external cause codes when there is more than one.\n\n**Priority rule:** codes for **cataclysmic events**, such as a hurricane, take priority over **all other external cause codes except child and adult abuse and terrorism**, and are sequenced before other external cause of injury codes.\n\n**Use as many as needed:** assign as many external cause codes as necessary to fully explain each cause.\n\n**The guideline's example:** an injury from a **building collapse during the hurricane** gets external cause codes for **both** the hurricane and the building collapse, with the **hurricane** code sequenced as the **first external cause code**.\n\n**Full order for an injury directly caused by the hurricane:**\n1. Code(s) for the **injuries**\n2. **X37.0-, Hurricane** (with the appropriate 7th character)\n3. Any other applicable external cause of injury codes",
+   "visual": {
+    "title": "Order for a Hurricane Injury",
+    "sub": "Section I.B.19.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Injury code(s)",
+      "b": "What the injury is"
+     },
+     {
+      "h": "2. X37.0-, Hurricane",
+      "b": "First external cause code, with 7th character"
+     },
+     {
+      "h": "3. Other external causes",
+      "b": "e.g., building collapse"
+     },
+     {
+      "h": "Priority exceptions",
+      "b": "Child and adult abuse, terrorism"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Flood, Levee, or Dam? Choosing the Right Code",
+   "content": "The rest of I.B.19.b separates causes that are easy to mix up:\n\n• **Flooding from a levee breaking related to the hurricane:** code **X37.0-** also should be assigned.\n• **Flooding resulting directly from the storm:** assign **X38.-, Flood** (with the appropriate 7th character).\n• **Collapse caused by the hurricane:** do **not** assign **X36.0-, Collapse of dam or man-made structure**.\n• **X36.0- is limited** to collapses of man-made structures due to **earth surface movements**, not due to storm surges directly from a hurricane.\n\n**Exam trap:** A structure that collapses because of the hurricane is **not** coded with X36.0-. That code is only for collapses from earth surface movements.\n\nNote: the official text prints this code once as \"X36.0.-\" and once as \"X36.0-\"; both refer to the same code, Collapse of dam or man-made structure.",
+   "visual": {
+    "title": "Flood, Levee or Collapse?",
+    "sub": "Section I.B.19.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Levee breaks (hurricane)",
+      "b": "X37.0- also assigned"
+     },
+     {
+      "h": "Flooding from the storm",
+      "b": "X38.-, Flood"
+     },
+     {
+      "h": "Collapse from hurricane",
+      "b": "Do NOT use X36.0-"
+     },
+     {
+      "h": "X36.0- is for",
+      "b": "Earth surface movements only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Injured When a Building Collapsed",
+   "content": "**Documentation:** A patient has a fractured arm after the roof of a store collapsed on them during a hurricane.\n\n**Which guideline applies?** Section I.B.19.b (this mirrors the guideline's building-collapse example).\n\n**Decision:**\n\n1. Sequence the **fracture** (the injury) first.\n2. Assign **X37.0-, Hurricane**, with the appropriate 7th character, as the **first external cause code**.\n3. Add an external cause code for the **building collapse**, since the guideline says to assign codes for both the hurricane and the building collapse.\n\n**What not to do:** Do **not** use **X36.0-, Collapse of dam or man-made structure**, because the collapse was due to the hurricane. X36.0- is limited to collapses from earth surface movements.",
+   "visual": {
+    "title": "Roof Collapse in a Hurricane",
+    "sub": "Applying Section I.B.19.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1st",
+      "b": "The fracture"
+     },
+     {
+      "h": "2nd",
+      "b": "X37.0-, Hurricane"
+     },
+     {
+      "h": "3rd",
+      "b": "Building collapse cause code"
+     },
+     {
+      "h": "Not used",
+      "b": "X36.0- (not earth movement)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is injured when a structure collapses during a hurricane. Which statement follows Section I.B.19.b?",
+   "options": [
+    "Assign X36.0-, Collapse of dam or man-made structure, as the first external cause code",
+    "Assign the external cause codes first, followed by the injury code",
+    "Assign only the hurricane code, because only one external cause code is allowed",
+    "Assign external cause codes for both the hurricane and the building collapse, with X37.0-, Hurricane, as the first external cause code"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.B.19.b says that for an injury from a building collapse during the hurricane, external cause codes for both the hurricane and the building collapse should be assigned, with the hurricane code as the first external cause code. Option A is wrong because X36.0- should not be assigned when the collapse is due to the hurricane. Option C is wrong because you assign as many external cause codes as necessary to fully explain each cause. Option B is wrong because the injury code is sequenced before external cause codes (I.B.19.a).",
+   "visual": {
+    "topic": "Building collapse",
+    "hint": "How many external cause codes may be used, and which goes first?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Under Section I.B.19.b, codes for cataclysmic events such as a hurricane take priority over all other external cause codes EXCEPT:",
+   "options": [
+    "Codes for place of occurrence and activity",
+    "Codes for child and adult abuse and terrorism",
+    "Codes for transport accidents",
+    "Codes for flood"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.B.19.b states that codes for cataclysmic events take priority over all other external cause codes except child and adult abuse and terrorism. Options A, C and D are not named as exceptions, so the hurricane code is sequenced before them.",
+   "visual": {
+    "topic": "Cataclysmic event priority",
+    "hint": "Two exceptions are named in the guideline."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is injured by floodwater that came from a levee breaking because of a hurricane. According to Section I.B.19.b, which code also should be assigned?",
+   "options": [
+    "X37.0-, Hurricane",
+    "X36.0-, Collapse of dam or man-made structure",
+    "No external cause code, because the levee failed, not the storm",
+    "Z59.1, Inadequate housing, as the first-listed code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.B.19.b states that code X37.0- also should be assigned when an injury is incurred as a result of flooding caused by a levee breaking related to the hurricane. Option B is wrong because X36.0- is limited to collapses due to earth surface movements, not storm surges from a hurricane. Option C contradicts the guideline. Option D is not supported; nothing in the scenario documents inadequate housing, and the injury code comes first.",
+   "visual": {
+    "topic": "Levee flooding",
+    "hint": "The guideline addresses this exact situation."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.19.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Was the Injury a Direct Result of the Hurricane?",
+   "content": "Section I.B.19.c deals with injuries that happen **during the hurricane period but not because of the storm**.\n\n• **Not a direct result:** for example, an **evacuee** injured in a **motor vehicle accident**. Assign the external cause code(s) that describe the actual cause, but **do not** assign **X37.0-, Hurricane**.\n• **Not clear whether it was a direct result:** **assume the injury is due to the hurricane**. Assign **X37.0-, Hurricane**, plus any other applicable external cause codes.\n\nOther external cause codes the guideline names as possibly applicable, in addition to X37.0-:\n\n• **X30-, Exposure to excessive natural heat**\n• **X31-, Exposure to excessive natural cold**\n• **X38-, Flood**\n\n**Exam trap:** The default when it is **unclear** is to **assume** the hurricane caused it — this is the opposite of what many students guess.",
+   "visual": {
+    "title": "Direct Result or Not?",
+    "sub": "Section I.B.19.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Not direct (e.g., MVA)",
+      "b": "Code the real cause; no X37.0-"
+     },
+     {
+      "h": "Unclear",
+      "b": "Assume hurricane: assign X37.0-"
+     },
+     {
+      "h": "Also possible",
+      "b": "X30- heat, X31- cold, X38- flood"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An evacuee is injured in a motor vehicle accident while driving away from the hurricane area. The injury was not a direct result of the hurricane. According to Section I.B.19.c, what should the coder do?",
+   "options": [
+    "Assign X37.0-, Hurricane, as the first external cause code",
+    "Assign no external cause codes",
+    "Assign external cause code(s) describing the cause of the injury, but not X37.0-, Hurricane",
+    "Assume the hurricane caused the injury"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.B.19.c uses this example: for an evacuee injured in a motor vehicle accident, assign the appropriate external cause code(s) to describe the cause of the injury, but do not assign code X37.0-, Hurricane. Option A assigns the hurricane code the guideline excludes. Option B is wrong because the injury still needs external cause codes for its actual cause. Option D applies only when it is not clear whether the injury was a direct result of the hurricane.",
+   "visual": {
+    "topic": "Indirect injuries",
+    "hint": "Was the hurricane the direct cause here?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The record does not make clear whether a patient's injury was a direct result of a hurricane. What does Section I.B.19.c instruct?",
+   "options": [
+    "Query the provider and hold the claim",
+    "Do not assign any external cause code",
+    "Assign X36.0-, Collapse of dam or man-made structure",
+    "Assume the injury is due to the hurricane and assign X37.0-, Hurricane, plus any other applicable external cause codes"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.B.19.c states, \"If it is not clear whether the injury was a direct result of the hurricane, assume the injury is due to the hurricane and assign code X37.0-, Hurricane, as well as any other applicable external cause of morbidity codes.\" Option A is not what this guideline instructs; it gives a default instead. Option B ignores the instruction. Option C is wrong because X36.0- is limited to collapses from earth surface movements and has nothing to do with this scenario.",
+   "visual": {
+    "topic": "Unclear cause",
+    "hint": "This guideline gives a default assumption."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.19.d"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Z Codes After a Hurricane",
+   "content": "**Z codes** describe **other reasons for healthcare encounters**. Section I.B.19.d says they may be assigned to:\n\n• further explain the reasons for presenting for healthcare services, **including transfers between healthcare facilities**, or\n• provide **additional information** relevant to the encounter.\n\nThe Official Guidelines identify which Z codes may be **principal/first-listed only**, **secondary only**, or **either**, depending on the circumstances.\n\nPossible applicable Z codes listed in the guideline:\n\n• **Z59.0-**, Homelessness\n• **Z59.1**, Inadequate housing\n• **Z59.5**, Extreme poverty\n• **Z75.1**, Person awaiting admission to adequate facility elsewhere\n• **Z75.3**, Unavailability and inaccessibility of health-care facilities\n• **Z75.4**, Unavailability and inaccessibility of other helping agencies\n• **Z76.2**, Encounter for health supervision and care of other healthy infant and child\n• **Z99.12**, Encounter for respirator [ventilator] dependence during power failure",
+   "visual": {
+    "title": "Hurricane-Related Z Codes",
+    "sub": "Examples listed in Section I.B.19.d",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Housing and money",
+      "b": "Z59.0- homeless, Z59.1, Z59.5"
+     },
+     {
+      "h": "Waiting for a facility",
+      "b": "Z75.1"
+     },
+     {
+      "h": "No access to help",
+      "b": "Z75.3 facilities, Z75.4 agencies"
+     },
+     {
+      "h": "Healthy child care",
+      "b": "Z76.2"
+     },
+     {
+      "h": "Power failure",
+      "b": "Z99.12 ventilator dependence"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Not an All-Inclusive List",
+   "content": "The last paragraph of I.B.19.d gives three practical instructions:\n\n• **The lists are examples.** The external cause codes and Z codes listed are **not all-inclusive**. Other codes may apply based on the documentation.\n• **Code completely.** Assign **as many codes as necessary** to fully explain each healthcare encounter.\n• **Use what you have.** Because patient history may be **very limited** after a disaster, use **any available documentation** to assign the appropriate external cause and Z codes.\n\n**What it does NOT mean:** It does not mean you may guess at codes without documentation. The codes must still be based on the documentation that is available.",
+   "visual": {
+    "title": "Coding With Limited Records",
+    "sub": "Section I.B.19.d, final paragraph",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Lists",
+      "b": "Examples, not all-inclusive"
+     },
+     {
+      "h": "How many codes",
+      "b": "As many as needed"
+     },
+     {
+      "h": "Limited history",
+      "b": "Use any available documentation"
+     },
+     {
+      "h": "Still required",
+      "b": "Codes based on documentation"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Ventilator and a Power Outage",
+   "content": "**Documentation:** After a hurricane knocks out electricity, a patient who depends on a home ventilator comes to a hospital because the ventilator has no power. The patient's home was also destroyed, and the provider documents that the patient is now homeless.\n\n**Which guideline applies?** Section I.B.19.d.\n\n**Decision:**\n\n• **Z99.12**, Encounter for respirator [ventilator] dependence during power failure, explains the reason for the encounter.\n• **Z59.0-**, Homelessness, adds relevant information (completed to the full code the documentation supports).\n• Assign as many codes as necessary to fully explain the encounter.\n• Check the Official Guidelines for whether each Z code may be first-listed, secondary only, or either.\n\n**No external cause code is needed** for the power-failure visit itself if no injury, adverse effect or poisoning is involved (I.B.19.a).",
+   "visual": {
+    "title": "Ventilator Without Power",
+    "sub": "Applying Section I.B.19.d",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Reason for visit",
+      "b": "Z99.12"
+     },
+     {
+      "h": "Lost home",
+      "b": "Z59.0-, Homelessness"
+     },
+     {
+      "h": "No injury",
+      "b": "No external cause code"
+     },
+     {
+      "h": "Check",
+      "b": "First-listed vs secondary rules"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about the Z codes listed in Section I.B.19.d is correct?",
+   "options": [
+    "Only the Z codes listed may be used for hurricane-related encounters",
+    "The list is not all-inclusive; other codes may apply based on the documentation",
+    "Z codes may never be used for transfers between healthcare facilities",
+    "Only one Z code may be assigned per encounter"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.B.19.d states that the external cause codes and Z codes listed are not an all-inclusive list and that other codes may be applicable based upon the documentation. Option A contradicts this. Option C is wrong because the guideline specifically mentions transfers between healthcare facilities. Option D is wrong because the guideline says to assign as many codes as necessary to fully explain each encounter.",
+   "visual": {
+    "topic": "Hurricane Z codes",
+    "hint": "Is the list a complete list or a set of examples?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.20"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Multiple Sites",
+   "content": "Section I.B.20 defines **\"multiple\"** in ICD-10-CM as involving **two or more sites**.\n\nThe decision order:\n\n1. **Chapter-specific guidelines come first.** Follow them when they address \"multiple sites.\"\n2. **No chapter-specific guideline and the sites are specified:** assign codes describing the **specified sites individually**.\n3. **Sites not documented:** assign the appropriate code for **\"multiple sites.\"**\n\n**What it does NOT mean:** a \"multiple sites\" code is not a shortcut when the record names each site. If the specified sites are documented, code them individually (unless a chapter-specific guideline says otherwise).",
+   "visual": {
+    "title": "Multiple Sites Decision",
+    "sub": "Section I.B.20",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Definition",
+      "b": "Multiple = two or more sites"
+     },
+     {
+      "h": "Step 1",
+      "b": "Follow chapter-specific guidelines"
+     },
+     {
+      "h": "Sites documented",
+      "b": "Code each specified site"
+     },
+     {
+      "h": "Sites not documented",
+      "b": "Use the multiple sites code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Two Joints Named, or Not Named",
+   "content": "**Scenario 1:** The provider documents a condition affecting two specific, named joints. No chapter-specific guideline addresses multiple sites for this condition.\n\n**Decision:** Under Section I.B.20, assign codes describing **each specified site individually**.\n\n**Scenario 2:** The provider documents the same type of condition affecting \"multiple sites\" but never says which ones.\n\n**Decision:** The specified sites are **not documented**, so assign the appropriate code for **\"multiple sites.\"**\n\n**Exam trap:** The word \"multiple\" in the record does not automatically mean the \"multiple sites\" code. Check first whether the sites are named.",
+   "visual": {
+    "title": "Named Sites vs Unnamed",
+    "sub": "Applying Section I.B.20",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Sites named",
+      "b": "Code each site individually"
+     },
+     {
+      "h": "Sites not named",
+      "b": "Use the multiple sites code"
+     },
+     {
+      "h": "First, always",
+      "b": "Check chapter-specific rules"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents a condition affecting two specified sites, and there is no chapter-specific guideline for multiple sites. According to Section I.B.20, how should it be coded?",
+   "options": [
+    "Assign codes describing the specified sites individually",
+    "Assign the code for \"multiple sites\"",
+    "Assign the code for the more severe site only",
+    "Assign an unspecified site code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.B.20 states that in the absence of chapter-specific guidelines, assign codes describing specified sites individually when documented. Option B applies only when the specified sites are not documented. Options C and D are not supported by the guideline; the sites are known and both should be reported.",
+   "visual": {
+    "topic": "Multiple sites",
+    "hint": "Are the sites documented?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying I.B.19 and I.B.20 on a Real Record",
+   "content": "**For a hurricane-related encounter:**\n\n1. **Is there an injury, adverse effect or poisoning?** If not, do not assign external cause codes (I.B.19.a). Consider Z codes instead (I.B.19.d).\n2. **Sequence the injury code(s) first.** External cause codes are never principal or first-listed (I.B.19.a).\n3. **Was the injury a direct result of the hurricane?**\n   • Yes, or unclear: assign **X37.0-, Hurricane**, as the first external cause code (I.B.19.b, I.B.19.c).\n   • No (e.g., an evacuee's car accident): code the actual cause; do not assign X37.0- (I.B.19.c).\n4. **Add other external causes** as needed — for example, the building collapse, X38.- for flooding directly from the storm, X30- or X31- for heat or cold exposure. Do not use X36.0- for a collapse caused by the hurricane (I.B.19.b, I.B.19.c).\n5. **Repeat external cause codes** at each encounter for the injury (I.B.19.a).\n6. **Add Z codes** for homelessness, housing, access to care, transfers, or power failure as documented (I.B.19.d).\n\n**For any record that mentions multiple sites:**\n\n7. Check chapter-specific guidelines; code named sites individually; use \"multiple sites\" only when the sites are not documented (I.B.20).",
+   "visual": {
+    "title": "Hurricane Encounter Steps",
+    "sub": "Sections I.B.19 and I.B.20",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Injury?",
+      "b": "No: no external cause code"
+     },
+     {
+      "h": "2. Order",
+      "b": "Injury code, then X37.0-"
+     },
+     {
+      "h": "3. Direct result?",
+      "b": "No: skip X37.0-; unclear: use it"
+     },
+     {
+      "h": "4. Add causes",
+      "b": "Collapse, flood, heat, cold"
+     },
+     {
+      "h": "5. Z codes",
+      "b": "Housing, access, power failure"
+     },
+     {
+      "h": "6. Multiple sites",
+      "b": "Named: code each one"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• External cause codes after a hurricane explain **cause, intent, place, activity and status**; they are **supplemental** and **never principal or first-listed** (I.B.19.a).\n• The **injury code comes first**; external cause codes follow and are assigned at **each encounter** for the injury (I.B.19.a).\n• **No injury, adverse effect or poisoning = no external cause code** for a hurricane victim's medical condition (I.B.19.a).\n• A healthcare setting is **any location where licensed healthcare professionals provide care** (I.B.19.a).\n• Cataclysmic event codes like **X37.0-, Hurricane**, come first among external causes, **except** child and adult abuse and terrorism (I.B.19.b).\n• **Not** X36.0- for a collapse due to the hurricane; **X37.0-** for levee-break flooding related to the hurricane; **X38.-** for flooding directly from the storm (I.B.19.b).\n• Indirect injury: no X37.0-. **Unclear: assume the hurricane** (I.B.19.c).\n• Z code lists are examples; use any available documentation (I.B.19.d). \"Multiple\" means **two or more sites**; code named sites individually (I.B.20).",
+   "visual": {
+    "title": "Lesson Summary",
+    "sub": "Sections I.B.19 and I.B.20",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "External causes",
+      "b": "Supplemental; after injury code"
+     },
+     {
+      "h": "Hurricane code",
+      "b": "X37.0-, first external cause"
+     },
+     {
+      "h": "Unclear cause",
+      "b": "Assume the hurricane"
+     },
+     {
+      "h": "Not X36.0-",
+      "b": "When hurricane caused collapse"
+     },
+     {
+      "h": "Z codes",
+      "b": "Housing, access, transfers"
+     },
+     {
+      "h": "Multiple",
+      "b": "Two or more sites"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about external cause codes in hurricane aftermath is correct under Section I.B.19.a?",
+   "options": [
+    "They are assigned only at the first encounter for an injury",
+    "They may be reported as the first-listed diagnosis in outpatient settings",
+    "A healthcare setting is any location where medical care is provided by licensed healthcare professionals",
+    "They are required for every hurricane victim, even when no injury, adverse effect or poisoning is involved"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.B.19.a states that for the purpose of capturing complete and accurate data after the hurricane, a healthcare setting should be considered as any location where medical care is provided by licensed healthcare professionals. Option A is wrong because they should be assigned for each encounter for care and treatment of the injury. Option B is wrong because they are never recorded as principal (first-listed in non-inpatient settings). Option D is wrong because they should not be assigned when no injury, adverse effect or poisoning is involved.",
+   "visual": {
+    "topic": "Hurricane external causes",
+    "hint": "Review the definition of a healthcare setting in the aftermath."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is injured by flooding that resulted directly from the hurricane's storm. Based on Section I.B.19.b, which external cause code describes the flooding?",
+   "options": [
+    "X36.0-, Collapse of dam or man-made structure",
+    "Z59.1, Inadequate housing",
+    "X31-, Exposure to excessive natural cold",
+    "X38.-, Flood, with the appropriate 7th character"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.B.19.b states that code X38.-, Flood (with the appropriate 7th character), should be assigned when an injury is from flooding resulting directly from the storm. Option A is limited to collapses of man-made structures due to earth surface movements. Option C describes exposure to cold, not flooding. Option B is a Z code for a social circumstance, not an external cause of injury.",
+   "visual": {
+    "topic": "Flood injuries",
+    "hint": "Match the cause named in the scenario to the code title."
+   }
+  }
+ ]
+}

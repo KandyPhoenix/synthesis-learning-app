@@ -1,0 +1,748 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Z Codes: More Than a Diagnosis",
+   "content": "Chapter 21 (Z00-Z99) is titled **Factors influencing health status and contact with health services**. Its codes are called **Z codes**.\n\nZ codes describe things that are not a current disease or injury but still matter to the encounter. For example:\n\n• a patient was **exposed** to a communicable disease,\n• a patient came in for a **vaccine**,\n• a patient has a **status** that affects care, such as a transplanted organ, a pacemaker, long-term drug therapy, or do not resuscitate status.\n\nThis is the first of three Z code lessons. It covers:\n\n• where and how Z codes can be used (Sections I.C.21.a-b)\n• **contact/exposure** codes (I.C.21.c.1)\n• **inoculations and vaccinations** (I.C.21.c.2)\n• **status** codes, one of the most tested lists in Chapter 21 (I.C.21.c.3)",
+   "visual": {
+    "title": "Chapter 21: Z Codes",
+    "sub": "Factors influencing health status and contact with health services",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Any setting",
+      "b": "Inpatient, outpatient, any healthcare setting"
+     },
+     {
+      "h": "First or secondary",
+      "b": "Depends on the encounter"
+     },
+     {
+      "h": "Not procedures",
+      "b": "A procedure code is still needed"
+     },
+     {
+      "h": "This lesson",
+      "b": "Contact/exposure, vaccines, status"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.21"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.21.a"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.21.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: How Z Codes Are Used (I.C.21.a-b)",
+   "content": "**Section I.C.21 note:** The chapter-specific guidelines give extra information on using Z codes for specific kinds of encounters. That is what Sections I.C.21.c.1-17 do.\n\n**Section I.C.21.a: any setting, first or second.**\n\n• Z codes may be used in **any healthcare setting**.\n• A Z code may be **first-listed** (the **principal diagnosis** in the inpatient setting) **or secondary**, depending on the circumstances of the encounter.\n• **Certain** Z codes may **only** be used as first-listed or principal diagnosis. (That list is in Section I.C.21.c.15, covered in Z Codes III.)\n\n**Section I.C.21.b: Z codes are not procedure codes.**\n\n• A Z code explains the **reason** for an encounter or gives **extra information** about it.\n• If a procedure is performed, a **corresponding procedure code must accompany** the Z code.\n\n**What it does NOT mean:** A Z code is not \"outpatient only,\" and it is not \"secondary only.\" Both are common misconceptions.",
+   "visual": {
+    "title": "Z Code Ground Rules",
+    "sub": "Sections I.C.21.a and I.C.21.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Setting",
+      "b": "Any healthcare setting"
+     },
+     {
+      "h": "Position",
+      "b": "First-listed/principal OR secondary"
+     },
+     {
+      "h": "Some Z codes",
+      "b": "May only be first-listed/principal"
+     },
+     {
+      "h": "Procedures",
+      "b": "Z code + a procedure code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.21.a, which statement about Z codes is correct?",
+   "options": [
+    "Z codes may be first-listed (principal in the inpatient setting) or secondary, depending on the circumstances of the encounter",
+    "Z codes may never be the principal diagnosis",
+    "Z codes may be used only in the outpatient setting",
+    "Z codes may only be reported as secondary codes"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.21.a says Z codes are for use in any healthcare setting and may be used as either a first-listed (principal diagnosis code in the inpatient setting) or secondary code, depending on the circumstances of the encounter.\n\nC is wrong because Z codes may be used in any healthcare setting. B and D are wrong because the same section allows Z codes as principal or first-listed, and even says certain Z codes may only be used as first-listed or principal diagnosis.",
+   "visual": {
+    "topic": "Z code use",
+    "hint": "Think about setting and position."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient comes in for a vaccination and a Z code is assigned for the encounter. According to Section I.C.21.b, what else is needed to describe the injection itself?",
+   "options": [
+    "Nothing; the Z code fully describes the procedure",
+    "An external cause code",
+    "A second Z code for the procedure",
+    "A corresponding procedure code"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.b states Z codes are not procedure codes; a corresponding procedure code must accompany a Z code to describe any procedure performed. Section I.C.21.c.2 repeats this for vaccines: procedure codes are required to identify the actual administration of the injection and the type(s) of immunizations given.\n\nA is wrong because Z codes are not procedure codes. C is wrong because a second Z code still would not be a procedure code. B is wrong because external cause codes describe how an injury or condition happened, not procedures performed.",
+   "visual": {
+    "topic": "Z codes vs procedures",
+    "hint": "What kind of code describes something that was done?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.21.c.1-3"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Contact/Exposure (I.C.21.c.1)",
+   "content": "Two categories describe a **possible** exposure, not a confirmed disease.\n\n**Z20: contact with and suspected exposure to communicable diseases.** For patients **suspected** to have been exposed to a disease by:\n\n• **close personal contact** with an infected individual, or\n• being in an **area where a disease is epidemic**.\n\n**Z77: Other contact with and (suspected) exposures hazardous to health.** Indicates contact with and suspected exposures hazardous to health.\n\n**Sequencing:** Contact/exposure codes may be:\n\n• **first-listed** to explain an encounter **for testing**, or\n• more commonly, **secondary**, to identify a **potential risk**.\n\n**What it does NOT mean:** A contact/exposure code does not say the patient has the disease.",
+   "visual": {
+    "title": "Contact and Exposure",
+    "sub": "Section I.C.21.c.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z20",
+      "b": "Contact with / suspected exposure to communicable diseases"
+     },
+     {
+      "h": "Z77",
+      "b": "Other contact / suspected exposures hazardous to health"
+     },
+     {
+      "h": "First-listed",
+      "b": "To explain an encounter for testing"
+     },
+     {
+      "h": "Secondary (more common)",
+      "b": "To identify a potential risk"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient comes in for testing because a close household member has a communicable disease. The patient has no symptoms. According to Section I.C.21.c.1, which category describes this, and how may it be sequenced?",
+   "options": [
+    "Z77, and it must always be secondary",
+    "Z22, Carrier of infectious disease, first-listed",
+    "Z20, and it may be first-listed to explain an encounter for testing",
+    "Z20, but it may never be first-listed"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.21.c.1 says category Z20 indicates contact with, and suspected exposure to, communicable diseases, for patients suspected of exposure through close personal contact with an infected individual. Contact/exposure codes may be used as a first-listed code to explain an encounter for testing, or, more commonly, as a secondary code.\n\nA is wrong because Z77 is for other contact with and suspected exposures hazardous to health, and contact/exposure codes are not limited to secondary. B is wrong because a carrier (Z22) harbors the organisms of a disease; nothing says this patient does. D is wrong because the guideline allows first-listed use for testing encounters.",
+   "visual": {
+    "topic": "Contact/exposure",
+    "hint": "Exposure to an infected person, visit is for testing."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Vaccinations, Z23 (I.C.21.c.2)",
+   "content": "**Code Z23** is for encounters for **inoculations and vaccinations**. It shows the patient is being seen to receive a **prophylactic** (preventive) inoculation against a disease.\n\n**Rules:**\n\n• **Procedure codes are required** to identify the actual administration of the injection **and** the type(s) of immunizations given.\n• Z23 **may be used as a secondary code** if the inoculation is given as a **routine part of preventive health care**, such as a **well-baby visit**.\n\n**Putting it together:** At a visit just for a vaccine, Z23 explains the encounter. At a well-baby visit where a vaccine is given as part of routine care, Z23 may be listed as a secondary code.",
+   "visual": {
+    "title": "Vaccination Encounters: Z23",
+    "sub": "Section I.C.21.c.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z23 means",
+      "b": "Seen to receive a preventive inoculation"
+     },
+     {
+      "h": "Always add",
+      "b": "Procedure code(s) for the injection and vaccine type"
+     },
+     {
+      "h": "Well-baby visit",
+      "b": "Z23 may be a secondary code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An infant receives routine vaccines during a well-baby visit. According to Section I.C.21.c.2, how may code Z23 be used?",
+   "options": [
+    "Z23 may not be used because the visit was not only for vaccines",
+    "Z23 may be used as a secondary code because the inoculation was a routine part of preventive health care",
+    "Z23 replaces the need for procedure codes",
+    "Z23 must be the only code reported"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.2 says code Z23 may be used as a secondary code if the inoculation is given as a routine part of preventive health care, such as a well-baby visit.\n\nA is wrong because the guideline specifically allows Z23 in this situation. C is wrong because procedure codes are required to identify the administration of the injection and the type(s) of immunizations given. D is wrong because the guideline describes Z23 as secondary here, so other codes are reported too.",
+   "visual": {
+    "topic": "Z23 vaccinations",
+    "hint": "The vaccine was part of a bigger preventive visit."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Status vs. History (I.C.21.c.3)",
+   "content": "**Status codes** show that a patient:\n\n• is a **carrier** of a disease, or\n• has the **sequelae or residual** of a past disease or condition, including the **presence of prosthetic or mechanical devices** from past treatment.\n\nA status code is **informative**, because the status may affect the course of treatment and its outcome.\n\n**Status vs. history:** A status code is **distinct from a history code**. A **history** code means the patient **no longer has the condition**. (History codes are covered in Z Codes II.)\n\n**Do not double up.** Do not use a status code with a body system diagnosis code if the diagnosis code **already includes** the status information.\n\n• Example from the guideline: do **not** use **Z94.1, Heart transplant status**, with a code from subcategory **T86.2, Complications of heart transplant**. The complication code already shows the patient is a heart transplant patient.\n\n**Ventilator weaning:** For encounters for weaning from a mechanical ventilator, assign a code from subcategory **J96.1, Chronic respiratory failure**, followed by **Z99.11, Dependence on respirator [ventilator] status**.",
+   "visual": {
+    "title": "Status Codes",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Status",
+      "b": "Carrier, or residual of a past condition/device"
+     },
+     {
+      "h": "History",
+      "b": "Condition no longer exists"
+     },
+     {
+      "h": "Redundant?",
+      "b": "Skip status if the dx code already says it"
+     },
+     {
+      "h": "Z94.1 + T86.2",
+      "b": "Do not use together"
+     },
+     {
+      "h": "Ventilator weaning",
+      "b": "J96.1 first, then Z99.11"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Heart Transplant Complication",
+   "content": "**Documentation:** A patient with a heart transplant is admitted with a complication of the transplanted heart.\n\n**Which guideline applies?** Section I.C.21.c.3 (status codes).\n\n**Decision:**\n\n• Assign the complication code from subcategory **T86.2, Complications of heart transplant**.\n• Do **not** add **Z94.1, Heart transplant status**. The guideline says the status code does not provide additional information, because the complication code already indicates that the patient is a heart transplant patient.\n\n**Contrast:** If the same patient came in for an unrelated problem and there was **no** transplant complication, the status code could add useful information, because the status may affect the course of treatment. (Also see the note at the end of the status list: categories Z93-Z99 are for use only if there are no complications or malfunctions.)",
+   "visual": {
+    "title": "Status Code or Not?",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Complication of transplant",
+      "b": "T86.2 code; no Z94.1"
+     },
+     {
+      "h": "No complication",
+      "b": "Z94.1 may add useful information"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for a complication of a heart transplant, coded to subcategory T86.2. According to Section I.C.21.c.3, should Z94.1, Heart transplant status, also be assigned?",
+   "options": [
+    "No, because the complication code already indicates the patient is a heart transplant patient",
+    "Yes, status codes are always added for transplant patients",
+    "Yes, and Z94.1 should be sequenced first",
+    "Only if the transplant was done at another facility"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.21.c.3 says a status code should not be used with a diagnosis code from a body system chapter if the diagnosis code includes the information provided by the status code. Its example is exactly this: Z94.1 should not be used with a code from subcategory T86.2, because the complication code indicates that the patient is a heart transplant patient.\n\nB is wrong because the guideline gives this case as an exception. C is wrong because Z94.1 should not be used at all here. D is wrong because the guideline does not depend on where the transplant was done.",
+   "visual": {
+    "topic": "Redundant status codes",
+    "hint": "Does the complication code already tell you?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for an encounter for weaning from a mechanical ventilator. According to Section I.C.21.c.3, what is the correct coding?",
+   "options": [
+    "Z99.11 only",
+    "Z99.12 as the principal diagnosis",
+    "Z99.11 followed by a code from subcategory J96.1",
+    "A code from subcategory J96.1, Chronic respiratory failure, followed by Z99.11, Dependence on respirator [ventilator] status"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.c.3 states: for encounters for weaning from a mechanical ventilator, assign a code from subcategory J96.1, Chronic respiratory failure, followed by code Z99.11, Dependence on respirator [ventilator] status.\n\nA is wrong because the J96.1 code is required. C is wrong because the order is reversed. B is wrong because Z99.12 is for an encounter for respirator dependence during power failure (listed in I.C.21.c.15), which is not this situation.",
+   "visual": {
+    "topic": "Ventilator weaning",
+    "hint": "Respiratory failure code, then the dependence status."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Genetic Carrier, Susceptibility, Infectious Carrier and HIV",
+   "content": "These four status codes are easy to mix up.\n\n• **Z14, Genetic carrier:** the person carries a **gene** linked to a disease that **may be passed to offspring**. The person **does not have the disease** and is **not at risk** of developing it.\n• **Z15, Genetic susceptibility to disease:** the person has a gene that **increases their own risk** of developing the disease.\n• **Z21, Asymptomatic HIV infection status:** the patient **tested positive for HIV** but has **no signs or symptoms** of the disease.\n• **Z22, Carrier of infectious disease:** the person **harbors the organisms** of a disease **without manifest symptoms** and **can transmit** the infection.\n\n**Exam trap:** Z14 = risk to **children**; Z15 = risk to **self**.",
+   "visual": {
+    "title": "Four Look-Alike Status Codes",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z14 Genetic carrier",
+      "b": "Gene may pass to offspring; person not at risk"
+     },
+     {
+      "h": "Z15 Susceptibility",
+      "b": "Gene raises the person's own risk"
+     },
+     {
+      "h": "Z21 Asymptomatic HIV",
+      "b": "HIV positive, no signs or symptoms"
+     },
+     {
+      "h": "Z22 Infectious carrier",
+      "b": "Harbors organisms, no symptoms, can transmit"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Sequencing Z15, Genetic Susceptibility",
+   "content": "Codes from category **Z15** should **generally not** be principal or first-listed. The guideline gives three situations:\n\n**1. The patient has the condition, and it is the reason for the encounter.** Sequence the code for the **current condition first**.\n\n**2. Follow-up after completed treatment, and the condition no longer exists.** Sequence a **follow-up code first**, then the appropriate **personal history** and **genetic susceptibility** codes.\n\n**3. Genetic counseling associated with procreative management.** Assign **Z31.5, Encounter for genetic counseling**, as the **first-listed** code, followed by a code from **Z15**.\n\nIn all cases, assign additional codes for any applicable **family or personal history**.",
+   "visual": {
+    "title": "Sequencing Z15",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Has the condition",
+      "b": "Current condition first, then Z15"
+     },
+     {
+      "h": "Follow-up, condition gone",
+      "b": "Follow-up code, then history and Z15"
+     },
+     {
+      "h": "Genetic counseling",
+      "b": "Procreative management: Z31.5 first, then Z15"
+     },
+     {
+      "h": "Always",
+      "b": "Add family/personal history codes as applicable"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a genetic susceptibility to a disease comes in for genetic counseling associated with procreative management. According to Section I.C.21.c.3, what is sequenced first?",
+   "options": [
+    "A code from category Z15",
+    "A family history code",
+    "Z31.5, Encounter for genetic counseling, followed by a code from category Z15",
+    "Z14, Genetic carrier"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.21.c.3 says if the purpose of the encounter is genetic counseling associated with procreative management, code Z31.5, Encounter for genetic counseling, should be assigned as the first-listed code, followed by a code from category Z15.\n\nA is wrong because Z15 codes should generally not be principal or first-listed. B is wrong because history codes are additional codes here, not first-listed. D is wrong because Z14 describes a carrier who is not at risk, and the scenario describes susceptibility (Z15).",
+   "visual": {
+    "topic": "Genetic susceptibility",
+    "hint": "What is the purpose of the visit?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Z16 through Z67",
+   "content": "**Z16, Resistance to antimicrobial drugs:** the patient's condition resists antimicrobial treatment. **Sequence the infection code first.**\n\n**Z17** Estrogen, and other hormones and factors receptor status; **Z18** Retained foreign body fragments; **Z19** Hormone sensitivity malignancy status. (The guideline lists these with no extra instructions.)\n\n**Z28.3, Underimmunization status.** See Section I.B.14 for underimmunization documentation by clinicians other than the patient's provider.\n\n**Z33.1, Pregnant state, incidental:** a **secondary code only**, used when the pregnancy is **in no way complicating** the reason for the visit. Otherwise, a code from the **obstetric chapter** is required.\n\n**Z66, Do not resuscitate:** may be used when the provider documents the patient is on DNR status **at any time during the stay**.\n\n**Z67, Blood type.**",
+   "visual": {
+    "title": "Status Codes Z16 to Z67",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z16",
+      "b": "Antimicrobial resistance: infection code first"
+     },
+     {
+      "h": "Z33.1",
+      "b": "Secondary only; pregnancy not complicating the visit"
+     },
+     {
+      "h": "Complicating pregnancy?",
+      "b": "Use the obstetric chapter"
+     },
+     {
+      "h": "Z66 DNR",
+      "b": "Provider documents DNR at any time in the stay"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient is treated for a condition that the provider documents is in no way complicating the pregnancy, and the pregnancy is not the reason for the visit. According to Section I.C.21.c.3, how is Z33.1, Pregnant state, incidental, used?",
+   "options": [
+    "As the first-listed code",
+    "As a secondary code only",
+    "It cannot be used; an obstetric chapter code is always required",
+    "Together with a code from the obstetric chapter for the same pregnancy"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.3 says Z33.1 is a secondary code only for use when the pregnancy is in no way complicating the reason for visit. Otherwise, a code from the obstetric chapter is required.\n\nA is wrong because Z33.1 is a secondary code only. C is wrong because Z33.1 exists for exactly this situation; obstetric chapter codes are required only when the pregnancy is complicating the reason for the visit. D is wrong because the guideline presents Z33.1 and the obstetric chapter codes as alternatives: Z33.1 when the pregnancy is not complicating the visit, otherwise an OB code.",
+   "visual": {
+    "topic": "Incidental pregnancy",
+    "hint": "Is the pregnancy complicating the visit?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "On day 1 of an admission the patient is a full code. On day 4 the provider documents that the patient is now do not resuscitate (DNR). According to Section I.C.21.c.3, may Z66 be assigned?",
+   "options": [
+    "Yes, Z66 may be used when the provider documents DNR status at any time during the stay",
+    "No, DNR status must be present on admission",
+    "No, Z66 is only for outpatient encounters",
+    "Yes, but only if a nurse documents it"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.21.c.3 states Z66, Do not resuscitate, may be used when it is documented by the provider that a patient is on do not resuscitate status at any time during the stay.\n\nB is wrong because the guideline says at any time during the stay. C is wrong because the guideline refers to a stay and Z codes can be used in any healthcare setting (I.C.21.a). D is wrong because the guideline requires documentation by the provider.",
+   "visual": {
+    "topic": "DNR status",
+    "hint": "Look at the timing language in the guideline."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: BMI Codes, Z68",
+   "content": "BMI (body mass index) codes have three rules in Section I.C.21.c.3:\n\n**1. Needs an associated diagnosis.** BMI codes should only be assigned when there is an **associated, reportable diagnosis** (such as **obesity** or **anorexia**) documented by the patient's provider.\n\n**2. Not during pregnancy.** Do **not** assign BMI codes during pregnancy.\n\n**3. Fluctuating values.** When the documentation shows **fluctuating BMI values** during the current encounter for an associated reportable condition, assign a code for the **most severe** value.\n\nThe guideline also points to Section I.B.14 for BMI documentation by clinicians other than the patient's provider.\n\n**What it does NOT mean:** A BMI number in the record is not enough by itself. There must be an associated reportable diagnosis documented by the provider.",
+   "visual": {
+    "title": "BMI Codes: Z68",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Requires",
+      "b": "Associated reportable diagnosis by the provider"
+     },
+     {
+      "h": "Examples",
+      "b": "Obesity, anorexia"
+     },
+     {
+      "h": "Pregnancy",
+      "b": "Do not assign BMI codes"
+     },
+     {
+      "h": "Fluctuating BMI",
+      "b": "Code the most severe value"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's BMI is recorded at each visit. The provider has documented obesity as a reportable diagnosis. During this encounter the BMI values fluctuate. According to Section I.C.21.c.3, which BMI value is coded?",
+   "options": [
+    "The first value recorded",
+    "The average of all the values",
+    "No BMI code, because the values changed",
+    "The most severe value"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.c.3 says when the documentation reflects fluctuating BMI values during the current encounter for an associated reportable condition, assign a code for the most severe value.\n\nA and B are wrong because the guideline does not use the first value or an average. C is wrong because fluctuating values are addressed directly by the guideline, which still calls for a BMI code (the most severe value) when there is an associated reportable diagnosis.",
+   "visual": {
+    "topic": "BMI codes",
+    "hint": "The guideline picks one specific value."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient's record shows a BMI value. According to Section I.C.21.c.3, should a Z68 BMI code be assigned?",
+   "options": [
+    "Yes, if the BMI is over the normal range",
+    "Yes, as the first-listed code",
+    "No, do not assign BMI codes during pregnancy",
+    "Yes, if a nurse documented it"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.21.c.3 states: do not assign BMI codes during pregnancy.\n\nA, B and D are wrong because each would assign a BMI code during pregnancy, which the guideline prohibits. In addition, BMI codes outside pregnancy require an associated reportable diagnosis documented by the patient's provider.",
+   "visual": {
+    "topic": "BMI and pregnancy",
+    "hint": "Pregnancy has its own BMI rule."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Z74.01, Z76.82 and Restraints (Z78.1)",
+   "content": "**Z74.01, Bed confinement status** and **Z76.82, Awaiting organ transplant status** are listed as status codes.\n\n**Z78, Other specified health status**, includes **Z78.1, Physical restraint status**:\n\n• May be used when the **provider documents** that the patient has been put in **restraints during the current encounter**.\n• Should **not** be reported when the provider documents that the patient is **temporarily restrained during a procedure**.\n\n**Exam trap:** Restraint for safety during the stay (documented by the provider) = Z78.1 may be used. Temporary restraint as part of a procedure = do not report Z78.1.",
+   "visual": {
+    "title": "Physical Restraint: Z78.1",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Restrained this encounter",
+      "b": "Provider documents it: Z78.1 may be used"
+     },
+     {
+      "h": "Restrained for a procedure",
+      "b": "Temporary: do not report Z78.1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents that a patient was temporarily restrained during a procedure. According to Section I.C.21.c.3, should Z78.1, Physical restraint status, be reported?",
+   "options": [
+    "Yes, any restraint is reported",
+    "No, Z78.1 should not be reported when the patient is temporarily restrained during a procedure",
+    "Yes, if the restraint lasted more than one hour",
+    "Yes, as the principal diagnosis"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.3 says Z78.1 may be used when the provider documents that a patient has been put in restraints during the current encounter, but should not be reported when the provider documents that a patient is temporarily restrained during a procedure.\n\nA is wrong because the guideline names this exception. C is wrong because the guideline gives no time threshold. D is wrong because the code is not to be reported at all in this situation.",
+   "visual": {
+    "topic": "Restraint status",
+    "hint": "Why was the patient restrained?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Long-Term Drug Therapy, Z79",
+   "content": "Codes from **Z79, Long-term (current) drug therapy**, show a patient's **continuous use of a prescribed drug** (including such things as **aspirin therapy**) for:\n\n• long-term **treatment** of a condition, or\n• **prophylactic** use (prevention).\n\n**Assign Z79 when** the patient is receiving a medication for an **extended period**:\n\n• as a prophylactic measure (such as **prevention of deep vein thrombosis**),\n• as treatment of a **chronic condition** (such as **arthritis**), or\n• for a disease requiring a **lengthy course of treatment** (such as **cancer**).\n\n**Do NOT assign Z79:**\n\n• for medication given for a **brief period** to treat an **acute** illness or injury (such as a **course of antibiotics for acute bronchitis**),\n• for patients with **addictions** to drugs,\n• for medications for **detoxification or maintenance programs** to prevent withdrawal (e.g., **methadone maintenance for opiate dependence**). Assign the code for the drug use, abuse, or dependence instead.",
+   "visual": {
+    "title": "Long-Term Drug Therapy: Z79",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Use Z79",
+      "b": "Extended use: prophylaxis, chronic condition, lengthy treatment"
+     },
+     {
+      "h": "Includes",
+      "b": "Aspirin therapy"
+     },
+     {
+      "h": "Not Z79",
+      "b": "Brief course for an acute illness or injury"
+     },
+     {
+      "h": "Not Z79",
+      "b": "Addiction, detox, or maintenance (e.g., methadone)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which situation supports assigning a code from category Z79, Long-term (current) drug therapy, according to Section I.C.21.c.3?",
+   "options": [
+    "A prescribed drug taken for an extended period to prevent deep vein thrombosis",
+    "Methadone maintenance for opiate dependence",
+    "A 10-day course of antibiotics for acute bronchitis",
+    "A single dose of medication given in the emergency department"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.21.c.3 says to assign a code from Z79 if the patient is receiving a medication for an extended period as a prophylactic measure (such as for the prevention of deep vein thrombosis).\n\nC is wrong because Z79 is not assigned for medication administered for a brief period to treat an acute illness, such as antibiotics for acute bronchitis. B is wrong because Z79 is not for detoxification or maintenance programs to prevent withdrawal (e.g., methadone maintenance for opiate dependence); the code for the drug use, abuse, or dependence is assigned instead. D is wrong because a single dose is not continuous, extended use.",
+   "visual": {
+    "topic": "Long-term drug therapy",
+    "hint": "Look for extended, continuous use."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Allergies, Absences and Z92.82 (tPA)",
+   "content": "**Z88, Allergy status to drugs, medicaments and biological substances** is a status category, **except Z88.9** (the unspecified code, which is listed with the nonspecific Z codes in Section I.C.21.c.14).\n\n**Z89** Acquired absence of limb; **Z90** Acquired absence of organs, not elsewhere classified; **Z91.0-** Allergy status, other than to drugs and biological substances.\n\n**Z92.82, Status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to a current facility:**\n\n• Assign as a **secondary** diagnosis when a patient is **received by transfer** and documentation shows **tPA** was given **within the last 24 hours** before admission to the current facility.\n• Applies **even if the patient is still receiving tPA** when received.\n• Sequence **first** the code for the condition for which tPA was given (such as **cerebrovascular disease** or **myocardial infarction**).\n• Z92.82 applies **only to the receiving facility** record, **not** the transferring facility record.",
+   "visual": {
+    "title": "Z92.82: tPA Before Transfer",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Who codes it",
+      "b": "Receiving facility only"
+     },
+     {
+      "h": "When",
+      "b": "tPA within 24 hours before admission"
+     },
+     {
+      "h": "Still infusing?",
+      "b": "Guideline still applies"
+     },
+     {
+      "h": "Sequence",
+      "b": "Condition first, Z92.82 secondary"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Stroke Patient Transferred After tPA",
+   "content": "**Documentation:** A patient receives tPA at Hospital A for a cerebrovascular condition and is transferred within a few hours to Hospital B. The tPA is still infusing when the patient arrives at Hospital B.\n\n**Which guideline applies?** Section I.C.21.c.3 (Z92.82).\n\n**Hospital B (receiving facility):**\n\n• Sequence the code for the condition for which tPA was given (the cerebrovascular condition) **first**.\n• Assign **Z92.82** as a **secondary** diagnosis. The tPA was given within the last 24 hours at a different facility.\n• The fact that the tPA is still infusing does **not** change this; the guideline applies even if the patient is still receiving tPA.\n\n**Hospital A (transferring facility):**\n\n• Do **not** assign Z92.82. The code is only applicable to the receiving facility record.",
+   "visual": {
+    "title": "Two Hospitals, One Rule",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Hospital A (sends)",
+      "b": "No Z92.82"
+     },
+     {
+      "h": "Hospital B (receives)",
+      "b": "Condition first, then Z92.82"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is given tPA for a myocardial infarction at Hospital A and transferred to Hospital B within 24 hours. According to Section I.C.21.c.3, which record gets code Z92.82?",
+   "options": [
+    "Hospital A only, as the principal diagnosis",
+    "Both hospitals' records",
+    "Neither, because the tPA was given more than 1 hour ago",
+    "Hospital B only, as a secondary diagnosis after the code for the myocardial infarction"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.c.3 says to assign Z92.82 as a secondary diagnosis when a patient is received by transfer into a facility and was administered tPA within the last 24 hours prior to admission. The code for the condition for which the tPA was administered (such as myocardial infarction) should be assigned first. Z92.82 is only applicable to the receiving facility record and not to the transferring facility record.\n\nA and B are wrong because the transferring facility does not assign Z92.82, and it is never principal. C is wrong because the guideline's time frame is within the last 24 hours, not 1 hour.",
+   "visual": {
+    "topic": "Z92.82 tPA",
+    "hint": "Which facility is the receiving facility?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Z93-Z99 and Transplanted Organ Removal",
+   "content": "The rest of the status list covers devices, openings and transplants:\n\n• **Z93** Artificial opening status\n• **Z94** Transplanted organ and tissue status\n• **Z95** Presence of cardiac and vascular implants and grafts\n• **Z96** Presence of other functional implants\n• **Z97** Presence of other devices\n• **Z98** Other postprocedural states\n• **Z99** Dependence on enabling machines and devices, not elsewhere classified\n\n**Z98.85, Transplanted organ removal status:** use to show a transplanted organ **has been previously removed**. Do **not** assign it for the encounter **in which** the transplanted organ is removed. For that encounter, assign the **complication** that made removal necessary. (See Section I.C.19 for transplant complications.)\n\n**Important note:** Categories **Z89-Z90** and **Z93-Z99** are for use **only if there are no complications or malfunctions** of the organ or tissue replaced, the amputation site, or the equipment the patient depends on.",
+   "visual": {
+    "title": "Devices and Transplants",
+    "sub": "Section I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z98.85",
+      "b": "Organ was removed at an earlier time"
+     },
+     {
+      "h": "Removal encounter",
+      "b": "Code the complication, not Z98.85"
+     },
+     {
+      "h": "Z89-Z90, Z93-Z99",
+      "b": "Only if no complication or malfunction"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted and a failed transplanted kidney is removed during this admission because of a complication. According to Section I.C.21.c.3, should Z98.85, Transplanted organ removal status, be assigned for this encounter?",
+   "options": [
+    "Yes, as the principal diagnosis",
+    "Yes, as a secondary diagnosis",
+    "No; for the encounter in which the organ is removed, assign the complication that made removal necessary",
+    "No; assign Z94 transplant status instead"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.21.c.3 says Z98.85 indicates that a transplanted organ has been previously removed. It should not be assigned for the encounter in which the transplanted organ is removed. The complication necessitating removal of the transplant organ should be assigned for that encounter.\n\nA and B are wrong because Z98.85 is not used at all for the removal encounter. D is wrong because the note on the status list says categories Z93-Z99 (which include Z94) are for use only if there are no complications or malfunctions of the organ, and here there is a complication.",
+   "visual": {
+    "topic": "Transplanted organ removal",
+    "hint": "Is the organ being removed now, or was it removed before?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Z Code Rules on a Real Record",
+   "content": "Use these steps when a record suggests a contact, vaccine, or status Z code.\n\n1. **Decide the role of the Z code.** Is it the reason for the encounter (first-listed/principal) or extra information (secondary)? Both are allowed (I.C.21.a).\n2. **Add procedure codes** for anything performed. A Z code is never a procedure code (I.C.21.b).\n3. **Exposure only?** Use Z20 (communicable disease) or Z77 (hazardous exposures). First-listed for a testing encounter; otherwise secondary (I.C.21.c.1).\n4. **Vaccine?** Z23 plus procedure codes for the administration and type; secondary when part of routine preventive care such as a well-baby visit (I.C.21.c.2).\n5. **Status code?** Confirm the condition or device still exists (status, not history) and that no body system or complication code already includes the information (I.C.21.c.3).\n6. **Check the special rules:** Z15 sequencing; Z16 after the infection; Z33.1 secondary only; Z66 by provider at any time in the stay; Z68 only with an associated reportable diagnosis, never in pregnancy, most severe value; Z78.1 not for procedural restraint; Z79 only for extended use; Z92.82 only at the receiving facility.\n7. **Complication or malfunction present?** Do not use Z89-Z90 or Z93-Z99 status codes; code the complication.",
+   "visual": {
+    "title": "Z Code Workflow (Part I)",
+    "sub": "Contact, vaccines, and status",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2 Role",
+      "b": "First or secondary; add procedure codes"
+     },
+     {
+      "h": "3-4 Exposure, vaccine",
+      "b": "Z20/Z77; Z23 + procedure codes"
+     },
+     {
+      "h": "5 Status check",
+      "b": "Still present? Not already in another code?"
+     },
+     {
+      "h": "6-7 Special rules",
+      "b": "Z15, Z33.1, Z66, Z68, Z78.1, Z79, Z92.82"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways: Z Codes I",
+   "content": "• Z codes may be used in **any setting**, as **first-listed/principal or secondary**; some may only be first-listed (I.C.21.a).\n• Z codes are **not procedure codes**; add a procedure code for anything done (I.C.21.b).\n• **Z20/Z77** show contact or suspected exposure, first-listed for testing or, more often, secondary (I.C.21.c.1).\n• **Z23** = vaccine encounter; procedure codes are required; may be secondary at a well-baby visit (I.C.21.c.2).\n• **Status** = condition/device still present; **history** = condition no longer exists. Do not add a status code when the diagnosis code already says it (Z94.1 with T86.2) (I.C.21.c.3).\n• Ventilator weaning: **J96.1** code, then **Z99.11**.\n• **Z68 BMI:** only with an associated reportable diagnosis; not in pregnancy; most severe value.\n• **Z79:** extended use only, not brief acute courses or methadone maintenance. **Z92.82:** receiving facility only, secondary.",
+   "visual": {
+    "title": "Z Codes I: Key Takeaways",
+    "sub": "Sections I.C.21.a through I.C.21.c.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Any setting",
+      "b": "First or secondary"
+     },
+     {
+      "h": "Not procedures",
+      "b": "Add a procedure code"
+     },
+     {
+      "h": "Status vs history",
+      "b": "Present vs no longer exists"
+     },
+     {
+      "h": "No redundancy",
+      "b": "Z94.1 not with T86.2"
+     },
+     {
+      "h": "BMI",
+      "b": "Associated dx; not in pregnancy"
+     },
+     {
+      "h": "Z92.82",
+      "b": "Receiving facility only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement correctly describes the difference between a status code and a history code under Section I.C.21.c.3?",
+   "options": [
+    "They are the same; either may be used",
+    "A status code shows the patient is a carrier or has the sequelae/residual of a past condition (such as a device); a history code indicates the patient no longer has the condition",
+    "A status code means the patient no longer has the condition; a history code means the condition is present",
+    "History codes are used only on inpatient records"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.3 says status codes indicate that a patient is either a carrier of a disease or has the sequelae or residual of a past disease or condition, including the presence of prosthetic or mechanical devices. It states a status code is distinct from a history code, and the history code indicates that the patient no longer has the condition.\n\nA is wrong because the guideline calls them distinct. C is wrong because it reverses the definitions. D is wrong because nothing in this section limits history codes to inpatient records; Z codes are for use in any healthcare setting (I.C.21.a).",
+   "visual": {
+    "topic": "Status vs history",
+    "hint": "Which one means the condition is gone?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a urinary tract infection is documented as having an infection resistant to antimicrobial drug treatment. According to Section I.C.21.c.3, how is Z16, Resistance to antimicrobial drugs, sequenced?",
+   "options": [
+    "The infection code first, then Z16",
+    "Z16 first, then the infection code",
+    "Z16 is not used with infections",
+    "Z16 alone, without the infection code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.21.c.3 says category Z16 indicates that a patient has a condition that is resistant to antimicrobial drug treatment, and instructs: sequence the infection code first.\n\nB is wrong because it reverses the required order. C is wrong because Z16 is specifically used with conditions such as infections that resist antimicrobial treatment. D is wrong because the guideline requires the infection code, sequenced first.",
+   "visual": {
+    "topic": "Antimicrobial resistance",
+    "hint": "What does the guideline say goes first?"
+   }
+  }
+ ]
+}

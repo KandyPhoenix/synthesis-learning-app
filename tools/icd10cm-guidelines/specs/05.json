@@ -1,0 +1,708 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "General Guidelines I: Finding the Code, Specificity, Symptoms and Combination Codes",
+   "content": "Section I.B, **General Coding Guidelines**, moves from the conventions of the classification to the everyday rules for choosing and reporting codes. Like Section I.A, these apply to all health care settings unless otherwise indicated.\n\nIn this lesson you will learn:\n\n• How to **locate a code**: Alphabetic Index first, then verify in the Tabular List\n• Why codes must be reported at the **highest level of detail**\n• Which **code ranges** are used to identify the reason for the encounter\n• When **signs and symptoms** may be reported - and when they may not\n• **Multiple coding** for a single condition (\"use additional code,\" \"code first,\" \"code, if applicable, any causal condition first\")\n• **Acute and chronic** conditions\n• **Combination codes**\n\nThese rules are used on almost every record you will ever code.",
+   "visual": {
+    "title": "Everyday Coding Rules",
+    "sub": "Section I.B.1 - I.B.9",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Locate",
+      "b": "Index first, then Tabular List"
+     },
+     {
+      "h": "Specificity",
+      "b": "Highest number of characters"
+     },
+     {
+      "h": "Symptoms",
+      "b": "Only without a confirmed diagnosis"
+     },
+     {
+      "h": "Integral or not",
+      "b": "Routine signs are not coded"
+     },
+     {
+      "h": "Multiple codes",
+      "b": "Follow the notes"
+     },
+     {
+      "h": "Acute + chronic",
+      "b": "Code both; acute first"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B"
+  },
+  {
+   "type": "official",
+   "ref": "I.B.1"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Index First, Then Tabular",
+   "content": "Section I.B.1 gives the basic method:\n\n1. **First locate the term in the Alphabetic Index.**\n2. **Then verify the code in the Tabular List.**\n3. **Read and be guided by instructional notations** that appear in **both** the Index and the Tabular List.\n\n**Why both are essential:**\n• The Alphabetic Index **does not always provide the full code**.\n• Selection of the full code, **including laterality and any applicable 7th character, can only be done in the Tabular List**.\n\n**The dash rule:**\n• A **dash (-)** at the end of an Alphabetic Index entry indicates that **additional characters are required**.\n• **Even if a dash is not included** at the Index entry, it is **necessary to refer to the Tabular List** to verify that no 7th character is required.\n\n**What it does NOT mean:** It does not mean you can skip the Index and browse the Tabular List. The method is Index first, then Tabular.",
+   "visual": {
+    "title": "Locating a Code",
+    "sub": "Two steps, every time",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Step 1",
+      "b": "Locate the term in the Alphabetic Index"
+     },
+     {
+      "h": "Step 2",
+      "b": "Verify the code in the Tabular List"
+     },
+     {
+      "h": "Dash (-) in Index",
+      "b": "Additional characters required"
+     },
+     {
+      "h": "No dash?",
+      "b": "Still check Tabular for a 7th character"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: The Dash in F02.81-",
+   "content": "Section I.A.13 shows an Index entry with a dash: **F02.81-**.\n\n**Step 1 - Alphabetic Index:** The coder finds F02.81- listed in brackets after a code from category G20.\n**Step 2 - Read the dash:** Under I.B.1, a dash at the end of an Alphabetic Index entry indicates that **additional characters are required**. F02.81 alone is not a complete code.\n**Step 3 - Tabular List:** The coder goes to the Tabular List to select the full code, because selection of the full code can only be done there.\n\n**Contrast:** The same Index entry also shows **F02.80** with no dash. Under I.B.1, the coder **still** checks the Tabular List to verify that no 7th character is required.\n\n**Lesson:** The Index points you to the neighborhood. The Tabular List gives you the full address.",
+   "visual": {
+    "title": "Reading the Dash",
+    "sub": "The Index points; the Tabular List finishes",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "F02.81-",
+      "b": "Dash: more characters required"
+     },
+     {
+      "h": "F02.80",
+      "b": "No dash: still verify in Tabular"
+     },
+     {
+      "h": "Full code",
+      "b": "Selected only in the Tabular List"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An Alphabetic Index entry shows a code with no dash at the end. According to Section I.B.1, what should the coder do next?",
+   "options": [
+    "Assign the code directly from the Index because there is no dash",
+    "Add a placeholder X to be safe",
+    "Refer to the Tabular List to verify that no 7th character is required",
+    "Query the provider"
+   ],
+   "correct": 2,
+   "explanation": "Section I.B.1 states: \"Even if a dash is not included at the Alphabetic Index entry, it is necessary to refer to the Tabular List to verify that no 7th character is required.\" Assigning directly from the Index skips a required step - the Index \"does not always provide the full code.\" A placeholder X is used only where the classification requires it (I.A.4 and I.A.5). A query is not related to this step.",
+   "visual": {
+    "topic": "Locating a code",
+    "hint": "Can the Index alone give you a final code?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.B.1, where can selection of the full code, including laterality and any applicable 7th character, be done?",
+   "options": [
+    "Only in the Tabular List",
+    "Only in the Alphabetic Index",
+    "In either the Index or the Tabular List",
+    "In the Table of Drugs and Chemicals"
+   ],
+   "correct": 0,
+   "explanation": "Section I.B.1 states: \"Selection of the full code, including laterality and any applicable 7th character can only be done in the Tabular List.\" The Index \"does not always provide the full code,\" so it cannot be the place where the full code is selected. The Table of Drugs and Chemicals is part of the Alphabetic Index (I.A.1).",
+   "visual": {
+    "topic": "Full code selection",
+    "hint": "The word \"only\" appears in the rule."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.2"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Highest Level of Detail",
+   "content": "Section I.B.2 sets two linked requirements. Diagnosis codes are to be used and reported:\n\n1. **At their highest number of characters available**, and\n2. **To the highest level of specificity documented in the medical record.**\n\nMore points from the text:\n• ICD-10-CM codes have **3, 4, 5, 6 or 7 characters**.\n• Three-character codes are the **heading of a category** that may be further subdivided by fourth, fifth and/or sixth characters, which **provide greater detail**.\n• **A three-character code is to be used only if it is not further subdivided.**\n• **A code is invalid if it has not been coded to the full number of characters required for that code, including the 7th character, if applicable.**\n\n**Note the limit:** Specificity is \"documented in the medical record.\" The coder reports the detail the record supports - not detail that is not documented.",
+   "visual": {
+    "title": "Code to the Full Length",
+    "sub": "Highest characters available, highest specificity documented",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Characters",
+      "b": "Highest number available"
+     },
+     {
+      "h": "Specificity",
+      "b": "Highest level documented in the record"
+     },
+     {
+      "h": "3-character code",
+      "b": "Only if not further subdivided"
+     },
+     {
+      "h": "Short code",
+      "b": "Invalid"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A coder reports a three-character code from a category that is further subdivided into four-character codes. According to Section I.B.2, what is wrong?",
+   "options": [
+    "Nothing; three-character codes are always valid",
+    "Three-character codes are only for outpatient use",
+    "The coder should have added two placeholder X characters",
+    "A three-character code is to be used only if it is not further subdivided, and a code not coded to the full number of characters is invalid"
+   ],
+   "correct": 3,
+   "explanation": "Section I.B.2 states: \"A three-character code is to be used only if it is not further subdivided. A code is invalid if it has not been coded to the full number of characters required for that code.\" Three-character codes are valid only when the category has no subdivision. There is no outpatient exception. Adding X characters does not fix it - the placeholder X is used only where the classification provides one (I.A.4), and the coder must select the subdivided code.",
+   "visual": {
+    "topic": "Level of detail",
+    "hint": "Is the category subdivided?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.3"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Which Codes Identify the Reason for the Encounter",
+   "content": "Section I.B.3 states that **the appropriate code or codes from A00.0 through T88.9, Z00-Z99.8, and U00-U85 must be used** to identify:\n\n• diagnoses\n• symptoms\n• conditions\n• problems\n• complaints\n• or other reason(s) for the encounter/visit\n\n**Why it matters:** The reason for a visit is not always a disease. A symptom, a problem, or another reason for the encounter also gets a code from these ranges.\n\n**What it does NOT mean:** This guideline does not tell you which code to put first. Sequencing is covered elsewhere (for example, Sections II and IV).",
+   "visual": {
+    "title": "Codes for the Reason for Visit",
+    "sub": "Three ranges named in Section I.B.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "A00.0 through T88.9",
+      "b": "Diagnoses, symptoms, conditions"
+     },
+     {
+      "h": "Z00-Z99.8",
+      "b": "Also used for reasons for visits"
+     },
+     {
+      "h": "U00-U85",
+      "b": "Also named in I.B.3"
+     },
+     {
+      "h": "Covers",
+      "b": "Diagnoses, symptoms, problems, complaints"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.B.3, which ranges must be used to identify diagnoses, symptoms, conditions, problems, complaints or other reasons for the encounter/visit?",
+   "options": [
+    "A00.0 through T88.9 only",
+    "A00.0 through T88.9, Z00-Z99.8, and U00-U85",
+    "R00.0 - R99 only",
+    "T36-T50 only"
+   ],
+   "correct": 1,
+   "explanation": "Section I.B.3 states: \"The appropriate code or codes from A00.0 through T88.9, Z00-Z99.8, and U00-U85 must be used to identify diagnoses, symptoms, conditions, problems, complaints or other reason(s) for the encounter/visit.\" A00.0 through T88.9 alone leaves out the Z and U ranges. R00.0 - R99 is Chapter 18 (symptoms, I.B.4), which is only part of the range. T36-T50 is the placeholder example from I.A.4.",
+   "visual": {
+    "topic": "Reason for encounter",
+    "hint": "Three ranges are listed."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.4"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Signs and Symptoms",
+   "content": "Section I.B.4: Codes that describe **symptoms and signs**, as opposed to diagnoses, are **acceptable for reporting purposes when a related definitive diagnosis has not been established (confirmed) by the provider**.\n\nWhere to find them:\n• **Chapter 18** - Symptoms, Signs, and Abnormal Clinical and Laboratory Findings, Not Elsewhere Classified (**codes R00.0 - R99**) - contains **many, but not all**, codes for symptoms.\n• So some symptom codes are found in other chapters.\n\nThe text points you to **Section I.B.18, Use of Signs/Symptom/Unspecified Codes** (a later lesson).\n\n**Key idea:** The question is whether the provider has **established (confirmed)** a related definitive diagnosis. If not, the symptom may be reported.",
+   "visual": {
+    "title": "When Symptoms Are Reported",
+    "sub": "No confirmed related diagnosis = symptom codes OK",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Diagnosis not confirmed",
+      "b": "Sign/symptom codes acceptable"
+     },
+     {
+      "h": "Chapter 18",
+      "b": "R00.0 - R99: many symptom codes"
+     },
+     {
+      "h": "Not all symptoms",
+      "b": "Some are in other chapters"
+     },
+     {
+      "h": "See also",
+      "b": "Section I.B.18"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.5"
+  },
+  {
+   "type": "official",
+   "ref": "I.B.6"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Integral vs Not Integral",
+   "content": "Once a definitive diagnosis is established, two guidelines decide whether its signs and symptoms are also coded.\n\n**I.B.5 - Integral to the disease process**\n• Signs and symptoms that are **associated routinely with a disease process** should **not** be assigned as additional codes,\n• **unless otherwise instructed by the classification**.\n\n**I.B.6 - Not integral to the disease process**\n• **Additional signs and symptoms that may not be associated routinely with a disease process should be coded when present.**\n\n**The test question:** Is this sign or symptom something that **routinely** comes with the confirmed disease?\n• Yes → do not code it separately (unless the classification instructs otherwise).\n• No → code it.",
+   "visual": {
+    "title": "Integral or Not?",
+    "sub": "Does the symptom routinely come with the disease?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Routinely associated",
+      "b": "Do NOT code separately (I.B.5)"
+     },
+     {
+      "h": "Classification instructs",
+      "b": "Follow the instruction"
+     },
+     {
+      "h": "Not routinely associated",
+      "b": "Code it when present (I.B.6)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Symptoms With and Without a Diagnosis",
+   "content": "These scenarios use only the logic of Sections I.B.4 - I.B.6.\n\n**Scenario 1:** A patient is evaluated for a symptom. At the end of the encounter, the provider has **not established** a related definitive diagnosis.\n→ **Code the symptom** (I.B.4).\n\n**Scenario 2:** The provider confirms a definitive diagnosis. The patient's symptom is one that is **routinely associated** with that disease.\n→ **Do not** assign the symptom as an additional code (I.B.5), unless the classification instructs otherwise.\n\n**Scenario 3:** The provider confirms a definitive diagnosis. The patient also has a sign that is **not routinely associated** with that disease.\n→ **Code the additional sign** (I.B.6).\n\n**Exam trap:** I.B.4 is about whether a diagnosis is **confirmed**. I.B.5 and I.B.6 are about whether a symptom is **routine** for a confirmed diagnosis. Read the question carefully to see which one it is testing.",
+   "visual": {
+    "title": "Three Symptom Scenarios",
+    "sub": "Confirmed? Routine?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No confirmed diagnosis",
+      "b": "Code the symptom (I.B.4)"
+     },
+     {
+      "h": "Confirmed + routine",
+      "b": "Do not code symptom (I.B.5)"
+     },
+     {
+      "h": "Confirmed + not routine",
+      "b": "Code the sign (I.B.6)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider confirms a definitive diagnosis. The patient also has a symptom that is routinely associated with that disease process, and the classification gives no instruction to code it. According to Section I.B.5, what should the coder do?",
+   "options": [
+    "Code the symptom as an additional code",
+    "Code the symptom first, then the diagnosis",
+    "Do not assign the symptom as an additional code",
+    "Query the provider about the symptom"
+   ],
+   "correct": 2,
+   "explanation": "Section I.B.5 states: \"Signs and symptoms that are associated routinely with a disease process should not be assigned as additional codes, unless otherwise instructed by the classification.\" No instruction applies here, so the symptom is not coded. Coding it as an additional code or sequencing it first contradicts I.B.5. A query is not needed because the guideline answers the question.",
+   "visual": {
+    "topic": "Integral conditions",
+    "hint": "Is the symptom routine for this disease?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider confirms a definitive diagnosis. The record also documents a sign that is not routinely associated with that disease. According to Section I.B.6, what should the coder do?",
+   "options": [
+    "Code the sign when present",
+    "Never code signs once a diagnosis is confirmed",
+    "Code only the sign, not the diagnosis",
+    "Code the sign only for inpatient admissions"
+   ],
+   "correct": 0,
+   "explanation": "Section I.B.6 states: \"Additional signs and symptoms that may not be associated routinely with a disease process should be coded when present.\" It is wrong to say signs are never coded after a diagnosis - that only applies to routine (integral) ones under I.B.5. The confirmed diagnosis is still coded. Section I applies to all settings unless otherwise indicated, so there is no inpatient-only limit.",
+   "visual": {
+    "topic": "Not integral",
+    "hint": "What does \"not routinely associated\" change?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for a symptom, and at the end of the visit the provider has not established a related definitive diagnosis. According to Section I.B.4, may the symptom code be reported?",
+   "options": [
+    "No, only diagnoses may be reported",
+    "Only if the symptom code is in Chapter 18",
+    "Only after a query",
+    "Yes, symptom and sign codes are acceptable when a related definitive diagnosis has not been established (confirmed) by the provider"
+   ],
+   "correct": 3,
+   "explanation": "Section I.B.4 states that codes describing symptoms and signs \"are acceptable for reporting purposes when a related definitive diagnosis has not been established (confirmed) by the provider.\" Diagnoses are not the only reportable codes (I.B.3 also lists symptoms). Chapter 18 contains \"many, but not all\" symptom codes, so the code does not have to be from Chapter 18. No query is required by this guideline.",
+   "visual": {
+    "topic": "Signs and symptoms",
+    "hint": "Has a related diagnosis been confirmed?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.7"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: \"Use Additional Code\" Beyond Etiology/Manifestation",
+   "content": "Section I.B.7 explains that the etiology/manifestation convention is **not the only time a single condition needs more than one code**.\n\n• **\"Use additional code\"** notes appear at codes that are **not** part of an etiology/manifestation pair, where a **secondary code is useful to fully describe a condition**.\n• **The sequencing rule is the same as the etiology/manifestation pair:** \"use additional code\" indicates that a **secondary** code should be added, **if known**.\n\n**Official example - bacterial infections:**\n• For bacterial infections that are **not included in chapter 1**, a secondary code from **category B95** (Streptococcus, Staphylococcus, and Enterococcus, as the cause of diseases classified elsewhere) or **B96** (Other bacterial agents as the cause of diseases classified elsewhere) may be required to identify the **bacterial organism**.\n• A \"use additional code\" note will normally be found at the **infectious disease code**, indicating a need for the **organism code** to be added as a **secondary** code.",
+   "visual": {
+    "title": "Adding the Organism Code",
+    "sub": "\"Use additional code\" outside etiology/manifestation",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Infection code",
+      "b": "Has \"use additional code\" note"
+     },
+     {
+      "h": "B95 or B96 code",
+      "b": "Identifies the organism"
+     },
+     {
+      "h": "Sequence",
+      "b": "Infection first; organism secondary"
+     },
+     {
+      "h": "Condition",
+      "b": "Infection not in chapter 1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: \"Code First\" and \"Code, If Applicable, Any Causal Condition First\"",
+   "content": "**\"Code first\" notes (outside manifestation codes)**\n• Found under certain codes that are **not specifically manifestation codes** but **may be due to an underlying cause**.\n• **When there is a \"code first\" note and an underlying condition is present, the underlying condition should be sequenced first, if known.**\n\n**\"Code, if applicable, any causal condition first\" notes**\n• This code **may be assigned as a principal diagnosis when the causal condition is unknown or not applicable**.\n• **If a causal condition is known**, the code for that condition should be sequenced as the **principal or first-listed** diagnosis.\n\n**Other multiple coding:** Multiple codes may be needed for **sequela, complication codes and obstetric codes** to more fully describe a condition. See the specific guidelines for these conditions.\n\n**Exam trap:** A manifestation code \"in diseases classified elsewhere\" can **never** be principal (I.A.13). A code with \"code, if applicable, any causal condition first\" **can** be principal when the cause is unknown or not applicable.",
+   "visual": {
+    "title": "Three Sequencing Notes",
+    "sub": "How each one decides what goes first",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "\"Use additional code\"",
+      "b": "Add a secondary code, if known"
+     },
+     {
+      "h": "\"Code first\"",
+      "b": "Underlying cause first, if known"
+     },
+     {
+      "h": "\"Causal condition first\"",
+      "b": "May be principal if cause unknown"
+     },
+     {
+      "h": "Cause known",
+      "b": "Causal condition goes first"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Sequencing With Multiple-Coding Notes",
+   "content": "These scenarios apply Section I.B.7.\n\n**Scenario 1 - bacterial infection:** A patient has a bacterial infection that is not included in chapter 1. The infectious disease code has a \"use additional code\" note, and the organism is documented.\n→ Code the **infection first**, then add the organism code from **category B95 or B96** as a **secondary** code.\n\n**Scenario 2 - \"code, if applicable, any causal condition first\":** The condition's cause is **unknown**.\n→ The code with this note **may be assigned as the principal diagnosis**.\n\n**Scenario 3 - same note, cause known:** The provider documents the **causal condition**.\n→ Sequence the **causal condition as the principal or first-listed diagnosis**, followed by the code with the note.\n\n**Scenario 4 - \"code first\" on a non-manifestation code:** An underlying condition is present and known.\n→ Sequence the **underlying condition first**.",
+   "visual": {
+    "title": "Who Goes First?",
+    "sub": "Applying the I.B.7 notes",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Infection + organism",
+      "b": "Infection, then B95/B96"
+     },
+     {
+      "h": "Cause unknown",
+      "b": "Noted code may be principal"
+     },
+     {
+      "h": "Cause known",
+      "b": "Causal condition first"
+     },
+     {
+      "h": "\"Code first\" + known cause",
+      "b": "Underlying condition first"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has a bacterial infection that is not included in chapter 1, and the infecting organism is documented. The infection code has a \"use additional code\" note. According to Section I.B.7, how is the organism identified?",
+   "options": [
+    "It is not coded; the infection code is enough",
+    "With a secondary code from category B95 or B96",
+    "With a code from category B95 or B96 sequenced first",
+    "By adding a placeholder X to the infection code"
+   ],
+   "correct": 1,
+   "explanation": "Section I.B.7 states that for bacterial infections not included in chapter 1, \"a secondary code from category B95 ... or B96 ... may be required to identify the bacterial organism,\" and the \"use additional code\" note indicates \"a need for the organism code to be added as a secondary code.\" Leaving it out ignores the note. Sequencing it first reverses the rule. A placeholder X has nothing to do with identifying an organism (I.A.4).",
+   "visual": {
+    "topic": "\"Use additional code\"",
+    "hint": "The organism code is added - in which position?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A code has the note \"Code, if applicable, any causal condition first.\" The causal condition is unknown. According to Section I.B.7, may this code be assigned as the principal diagnosis?",
+   "options": [
+    "No, codes with this note are never principal",
+    "Only if the provider documents it twice",
+    "Yes, it may be assigned as a principal diagnosis when the causal condition is unknown or not applicable",
+    "Only in outpatient settings"
+   ],
+   "correct": 2,
+   "explanation": "Section I.B.7 states: \"'Code, if applicable, any causal condition first' notes indicate that this code may be assigned as a principal diagnosis when the causal condition is unknown or not applicable.\" The \"never principal\" rule belongs to \"in diseases classified elsewhere\" manifestation codes (I.A.13), not to this note. The text adds no documentation-count or setting restriction.",
+   "visual": {
+    "topic": "Causal condition notes",
+    "hint": "What changes when the cause is unknown?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.8"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Acute and Chronic",
+   "content": "Section I.B.8 applies when **the same condition is described as both acute (subacute) and chronic**.\n\n**The rule has a condition:** **separate subentries must exist in the Alphabetic Index at the same indentation level**. When they do:\n\n• **Code both**, and\n• **Sequence the acute (subacute) code first.**\n\n**What it does NOT mean:**\n• It does not apply when the Index has no separate subentries for acute and chronic at the same indentation level.\n• It does not mean chronic goes first. The acute (subacute) code goes first.\n\n**Link to Lesson 03:** The Enteritis example in I.A.7 showed \"acute\" as a nonessential modifier and \"chronic\" as a subentry. That layout is different from separate acute and chronic subentries at the same indentation level - always check the Index structure.",
+   "visual": {
+    "title": "Acute + Chronic",
+    "sub": "Both coded, acute first - when the Index allows",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Documented",
+      "b": "Same condition: acute and chronic"
+     },
+     {
+      "h": "Index check",
+      "b": "Separate subentries, same indent"
+     },
+     {
+      "h": "Then",
+      "b": "Code both"
+     },
+     {
+      "h": "Sequence",
+      "b": "Acute (subacute) first"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents a condition as both acute and chronic. In the Alphabetic Index, separate subentries for acute and chronic exist at the same indentation level. According to Section I.B.8, what should the coder do?",
+   "options": [
+    "Code both and sequence the acute (subacute) code first",
+    "Code only the chronic condition",
+    "Code only the acute condition",
+    "Code both and sequence the chronic code first"
+   ],
+   "correct": 0,
+   "explanation": "Section I.B.8 states: \"If the same condition is described as both acute (subacute) and chronic, and separate subentries exist in the Alphabetic Index at the same indentation level, code both and sequence the acute (subacute) code first.\" Coding only one leaves out documented information. Sequencing chronic first reverses the rule.",
+   "visual": {
+    "topic": "Acute and chronic",
+    "hint": "Two codes - which comes first?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.B.9"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Combination Codes",
+   "content": "Section I.B.9: A **combination code** is a **single code** used to classify:\n\n• **Two diagnoses**, or\n• A **diagnosis with an associated secondary process (manifestation)**, or\n• A **diagnosis with an associated complication**\n\n**How to find them:** By referring to **subterm entries in the Alphabetic Index** and by reading the **inclusion and exclusion notes in the Tabular List**.\n\n**The rules:**\n• **Assign only the combination code** when that code **fully identifies the diagnostic conditions involved** or when **the Alphabetic Index so directs**.\n• **Multiple coding should not be used** when the classification provides a combination code that clearly identifies all of the elements documented in the diagnosis.\n• **When the combination code lacks necessary specificity** in describing the manifestation or complication, **an additional code should be used as a secondary code**.",
+   "visual": {
+    "title": "Combination Codes",
+    "sub": "One code, more than one element",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Two diagnoses",
+      "b": "One code"
+     },
+     {
+      "h": "Diagnosis + manifestation",
+      "b": "One code"
+     },
+     {
+      "h": "Diagnosis + complication",
+      "b": "One code"
+     },
+     {
+      "h": "Fully identifies all?",
+      "b": "Use only the combination code"
+     },
+     {
+      "h": "Lacks specificity?",
+      "b": "Add a secondary code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: One Code or Two?",
+   "content": "These scenarios apply Section I.B.9 (no specific codes are needed to see the logic).\n\n**Scenario 1:** The provider documents a diagnosis with an associated complication. The coder finds, under a subterm in the Alphabetic Index, a single code whose title identifies **both** the diagnosis and that complication.\n→ **Assign only the combination code.** It fully identifies the conditions, so multiple coding should not be used.\n\n**Scenario 2:** Same situation, but the combination code does not describe the complication with the specificity documented in the record.\n→ **Assign the combination code** and **add a secondary code** for the complication's specific detail.\n\n**Scenario 3:** A student codes the diagnosis and the complication with two separate codes, even though a combination code clearly identifies both.\n→ **Incorrect.** Multiple coding should not be used when the classification provides a combination code that clearly identifies all documented elements.",
+   "visual": {
+    "title": "One Code or Two?",
+    "sub": "The combination code decision",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Fully identifies all",
+      "b": "Combination code only"
+     },
+     {
+      "h": "Lacks needed specificity",
+      "b": "Combination + secondary code"
+     },
+     {
+      "h": "Two separate codes",
+      "b": "Wrong if a full combo exists"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The classification provides a combination code that clearly identifies all of the elements documented in the diagnosis. According to Section I.B.9, what should the coder do?",
+   "options": [
+    "Assign the combination code and separate codes for each element",
+    "Assign separate codes for each element instead of the combination code",
+    "Assign the combination code only for inpatient encounters",
+    "Assign only the combination code"
+   ],
+   "correct": 3,
+   "explanation": "Section I.B.9 states: \"Assign only the combination code when that code fully identifies the diagnostic conditions involved,\" and \"Multiple coding should not be used when the classification provides a combination code that clearly identifies all of the elements documented in the diagnosis.\" Adding separate codes, or using separate codes instead, is multiple coding. The guideline has no inpatient-only limit.",
+   "visual": {
+    "topic": "Combination codes",
+    "hint": "Does the single code capture everything documented?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A combination code identifies a diagnosis and its complication, but it lacks the necessary specificity in describing the complication. According to Section I.B.9, what should the coder do?",
+   "options": [
+    "Drop the combination code and use two separate codes",
+    "Use an additional code as a secondary code",
+    "Report only the combination code",
+    "Use an unspecified code for the diagnosis"
+   ],
+   "correct": 1,
+   "explanation": "Section I.B.9 states: \"When the combination code lacks necessary specificity in describing the manifestation or complication, an additional code should be used as a secondary code.\" The combination code is kept, so dropping it is wrong. Reporting only the combination code would lose the documented detail. An unspecified code is for insufficient documentation (I.A.9.b), not this situation.",
+   "visual": {
+    "topic": "Combination code specificity",
+    "hint": "Keep the combination code - then what?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying It: From Index to Final Code",
+   "content": "Use these steps on each diagnosis in a record, based on Sections I.B.1 - I.B.9:\n\n1. **Locate the term in the Alphabetic Index.** Look at subterms - they may lead to a **combination code** (I.B.1, I.B.9).\n2. **Verify in the Tabular List.** Watch for a dash; even without one, check for a 7th character. Select laterality and any 7th character there (I.B.1).\n3. **Code to the highest number of characters** and the highest specificity documented (I.B.2).\n4. **Confirm the code is from the reportable ranges** for the reason for the encounter (I.B.3).\n5. **Decide on symptoms:** No confirmed related diagnosis → code the symptom (I.B.4). Confirmed diagnosis → drop routine symptoms (I.B.5) but code non-routine ones (I.B.6).\n6. **Follow multiple-coding notes:** \"use additional code\" (add secondary, if known), \"code first\" (underlying cause first, if known), \"code, if applicable, any causal condition first\" (I.B.7).\n7. **Acute and chronic:** if separate subentries exist at the same indentation level, code both, acute first (I.B.8).\n8. **Combination codes:** use only the combination code if it captures everything; add a secondary code only if it lacks needed specificity (I.B.9).",
+   "visual": {
+    "title": "Index to Final Code",
+    "sub": "Eight steps from Section I.B.1 - I.B.9",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2. Locate",
+      "b": "Index, then Tabular"
+     },
+     {
+      "h": "3-4. Specific",
+      "b": "Full characters; valid range"
+     },
+     {
+      "h": "5. Symptoms",
+      "b": "Confirmed? Routine?"
+     },
+     {
+      "h": "6. Notes",
+      "b": "Additional, code first, causal"
+     },
+     {
+      "h": "7. Acute + chronic",
+      "b": "Both; acute first"
+     },
+     {
+      "h": "8. Combination",
+      "b": "One code if it covers all"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Locate in the Alphabetic Index, then verify in the Tabular List.** Full code selection - including laterality and any 7th character - can only be done in the Tabular List. A dash means more characters are required; check the Tabular even without one.\n• Report codes at the **highest number of characters available** and the **highest specificity documented**. A three-character code is used only if not subdivided; a short code is **invalid**.\n• Use codes from **A00.0 through T88.9, Z00-Z99.8, and U00-U85** for the reasons for the encounter.\n• **Symptoms** are acceptable when a related definitive diagnosis has **not been confirmed**. Chapter 18 (R00.0 - R99) has many, not all, symptom codes.\n• **Routine** signs/symptoms of a confirmed disease are **not** coded (unless instructed); **non-routine** ones **are** coded.\n• **\"Use additional code\"** = add a secondary code, if known (e.g., B95/B96 organism). **\"Code first\"** = underlying cause first, if known. **\"Code, if applicable, any causal condition first\"** = may be principal if the cause is unknown or not applicable.\n• **Acute and chronic** with separate same-level subentries: **code both, acute first**.\n• **Combination code** that fully identifies everything: **use it alone**. Lacking specificity: add a **secondary** code.",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "General Guidelines I in one view",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Locate",
+      "b": "Index, then Tabular"
+     },
+     {
+      "h": "Specificity",
+      "b": "Full characters, as documented"
+     },
+     {
+      "h": "Symptoms",
+      "b": "Unconfirmed: code; routine: do not"
+     },
+     {
+      "h": "Acute + chronic",
+      "b": "Both; acute first"
+     },
+     {
+      "h": "Combination",
+      "b": "Alone if it covers all"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about Chapter 18 (codes R00.0 - R99) is correct according to Section I.B.4?",
+   "options": [
+    "It contains every code for symptoms in ICD-10-CM",
+    "It contains only codes for abnormal laboratory findings",
+    "It contains many, but not all, codes for symptoms",
+    "Its codes may never be reported"
+   ],
+   "correct": 2,
+   "explanation": "Section I.B.4 states that Chapter 18 \"contains many, but not all, codes for symptoms.\" So it does not contain every symptom code. Its title covers symptoms, signs, and abnormal clinical and laboratory findings, not lab findings only. Its codes are acceptable for reporting when a related definitive diagnosis has not been established.",
+   "visual": {
+    "topic": "Chapter 18",
+    "hint": "The text uses the words \"many, but not all.\""
+   }
+  }
+ ]
+}

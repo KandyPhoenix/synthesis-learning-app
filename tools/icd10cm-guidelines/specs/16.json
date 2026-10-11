@@ -1,0 +1,576 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Nervous System Coding and Pain (G89)",
+   "content": "Chapter 6 covers Diseases of the Nervous System (G00-G99). Its guidelines are short but contain one of the most tested topics on coding exams: **category G89, Pain, not elsewhere classified**.\n\nThis lesson covers:\n\n• **I.C.6.a Dominant/nondominant side** — default rules for hemiplegia, hemiparesis and monoplegia when the record names a side but not dominance.\n• **I.C.6.b Pain - Category G89** — when G89 codes may and may not be used, when they can be the principal or first-listed diagnosis, how to sequence them with site-specific pain codes, postoperative pain, chronic pain, neoplasm related pain, and chronic pain syndrome.\n\nThe key question you will learn to ask is: **What is the reason for this encounter — pain control, or treatment of the underlying condition?**",
+   "visual": {
+    "title": "Lesson 16 Roadmap",
+    "sub": "Chapter 6 (G00-G99)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "I.C.6.a Side of body",
+      "b": "Dominant vs nondominant defaults"
+     },
+     {
+      "h": "G89 general rules",
+      "b": "When G89 may or may not be used"
+     },
+     {
+      "h": "G89 sequencing",
+      "b": "Principal dx and site codes"
+     },
+     {
+      "h": "Postoperative pain",
+      "b": "Routine, complication, default"
+     },
+     {
+      "h": "Chronic and neoplasm",
+      "b": "G89.2 and G89.3"
+     },
+     {
+      "h": "Pain syndromes",
+      "b": "G89.0 and G89.4"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.6"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.6.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Dominant and Nondominant Side",
+   "content": "Some paralysis codes identify whether the **dominant** or **nondominant** side is affected:\n\n• Category **G81**, Hemiplegia and hemiparesis\n• Subcategory **G83.1**, Monoplegia of lower limb\n• Subcategory **G83.2**, Monoplegia of upper limb\n• Subcategory **G83.3**, Monoplegia, unspecified\n\nOften the provider documents only **left** or **right**. If the side is documented but not specified as dominant or nondominant, **and the classification does not indicate a default**, use these defaults:\n\n• **Ambidextrous** patient → **dominant**\n• **Left** side affected → **non-dominant**\n• **Right** side affected → **dominant**\n\n**What it does NOT mean:** these defaults are only used when dominance is not documented. If the record already specifies dominant or nondominant, there is nothing to default. And if the classification itself indicates a default, these guideline defaults are not the ones used.",
+   "visual": {
+    "title": "Side Defaults",
+    "sub": "Used only when dominance is not documented",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Ambidextrous",
+      "b": "Default: dominant"
+     },
+     {
+      "h": "Left side",
+      "b": "Default: non-dominant"
+     },
+     {
+      "h": "Right side",
+      "b": "Default: dominant"
+     },
+     {
+      "h": "Applies to",
+      "b": "G81, G83.1, G83.2, G83.3"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Hemiplegia, Side Only",
+   "content": "**Documentation:** \"Right-sided hemiplegia.\" Nothing in the record says whether the patient is right- or left-handed.\n\n**Which guideline applies:** Section I.C.6.a — if the right side is affected and dominance is not specified, the default is **dominant** (assuming the classification does not indicate its own default).\n\n**Decision:** Select the G81 code for hemiplegia affecting the **dominant** side.\n\n**Second scenario:** \"Left upper limb monoplegia,\" no dominance documented → default is **non-dominant**, so select the G83.2 code for the non-dominant side.",
+   "visual": {
+    "title": "Default Side in Action",
+    "sub": "Section I.C.6.a",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Right hemiplegia",
+      "b": "G81: dominant side"
+     },
+     {
+      "h": "Left arm monoplegia",
+      "b": "G83.2: non-dominant side"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has left-sided hemiparesis. The record does not say whether the patient is right-handed, left-handed or ambidextrous, and the classification gives no default. According to Section I.C.6.a, which side is coded?",
+   "options": [
+    "Dominant",
+    "Unspecified side",
+    "Non-dominant",
+    "The coder must query before any code is assigned"
+   ],
+   "correct": 2,
+   "explanation": "Correct: non-dominant. Section I.C.6.a says that if the affected side is documented but not specified as dominant or nondominant, and the classification does not indicate a default, the left side defaults to non-dominant. Dominant is the default for the right side or for ambidextrous patients. Unspecified side is wrong because the guideline supplies a default. A query is not required because the guideline answers the question.",
+   "visual": {
+    "topic": "Dominant side",
+    "hint": "Left side default?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.6.a, when the affected side is documented but dominance is not, and the classification gives no default, what is the default for an ambidextrous patient?",
+   "options": [
+    "Dominant",
+    "Non-dominant",
+    "Unspecified side",
+    "There is no default for ambidextrous patients"
+   ],
+   "correct": 0,
+   "explanation": "Correct: dominant. Section I.C.6.a states: for ambidextrous patients, the default should be dominant. Non-dominant is the default listed for the left side, not for ambidextrous patients. Unspecified and no default are wrong because the guideline names a default for ambidextrous patients.",
+   "visual": {
+    "topic": "Ambidextrous patient",
+    "hint": "The guideline lists a specific default for this patient."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.6.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: When G89 Codes May Be Used",
+   "content": "Section I.C.6.b.1 sets the basic rules for category **G89, Pain, not elsewhere classified**.\n\n**G89 codes may be used** with codes from other categories and chapters to give more detail about **acute or chronic pain** and **neoplasm-related pain**.\n\n**Do NOT assign G89 when:**\n\n• The pain is **not specified** as acute, chronic, post-thoracotomy, postprocedural, or neoplasm-related.\n• The **underlying (definitive) diagnosis is known** — **unless** the reason for the encounter is **pain control/management** rather than management of the underlying condition.\n• The admission or encounter is for a **procedure aimed at treating the underlying condition** (e.g., spinal fusion, kyphoplasty). Then the underlying condition (e.g., vertebral fracture, spinal stenosis) is the principal diagnosis and **no G89 code** is assigned.\n\n**Exam trap:** \"Back pain\" with no other description is not acute, chronic, post-thoracotomy, postprocedural or neoplasm-related, so it does not go to G89.",
+   "visual": {
+    "title": "G89: Yes or No?",
+    "sub": "Section I.C.6.b.1",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Pain type stated?",
+      "b": "Must be acute, chronic, post-thoracotomy, postprocedural or neoplasm"
+     },
+     {
+      "h": "Definitive dx known?",
+      "b": "No G89, unless encounter is for pain control"
+     },
+     {
+      "h": "Procedure treats cause?",
+      "b": "Underlying condition is principal; no G89"
+     },
+     {
+      "h": "Purpose of G89",
+      "b": "Adds detail about the pain"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for kyphoplasty to treat a vertebral fracture. The provider also documents acute back pain. According to Section I.C.6.b.1, how is this coded?",
+   "options": [
+    "G89 code as principal diagnosis, vertebral fracture as secondary",
+    "Vertebral fracture as principal diagnosis and a G89 code as secondary",
+    "G89 code only",
+    "Vertebral fracture as principal diagnosis; no code from category G89"
+   ],
+   "correct": 3,
+   "explanation": "Correct: vertebral fracture as principal and no G89 code. Section I.C.6.b.1 says that when an admission or encounter is for a procedure aimed at treating the underlying condition (e.g., kyphoplasty), the underlying condition (e.g., vertebral fracture) is the principal diagnosis and no code from category G89 should be assigned. Sequencing G89 first applies only when pain control is the reason for the encounter. Adding G89 as secondary contradicts \"no code from category G89 should be assigned.\" G89 alone leaves out the condition being treated.",
+   "visual": {
+    "topic": "Procedure for the cause",
+    "hint": "What is the procedure treating?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: G89 as Principal or First-Listed",
+   "content": "Section I.C.6.b.1(a) gives two situations in which a G89 code may be the **principal or first-listed** diagnosis.\n\n**1. Pain control or pain management is the reason for the encounter.**\n• The guideline's example: a patient with a displaced intervertebral disc, nerve impingement and severe back pain presents for an **injection of steroid into the spinal canal**.\n• Report the **underlying cause** of the pain as an **additional** diagnosis, if known.\n\n**2. Admission for insertion of a neurostimulator for pain control.**\n• Assign the appropriate pain code as the principal or first-listed diagnosis.\n\n**Twist:** if the admission is for a procedure that **treats the underlying condition**, and a neurostimulator for pain control is **also** inserted during the same stay, then:\n• the **underlying condition** is the principal diagnosis, and\n• the appropriate **pain code** is a **secondary** diagnosis.",
+   "visual": {
+    "title": "G89 First or Second?",
+    "sub": "Section I.C.6.b.1(a)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Encounter for pain control",
+      "b": "G89 first; cause as additional dx"
+     },
+     {
+      "h": "Neurostimulator for pain",
+      "b": "Pain code first"
+     },
+     {
+      "h": "Treat cause + stimulator",
+      "b": "Cause first; pain code secondary"
+     },
+     {
+      "h": "Treat cause, no stimulator",
+      "b": "Cause first; no G89 (b.1)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Steroid Injection for Pain",
+   "content": "**Documentation:** A patient with a displaced intervertebral disc, nerve impingement and severe chronic back pain comes in for an epidural steroid injection to control the pain.\n\n**Which guideline applies:** Section I.C.6.b.1(a) — G89 codes are acceptable as the principal or first-listed code when pain control or pain management is the reason for the encounter. The underlying cause is reported as an additional diagnosis, if known.\n\n**Decision:**\n• First-listed: the appropriate chronic pain code from category G89\n• Additional: the code(s) for the displaced disc / nerve impingement\n\n**Contrast:** If the same patient were admitted for surgery to correct the disc problem, the disc condition would be principal and no G89 code would be assigned (I.C.6.b.1).",
+   "visual": {
+    "title": "Reason for Encounter Decides",
+    "sub": "Same patient, two different visits",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Injection for pain",
+      "b": "G89 first, disc condition second"
+     },
+     {
+      "h": "Surgery on the disc",
+      "b": "Disc condition first, no G89"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for spinal surgery to treat spinal stenosis, and during the same admission a neurostimulator is inserted for pain control. According to Section I.C.6.b.1(a), how is this sequenced?",
+   "options": [
+    "Pain code as principal; spinal stenosis as secondary",
+    "Spinal stenosis as principal; the appropriate pain code as secondary",
+    "Spinal stenosis only; no pain code",
+    "Pain code only"
+   ],
+   "correct": 1,
+   "explanation": "Correct: underlying condition principal, pain code secondary. Section I.C.6.b.1(a) says that when the admission is for a procedure aimed at treating the underlying condition and a neurostimulator is inserted for pain control during the same admission, the underlying condition is the principal diagnosis and the appropriate pain code is a secondary diagnosis. Pain code first applies only when the admission is for the neurostimulator for pain control. Omitting the pain code ignores the neurostimulator rule. Pain code only leaves out the condition being treated.",
+   "visual": {
+    "topic": "Neurostimulator",
+    "hint": "Was the main procedure aimed at the cause?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: G89 With Site-Specific Pain Codes",
+   "content": "Section I.C.6.b.1(b) covers using a G89 code **together with** a code that names the **site** of pain (including Chapter 18 codes).\n\n**(i) When to use both:** assign both if the G89 code **adds information**. Example from the text: the site code describes where the pain is but not whether it is acute or chronic → assign both codes.\n\n**(ii) How to sequence them:**\n\n• **Encounter is for pain control or pain management** → **G89 code first**, then the site code. The guideline's example: pain management for acute neck pain from trauma → **G89.11**, Acute pain due to trauma, followed by **M54.2**, Cervicalgia.\n• **Encounter is for any other reason**, and a related definitive diagnosis has **not** been established (confirmed) by the provider → **site code first**, then the G89 code.",
+   "visual": {
+    "title": "Sequencing G89 + Site Code",
+    "sub": "Section I.C.6.b.1(b)(ii)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Pain management visit",
+      "b": "G89 first, then site code"
+     },
+     {
+      "h": "Example",
+      "b": "G89.11 then M54.2"
+     },
+     {
+      "h": "Any other reason",
+      "b": "Site code first, then G89"
+     },
+     {
+      "h": "Condition",
+      "b": "No confirmed definitive dx"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Neck Pain, Two Different Visits",
+   "content": "**Visit 1 documentation:** Patient seen for pain management of acute neck pain from trauma.\n\n**Guideline:** Section I.C.6.b.1(b)(ii), first bullet — encounter for pain control/management.\n\n**Codes:** G89.11, Acute pain due to trauma, **followed by** M54.2, Cervicalgia.\n\n**Visit 2 documentation:** Patient seen to evaluate acute neck pain after trauma; the provider has not established a definitive diagnosis. The visit is not for pain management.\n\n**Guideline:** Section I.C.6.b.1(b)(ii), second bullet — any other reason, no confirmed related definitive diagnosis.\n\n**Codes:** M54.2, Cervicalgia, **followed by** G89.11, Acute pain due to trauma.",
+   "visual": {
+    "title": "Same Codes, Different Order",
+    "sub": "Order depends on the reason for the visit",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Pain management",
+      "b": "G89.11, then M54.2"
+     },
+     {
+      "h": "Evaluation, no dx",
+      "b": "M54.2, then G89.11"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for pain management of acute neck pain from trauma. Following the example in Section I.C.6.b.1(b)(ii), what is the correct sequence?",
+   "options": [
+    "M54.2, Cervicalgia, followed by G89.11, Acute pain due to trauma",
+    "G89.11, Acute pain due to trauma, followed by M54.2, Cervicalgia",
+    "G89.11 only",
+    "M54.2 only"
+   ],
+   "correct": 1,
+   "explanation": "Correct: G89.11 then M54.2. Section I.C.6.b.1(b)(ii) says that if the encounter is for pain control or pain management, assign the G89 code followed by the code identifying the specific site, and gives this exact example. Site code first applies when the encounter is for any other reason and no related definitive diagnosis is confirmed. Either code alone is wrong because Section I.C.6.b.1(b)(i) says both are assigned when the site code does not fully describe whether the pain is acute or chronic.",
+   "visual": {
+    "topic": "G89 and site codes",
+    "hint": "What is the reason for the encounter?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Postoperative Pain",
+   "content": "Section I.C.6.b.3 covers pain after surgery. (Section I.C.6.b.2, pain due to devices, implants and grafts, only points you to Section I.C.19.)\n\n• Use the **provider's documentation** to guide coding, along with Section III (Reporting Additional Diagnoses) and Section IV (Outpatient).\n• **Default:** post-thoracotomy and other postoperative pain **not specified as acute or chronic** → code the **acute** form.\n• **Routine or expected** postoperative pain immediately after surgery **should not be coded**.\n\n**Two situations:**\n\n• **(a) Not associated with a specific postoperative complication** → the appropriate postoperative pain code in **category G89**.\n• **(b) Associated with a specific postoperative complication** (such as painful wire sutures) → the appropriate code(s) from **Chapter 19**. If appropriate, add a G89 code to identify acute or chronic pain (**G89.18** or **G89.28**).",
+   "visual": {
+    "title": "Postoperative Pain",
+    "sub": "Section I.C.6.b.3",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Routine, expected",
+      "b": "Do not code"
+     },
+     {
+      "h": "Acute/chronic not stated",
+      "b": "Default: acute"
+     },
+     {
+      "h": "No complication",
+      "b": "Postoperative pain code in G89"
+     },
+     {
+      "h": "With complication",
+      "b": "Chapter 19 code(s); add G89.18 or G89.28 if appropriate"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has postoperative pain after surgery. The provider does not say whether it is acute or chronic, and it is not routine or expected pain. According to Section I.C.6.b.3, which form is the default?",
+   "options": [
+    "Chronic",
+    "Unspecified",
+    "No default exists; query the provider",
+    "Acute"
+   ],
+   "correct": 3,
+   "explanation": "Correct: acute. Section I.C.6.b.3 says the default for post-thoracotomy and other postoperative pain not specified as acute or chronic is the code for the acute form. Chronic is not the default. Unspecified and query are wrong because the guideline provides a default.",
+   "visual": {
+    "topic": "Postoperative pain default",
+    "hint": "The guideline names a default form."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has pain caused by painful wire sutures after surgery. According to Section I.C.6.b.3(b), how is this coded?",
+   "options": [
+    "The appropriate code(s) from Chapter 19, with an additional G89 code (G89.18 or G89.28) to identify acute or chronic pain if appropriate",
+    "Only a postoperative pain code from category G89",
+    "It is not coded, because pain after surgery is expected",
+    "Only a site-specific pain code from Chapter 18"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Chapter 19 code(s), plus G89.18 or G89.28 if appropriate. Section I.C.6.b.3(b) says postoperative pain associated with a specific postoperative complication (such as painful wire sutures) is assigned to the appropriate code(s) in Chapter 19, with additional G89 codes if appropriate. A G89 postoperative pain code alone is for pain not associated with a specific complication (b.3(a)). The \"not coded\" rule applies only to routine or expected pain immediately after surgery, not to pain from a complication. A Chapter 18 site code is not what this guideline directs.",
+   "visual": {
+    "topic": "Postoperative complication",
+    "hint": "Is there a specific complication?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Chronic Pain and Neoplasm Related Pain",
+   "content": "**Chronic pain (I.C.6.b.4)**\n• Classified to subcategory **G89.2**.\n• There is **no time frame** that defines when pain becomes chronic. Use the **provider's documentation**.\n\n**Neoplasm related pain (I.C.6.b.5)**\n• **G89.3** is assigned to pain documented as related, associated or due to cancer, primary or secondary malignancy, or tumor.\n• It is assigned **whether the pain is acute or chronic**.\n• **Principal/first-listed** when the stated reason for the encounter is **pain control/pain management**. The underlying neoplasm is reported as an **additional** diagnosis.\n• **Additional** diagnosis when the encounter is for **management of the neoplasm** and the related pain is also documented. No additional site-of-pain code is needed.\n• For all other reasons for the encounter, see Section I.C.2 for neoplasm sequencing.",
+   "visual": {
+    "title": "G89.2 and G89.3",
+    "sub": "Sections I.C.6.b.4 and I.C.6.b.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "G89.2 chronic pain",
+      "b": "No time frame; provider decides"
+     },
+     {
+      "h": "G89.3 neoplasm pain",
+      "b": "Acute or chronic, same code"
+     },
+     {
+      "h": "Visit for pain control",
+      "b": "G89.3 first; neoplasm added"
+     },
+     {
+      "h": "Visit for the neoplasm",
+      "b": "Neoplasm first; G89.3 added"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Cancer Pain",
+   "content": "**Scenario A:** A patient with a malignant tumor is admitted for pain management of severe pain the provider documents as due to the tumor.\n\n• Guideline: Section I.C.6.b.5 — G89.3 may be principal when pain control/pain management is the stated reason for admission.\n• Codes: **G89.3** first, then the code for the underlying neoplasm.\n\n**Scenario B:** The same patient is admitted for treatment of the neoplasm, and tumor-related pain is also documented.\n\n• Guideline: Section I.C.6.b.5 — G89.3 may be assigned as an additional diagnosis; it is not necessary to add a site-of-pain code.\n• Codes: neoplasm code(s) sequenced per Section I.C.2, with **G89.3** as an additional diagnosis.",
+   "visual": {
+    "title": "Neoplasm Pain Sequencing",
+    "sub": "Reason for admission decides the order",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Admitted for pain mgmt",
+      "b": "G89.3, then neoplasm"
+     },
+     {
+      "h": "Admitted for neoplasm",
+      "b": "Neoplasm (I.C.2), then G89.3"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.6.b.4, how long must pain last before it can be coded as chronic pain (G89.2)?",
+   "options": [
+    "At least 3 months",
+    "At least 6 months",
+    "There is no time frame; the provider's documentation guides the code",
+    "At least 30 days"
+   ],
+   "correct": 2,
+   "explanation": "Correct: there is no time frame. Section I.C.6.b.4 states there is no time frame defining when pain becomes chronic pain and that the provider's documentation should be used. The 3-month, 6-month and 30-day options are not in the guideline and would have the coder apply a rule that does not exist.",
+   "visual": {
+    "topic": "Chronic pain",
+    "hint": "Does the guideline set a duration?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for management of a malignant neoplasm, and the provider also documents pain due to the cancer. According to Section I.C.6.b.5, which statement is correct?",
+   "options": [
+    "G89.3 must be the principal diagnosis",
+    "G89.3 cannot be used because the neoplasm is known",
+    "G89.3 is used only if the pain is documented as chronic",
+    "G89.3 may be assigned as an additional diagnosis, and a separate site-of-pain code is not necessary"
+   ],
+   "correct": 3,
+   "explanation": "Correct: G89.3 as an additional diagnosis, no site code needed. Section I.C.6.b.5 says that when the reason for the encounter is management of the neoplasm and the associated pain is documented, G89.3 may be assigned as an additional diagnosis and it is not necessary to assign an additional code for the site of the pain. G89.3 is principal only when pain control/pain management is the stated reason. G89.3 is specifically for neoplasm-related pain, so a known neoplasm does not block it. G89.3 is assigned regardless of whether the pain is acute or chronic.",
+   "visual": {
+    "topic": "Neoplasm related pain",
+    "hint": "What was the stated reason for admission?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Chronic Pain Syndrome vs Chronic Pain",
+   "content": "Section I.C.6.b.6 warns that two \"syndrome\" codes are **not the same** as the term \"chronic pain\":\n\n• **G89.0**, Central pain syndrome\n• **G89.4**, Chronic pain syndrome\n\nThese codes should be used **only when the provider has specifically documented** that condition.\n\n**Exam trap:** If the provider writes \"chronic pain,\" the code comes from subcategory **G89.2** (I.C.6.b.4). Do **not** assign G89.4 unless the provider documents \"chronic pain syndrome.\"\n\nThe section ends with a cross-reference to Section I.C.5, Pain disorders related to psychological factors (F45.41 and F45.42), covered in Lesson 15.",
+   "visual": {
+    "title": "Not the Same Thing",
+    "sub": "Section I.C.6.b.6",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "\"Chronic pain\"",
+      "b": "Subcategory G89.2"
+     },
+     {
+      "h": "\"Chronic pain syndrome\"",
+      "b": "G89.4, only if documented"
+     },
+     {
+      "h": "\"Central pain syndrome\"",
+      "b": "G89.0, only if documented"
+     },
+     {
+      "h": "Coder rule",
+      "b": "Never upgrade the wording"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents \"chronic pain\" in the low back. According to Section I.C.6.b.6, may the coder assign G89.4, Chronic pain syndrome?",
+   "options": [
+    "Yes, chronic pain and chronic pain syndrome are the same",
+    "Yes, if the pain has lasted more than 6 months",
+    "No, G89.4 is used only when the provider specifically documents chronic pain syndrome",
+    "No, because G89 codes are never used for back pain"
+   ],
+   "correct": 2,
+   "explanation": "Correct: no, G89.4 requires specific documentation of chronic pain syndrome. Section I.C.6.b.6 says central pain syndrome (G89.0) and chronic pain syndrome (G89.4) are different from the term \"chronic pain,\" and should only be used when the provider has specifically documented the condition. They are not the same, so treating them as interchangeable is wrong. No time frame exists for chronic pain (I.C.6.b.4). G89 codes may be used with site codes, including for back pain, when the rules in I.C.6.b.1 are met.",
+   "visual": {
+    "topic": "Chronic pain syndrome",
+    "hint": "Is \"syndrome\" in the documentation?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Lesson 16 to a Real Record",
+   "content": "**Hemiplegia, hemiparesis or monoplegia (G81, G83.1-G83.3):**\n1. Is dominance documented? If yes, use it.\n2. If not, and the classification gives no default: ambidextrous → dominant; left → non-dominant; right → dominant.\n\n**Pain:**\n3. Is the pain described as acute, chronic, post-thoracotomy, postprocedural or neoplasm-related? If not, no G89 code.\n4. What is the **reason for the encounter**?\n   • Procedure to treat the underlying condition → underlying condition principal; no G89 (unless a neurostimulator for pain is also inserted, then pain code secondary).\n   • Pain control/management → G89 first; underlying cause as additional, if known.\n5. Is there a site-specific pain code too? Use both if G89 adds information. Pain management → G89 first; other reason with no confirmed definitive diagnosis → site code first.\n6. Postoperative? Routine/expected → not coded. Complication → Chapter 19 (+ G89.18/G89.28 if appropriate). No complication → G89 postoperative pain code. Not stated acute/chronic → acute.\n7. Chronic pain → G89.2 (no time frame). Cancer-related → G89.3. \"Syndrome\" only if the provider documents it (G89.0, G89.4).",
+   "visual": {
+    "title": "Lesson 16 Workflow",
+    "sub": "Ask: why is the patient here?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Side of body",
+      "b": "Documented dominance, else defaults"
+     },
+     {
+      "h": "Pain type stated?",
+      "b": "If not, no G89"
+     },
+     {
+      "h": "Reason for encounter",
+      "b": "Pain control vs treat the cause"
+     },
+     {
+      "h": "Site code too?",
+      "b": "Sequence by reason for visit"
+     },
+     {
+      "h": "Postop / chronic / cancer",
+      "b": "Defaults, G89.2, G89.3"
+     },
+     {
+      "h": "Syndromes",
+      "b": "G89.0, G89.4 only if documented"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Dominance defaults** (I.C.6.a): ambidextrous → dominant; left → non-dominant; right → dominant — only when dominance is not documented and the classification has no default.\n• **No G89** if the pain is not described as acute, chronic, post-thoracotomy, postprocedural or neoplasm-related, or if the definitive diagnosis is known and the visit is not for pain control.\n• **Procedure treating the cause** (e.g., spinal fusion, kyphoplasty) → cause is principal, no G89.\n• **G89 first** when the visit is for pain control/management, or for neurostimulator insertion for pain control.\n• **G89 + site code:** pain management → G89 first (G89.11 then M54.2); other reasons with no confirmed diagnosis → site code first.\n• **Postoperative pain:** routine/expected not coded; default is acute; complication → Chapter 19 plus G89.18/G89.28 if appropriate.\n• **G89.2** chronic pain has no time frame; **G89.3** covers neoplasm-related pain, acute or chronic.\n• **G89.0 / G89.4** only when the provider specifically documents the syndrome.",
+   "visual": {
+    "title": "Lesson 16 Summary",
+    "sub": "The G89 rules in one view",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Defaults",
+      "b": "L = non-dominant; R = dominant"
+     },
+     {
+      "h": "No G89",
+      "b": "Vague pain or treating the cause"
+     },
+     {
+      "h": "G89 first",
+      "b": "Pain control encounters"
+     },
+     {
+      "h": "Postop",
+      "b": "Routine not coded; default acute"
+     },
+     {
+      "h": "G89.2 / G89.3",
+      "b": "Chronic; neoplasm-related"
+     },
+     {
+      "h": "G89.0 / G89.4",
+      "b": "Only if documented"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a confirmed diagnosis of spinal stenosis is seen in the office for an evaluation of the stenosis, and the provider mentions back pain without describing it as acute or chronic. According to Section I.C.6.b.1, should a G89 code be assigned?",
+   "options": [
+    "No; the pain is not specified as acute, chronic, post-thoracotomy, postprocedural or neoplasm-related, and the underlying diagnosis is known",
+    "Yes, G89 codes are always added when pain is mentioned",
+    "Yes, as the first-listed diagnosis",
+    "No, because G89 codes are only for inpatient admissions"
+   ],
+   "correct": 0,
+   "explanation": "Correct: no G89 code. Section I.C.6.b.1 says not to assign G89 if the pain is not specified as acute or chronic, post-thoracotomy, postprocedural, or neoplasm-related, and that a G89 code should not be assigned if the underlying (definitive) diagnosis is known unless the encounter is for pain control/management. G89 is not automatic, so adding it whenever pain is mentioned is wrong. First-listed G89 requires an encounter for pain control. Nothing in the guideline limits G89 to inpatient settings.",
+   "visual": {
+    "topic": "When not to use G89",
+    "hint": "Two separate reasons apply here."
+   }
+  }
+ ]
+}

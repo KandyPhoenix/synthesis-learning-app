@@ -1,0 +1,640 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Z Codes III: Pregnancy, Check-ups and Social Needs",
+   "content": "This final Z code lesson covers Sections I.C.21.c.11-17:\n\n• **11) Obstetrical and reproductive services**: normal pregnancy, weeks of gestation, outcome of delivery\n• **12) Routine and administrative examinations**: check-ups, pre-employment physicals, pre-operative clearance\n• **13) Miscellaneous Z codes**: including prophylactic organ removal and a new FY 2027 note on DES exposure\n• **14) Nonspecific Z codes**: codes with little justification for inpatient use\n• **15) Z codes that may only be principal/first-listed**\n• **16) Newborns and infants**\n• **17) Social determinants of health (SDOH)**: housing, food, employment and other social factors, and **whose documentation** a coder may use\n\nMany exam questions here test **sequencing**: which Z codes must be first, which must be secondary, and which should not be used at all.",
+   "visual": {
+    "title": "Z Codes III Roadmap",
+    "sub": "Sections I.C.21.c.11 to I.C.21.c.17",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "11 OB and reproductive",
+      "b": "Z34, Z3A, Z37 rules"
+     },
+     {
+      "h": "12 Routine exams",
+      "b": "With vs. without abnormal findings"
+     },
+     {
+      "h": "13 Miscellaneous",
+      "b": "Prophylactic surgery, DES"
+     },
+     {
+      "h": "14-15 Nonspecific, first",
+      "b": "Avoid them vs. must be first-listed"
+     },
+     {
+      "h": "16 Newborns",
+      "b": "Z38, Z00.1-, Z76.1"
+     },
+     {
+      "h": "17 SDOH",
+      "b": "Social needs; who may document"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.21.c.11-13"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: OB and Reproductive Z Codes (I.C.21.c.11)",
+   "content": "Pregnancy Z codes are used when **none of the problems or complications** in the Obstetrics chapter exist (a **routine prenatal visit** or **postpartum care**). Section I.C.15 has more detail.\n\n**Z34, Encounter for supervision of normal pregnancy:**\n• **Always first-listed**.\n• **Not** used with **any other code from the OB chapter**.\n\n**Z3A, Weeks of gestation:**\n• May be assigned for **additional information** about the pregnancy.\n• **Not** for pregnancies with **abortive outcomes (O00-O08)**, **elective termination (Z33.2)**, or **postpartum conditions**.\n• For an inpatient admission spanning more than one gestational week, use the **date of the admission**.\n\n**Z37, Outcome of delivery:**\n• Included on **all maternal delivery records**.\n• **Always a secondary** code.\n• **Not** used on the **newborn** record.\n\n**Family planning** (contraceptive) or procreative management and counseling Z codes should be included on an obstetric record during pregnancy or postpartum, if applicable.",
+   "visual": {
+    "title": "OB Z Code Rules",
+    "sub": "Section I.C.21.c.11",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z34 normal pregnancy",
+      "b": "Always first; no other OB chapter codes"
+     },
+     {
+      "h": "Z3A weeks of gestation",
+      "b": "Not with O00-O08, Z33.2, or postpartum"
+     },
+     {
+      "h": "Z3A, long admission",
+      "b": "Use the date of admission"
+     },
+     {
+      "h": "Z37 outcome of delivery",
+      "b": "Every maternal delivery record; secondary"
+     },
+     {
+      "h": "Z37 on newborn record?",
+      "b": "Never"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has a routine prenatal visit with no complications. According to Section I.C.21.c.11, which is correct about category Z34, Encounter for supervision of normal pregnancy?",
+   "options": [
+    "Z34 is used only on the delivery record",
+    "Z34 is always secondary to an OB chapter code",
+    "Z34 is always first-listed and is not used with any other code from the OB chapter",
+    "Z34 must always be paired with a Z37 code"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.21.c.11 says codes in category Z34 are always first listed and are not to be used with any other code from the OB chapter.\n\nB is wrong because Z34 is always first-listed and is not used with OB chapter codes. A is wrong because Z34 is for supervision of normal pregnancy, such as routine prenatal visits. D is wrong because Z37 (outcome of delivery) belongs on maternal delivery records, not prenatal visits.",
+   "visual": {
+    "topic": "Normal pregnancy Z34",
+    "hint": "Where does Z34 go, and what can't it be paired with?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.21.c.11, where should a code from category Z37, Outcome of delivery, be reported?",
+   "options": [
+    "On the newborn's record as the principal diagnosis",
+    "On all maternal delivery records, always as a secondary code",
+    "On the maternal record as the first-listed code",
+    "Only when the delivery is complicated"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.11 states the outcome of delivery, category Z37, should be included on all maternal delivery records. It is always a secondary code. Codes in category Z37 should not be used on the newborn record.\n\nA is wrong because Z37 is not used on the newborn record. C is wrong because Z37 is always secondary. D is wrong because the guideline says all maternal delivery records, not only complicated ones.",
+   "visual": {
+    "topic": "Outcome of delivery Z37",
+    "hint": "Mother's record or baby's record?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for an elective termination of pregnancy (Z33.2). According to Section I.C.21.c.11, should a code from category Z3A, Weeks of gestation, be assigned?",
+   "options": [
+    "No, Z3A codes should not be assigned for elective termination of pregnancy",
+    "Yes, Z3A is required on every pregnancy-related record",
+    "Yes, using the date of discharge",
+    "Yes, as the first-listed code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.21.c.11 says category Z3A codes should not be assigned for pregnancies with abortive outcomes (categories O00-O08), elective termination of pregnancy (code Z33.2), nor for postpartum conditions.\n\nB is wrong because Z3A is optional (\"may be assigned\") and is excluded in these situations. C is wrong for two reasons: Z3A does not apply here, and when it does apply to a multi-week inpatient stay, the date of the admission is used. D is wrong because Z3A is not assigned here.",
+   "visual": {
+    "topic": "Weeks of gestation Z3A",
+    "hint": "Check the list of situations where Z3A is not applicable."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Routine and Administrative Exams (I.C.21.c.12)",
+   "content": "These Z codes describe **routine examinations** (such as a **general check-up**) and **administrative examinations** (such as a **pre-employment physical**).\n\n**Do not use them** if the exam is for **diagnosis of a suspected condition** or for **treatment**. Use the diagnosis code instead.\n\n**Findings during a routine exam:** a diagnosis or condition discovered is coded as an **additional** code. Pre-existing and chronic conditions and history codes may also be added, as long as the exam is for administrative purposes and **not focused on any particular condition**.\n\n**\"With\" vs. \"without\" abnormal findings:** Code assignment depends on the information **known at the time the encounter is coded**.\n• No abnormal findings found, and coding is done **before test results are back**: it is acceptable to assign \"**without** abnormal findings.\"\n• When assigning \"**with** abnormal findings,\" add code(s) for the **specific abnormal finding(s)**.\n\n**Pre-operative and pre-procedural lab exam** Z codes: only when a patient is being **cleared** for a procedure or surgery and **no treatment is given**.\n\nCategories: Z00, Z01, Z02 (except Z02.9), Z32.0- (pregnancy test).",
+   "visual": {
+    "title": "Routine and Admin Exams",
+    "sub": "Section I.C.21.c.12",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Not for",
+      "b": "Suspected condition or treatment"
+     },
+     {
+      "h": "Condition found",
+      "b": "Code it as an additional code"
+     },
+     {
+      "h": "Results pending",
+      "b": "'Without abnormal findings' is acceptable"
+     },
+     {
+      "h": "'With abnormal findings'",
+      "b": "Add codes for the specific findings"
+     },
+     {
+      "h": "Pre-op exam codes",
+      "b": "Clearance only, no treatment given"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Annual Check-up, Labs Pending",
+   "content": "**Documentation:** An adult has a general check-up. The exam shows no abnormal findings. Routine labs are drawn, and the coder codes the visit before the results come back.\n\n**Which guideline applies?** Section I.C.21.c.12.\n\n**Decision:**\n\n• Code assignment depends on what is known **at the time the encounter is coded**.\n• Because no abnormal findings were found and results are not back, it is **acceptable** to assign the routine exam code \"**without** abnormal findings.\"\n\n**Variation:** If the provider had documented an abnormal finding during the exam, the coder would assign the \"**with** abnormal findings\" code **plus** code(s) identifying the **specific** abnormal finding(s).\n\n**Variation 2:** If the patient came in because of a **suspected** condition, a routine exam code would **not** be used. The diagnosis code is used instead.",
+   "visual": {
+    "title": "Coding What Is Known Now",
+    "sub": "Section I.C.21.c.12",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No findings, labs pending",
+      "b": "'Without abnormal findings' OK"
+     },
+     {
+      "h": "Abnormal finding found",
+      "b": "'With' code + specific finding codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has a general check-up. No abnormal findings are documented, and the encounter is coded before the lab results return. According to Section I.C.21.c.12, which is acceptable?",
+   "options": [
+    "Hold the claim until all results return, then decide",
+    "Do not use a routine exam code at all",
+    "Assign the code for \"with abnormal findings\" in case the labs are abnormal",
+    "Assign the code for \"without abnormal findings\""
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.c.12 says code assignment depends on the information that is known at the time the encounter is being coded. If no abnormal findings were found during the examination, but the encounter is coded before test results are back, it is acceptable to assign the code for \"without abnormal findings.\"\n\nA is wrong because the guideline does not require waiting. C is wrong because \"with abnormal findings\" requires additional code(s) for specific abnormal findings, and none are known. B is wrong because this is exactly the situation routine exam codes describe.",
+   "visual": {
+    "topic": "With/without abnormal findings",
+    "hint": "Code what is known when you code."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for pre-operative clearance before surgery, and during the visit the provider also starts treatment for a problem. According to Section I.C.21.c.12, which statement is correct?",
+   "options": [
+    "Pre-operative examination Z codes must be secondary",
+    "Pre-operative examination Z codes are always used for any visit before surgery",
+    "Pre-operative examination Z codes are for use only when a patient is being cleared for a procedure or surgery and no treatment is given",
+    "Pre-operative examination Z codes replace the surgery's procedure code"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.21.c.12 says pre-operative examination and pre-procedural laboratory examination Z codes are for use only in those situations when a patient is being cleared for a procedure or surgery and no treatment is given. Because treatment was given here, the condition of these codes is not met.\n\nB is wrong because the guideline limits their use. A is wrong because the guideline does not say these codes must be secondary; its only limit is that they are for clearance encounters where no treatment is given. D is wrong because Z codes are not procedure codes (I.C.21.b).",
+   "visual": {
+    "topic": "Pre-operative exams",
+    "hint": "What condition does the guideline place on pre-op exam codes?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Prophylactic Organ Removal (I.C.21.c.13)",
+   "content": "**Miscellaneous Z codes** cover encounters that do not fit the other groups. Some explain the reason for the encounter; others add useful information.\n\n**Prophylactic organ removal** means removing an organ to **prevent** disease (for example, removing breasts because of a **genetic susceptibility** to cancer or a **family history** of cancer).\n\n• The principal or first-listed code is from **Z40.0** (prophylactic surgery for risk factors related to malignant neoplasms) or **Z40.8** (other prophylactic surgery).\n• If applicable, add code(s) for the **associated risk factor** (such as genetic susceptibility or family history).\n• If the patient has a **malignancy at one site** and is having prophylactic removal at **another site** to prevent a new primary or metastatic disease, also assign a code for the **malignancy**, in addition to the Z40.0 code.\n• **Do not** assign Z40.0 if the organ is removed **for treatment** of a malignancy, such as **removal of the testes for the treatment of prostate cancer**.",
+   "visual": {
+    "title": "Prophylactic Organ Removal",
+    "sub": "Section I.C.21.c.13",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Preventive removal",
+      "b": "Z40.0 or Z40.8 first-listed"
+     },
+     {
+      "h": "Risk factor",
+      "b": "Add genetic susceptibility / family history"
+     },
+     {
+      "h": "Cancer elsewhere",
+      "b": "Z40.0 plus the malignancy code"
+     },
+     {
+      "h": "Removal to treat cancer",
+      "b": "No Z40.0"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has the testes removed as treatment for prostate cancer. According to Section I.C.21.c.13, should a Z40.0 code be assigned?",
+   "options": [
+    "Yes, as the principal diagnosis",
+    "No; a Z40.0 code should not be assigned when the organ is removed for treatment of a malignancy",
+    "Yes, as a secondary diagnosis",
+    "No; Z40.8 should be used instead"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.13 states a Z40.0 code should not be assigned if the patient is having organ removal for treatment of a malignancy, such as the removal of the testes for the treatment of prostate cancer.\n\nA and C are wrong because Z40.0 is not assigned in this situation at all. D is wrong because Z40.8 is for other prophylactic surgery; this removal is treatment, not prophylaxis.",
+   "visual": {
+    "topic": "Prophylactic vs treatment",
+    "hint": "Is the organ removed to prevent or to treat?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Miscellaneous List and Two FY 2027 DES Notes",
+   "content": "The miscellaneous list includes: Z28 (immunization not carried out, except Z28.3-), Z29, Z40, Z41 (except Z41.9), Z53, Z72, Z73, Z74 (except Z74.01), Z75, Z76.0, Z76.3, Z76.4, Z76.5, Z91.1-, Z91.A-, Z91.B, Z91.83, Z91.84-, Z91.89.\n\n**Notes to remember:**\n\n• **Z72** (problems related to lifestyle) and **Z73** (life management difficulty): assign **only when the documentation specifies** that the patient has an **associated problem**.\n• **Z91.1-** is the **patient's** noncompliance; **Z91.A-** is the **caregiver's** noncompliance with the patient's treatment.\n\n**FY 2027 change: Z91.B, Personal risk factor of exposure to diethylstilbestrol (DES)** now has a note: assigned to show the patient was **directly exposed to DES in utero** (for example, the patient's **mother** was exposed while the patient was in utero).\n\n**Compare with Z84.A** (new in FY 2027, in the history list): a **family member** was exposed, which could put the patient at higher risk (example: **maternal grandmother** exposed).\n\nThe guideline also points to Section I.B.14 for Z55-Z65 documentation by clinicians other than the patient's provider (see SDOH below).",
+   "visual": {
+    "title": "Z91.B vs Z84.A (DES)",
+    "sub": "Two FY 2027 additions for diethylstilbestrol exposure",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z91.B",
+      "b": "Patient directly exposed in utero (mother exposed)"
+     },
+     {
+      "h": "Z84.A",
+      "b": "Family member exposed (e.g., maternal grandmother)"
+     },
+     {
+      "h": "Z72, Z73",
+      "b": "Only with a documented associated problem"
+     },
+     {
+      "h": "Z91.1- vs Z91.A-",
+      "b": "Patient vs caregiver noncompliance"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's mother took diethylstilbestrol (DES) while she was pregnant with the patient. Under the FY 2027 guidelines, which code captures the patient's direct in-utero exposure?",
+   "options": [
+    "Z91.B, Personal risk factor of exposure to diethylstilbestrol",
+    "Z84.A, Family history of exposure to diethylstilbestrol",
+    "Z91.89, Other specified personal risk factors, not elsewhere classified",
+    "Z86.59, Personal history of other mental and behavioral disorders"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. The FY 2027 note under Z91.B (Section I.C.21.c.13) says it is assigned to show the patient was directly exposed to DES in utero, for example when the patient's mother was exposed to DES while the patient was in utero.\n\nB is wrong because Z84.A is for a family member's exposure that could put the patient at higher risk (example: maternal grandmother), not the patient's own in-utero exposure. C is wrong because a specific code exists, so the 'other specified' code is not needed. D is wrong because it describes a history of mental and behavioral disorders and is on the nonspecific list.",
+   "visual": {
+    "topic": "DES exposure (FY 2027)",
+    "hint": "Whose exposure: the patient's own, or a relative's?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.21.c.14-17"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Nonspecific Z Codes (I.C.21.c.14)",
+   "content": "Some Z codes are **so non-specific**, or so **potentially redundant** with other codes, that there is **little justification for their use in the inpatient setting**.\n\nIn the **outpatient** setting, use them **only** when there is **no further documentation** to permit more precise coding. Otherwise, use any sign or symptom or other reason for visit captured in another code.\n\n**The nonspecific list:**\n\n• Z02.9 Encounter for administrative examinations, unspecified\n• Z04.9 Encounter for examination and observation for unspecified reason\n• Z13.9 Encounter for screening, unspecified\n• Z41.9 Encounter for procedure for purposes other than remedying health state, unspecified\n• Z52.9 Donor of unspecified organ or tissue\n• Z86.59 Personal history of other mental and behavioral disorders\n• Z88.9 Allergy status to unspecified drugs, medicaments and biological substances status\n• Z92.0 Personal history of contraception\n\nThese are the codes listed as \"Except\" in the earlier screening, observation, history, status, donor and miscellaneous lists.",
+   "visual": {
+    "title": "Nonspecific Z Codes",
+    "sub": "Section I.C.21.c.14",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Inpatient",
+      "b": "Little justification for use"
+     },
+     {
+      "h": "Outpatient",
+      "b": "Only if no better documentation exists"
+     },
+     {
+      "h": "Otherwise",
+      "b": "Use the sign, symptom or other reason"
+     },
+     {
+      "h": "Examples",
+      "b": "Z13.9, Z04.9, Z88.9, Z92.0"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An outpatient record clearly documents the specific disease the patient was screened for. According to Section I.C.21.c.14, should Z13.9, Encounter for screening, unspecified, be used?",
+   "options": [
+    "Yes, Z13.9 is always acceptable for outpatient screening",
+    "No; screening cannot be coded in the outpatient setting",
+    "Yes, but only as a secondary code",
+    "No; nonspecific Z codes should be limited to cases with no further documentation to permit more precise coding"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.c.14 says nonspecific Z codes (including Z13.9) have little justification in the inpatient setting, and their use in the outpatient setting should be limited to those instances when there is no further documentation to permit more precise coding. Here the documentation supports a more precise code.\n\nA and C are wrong because the specific documentation makes the unspecified code inappropriate in any position. B is wrong because screening codes may be used in the outpatient setting (I.C.21.c.5).",
+   "visual": {
+    "topic": "Nonspecific Z codes",
+    "hint": "Is there documentation for something more precise?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Z Codes That May Only Be Principal/First-Listed (I.C.21.c.15)",
+   "content": "Certain Z codes may **only** be reported as the **principal/first-listed** diagnosis.\n\n**One exception:** when there are **multiple encounters on the same day** and the **medical records for the encounters are combined**.\n\n**The list:**\n\n• **Exams:** Z00 (except Z00.6), Z01, Z02, Z04\n• **Pregnancy and reproduction:** Z33.2 (elective termination), Z31.81, Z31.83, Z31.84, Z34 (normal pregnancy), Z39 (postpartum care)\n• **Newborns and children:** Z38 (liveborn infants), Z76.1 (foundling), Z76.2 (healthy infant and child)\n• **Surgery and treatment:** Z40 (prophylactic surgery), Z42 (plastic and reconstructive surgery following medical procedure or healed injury), Z51.0 (antineoplastic radiation therapy), Z51.1- (antineoplastic chemotherapy and immunotherapy)\n• **Donors:** Z52 (except Z52.9)\n• **Z99.12** Encounter for respirator [ventilator] dependence during power failure\n\n**Contrast:** Z37 (outcome of delivery) is **always secondary**, and Z33.1 (pregnant state, incidental) is **secondary only**.",
+   "visual": {
+    "title": "First-Listed Only",
+    "sub": "Section I.C.21.c.15",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Exams",
+      "b": "Z00 (not Z00.6), Z01, Z02, Z04"
+     },
+     {
+      "h": "Pregnancy",
+      "b": "Z33.2, Z34, Z39, some Z31"
+     },
+     {
+      "h": "Newborn / child",
+      "b": "Z38, Z76.1, Z76.2"
+     },
+     {
+      "h": "Treatment",
+      "b": "Z40, Z42, Z51.0, Z51.1-"
+     },
+     {
+      "h": "Exception",
+      "b": "Same-day encounters, combined records"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.21.c.15, which of these codes may only be reported as the principal/first-listed diagnosis (outside the same-day combined-record exception)?",
+   "options": [
+    "Z37, Outcome of delivery",
+    "Z33.1, Pregnant state, incidental",
+    "Z51.0, Encounter for antineoplastic radiation therapy",
+    "Z92.82, Status post administration of tPA in a different facility"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Z51.0, Encounter for antineoplastic radiation therapy, is on the Section I.C.21.c.15 list of Z codes that may only be reported as principal/first-listed.\n\nA is wrong because Z37 is always a secondary code (I.C.21.c.11). B is wrong because Z33.1 is a secondary code only (I.C.21.c.3). D is wrong because Z92.82 is assigned as a secondary diagnosis, after the condition for which tPA was given (I.C.21.c.3).",
+   "visual": {
+    "topic": "First-listed-only Z codes",
+    "hint": "Three of these are secondary-only codes."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Newborns and Infants (I.C.21.c.16)",
+   "content": "Section I.C.16 (Newborn/Perinatal) has more detail on these codes. The newborn Z code list is:\n\n• **Z76.1** Encounter for health supervision and care of foundling\n• **Z00.1-** Encounter for routine child health examination\n• **Z38** Liveborn infants according to place of birth and type of delivery\n\n**Connections to other rules you have learned:**\n\n• Z38 and Z76.1 are on the **first-listed only** list (I.C.21.c.15).\n• When the principal diagnosis must be a Z38 code, a **Z05** observation code is sequenced **after** it (I.C.21.c.6).\n• **Z37** (outcome of delivery) goes on the **mother's** record, never the newborn's (I.C.21.c.11).",
+   "visual": {
+    "title": "Newborn Z Codes",
+    "sub": "Section I.C.21.c.16",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z38",
+      "b": "Liveborn infant: first-listed only"
+     },
+     {
+      "h": "Z00.1-",
+      "b": "Routine child health exam"
+     },
+     {
+      "h": "Z76.1",
+      "b": "Foundling: first-listed only"
+     },
+     {
+      "h": "Z37",
+      "b": "Mother's record only, not newborn"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Social Determinants of Health (I.C.21.c.17)",
+   "content": "**SDOH codes** describe **social problems, conditions, or risk factors** that influence a patient's health.\n\n**Rules:**\n\n• Assign them **when the information is documented** in the medical record.\n• Assign **as many** SDOH codes as necessary to describe **all** the social problems, conditions, or risk factors documented during the current episode of care.\n\n**The guideline's examples:**\n\n• A patient who **lives alone** suffers an acute injury that temporarily affects their ability to do routine activities of daily living. When documented as such, this supports **Z60.2, Problems related to living alone**. **Merely living alone**, without documentation of a risk or unmet need for assistance at home, does **not** support Z60.2.\n• A clinician documents (or signs off on patient-reported information) that the patient expressed **concerns with access and availability of food**: supports **Z59.41, Food insecurity**.\n• Documentation that the patient is **experiencing homelessness**: supports a code from **Z59.0-, Homelessness**.\n\n**SDOH categories:** Z55 (education and literacy), Z56 (employment), Z57 (occupational exposure), Z58 (physical environment), Z59 (housing and economic circumstances), Z60 (social environment), Z62 (upbringing), Z63 (primary support group), Z64 and Z65 (psychosocial circumstances).",
+   "visual": {
+    "title": "Social Determinants of Health",
+    "sub": "Section I.C.21.c.17",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Assign",
+      "b": "When documented; as many as needed"
+     },
+     {
+      "h": "Z60.2 living alone",
+      "b": "Needs a documented risk or unmet need"
+     },
+     {
+      "h": "Z59.41 food insecurity",
+      "b": "Concerns with access to food"
+     },
+     {
+      "h": "Z59.0- homelessness",
+      "b": "Documented homelessness"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Who May Document SDOH?",
+   "content": "Normally, diagnoses must come from the **patient's provider**. SDOH codes are different.\n\n**Other clinicians:** For SDOH in Chapter 21 (such as categories **Z55-Z65**), code assignment **may be based on documentation from clinicians involved in the care of the patient who are not the patient's provider**, because this is **social information, not a medical diagnosis**.\n\n• Examples from the guideline: **social workers, community health workers, case managers, or nurses**, if their documentation is included in the **official medical record**.\n\n**Patient self-reported information** may also be used, **as long as** it is **signed off by** and **incorporated into the medical record** by **a clinician or provider**.\n\nSee also Section I.B.14, Documentation by Clinicians Other than the Patient's Provider.\n\n**What it does NOT mean:** A patient questionnaire that no clinician or provider has signed off on and incorporated into the record cannot be used.",
+   "visual": {
+    "title": "SDOH Documentation Sources",
+    "sub": "Section I.C.21.c.17",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Patient's provider",
+      "b": "Yes"
+     },
+     {
+      "h": "Other clinicians",
+      "b": "Social worker, nurse, case manager: yes, if in the official record"
+     },
+     {
+      "h": "Patient self-report",
+      "b": "Yes, if signed off by a clinician or provider"
+     },
+     {
+      "h": "Unsigned self-report",
+      "b": "No"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Living Alone",
+   "content": "**Scenario 1:** A patient's social history says \"lives alone.\" Nothing else is documented about risk or need.\n\n• Guideline: Section I.C.21.c.17.\n• Decision: **Do not assign Z60.2**. Merely living alone, without documentation of a risk or unmet need for assistance at home, does not support Z60.2.\n\n**Scenario 2:** A patient who lives alone has an acute injury. The case manager documents that the injury temporarily limits the patient's ability to perform routine activities of daily living and that there is no one at home to help.\n\n• Guideline: Section I.C.21.c.17.\n• Decision: **Z60.2 is supported**. The documentation shows a risk or unmet need. A case manager's documentation in the official medical record may be used because SDOH is social information, not a medical diagnosis.",
+   "visual": {
+    "title": "When Does Living Alone Count?",
+    "sub": "Section I.C.21.c.17",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "'Lives alone' only",
+      "b": "Z60.2 not supported"
+     },
+     {
+      "h": "Lives alone + unmet need",
+      "b": "Z60.2 supported"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A social worker's note in the official medical record documents that the patient is experiencing homelessness. The attending provider did not mention it. According to Section I.C.21.c.17, may the coder assign a code from subcategory Z59.0-, Homelessness?",
+   "options": [
+    "No, only the patient's provider may document conditions for coding",
+    "Yes, SDOH code assignment may be based on documentation from clinicians involved in the patient's care who are not the patient's provider, such as social workers",
+    "Yes, but only if the patient is inpatient",
+    "No, homelessness cannot be coded"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.17 says that for SDOH classified to Chapter 21, such as categories Z55-Z65, code assignment may be based on documentation from clinicians involved in the care of the patient who are not the patient's provider, since this information represents social information rather than medical diagnoses. Social workers are named as an example, if their documentation is in the official medical record. The guideline also says documentation that the patient is experiencing homelessness supports a code from subcategory Z59.0-.\n\nA is wrong because SDOH is an exception to the provider-only rule. C is wrong because the guideline does not limit this to inpatients. D is wrong because the guideline names homelessness codes specifically.",
+   "visual": {
+    "topic": "SDOH documentation",
+    "hint": "Is this a medical diagnosis or social information?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's record says only \"Lives alone.\" There is no documentation of any risk or unmet need for assistance at home. According to Section I.C.21.c.17, should Z60.2, Problems related to living alone, be assigned?",
+   "options": [
+    "No, merely living alone without documentation of a risk or unmet need does not support Z60.2",
+    "Yes, any patient who lives alone gets Z60.2",
+    "Yes, if the patient is over a certain age",
+    "Yes, as the first-listed code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.21.c.17 says merely living alone, without documentation of a risk or unmet need for assistance at home, would not support assignment of code Z60.2. It is supported when, for example, an acute injury temporarily affects the patient's ability to perform routine activities of daily living and this is documented.\n\nB is wrong for that reason. C is wrong because the guideline sets no age criterion. D is wrong because the code is not supported at all here.",
+   "visual": {
+    "topic": "Z60.2 living alone",
+    "hint": "Living alone alone is not enough."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient fills out a screening form saying she often worries about running out of food. According to Section I.C.21.c.17, what must happen before this self-reported information can be used to assign Z59.41, Food insecurity?",
+   "options": [
+    "Nothing; patient forms can always be coded directly",
+    "It can never be used; only a physician's diagnosis counts",
+    "It must be confirmed by a laboratory test",
+    "It must be signed off by and incorporated into the medical record by either a clinician or provider"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.c.17 says patient self-reported documentation may be used to assign SDOH codes, as long as the patient self-reported information is signed-off by and incorporated into the medical record by either a clinician or provider. The guideline's example says documentation by a clinician (or patient-reported information signed off by a clinician) that the patient expressed concerns with access and availability of food supports Z59.41.\n\nA is wrong because sign-off and incorporation into the record are required. C is wrong because no lab test is required. B is wrong because the guideline allows self-reported information with sign-off, and also allows other clinicians' documentation.",
+   "visual": {
+    "topic": "Self-reported SDOH",
+    "hint": "What makes patient-reported information usable?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Z Codes III on a Real Record",
+   "content": "1. **Pregnancy record?** Normal pregnancy, no complications: Z34 first and no other OB chapter codes. Add Z3A only when applicable (not abortive outcomes, Z33.2, or postpartum). Delivery: Z37 on the mother's record as a secondary code (I.C.21.c.11).\n2. **Routine or administrative exam?** Not for suspected conditions or treatment. Choose \"with\" or \"without\" abnormal findings based on what is known when coding; add codes for specific findings. Pre-op exam codes only for clearance with no treatment (I.C.21.c.12).\n3. **Prophylactic surgery?** Z40.0/Z40.8 first, plus risk factors, plus any malignancy at another site. Never Z40.0 when the removal treats a cancer (I.C.21.c.13).\n4. **DES exposure?** Patient exposed in utero: Z91.B. Family member exposed: Z84.A.\n5. **About to use a nonspecific Z code?** Look for something more precise first (I.C.21.c.14).\n6. **Check position:** Is the Z code on the first-listed-only list? Is it a secondary-only code (Z37, Z33.1)? (I.C.21.c.15)\n7. **Newborn?** Z38 first; Z05 after it if a suspected condition was ruled out (I.C.21.c.16, c.6).\n8. **Social needs documented?** Code all documented SDOH, using provider, other clinician, or signed-off self-reported documentation. Need a documented risk or unmet need, not just a fact like \"lives alone\" (I.C.21.c.17).",
+   "visual": {
+    "title": "Z Codes III Workflow",
+    "sub": "Pregnancy to social determinants",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2",
+      "b": "OB rules; routine/admin exam rules"
+     },
+     {
+      "h": "3-4",
+      "b": "Prophylactic surgery; DES codes"
+     },
+     {
+      "h": "5-6",
+      "b": "Avoid nonspecific; check position"
+     },
+     {
+      "h": "7-8",
+      "b": "Newborn order; document-based SDOH"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways: Z Codes III",
+   "content": "• **Z34** is always first and never with other OB chapter codes; **Z37** is on every maternal delivery record, always secondary, never on the newborn record; **Z3A** is not used for abortive outcomes, elective termination or postpartum conditions (I.C.21.c.11).\n• Routine exam codes: not for suspected conditions; \"without abnormal findings\" is acceptable when results are pending (I.C.21.c.12).\n• Prophylactic organ removal: Z40.0 or Z40.8 first; never Z40.0 when removal treats a malignancy (I.C.21.c.13).\n• **FY 2027:** Z91.B note (patient exposed to DES in utero) and new Z84.A (family member exposed to DES).\n• Nonspecific Z codes: little justification inpatient; outpatient only when nothing more precise is documented (I.C.21.c.14).\n• Certain Z codes are **first-listed only**, except for combined same-day encounter records (I.C.21.c.15).\n• SDOH: code all documented social needs; documentation from other clinicians or signed-off self-reports may be used (I.C.21.c.17).",
+   "visual": {
+    "title": "Z Codes III: Key Takeaways",
+    "sub": "Sections I.C.21.c.11 to I.C.21.c.17",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z34",
+      "b": "Always first; no OB chapter codes"
+     },
+     {
+      "h": "Z37",
+      "b": "Mother's record; always secondary"
+     },
+     {
+      "h": "Routine exam",
+      "b": "Code what is known now"
+     },
+     {
+      "h": "DES (FY 2027)",
+      "b": "Z91.B self; Z84.A family"
+     },
+     {
+      "h": "First-listed only",
+      "b": "Unless combined same-day records"
+     },
+     {
+      "h": "SDOH",
+      "b": "Other clinicians may document"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has breast cancer in one breast and is having prophylactic removal of the other breast to prevent a new primary malignancy. According to Section I.C.21.c.13, how is this coded?",
+   "options": [
+    "Only the code for the breast cancer",
+    "Only Z40.8",
+    "A code from subcategory Z40.0, plus a code for the malignancy",
+    "A code for the malignancy and no Z40 code, because the patient has cancer"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.21.c.13 says that if the patient has a malignancy of one site and is having prophylactic removal at another site to prevent either a new primary malignancy or metastatic disease, a code for the malignancy should also be assigned in addition to a code from subcategory Z40.0. For prophylactic organ removal encounters, the Z40.0 or Z40.8 code is the principal or first-listed code.\n\nA and D are wrong because the prophylactic surgery code is required. B is wrong because Z40.0 (prophylactic surgery for risk factors related to malignant neoplasms) fits this case, and the malignancy code must also be assigned.",
+   "visual": {
+    "topic": "Prophylactic removal with cancer elsewhere",
+    "hint": "The surgery is preventive, but the patient does have cancer."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has two separate encounters on the same day, and the facility combines the medical records for both encounters. One encounter used a Z code that is normally first-listed only. According to Section I.C.21.c.15, what is true?",
+   "options": [
+    "First-listed-only Z codes can never be secondary under any circumstances",
+    "The first-listed-only rule has an exception when there are multiple encounters on the same day and the records are combined",
+    "The Z code must be deleted",
+    "Combined records may not contain Z codes"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.15 says the listed Z codes may only be reported as the principal/first-listed diagnosis, except when there are multiple encounters on the same day and the medical records for the encounters are combined.\n\nA is wrong because the guideline states this exception. C and D are wrong because nothing in the guideline requires removing Z codes from combined records.",
+   "visual": {
+    "topic": "First-listed-only exception",
+    "hint": "The guideline names one exception."
+   }
+  }
+ ]
+}

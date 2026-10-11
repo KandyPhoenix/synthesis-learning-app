@@ -1,0 +1,628 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Blood Disorders and Diabetes",
+   "content": "This lesson covers two chapters of the guidelines:\n\n• **Chapter 3 (I.C.3):** Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism (D50-D89). This section has **no guideline text yet**; it is reserved for future guideline expansion.\n• **Chapter 4 (I.C.4):** Endocrine, Nutritional, and Metabolic Diseases (E00-E89). Its guideline, **Section I.C.4.a, Diabetes mellitus**, is one of the most tested topics in coding.\n\n**Why diabetes matters:** Diabetes codes are **combination codes**, so one code can carry the type of diabetes, the body system affected, and the complication. Coders must also decide:\n\n• What type of diabetes it is, and what to do when the type is not documented\n• Which **Z79** codes show long-term use of insulin, oral hypoglycemic drugs, or injectable non-insulin drugs\n• How to code an **insulin pump** that fails\n• How to code **secondary diabetes** (E08, E09, E13), including diabetes after a pancreatectomy",
+   "visual": {
+    "title": "Chapters 3-4 Roadmap",
+    "sub": "One reserved section, one high-yield guideline",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "I.C.3 Blood (D50-D89)",
+      "b": "Reserved for future guideline expansion."
+     },
+     {
+      "h": "I.C.4.a Diabetes",
+      "b": "Combination codes, type, remission."
+     },
+     {
+      "h": "Z79 drug codes",
+      "b": "Insulin, oral, injectable non-insulin."
+     },
+     {
+      "h": "Pumps + secondary DM",
+      "b": "T85.6-, E08, E09, E13, E89.1."
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.3"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Chapter 3 Is Reserved",
+   "content": "Section I.C.3 covers **Chapter 3, Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism (D50-D89)**.\n\nThe official text says only: **\"Reserved for future guideline expansion.\"**\n\n**What this means:** There are currently **no chapter-specific guidelines** for Chapter 3. When you code these conditions, you still follow the conventions (Section I.A), the general coding guidelines (Section I.B), the Index and the Tabular List instructions.\n\n**What it does NOT mean:** It does not mean blood disorders are never addressed anywhere. For example, Lesson 12 showed that Section I.C.2.c tells you how to sequence an anemia associated with a malignancy (code D63.0, Anemia in neoplastic disease). Those rules sit in the neoplasm chapter guidelines, not in Section I.C.3.",
+   "visual": {
+    "title": "Section I.C.3",
+    "sub": "Chapter 3: Blood and immune (D50-D89)",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Official text",
+      "b": "Reserved for future guideline expansion."
+     },
+     {
+      "h": "So you use",
+      "b": "Conventions, general guidelines, Index, Tabular."
+     },
+     {
+      "h": "Related rule elsewhere",
+      "b": "Anemia with cancer: Section I.C.2.c (D63.0)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "What does Section I.C.3 (Chapter 3, D50-D89) currently contain?",
+   "options": [
+    "Detailed rules for sequencing all anemias",
+    "The statement 'Reserved for future guideline expansion'",
+    "Rules for coding diabetes mellitus",
+    "Rules for coding HIV"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. The official text of Section I.C.3 is only: Reserved for future guideline expansion.\n\nA is wrong: Section I.C.3 has no sequencing rules; the anemia sequencing rules you have learned are in the neoplasm guidelines (Section I.C.2.c). C is wrong: diabetes is in Section I.C.4.a. D is wrong: HIV is not covered in Section I.C.3.",
+   "visual": {
+    "topic": "Chapter 3",
+    "hint": "Some sections have no text yet."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.4"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.4.a"
+  },
+  {
+   "type": "concept",
+   "title": "Diabetes Codes Are Combination Codes",
+   "content": "**The rule (I.C.4.a, opening paragraph):** Diabetes mellitus codes are **combination codes**. A single code includes:\n\n• the **type** of diabetes mellitus,\n• the **body system affected**, and\n• the **complications** affecting that body system.\n\n**Use as many codes as needed:**\n• As many codes within a particular category as are necessary to describe **all of the complications** may be used.\n• Assign as many codes from categories **E08 – E13** as needed to identify **all of the associated conditions** the patient has.\n\n**Sequencing:** The codes are sequenced based on the **reason for a particular encounter**.\n\n**What it does NOT mean:** It does not mean one diabetes code per patient. A patient with several diabetic complications may need several codes from the same category.",
+   "visual": {
+    "title": "Diabetes Combination Codes",
+    "sub": "One code can carry three pieces",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Type",
+      "b": "Which type of diabetes mellitus."
+     },
+     {
+      "h": "Body system",
+      "b": "Which system is affected."
+     },
+     {
+      "h": "Complication",
+      "b": "The complication in that system."
+     },
+     {
+      "h": "How many codes?",
+      "b": "As many E08-E13 codes as needed; sequence by reason."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Type of Diabetes and Remission",
+   "content": "**Type 1 vs age (I.C.4.a.1):** The age of a patient is **not the sole determining factor**. Most type 1 diabetics develop the condition before reaching puberty, and for this reason type 1 diabetes mellitus is also referred to as **juvenile diabetes**.\n\n**Presymptomatic type 1 (I.C.4.a.1.a):** Codes **E10.A-**, Type 1 diabetes mellitus, presymptomatic, are assigned for **early-stage type 1 diabetes that predates the onset of symptoms**.\n\n**Type 2 in remission (I.C.4.a.1.b):** Code **E11.A**, Type 2 diabetes mellitus without complications in remission, is assigned **based on provider documentation** that the diabetes is in remission.\n• If documentation is unclear whether type 2 diabetes has achieved remission, **query the provider**.\n• The term **\"resolved\" is not synonymous with remission**.\n\n**What it does NOT mean:** An adult can have type 1 diabetes; a young patient is not automatically type 1. And a note saying diabetes \"resolved\" does not support E11.A.",
+   "visual": {
+    "title": "Type and Remission",
+    "sub": "Section I.C.4.a.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Age",
+      "b": "Not the sole factor for type 1."
+     },
+     {
+      "h": "E10.A-",
+      "b": "Type 1, presymptomatic: before symptoms."
+     },
+     {
+      "h": "E11.A",
+      "b": "Type 2 without complications, in remission."
+     },
+     {
+      "h": "Resolved",
+      "b": "Not the same as remission: query if unclear."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents that a patient's type 2 diabetes has 'resolved.' According to Section I.C.4.a.1.b, what should the coder do?",
+   "options": [
+    "Do not assume remission; query the provider if it is unclear whether the diabetes has achieved remission",
+    "Assign E11.A because resolved means remission",
+    "Stop coding diabetes entirely",
+    "Assign E10.A- for presymptomatic diabetes"
+   ],
+   "correct": 0,
+   "explanation": "Correct: B. Section I.C.4.a.1.b: E11.A is assigned based on provider documentation that the diabetes is in remission. If documentation is unclear, the provider should be queried. The guideline states that the term 'resolved' is not synonymous with remission.\n\nB is wrong: the guideline says resolved is not synonymous with remission. C is wrong: the guideline does not say to drop the diagnosis; it says to query when remission status is unclear. D is wrong: E10.A- is for presymptomatic type 1 diabetes, not type 2.",
+   "visual": {
+    "topic": "Type 2 remission",
+    "hint": "Is 'resolved' the same word as 'remission'?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.4.a.1, which statement about type 1 diabetes is correct?",
+   "options": [
+    "Any patient diagnosed before age 18 must be coded as type 1",
+    "Type 1 diabetes cannot be diagnosed in adults",
+    "Juvenile diabetes is coded as type 2",
+    "Age is not the sole determining factor, though most type 1 diabetics develop it before puberty"
+   ],
+   "correct": 3,
+   "explanation": "Correct: B. Section I.C.4.a.1: the age of a patient is not the sole determining factor, though most type 1 diabetics develop the condition before reaching puberty. For this reason type 1 is also referred to as juvenile diabetes.\n\nA is wrong: the guideline states age is not the sole factor and gives no age cutoff. B is wrong: nothing in the guideline limits type 1 to children; it says 'most,' not 'all,' develop it before puberty. C is wrong: the guideline says juvenile diabetes is another name for type 1.",
+   "visual": {
+    "topic": "Type 1 and age",
+    "hint": "Does age alone decide the type?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which code is assigned for early-stage type 1 diabetes that predates the onset of symptoms, per Section I.C.4.a.1.a?",
+   "options": [
+    "E11.A",
+    "E13",
+    "E10.A-",
+    "Z79.4"
+   ],
+   "correct": 2,
+   "explanation": "Correct: B. Section I.C.4.a.1.a: codes E10.A-, Type 1 diabetes mellitus, presymptomatic, are assigned for early-stage type 1 diabetes that predates the onset of symptoms.\n\nA is wrong: E11.A is type 2 diabetes mellitus without complications in remission. B is wrong: E13 is other specified diabetes mellitus (a secondary diabetes category). D is wrong: Z79.4 shows long-term (current) use of insulin, not a type of diabetes.",
+   "visual": {
+    "topic": "Presymptomatic type 1",
+    "hint": "Look for the type 1 code with 'presymptomatic.'"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Type Not Documented and Insulin Use",
+   "content": "**Type not documented (I.C.4.a.2):** If the type of diabetes is not documented in the medical record, the **default is E11.-, Type 2 diabetes mellitus**.\n\n**Type not documented, but the patient uses insulin (I.C.4.a.3):** Still assign **E11-, Type 2 diabetes mellitus**. Insulin use does **not** make it type 1.\n\n**Z79 codes:** Assign additional code(s) from category **Z79** to identify long-term (current) use of:\n• insulin: **Z79.4**, Long term (current) use of insulin\n• oral hypoglycemic drugs: **Z79.84**, Long term (current) use of oral hypoglycemic drugs\n• injectable non-insulin antidiabetic drugs: **Z79.85**, Long-term (current) use of injectable non-insulin antidiabetic drugs\n\n**Exam trap:** \"Patient on insulin, type not stated\" is a classic question. The answer is **E11-** (type 2) plus **Z79.4**, not type 1.",
+   "visual": {
+    "title": "Type Not Documented",
+    "sub": "Section I.C.4.a.2 and a.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No type documented",
+      "b": "Default: E11.- type 2."
+     },
+     {
+      "h": "No type, uses insulin",
+      "b": "Still E11-, plus Z79.4."
+     },
+     {
+      "h": "Oral hypoglycemic",
+      "b": "Z79.84 long-term use."
+     },
+     {
+      "h": "Injectable non-insulin",
+      "b": "Z79.85 long-term use."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Z79 Combinations and Temporary Insulin",
+   "content": "Section I.C.4.a.3 spells out what to assign when a patient uses **two kinds** of diabetes drugs:\n\n• **Oral hypoglycemic + insulin** → **Z79.4** and **Z79.84**\n• **Insulin + injectable non-insulin antidiabetic** → **Z79.4** and **Z79.85**\n• **Oral hypoglycemic + injectable non-insulin antidiabetic** → **Z79.84** and **Z79.85**\n\n**Temporary insulin:** **Z79.4 should not be assigned** if insulin is given **temporarily** to bring a type 2 patient's blood sugar under control **during an encounter**.\n\n**What it does NOT mean:** Z79 codes are not for a single dose given in the hospital. They identify **long-term (current) use**.",
+   "visual": {
+    "title": "Z79 Code Combinations",
+    "sub": "Two drug types = two Z79 codes",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Oral + insulin",
+      "b": "Z79.4 and Z79.84"
+     },
+     {
+      "h": "Insulin + inj. non-insulin",
+      "b": "Z79.4 and Z79.85"
+     },
+     {
+      "h": "Oral + inj. non-insulin",
+      "b": "Z79.84 and Z79.85"
+     },
+     {
+      "h": "Temporary insulin",
+      "b": "Do NOT assign Z79.4."
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Diabetes Medication Scenarios",
+   "content": "**Scenario 1:** The record says \"diabetes mellitus.\" No type is documented. The patient takes insulin daily.\n→ Section I.C.4.a.3: **E11-** (type 2), plus **Z79.4**.\n\n**Scenario 2:** A patient with type 2 diabetes takes oral hypoglycemic drugs and insulin.\n→ Section I.C.4.a.3: assign both **Z79.4** and **Z79.84**.\n\n**Scenario 3:** A type 2 patient who does not normally use insulin is given insulin during a hospital stay only to bring blood sugar under control.\n→ Section I.C.4.a.3: **do not assign Z79.4**, because the insulin was given temporarily during the encounter.\n\n**Scenario 4:** A patient with type 2 diabetes uses an injectable non-insulin antidiabetic drug and oral hypoglycemic drugs.\n→ Section I.C.4.a.3: assign **Z79.84** and **Z79.85**.",
+   "visual": {
+    "title": "Medication Scenarios",
+    "sub": "Section I.C.4.a.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No type + insulin",
+      "b": "E11- and Z79.4"
+     },
+     {
+      "h": "Oral + insulin",
+      "b": "Z79.4 and Z79.84"
+     },
+     {
+      "h": "Insulin given temporarily",
+      "b": "No Z79.4"
+     },
+     {
+      "h": "Oral + inj. non-insulin",
+      "b": "Z79.84 and Z79.85"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The record documents 'diabetes mellitus' with no type, and the patient uses insulin long term. Per Section I.C.4.a.3, what is assigned?",
+   "options": [
+    "A type 1 diabetes code, because the patient uses insulin",
+    "E11-, Type 2 diabetes mellitus, plus Z79.4",
+    "E13, Other specified diabetes mellitus, plus Z79.4",
+    "Query is required; no code can be assigned"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.4.a.3: if the documentation does not indicate the type of diabetes but does indicate that the patient uses insulin, code E11-, Type 2 diabetes mellitus, should be assigned, with an additional Z79 code for long-term use of insulin (Z79.4).\n\nA is wrong: insulin use does not change the default to type 1. C is wrong: E13 is for other specified (secondary) diabetes, and nothing documents a secondary cause. D is wrong: the guideline gives a direct default (E11-), so a code can be assigned.",
+   "visual": {
+    "topic": "Insulin, type unknown",
+    "hint": "Does insulin use change the default type?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A type 2 diabetic patient takes both an oral hypoglycemic drug and an injectable non-insulin antidiabetic drug. Per Section I.C.4.a.3, which Z79 codes are assigned?",
+   "options": [
+    "Z79.84 and Z79.85",
+    "Z79.4 and Z79.84",
+    "Z79.4 and Z79.85",
+    "Z79.84 only"
+   ],
+   "correct": 0,
+   "explanation": "Correct: C. Section I.C.4.a.3: if the patient is treated with both oral hypoglycemic drugs and an injectable non-insulin antidiabetic drug, assign Z79.84 and Z79.85.\n\nB is wrong: Z79.4 is for insulin, which the patient does not take; Z79.4 + Z79.84 is the oral + insulin combination. C is wrong: Z79.4 + Z79.85 is the insulin + injectable non-insulin combination. D is wrong: both drug types need a code.",
+   "visual": {
+    "topic": "Z79 combinations",
+    "hint": "Match each drug type to its own code."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A type 2 diabetic who manages the condition with diet is given insulin in the hospital only to bring blood sugar under control during the stay. Per Section I.C.4.a.3, should Z79.4 be assigned?",
+   "options": [
+    "Yes, any insulin given requires Z79.4",
+    "Yes, and Z79.84 must be added",
+    "Only if the stay lasts more than three days",
+    "No, Z79.4 is not assigned when insulin is given temporarily during an encounter"
+   ],
+   "correct": 3,
+   "explanation": "Correct: B. Section I.C.4.a.3: code Z79.4 should not be assigned if insulin is given temporarily to bring a type 2 patient's blood sugar under control during an encounter.\n\nA is wrong: Z79.4 identifies long-term (current) use, and the guideline excludes temporary use. B is wrong: Z79.84 is for oral hypoglycemic drugs, which are not documented. C is wrong: the guidelines contain no rule based on length of stay.",
+   "visual": {
+    "topic": "Temporary insulin",
+    "hint": "Z79 codes describe long-term use."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Diabetes in Pregnancy: Look in Chapter 15",
+   "content": "**Section I.C.4.a.4** does not give its own rule. It points you to two places in Section I.C.15 (Pregnancy, Childbirth, and the Puerperium):\n\n• **Diabetes mellitus in pregnancy** → see Section I.C.15\n• **Gestational (pregnancy induced) diabetes** → see Section I.C.15\n\n**Why it matters:** Diabetes in a pregnant patient is coded using the obstetric guidelines, which are taught in a later lesson. On an exam, recognize that the answer is in Section I.C.15, not I.C.4.",
+   "visual": {
+    "title": "Diabetes and Pregnancy",
+    "sub": "Section I.C.4.a.4 is a pointer",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Diabetes in pregnancy",
+      "b": "See Section I.C.15."
+     },
+     {
+      "h": "Gestational diabetes",
+      "b": "See Section I.C.15."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Insulin Pump Malfunction",
+   "content": "Section I.C.4.a.5 covers an **insulin pump** that fails and delivers the wrong amount of insulin.\n\n**Underdose due to pump failure (a.5.a):**\n1. A code from subcategory **T85.6**, Mechanical complication of other specified internal and external prosthetic devices, implants and grafts, that **specifies the type of pump malfunction**, as principal/first-listed\n2. **T38.3X6-**, Underdosing of insulin and oral hypoglycemic [antidiabetic] drugs\n3. Additional codes for the **type of diabetes** and any **associated complications due to the underdosing**\n\n**Overdose due to pump failure (a.5.b):**\n1. **T85.6-** as principal/first-listed\n2. **T38.3X1-**, Poisoning by insulin and oral hypoglycemic [antidiabetic] drugs, accidental (unintentional)\n\n**Exam trap:** In both cases the **mechanical complication (T85.6-) goes first**, not the diabetes. Underdose = **X6** (underdosing); overdose = **X1** (poisoning, accidental).",
+   "visual": {
+    "title": "Insulin Pump Failure",
+    "sub": "T85.6- is always first",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Underdose: 1st",
+      "b": "T85.6- with type of pump malfunction."
+     },
+     {
+      "h": "Underdose: then",
+      "b": "T38.3X6-, plus diabetes type and complications."
+     },
+     {
+      "h": "Overdose: 1st",
+      "b": "T85.6- mechanical complication."
+     },
+     {
+      "h": "Overdose: then",
+      "b": "T38.3X1- poisoning, accidental."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's insulin pump fails and delivers too little insulin. Per Section I.C.4.a.5.a, what is the principal or first-listed code?",
+   "options": [
+    "The code for the type of diabetes",
+    "T38.3X6-, Underdosing of insulin and oral hypoglycemic [antidiabetic] drugs",
+    "A code from subcategory T85.6 that specifies the type of pump malfunction",
+    "T38.3X1-, Poisoning by insulin and oral hypoglycemic [antidiabetic] drugs, accidental (unintentional)"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.4.a.5.a: an underdose of insulin due to insulin pump failure is assigned a code from subcategory T85.6 that specifies the type of pump malfunction as principal/first-listed, followed by T38.3X6-, plus codes for the type of diabetes and associated complications.\n\nA is wrong: the diabetes code is an additional code. B is wrong: T38.3X6- follows the T85.6 code. D is wrong: T38.3X1- is for an overdose (poisoning), not an underdose.",
+   "visual": {
+    "topic": "Pump underdose",
+    "hint": "Which code describes the device problem?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An insulin pump malfunction results in an overdose of insulin. Per Section I.C.4.a.5.b, which sequence is correct?",
+   "options": [
+    "T38.3X1-, then T85.6-",
+    "T85.6-, then T38.3X1-",
+    "T85.6-, then T38.3X6-",
+    "The diabetes code, then T38.3X1-"
+   ],
+   "correct": 1,
+   "explanation": "Correct: A. Section I.C.4.a.5.b: the principal or first-listed code for an encounter due to an insulin pump malfunction resulting in an overdose of insulin should also be T85.6-, followed by T38.3X1-, Poisoning by insulin and oral hypoglycemic [antidiabetic] drugs, accidental (unintentional).\n\nA is wrong: the T85.6- code comes first. C is wrong: T38.3X6- is underdosing, used when the pump fails to deliver enough insulin. D is wrong: the mechanical complication code, not the diabetes code, is first.",
+   "visual": {
+    "topic": "Pump overdose",
+    "hint": "Overdose means poisoning, and the device still leads."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Secondary Diabetes Mellitus",
+   "content": "**What it is (I.C.4.a.6):** **Secondary diabetes** is **always caused by another condition or event**. The guideline's examples:\n• cystic fibrosis\n• malignant neoplasm of pancreas\n• pancreatectomy\n• adverse effect of drug\n• poisoning\n\n**The categories:** Codes under these categories identify complications/manifestations associated with secondary diabetes:\n• **E08**, Diabetes mellitus due to underlying condition\n• **E09**, Drug or chemical induced diabetes mellitus\n• **E13**, Other specified diabetes mellitus\n\n**Z79 codes apply here too (a.6.a):** Patients with secondary diabetes who **routinely** use insulin, oral hypoglycemic drugs, or injectable non-insulin drugs get additional **Z79** codes, using the same combinations as type 2: **Z79.4 + Z79.84**, **Z79.4 + Z79.85**, **Z79.84 + Z79.85**. **Z79.4 is not assigned** if insulin is given temporarily to bring a secondary diabetic patient's blood sugar under control during an encounter.",
+   "visual": {
+    "title": "Secondary Diabetes",
+    "sub": "Always caused by another condition or event",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "E08",
+      "b": "Due to underlying condition."
+     },
+     {
+      "h": "E09",
+      "b": "Drug or chemical induced."
+     },
+     {
+      "h": "E13",
+      "b": "Other specified diabetes mellitus."
+     },
+     {
+      "h": "Z79 codes",
+      "b": "Same combinations; no Z79.4 for temporary insulin."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Sequencing Secondary Diabetes and Its Cause",
+   "content": "**General rule (I.C.4.a.6.b):** The sequencing of secondary diabetes codes in relation to the codes for the **cause** of the diabetes is based on the **Tabular List instructions for categories E08, E09 and E13**. Read the notes in the Tabular List for the category you are using.\n\n**Due to pancreatectomy (I.C.4.a.6.b.i):** Postpancreatectomy diabetes is a lack of insulin due to surgical removal of all or part of the pancreas. Assign:\n• **E89.1**, Postprocedural hypoinsulinemia\n• A code from category **E13** as the **principal or first-listed** diagnosis\n• A code from subcategory **Z90.41**, Acquired absence of pancreas, as an **additional** code\n\n**Due to drugs (I.C.4.a.6.b.ii):** Secondary diabetes may be caused by an **adverse effect of correctly administered medications**, **poisoning**, or **sequela of poisoning**. See Section I.C.19.e for adverse effects and poisoning, and Section I.C.20 for external cause codes.\n\n**What it does NOT mean:** For pancreatectomy, E89.1 is not the first-listed code; the guideline puts the **E13** code first.",
+   "visual": {
+    "title": "Secondary DM: Sequencing",
+    "sub": "Section I.C.4.a.6.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "General",
+      "b": "Follow Tabular List notes for E08, E09, E13."
+     },
+     {
+      "h": "Pancreatectomy: first",
+      "b": "A code from category E13."
+     },
+     {
+      "h": "Pancreatectomy: also",
+      "b": "E89.1 and Z90.41 (additional)."
+     },
+     {
+      "h": "Drug-caused",
+      "b": "See I.C.19.e and I.C.20."
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Diabetes After Pancreatectomy",
+   "content": "**Documentation:** A patient developed diabetes after surgical removal of part of the pancreas (postpancreatectomy diabetes mellitus).\n\n**Which rule?** Section I.C.4.a.6.b.i.\n\n**Coding decision:**\n• **Principal/first-listed:** a code from category **E13**, Other specified diabetes mellitus\n• **Also assign:** **E89.1**, Postprocedural hypoinsulinemia\n• **Additional code:** from subcategory **Z90.41**, Acquired absence of pancreas\n\n**Why not E11?** This is secondary diabetes, caused by an event (the pancreatectomy). The default to E11.- applies only when the **type of diabetes is not documented** (I.C.4.a.2).",
+   "visual": {
+    "title": "Postpancreatectomy Diabetes",
+    "sub": "Section I.C.4.a.6.b.i",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Principal",
+      "b": "Code from category E13"
+     },
+     {
+      "h": "Also assign",
+      "b": "E89.1 Postprocedural hypoinsulinemia"
+     },
+     {
+      "h": "Additional",
+      "b": "Z90.41 Acquired absence of pancreas"
+     },
+     {
+      "h": "Not E11",
+      "b": "The cause (pancreatectomy) is documented."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has diabetes mellitus due to a pancreatectomy. Per Section I.C.4.a.6.b.i, what is the principal or first-listed diagnosis?",
+   "options": [
+    "A code from category E13",
+    "E89.1, Postprocedural hypoinsulinemia",
+    "A code from subcategory Z90.41",
+    "E11.-, Type 2 diabetes mellitus"
+   ],
+   "correct": 0,
+   "explanation": "Correct: B. Section I.C.4.a.6.b.i: for postpancreatectomy diabetes mellitus, assign E89.1, assign a code from category E13 as the principal or first-listed diagnosis, and a code from subcategory Z90.41 as an additional code.\n\nB is wrong: E89.1 is assigned, but the guideline names the E13 code as principal/first-listed. C is wrong: Z90.41 is an additional code. D is wrong: E11.- is the default only when the type is not documented; here the diabetes is documented as due to pancreatectomy.",
+   "visual": {
+    "topic": "Postpancreatectomy DM",
+    "hint": "Which category is 'other specified diabetes'?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.4.a.6.b, what determines the sequencing of secondary diabetes codes in relation to the code for the cause of the diabetes?",
+   "options": [
+    "Secondary diabetes is always sequenced first",
+    "The cause is always sequenced first",
+    "The order in which the provider documented the conditions",
+    "The Tabular List instructions for categories E08, E09 and E13"
+   ],
+   "correct": 3,
+   "explanation": "Correct: C. Section I.C.4.a.6.b: the sequencing of the secondary diabetes codes in relationship to codes for the cause of the diabetes is based on the Tabular List instructions for categories E08, E09 and E13.\n\nA and B are wrong: the guideline sets no single fixed order; it defers to the Tabular List instructions. C is wrong: documentation order is not the basis the guideline gives.",
+   "visual": {
+    "topic": "Secondary DM sequencing",
+    "hint": "Where do the instructions live?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which of the following is listed in Section I.C.4.a.6 as an example of a cause of secondary diabetes?",
+   "options": [
+    "Advanced age",
+    "Pregnancy",
+    "Cystic fibrosis",
+    "Puberty"
+   ],
+   "correct": 2,
+   "explanation": "Correct: B. Section I.C.4.a.6 states secondary diabetes is always caused by another condition or event, e.g., cystic fibrosis, malignant neoplasm of pancreas, pancreatectomy, adverse effect of drug, or poisoning.\n\nA is wrong: age is not listed as a cause; Section I.C.4.a.1 says age is not even the sole factor in determining type. B is wrong: diabetes in pregnancy and gestational diabetes are handled in Section I.C.15, not listed as causes of secondary diabetes. D is wrong: puberty is mentioned only in describing when most type 1 diabetics develop the condition.",
+   "visual": {
+    "topic": "Secondary DM causes",
+    "hint": "Secondary diabetes is caused by another condition or event."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying I.C.4.a to a Record",
+   "content": "Use these steps to code diabetes:\n\n1. **Find the type.** Is it type 1, type 2, or secondary (due to an underlying condition, a drug or chemical, or other specified)?\n   • **Not documented** → **E11.-** type 2 (I.C.4.a.2), even if the patient uses insulin (I.C.4.a.3).\n   • **Presymptomatic type 1** → **E10.A-**.\n   • **Type 2 in remission** documented by the provider → **E11.A**. \"Resolved\" is not remission; query if unclear.\n   • **Secondary** → **E08 / E09 / E13**; sequence with the cause per Tabular List instructions. Pancreatectomy → **E13** first, plus **E89.1** and **Z90.41**.\n2. **Code all complications.** Use as many codes from **E08–E13** as needed; sequence by the reason for the encounter.\n3. **Add Z79 codes** for long-term (current) use: **Z79.4** insulin, **Z79.84** oral hypoglycemic, **Z79.85** injectable non-insulin. Two drug types → two codes. **No Z79.4** for temporary insulin during an encounter.\n4. **Pump failure?** **T85.6-** first, then **T38.3X6-** (underdose) or **T38.3X1-** (overdose); for underdose also code the diabetes type and complications.\n5. **Pregnant patient?** Go to Section I.C.15.\n6. **Drug-induced?** Also follow Sections I.C.19.e and I.C.20.",
+   "visual": {
+    "title": "Diabetes Coding Checklist",
+    "sub": "Section I.C.4.a step by step",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Type",
+      "b": "Default E11.-; E10.A-; E11.A; E08/E09/E13."
+     },
+     {
+      "h": "2. Complications",
+      "b": "As many E08-E13 codes as needed."
+     },
+     {
+      "h": "3. Z79 drug codes",
+      "b": "Z79.4, Z79.84, Z79.85; not temporary."
+     },
+     {
+      "h": "4. Pump failure",
+      "b": "T85.6- first, then T38.3X6- or X1-."
+     },
+     {
+      "h": "5. Pregnancy",
+      "b": "Go to Section I.C.15."
+     },
+     {
+      "h": "6. Drug-induced",
+      "b": "Also I.C.19.e and I.C.20."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Section I.C.3** (Chapter 3, D50-D89) is **reserved for future guideline expansion**; it has no rules yet.\n• **Diabetes codes are combination codes** (type + body system + complication). Use as many **E08–E13** codes as needed; sequence by the reason for the encounter.\n• **Age is not the sole factor** in deciding type 1. **E10.A-** = presymptomatic type 1. **E11.A** = type 2 in remission, only with provider documentation; **\"resolved\" is not remission**.\n• **Type not documented → E11.-**, even when the patient uses insulin.\n• **Z79.4** insulin, **Z79.84** oral hypoglycemic, **Z79.85** injectable non-insulin; two drug types get two codes; **no Z79.4 for temporary insulin**.\n• **Insulin pump failure:** **T85.6-** first, then **T38.3X6-** (underdose) or **T38.3X1-** (overdose).\n• **Secondary diabetes (E08, E09, E13)** is always caused by another condition or event; sequencing with the cause follows the **Tabular List**; **postpancreatectomy = E13 first, plus E89.1 and Z90.41**.\n• **Diabetes in pregnancy and gestational diabetes:** see **Section I.C.15**.",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Chapters 3-4",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Chapter 3",
+      "b": "Reserved: no guideline text yet."
+     },
+     {
+      "h": "Type",
+      "b": "Not documented: E11.-, even with insulin."
+     },
+     {
+      "h": "Z79 + pumps",
+      "b": "Z79.4/.84/.85; pump: T85.6- first."
+     },
+     {
+      "h": "Secondary",
+      "b": "E08, E09, E13; pancreatectomy: E13 first."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with type 2 diabetes takes oral hypoglycemic drugs and insulin long term. Which Z79 codes does Section I.C.4.a.3 require?",
+   "options": [
+    "Z79.4 only",
+    "Z79.4 and Z79.84",
+    "Z79.84 only",
+    "Z79.85 and Z79.84"
+   ],
+   "correct": 1,
+   "explanation": "Correct: C. Section I.C.4.a.3: if the patient is treated with both oral hypoglycemic drugs and insulin, both code Z79.4 and code Z79.84 should be assigned.\n\nA and C are wrong: each one captures only one of the two drug types. D is wrong: Z79.85 is for injectable non-insulin antidiabetic drugs, which are not documented.",
+   "visual": {
+    "topic": "Review: Z79",
+    "hint": "Both drug types need a code."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about diabetes mellitus codes is correct according to Section I.C.4.a?",
+   "options": [
+    "Assign as many codes from categories E08-E13 as needed to identify all associated conditions, sequenced by the reason for the encounter",
+    "Only one code from categories E08-E13 may be assigned per encounter",
+    "Diabetes codes never include the complication; complications are always coded separately",
+    "The type of diabetes is determined by the patient's age"
+   ],
+   "correct": 0,
+   "explanation": "Correct: B. Section I.C.4.a: diabetes codes are combination codes; as many codes within a category as necessary may be used, sequenced based on the reason for the encounter, and as many codes from E08-E13 as needed should be assigned to identify all associated conditions.\n\nB is wrong: the guideline explicitly allows as many codes as needed. C is wrong: the codes are combination codes that include the complications affecting the body system. D is wrong: Section I.C.4.a.1 says age is not the sole determining factor.",
+   "visual": {
+    "topic": "Review: combination codes",
+    "hint": "How many diabetes codes can one patient need?"
+   }
+  }
+ ]
+}

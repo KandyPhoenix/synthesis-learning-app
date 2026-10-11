@@ -1,0 +1,660 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Sequencing, History and Special Cases",
+   "content": "Lesson 12 covered the general neoplasm rules and treatment encounters. This lesson finishes Chapter 2 with Sections I.C.2.l through I.C.2.t.\n\n**Why it matters:** Exam questions on cancer often hinge on two decisions:\n\n• **What goes first?** The answer changes with the reason for the encounter: treating the primary, treating a metastasis, pregnancy, a complication, or a pathologic fracture.\n• **Is the cancer current or history?** Choosing between an active malignancy code and a **Z85** personal history code depends on whether treatment is still directed to the site.\n\n**This lesson covers:**\n\n• Sequencing of neoplasm codes in six situations (I.C.2.l)\n• Current malignancy versus personal history (I.C.2.m)\n• Leukemia, multiple myeloma and malignant plasma cell neoplasms in remission (I.C.2.n)\n• Pointers for aftercare, follow-up and prophylactic organ removal (I.C.2.o, p, q)\n• Malignancy of a transplanted organ (I.C.2.r)\n• Breast implant associated anaplastic large cell lymphoma (I.C.2.s)\n• Lymphoma that spreads beyond the lymph nodes (I.C.2.t)",
+   "visual": {
+    "title": "Neoplasms II: Roadmap",
+    "sub": "Sections I.C.2.l through I.C.2.t",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Sequencing (l)",
+      "b": "Six situations that decide what goes first."
+     },
+     {
+      "h": "Current vs history (m, n)",
+      "b": "Active cancer code or a Z85 history code?"
+     },
+     {
+      "h": "Pointers (o, p, q)",
+      "b": "Aftercare, follow-up, prophylactic removal."
+     },
+     {
+      "h": "Special cases (r, s, t)",
+      "b": "Transplant, BIA-ALCL, lymphoma spread."
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.l"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Primary vs Secondary Treatment",
+   "content": "**Treatment of a primary malignancy (I.C.2.l.1):**\n• The malignancy is the principal/first-listed diagnosis.\n• The **primary site is sequenced first**, followed by any **metastatic sites**.\n\n**Treatment of a secondary malignancy (I.C.2.l.2):**\n• The patient has a primary malignancy with metastasis, and treatment is directed toward the **metastatic (secondary) site(s) only**.\n• The **metastatic site(s)** are principal/first-listed.\n• The **primary malignancy is coded as an additional code**.\n\n**What it does NOT mean:** It does not mean the primary is dropped when a metastasis is treated. Both are coded; only the order changes.\n\nThese two rules repeat Sections I.C.2.a and I.C.2.b from Lesson 12 and add the detail about ordering and about coding the primary as an additional code.",
+   "visual": {
+    "title": "Order Follows the Treatment",
+    "sub": "Section I.C.2.l.1 and l.2",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Treating the primary",
+      "b": "Primary site first, then any metastatic sites."
+     },
+     {
+      "h": "Treating metastasis only",
+      "b": "Metastatic site(s) first, primary as an additional code."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Malignant Neoplasm in a Pregnant Patient",
+   "content": "**The rule (I.C.2.l.3):** When a pregnant patient has a malignant neoplasm:\n\n1. Sequence first a code from subcategory **O9A.1-**, Malignant neoplasm complicating pregnancy, childbirth, and the puerperium.\n2. Follow it with the appropriate code from **Chapter 2** to indicate the **type of neoplasm**.\n\n**Why both?** The O9A.1- code shows the pregnancy is complicated by a malignancy; the Chapter 2 code tells you what kind of neoplasm it is.\n\n**Exam trap:** Do not list the Chapter 2 code first just because cancer is the more serious condition. For a pregnant patient, the guideline puts the O9A.1- code first.",
+   "visual": {
+    "title": "Pregnancy + Malignancy",
+    "sub": "Section I.C.2.l.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "First",
+      "b": "O9A.1- malignant neoplasm complicating pregnancy"
+     },
+     {
+      "h": "Then",
+      "b": "Chapter 2 code for the type of neoplasm"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Complications: The Anemia Exception",
+   "content": "**The rule (I.C.2.l.4):** When an encounter is for management of a **complication associated with a neoplasm**, such as **dehydration**, and **the treatment is only for the complication**:\n• The **complication is coded first**, followed by the code(s) for the neoplasm.\n\n**The exception is anemia:** When the encounter is for management of an anemia associated with the malignancy, and the treatment is only for anemia:\n• The **malignancy** is principal/first-listed, followed by **D63.0, Anemia in neoplastic disease**.\n\n**Surgical complication (I.C.2.l.5):** When an encounter is for treatment of a complication resulting from a surgical procedure performed to treat the neoplasm:\n• The **complication** is principal/first-listed.\n• Whether the neoplasm code is also assigned depends on the guideline for **current malignancy versus personal history** (Section I.C.2.m, below).",
+   "visual": {
+    "title": "Complication Sequencing",
+    "sub": "Section I.C.2.l.4 and l.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Most complications",
+      "b": "e.g., dehydration: complication first, then neoplasm."
+     },
+     {
+      "h": "Exception: anemia",
+      "b": "Malignancy first, then D63.0."
+     },
+     {
+      "h": "Surgical complication",
+      "b": "Complication first."
+     },
+     {
+      "h": "Neoplasm code too?",
+      "b": "Check current vs history (I.C.2.m)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Pathologic Fracture Due to a Neoplasm",
+   "content": "A **pathological fracture** is a broken bone caused by disease that weakened the bone, here a neoplasm.\n\n**The rule (I.C.2.l.6)** depends on the **focus of treatment**:\n\n**Focus is the fracture:**\n1. A code from subcategory **M84.5**, Pathological fracture in neoplastic disease\n2. The code for the neoplasm\n\n**Focus is the neoplasm** (with an associated pathological fracture):\n1. The neoplasm code\n2. A code from **M84.5** for the pathological fracture\n\n**What it does NOT mean:** The fracture is not always listed first just because it is the acute problem, and the neoplasm is not always first because it is the underlying cause. Read the record to see what the treatment is focused on.",
+   "visual": {
+    "title": "Pathologic Fracture + Neoplasm",
+    "sub": "What is the focus of treatment?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Focus: the fracture",
+      "b": "M84.5 first, then the neoplasm."
+     },
+     {
+      "h": "Focus: the neoplasm",
+      "b": "Neoplasm first, then M84.5."
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Fracture or Cancer First?",
+   "content": "**Scenario A:** A patient with a malignancy has a pathological fracture of a bone due to the neoplasm. The encounter is for treatment of the fracture.\n→ Section I.C.2.l.6: focus is the fracture → **M84.5** code first, then the neoplasm code.\n\n**Scenario B:** A patient with a malignancy and an associated pathological fracture is admitted, and the treatment is focused on the neoplasm.\n→ Section I.C.2.l.6: focus is the neoplasm → **neoplasm** code first, then an **M84.5** code.\n\n**Lesson:** The same two codes are reported in both scenarios. Only the order changes, and the focus of treatment decides it.",
+   "visual": {
+    "title": "Same Codes, Different Order",
+    "sub": "Section I.C.2.l.6",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "A: treating the fracture",
+      "b": "1. M84.5  2. Neoplasm"
+     },
+     {
+      "h": "B: treating the neoplasm",
+      "b": "1. Neoplasm  2. M84.5"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient has a malignant neoplasm. According to Section I.C.2.l.3, what is sequenced first?",
+   "options": [
+    "The Chapter 2 code for the neoplasm",
+    "A code from subcategory O9A.1-",
+    "A Z51.- encounter code",
+    "A code from category Z85"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.2.l.3: when a pregnant patient has a malignant neoplasm, a code from subcategory O9A.1-, Malignant neoplasm complicating pregnancy, childbirth, and the puerperium, is sequenced first, followed by the appropriate Chapter 2 code to indicate the type of neoplasm.\n\nA is wrong: the Chapter 2 code follows the O9A.1- code. C is wrong: nothing says the visit is for chemotherapy, immunotherapy or radiation. D is wrong: Z85 is for a malignancy that was excised or eradicated with no further treatment, not a current one.",
+   "visual": {
+    "topic": "Pregnancy and cancer",
+    "hint": "Which chapter's code leads for a pregnant patient?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An encounter is solely to manage anemia associated with the patient's malignancy. Per Section I.C.2.l.4, which sequence is correct?",
+   "options": [
+    "Malignancy, then D63.0, Anemia in neoplastic disease",
+    "Anemia code, then malignancy",
+    "D63.0 only",
+    "Malignancy only"
+   ],
+   "correct": 0,
+   "explanation": "Correct: B. Section I.C.2.l.4 says complications are generally coded first, but the exception is anemia: when the encounter is for management of an anemia associated with the malignancy and treatment is only for anemia, the malignancy is first, followed by D63.0.\n\nB is wrong: complication-first applies to other complications, such as dehydration, but anemia is the stated exception. C and D are wrong: the guideline calls for both the malignancy and D63.0.",
+   "visual": {
+    "topic": "Anemia exception",
+    "hint": "Anemia is the exception to the complication-first rule."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for treatment of a pathological fracture due to a neoplasm, and the focus of treatment is the fracture. Per Section I.C.2.l.6, what is sequenced first?",
+   "options": [
+    "The neoplasm code",
+    "C80.1, Malignant (primary) neoplasm, unspecified",
+    "A code from category Z85",
+    "A code from subcategory M84.5"
+   ],
+   "correct": 3,
+   "explanation": "Correct: B. Section I.C.2.l.6: when the encounter is for a pathological fracture due to a neoplasm and the focus of treatment is the fracture, a code from M84.5, Pathological fracture in neoplastic disease, is sequenced first, followed by the neoplasm code.\n\nA is wrong: neoplasm-first applies only when the focus of treatment is the neoplasm. B is wrong: C80.1 is only for when no determination can be made as to the primary site. C is wrong: nothing indicates the malignancy has been excised or eradicated.",
+   "visual": {
+    "topic": "Pathologic fracture",
+    "hint": "What is the focus of treatment?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is treated for a complication resulting from surgery performed to treat a neoplasm. According to Section I.C.2.l.5, what is principal, and what decides whether the neoplasm is also coded?",
+   "options": [
+    "The neoplasm is principal; the complication is never coded",
+    "The complication is principal; the neoplasm is never coded",
+    "The complication is principal; the current malignancy vs personal history guideline decides whether the neoplasm code is also assigned",
+    "A Z51.- code is principal; the complication is secondary"
+   ],
+   "correct": 2,
+   "explanation": "Correct: B. Section I.C.2.l.5: when an encounter is for treatment of a complication resulting from a surgical procedure performed for treatment of the neoplasm, the complication is principal/first-listed. The guideline then says to see the guideline on current malignancy versus personal history to determine if the neoplasm code should also be assigned.\n\nA is wrong: the complication is principal. B is wrong: the neoplasm may still be coded if the malignancy is current. D is wrong: the encounter is for a surgical complication, not for administering a therapy.",
+   "visual": {
+    "topic": "Surgical complication",
+    "hint": "Two parts: what is first, and where to look next."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a primary malignancy and metastasis is seen for treatment directed only at the metastatic site. Per Section I.C.2.l.2, how are the codes sequenced?",
+   "options": [
+    "Primary malignancy first, metastatic site second",
+    "Metastatic site first; the primary malignancy as an additional code",
+    "Metastatic site only; the primary is not coded",
+    "Z85 code first, then the metastatic site"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.2.l.2: when an encounter is for a primary malignancy with metastasis and treatment is directed toward the metastatic (secondary) site(s) only, the metastatic site(s) is designated as principal/first-listed, and the primary malignancy is coded as an additional code.\n\nA is wrong: primary-first applies when the primary malignancy is being treated (l.1). C is wrong: the guideline says the primary is coded as an additional code. D is wrong: Z85 is for a primary that has been excised or eradicated with no further treatment and no evidence at the site; here the primary is still present.",
+   "visual": {
+    "topic": "Treating metastasis",
+    "hint": "Where is treatment directed, and is the primary dropped?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.m"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Current Cancer or History?",
+   "content": "**Still current (code the malignancy):** The primary malignancy has been **excised**, but **further treatment** is directed to that site, such as:\n• an additional surgery for the malignancy,\n• radiation therapy, or\n• chemotherapy.\n\nKeep using the **primary malignancy code until treatment is completed**.\n\n**History (code Z85):** The primary malignancy has been previously excised or eradicated, **and** there is **no further treatment** of the malignancy directed to that site, **and** there is **no evidence of any existing primary malignancy** at that site. Use a code from category **Z85, Personal history of malignant neoplasm**, for the former site.\n\n**What it does NOT mean:** Removing the tumor does not by itself make the cancer \"history.\" If treatment directed at the site is still going on, it is still current.",
+   "visual": {
+    "title": "Current or History?",
+    "sub": "Section I.C.2.m",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Excised + still treating",
+      "b": "e.g., more surgery, radiation, chemo: code the malignancy."
+     },
+     {
+      "h": "Until when?",
+      "b": "Until treatment is completed."
+     },
+     {
+      "h": "Excised + no treatment",
+      "b": "And no evidence at the site: Z85 history code."
+     },
+     {
+      "h": "Exam trap",
+      "b": "Excision alone does not make it history."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Z85 Codes: Primary vs Secondary Sites",
+   "content": "Section I.C.2.m also limits which Z85 codes may be used for which kind of former cancer:\n\n• **Z85.0 – Z85.85:** assign **only for the former site of a primary malignancy**, **not** the site of a secondary malignancy.\n• **Z85.89:** may be assigned for the former site(s) of **either a primary or a secondary** malignancy.\n\n**What it does NOT mean:** It does not mean history of a metastatic site can never be captured. The guideline names Z85.89 as the code that may be used for a former secondary site.\n\n**Cross-reference:** Section I.C.21, Factors influencing health status and contact with health services, History (of), has more on history codes.",
+   "visual": {
+    "title": "Which Z85 Code?",
+    "sub": "Former primary site vs former secondary site",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z85.0 - Z85.85",
+      "b": "Former site of a PRIMARY malignancy only."
+     },
+     {
+      "h": "Z85.89",
+      "b": "Former site of a primary OR a secondary malignancy."
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Excision, Then Chemotherapy",
+   "content": "**Documentation:** A patient had a primary malignancy excised. She is now receiving chemotherapy directed to that site, and treatment is not yet complete.\n\n**Which rule?** Section I.C.2.m, first paragraph: when a primary malignancy has been excised but further treatment, such as chemotherapy, is directed to that site, the **primary malignancy code should be used until treatment is completed**.\n\n**Coding decision:** Code the **current malignancy**, not Z85.\n\n**Later:** After treatment is completed, if there is no further treatment directed to the site and no evidence of existing primary malignancy there, a **Z85** code is used for the former site.",
+   "visual": {
+    "title": "Excised Is Not Always History",
+    "sub": "Section I.C.2.m",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Now: chemo ongoing",
+      "b": "Code the malignancy as current."
+     },
+     {
+      "h": "Later: done, no evidence",
+      "b": "Use a Z85 code for the former site."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A primary malignancy was excised last month. The patient is now receiving radiation therapy directed to that site. Per Section I.C.2.m, how is the malignancy reported?",
+   "options": [
+    "With the primary malignancy code until treatment is completed",
+    "With a Z85 personal history code",
+    "With C80.1, Malignant (primary) neoplasm, unspecified",
+    "It is not coded because the tumor was removed"
+   ],
+   "correct": 0,
+   "explanation": "Correct: B. Section I.C.2.m: when a primary malignancy has been excised but further treatment, such as radiation therapy, is directed to that site, the primary malignancy code should be used until treatment is completed.\n\nB is wrong: Z85 requires that no further treatment is directed to the site. C is wrong: the primary site is known. D is wrong: excision alone does not end the use of the malignancy code while treatment continues.",
+   "visual": {
+    "topic": "Current vs history",
+    "hint": "Is treatment still directed to the site?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.2.m, which Z85 code may be assigned for the former site of a SECONDARY malignancy?",
+   "options": [
+    "Any code from Z85.0 – Z85.85",
+    "Z85.6",
+    "None; secondary sites are never reported as history",
+    "Z85.89"
+   ],
+   "correct": 3,
+   "explanation": "Correct: B. Section I.C.2.m: codes from subcategories Z85.0 – Z85.85 should only be assigned for the former site of a primary malignancy, not a secondary malignancy. Code Z85.89 may be assigned for the former site(s) of either a primary or secondary malignancy.\n\nA is wrong: those codes are for former primary sites only. B is wrong: Z85.6 is Personal history of leukemia (Section I.C.2.n), not a code for former secondary sites. C is wrong: the guideline names Z85.89 for this purpose.",
+   "visual": {
+    "topic": "Z85 history codes",
+    "hint": "One code in the range works for both."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.n"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Remission vs History",
+   "content": "**Remission codes:** The categories for **leukemia**, and category **C90, Multiple myeloma and malignant plasma cell neoplasms**, have codes that show **whether or not the disease has achieved remission**.\n\n**History codes also exist:**\n• **Z85.6**, Personal history of leukemia\n• **Z85.79**, Personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues\n\n**When in doubt, ask:** If the documentation is **unclear** as to whether the leukemia has achieved remission, the **provider should be queried**.\n\n**What it does NOT mean:** A coder should not decide on their own that a patient is \"in remission\" or that the disease is \"history.\" Remission status comes from provider documentation.\n\n**Exam trap:** For leukemia and C90 conditions, there are three different ideas: active (not in remission), in remission (still a C code), and personal history (Z85). Do not mix up \"in remission\" with \"history.\"",
+   "visual": {
+    "title": "Leukemia and C90 Status",
+    "sub": "Section I.C.2.n",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Not in remission",
+      "b": "Code from the leukemia or C90 category."
+     },
+     {
+      "h": "In remission",
+      "b": "A remission code within those same categories."
+     },
+     {
+      "h": "Personal history",
+      "b": "Z85.6 leukemia; Z85.79 other lymphoid etc."
+     },
+     {
+      "h": "Unclear?",
+      "b": "Query the provider about remission."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The record for a patient with leukemia does not make clear whether the leukemia has achieved remission. Per Section I.C.2.n, what should the coder do?",
+   "options": [
+    "Assign the remission code because the patient finished treatment",
+    "Assign Z85.6, Personal history of leukemia",
+    "Query the provider",
+    "Assign the code for leukemia not in remission by default"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.2.n: if the documentation is unclear as to whether the leukemia has achieved remission, the provider should be queried.\n\nA is wrong: the coder cannot infer remission from the end of treatment. B is wrong: choosing a history code is also a guess about status. D is wrong: the guideline gives no default for unclear remission status; it requires a query.",
+   "visual": {
+    "topic": "Leukemia remission",
+    "hint": "Who documents remission status?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.o"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.p"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.q"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Three Pointers to Chapter 21",
+   "content": "Sections I.C.2.o, I.C.2.p and I.C.2.q contain **no neoplasm rules of their own**. Each one sends you to **Section I.C.21, Factors influencing health status and contact with health services**:\n\n• **Aftercare following surgery for neoplasm (I.C.2.o)** → see I.C.21, **Aftercare**\n• **Follow-up care for completed treatment of a malignancy (I.C.2.p)** → see I.C.21, **Follow-up**\n• **Prophylactic organ removal for prevention of malignancy (I.C.2.q)** → see I.C.21, **Prophylactic organ removal**\n\n**Why it matters:** For these encounters, the rules come from Chapter 21 (the Z codes), which are taught in a later lesson. On an exam, recognize that the answer lives in Section I.C.21.\n\n**What it does NOT mean:** It does not mean these encounters are unimportant. It means the instructions are kept in one place, in Chapter 21, instead of being repeated in Chapter 2.",
+   "visual": {
+    "title": "Pointers to Section I.C.21",
+    "sub": "Rules for these live in Chapter 21",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "I.C.2.o Aftercare",
+      "b": "See I.C.21, Aftercare."
+     },
+     {
+      "h": "I.C.2.p Follow-up",
+      "b": "See I.C.21, Follow-up."
+     },
+     {
+      "h": "I.C.2.q Prophylactic removal",
+      "b": "See I.C.21, Prophylactic organ removal."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Where do the official guidelines direct you for coding follow-up care for completed treatment of a malignancy?",
+   "options": [
+    "Section I.C.2.d, Primary malignancy previously excised",
+    "Section I.C.21, Factors influencing health status and contact with health services, Follow-up",
+    "Section I.C.6, pain control/management",
+    "Section I.C.2.j, Disseminated malignant neoplasm"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.2.p, Follow-up care for completed treatment of a malignancy, says: See Section I.C.21. Factors influencing health status and contact with health services, Follow-up.\n\nA is wrong: I.C.2.d explains when to use Z85 for a previously excised primary, but the follow-up pointer is to I.C.21. C is wrong: I.C.6 is where Section I.C.2.h points for pain control. D is wrong: I.C.2.j is about code C80.0.",
+   "visual": {
+    "topic": "Cross-references",
+    "hint": "Sections I.C.2.o, p and q all point to the same chapter."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.r"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Cancer in a Transplanted Organ",
+   "content": "**The rule (I.C.2.r):** A malignant neoplasm **of a transplanted organ** is coded as a **transplant complication**. Use three codes, in this order:\n\n1. The appropriate code from category **T86.-**, Complications of transplanted organs and tissue\n2. **C80.2**, Malignant neoplasm associated with transplanted organ\n3. An **additional code for the specific malignancy**\n\n**What it does NOT mean:** C80.2 does not replace the code for the specific malignancy. The guideline says to use an additional code for the specific malignancy.\n\n**Exam trap:** Students often list the cancer code first. For a malignancy of a transplanted organ, the **T86.-** complication code leads.",
+   "visual": {
+    "title": "Transplanted Organ Malignancy",
+    "sub": "Section I.C.2.r: three codes in order",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "1st",
+      "b": "T86.- complication of transplanted organ"
+     },
+     {
+      "h": "2nd",
+      "b": "C80.2 malignancy associated with transplanted organ"
+     },
+     {
+      "h": "3rd",
+      "b": "Additional code for the specific malignancy"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient develops a malignant neoplasm of a transplanted organ. Per Section I.C.2.r, what is assigned first?",
+   "options": [
+    "The appropriate code from category T86.-",
+    "The code for the specific malignancy",
+    "C80.2, Malignant neoplasm associated with transplanted organ",
+    "C80.1, Malignant (primary) neoplasm, unspecified"
+   ],
+   "correct": 0,
+   "explanation": "Correct: C. Section I.C.2.r: a malignant neoplasm of a transplanted organ is coded as a transplant complication. Assign first the appropriate code from T86.-, followed by C80.2, then an additional code for the specific malignancy.\n\nB is wrong: the specific malignancy is the additional (third) code. C is wrong: C80.2 follows the T86.- code. D is wrong: C80.1 is for cancer when no determination can be made as to the primary site, which is not the situation here.",
+   "visual": {
+    "topic": "Transplanted organ",
+    "hint": "This malignancy is treated as a transplant complication."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.s"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: BIA-ALCL",
+   "content": "**What it is:** **Breast implant associated anaplastic large cell lymphoma (BIA-ALCL)** is a type of lymphoma that can develop around breast implants (Section I.C.2.s).\n\n**The codes:**\n• **C84.7A**, Anaplastic large cell lymphoma, ALK-negative, breast, for BIA-ALCL\n• **C84.7B**, Anaplastic large cell lymphoma, ALK-negative, in remission, for BIA-ALCL in remission\n\n**What NOT to do:** **Do not assign a complication code from chapter 19.** Even though the lymphoma is associated with a breast implant, the guideline says it is not coded as an implant complication.\n\n**Exam trap:** Compare this with Section I.C.2.r. A malignancy of a **transplanted organ** IS coded as a transplant complication (T86.- first). **BIA-ALCL** is NOT coded with a chapter 19 complication code.",
+   "visual": {
+    "title": "BIA-ALCL Coding",
+    "sub": "Section I.C.2.s",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "BIA-ALCL",
+      "b": "C84.7A ALCL, ALK-negative, breast"
+     },
+     {
+      "h": "BIA-ALCL in remission",
+      "b": "C84.7B ALCL, ALK-negative, in remission"
+     },
+     {
+      "h": "Do NOT",
+      "b": "Assign a complication code from chapter 19."
+     },
+     {
+      "h": "Contrast",
+      "b": "Transplanted organ cancer DOES use T86.- (I.C.2.r)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is diagnosed with breast implant associated anaplastic large cell lymphoma (BIA-ALCL), not in remission. Per Section I.C.2.s, how is it coded?",
+   "options": [
+    "C84.7A, with a chapter 19 complication code sequenced first",
+    "C84.7B, Anaplastic large cell lymphoma, ALK-negative, in remission",
+    "A T86.- code followed by C80.2",
+    "C84.7A, Anaplastic large cell lymphoma, ALK-negative, breast; no chapter 19 complication code"
+   ],
+   "correct": 3,
+   "explanation": "Correct: B. Section I.C.2.s: assign C84.7A for BIA-ALCL (or C84.7B for BIA-ALCL in remission). Do not assign a complication code from chapter 19.\n\nA is wrong: the guideline says not to assign a chapter 19 complication code. B is wrong: C84.7B is for BIA-ALCL in remission, and this patient is not in remission. C is wrong: T86.- with C80.2 is the rule for a malignancy of a transplanted organ (I.C.2.r), not a breast implant.",
+   "visual": {
+    "topic": "BIA-ALCL",
+    "hint": "Is it coded as an implant complication?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.t"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Lymphoma That Spreads",
+   "content": "**The rule (I.C.2.t):** When a malignant neoplasm of **lymphoid tissue** (a lymphoma) **metastasizes beyond the lymph nodes**:\n\n• Assign a code from categories **C81-C85** with a final character identifying **\"extranodal and solid organ sites\"**\n• **Rather than** a code for the secondary neoplasm of the affected solid organ\n\n**Official example:** Metastasis of diffuse large B-cell lymphoma to the lung, brain and left adrenal gland → **C83.398**, Diffuse large B-cell lymphoma of other extranodal and solid organ sites.\n\n**What it does NOT mean:** It does not mean you code each organ the lymphoma spread to as a separate secondary neoplasm. In the official example, one lymphoma code (C83.398) captures spread to three organs.\n\n**Cross-reference:** Section I.C.2.d (Lesson 12) points here for metastasis involving lymphoid tissue.",
+   "visual": {
+    "title": "Lymphoma Beyond the Nodes",
+    "sub": "Section I.C.2.t",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Do",
+      "b": "C81-C85 code with extranodal and solid organ sites."
+     },
+     {
+      "h": "Do NOT",
+      "b": "Code secondary neoplasm of each solid organ."
+     },
+     {
+      "h": "Official example",
+      "b": "DLBCL to lung, brain, left adrenal."
+     },
+     {
+      "h": "Code",
+      "b": "C83.398 DLBCL, other extranodal and solid organ sites."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's diffuse large B-cell lymphoma has metastasized to the lung, brain and left adrenal gland. Per Section I.C.2.t, what is assigned?",
+   "options": [
+    "Secondary malignant neoplasm codes for the lung, brain and adrenal gland",
+    "C80.0, Disseminated malignant neoplasm, unspecified",
+    "C83.398, Diffuse large B-cell lymphoma of other extranodal and solid organ sites",
+    "C80.1, Malignant (primary) neoplasm, unspecified"
+   ],
+   "correct": 2,
+   "explanation": "Correct: B. Section I.C.2.t: when a malignant neoplasm of lymphoid tissue metastasizes beyond the lymph nodes, assign a C81-C85 code with a final character identifying extranodal and solid organ sites, rather than secondary neoplasm codes. The guideline gives this exact example: C83.398.\n\nA is wrong: the guideline says to use the lymphoma code rather than secondary neoplasm codes for the affected solid organs. B is wrong: C80.0 is only for advanced metastatic disease with no known primary or secondary sites specified. D is wrong: the type of malignancy is known.",
+   "visual": {
+    "topic": "Lymphoma metastasis",
+    "hint": "The guideline uses this exact example."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying I.C.2.l-t to a Record",
+   "content": "Use these steps after you have identified the neoplasm (Lesson 12):\n\n1. **Is the patient pregnant?** If so, **O9A.1-** first, then the Chapter 2 code (I.C.2.l.3).\n2. **Is it current or history?**\n   • Excised but treatment still directed to the site → **current malignancy code** until treatment is completed (I.C.2.m).\n   • Excised/eradicated, no further treatment, no evidence → **Z85** for the former site. Use **Z85.0–Z85.85** only for former primary sites; **Z85.89** for primary or secondary (I.C.2.m).\n   • Leukemia or C90 condition → check documented **remission** status; query if unclear (I.C.2.n).\n3. **What is the treatment directed at?**\n   • Primary → primary first, then metastatic sites (l.1).\n   • Metastatic sites only → metastatic site(s) first, primary as additional (l.2).\n   • A complication only → complication first, **except anemia** (malignancy, then **D63.0**) (l.4).\n   • Complication of cancer surgery → complication first; then check current vs history (l.5).\n   • Pathological fracture → **M84.5** first if the fracture is the focus; neoplasm first if the neoplasm is the focus (l.6).\n4. **Special cases:** transplanted organ → **T86.-**, **C80.2**, specific malignancy (r); BIA-ALCL → **C84.7A/C84.7B**, no chapter 19 code (s); lymphoma beyond the nodes → **C81-C85** extranodal code (t).\n5. **Aftercare, follow-up, prophylactic organ removal** → use Section I.C.21 (o, p, q).",
+   "visual": {
+    "title": "Neoplasm Sequencing Checklist",
+    "sub": "Sections I.C.2.l through t",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Pregnant?",
+      "b": "O9A.1- first, then Chapter 2 code."
+     },
+     {
+      "h": "2. Current or history?",
+      "b": "Still treating: current. Done: Z85."
+     },
+     {
+      "h": "3. Treatment focus",
+      "b": "Primary, metastasis, complication, fracture."
+     },
+     {
+      "h": "4. Special cases",
+      "b": "Transplant, BIA-ALCL, lymphoma spread."
+     },
+     {
+      "h": "5. Z-code encounters",
+      "b": "Aftercare, follow-up: see I.C.21."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Treating the primary:** primary first, then metastatic sites. **Treating metastasis only:** metastatic site(s) first, primary as an additional code (I.C.2.l.1-2).\n• **Pregnant patient with cancer:** **O9A.1-** first, then the Chapter 2 code (I.C.2.l.3).\n• **Complication-only encounters:** complication first, **except anemia** due to the malignancy (malignancy, then **D63.0**) (I.C.2.l.4).\n• **Pathological fracture:** **M84.5** first when the fracture is the focus; neoplasm first when the neoplasm is the focus (I.C.2.l.6).\n• **Excised but still treated = current cancer.** **Z85** only when there is no further treatment and no evidence at the site. **Z85.89** is the only Z85 code allowed for a former secondary site (I.C.2.m).\n• **Leukemia and C90:** codes show remission status; **query** if remission is unclear (I.C.2.n).\n• **Transplanted organ cancer:** **T86.-**, then **C80.2**, then the specific malignancy. **BIA-ALCL:** **C84.7A/C84.7B**, no chapter 19 complication code (I.C.2.r, s).\n• **Lymphoma beyond the nodes:** C81-C85 extranodal code, not secondary neoplasm codes (I.C.2.t).",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Neoplasms II",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Sequence by focus",
+      "b": "Primary, metastasis, complication, fracture."
+     },
+     {
+      "h": "Current vs history",
+      "b": "Still treating: current. Done: Z85."
+     },
+     {
+      "h": "Remission",
+      "b": "Leukemia/C90: documented by provider; query."
+     },
+     {
+      "h": "Special cases",
+      "b": "T86.- + C80.2; C84.7A; C81-C85 extranodal."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which situation calls for the COMPLICATION to be sequenced before the neoplasm?",
+   "options": [
+    "Encounter only for anemia associated with the malignancy",
+    "Encounter only for intravenous rehydration of dehydration due to the neoplasm",
+    "Admission for a pathological fracture where the focus of treatment is the neoplasm",
+    "A pregnant patient with a malignant neoplasm"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.2.l.4: when the encounter is for management of a complication associated with a neoplasm, such as dehydration, and treatment is only for the complication, the complication is coded first, followed by the neoplasm.\n\nA is wrong: anemia is the stated exception; the malignancy is first, then D63.0. C is wrong: Section I.C.2.l.6 puts the neoplasm first when it is the focus of treatment. D is wrong: Section I.C.2.l.3 puts O9A.1- first, which is not a complication-first rule.",
+   "visual": {
+    "topic": "Review: complication first",
+    "hint": "Remember the one exception."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient had a primary malignancy excised years ago, received no further treatment, and has no evidence of disease at that site. Which statement follows Section I.C.2.m?",
+   "options": [
+    "Use a code from category Z85 to indicate the former site",
+    "Continue coding the primary malignancy as current",
+    "Use C80.1 because the cancer is no longer present",
+    "Code nothing about the former malignancy"
+   ],
+   "correct": 0,
+   "explanation": "Correct: B. Section I.C.2.m: when a primary malignancy has been previously excised or eradicated, there is no further treatment directed to that site, and there is no evidence of any existing primary malignancy at that site, a code from category Z85 should be used to indicate the former site.\n\nB is wrong: the current code is used only until treatment is completed. C is wrong: C80.1 means cancer, unspecified, when the primary site cannot be determined; it is not a history code. D is wrong: the guideline says a Z85 code should be used.",
+   "visual": {
+    "topic": "Review: history",
+    "hint": "All three conditions for history are met."
+   }
+  }
+ ]
+}

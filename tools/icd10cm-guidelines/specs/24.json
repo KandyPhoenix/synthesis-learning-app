@@ -1,0 +1,872 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Pregnancy Coding, Part II: Special Situations",
+   "content": "Part I gave you the general rules for chapter 15. Part II covers the **special situations** you will meet on OB records, from Section I.C.15.f through I.C.15.s.\n\nMost of these rules share one pattern: **a chapter 15 code is sequenced first, followed by a code from another chapter that gives the detail**. Learn the pattern and you can handle most of them.\n\nThis lesson covers:\n\n• HIV, diabetes, gestational diabetes, sepsis and puerperal sepsis\n• Alcohol, tobacco and drug use; poisoning and adverse effects; abuse\n• Normal delivery (O80)\n• The peripartum and postpartum periods, and sequela code O94\n• Termination of pregnancy and spontaneous abortion\n• COVID-19 in pregnancy",
+   "visual": {
+    "title": "The Chapter 15 Pattern",
+    "sub": "Pregnancy code first, detail code second",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1st",
+      "b": "Chapter 15 code: the condition complicating pregnancy"
+     },
+     {
+      "h": "2nd",
+      "b": "Code from another chapter: the specific detail"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.f"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: HIV in Pregnancy (I.C.15.f)",
+   "content": "**Admitted because of an HIV-related illness** during pregnancy, childbirth or the puerperium:\n\n• **Principal diagnosis:** a code from subcategory **O98.7-, Human immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium**\n• **Followed by:** the code(s) for the **HIV-related illness(es)**\n\n**Asymptomatic HIV infection status** in a patient admitted during pregnancy, childbirth, or the puerperium:\n\n• Assign **O98.7-** and **Z21, Asymptomatic human immunodeficiency virus [HIV] infection status**.\n\n**What it does NOT mean:** The HIV-related illness is not sequenced ahead of O98.7- in these situations. Chapter 15 still goes first.",
+   "visual": {
+    "title": "HIV in Pregnancy",
+    "sub": "O98.7- always leads",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "HIV-related illness",
+      "b": "O98.7- first, then the illness code(s)"
+     },
+     {
+      "h": "Asymptomatic status",
+      "b": "O98.7- and Z21"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient is admitted because of an HIV-related illness. According to Section I.C.15.f, what is the principal diagnosis?",
+   "options": [
+    "The code for the HIV-related illness",
+    "A code from subcategory O98.7-",
+    "Z21, Asymptomatic human immunodeficiency virus [HIV] infection status",
+    "Z33.1, Pregnant state, incidental"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.15.f says the principal diagnosis is from subcategory O98.7-, followed by the code(s) for the HIV-related illness(es). Option A is wrong because the illness code follows O98.7-. Option C is wrong because Z21 is for asymptomatic HIV status, and this patient has an HIV-related illness. Option D is wrong because Z33.1 requires the provider to document the pregnancy is incidental (Section I.C.15.a.1).",
+   "visual": {
+    "topic": "HIV in pregnancy",
+    "hint": "Chapter 15 keeps its priority."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.g"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.h"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Diabetes in Pregnancy (I.C.15.g and I.C.15.h)",
+   "content": "**Section I.C.15.g:** The guideline calls diabetes mellitus a **significant complicating factor** in pregnancy. For a pregnant patient who is diabetic:\n\n• **First:** a code from **category O24, Diabetes mellitus in pregnancy, childbirth, and the puerperium**\n• **Then:** the appropriate diabetes code(s) from **E08-E13** (chapter 4)\n\n**Section I.C.15.h:** For long-term use of insulin and oral hypoglycemics, the guideline sends you to **Section I.C.4.a.3** (the diabetes chapter). It does not restate the rule here.\n\n**Important exception coming next:** Gestational diabetes (O24.4) has its own rules, including which long-term drug use codes **not** to add.",
+   "visual": {
+    "title": "Pre-existing Diabetes",
+    "sub": "O24 first, then E08-E13",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1st",
+      "b": "Category O24 code"
+     },
+     {
+      "h": "2nd",
+      "b": "Diabetes code(s) E08-E13"
+     },
+     {
+      "h": "Insulin / oral drugs",
+      "b": "See Section I.C.4.a.3"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.i"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Gestational Diabetes (I.C.15.i)",
+   "content": "**What it is (per the guideline):** Gestational (pregnancy induced) diabetes can occur during the **second and third trimester** in patients who were **not diabetic before pregnancy**. It can cause complications similar to pre-existing diabetes and puts the patient at greater risk of developing diabetes after the pregnancy.\n\n**Where the codes are:** subcategory **O24.4, Gestational diabetes mellitus**.\n\n**Rule 1 — no other O24 code with O24.4.** No other code from category O24 should be used with a code from O24.4.\n\n**Rule 2 — pick one treatment code.** O24.4 codes include **diet controlled**, **insulin controlled**, and **controlled by oral hypoglycemic drugs**.\n\n• Diet **and** insulin → only the **insulin-controlled** code is required.\n• Diet **and** oral hypoglycemic drugs → only the **\"controlled by oral hypoglycemic drugs\"** code is required.",
+   "visual": {
+    "title": "Gestational Diabetes: O24.4",
+    "sub": "One O24 code; treatment picks the code",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Diet only",
+      "b": "Diet-controlled code"
+     },
+     {
+      "h": "Diet + insulin",
+      "b": "Insulin-controlled code"
+     },
+     {
+      "h": "Diet + oral drugs",
+      "b": "Oral hypoglycemic code"
+     },
+     {
+      "h": "Other O24 codes",
+      "b": "Not used with O24.4"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: What NOT to Add to O24.4 (I.C.15.i)",
+   "content": "**Rule 3 — no long-term drug use Z codes.** These codes should **not** be assigned with O24.4 codes:\n\n• **Z79.4**, Long-term (current) use of insulin\n• **Z79.84**, Long-term (current) use of oral hypoglycemic drugs\n• **Z79.85**, Long-term (current) use of injectable non-insulin antidiabetic drugs\n\nThe guideline states this directly; do not add them even when the patient takes insulin or oral drugs.\n\n**Rule 4 — abnormal glucose tolerance is different.** An **abnormal glucose tolerance in pregnancy** is coded to subcategory **O99.81, Abnormal glucose complicating pregnancy, childbirth, and the puerperium**, not to O24.4.\n\n**Exam trap:** Pre-existing diabetes (O24 + E08-E13) versus gestational diabetes (O24.4 alone, no Z79.4/Z79.84/Z79.85) versus abnormal glucose tolerance (O99.81).",
+   "visual": {
+    "title": "Three Glucose Situations",
+    "sub": "Know which code family fits",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Pre-existing diabetes",
+      "b": "O24 code + E08-E13"
+     },
+     {
+      "h": "Gestational diabetes",
+      "b": "O24.4; no Z79.4/.84/.85"
+     },
+     {
+      "h": "Abnormal glucose tolerance",
+      "b": "O99.81"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with gestational diabetes is treated with both diet and insulin. According to Section I.C.15.i, which is correct?",
+   "options": [
+    "Assign only the O24.4 insulin-controlled code",
+    "Assign the O24.4 diet-controlled code and the insulin-controlled code",
+    "Assign the O24.4 insulin-controlled code and Z79.4, Long-term (current) use of insulin",
+    "Assign a code from O99.81 and Z79.4"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.15.i says that if a patient with gestational diabetes is treated with both diet and insulin, only the code for insulin-controlled is required. Option B is wrong because only one code is required. Option C is wrong because Z79.4 should not be assigned with codes from subcategory O24.4. Option D is wrong because O99.81 is for abnormal glucose tolerance in pregnancy, not gestational diabetes.",
+   "visual": {
+    "topic": "Gestational diabetes",
+    "hint": "Which treatment code wins, and which Z code is barred?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient has type 2 diabetes mellitus that existed before the pregnancy. Per Section I.C.15.g, how is it sequenced?",
+   "options": [
+    "The chapter 4 diabetes code first, then a category O24 code",
+    "A code from subcategory O24.4 only",
+    "A code from O99.81 only",
+    "A category O24 code first, followed by the appropriate diabetes code(s) from E08-E13"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.15.g says pregnant patients who are diabetic are assigned a code from category O24 first, followed by the appropriate diabetes code(s) (E08-E13) from chapter 4. Option A reverses the order. Option B is wrong because O24.4 is for gestational diabetes in patients who were not diabetic before pregnancy (Section I.C.15.i). Option C is wrong because O99.81 is for abnormal glucose tolerance in pregnancy.",
+   "visual": {
+    "topic": "Pre-existing diabetes",
+    "hint": "Pre-existing is not gestational."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.j"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.k"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Sepsis in Pregnancy (I.C.15.j)",
+   "content": "**When a chapter 15 code for sepsis** complicating abortion, pregnancy, childbirth, or the puerperium is assigned:\n\n• Add a code for the **specific type of infection** as an additional diagnosis.\n• If **severe sepsis** is present, also add a code from subcategory **R65.2, Severe sepsis**, and code(s) for the **associated organ dysfunction(s)**, as additional diagnoses.\n\n**Order:** chapter 15 sepsis code → infection type → R65.2- and organ dysfunction (if severe sepsis).",
+   "visual": {
+    "title": "Sepsis Complicating Pregnancy",
+    "sub": "Chapter 15 code, then the details",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1st",
+      "b": "Chapter 15 sepsis code"
+     },
+     {
+      "h": "Add",
+      "b": "Specific type of infection"
+     },
+     {
+      "h": "If severe sepsis",
+      "b": "R65.2- + organ dysfunction codes"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Puerperal Sepsis — O85 (I.C.15.k)",
+   "content": "**Code O85, Puerperal sepsis**, is assigned with a **secondary code to identify the causal organism** (for a bacterial infection, a code from **B95-B96**, Bacterial infections in conditions classified elsewhere).\n\n**Do NOT use** a code from **A40, Streptococcal sepsis**, or **A41, Other sepsis**, for puerperal sepsis.\n\n**If applicable:** add codes for **severe sepsis (R65.2-)** and any associated **acute organ dysfunction**.\n\n**When O85 is NOT used:** for **sepsis following an obstetrical procedure**. The guideline sends you to Section I.C.1.d.5.b, Sepsis due to a postprocedural infection.",
+   "visual": {
+    "title": "O85 Puerperal Sepsis",
+    "sub": "Organism from B95-B96, never A40/A41",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "With O85",
+      "b": "B95-B96 organism code"
+     },
+     {
+      "h": "Never with O85",
+      "b": "A40 or A41 sepsis codes"
+     },
+     {
+      "h": "If severe",
+      "b": "R65.2- + organ dysfunction"
+     },
+     {
+      "h": "After OB procedure",
+      "b": "Not O85; see I.C.1.d.5.b"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is diagnosed with puerperal sepsis due to a bacterial infection. According to Section I.C.15.k, which combination is correct?",
+   "options": [
+    "O85 with a code from category A41, Other sepsis",
+    "A code from A40 as principal, followed by O85",
+    "O85 with a code from B95-B96 to identify the causal organism",
+    "O85 alone, with no additional code"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.15.k says O85 is assigned with a secondary code to identify the causal organism, such as a code from B95-B96 for a bacterial infection. Options A and B are wrong because a code from A40 or A41 should not be used for puerperal sepsis. Option D is wrong because the guideline requires the secondary organism code.",
+   "visual": {
+    "topic": "Puerperal sepsis",
+    "hint": "Which sepsis categories are banned here?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Sepsis develops following an obstetrical procedure. Per Section I.C.15.k, should code O85, Puerperal sepsis, be assigned?",
+   "options": [
+    "Yes, O85 covers all sepsis after delivery",
+    "No; the guideline directs the coder to Section I.C.1.d.5.b, Sepsis due to a postprocedural infection",
+    "Yes, but only with R65.2",
+    "No; a code from O99.81 is assigned instead"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.15.k states that O85 should not be assigned for sepsis following an obstetrical procedure and refers to Section I.C.1.d.5.b. Options A and C are wrong because the guideline specifically excludes this situation from O85. Option D is wrong because O99.81 is for abnormal glucose in pregnancy (Section I.C.15.i).",
+   "visual": {
+    "topic": "Postprocedural sepsis",
+    "hint": "Read the last sentence of I.C.15.k."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.l"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Alcohol, Tobacco and Drugs (I.C.15.l)",
+   "content": "All three rules apply to **any pregnancy case** when the patient uses the substance **during the pregnancy or postpartum**. Each pairs a chapter 15 code with a secondary F code.\n\n**Alcohol (I.C.15.l.1):** subcategory **O99.31, Alcohol use complicating pregnancy, childbirth, and the puerperium**, plus a secondary code from category **F10, Alcohol related disorders**, to identify **manifestations** of the alcohol use.\n\n**Tobacco (I.C.15.l.2):** subcategory **O99.33, Smoking (tobacco) complicating pregnancy, childbirth, and the puerperium**, for **any type of tobacco product**, plus a secondary code from category **F17, Nicotine dependence**, to identify the **type of nicotine dependence**.\n\n**Drugs (I.C.15.l.3):** subcategory **O99.32, Drug use complicating pregnancy, childbirth, and the puerperium**. This includes **illegal drugs** or **inappropriate use or abuse of prescription drugs**. Add secondary code(s) from **F11-F16 and F18-F19** to identify manifestations of the drug use.",
+   "visual": {
+    "title": "Substance Use in Pregnancy",
+    "sub": "Chapter 15 code + secondary F code",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Alcohol",
+      "b": "O99.31 + F10"
+     },
+     {
+      "h": "Tobacco (any product)",
+      "b": "O99.33 + F17"
+     },
+     {
+      "h": "Drugs",
+      "b": "O99.32 + F11-F16, F18-F19"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient uses tobacco during the pregnancy. According to Section I.C.15.l.2, which codes are assigned?",
+   "options": [
+    "A code from subcategory O99.33 and a secondary code from category F17 for the type of nicotine dependence",
+    "A code from category F17 only",
+    "A code from subcategory O99.32 and a code from F17",
+    "A code from subcategory O99.31 and a code from F10"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.15.l.2 says codes under O99.33 are assigned when a patient uses any type of tobacco product during pregnancy or postpartum, with a secondary F17 code to identify the type of nicotine dependence. Option B is wrong because the chapter 15 code is required. Option C is wrong because O99.32 is for drug use (Section I.C.15.l.3). Option D is wrong because O99.31 and F10 are for alcohol use (Section I.C.15.l.1).",
+   "visual": {
+    "topic": "Tobacco in pregnancy",
+    "hint": "Match the subcategory to the substance."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.m"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Poisoning and Adverse Effects (I.C.15.m)",
+   "content": "For **injury, poisoning, toxic effects, adverse effects and underdosing** in a pregnant patient, the sequence is:\n\n1. A code from subcategory **O9A.2, Injury, poisoning and certain other consequences of external causes complicating pregnancy, childbirth, and the puerperium** — sequenced **first**\n2. The appropriate **injury, poisoning, toxic effect, adverse effect or underdosing** code\n3. Additional code(s) for the **condition caused** by the poisoning, toxic effect, adverse effect or underdosing\n\nThe guideline refers you to Section I.C.19 for the rules on adverse effects, poisoning, underdosing and toxic effects.",
+   "visual": {
+    "title": "Poisoning in Pregnancy",
+    "sub": "Three codes, in this order",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "1. O9A.2 code",
+      "b": "Complicating pregnancy, childbirth, puerperium"
+     },
+     {
+      "h": "2. Injury/poisoning code",
+      "b": "Poisoning, toxic effect, adverse effect, etc."
+     },
+     {
+      "h": "3. Resulting condition",
+      "b": "What the poisoning or effect caused"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient has an adverse effect of a medication. According to Section I.C.15.m, what is sequenced first?",
+   "options": [
+    "The code for the condition caused by the adverse effect",
+    "The adverse effect code",
+    "A code from subcategory O99.32",
+    "A code from subcategory O9A.2"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.15.m says a code from subcategory O9A.2 is sequenced first, followed by the injury, poisoning, toxic effect, adverse effect or underdosing code, then the code(s) for the condition caused. Options A and B are wrong because those codes follow O9A.2. Option C is wrong because O99.32 is for drug use during pregnancy (Section I.C.15.l.3), not adverse effects.",
+   "visual": {
+    "topic": "Adverse effects in pregnancy",
+    "hint": "Chapter 15 still leads."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.n"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Normal Delivery, Code O80 (I.C.15.n)",
+   "content": "**Assign O80** when a patient is admitted for a **full-term normal delivery** and delivers a **single, healthy infant** with **no complications** antepartum, during the delivery, or postpartum during the delivery episode.\n\n**Rules for O80:**\n\n• O80 is **always a principal diagnosis**.\n• It is **not** used if **any other chapter 15 code** is needed to describe a current complication of the antenatal, delivery, or postnatal period.\n• Codes from **other chapters** may be added if they are **not related to and not complicating** the pregnancy.\n• **Resolved complication:** O80 may still be used if the patient had a complication earlier in the pregnancy that is **not present at the time of the admission for delivery** (I.C.15.n.2).\n• **Outcome code:** **Z37.0, Single live birth**, is the **only** outcome of delivery code appropriate with O80 (I.C.15.n.3).",
+   "visual": {
+    "title": "O80 Requirements",
+    "sub": "Every box must be true",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Full term",
+      "b": "Normal delivery"
+     },
+     {
+      "h": "Single healthy infant",
+      "b": "Outcome Z37.0 only"
+     },
+     {
+      "h": "No current complication",
+      "b": "No other chapter 15 code needed"
+     },
+     {
+      "h": "Always principal",
+      "b": "Other-chapter codes only if unrelated"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Is O80 Allowed?",
+   "content": "**Case 1:** A patient had a pregnancy complication earlier in the pregnancy. It resolved and is **not present** at the delivery admission. She has a full-term delivery of a single healthy infant with no complications.\n\n→ **O80 + Z37.0.** A resolved antepartum complication does not block O80 (I.C.15.n.2).\n\n**Case 2:** A full-term delivery of a single healthy infant, but a complication during the delivery requires a chapter 15 code.\n\n→ **Not O80.** O80 is not used if any other chapter 15 code is needed for a current complication (I.C.15.n.1).\n\n**Case 3:** A full-term uncomplicated delivery of twins.\n\n→ **Not O80.** O80 requires a **single** healthy infant, and Z37.0, Single live birth, is the only outcome code allowed with it (I.C.15.n.1 and n.3).",
+   "visual": {
+    "title": "O80 or Not?",
+    "sub": "Check the four requirements",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Resolved earlier problem",
+      "b": "O80 allowed"
+     },
+     {
+      "h": "Current complication",
+      "b": "O80 not allowed"
+     },
+     {
+      "h": "Twins",
+      "b": "O80 not allowed"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.15.n.3, which outcome of delivery code is appropriate for use with O80?",
+   "options": [
+    "Any code from category Z37",
+    "No outcome code is used with O80",
+    "Z37.0, Single live birth, only",
+    "Z39.0, Encounter for care and examination of mother immediately after delivery"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.15.n.3 says Z37.0, Single live birth, is the only outcome of delivery code appropriate for use with O80. Option A is wrong because only Z37.0 is allowed. Option B is wrong because Section I.C.15.b.5 requires a Z37 code on every maternal record when a delivery occurs. Option D is wrong because Z39.0 is for routine postpartum care after a delivery outside the hospital (Section I.C.15.o.4).",
+   "visual": {
+    "topic": "O80 outcome code",
+    "hint": "O80 means one healthy baby."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient had a pregnancy complication in an earlier trimester that is no longer present when she is admitted. She has a full-term, uncomplicated delivery of one healthy infant. Per Section I.C.15.n.2, can O80 be assigned?",
+   "options": [
+    "No, any complication during the pregnancy rules out O80",
+    "Yes, because the complication is not present at the time of the admission for delivery",
+    "Only if the earlier complication is also coded",
+    "No, a code from category O09 is required instead"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.15.n.2 says O80 may be used if the patient had a complication at some point during the pregnancy but it is not present at the time of the admission for delivery. Option A contradicts that guideline. Option C is wrong because O80 is not used if any other chapter 15 code is needed for a current complication (Section I.C.15.n.1), and the earlier complication is not current. Option D is wrong because O09 is for the prenatal period only (Section I.C.15.b.2).",
+   "visual": {
+    "topic": "Resolved complication",
+    "hint": "Is the complication present now?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.o"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Peripartum and Postpartum Periods (I.C.15.o.1–o.3)",
+   "content": "**Definitions (I.C.15.o.1):**\n\n• **Postpartum period:** begins **immediately after delivery** and continues for **six weeks** following delivery.\n• **Peripartum period:** the **last month of pregnancy** to **five months postpartum**.\n\n**Postpartum complication (I.C.15.o.2):** any complication occurring **within the six-week period**.\n\n**After the 6-week period (I.C.15.o.3):** Chapter 15 codes may still be used for pregnancy-related complications after the peripartum or postpartum period **if the provider documents that the condition is pregnancy related**.\n\n**What it does NOT mean:** The six-week line is not an absolute cutoff for chapter 15 codes. Provider documentation of a pregnancy relationship allows them later.",
+   "visual": {
+    "title": "Two Time Windows",
+    "sub": "Know both definitions",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Postpartum",
+      "b": "Delivery to six weeks after"
+     },
+     {
+      "h": "Peripartum",
+      "b": "Last month of pregnancy to 5 months postpartum"
+     },
+     {
+      "h": "Later complications",
+      "b": "Chapter 15 if provider says pregnancy related"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Z39.0 and Peripartum Cardiomyopathy (I.C.15.o.4–o.5)",
+   "content": "**Delivery outside the hospital (I.C.15.o.4):** When the mother **delivers outside the hospital before admission** and is admitted for **routine postpartum care** with **no complications**, assign **Z39.0, Encounter for care and examination of mother immediately after delivery**, as the **principal diagnosis**.\n\n**Pregnancy associated cardiomyopathy (I.C.15.o.5):** Code **O90.3** is unique. It may be diagnosed in the **third trimester** but may continue to progress **months after delivery**, so it is called **peripartum cardiomyopathy**.\n\n• O90.3 is **only** for cardiomyopathy that develops **as a result of pregnancy** in a patient who **did not have pre-existing heart disease**.",
+   "visual": {
+    "title": "Two Special Postpartum Rules",
+    "sub": "Z39.0 and O90.3",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Z39.0",
+      "b": "Delivered outside hospital, routine postpartum care, principal"
+     },
+     {
+      "h": "O90.3",
+      "b": "Cardiomyopathy due to pregnancy; no prior heart disease"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient delivers at home, then is admitted to the hospital for routine postpartum care. No complications are noted. According to Section I.C.15.o.4, what is the principal diagnosis?",
+   "options": [
+    "Z39.0, Encounter for care and examination of mother immediately after delivery",
+    "O80, Encounter for full-term uncomplicated delivery",
+    "Z37.0, Single live birth",
+    "A code from category Z34"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.15.o.4 says Z39.0 is the principal diagnosis when the mother delivers outside the hospital before admission and is admitted for routine postpartum care with no complications. Option B is wrong because O80 is for an admission for a full-term normal delivery (Section I.C.15.n.1); the delivery happened before admission. Option C is wrong because Z37 codes identify the outcome of delivery and are not to be used on subsequent records (Section I.C.15.b.5); the guideline names Z39.0 as principal here. Option D is wrong because Z34 is for routine prenatal visits (Section I.C.15.b.1).",
+   "visual": {
+    "topic": "Delivery outside hospital",
+    "hint": "The delivery already happened before admission."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.15.o.1, how is the peripartum period defined?",
+   "options": [
+    "From delivery to six weeks after delivery",
+    "From the start of the third trimester to six weeks postpartum",
+    "From conception to 28 days after delivery",
+    "From the last month of pregnancy to five months postpartum"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.15.o.1 defines the peripartum period as the last month of pregnancy to five months postpartum. Option A is the postpartum period, not the peripartum period. Options B and C are not definitions given in Section I.C.15.o.",
+   "visual": {
+    "topic": "Peripartum definition",
+    "hint": "It starts before delivery."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.p"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Code O94, Sequelae (I.C.15.p)",
+   "content": "**What it is:** **O94, Sequelae of complication of pregnancy, childbirth, and the puerperium**, is used when an **initial complication of pregnancy** develops a **sequela** (a residual condition) that needs care or treatment **at a future date**.\n\n**When:** It may be used **at any time after the initial postpartum period**.\n\n**Sequencing:** Like all sequela codes, O94 is sequenced **after** the code describing the sequela (the current condition).",
+   "visual": {
+    "title": "O94: Late Effects",
+    "sub": "Current condition first, O94 second",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "1st",
+      "b": "Code for the sequela (the current problem)"
+     },
+     {
+      "h": "2nd",
+      "b": "O94"
+     },
+     {
+      "h": "Timing",
+      "b": "Any time after the initial postpartum period"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.15.p.3, how is code O94 sequenced?",
+   "options": [
+    "Always as the principal diagnosis",
+    "Before the code for the sequela",
+    "Following the code describing the sequelae of the complication",
+    "Only within the six-week postpartum period"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.15.p.3 says O94, like all sequela codes, is sequenced following the code describing the sequelae of the complication. Options A and B are wrong because O94 comes after the sequela code. Option D is wrong because Section I.C.15.p.2 says O94 may be used any time after the initial postpartum period.",
+   "visual": {
+    "topic": "O94 sequencing",
+    "hint": "Sequela codes follow."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.q"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Abortion With Liveborn Fetus (I.C.15.q.1)",
+   "content": "**When an attempted termination of pregnancy results in a liveborn fetus**, assign:\n\n• **Z33.2, Encounter for elective termination of pregnancy**, and\n• a code from category **Z37, Outcome of delivery**.",
+   "visual": {
+    "title": "Termination, Liveborn Fetus",
+    "sub": "Two codes",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z33.2",
+      "b": "Elective termination of pregnancy"
+     },
+     {
+      "h": "Z37 code",
+      "b": "Outcome of delivery"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Retained Products of Conception (I.C.15.q.2)",
+   "content": "**Subsequent encounter** for **retained products of conception** after a spontaneous abortion or elective termination, **without complications**:\n\n• After a **spontaneous abortion** → **O03.4, Incomplete spontaneous abortion without complication**\n• After an **elective termination** → **O07.4, Failed attempted termination of pregnancy without complication**\n\nThis applies **even if the patient was previously discharged with a diagnosis of complete abortion**.\n\n**With a specific complication** in addition to retained products: assign the appropriate **complication code** (e.g., O03.-, O04.-, O07.-) **instead of** O03.4 or O07.4.",
+   "visual": {
+    "title": "Retained Products",
+    "sub": "Subsequent encounter codes",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Spontaneous, no comp.",
+      "b": "O03.4"
+     },
+     {
+      "h": "Elective, no comp.",
+      "b": "O07.4"
+     },
+     {
+      "h": "With a complication",
+      "b": "Complication code instead"
+     },
+     {
+      "h": "Prior \"complete\" dx",
+      "b": "Rule still applies"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Complications and Hemorrhage (I.C.15.q.3–q.4)",
+   "content": "**Complications leading to abortion (I.C.15.q.3):** Chapter 15 codes **may be used as additional codes** to identify any documented complications of the pregnancy together with codes in categories **O04, O07 and O08**.\n\n**Hemorrhage after elective abortion (I.C.15.q.4):**\n\n• Assign **O04.6, Delayed or excessive hemorrhage following (induced) termination of pregnancy**.\n• Do **not** assign **O72.1, Other immediate postpartum hemorrhage**, because it should not be assigned for post-abortion conditions.\n\n**Exam trap:** Bleeding after an elective abortion is not a postpartum hemorrhage for coding purposes.",
+   "visual": {
+    "title": "Hemorrhage After Abortion",
+    "sub": "O04.6, never O72.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Correct",
+      "b": "O04.6"
+     },
+     {
+      "h": "Wrong",
+      "b": "O72.1 (not for post-abortion)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient returns after an elective termination of pregnancy with retained products of conception and no complications. She was previously discharged with a diagnosis of complete abortion. Per Section I.C.15.q.2, what is assigned?",
+   "options": [
+    "O03.4, Incomplete spontaneous abortion without complication",
+    "O07.4, Failed attempted termination of pregnancy without complication",
+    "Z33.2, Encounter for elective termination of pregnancy",
+    "No code, because the prior diagnosis was complete abortion"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.15.q.2 assigns O07.4 for subsequent encounters for retained products of conception following an elective termination without complications, even when the patient was previously discharged with a diagnosis of complete abortion. Option A is wrong because O03.4 is for retained products after a spontaneous abortion. Option C is wrong because Z33.2 is used when an attempted termination results in a liveborn fetus (Section I.C.15.q.1). Option D contradicts the guideline.",
+   "visual": {
+    "topic": "Retained products",
+    "hint": "Was the original abortion spontaneous or elective?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has hemorrhage following an elective abortion. According to Section I.C.15.q.4, which code is assigned?",
+   "options": [
+    "O04.6, Delayed or excessive hemorrhage following (induced) termination of pregnancy",
+    "O72.1, Other immediate postpartum hemorrhage",
+    "O03.4, Incomplete spontaneous abortion without complication",
+    "O94, Sequelae of complication of pregnancy, childbirth, and the puerperium"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.15.q.4 says to assign O04.6 for hemorrhage post elective abortion. Option B is wrong because the guideline says O72.1 should not be assigned for post-abortion conditions. Option C is wrong because O03.4 is for retained products after a spontaneous abortion without complication. Option D is wrong because O94 is for sequelae needing care at a future date (Section I.C.15.p).",
+   "visual": {
+    "topic": "Post-abortion hemorrhage",
+    "hint": "One code is specifically forbidden."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.r"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Abuse in a Pregnant Patient (I.C.15.r)",
+   "content": "For **suspected or confirmed** abuse of a pregnant patient, sequence **first** a code from:\n\n• **O9A.3**, Physical abuse complicating pregnancy, childbirth, and the puerperium\n• **O9A.4**, Sexual abuse complicating pregnancy, childbirth, and the puerperium\n• **O9A.5**, Psychological abuse complicating pregnancy, childbirth, and the puerperium\n\n**Then** add, if applicable, codes for any **associated current injury** due to physical or sexual abuse, and the **perpetrator** of the abuse.\n\n**Note:** the rule covers **suspected** as well as confirmed abuse. The guideline refers to Section I.C.19 for adult and child abuse, neglect and other maltreatment.",
+   "visual": {
+    "title": "Abuse in Pregnancy",
+    "sub": "O9A.3-O9A.5 first, then details",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Physical",
+      "b": "O9A.3"
+     },
+     {
+      "h": "Sexual",
+      "b": "O9A.4"
+     },
+     {
+      "h": "Psychological",
+      "b": "O9A.5"
+     },
+     {
+      "h": "Then",
+      "b": "Current injury + perpetrator"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient is seen for suspected physical abuse with a current injury. Per Section I.C.15.r, what is sequenced first?",
+   "options": [
+    "The code for the current injury",
+    "The code identifying the perpetrator",
+    "A code from subcategory O9A.2",
+    "A code from subcategory O9A.3"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.15.r says that for suspected or confirmed abuse of a pregnant patient, a code from O9A.3 (physical abuse), O9A.4 or O9A.5 is sequenced first, followed by codes for any associated current injury and the perpetrator. Options A and B are wrong because those codes follow the O9A code. Option C is wrong because O9A.2 is for injury, poisoning and other consequences of external causes (Section I.C.15.m); abuse has its own subcategories.",
+   "visual": {
+    "topic": "Abuse in pregnancy",
+    "hint": "Suspected abuse counts too."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.15.s"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: COVID-19 in Pregnancy (I.C.15.s)",
+   "content": "**COVID-19 is the reason for the admission/encounter:**\n\n• **Principal/first-listed:** **O98.5-, Other viral diseases complicating pregnancy, childbirth and the puerperium**\n• **Additional:** **U07.1, COVID-19**, and codes for associated manifestation(s)\n• The guideline repeats: **chapter 15 codes always take sequencing priority**.\n\n**Reason for admission is unrelated to COVID-19**, but the patient is diagnosed with COVID-19 during the stay:\n\n• **Principal/first-listed:** the code for the **reason for the admission/encounter**\n• **Additional:** **O98.5-** and **U07.1**, plus codes for associated COVID-19 manifestations",
+   "visual": {
+    "title": "COVID-19 in Pregnancy",
+    "sub": "Was COVID-19 the reason for the visit?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Yes",
+      "b": "O98.5- first, then U07.1 + manifestations"
+     },
+     {
+      "h": "No",
+      "b": "Reason for visit first; add O98.5- + U07.1"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient is admitted because of COVID-19. According to Section I.C.15.s, what is the principal diagnosis?",
+   "options": [
+    "U07.1, COVID-19",
+    "The code for the main COVID-19 manifestation",
+    "A code from subcategory O98.5-",
+    "A code from subcategory O98.7-"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.15.s says that when COVID-19 is the reason for admission, O98.5- is sequenced as the principal/first-listed diagnosis, with U07.1 and manifestation codes as additional diagnoses, because chapter 15 codes always take sequencing priority. Options A and B are wrong because those codes are additional diagnoses. Option D is wrong because O98.7- is for HIV disease complicating pregnancy (Section I.C.15.f).",
+   "visual": {
+    "topic": "COVID-19 in pregnancy",
+    "hint": "Chapter 15 codes always take priority."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Part II on a Real OB Record",
+   "content": "1. **Identify the special situation** (HIV, diabetes, sepsis, substance use, poisoning, abuse, COVID-19, abortion, postpartum).\n2. **Put the chapter 15 code first** and add the other-chapter detail code the guideline names:\n   • HIV illness: O98.7- then the illness; asymptomatic: O98.7- + Z21 (I.C.15.f)\n   • Pre-existing diabetes: O24 then E08-E13 (I.C.15.g)\n   • Substance use: O99.31 + F10; O99.33 + F17; O99.32 + F11-F16/F18-F19 (I.C.15.l)\n   • Poisoning/adverse effect: O9A.2 → injury/poisoning code → resulting condition (I.C.15.m)\n   • Abuse: O9A.3/O9A.4/O9A.5 → injury → perpetrator (I.C.15.r)\n3. **Check the special restrictions:** gestational diabetes = O24.4 alone, no Z79.4/Z79.84/Z79.85 (I.C.15.i); puerperal sepsis = O85 + B95-B96, never A40/A41, and not for sepsis after an OB procedure (I.C.15.k).\n4. **Delivery admission?** Test the O80 requirements; O80 pairs only with Z37.0 (I.C.15.n).\n5. **Postpartum?** Check the six-week window; after it, chapter 15 codes need provider documentation of pregnancy relation (I.C.15.o); late effects use O94 after the sequela code (I.C.15.p).\n6. **Abortion care?** Retained products: O03.4 or O07.4 unless a complication is present; post-elective hemorrhage: O04.6, not O72.1 (I.C.15.q).\n7. **COVID-19?** Decide whether it is the reason for the encounter (I.C.15.s).",
+   "visual": {
+    "title": "Part II Checklist",
+    "sub": "Special situation → pattern → restrictions",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2",
+      "b": "Name the situation; chapter 15 code first"
+     },
+     {
+      "h": "3",
+      "b": "Check O24.4 and O85 restrictions"
+     },
+     {
+      "h": "4",
+      "b": "Delivery: O80 test"
+     },
+     {
+      "h": "5",
+      "b": "Postpartum window, O94"
+     },
+     {
+      "h": "6",
+      "b": "Abortion rules"
+     },
+     {
+      "h": "7",
+      "b": "COVID-19 reason?"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• Pattern: **chapter 15 code first, detail code second** (HIV O98.7-, diabetes O24, substance use O99.31/O99.32/O99.33, poisoning O9A.2, abuse O9A.3-O9A.5, COVID-19 O98.5-).\n• **Gestational diabetes (O24.4):** no other O24 code with it; diet + insulin = insulin code only; no Z79.4, Z79.84, or Z79.85. Abnormal glucose tolerance = O99.81.\n• **Puerperal sepsis (O85):** add B95-B96 organism; never A40/A41; not for sepsis after an OB procedure.\n• **O80:** full term, single healthy infant, no current complication, always principal, Z37.0 only.\n• **Postpartum** = six weeks; **peripartum** = last month of pregnancy to five months postpartum. Z39.0 for routine postpartum care after delivery outside the hospital. O90.3 only without pre-existing heart disease.\n• **O94** follows the sequela code.\n• **Abortion:** liveborn = Z33.2 + Z37; retained products = O03.4 or O07.4; post-elective hemorrhage = O04.6, not O72.1.",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Chapter 15, Part II",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Pattern",
+      "b": "Chapter 15 code first"
+     },
+     {
+      "h": "O24.4",
+      "b": "Alone; no Z79 drug codes"
+     },
+     {
+      "h": "O85",
+      "b": "B95-B96; never A40/A41"
+     },
+     {
+      "h": "O80",
+      "b": "Single healthy baby; Z37.0"
+     },
+     {
+      "h": "Timing",
+      "b": "Postpartum 6 wks; O94 later"
+     },
+     {
+      "h": "Abortion",
+      "b": "O03.4/O07.4; O04.6"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with gestational diabetes is controlled with diet and oral hypoglycemic drugs. Which statement follows Section I.C.15.i?",
+   "options": [
+    "Assign the O24.4 diet-controlled code plus Z79.84",
+    "Assign the O24.4 code for \"controlled by oral hypoglycemic drugs\" only, without Z79.84",
+    "Assign a pre-existing diabetes code from O24 and a code from E08-E13",
+    "Assign O99.81 with Z79.84"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.15.i says that if gestational diabetes is treated with both diet and oral hypoglycemic medications, only the code for \"controlled by oral hypoglycemic drugs\" is required, and Z79.84 should not be assigned with codes from O24.4. Option A is wrong on both counts. Option C is wrong because no other code from category O24 should be used with O24.4, and gestational diabetes occurs in patients who were not diabetic before pregnancy. Option D is wrong because O99.81 is for abnormal glucose tolerance, and Z79.84 is not added.",
+   "visual": {
+    "topic": "Gestational diabetes",
+    "hint": "One treatment code, no drug-use Z code."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for a reason unrelated to COVID-19, and is diagnosed with COVID-19 during the admission while pregnant. Per Section I.C.15.s, how is this sequenced?",
+   "options": [
+    "The code for the reason for admission as principal, with O98.5- and U07.1 as additional diagnoses",
+    "O98.5- as principal, then the reason for admission",
+    "U07.1 as principal, then O98.5-",
+    "Only the reason for admission; COVID-19 is not coded"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.15.s says that if the reason for admission is unrelated to COVID-19 but the patient is diagnosed with COVID-19 during the admission, the reason for admission is principal, and O98.5- and U07.1 (plus manifestation codes) are additional diagnoses. Option B applies only when COVID-19 is the reason for admission. Option C is wrong because, in both situations described in Section I.C.15.s, U07.1 is assigned as an additional diagnosis. Option D is wrong because the guideline requires O98.5- and U07.1.",
+   "visual": {
+    "topic": "COVID-19, unrelated admission",
+    "hint": "What brought the patient in?"
+   }
+  }
+ ]
+}

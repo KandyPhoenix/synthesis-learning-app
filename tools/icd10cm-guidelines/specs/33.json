@@ -1,0 +1,668 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Z Codes II: Past, Prevention and Ongoing Care",
+   "content": "Many encounters are not about a current disease. A patient may have a **history** of cancer, come in for a **screening** test, be **observed** for something that turns out not to be there, return for **aftercare** or **follow-up**, **donate** tissue, or receive **counseling**.\n\nChapter 21 has a Z code category for each of these. This lesson covers Sections I.C.21.c.4-10:\n\n• **4) History (of)**: personal and family history\n• **5) Screening**: testing seemingly well people\n• **6) Observation**: suspected conditions that are ruled out\n• **7) Aftercare** and **8) Follow-up**: two terms students often confuse\n• **9) Donor** and **10) Counseling**\n\nExam questions in this area often turn on one word: *screening* vs *diagnostic*, *aftercare* vs *follow-up*, *ruled out* vs *confirmed*.",
+   "visual": {
+    "title": "Z Codes II Roadmap",
+    "sub": "Sections I.C.21.c.4 to I.C.21.c.10",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "4 History",
+      "b": "Past condition or family risk"
+     },
+     {
+      "h": "5 Screening",
+      "b": "Testing seemingly well people"
+     },
+     {
+      "h": "6 Observation",
+      "b": "Suspected, then ruled out"
+     },
+     {
+      "h": "7-8 Aftercare, follow-up",
+      "b": "Healing phase vs. treatment completed"
+     },
+     {
+      "h": "9 Donor",
+      "b": "Living donors, including self"
+     },
+     {
+      "h": "10 Counseling",
+      "b": "Support after illness or injury"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.21.c.4-6"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Personal vs. Family History (I.C.21.c.4)",
+   "content": "There are **two types** of history Z codes.\n\n**Personal history** codes describe a patient's **past** medical condition that:\n\n• **no longer exists**, and\n• is **not receiving any treatment**, but\n• has the **potential for recurrence**, so it may need continued monitoring.\n\n**Family history** codes are used when a **family member** has had a disease that puts the **patient** at **higher risk** of getting it.\n\n**How they are used:**\n\n• Personal history codes may be used with **follow-up** codes; family history codes may be used with **screening** codes, to explain the need for a test or procedure.\n• History codes are acceptable on **any medical record regardless of the reason for visit**. A history of an illness may change the type of treatment ordered.\n• The **reason for the encounter** (for example, screening or counseling) is sequenced **first**; history codes are **additional** diagnoses.",
+   "visual": {
+    "title": "Two Kinds of History",
+    "sub": "Section I.C.21.c.4",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Personal history",
+      "b": "Patient's own past condition, gone, not treated"
+     },
+     {
+      "h": "Family history",
+      "b": "Relative's disease raises patient's risk"
+     },
+     {
+      "h": "Pairs with",
+      "b": "Personal + follow-up; family + screening"
+     },
+     {
+      "h": "Sequencing",
+      "b": "Reason for visit first, history codes after"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The History Code List",
+   "content": "The history categories in the guideline are:\n\n• **Family history:** Z80 (primary malignant neoplasm), Z81 (mental and behavioral disorders), Z82 (certain disabilities and chronic diseases), Z83 (other specific disorders), Z84 (other conditions), **Z84.A** (exposure to diethylstilbestrol)\n• **Personal history:** Z85 (malignant neoplasm), Z86 (certain other diseases), Z87 (other diseases and conditions), Z91.4- (psychological trauma), Z91.5- (self-harm), Z91.81 (history of falling), Z91.82 (military deployment), Z91.85 (military service), Z92 (medical treatment)\n\n**Z92 exceptions:** Z92.0, Personal history of contraception, and Z92.82 (status post tPA at a different facility) are **excepted** from the history list. Z92.82 is a **status** code (Z Codes I), and Z92.0 is on the **nonspecific** list (Z Codes III).\n\n**New for FY 2027: Z84.A, Family history of exposure to diethylstilbestrol (DES).** Assigned when a **family member** was exposed to DES in a way that could put the **patient** at higher risk for a related condition. The guideline's example: the patient's **maternal grandmother** was exposed to DES.",
+   "visual": {
+    "title": "History Categories",
+    "sub": "Section I.C.21.c.4",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Family history",
+      "b": "Z80 through Z84, plus Z84.A"
+     },
+     {
+      "h": "Personal history",
+      "b": "Z85-Z87, some Z91 codes, Z92"
+     },
+     {
+      "h": "Z84.A (new FY 2027)",
+      "b": "Family member exposed to DES"
+     },
+     {
+      "h": "Z92 exceptions",
+      "b": "Z92.0 and Z92.82 are not on this list"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient comes in for a screening colonoscopy because of a family history of colon cancer. According to Section I.C.21.c.4, how are the codes sequenced?",
+   "options": [
+    "The family history code first, then the screening code",
+    "The screening code first, with the family history code as an additional diagnosis",
+    "Only the family history code",
+    "A personal history code, because it is about colon cancer"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.4 says the reason for the encounter (for example, screening or counseling) should be sequenced first, and the appropriate personal and/or family history code(s) should be assigned as additional diagnoses. It also says family history codes may be used with screening codes to explain the need for a test.\n\nA is wrong because it puts the history code ahead of the reason for the visit. C is wrong because the reason for the encounter (screening) must be coded. D is wrong because the cancer was in a family member, not the patient, so this is family history, not personal history.",
+   "visual": {
+    "topic": "History with screening",
+    "hint": "What is the reason for the visit?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to the FY 2027 guideline note, when is Z84.A, Family history of exposure to diethylstilbestrol, assigned?",
+   "options": [
+    "When the patient has a family member who was exposed to DES that could put the patient at higher risk for a condition related to the exposure",
+    "When the patient was directly exposed to DES in utero",
+    "When the patient is currently taking DES",
+    "Only when the patient has a confirmed DES-related cancer"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. The note in Section I.C.21.c.4 says Z84.A is assigned when the patient has a family member that was exposed to DES that could cause the patient to be at a higher risk for a condition related to the exposure, for example when the patient's maternal grandmother was exposed to DES.\n\nB is wrong because direct exposure in utero is described by a different code, Z91.B, Personal risk factor of exposure to diethylstilbestrol (Section I.C.21.c.13, covered in Z Codes III). C is wrong because the code is about a family member's exposure, not the patient's current drug use. D is wrong because the note does not require a confirmed condition; it is about higher risk.",
+   "visual": {
+    "topic": "Z84.A DES family history",
+    "hint": "Whose exposure is it?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Screening vs. Diagnostic (I.C.21.c.5)",
+   "content": "**Screening** is testing for disease or disease precursors in **seemingly well** people, so that early detection and treatment can be provided for those who test positive (example: **screening mammogram**).\n\n**Diagnostic examination:** If the person is tested to **rule out or confirm** a suspected diagnosis **because of a sign or symptom**, it is **not** a screening. The **sign or symptom** is used to explain the reason for the test.\n\n**Sequencing a screening code:**\n\n• **First-listed** if the reason for the visit is **specifically the screening exam**.\n• **Additional code** if the screening is done during an office visit for **other health problems**.\n• **Not necessary** if the screening is **inherent to a routine examination**, such as a **pap smear done during a routine pelvic examination**.\n\n**Other rules:**\n\n• If a **condition is discovered** during the screening, the code for that condition may be assigned as an **additional** diagnosis.\n• The Z code means a screening was **planned**. A **procedure code** is required to confirm it was **performed**.\n\n**Screening categories:** Z11 (infectious and parasitic diseases), Z12 (malignant neoplasms), Z13 (other diseases and disorders, except Z13.9), Z36 (antenatal screening for mother).",
+   "visual": {
+    "title": "Screening or Diagnostic?",
+    "sub": "Section I.C.21.c.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Seemingly well",
+      "b": "Screening: use a screening Z code"
+     },
+     {
+      "h": "Has a sign or symptom",
+      "b": "Diagnostic: code the sign or symptom"
+     },
+     {
+      "h": "Inherent to routine exam",
+      "b": "No separate screening code"
+     },
+     {
+      "h": "Condition found",
+      "b": "Add it as an additional diagnosis"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Two Mammograms",
+   "content": "**Patient A** has no complaints. She comes in for her screening mammogram.\n\n• Guideline: Section I.C.21.c.5.\n• Decision: This is **screening**: testing in a seemingly well person. The screening Z code is **first-listed** because the reason for the visit is specifically the screening exam. A procedure code confirms the mammogram was performed.\n\n**Patient B** reports a breast lump. A mammogram is ordered to rule out or confirm a suspected diagnosis.\n\n• Guideline: Section I.C.21.c.5.\n• Decision: This is a **diagnostic** examination, **not** a screening, because the patient has a sign or symptom. The **sign or symptom** explains the reason for the test.\n\n**If a condition is found** on Patient A's screening, the code for that condition may be assigned as an **additional** diagnosis.",
+   "visual": {
+    "title": "Same Test, Different Reason",
+    "sub": "Section I.C.21.c.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Patient A: no complaints",
+      "b": "Screening Z code first-listed"
+     },
+     {
+      "h": "Patient B: breast lump",
+      "b": "Diagnostic: code the sign or symptom"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient reports rectal bleeding, and the provider orders a colonoscopy to find the cause. According to Section I.C.21.c.5, how is the reason for the test coded?",
+   "options": [
+    "With a screening code, because a colonoscopy is a screening test",
+    "With an observation code",
+    "With a family history code only",
+    "With the sign or symptom, because testing a patient with a sign or symptom is a diagnostic examination, not a screening"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.c.5 says the testing of a person to rule out or confirm a suspected diagnosis because the patient has some sign or symptom is a diagnostic examination, not a screening. In these cases, the sign or symptom is used to explain the reason for the test.\n\nA is wrong because the type of test does not make it a screening; the patient's symptom does make it diagnostic. C is wrong because nothing mentions family history. B is wrong because observation codes are not for use when signs or symptoms related to the suspected condition are present (I.C.21.c.6).",
+   "visual": {
+    "topic": "Screening vs diagnostic",
+    "hint": "Is this patient 'seemingly well'?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pap smear is done during a routine pelvic examination. According to Section I.C.21.c.5, is a separate screening code needed?",
+   "options": [
+    "Yes, every screening test needs its own screening code",
+    "Yes, and it must be first-listed",
+    "No, a screening code is not necessary if the screening is inherent to a routine examination",
+    "No, because pap smears can never be screenings"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.21.c.5 states a screening code is not necessary if the screening is inherent to a routine examination, such as a pap smear done during a routine pelvic examination.\n\nA and B are wrong because the guideline names this exact case as one where no screening code is needed. D is wrong because the guideline does not say pap smears cannot be screenings; it says a separate screening code is not needed when the pap smear is part of a routine pelvic exam.",
+   "visual": {
+    "topic": "Screening inherent to an exam",
+    "hint": "The guideline uses this exact example."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Observation Codes (I.C.21.c.6)",
+   "content": "There are **three** observation categories:\n\n• **Z03** Encounter for medical observation for suspected diseases and conditions ruled out\n• **Z04** Encounter for examination and observation for other reasons (except Z04.9)\n• **Z05** Encounter for observation and evaluation of newborn for suspected diseases and conditions ruled out\n\n**When to use them:** Only in **very limited circumstances**, when a person is observed for a **suspected condition that is ruled out**.\n\n**When NOT to use them:** If an **injury or illness**, or any **signs or symptoms** related to the suspected condition are present. Then use the diagnosis/symptom code with the corresponding external cause code.\n\n**Sequencing:**\n\n• **Primarily** principal/first-listed.\n• May be **secondary** when the patient is observed for a ruled-out condition **unrelated** to the principal/first-listed diagnosis.\n• **Newborns:** when the principal diagnosis must be a **Z38** code (liveborn infant), a **Z05** code is sequenced **after** the Z38 code.\n• Additional codes may be added only if they are **unrelated** to the suspected condition being observed.",
+   "visual": {
+    "title": "Observation Codes",
+    "sub": "Section I.C.21.c.6",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Use when",
+      "b": "Suspected condition is ruled out"
+     },
+     {
+      "h": "Do not use when",
+      "b": "Related injury, illness, signs or symptoms present"
+     },
+     {
+      "h": "Usually",
+      "b": "Principal / first-listed"
+     },
+     {
+      "h": "Secondary when",
+      "b": "Ruled-out condition is unrelated to principal dx"
+     },
+     {
+      "h": "Newborn",
+      "b": "Z38 first, then Z05"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Suspected Maternal and Fetal Conditions (Z03.7)",
+   "content": "Subcategory **Z03.7, Encounter for suspected maternal and fetal conditions ruled out**, has its own rules:\n\n• May be **first-listed or additional**, depending on the case.\n• Used in very limited circumstances on a **maternal record** when a suspected maternal or fetal condition (for example, suspected because of an **abnormal test result**) is **ruled out during that encounter**.\n• **Not** used when the condition is **confirmed**. Code the confirmed condition.\n• **Not** used if an illness or any **signs or symptoms** related to the suspected condition are present. Use the diagnosis/symptom code.\n• Additional codes only if **unrelated** to the suspected condition.\n• **Not** for encounters for **antenatal screening** of the mother (see the screening section).\n• **Inconclusive** after testing and evaluation for a suspected **fetal** condition: assign the appropriate code from category **O35, O36, O40 or O41**.",
+   "visual": {
+    "title": "Z03.7: Maternal and Fetal",
+    "sub": "Section I.C.21.c.6",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Ruled out",
+      "b": "Z03.7 (first-listed or additional)"
+     },
+     {
+      "h": "Confirmed",
+      "b": "Code the confirmed condition"
+     },
+     {
+      "h": "Signs or symptoms",
+      "b": "Code the diagnosis/symptom"
+     },
+     {
+      "h": "Antenatal screening",
+      "b": "Not Z03.7: use screening"
+     },
+     {
+      "h": "Fetal, inconclusive",
+      "b": "Code from O35, O36, O40 or O41"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is brought in after a fall and observed for a possible head injury. The patient has a headache and a scalp bruise. According to Section I.C.21.c.6, should an observation Z code be the first-listed code?",
+   "options": [
+    "Yes, because the patient was observed",
+    "No; observation codes are not for use if an injury or signs or symptoms related to the suspected condition are present. Use the diagnosis/symptom code with the external cause code",
+    "Yes, and add the bruise code only if it is unrelated",
+    "No; use Z05 instead"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.6 says observation codes are not for use if an injury or illness or any signs or symptoms related to the suspected condition are present. In such cases the diagnosis/symptom code is used with the corresponding external cause code.\n\nA and C are wrong because the presence of an injury and related symptoms rules out the observation code. D is wrong because Z05 is for newborns observed for suspected conditions that are ruled out.",
+   "visual": {
+    "topic": "Observation codes",
+    "hint": "Are there related signs, symptoms or injuries?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A newborn born in the hospital is observed for a suspected condition that is ruled out. The principal diagnosis must be a code from category Z38. According to Section I.C.21.c.6, where does the Z05 code go?",
+   "options": [
+    "Z05 is sequenced after the Z38 code",
+    "Z05 is the principal diagnosis and Z38 is omitted",
+    "Z05 cannot be used with Z38",
+    "Z05 is sequenced before Z38"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.21.c.6 says when the principal diagnosis is required to be a code from category Z38, Liveborn infants according to place of birth and type of delivery, then a code from category Z05 is sequenced after the Z38 code.\n\nB and D are wrong because the Z38 code is required to be principal here. C is wrong because the guideline describes exactly how to use them together.",
+   "visual": {
+    "topic": "Newborn observation",
+    "hint": "Which code is required to be principal?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient is evaluated for a suspected fetal condition after an abnormal test result. After testing and evaluation, the result is inconclusive. According to Section I.C.21.c.6, what should be assigned?",
+   "options": [
+    "A code from subcategory Z03.7",
+    "No code until the condition is confirmed",
+    "A screening code from Z36",
+    "The appropriate code from category O35, O36, O40 or O41"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.c.6 states that for encounters for suspected fetal condition that are inconclusive following testing and evaluation, assign the appropriate code from category O35, O36, O40 or O41.\n\nA is wrong because Z03.7 is for a suspected condition that is ruled out during the encounter, and here it was not ruled out. C is wrong because this is an evaluation of a suspected condition, not antenatal screening. B is wrong because the guideline gives a code assignment for inconclusive results.",
+   "visual": {
+    "topic": "Z03.7 vs inconclusive",
+    "hint": "Was the condition ruled out, confirmed, or neither?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.21.c.7-10"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Aftercare (I.C.21.c.7)",
+   "content": "**Aftercare** codes are for when the **initial treatment has been performed** and the patient needs **continued care during the healing or recovery phase**, or for the **long-term consequences** of the disease.\n\n**Do NOT use aftercare Z codes:**\n\n• if treatment is directed at a **current, acute disease**. Use the diagnosis code.\n• for **aftercare for injuries**. Assign the **acute injury code** with the 7th character for **subsequent encounter**.\n\n**Sequencing:**\n\n• Generally **first-listed** to explain the reason for the encounter.\n• May be **additional** when a specific type of aftercare is provided in addition to the reason for the encounter. Example: **closure of a colostomy** during an encounter for treatment of another condition.\n• Use with other aftercare or diagnosis codes for detail, unless the classification directs otherwise. Order depends on the circumstances.\n• Some aftercare categories need a **secondary diagnosis code** for the resolving condition or sequelae; for others, the condition is included in the code title.\n\nAftercare categories also include **fitting and adjustment** and **attention to artificial openings**.",
+   "visual": {
+    "title": "Aftercare Z Codes",
+    "sub": "Section I.C.21.c.7",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Use for",
+      "b": "Healing/recovery after initial treatment"
+     },
+     {
+      "h": "Not for current disease",
+      "b": "Code the acute diagnosis"
+     },
+     {
+      "h": "Not for injuries",
+      "b": "Injury code + subsequent 7th character"
+     },
+     {
+      "h": "Usually",
+      "b": "First-listed"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Aftercare With Status Codes",
+   "content": "**Status codes may go with aftercare codes** to show the nature of the aftercare.\n\n• Guideline example: **Z95.1, Presence of aortocoronary bypass graft**, may be used with **Z48.812, Encounter for surgical aftercare following surgery on the circulatory system**, to show which surgery the aftercare follows.\n\n**But not when the aftercare code already shows the status.**\n\n• Guideline example: do **not** use **Z43.0, Encounter for attention to tracheostomy**, with **Z93.0, Tracheostomy status**.\n\n**Aftercare categories** (generally): Z42 (plastic and reconstructive surgery following medical procedure or healed injury), Z43 (attention to artificial openings), Z44 (external prosthetic device), Z45 (implanted device), Z46 (other devices), Z47 (orthopedic aftercare), Z48 (other postprocedural aftercare), Z49 (renal dialysis), Z51 (other aftercare and medical care).",
+   "visual": {
+    "title": "Status + Aftercare?",
+    "sub": "Section I.C.21.c.7",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z48.812 + Z95.1",
+      "b": "Yes: status adds which surgery"
+     },
+     {
+      "h": "Z43.0 + Z93.0",
+      "b": "No: aftercare code already shows it"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient comes in for routine care of a healing fracture after initial treatment. According to Section I.C.21.c.7, how is this coded?",
+   "options": [
+    "With an aftercare Z code from category Z47",
+    "With a follow-up code from Z09",
+    "With the acute injury code with the appropriate 7th character for subsequent encounter",
+    "With a personal history code"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.21.c.7 states the aftercare Z codes should not be used for aftercare for injuries. For aftercare of an injury, assign the acute injury code with the appropriate 7th character (for subsequent encounter).\n\nA is wrong because aftercare Z codes are not used for injuries. B is wrong because follow-up codes imply the condition has been fully treated and no longer exists (I.C.21.c.8), and the fracture is still healing. D is wrong because history codes are for conditions that no longer exist.",
+   "visual": {
+    "topic": "Aftercare for injuries",
+    "hint": "Injuries have their own way of showing ongoing care."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for attention to a tracheostomy, coded Z43.0, Encounter for attention to tracheostomy. According to Section I.C.21.c.7, should Z93.0, Tracheostomy status, also be assigned?",
+   "options": [
+    "Yes, status codes are always added to aftercare codes",
+    "No, because the aftercare code already indicates the type of status",
+    "Yes, and Z93.0 should be first-listed",
+    "No, because tracheostomy codes can never be used in aftercare"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.7 says a status code should not be used when the aftercare code indicates the type of status, such as using Z43.0, Encounter for attention to tracheostomy, with Z93.0, Tracheostomy status.\n\nA is wrong because status codes may be used with aftercare codes, but not when the aftercare code already shows the status. C is wrong because Z93.0 is not used here at all. D is wrong because Z43.0 itself is an aftercare code for a tracheostomy.",
+   "visual": {
+    "topic": "Aftercare + status",
+    "hint": "Does the aftercare code already say it?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Follow-up (I.C.21.c.8)",
+   "content": "**Follow-up** codes explain **continuing surveillance** after **completed treatment** of a disease, condition, or injury. They imply the condition has been **fully treated and no longer exists**.\n\n**Do not confuse** follow-up codes with:\n\n• **aftercare** codes, or\n• **injury codes with a 7th character for subsequent encounter**,\n\nwhich explain **ongoing care of a healing condition** or its sequelae.\n\n**Rules:**\n\n• Follow-up codes may be used with **history** codes. The **follow-up code is sequenced first**, then the history code.\n• A follow-up code may explain **multiple visits**.\n• If the condition has **recurred**, assign the **diagnosis code** for the condition **in place of** the follow-up code.\n\n**Follow-up categories:** **Z08** (after completed treatment for malignant neoplasm), **Z09** (after completed treatment for conditions other than malignant neoplasm), **Z39** (maternal postpartum care and examination). Z08 and Z09 may follow **any type of completed treatment**, medical or surgical.",
+   "visual": {
+    "title": "Aftercare vs. Follow-up",
+    "sub": "Sections I.C.21.c.7 and I.C.21.c.8",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Aftercare",
+      "b": "Still healing or recovering after initial treatment"
+     },
+     {
+      "h": "Follow-up",
+      "b": "Treatment complete; condition no longer exists"
+     },
+     {
+      "h": "Follow-up + history",
+      "b": "Follow-up code first, then history"
+     },
+     {
+      "h": "Recurrence found",
+      "b": "Diagnosis code replaces follow-up"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Surveillance After Cancer Treatment",
+   "content": "**Documentation:** A patient completed treatment for a malignant neoplasm last year. The cancer no longer exists. The patient returns for a surveillance exam.\n\n**Which guideline applies?** Section I.C.21.c.8 (follow-up) and I.C.21.c.4 (history).\n\n**Decision:**\n\n• Sequence **Z08**, Encounter for follow-up examination after completed treatment for malignant neoplasm, **first**.\n• Add the appropriate **personal history** code (category Z85) **after** it.\n\n**Twist:** If the exam finds the cancer **has recurred**, the guideline says to assign the **diagnosis code** for the condition **in place of** the follow-up code.",
+   "visual": {
+    "title": "Follow-up, Then History",
+    "sub": "Section I.C.21.c.8",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Cancer gone",
+      "b": "Z08 first, then Z85 history code"
+     },
+     {
+      "h": "Cancer recurred",
+      "b": "Diagnosis code replaces Z08"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient comes in for a follow-up exam after completed treatment, and the provider finds that the condition has recurred. According to Section I.C.21.c.8, what should be coded?",
+   "options": [
+    "The diagnosis code for the condition, in place of the follow-up code",
+    "The follow-up code first, then the diagnosis code",
+    "The follow-up code only",
+    "A personal history code only"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.21.c.8 says should a condition be found to have recurred on the follow-up visit, then the diagnosis code for the condition should be assigned in place of the follow-up code.\n\nB and C are wrong because the follow-up code is replaced, not kept. D is wrong because history codes are for conditions that no longer exist, and this condition has come back.",
+   "visual": {
+    "topic": "Recurrence at follow-up",
+    "hint": "Is the condition gone or back?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Donors and Counseling (I.C.21.c.9-10)",
+   "content": "**9) Donor: Z52, Donors of organs and tissues**\n\n• For **living** individuals donating **blood or other body tissue**.\n• Used for donations **for others** and for **self-donations**.\n• **Not** used for **cadaveric** donations.\n\n**10) Counseling** Z codes are used when a patient or family member receives **assistance in the aftermath of an illness or injury**, or when support is needed in **coping with family or social problems**.\n\nCounseling categories include: Z30.0- (contraception), Z31.5 (procreative genetic counseling), Z31.6- (procreation), Z32.2 (childbirth instruction), Z32.3 (childcare instruction), Z69 (mental health services for victim and perpetrator of abuse), Z70 (sexual attitude, behavior and orientation), Z71 (other counseling and medical advice, NEC), Z76.81 (expectant mother prebirth pediatrician visit).",
+   "visual": {
+    "title": "Donor and Counseling Codes",
+    "sub": "Sections I.C.21.c.9 and I.C.21.c.10",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z52 donor",
+      "b": "Living donors, for others or self"
+     },
+     {
+      "h": "Not Z52",
+      "b": "Cadaveric donations"
+     },
+     {
+      "h": "Counseling",
+      "b": "Aftermath of illness/injury, or family/social problems"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.21.c.9, which statement about category Z52, Donors of organs and tissues, is correct?",
+   "options": [
+    "It is used for cadaveric donations",
+    "It is used for the transplant recipient",
+    "It is used only for blood donations",
+    "It is used for living individuals donating for others or for themselves (self-donation)"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.c.9 says Z52 codes are used for living individuals who are donating blood or other body tissue, for individuals donating for others as well as for self-donations. They are not used to identify cadaveric donations.\n\nA is wrong because cadaveric donations are excluded. C is wrong because the category covers blood or other body tissue. B is wrong because the category describes donors, not recipients.",
+   "visual": {
+    "topic": "Donor codes",
+    "hint": "Living or cadaveric?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Three Z71 Counseling Notes",
+   "content": "Category **Z71** has three specific notes:\n\n**Z71.84, Encounter for health counseling related to travel:** for health risk and safety counseling for **future travel**.\n\n**Z71.85, Encounter for immunization safety counseling:** for counseling the patient or caregiver about the **safety of a vaccine**. **Not** for providing **general information** about risks and side effects during **routine** vaccine administration encounters.\n\n**Z71.87, Encounter for pediatric-to-adult transition counseling:**\n\n• Assign when transition counseling is the **sole reason** for the encounter, **or** when it is provided **in addition to other services** (such as treatment of a chronic condition).\n• If both transition counseling and treatment of a medical condition are provided, assign the medical condition code(s) **and** Z71.87, with **sequencing depending on the circumstances** of the encounter.",
+   "visual": {
+    "title": "Z71 Counseling Notes",
+    "sub": "Section I.C.21.c.10",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Z71.84",
+      "b": "Health counseling for future travel"
+     },
+     {
+      "h": "Z71.85",
+      "b": "Vaccine safety counseling, not routine info"
+     },
+     {
+      "h": "Z71.87",
+      "b": "Pediatric-to-adult transition counseling"
+     },
+     {
+      "h": "Z71.87 + treatment",
+      "b": "Code both; order depends on the encounter"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A nurse gives the standard information sheet about vaccine side effects during a routine vaccination visit. According to Section I.C.21.c.10, should Z71.85, Encounter for immunization safety counseling, be assigned?",
+   "options": [
+    "Yes, any discussion of vaccines supports Z71.85",
+    "Yes, as the first-listed code",
+    "No; Z71.85 should not be used for the provision of general information regarding risks and potential side effects during routine encounters for the administration of vaccines",
+    "No; Z71.84 should be used instead"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.21.c.10 says Z71.85 is for counseling of the patient or caregiver regarding the safety of a vaccine, and should not be used for the provision of general information regarding risks and potential side effects during routine encounters for the administration of vaccines.\n\nA and B are wrong because the guideline excludes routine general information. D is wrong because Z71.84 is for health counseling related to travel.",
+   "visual": {
+    "topic": "Vaccine safety counseling",
+    "hint": "Routine information vs. real safety counseling."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A teen with a chronic condition is seen; the provider treats the chronic condition and also provides pediatric-to-adult transition counseling. According to Section I.C.21.c.10, how is this coded?",
+   "options": [
+    "Only the chronic condition; Z71.87 is used only when counseling is the sole reason",
+    "The code(s) for the medical condition(s) treated and Z71.87, with sequencing depending on the circumstances of the encounter",
+    "Only Z71.87",
+    "Z71.87 must always be sequenced first"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.21.c.10 says Z71.87 should be assigned when transition counseling is the sole reason for the encounter or when it is provided in addition to other services, such as treatment of a chronic condition. If both are provided, the code(s) for the medical condition(s) treated and Z71.87 should be assigned, with sequencing depending on the circumstances of the encounter.\n\nA is wrong because Z71.87 is also used when counseling is provided in addition to other services. C is wrong because the treated condition must also be coded. D is wrong because sequencing depends on the circumstances; there is no fixed first position.",
+   "visual": {
+    "topic": "Transition counseling",
+    "hint": "Both services were provided."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Z Codes II on a Real Record",
+   "content": "Ask these questions in order when a visit is not for a current disease.\n\n1. **Does the patient have signs or symptoms?** If testing is for a symptom, it is **diagnostic**: code the sign or symptom, not screening (I.C.21.c.5). If observing for a condition with related symptoms or injury, code those, not observation (I.C.21.c.6).\n2. **Seemingly well and here for a test?** Use a **screening** code (first-listed if that is the visit's purpose; additional during a visit for other problems; none if inherent to a routine exam). Add a procedure code (I.C.21.c.5).\n3. **Suspected condition ruled out?** Use an **observation** code, usually first-listed; Z38 then Z05 for newborns; Z03.7 rules for maternal/fetal (I.C.21.c.6).\n4. **Healing after initial treatment?** Use **aftercare**, except injuries (injury code with subsequent 7th character) and current acute disease (diagnosis code) (I.C.21.c.7).\n5. **Treatment complete, condition gone?** Use **follow-up** first, then history. Recurrence? Code the condition instead (I.C.21.c.8).\n6. **Donor or counseling?** Z52 for living donors only; counseling codes with their specific notes (I.C.21.c.9-10).\n7. **Add history codes** where useful. They go after the reason for the encounter (I.C.21.c.4).",
+   "visual": {
+    "title": "Z Codes II Decision Path",
+    "sub": "Symptoms first, then purpose of the visit",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1 Symptoms?",
+      "b": "Code them: not screening, not observation"
+     },
+     {
+      "h": "2-3 Well or ruled out?",
+      "b": "Screening or observation"
+     },
+     {
+      "h": "4-5 Treated before?",
+      "b": "Aftercare (healing) or follow-up (done)"
+     },
+     {
+      "h": "6-7 Other",
+      "b": "Donor, counseling; history after reason"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways: Z Codes II",
+   "content": "• **Personal history** = patient's past condition, gone and not treated; **family history** = a relative's disease raises the patient's risk. The reason for the visit goes first (I.C.21.c.4).\n• **New FY 2027:** Z84.A, Family history of exposure to diethylstilbestrol (I.C.21.c.4).\n• **Screening** = seemingly well person. Testing because of a sign or symptom is **diagnostic** (I.C.21.c.5).\n• **Observation** codes = suspected condition **ruled out**; never with related signs, symptoms, or injury. Newborn: Z38 then Z05 (I.C.21.c.6).\n• **Aftercare** = healing after initial treatment; never for injuries (use the injury code with the subsequent 7th character) (I.C.21.c.7).\n• **Follow-up** = treatment complete, condition gone; follow-up code first, then history; recurrence = diagnosis code (I.C.21.c.8).\n• **Z52** donors are living donors (others or self), not cadaveric (I.C.21.c.9).\n• Z71.85 is not for routine vaccine information; Z71.87 is coded with any treated condition (I.C.21.c.10).",
+   "visual": {
+    "title": "Z Codes II: Key Takeaways",
+    "sub": "Sections I.C.21.c.4 to I.C.21.c.10",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "History",
+      "b": "Reason for visit first"
+     },
+     {
+      "h": "Screening",
+      "b": "Seemingly well only"
+     },
+     {
+      "h": "Observation",
+      "b": "Ruled out; no related symptoms"
+     },
+     {
+      "h": "Aftercare",
+      "b": "Healing; not for injuries"
+     },
+     {
+      "h": "Follow-up",
+      "b": "Done; then history code"
+     },
+     {
+      "h": "Donor",
+      "b": "Living only"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Exam trap: A patient had a colon resection for a disease that required surgery and is still in the healing phase after the surgery. Another patient finished treatment for a condition last year, the condition no longer exists, and he is here for a surveillance exam. Which pairing is correct per Sections I.C.21.c.7 and I.C.21.c.8?",
+   "options": [
+    "The healing patient gets an aftercare code; the surveillance patient gets a follow-up code",
+    "Both patients get aftercare codes",
+    "Both patients get follow-up codes",
+    "The healing patient gets a follow-up code; the surveillance patient gets an aftercare code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.21.c.7 says aftercare codes cover situations when the initial treatment has been performed and the patient requires continued care during the healing or recovery phase. Section I.C.21.c.8 says follow-up codes explain continuing surveillance following completed treatment and imply the condition has been fully treated and no longer exists.\n\nB and C are wrong because the two situations are different. D is wrong because it reverses the definitions.",
+   "visual": {
+    "topic": "Aftercare vs follow-up",
+    "hint": "Still healing, or completely treated?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for an office visit for diabetes management, and during the same visit a screening test for another disease is performed. According to Section I.C.21.c.5, how may the screening code be used?",
+   "options": [
+    "It must be first-listed",
+    "It replaces the diabetes code",
+    "It cannot be coded at all",
+    "It may be used as an additional code because the screening was done during an office visit for other health problems"
+   ],
+   "correct": 3,
+   "explanation": "Correct: D. Section I.C.21.c.5 says a screening code may be a first-listed code if the reason for the visit is specifically the screening exam, and may also be used as an additional code if the screening is done during an office visit for other health problems.\n\nA is wrong because the visit was not specifically for the screening. C is wrong because the guideline allows it as an additional code. B is wrong because the diabetes care was the main reason for the visit, so its code is not replaced.",
+   "visual": {
+    "topic": "Screening during another visit",
+    "hint": "What was the main reason for this visit?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,700 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Bones, Joints and Kidneys",
+   "content": "This lesson covers two chapters of the guidelines.\n\n**Chapter 13: Diseases of the Musculoskeletal System and Connective Tissue (M00-M99)**\n\n• **I.C.13.a** — site and laterality, bone vs joint, multiple sites\n• **I.C.13.b** — acute traumatic injuries (Chapter 19) vs chronic or recurrent conditions (Chapter 13)\n• **I.C.13.c** — 7th characters for **pathologic fractures**\n• **I.C.13.d** — **osteoporosis**: category M81 (no current pathological fracture) vs category M80 (with current pathological fracture)\n• **I.C.13.e** — a cross-reference for Multisystem Inflammatory Syndrome\n\n**Chapter 14: Diseases of Genitourinary System (N00-N99)**\n\n• **I.C.14.a** — **chronic kidney disease (CKD)** stages, ESRD, kidney transplant status, and CKD with other conditions\n\nThese rules decide which chapter a condition belongs in and which 7th character or stage code is correct, so they are common exam targets.",
+   "visual": {
+    "title": "Chapters 13 and 14",
+    "sub": "Musculoskeletal (M00-M99) and genitourinary (N00-N99)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "I.C.13.a Site",
+      "b": "Bone vs joint; multiple sites"
+     },
+     {
+      "h": "I.C.13.b Acute vs chronic",
+      "b": "Chapter 19 vs Chapter 13"
+     },
+     {
+      "h": "I.C.13.c Pathologic fx",
+      "b": "7th characters A and D"
+     },
+     {
+      "h": "I.C.13.d Osteoporosis",
+      "b": "M81 vs M80"
+     },
+     {
+      "h": "I.C.13.e MIS",
+      "b": "Cross-reference only"
+     },
+     {
+      "h": "I.C.14.a CKD",
+      "b": "Stages, ESRD, transplant"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.13"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.13.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Site, Laterality, Bone vs Joint",
+   "content": "**Site and laterality.** Most Chapter 13 codes have a **site** and a **laterality** (left/right) designation. The **site** is the **bone, joint or muscle** involved.\n\n**I.C.13.a.1 — bone versus joint.** Some conditions affect the **upper or lower end of a bone**. The guideline's examples: avascular necrosis of bone (**M87**) and osteoporosis (**M80, M81**). Even though the affected portion of the bone may be **at the joint**, the **site designation is the bone, not the joint**.\n\n**I.C.13.a.2 — multiple sites.**\n\n• When specified sites are **documented**, codes describing specified sites are assigned **individually by site**.\n• When the specified site(s) are **not documented**, assign the appropriate code for **\"multiple sites.\"**\n\n**Exam trap:** a condition of the end of a bone near a joint is still coded to the **bone**.",
+   "visual": {
+    "title": "Site Rules in Chapter 13",
+    "sub": "Section I.C.13.a",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Site means",
+      "b": "The bone, joint or muscle involved"
+     },
+     {
+      "h": "Bone end near a joint",
+      "b": "Site is the BONE, not the joint"
+     },
+     {
+      "h": "Examples named",
+      "b": "M87 avascular necrosis; M80, M81"
+     },
+     {
+      "h": "Sites documented",
+      "b": "Code each site individually"
+     },
+     {
+      "h": "Sites not documented",
+      "b": "Code for \"multiple sites\""
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents avascular necrosis at the lower end of the femur, at the knee joint. According to Section I.C.13.a.1, what is the site designation?",
+   "options": [
+    "The bone (femur), not the joint",
+    "The knee joint, because the necrosis is at the joint",
+    "Multiple sites",
+    "Unspecified site"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.13.a.1 says that for certain conditions such as avascular necrosis of bone (M87), \"Though the portion of the bone affected may be at the joint, the site designation will be the bone, not the joint.\" Option B is exactly what the guideline says not to do. \"Multiple sites\" is for when specified sites are not documented (I.C.13.a.2). The site is documented, so unspecified is wrong.",
+   "visual": {
+    "topic": "Bone vs joint",
+    "hint": "The guideline names avascular necrosis as an example."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.13.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Acute Injury vs Chronic or Recurrent",
+   "content": "Many musculoskeletal conditions are the result of **previous injury or trauma**, or are **recurrent**. Section I.C.13.b tells you which chapter to use:\n\n• Bone, joint or muscle conditions that are the result of a **healed injury** → usually **Chapter 13**.\n• **Recurrent** bone, joint or muscle conditions → usually **Chapter 13**.\n• Any **current, acute injury** → the appropriate **injury code from Chapter 19**.\n• **Chronic or recurrent** conditions → generally a code from **Chapter 13**.\n• If it is **difficult to determine** from the documentation which code best describes the condition → **query the provider**.\n\n**Note the wording:** the guideline says \"usually\" and \"generally.\" It gives a direction, not an absolute. That is why it ends with a query instruction.",
+   "visual": {
+    "title": "Which Chapter?",
+    "sub": "Section I.C.13.b",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Current, acute injury",
+      "b": "Chapter 19 injury code"
+     },
+     {
+      "h": "Result of a healed injury",
+      "b": "Usually Chapter 13"
+     },
+     {
+      "h": "Chronic or recurrent",
+      "b": "Generally Chapter 13"
+     },
+     {
+      "h": "Hard to tell",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has a recurrent joint condition at a site that was injured years ago and has since healed. There is no current injury. According to Section I.C.13.b, which chapter is the usual home for this condition?",
+   "options": [
+    "Chapter 19, because the condition started with an injury",
+    "No code, because the injury has healed",
+    "Either chapter, at the coder's choice",
+    "Chapter 13, because conditions resulting from a healed injury and recurrent conditions are usually found there"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.13.b says bone, joint or muscle conditions that are the result of a healed injury, and recurrent conditions, are usually found in Chapter 13, and chronic or recurrent conditions should generally be coded with a Chapter 13 code. Chapter 19 is for a current, acute injury. The guideline gives direction (and a query when it is difficult to determine), not coder's choice. The current condition still exists, so it is coded.",
+   "visual": {
+    "topic": "Healed injury, recurrent problem",
+    "hint": "Is the injury current and acute?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.13.c"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: 7th Characters for Pathologic Fractures",
+   "content": "A **pathologic fracture** is a break caused by disease that weakens the bone, rather than by normal trauma. Section I.C.13.c explains the **7th character** (the final character that shows the type of encounter).\n\n**7th character A:** used **as long as the patient is receiving active treatment** for the fracture.\n\n• A new or different provider may see the patient during treatment. The 7th character depends on **whether the patient is undergoing active treatment**, **not** on whether the provider is seeing the patient for the **first time**.\n\n**7th character D:** used for encounters **after** active treatment is **completed**, when the patient is receiving **routine care** for the fracture during the **healing or recovery phase**.\n\n**Other 7th characters** (listed under each subcategory in the Tabular List) are for subsequent encounters to treat **problems associated with the healing**, such as **malunions, nonunions, and sequelae**.\n\n**Complications of surgical treatment** for fracture repairs during the healing or recovery phase → the appropriate **complication codes**.\n\nThe guideline refers to Section I.C.19 for coding of **traumatic** fractures.",
+   "visual": {
+    "title": "Pathologic Fracture 7th Char.",
+    "sub": "Section I.C.13.c",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "A",
+      "b": "Active treatment is ongoing"
+     },
+     {
+      "h": "D",
+      "b": "Routine care in healing/recovery"
+     },
+     {
+      "h": "Other 7th characters",
+      "b": "Malunion, nonunion, sequelae"
+     },
+     {
+      "h": "Surgical repair problem",
+      "b": "Complication codes"
+     },
+     {
+      "h": "New provider?",
+      "b": "Does not decide the character"
+     },
+     {
+      "h": "Traumatic fractures",
+      "b": "See Section I.C.19"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Choosing A or D",
+   "content": "**Scenario 1.** A patient with a pathologic fracture is under active treatment by her orthopedist. She is referred to a second orthopedist, who sees her for the first time while active treatment is still going on.\n\n• Guideline: I.C.13.c → **7th character A**. The patient is still in active treatment. Being a new provider does not change the character.\n\n**Scenario 2.** Active treatment is complete. The patient returns for routine follow-up while the fracture heals.\n\n• Guideline: I.C.13.c → **7th character D**.\n\n**Scenario 3.** At a later visit, the provider documents that the pathologic fracture has a **nonunion**.\n\n• Guideline: I.C.13.c → use the **other 7th character** listed for that subcategory in the Tabular List for problems associated with healing.\n\n**Scenario 4.** During recovery, the patient has a complication of the surgical fracture repair.\n\n• Guideline: I.C.13.c → code the **appropriate complication code**.",
+   "visual": {
+    "title": "A, D or Something Else?",
+    "sub": "Four visits for one pathologic fracture",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. New doctor, active tx",
+      "b": "A"
+     },
+     {
+      "h": "2. Routine healing care",
+      "b": "D"
+     },
+     {
+      "h": "3. Nonunion",
+      "b": "Other 7th char. in Tabular"
+     },
+     {
+      "h": "4. Surgical repair problem",
+      "b": "Complication code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a pathologic fracture is still receiving active treatment and is seen for the first time by a new orthopedic surgeon. According to Section I.C.13.c, which 7th character applies?",
+   "options": [
+    "D, because a new provider is seeing the patient",
+    "A only if it is the patient's very first visit for the fracture with any provider",
+    "A, because the patient is still receiving active treatment",
+    "The 7th character for sequelae"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.13.c states that 7th character A is used as long as the patient is receiving active treatment, and that assignment \"is based on whether the patient is undergoing active treatment and not whether the provider is seeing the patient for the first time.\" Option A ties the character to the provider, which the guideline rejects. Option B ties it to a first visit, which the guideline also rejects. Sequela characters are for problems associated with healing.",
+   "visual": {
+    "topic": "Pathologic fracture, new provider",
+    "hint": "What does the 7th character depend on?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "After active treatment for a pathologic fracture is completed, the patient comes in for routine care during the healing phase. Per Section I.C.13.c, which 7th character applies?",
+   "options": [
+    "A",
+    "D",
+    "The character for nonunion",
+    "No 7th character is needed"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.13.c says 7th character D \"is to be used for encounters after the patient has completed active treatment for the fracture and is receiving routine care for the fracture during the healing or recovery phase.\" A is for active treatment, which has ended. Nonunion characters are for a healing problem, which is not documented here. The guideline describes 7th characters for these encounters, so one is needed.",
+   "visual": {
+    "topic": "Routine healing care",
+    "hint": "Active treatment is over."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.13.d"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Osteoporosis Is Systemic",
+   "content": "**Osteoporosis** is a disease that makes bones weak. Section I.C.13.d calls it a **systemic** condition, meaning **all bones** of the musculoskeletal system are affected.\n\nThat leads to two site rules:\n\n• **Category M81**, Osteoporosis without current pathological fracture — **site is not a component** of these codes.\n• **Category M80**, Osteoporosis with current pathological fracture — the site codes identify the **site of the fracture**, **not** the osteoporosis.\n\n**Exam trap:** if you see a site in an M80 code, it is telling you where the **fracture** is. The osteoporosis itself is everywhere.",
+   "visual": {
+    "title": "Osteoporosis and Site",
+    "sub": "Section I.C.13.d",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Systemic means",
+      "b": "All bones are affected"
+     },
+     {
+      "h": "M81 (no current fx)",
+      "b": "No site in the code"
+     },
+     {
+      "h": "M80 (current fx)",
+      "b": "Site = the FRACTURE site"
+     },
+     {
+      "h": "Not the site of",
+      "b": "The osteoporosis itself"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: M81 vs M80",
+   "content": "**I.C.13.d.1 — M81, without pathological fracture.** For patients with osteoporosis who **do not currently have** a pathologic fracture due to the osteoporosis — **even if they had a fracture in the past**.\n\n• For a **history** of osteoporosis fractures, add status code **Z87.310**, Personal history of (healed) osteoporosis fracture. It **follows** the M81 code.\n\n**I.C.13.d.2 — M80, with current pathological fracture.** For patients who have a **current** pathologic fracture at the time of the encounter. The M80 codes identify the **site of the fracture**.\n\n**The minor-trauma rule:** for any patient with **known osteoporosis** who suffers a fracture, use a code from **M80**, **not** a traumatic fracture code — **even if** the patient had a **minor fall or trauma** — **if** that fall or trauma **would not usually break a normal, healthy bone**.\n\n**Exam trap:** a fall does not automatically make it a traumatic fracture. The question is whether the force would usually break a normal, healthy bone.",
+   "visual": {
+    "title": "M81 or M80?",
+    "sub": "Sections I.C.13.d.1 and I.C.13.d.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "No current fx",
+      "b": "M81 (even with past fractures)"
+     },
+     {
+      "h": "History of osteo. fx",
+      "b": "Z87.310 after M81"
+     },
+     {
+      "h": "Current pathologic fx",
+      "b": "M80; site = fracture"
+     },
+     {
+      "h": "Minor fall + osteoporosis",
+      "b": "M80, not traumatic code"
+     },
+     {
+      "h": "Test for minor trauma",
+      "b": "Would it break a healthy bone?"
+     },
+     {
+      "h": "Normal bone would break?",
+      "b": "M80 rule does not apply"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Osteoporosis Scenarios",
+   "content": "**Scenario 1.** A patient with osteoporosis is seen for medication management. She broke her wrist from osteoporosis two years ago; it has healed. No current fracture.\n\n• Guideline: I.C.13.d.1 → code from **M81** (no current pathologic fracture, even with a past fracture), followed by **Z87.310** for the history of a healed osteoporosis fracture.\n\n**Scenario 2.** A patient with known osteoporosis trips on a rug at home and fractures her hip. The provider indicates the fall would not usually break a normal, healthy bone.\n\n• Guideline: I.C.13.d.2 → code from **M80**, with the site showing the **hip fracture** — **not** a traumatic fracture code.\n\n**Scenario 3.** A patient with osteoporosis is in a serious accident, and the documentation shows the trauma would break a normal, healthy bone.\n\n• The M80 rule depends on the trauma being one that would **not usually** break a healthy bone. That condition is not met here, so the M80 minor-trauma instruction does not direct the code. Traumatic fractures are covered in Section I.C.19.",
+   "visual": {
+    "title": "Osteoporosis Decisions",
+    "sub": "Applying Section I.C.13.d",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "1. Healed past fracture",
+      "b": "M81 then Z87.310"
+     },
+     {
+      "h": "2. Trip, hip fracture",
+      "b": "M80 (site = hip fracture)"
+     },
+     {
+      "h": "3. Major trauma",
+      "b": "M80 minor-trauma rule not met"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with osteoporosis has no current fracture but had an osteoporotic vertebral fracture three years ago that has healed. According to Section I.C.13.d.1, how is this coded?",
+   "options": [
+    "A code from M81, followed by Z87.310",
+    "A code from M80, because the patient has had a pathologic fracture",
+    "Z87.310 only",
+    "A code from M81 only; past fractures are never coded"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.13.d.1 says M81 is for patients with osteoporosis who do not currently have a pathologic fracture \"even if they have had a fracture in the past,\" and for a history of osteoporosis fractures, \"status code Z87.310... should follow the code from M81.\" M80 is only for a current pathologic fracture. Z87.310 alone leaves out the osteoporosis. Option D ignores the instruction to add Z87.310.",
+   "visual": {
+    "topic": "Osteoporosis, past fracture",
+    "hint": "Is the fracture current, and how is the history shown?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with known osteoporosis falls from a standing position and fractures a wrist. The fall would not usually break a normal, healthy bone. According to Section I.C.13.d.2, which code type is used for the fracture?",
+   "options": [
+    "A traumatic fracture code from Chapter 19, because there was a fall",
+    "A code from category M81 only",
+    "A code from category M81 plus a traumatic fracture code",
+    "A code from category M80"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.13.d.2 says a code from M80, \"not a traumatic fracture code, should be used for any patient with known osteoporosis who suffers a fracture, even if the patient had a minor fall or trauma, if that fall or trauma would not usually break a normal, healthy bone.\" Option A is exactly what the guideline rejects. M81 is for osteoporosis without a current pathological fracture, so options C and B are wrong.",
+   "visual": {
+    "topic": "Osteoporosis and a minor fall",
+    "hint": "Would this fall usually break a normal bone?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "In a code from category M80, Osteoporosis with current pathological fracture, what does the site in the code identify?",
+   "options": [
+    "The site of the osteoporosis",
+    "The joint nearest the osteoporosis",
+    "The site of the fracture",
+    "M80 codes have no site"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.13.d says \"The site codes under category M80... identify the site of the fracture, not the osteoporosis,\" and I.C.13.d.2 repeats that \"The codes under M80 identify the site of the fracture.\" Osteoporosis is systemic, affecting all bones, so option A is wrong. Option B is not in the guideline. Option D describes category M81, where site is not a component.",
+   "visual": {
+    "topic": "Site in M80",
+    "hint": "Osteoporosis affects all bones."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.13.e"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Multisystem Inflammatory Syndrome",
+   "content": "Section I.C.13.e has **no rule of its own**. Its only text is a cross-reference: **\"See Section I.C.1.g.1.l. for Multisystem Inflammatory Syndrome.\"**\n\nThat means the coding guidance for Multisystem Inflammatory Syndrome is found in Chapter 1, under Section I.C.1.g (Coronavirus infections), not in Chapter 13.\n\n**Exam tip:** when a guideline section only says \"See...\", the rule lives in the section it points to. Look there before coding.",
+   "visual": {
+    "title": "Section I.C.13.e",
+    "sub": "A cross-reference only",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Text",
+      "b": "See Section I.C.1.g.1.l"
+     },
+     {
+      "h": "Topic",
+      "b": "Multisystem Inflammatory Syndrome"
+     },
+     {
+      "h": "Rules found in",
+      "b": "Chapter 1 guidelines"
+     },
+     {
+      "h": "Rules in I.C.13.e?",
+      "b": "None of its own"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.14"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.14.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: CKD Stages and ESRD",
+   "content": "**Chronic kidney disease (CKD)** is long-term loss of kidney function. Section I.C.14.a.1 says ICD-10-CM classifies CKD by **severity**, designated by **stages 1-5**.\n\nThe guideline links these stages to words:\n\n• **Stage 2**, code **N18.2** = **mild** CKD\n• **Stage 3**, codes **N18.30-N18.32** = **moderate** CKD\n• **Stage 4**, code **N18.4** = **severe** CKD\n• **N18.6**, End stage renal disease (ESRD), is assigned when the **provider has documented** end-stage renal disease (ESRD)\n\n**Both a stage and ESRD documented?** Assign **N18.6 only**.\n\n**Exam trap:** if the record says \"CKD stage 5, now ESRD,\" do not report both. ESRD (N18.6) alone.",
+   "visual": {
+    "title": "CKD Stages",
+    "sub": "Section I.C.14.a.1",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Stage 2 = mild",
+      "b": "N18.2"
+     },
+     {
+      "h": "Stage 3 = moderate",
+      "b": "N18.30-N18.32"
+     },
+     {
+      "h": "Stage 4 = severe",
+      "b": "N18.4"
+     },
+     {
+      "h": "ESRD documented",
+      "b": "N18.6"
+     },
+     {
+      "h": "Stage AND ESRD",
+      "b": "N18.6 only"
+     },
+     {
+      "h": "Classified by",
+      "b": "Severity, stages 1-5"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents \"CKD stage 4 progressing; patient now has end-stage renal disease.\" According to Section I.C.14.a.1, what is assigned?",
+   "options": [
+    "N18.4 and N18.6",
+    "N18.6 only",
+    "N18.4 only",
+    "N18.2 and N18.6"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.14.a.1 states \"If both a stage of CKD and ESRD are documented, assign code N18.6 only.\" Reporting N18.4 with N18.6 breaks the \"only\" rule. N18.4 alone ignores the documented ESRD. N18.2 is stage 2 (mild), which is not documented here.",
+   "visual": {
+    "topic": "CKD stage plus ESRD",
+    "hint": "Both a stage and ESRD are documented."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Per Section I.C.14.a.1, which pairing of CKD stage and severity term is correct?",
+   "options": [
+    "Stage 3 equates to moderate CKD",
+    "Stage 2 equates to moderate CKD",
+    "Stage 4 equates to mild CKD",
+    "Stage 3 equates to severe CKD"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.14.a.1 says \"stage 3, codes N18.30-N18.32, equate to moderate CKD.\" Stage 2 (N18.2) equates to mild, not moderate. Stage 4 (N18.4) equates to severe, not mild. Stage 3 is moderate, not severe.",
+   "visual": {
+    "topic": "CKD severity terms",
+    "hint": "Mild, moderate, severe map to stages 2, 3 and 4."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: CKD After a Kidney Transplant",
+   "content": "Section I.C.14.a.2 addresses patients who have had a **kidney transplant**.\n\n• A kidney transplant **may not fully restore** kidney function, so the patient may **still have some form of CKD**.\n• Therefore, the **presence of CKD alone does not constitute a transplant complication**.\n• Assign the appropriate **N18 code** for the patient's **stage of CKD** **and** code **Z94.0**, Kidney transplant status.\n• If a **transplant complication** such as **failure or rejection** or another transplant complication is **documented**, see **Section I.C.19.g** for coding complications of a kidney transplant.\n• If the documentation is **unclear** whether the patient has a complication of the transplant → **query the provider**.\n\n**Exam trap:** do not assume CKD in a transplant patient means the transplant is failing. CKD alone = N18 code + Z94.0.",
+   "visual": {
+    "title": "CKD + Kidney Transplant",
+    "sub": "Section I.C.14.a.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "CKD alone",
+      "b": "NOT a transplant complication"
+     },
+     {
+      "h": "Code",
+      "b": "N18 stage code + Z94.0"
+     },
+     {
+      "h": "Failure or rejection",
+      "b": "See Section I.C.19.g"
+     },
+     {
+      "h": "Unclear if complication",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: CKD With Other Conditions",
+   "content": "Section I.C.14.a.3 notes that patients with CKD may also have other serious conditions, **most commonly diabetes mellitus and hypertension**.\n\n**Sequencing rule:** the order of the **CKD code** relative to codes for **other contributing conditions** is based on the **conventions in the Tabular List** (for example, instructional notes in the Tabular).\n\nThe guideline then gives two cross-references:\n\n• **Section I.C.9** — hypertensive chronic kidney disease\n• **Section I.C.19** — chronic kidney disease and kidney transplant complications\n\n**What it does NOT say:** it does not give its own fixed order (such as \"always code CKD first\"). The coder follows the Tabular List conventions and the cross-referenced sections.",
+   "visual": {
+    "title": "CKD With Other Conditions",
+    "sub": "Section I.C.14.a.3",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Most common partners",
+      "b": "Diabetes mellitus, hypertension"
+     },
+     {
+      "h": "Sequencing based on",
+      "b": "Tabular List conventions"
+     },
+     {
+      "h": "Hypertensive CKD",
+      "b": "See Section I.C.9"
+     },
+     {
+      "h": "Transplant complications",
+      "b": "See Section I.C.19"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Transplant Patient With CKD",
+   "content": "**Scenario 1.** A patient had a kidney transplant two years ago. The provider documents \"CKD stage 3; transplant functioning well, no rejection.\"\n\n• Guideline: I.C.14.a.2 → CKD alone is **not** a transplant complication. Assign the appropriate N18 code for the documented stage (a stage 3 code from N18.30-N18.32) **and Z94.0**, Kidney transplant status.\n\n**Scenario 2.** A transplant patient's provider documents \"kidney transplant rejection.\"\n\n• Guideline: I.C.14.a.2 → a transplant complication is documented, so go to **Section I.C.19.g** for how to code it.\n\n**Scenario 3.** A transplant patient has CKD, and the note says \"rule out graft dysfunction\" with no conclusion.\n\n• Guideline: I.C.14.a.2 → documentation is unclear about a transplant complication → **query the provider**.",
+   "visual": {
+    "title": "Transplant Patient With CKD",
+    "sub": "Applying Section I.C.14.a.2",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "1. CKD, graft working",
+      "b": "N18 stage code + Z94.0"
+     },
+     {
+      "h": "2. Rejection documented",
+      "b": "Go to Section I.C.19.g"
+     },
+     {
+      "h": "3. Unclear complication",
+      "b": "Query the provider"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A kidney transplant recipient has CKD stage 2. The provider documents no transplant failure, rejection or other complication. According to Section I.C.14.a.2, what is coded?",
+   "options": [
+    "A transplant complication code, because CKD after transplant means the transplant failed",
+    "N18.2 only",
+    "Z94.0 only",
+    "N18.2 and Z94.0"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.14.a.2 says the presence of CKD alone does not constitute a transplant complication, and to \"Assign the appropriate N18 code for the patient's stage of CKD and code Z94.0, Kidney transplant status.\" Stage 2 is N18.2. Option A treats CKD alone as a complication, which the guideline rejects. Z94.0 alone omits the CKD, and N18.2 alone omits the transplant status.",
+   "visual": {
+    "topic": "CKD after transplant",
+    "hint": "Does CKD by itself mean the transplant failed?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.14.a.3, how is the CKD code sequenced relative to codes for other contributing conditions, such as diabetes mellitus or hypertension?",
+   "options": [
+    "CKD is always sequenced first",
+    "CKD is always sequenced last",
+    "Sequencing is based on the conventions in the Tabular List",
+    "The coder chooses any order"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.14.a.3 states \"The sequencing of the CKD code in relationship to codes for other contributing conditions is based on the conventions in the Tabular List.\" The guideline does not give a fixed always-first or always-last rule, so A and B are wrong. Sequencing follows the Tabular conventions, not coder preference, so D is wrong.",
+   "visual": {
+    "topic": "CKD sequencing",
+    "hint": "Where do sequencing instructions usually appear?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Chapters 13 and 14 on a Record",
+   "content": "Use these steps for musculoskeletal and kidney conditions.\n\n1. **Find the site.** Code the bone, joint or muscle involved, with laterality. A condition at the end of a bone near a joint is coded to the **bone** (I.C.13.a.1).\n2. **Several sites?** Code each documented site individually; if specified sites are not documented, use the \"multiple sites\" code (I.C.13.a.2).\n3. **Acute or chronic?** Current acute injury → Chapter 19. Healed-injury results and chronic or recurrent conditions → generally Chapter 13. Unclear → query (I.C.13.b).\n4. **Pathologic fracture?** Active treatment → A (regardless of new provider). Routine healing care → D. Malunion, nonunion, sequelae → other 7th characters. Surgical repair complications → complication codes (I.C.13.c).\n5. **Osteoporosis?** No current fracture → M81 (+ Z87.310 for a healed osteoporosis fracture history). Current pathologic fracture → M80 with the fracture site; minor trauma that would not break a healthy bone → still M80 (I.C.13.d).\n6. **CKD?** Code the documented stage; stage + ESRD → N18.6 only (I.C.14.a.1).\n7. **Kidney transplant?** CKD alone → N18 stage code + Z94.0; documented complication → I.C.19.g; unclear → query (I.C.14.a.2).\n8. **CKD with diabetes or hypertension?** Follow Tabular List conventions and Section I.C.9 (I.C.14.a.3).",
+   "visual": {
+    "title": "Ch. 13-14 Coding Path",
+    "sub": "Eight checks from Sections I.C.13 and I.C.14",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2 Site",
+      "b": "Bone not joint; multiple sites"
+     },
+     {
+      "h": "3 Acute vs chronic",
+      "b": "Ch. 19 vs Ch. 13; query"
+     },
+     {
+      "h": "4 Pathologic fx",
+      "b": "A active; D routine healing"
+     },
+     {
+      "h": "5 Osteoporosis",
+      "b": "M81 (+Z87.310) or M80"
+     },
+     {
+      "h": "6 CKD stage",
+      "b": "Stage + ESRD = N18.6 only"
+     },
+     {
+      "h": "7-8 Transplant/others",
+      "b": "N18 + Z94.0; Tabular order"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• Chapter 13 site = the **bone, joint or muscle**. A condition at the end of a bone near a joint is coded to the **bone** (I.C.13.a.1).\n• Code documented sites individually; use \"multiple sites\" when specified sites are not documented (I.C.13.a.2).\n• **Current acute injury → Chapter 19.** Healed-injury results and chronic/recurrent conditions → generally **Chapter 13**. Unclear → query (I.C.13.b).\n• Pathologic fracture: **A** while in active treatment (a new provider doesn't change it); **D** for routine care in healing/recovery; other characters for malunion, nonunion, sequelae (I.C.13.c).\n• Osteoporosis is **systemic**. **M81** has no site and is used even with past fractures (add **Z87.310**); **M80** sites identify the **fracture** (I.C.13.d).\n• Known osteoporosis + fracture from minor trauma that wouldn't break a healthy bone → **M80**, not a traumatic code (I.C.13.d.2).\n• CKD: stage 2 = mild (N18.2), stage 3 = moderate (N18.30-N18.32), stage 4 = severe (N18.4); stage + ESRD → **N18.6 only** (I.C.14.a.1).\n• Transplant patient with CKD alone → **N18 code + Z94.0**, not a complication; CKD sequencing follows **Tabular List conventions** (I.C.14.a.2-3).",
+   "visual": {
+    "title": "Lesson Summary",
+    "sub": "Musculoskeletal and CKD rules",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Site",
+      "b": "Bone, not joint"
+     },
+     {
+      "h": "Pathologic fx",
+      "b": "A active, D routine healing"
+     },
+     {
+      "h": "Osteoporosis",
+      "b": "M81 no fx; M80 current fx"
+     },
+     {
+      "h": "CKD",
+      "b": "ESRD = N18.6 only; + Z94.0"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about Section I.C.13.b is correct?",
+   "options": [
+    "Any condition that began with an injury is always coded to Chapter 19",
+    "Any current, acute injury should be coded to the appropriate injury code from Chapter 19",
+    "Recurrent conditions are always coded to Chapter 19",
+    "The coder may never query about acute versus chronic conditions"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.13.b states \"Any current, acute injury should be coded to the appropriate injury code from chapter 19.\" Option A is wrong because conditions resulting from a healed injury are usually found in Chapter 13. Option C is wrong because recurrent conditions are usually in Chapter 13. Option D is wrong because the guideline tells the coder to query the provider when it is difficult to determine which code is best.",
+   "visual": {
+    "topic": "Acute vs chronic chapter",
+    "hint": "Which kind of injury belongs in Chapter 19?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with osteoporosis is seen for a current pathologic fracture of the vertebra due to osteoporosis. Which category applies according to Section I.C.13.d?",
+   "options": [
+    "M80, with the site identifying the fracture",
+    "M81, because osteoporosis has no site",
+    "M87, avascular necrosis of bone",
+    "Z87.310 only"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.13.d.2 says category M80, Osteoporosis with current pathological fracture, \"is for patients who have a current pathologic fracture at the time of an encounter,\" and its codes identify the site of the fracture. M81 is for patients without a current pathologic fracture. M87 is the guideline's example of avascular necrosis of bone, a different condition. Z87.310 is a personal history code for a healed osteoporosis fracture, not a current one.",
+   "visual": {
+    "topic": "Current osteoporotic fracture",
+    "hint": "Is the fracture current or healed?"
+   }
+  }
+ ]
+}

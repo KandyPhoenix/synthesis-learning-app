@@ -1,0 +1,1012 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Why Neoplasm Guidelines Matter",
+   "content": "Cancer and other tumors are some of the most common and most heavily tested topics in ICD-10-CM coding. A **neoplasm** is a new growth of tissue (a tumor). Chapter 2 (C00-D49) holds the codes for most benign and all malignant neoplasms.\n\nNeoplasm coding is hard for two reasons:\n\n• You must first figure out **what kind** of neoplasm it is (its behavior) and **where** it is (primary and secondary sites).\n• You must then decide **what to sequence first**, and that depends on why the patient came in: to treat the primary site, to treat a metastatic site, for chemotherapy, for a complication, and so on.\n\n**This lesson covers Section I.C.2 and I.C.2.a through I.C.2.k:**\n\n• General rules: behavior, overlapping sites, ectopic tissue, and how to use the Neoplasm Table\n• Encounters for treatment of the primary site and of the secondary site\n• Complications: anemia, dehydration, and surgical complications\n• Previously excised primary malignancy (Z85)\n• Chemotherapy, immunotherapy and radiation therapy encounters (Z51.-)\n• Workups to determine extent, signs and symptoms, pain control\n• Multiple tumors in one organ, disseminated cancer (C80.0) and cancer of unspecified site (C80.1)\n\nLesson 13 continues with the sequencing summary, history versus current cancer, and special cases.",
+   "visual": {
+    "title": "Neoplasms I: The Big Picture",
+    "sub": "What is it, where is it, and why is the patient here?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Behavior",
+      "b": "Benign, in-situ, malignant, or uncertain behavior."
+     },
+     {
+      "h": "2. Sites",
+      "b": "Primary site, plus any secondary (metastatic) sites."
+     },
+     {
+      "h": "3. Reason for visit",
+      "b": "Treat primary? Treat a metastasis? Chemo? A complication?"
+     },
+     {
+      "h": "4. Sequence",
+      "b": "The reason for the visit decides what is listed first."
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Behavior and Sites First",
+   "content": "Before you can pick any neoplasm code, Section I.C.2 says you must answer two questions from the record:\n\n**1. What is the behavior?** The guideline lists four possibilities:\n• **Benign**\n• **In-situ**\n• **Malignant**\n• **Uncertain histologic behavior**\n\n**2. If it is malignant, are there secondary (metastatic) sites?** A **secondary** site is a place the cancer has spread to (metastasized). Each one must be identified.\n\n**Where the codes live:** Chapter 2 holds **most benign** and **all malignant** neoplasm codes. Some benign neoplasms, such as **prostatic adenomas**, are found in the body system chapters instead.\n\n**What it does NOT mean:** It does not mean every benign tumor is in Chapter 2. The guideline names prostatic adenomas as an example of a benign neoplasm found in a body system chapter, so always follow the Index rather than assuming.\n\n**Cross-reference:** Code Z15.0 (genetic susceptibility to cancer) is covered in Section I.C.21 under Status.",
+   "visual": {
+    "title": "Step 1: Determine Behavior",
+    "sub": "Section I.C.2 general guidelines",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Benign",
+      "b": "Most are in Chapter 2. Some (e.g., prostatic adenoma) are elsewhere."
+     },
+     {
+      "h": "In-situ",
+      "b": "One of the four behaviors you must determine."
+     },
+     {
+      "h": "Malignant",
+      "b": "All are in Chapter 2. Also find any secondary sites."
+     },
+     {
+      "h": "Uncertain behavior",
+      "b": "Uncertain histologic behavior is its own category."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Overlapping Sites vs Separate Tumors",
+   "content": "Section I.C.2 has two rules that look alike but lead to opposite results.\n\n**Overlapping lesion (.8):** A **primary** malignant neoplasm that overlaps two or more **contiguous** sites (sites that are next to each other) is classified to subcategory/code **.8 ('overlapping lesion')**, unless the combination is specifically indexed elsewhere.\n\n**Separate tumors in the same site:** When there are **multiple neoplasms of the same site that are not contiguous**, such as tumors in different quadrants of the same breast, you assign **codes for each site**.\n\n**Exam trap:** One tumor that spreads across two neighboring sites = one .8 code. Two separate tumors in different parts of the same organ = a code for each site. Ask yourself: is this **one** lesion crossing a boundary, or **more than one** lesion?\n\n**Also note:** The .8 rule has an exception. If the Index lists the specific combination somewhere else, follow the Index.",
+   "visual": {
+    "title": "One Lesion or Two?",
+    "sub": "Overlapping vs noncontiguous neoplasms",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "One lesion, contiguous",
+      "b": "Overlaps 2+ sites next to each other: use .8 overlapping lesion."
+     },
+     {
+      "h": "Unless indexed",
+      "b": "If the combination is indexed elsewhere, use that code."
+     },
+     {
+      "h": "Separate tumors",
+      "b": "Same site, not contiguous (e.g., two breast quadrants)."
+     },
+     {
+      "h": "Result",
+      "b": "Assign a code for each site."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Malignant Neoplasm of Ectopic Tissue",
+   "content": "**Ectopic** tissue is tissue found away from where it normally belongs. The guideline's example is pancreatic tissue located in the stomach.\n\n**The rule:** Code a malignant neoplasm of ectopic tissue to the **site of origin mentioned**, not to the place where the tissue happens to be.\n\n**Official example:** An ectopic pancreatic malignant neoplasm involving the stomach is coded to malignant neoplasm of pancreas, unspecified (**C25.9**), not to a stomach code.\n\n**What it does NOT mean:** It does not mean you ignore the documentation of where the tissue is. It means the code is driven by the **type of tissue** (its origin) that is named.",
+   "visual": {
+    "title": "Ectopic Tissue Rule",
+    "sub": "Code the tissue of origin, not the location",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Documentation",
+      "b": "Ectopic pancreatic malignancy involving the stomach."
+     },
+     {
+      "h": "Code to",
+      "b": "Pancreas: C25.9, malignant neoplasm of pancreas, unspecified."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Using the Index and the Neoplasm Table",
+   "content": "Section I.C.2 gives an order of steps for looking up a neoplasm:\n\n**1. Histological term documented?** If the provider documents a histological term (the type of tissue or cell, such as \"adenoma\"), look up **that term in the Alphabetic Index first**, rather than going straight to the Neoplasm Table. The entry tells you which **column** of the table to use.\n\n**2. Neoplasm Table.** Otherwise, the Neoplasm Table in the Alphabetic Index is referenced first. The table gives the code based on the **type of neoplasm** (column) and the **site** (row). Selecting the proper column is essential.\n\n**3. Verify in the Tabular List.** Always confirm the code in the Tabular List to make sure it is correct and that **a more specific site code does not exist**.\n\n**Exam trap:** Going directly to the Neoplasm Table when a histological term is documented can put you in the wrong column (for example, the malignant column for a benign tumor).",
+   "visual": {
+    "title": "Neoplasm Lookup Order",
+    "sub": "Section I.C.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Histology term?",
+      "b": "Look it up in the Index first (e.g., adenoma)."
+     },
+     {
+      "h": "2. Follow the note",
+      "b": "e.g., see also neoplasm, by site, benign."
+     },
+     {
+      "h": "3. Neoplasm Table",
+      "b": "Pick the right column for the type, then the site."
+     },
+     {
+      "h": "4. Tabular List",
+      "b": "Verify the code; check for a more specific site."
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Looking Up an Adenoma",
+   "content": "**Documentation:** The pathology report shows an **adenoma**.\n\n**Which rule applies?** Section I.C.2: a histological term is documented, so look it up in the Alphabetic Index first.\n\n**What happens:** Under \"adenoma,\" the Index has an instructional note to **\"see also neoplasm, by site, benign.\"** That note tells you to go to the Neoplasm Table and use the **benign** column for the documented site.\n\n**Final step:** Check the code in the Tabular List to verify it and to make sure a more specific site code does not exist.\n\n**Why it matters:** If you had jumped straight to the Neoplasm Table without knowing the behavior, you could have picked the wrong column.",
+   "visual": {
+    "title": "Adenoma Walk-Through",
+    "sub": "Histology term first, then the table",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Index: adenoma",
+      "b": "Read the entries and the note."
+     },
+     {
+      "h": "Note",
+      "b": "see also neoplasm, by site, benign"
+     },
+     {
+      "h": "Neoplasm Table",
+      "b": "Benign column, documented site."
+     },
+     {
+      "h": "Tabular List",
+      "b": "Verify; look for a more specific site code."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A single primary malignant tumor overlaps two contiguous sites, and the combination is not specifically indexed elsewhere. According to Section I.C.2, how is it classified?",
+   "options": [
+    "Assign a separate code for each of the two sites",
+    "Assign subcategory/code .8, overlapping lesion",
+    "Assign code C80.1, Malignant (primary) neoplasm, unspecified",
+    "Assign only the code for the larger of the two sites"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.2 states that a primary malignant neoplasm overlapping two or more contiguous sites is classified to subcategory/code .8 ('overlapping lesion'), unless the combination is specifically indexed elsewhere.\n\nA is wrong: separate codes for each site are for multiple neoplasms of the same site that are NOT contiguous. C is wrong: C80.1 is only for when no determination can be made as to the primary site (Section I.C.2.k); here the sites are known. D is wrong: the guidelines contain no rule about coding only the larger site.",
+   "visual": {
+    "topic": "Overlapping sites",
+    "hint": "Think about one lesion crossing a boundary between neighboring sites."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has two separate malignant tumors in different quadrants of the same breast. What does Section I.C.2 instruct?",
+   "options": [
+    "Assign codes for each site",
+    "Assign the .8 overlapping lesion code",
+    "Assign only one code because it is the same organ",
+    "Query the provider before assigning any code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: A. Section I.C.2 states that for multiple neoplasms of the same site that are not contiguous, such as tumors in different quadrants of the same breast, codes for each site should be assigned.\n\nB is wrong: the .8 code is for a single primary malignancy that overlaps contiguous sites. C is wrong: the guideline specifically says to code each site. D is wrong: the guideline gives a direct instruction for this situation. (A query is required by Section I.C.2.i when documentation is unclear about whether tumors are primaries or metastases, which is not the case here.)",
+   "visual": {
+    "topic": "Noncontiguous tumors",
+    "hint": "The guideline uses this exact breast example."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Documentation states: ectopic pancreatic malignant neoplasm involving the stomach. Per Section I.C.2, what is coded?",
+   "options": [
+    "Malignant neoplasm of stomach",
+    "Secondary malignant neoplasm of stomach",
+    "C80.1, Malignant (primary) neoplasm, unspecified",
+    "C25.9, malignant neoplasm of pancreas, unspecified"
+   ],
+   "correct": 3,
+   "explanation": "Correct: C. Section I.C.2 says malignant neoplasms of ectopic tissue are coded to the site of origin mentioned, and gives this exact example: ectopic pancreatic malignant neoplasms involving the stomach are coded to C25.9.\n\nA is wrong: the stomach is where the tissue is, not its origin. B is wrong: nothing documents metastasis; this is ectopic tissue, not spread. C is wrong: C80.1 is for when the primary site cannot be determined, and here the origin (pancreas) is named.",
+   "visual": {
+    "topic": "Ectopic tissue",
+    "hint": "Code the tissue's origin, not where it is found."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents a histological term for a tumor. According to Section I.C.2, where should the coder look first?",
+   "options": [
+    "The Neoplasm Table, malignant primary column",
+    "The Tabular List, Chapter 2",
+    "The histological term in the Alphabetic Index",
+    "Category Z85 in Chapter 21"
+   ],
+   "correct": 2,
+   "explanation": "Correct: B. Section I.C.2 states that if the histological term is documented, that term should be referenced first in the Alphabetic Index, rather than going immediately to the Neoplasm Table, to determine which column of the table is appropriate.\n\nA is wrong: going straight to the table (and assuming the malignant column) skips the step that identifies the correct column. B is wrong: the Tabular List is used afterward to verify the code, not as the starting point. D is wrong: Z85 is for personal history of malignant neoplasm and has nothing to do with lookup order.",
+   "visual": {
+    "topic": "Neoplasm lookup",
+    "hint": "Which source tells you the right column of the table?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.a"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Treating the Primary Site",
+   "content": "**The rule (Section I.C.2.a):** If the cancer is the main reason for the admission or encounter, and treatment is directed at the **primary site** (where the cancer started), list the **primary malignancy first**.\n\n**The only exception:** If the encounter is chiefly for **administration of**:\n• **chemotherapy**,\n• **immunotherapy**, or\n• **external beam radiation therapy**,\n\nthen a **Z51.-** code goes first, and the cancer being treated is listed as a secondary diagnosis.\n\n**What it does NOT mean:** The exception does not cover every cancer treatment. Surgery directed at the primary site, for example, follows the main rule: the malignancy is first. Section I.C.2.e (later in this lesson) also says brachytherapy (insertion of radioactive elements) puts the malignancy first, not Z51.0.",
+   "visual": {
+    "title": "Treatment of the Primary Site",
+    "sub": "Section I.C.2.a",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Main rule",
+      "b": "Treatment aimed at the primary site: primary malignancy first."
+     },
+     {
+      "h": "Only exception",
+      "b": "Visit is for chemo, immunotherapy or external beam radiation."
+     },
+     {
+      "h": "Exception coding",
+      "b": "Z51.- code first; the cancer as a secondary diagnosis."
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.b"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Treating the Secondary Site",
+   "content": "**The rule (Section I.C.2.b):** A patient has a primary cancer that has spread (metastasized). If the admission is for treatment directed **only toward the secondary site**, the **secondary neoplasm is the principal diagnosis**, even though the primary cancer is still present.\n\n**Key words:** \"toward the secondary site **only**.\" The focus of treatment, not which cancer came first, decides the principal diagnosis.\n\n**What it does NOT mean:** It does not mean the primary cancer is dropped. Section I.C.2.l.2 (Lesson 13) adds that the primary malignancy is coded as an additional code.\n\n**Exam trap:** Students often assume the primary cancer is always listed first. Sections I.C.2.a and I.C.2.b together show it depends on where treatment is directed.",
+   "visual": {
+    "title": "Primary or Secondary First?",
+    "sub": "Follow the treatment",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Treat the primary site",
+      "b": "Primary malignancy is principal (I.C.2.a)."
+     },
+     {
+      "h": "Treat secondary site only",
+      "b": "Secondary neoplasm is principal (I.C.2.b)."
+     },
+     {
+      "h": "Primary still present?",
+      "b": "Still code it, as an additional code."
+     },
+     {
+      "h": "The deciding factor",
+      "b": "Where the treatment is directed."
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Same Patient, Different Visits",
+   "content": "A patient has a primary malignancy with metastasis to another site.\n\n**Visit 1:** Admitted for surgery to remove the **primary** tumor.\n→ Section I.C.2.a: treatment is directed at the primary site, so the **primary malignancy** is the principal diagnosis.\n\n**Visit 2:** Admitted for treatment directed **only** at the **metastatic** site.\n→ Section I.C.2.b: the **secondary neoplasm** is the principal diagnosis, even though the primary malignancy is still present.\n\n**Visit 3:** Comes in solely for an infusion of **chemotherapy**.\n→ Section I.C.2.a exception: a **Z51.-** code is first (Z51.11, Encounter for antineoplastic chemotherapy, per Section I.C.2.e), and the malignancy is a secondary diagnosis.",
+   "visual": {
+    "title": "One Patient, Three Visits",
+    "sub": "The reason for the visit changes sequencing",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Visit 1: surgery, primary",
+      "b": "Primary malignancy first."
+     },
+     {
+      "h": "Visit 2: treat metastasis",
+      "b": "Secondary neoplasm first."
+     },
+     {
+      "h": "Visit 3: chemotherapy",
+      "b": "Z51.11 first, cancer second."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted solely for external beam radiation therapy for a primary malignancy. According to Section I.C.2.a, what is listed first?",
+   "options": [
+    "The primary malignancy",
+    "The appropriate Z51.- code",
+    "The secondary malignancy",
+    "A code from category Z85"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.2.a's only exception: when administration of chemotherapy, immunotherapy or external beam radiation therapy is chiefly responsible for the encounter, assign the appropriate Z51.- code as first-listed/principal, with the underlying problem as a secondary diagnosis.\n\nA is wrong: the primary malignancy is first only when treatment is directed at the primary site and the visit is not chiefly for one of the three listed therapies. C is wrong: nothing indicates a secondary site. D is wrong: Z85 is personal history, used only when the malignancy has been excised or eradicated with no further treatment directed to the site.",
+   "visual": {
+    "topic": "Primary site exception",
+    "hint": "Which three therapies create the only exception?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with lung cancer that has spread to the bone is admitted for treatment directed only at the bone metastasis. Per Section I.C.2.b, what is the principal diagnosis?",
+   "options": [
+    "The secondary neoplasm of the bone",
+    "The primary lung malignancy, because it is still present",
+    "A Z51.- encounter code",
+    "Code C80.0, Disseminated malignant neoplasm, unspecified"
+   ],
+   "correct": 0,
+   "explanation": "Correct: B. Section I.C.2.b: when a patient is admitted because of a primary neoplasm with metastasis and treatment is directed toward the secondary site only, the secondary neoplasm is designated as the principal diagnosis even though the primary malignancy is still present.\n\nB is wrong: the guideline specifically says the secondary site is principal even though the primary is still present. C is wrong: nothing says the visit is chiefly for chemotherapy, immunotherapy or external beam radiation. D is wrong: C80.0 is only for advanced metastatic disease with no known primary or secondary sites specified (Section I.C.2.j); here both sites are known.",
+   "visual": {
+    "topic": "Secondary site treatment",
+    "hint": "Where is the treatment directed?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.c"
+  },
+  {
+   "type": "concept",
+   "title": "Anemia: Two Rules That Point Opposite Ways",
+   "content": "Section I.C.2.c.1 and I.C.2.c.2 are a classic **exam trap** because the sequencing flips depending on the **cause** of the anemia. Both apply only when **the only treatment is for the anemia**.\n\n**Anemia associated with the malignancy (c.1):**\n• **Malignancy first**, then the anemia code (such as **D63.0, Anemia in neoplastic disease**).\n\n**Anemia associated with an adverse effect of chemotherapy or immunotherapy (c.2):**\n• **Anemia first**, then the neoplasm code, then the adverse effect code **T45.1X5-** (Adverse effect of antineoplastic and immunosuppressive drugs).\n\n**Anemia associated with an adverse effect of radiotherapy (c.2):**\n• **Anemia first**, then the neoplasm code, then **Y84.2** (Radiological procedure and radiotherapy as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure).\n\n**Memory hook:** Caused by the cancer itself → cancer first. Caused by the treatment → anemia first.",
+   "visual": {
+    "title": "Anemia With Cancer",
+    "sub": "Only the anemia is treated: what is first?",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Due to the malignancy",
+      "b": "Malignancy first, then anemia (e.g., D63.0)."
+     },
+     {
+      "h": "Due to chemo/immuno",
+      "b": "Anemia, neoplasm, then T45.1X5-."
+     },
+     {
+      "h": "Due to radiotherapy",
+      "b": "Anemia, neoplasm, then Y84.2."
+     },
+     {
+      "h": "Memory hook",
+      "b": "Cancer caused it: cancer first. Treatment caused it: anemia first."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Dehydration and Surgical Complications",
+   "content": "**Dehydration due to the malignancy (I.C.2.c.3):** When the encounter is to manage dehydration due to the malignancy and **only the dehydration is treated** (intravenous rehydration), the **dehydration is sequenced first**, followed by the code(s) for the malignancy.\n\n**Complication of a surgical procedure (I.C.2.c.4):** When the encounter is to treat a complication resulting from a surgical procedure, the **complication is principal/first-listed** if treatment is directed at resolving the complication.\n\n**What these do NOT mean:**\n• The dehydration rule does not apply if the cancer itself is also being treated; it is limited to when only the dehydration is treated.\n• Notice that dehydration due to the malignancy goes first, but anemia due to the malignancy does NOT. Anemia is the exception (Section I.C.2.l.4 in Lesson 13 says so directly).",
+   "visual": {
+    "title": "Other Complications",
+    "sub": "Section I.C.2.c.3 and c.4",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Dehydration from cancer",
+      "b": "Only rehydration given: dehydration first, then malignancy."
+     },
+     {
+      "h": "Surgical complication",
+      "b": "Treatment aimed at the complication: complication first."
+     },
+     {
+      "h": "Compare: anemia",
+      "b": "Anemia from the cancer is the exception: cancer first."
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Anemia After Chemotherapy",
+   "content": "**Documentation:** A patient receiving chemotherapy for a malignancy is admitted for management of anemia due to the adverse effect of the chemotherapy. Only the anemia is treated.\n\n**Which rule?** Section I.C.2.c.2.\n\n**Sequencing:**\n1. The anemia code\n2. The appropriate code for the neoplasm\n3. **T45.1X5-**, Adverse effect of antineoplastic and immunosuppressive drugs\n\n**Contrast:** If the provider had documented that the anemia was due to the malignancy itself (Section I.C.2.c.1), the malignancy would be first, followed by an anemia code such as **D63.0**.",
+   "visual": {
+    "title": "Chemo-Related Anemia",
+    "sub": "Section I.C.2.c.2 sequencing",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "1st",
+      "b": "Anemia code"
+     },
+     {
+      "h": "2nd",
+      "b": "Neoplasm code"
+     },
+     {
+      "h": "3rd",
+      "b": "T45.1X5- adverse effect of antineoplastic drugs"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for management of anemia associated with their malignancy. Only the anemia is treated. Per Section I.C.2.c.1, what is sequenced first?",
+   "options": [
+    "The anemia code",
+    "T45.1X5-, adverse effect of antineoplastic drugs",
+    "A Z51.- code",
+    "The code for the malignancy"
+   ],
+   "correct": 3,
+   "explanation": "Correct: B. Section I.C.2.c.1: when the encounter is for management of an anemia associated with the malignancy and the treatment is only for anemia, the malignancy is sequenced first, followed by the anemia code (such as D63.0, Anemia in neoplastic disease).\n\nA is wrong: anemia is sequenced first only when it is associated with an adverse effect of chemotherapy, immunotherapy or radiotherapy (c.2). B is wrong: T45.1X5- is for an adverse effect of the drugs, which is not documented here. C is wrong: the visit is not for administration of chemotherapy, immunotherapy or radiation.",
+   "visual": {
+    "topic": "Anemia due to malignancy",
+    "hint": "Was the anemia caused by the cancer or by its treatment?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is seen for management of anemia due to an adverse effect of radiotherapy. Only the anemia is treated. Which sequence follows Section I.C.2.c.2?",
+   "options": [
+    "Neoplasm, anemia, Y84.2",
+    "Anemia, neoplasm, T45.1X5-",
+    "Anemia, neoplasm, Y84.2",
+    "Y84.2, anemia, neoplasm"
+   ],
+   "correct": 2,
+   "explanation": "Correct: B. Section I.C.2.c.2: for anemia associated with an adverse effect of radiotherapy, the anemia code is sequenced first, followed by the appropriate neoplasm code and code Y84.2.\n\nA is wrong: neoplasm-first applies to anemia associated with the malignancy itself (c.1). B is wrong: T45.1X5- is the adverse effect code for chemotherapy/immunotherapy drugs, not radiotherapy. D is wrong: Y84.2 is listed after the anemia and neoplasm codes, not first.",
+   "visual": {
+    "topic": "Anemia due to radiotherapy",
+    "hint": "Treatment-caused anemia, and which cause code fits radiation?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with cancer is admitted for intravenous rehydration for dehydration due to the malignancy. Only the dehydration is treated. Per Section I.C.2.c.3, what is first?",
+   "options": [
+    "The malignancy",
+    "The dehydration",
+    "Z51.11, Encounter for antineoplastic chemotherapy",
+    "D63.0, Anemia in neoplastic disease"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.2.c.3: when the encounter is for management of dehydration due to the malignancy and only the dehydration is treated (intravenous rehydration), the dehydration is sequenced first, followed by the code(s) for the malignancy.\n\nA is wrong: malignancy-first is the rule for anemia due to the malignancy, not dehydration. C is wrong: no chemotherapy is being administered. D is wrong: there is no anemia documented.",
+   "visual": {
+    "topic": "Dehydration",
+    "hint": "Dehydration and anemia do not follow the same rule."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.d"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Cancer That Is Gone (Z85)",
+   "content": "**The rule (Section I.C.2.d):** Use a code from category **Z85, Personal history of malignant neoplasm**, to show the former site of a primary cancer when **all three** are true:\n\n1. The primary malignancy was **previously excised or eradicated** from its site,\n2. There is **no further treatment** directed to that site, and\n3. There is **no evidence of any existing primary malignancy** at that site.\n\n**Spread to another site:** Any mention of **extension, invasion, or metastasis** to another site is coded as a **secondary malignant neoplasm** of that site. The secondary site **may be the principal or first-listed** diagnosis, with the **Z85** code as a secondary code.\n\n**What it does NOT mean:** It does not mean you stop coding cancer. A patient can have a Z85 code for the old primary site and an active secondary malignancy code at the same time.\n\n**Cross-reference:** For metastasis of lymphoma, see Section I.C.2.t (Lesson 13).",
+   "visual": {
+    "title": "When to Use Z85",
+    "sub": "All three must be true",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Excised or eradicated",
+      "b": "The primary was removed or destroyed."
+     },
+     {
+      "h": "No further treatment",
+      "b": "Nothing is still directed to that site."
+     },
+     {
+      "h": "No existing primary",
+      "b": "No evidence of cancer at that site."
+     },
+     {
+      "h": "Spread elsewhere?",
+      "b": "Code the secondary site; it may be first, Z85 second."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A primary malignancy was excised two years ago. There is no further treatment to that site and no evidence of disease there, but the patient now has documented metastasis to the liver. Per Section I.C.2.d, how is this coded?",
+   "options": [
+    "Code the secondary malignant neoplasm of the liver; it may be first-listed, with a Z85 code as a secondary code",
+    "Code the original primary malignancy as current, with no Z85 code",
+    "Code only a Z85 code",
+    "Code C80.0, Disseminated malignant neoplasm, unspecified"
+   ],
+   "correct": 0,
+   "explanation": "Correct: B. Section I.C.2.d: a code from Z85 is used for the former site when the primary was excised, with no further treatment and no evidence of existing primary malignancy. Any metastasis to another site is coded as a secondary malignant neoplasm of that site, which may be principal/first-listed with the Z85 code as a secondary code.\n\nB is wrong: all three conditions for Z85 are met, so the primary is no longer coded as current. C is wrong: the liver metastasis must also be coded. D is wrong: C80.0 is only for advanced metastatic disease with no known primary or secondary sites specified; here the sites are known.",
+   "visual": {
+    "topic": "History vs metastasis",
+    "hint": "The old primary and the new spread are coded differently."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.e"
+  },
+  {
+   "type": "concept",
+   "title": "Surgery Plus Adjunct Therapy in One Stay",
+   "content": "**The rule (Section I.C.2.e.1):** When one episode of care includes **surgical removal** of a neoplasm (primary or secondary site) **followed by** adjunct chemotherapy or radiation treatment **during the same episode of care**, the **neoplasm** is the principal or first-listed diagnosis.\n\n**Why:** The surgery is part of the stay, so the stay is not chiefly for administering chemotherapy or radiation. The Z51.- rule does not take over.\n\n**What it does NOT mean:** It does not apply when the patient comes back for a separate encounter that is chiefly for chemotherapy or radiation. That separate encounter follows Section I.C.2.e.2.",
+   "visual": {
+    "title": "Surgery + Adjunct Therapy",
+    "sub": "Same episode of care",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Surgery removes neoplasm",
+      "b": "Primary or secondary site."
+     },
+     {
+      "h": "Then chemo or radiation",
+      "b": "During the same episode of care."
+     },
+     {
+      "h": "Principal diagnosis",
+      "b": "The neoplasm, not a Z51.- code."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Encounters Chiefly for Chemo, Immunotherapy or Radiation",
+   "content": "**The rule (Section I.C.2.e.2):** If the encounter is **chiefly** for administering one of these therapies for a neoplasm, the Z51 code is first-listed or principal:\n\n• **Z51.0**, Encounter for antineoplastic radiation therapy\n• **Z51.11**, Encounter for antineoplastic chemotherapy\n• **Z51.12**, Encounter for antineoplastic immunotherapy\n\nThe **malignancy** being treated is a **secondary diagnosis**.\n\n**More than one therapy:** If the reason for the encounter is more than one type of antineoplastic therapy, **Z51.0 and codes from subcategory Z51.1 may be assigned together**. One of them is then reported as a secondary diagnosis.\n\n**Brachytherapy exception:** If the encounter is for **insertion or implantation of radioactive elements** (e.g., brachytherapy), the **malignancy** is principal/first-listed, and **Z51.0 should not be assigned**.\n\n**Exam trap:** Z51.0 is for external beam radiation therapy encounters. Brachytherapy is radiation too, but the guideline specifically says not to use Z51.0 for it.",
+   "visual": {
+    "title": "Z51 Encounter Codes",
+    "sub": "Section I.C.2.e.2",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Radiation therapy",
+      "b": "Z51.0 first; malignancy secondary."
+     },
+     {
+      "h": "Chemotherapy",
+      "b": "Z51.11 first; malignancy secondary."
+     },
+     {
+      "h": "Immunotherapy",
+      "b": "Z51.12 first; malignancy secondary."
+     },
+     {
+      "h": "Brachytherapy",
+      "b": "Malignancy first. Do NOT assign Z51.0."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Complications During a Therapy Admission",
+   "content": "**The rule (Section I.C.2.e.3):** A patient is admitted for **external beam radiotherapy, immunotherapy or chemotherapy** and then develops complications, such as **uncontrolled nausea and vomiting** or **dehydration**.\n\n• Principal/first-listed: **Z51.0**, **Z51.11** or **Z51.12** (whichever therapy the admission was for)\n• Then: codes for the **complications**\n\n**Brachytherapy version:** If the admission is for **insertion or implantation of radioactive elements** (e.g., brachytherapy) and complications develop, the **malignancy** is principal/first-listed, followed by codes for the complications.\n\n**What it does NOT mean:** The complication does not become principal just because it developed during the stay. The reason for admission (the therapy) still drives sequencing. Compare this with Section I.C.2.c, where the encounter is **for** the complication from the start.",
+   "visual": {
+    "title": "Complication During Therapy Stay",
+    "sub": "The reason for admission stays first",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Admitted for chemo/immuno/EBRT",
+      "b": "Z51.0, Z51.11 or Z51.12 first."
+     },
+     {
+      "h": "Then",
+      "b": "Codes for complications (e.g., nausea, vomiting, dehydration)."
+     },
+     {
+      "h": "Admitted for brachytherapy",
+      "b": "Malignancy first, then complications."
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Chemotherapy Admission With Dehydration",
+   "content": "**Documentation:** A patient is admitted for chemotherapy for a malignancy. During the stay, the patient develops dehydration.\n\n**Which rule?** Section I.C.2.e.3, because the admission was for the purpose of chemotherapy and a complication developed.\n\n**Sequencing:**\n• Principal: **Z51.11**, Encounter for antineoplastic chemotherapy\n• Followed by: code(s) for the complication (dehydration)\n• Also: the malignancy, as a secondary diagnosis (Section I.C.2.e.2 says the malignancy for which therapy is administered is a secondary diagnosis). The guideline does not set an order between the complication codes and the malignancy code.\n\n**Contrast:** If the patient had been admitted **for** IV rehydration of dehydration due to the malignancy, with only the dehydration treated, Section I.C.2.c.3 would put the **dehydration first**.",
+   "visual": {
+    "title": "Why Was the Patient Admitted?",
+    "sub": "Same conditions, different first-listed code",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Admitted for chemo",
+      "b": "Z51.11 first, then the complication (I.C.2.e.3)."
+     },
+     {
+      "h": "Admitted for rehydration",
+      "b": "Dehydration first, then malignancy (I.C.2.c.3)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for surgical removal of a neoplasm, followed by adjunct chemotherapy during the same episode of care. Per Section I.C.2.e.1, what is the principal diagnosis?",
+   "options": [
+    "Z51.11, Encounter for antineoplastic chemotherapy",
+    "Z51.0, Encounter for antineoplastic radiation therapy",
+    "A code from category Z85",
+    "The neoplasm"
+   ],
+   "correct": 3,
+   "explanation": "Correct: B. Section I.C.2.e.1: when an episode of care involves surgical removal of a neoplasm followed by adjunct chemotherapy or radiation during the same episode, the neoplasm is principal or first-listed.\n\nA is wrong: Z51.11 is first only when the encounter is chiefly for administering chemotherapy (I.C.2.e.2). B is wrong: no radiation is documented, and the stay is not chiefly for radiation. C is wrong: Z85 is for a previously excised malignancy with no further treatment; this patient is being treated now.",
+   "visual": {
+    "topic": "Surgery + chemo",
+    "hint": "Was this stay chiefly for chemotherapy?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient comes in for insertion of radioactive elements (brachytherapy) to treat a malignancy. According to Section I.C.2.e.2, which is correct?",
+   "options": [
+    "Assign Z51.0 as the first-listed diagnosis",
+    "Assign Z51.0 as a secondary diagnosis",
+    "Assign the malignancy as first-listed; do not assign Z51.0",
+    "Assign Z51.12 as the first-listed diagnosis"
+   ],
+   "correct": 2,
+   "explanation": "Correct: B. Section I.C.2.e.2: if the encounter is for the insertion or implantation of radioactive elements (e.g., brachytherapy), the malignancy is sequenced as principal or first-listed, and Z51.0 should not be assigned.\n\nA and B are wrong: the guideline says Z51.0 should not be assigned at all for brachytherapy. D is wrong: Z51.12 is for antineoplastic immunotherapy, which is not what is being done.",
+   "visual": {
+    "topic": "Brachytherapy",
+    "hint": "Brachytherapy is the stated exception to Z51.0."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's encounter is for both antineoplastic radiation therapy and chemotherapy. What does Section I.C.2.e.2 allow?",
+   "options": [
+    "Only one Z51 code may ever be reported per encounter",
+    "Z51.0 and a code from subcategory Z51.1 may be assigned together, with one reported as a secondary diagnosis",
+    "The malignancy must be first-listed whenever two therapies are given",
+    "Code Z51.0 is replaced by Z51.12"
+   ],
+   "correct": 1,
+   "explanation": "Correct: B. Section I.C.2.e.2: if the reason for the encounter is more than one type of antineoplastic therapy, Z51.0 and codes from subcategory Z51.1 may be assigned together, in which case one of these codes would be reported as a secondary diagnosis.\n\nA is wrong: the guideline explicitly allows them together. C is wrong: when the encounter is chiefly for these therapies, the Z51 code is first and the malignancy is secondary. D is wrong: Z51.12 is for immunotherapy, not a replacement for radiation therapy.",
+   "visual": {
+    "topic": "Multiple therapies",
+    "hint": "The guideline addresses more than one therapy type directly."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient admitted for immunotherapy develops uncontrolled nausea and vomiting. Per Section I.C.2.e.3, what is the principal diagnosis?",
+   "options": [
+    "Z51.12, Encounter for antineoplastic immunotherapy",
+    "Nausea and vomiting",
+    "The malignancy",
+    "T45.1X5-, Adverse effect of antineoplastic and immunosuppressive drugs"
+   ],
+   "correct": 0,
+   "explanation": "Correct: C. Section I.C.2.e.3: when a patient is admitted for external beam radiotherapy, immunotherapy or chemotherapy and develops complications such as uncontrolled nausea and vomiting, the principal diagnosis is Z51.0, Z51.11 or Z51.12, followed by codes for the complications. For immunotherapy that is Z51.12.\n\nB is wrong: the complications are coded after the Z51 code. C is wrong: the malignancy is principal only for a brachytherapy admission, or when treatment is directed at the cancer itself. D is wrong: the guideline says the Z51 code is principal here; an adverse effect code is not listed first.",
+   "visual": {
+    "topic": "Complication during therapy",
+    "hint": "What was the reason for the admission?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.f"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Workups and Diagnostic Procedures",
+   "content": "**The rule (Section I.C.2.f):** When the reason for the encounter is:\n\n• to **determine the extent** of the malignancy (how far it has spread), or\n• a procedure such as **paracentesis** or **thoracentesis** (removing fluid from the abdomen or chest),\n\nthen the **primary malignancy or the appropriate metastatic site** is principal or first-listed, **even though chemotherapy or radiotherapy is administered** during the encounter.\n\n**What it does NOT mean:** Getting chemo or radiation during the stay does not automatically make a Z51 code first. Z51 codes are first only when the encounter is **chiefly** for those therapies (Section I.C.2.e.2).",
+   "visual": {
+    "title": "Workup Encounters",
+    "sub": "Section I.C.2.f",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Reason for visit",
+      "b": "Determine extent, or paracentesis/thoracentesis."
+     },
+     {
+      "h": "First-listed",
+      "b": "Primary malignancy or the appropriate metastatic site."
+     },
+     {
+      "h": "Chemo/radiation given too?",
+      "b": "Does not change it: still the malignancy first."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted to determine the extent of a malignancy. Chemotherapy is also administered during the stay. Per Section I.C.2.f, what is first-listed?",
+   "options": [
+    "Z51.11, Encounter for antineoplastic chemotherapy",
+    "A symptom code from Chapter 18",
+    "C80.1, Malignant (primary) neoplasm, unspecified",
+    "The primary malignancy or appropriate metastatic site"
+   ],
+   "correct": 3,
+   "explanation": "Correct: B. Section I.C.2.f: when the reason for the encounter is to determine the extent of the malignancy, the primary malignancy or appropriate metastatic site is principal/first-listed, even though chemotherapy or radiotherapy is administered.\n\nA is wrong: the stay was not chiefly for chemotherapy. B is wrong: Section I.C.2.g says symptoms associated with an existing malignancy cannot replace the malignancy as principal. C is wrong: C80.1 is only for when no determination can be made as to the primary site.",
+   "visual": {
+    "topic": "Extent of malignancy",
+    "hint": "What was the reason for admission?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.g"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Symptoms Don't Replace Cancer",
+   "content": "**The rule (Section I.C.2.g):** Symptoms, signs and ill-defined conditions from **Chapter 18** that are **characteristic of, or associated with**, an existing primary or secondary malignancy **cannot replace the malignancy** as the principal or first-listed diagnosis.\n\nThis is true **regardless of the number of admissions or encounters** for treatment and care of the neoplasm.\n\n**What it does NOT mean:** This rule is about **Chapter 18** symptoms and signs. It is different from the complication rules in Section I.C.2.c (such as dehydration due to the malignancy), which tell you when a complication can be sequenced first.\n\n**Cross-reference:** The guideline points to Section I.C.21 for encounters for prophylactic organ removal.",
+   "visual": {
+    "title": "Chapter 18 Symptoms + Cancer",
+    "sub": "Section I.C.2.g",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Symptom from Chapter 18",
+      "b": "Characteristic of or associated with the cancer."
+     },
+     {
+      "h": "Can it be principal?",
+      "b": "No. It cannot replace the malignancy."
+     },
+     {
+      "h": "How many visits?",
+      "b": "Does not matter, regardless of the number."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a known malignancy returns for the fifth time for care of the neoplasm, and the provider notes a Chapter 18 sign characteristic of the malignancy. Per Section I.C.2.g, can that sign be the principal diagnosis instead of the malignancy?",
+   "options": [
+    "Yes, after three or more encounters",
+    "Yes, if the sign is the most bothersome to the patient",
+    "No, regardless of the number of admissions or encounters",
+    "Only in the outpatient setting"
+   ],
+   "correct": 2,
+   "explanation": "Correct: C. Section I.C.2.g: Chapter 18 symptoms, signs and ill-defined conditions characteristic of, or associated with, an existing primary or secondary malignancy cannot replace the malignancy as principal/first-listed, regardless of the number of admissions or encounters.\n\nA is wrong: the guideline says the number of encounters does not matter. B is wrong: the guideline gives no exception based on what bothers the patient. D is wrong: the guideline refers to principal or first-listed diagnosis, covering inpatient and outpatient settings alike.",
+   "visual": {
+    "topic": "Chapter 18 symptoms",
+    "hint": "Does the number of visits change the rule?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.h"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Pain Control Is Elsewhere",
+   "content": "**Section I.C.2.h** has no rule of its own. It is a **cross-reference**: for an admission or encounter for **pain control/management**, see **Section I.C.6** (Chapter 6, Diseases of the Nervous System).\n\n**Why this matters on an exam:** If a question asks how to sequence an encounter for cancer-related pain management, the answer is not in the neoplasm guidelines. You must go to the pain guidelines in Section I.C.6, which are taught in a later lesson of this book.\n\n**What it does NOT mean:** It does not mean pain is never coded with neoplasms. It means the rules for it live in Section I.C.6.",
+   "visual": {
+    "title": "Pain Control Encounters",
+    "sub": "Section I.C.2.h is a pointer",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "Encounter for pain control",
+      "b": "Do not look for the rule in Chapter 2."
+     },
+     {
+      "h": "Go to",
+      "b": "Section I.C.6 (pain control/management)."
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.i"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Several Tumors in One Organ",
+   "content": "**The rule (Section I.C.2.i):** A patient may have **more than one malignant tumor in the same organ**. These tumors may be:\n\n• **different primaries**, or\n• **metastatic disease**,\n\ndepending on the site.\n\n**If the documentation is unclear**, the **provider should be queried** about the status of each tumor so the correct codes can be assigned.\n\n**What it does NOT mean:** The coder should not guess whether a second tumor is a new primary or a metastasis. That is a clinical determination for the provider.\n\n**Connect it:** Section I.C.2 also says that multiple noncontiguous neoplasms of the same site get codes for each site. Section I.C.2.i adds that you must know each tumor's status (primary or metastatic) to choose those codes.",
+   "visual": {
+    "title": "Multiple Tumors, Same Organ",
+    "sub": "Section I.C.2.i",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Possibility 1",
+      "b": "Different primary tumors."
+     },
+     {
+      "h": "Possibility 2",
+      "b": "Metastatic (secondary) disease."
+     },
+     {
+      "h": "Documentation unclear?",
+      "b": "Query the provider about each tumor."
+     },
+     {
+      "h": "Never",
+      "b": "Guess the status of a tumor."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A record documents two malignant tumors in the same organ, but it is unclear whether the second is a separate primary or a metastasis. Per Section I.C.2.i, what should the coder do?",
+   "options": [
+    "Code both as primary malignancies",
+    "Query the provider as to the status of each tumor",
+    "Code the second tumor as secondary",
+    "Assign C80.0, Disseminated malignant neoplasm, unspecified"
+   ],
+   "correct": 1,
+   "explanation": "Correct: C. Section I.C.2.i: tumors in the same organ may represent different primaries or metastatic disease; should the documentation be unclear, the provider should be queried as to the status of each tumor.\n\nA and C are wrong: either one would be a guess about a clinical determination the documentation does not support. D is wrong: C80.0 is only for advanced metastatic disease with no known primary or secondary sites specified.",
+   "visual": {
+    "topic": "Multiple tumors",
+    "hint": "Who decides whether a tumor is primary or metastatic?"
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.j"
+  },
+  {
+   "type": "official",
+   "ref": "I.C.2.k"
+  },
+  {
+   "type": "concept",
+   "title": "C80.0 vs C80.1: Exam Trap",
+   "content": "These two codes look similar but have very different uses.\n\n**C80.0, Disseminated malignant neoplasm, unspecified (I.C.2.j):**\n• Use **only** when the patient has **advanced metastatic disease** and **no known primary or secondary sites are specified**.\n• It should **not** be used in place of codes for the primary site and all known secondary sites.\n\n**C80.1, Malignant (primary) neoplasm, unspecified (I.C.2.k):**\n• Equates to **\"Cancer, unspecified.\"**\n• Use **only** when **no determination can be made as to the primary site**.\n• Should **rarely** be used in the **inpatient** setting.\n\n**What they do NOT mean:** Neither code is a shortcut. If the sites are documented, code the sites. The phrase \"widespread\" or \"advanced\" disease does not justify C80.0 when the provider has named the sites.",
+   "visual": {
+    "title": "C80.0 vs C80.1",
+    "sub": "Both are last resorts",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "C80.0",
+      "b": "Advanced metastatic disease, no known primary or secondary sites."
+     },
+     {
+      "h": "C80.0 is NOT",
+      "b": "A substitute for coding the known primary and secondary sites."
+     },
+     {
+      "h": "C80.1",
+      "b": "Cancer, unspecified: primary site cannot be determined."
+     },
+     {
+      "h": "C80.1 inpatient",
+      "b": "Should rarely be used in the inpatient setting."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The provider documents advanced metastatic cancer with known metastases to the liver and lung, and identifies the primary site. Per Section I.C.2.j, should C80.0 be assigned?",
+   "options": [
+    "No; assign codes for the primary site and all known secondary sites",
+    "Yes, because the disease is advanced and metastatic",
+    "Yes, in addition to the site codes",
+    "Only if the patient is an inpatient"
+   ],
+   "correct": 0,
+   "explanation": "Correct: B. Section I.C.2.j: C80.0 is only for advanced metastatic disease when no known primary or secondary sites are specified. It should not be used in place of codes for the primary site and all known secondary sites.\n\nB is wrong: advanced disease alone is not enough; the sites here are known. C is wrong: the guideline limits C80.0 to cases with no known sites, so it is not added on top of site codes. D is wrong: the guideline does not tie C80.0 to the inpatient setting (that note applies to C80.1).",
+   "visual": {
+    "topic": "Disseminated cancer",
+    "hint": "Are any primary or secondary sites specified?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.2.k, which statement about C80.1, Malignant (primary) neoplasm, unspecified, is correct?",
+   "options": [
+    "It is the preferred code when the record says 'metastatic disease'",
+    "It must always be assigned with C80.0",
+    "It is used when the primary site is known but not yet treated",
+    "It equates to Cancer, unspecified, and should rarely be used in the inpatient setting"
+   ],
+   "correct": 3,
+   "explanation": "Correct: B. Section I.C.2.k: C80.1 equates to Cancer, unspecified; it should only be used when no determination can be made as to the primary site, and should rarely be used in the inpatient setting.\n\nA is wrong: the guideline gives no such preference; advanced metastatic disease with no known sites is described under C80.0. B is wrong: no guideline requires pairing them. C is wrong: if the primary site is known, C80.1 does not apply.",
+   "visual": {
+    "topic": "Cancer, unspecified",
+    "hint": "When can no determination be made?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying I.C.2 to a Record",
+   "content": "Use these steps every time you code a neoplasm encounter:\n\n1. **Find the behavior** (benign, in-situ, malignant, uncertain) and, if malignant, every **secondary site** (Section I.C.2).\n2. **Look up correctly:** histological term in the Index first, then the right **column** of the Neoplasm Table, then **verify in the Tabular List** for a more specific site.\n3. **Check site rules:** one lesion over contiguous sites → **.8**; separate noncontiguous tumors → **code each site**; ectopic tissue → **site of origin**.\n4. **Is the cancer still present?** If excised/eradicated, no further treatment, and no evidence at the site → **Z85** for that site; code any spread as secondary (I.C.2.d).\n5. **Why is the patient here?**\n   • Treatment of the primary → primary first (I.C.2.a)\n   • Treatment of the secondary only → secondary first (I.C.2.b)\n   • Chiefly chemo/immunotherapy/external beam radiation → **Z51.11 / Z51.12 / Z51.0** first (I.C.2.e.2)\n   • Brachytherapy → malignancy first, no Z51.0\n   • Surgery + adjunct therapy in one episode → neoplasm first (I.C.2.e.1)\n   • Determine extent / paracentesis / thoracentesis → malignancy first (I.C.2.f)\n   • Only a complication treated → see I.C.2.c (anemia due to cancer = cancer first; treatment-caused anemia, dehydration, surgical complication = complication first)\n6. **Never** let a Chapter 18 symptom replace the cancer (I.C.2.g).\n7. **Unclear tumor status?** Query (I.C.2.i). Use **C80.0** or **C80.1** only under their narrow conditions.",
+   "visual": {
+    "title": "Neoplasm Coding Checklist",
+    "sub": "Work through the record in this order",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Behavior + sites",
+      "b": "Benign, in-situ, malignant, uncertain; metastases."
+     },
+     {
+      "h": "2. Look up",
+      "b": "Index term, table column, verify in Tabular."
+     },
+     {
+      "h": "3. Current or history?",
+      "b": "Excised, no treatment, no evidence: Z85."
+     },
+     {
+      "h": "4. Reason for visit",
+      "b": "Primary, secondary, Z51, workup, or complication."
+     },
+     {
+      "h": "5. Guard rails",
+      "b": "No symptom as principal; query unclear tumors."
+     },
+     {
+      "h": "6. Last resorts",
+      "b": "C80.0 and C80.1 only when sites are unknown."
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Determine behavior and sites first.** Benign, in-situ, malignant or uncertain; for malignancies, find every secondary site (I.C.2).\n• **Histology term → Index first**, then the right Neoplasm Table column, then verify in the Tabular List (I.C.2).\n• **One lesion over contiguous sites = .8**; separate tumors in the same site = code each; ectopic tissue = site of origin (C25.9 example) (I.C.2).\n• **Treatment directs sequencing:** primary site treated → primary first; secondary only → secondary first (I.C.2.a, b).\n• **Z51.0, Z51.11, Z51.12 go first** only when the encounter is chiefly for external beam radiation, chemotherapy or immunotherapy; **brachytherapy = malignancy first, no Z51.0** (I.C.2.e).\n• **Anemia due to cancer = cancer first (D63.0 after)**; anemia from chemo/immunotherapy or radiotherapy = anemia first, then neoplasm, then T45.1X5- or Y84.2; dehydration-only treatment = dehydration first (I.C.2.c).\n• **Z85** is for a primary that is gone with no further treatment; code any spread as secondary (I.C.2.d).\n• **Chapter 18 symptoms never replace the malignancy**; query when tumor status is unclear; **C80.0 and C80.1** are narrow last resorts (I.C.2.g, i, j, k).",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Neoplasms I",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Look up right",
+      "b": "Histology term, table column, Tabular."
+     },
+     {
+      "h": "Follow the treatment",
+      "b": "Primary, secondary, or Z51.- first."
+     },
+     {
+      "h": "Complications",
+      "b": "Cancer-caused anemia: cancer first. Others: complication first."
+     },
+     {
+      "h": "Last resorts",
+      "b": "C80.0, C80.1; query unclear tumors."
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is admitted for management of anemia due to an adverse effect of chemotherapy, and only the anemia is treated. Which sequence follows Section I.C.2.c.2?",
+   "options": [
+    "Malignancy, anemia, D63.0",
+    "Z51.11, anemia, neoplasm",
+    "Anemia, neoplasm, T45.1X5-",
+    "T45.1X5-, anemia, neoplasm"
+   ],
+   "correct": 2,
+   "explanation": "Correct: B. Section I.C.2.c.2: when the encounter is for management of an anemia associated with an adverse effect of chemotherapy or immunotherapy and the only treatment is for the anemia, the anemia is sequenced first, followed by the neoplasm and the adverse effect code (T45.1X5-).\n\nA is wrong: malignancy-first applies to anemia associated with the malignancy itself (c.1). B is wrong: the visit is for the anemia, not for administering chemotherapy. D is wrong: the adverse effect code is listed after the anemia and neoplasm codes.",
+   "visual": {
+    "topic": "Review: anemia sequencing",
+    "hint": "Treatment-caused anemia goes where?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which encounter would correctly have the malignancy, not a Z51 code, as the first-listed diagnosis?",
+   "options": [
+    "An outpatient visit solely for chemotherapy infusion",
+    "An encounter for thoracentesis during which chemotherapy is also given",
+    "An admission for external beam radiation therapy during which the patient develops dehydration",
+    "An admission solely for immunotherapy"
+   ],
+   "correct": 1,
+   "explanation": "Correct: C. Section I.C.2.f: when the reason for the encounter is a procedure such as paracentesis or thoracentesis, the primary malignancy or appropriate metastatic site is first, even though chemotherapy or radiotherapy is administered.\n\nA is wrong: Section I.C.2.e.2 puts Z51.11 first for an encounter chiefly for chemotherapy. C is wrong: Section I.C.2.e.3 keeps Z51.0 first when complications develop during an external beam radiation admission. D is wrong: Section I.C.2.e.2 puts Z51.12 first for an encounter chiefly for immunotherapy.",
+   "visual": {
+    "topic": "Review: Z51 vs malignancy",
+    "hint": "Which visit was not chiefly for a therapy?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,484 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Which Other Diagnoses Get Coded?",
+   "content": "Section II told you which condition goes **first**. Section III answers the next question: **which other conditions should be reported** on an inpatient record?\n\nNot every condition mentioned in a chart is coded. Section III gives a test for when an **\"other diagnosis\"** (also called a secondary or additional diagnosis) belongs on the record, and three specific rules:\n\n• **III.A Previous conditions** – resolved conditions and history\n• **III.B Abnormal findings** – lab, x-ray, pathology and other test results\n• **III.C Uncertain diagnosis** – \"probable,\" \"suspected,\" and similar terms\n\nCoding too little loses clinical detail; coding too much reports conditions that did not affect the stay. This lesson shows where the line is.",
+   "visual": {
+    "title": "Section III at a Glance",
+    "sub": "Reporting additional (secondary) diagnoses",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "General rule",
+      "b": "Clinically significant conditions that affect care"
+     },
+     {
+      "h": "III.A",
+      "b": "Previous conditions and history codes"
+     },
+     {
+      "h": "III.B",
+      "b": "Abnormal findings need provider significance"
+     },
+     {
+      "h": "III.C",
+      "b": "Inpatient uncertain dx coded as if established"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "III"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The Five-Part Test for Other Diagnoses",
+   "content": "For reporting purposes, \"other diagnoses\" are **additional clinically significant conditions that affect patient care** by requiring at least one of these:\n\n1. **Clinical evaluation**\n2. **Therapeutic treatment**\n3. **Diagnostic procedures**\n4. **Extended length of hospital stay**\n5. **Increased nursing care and/or monitoring**\n\nThe criteria are joined by \"or,\" so **one is enough**.\n\n**What it does NOT mean:** a condition is not reported just because it appears somewhere in the chart. If it did not require any of the five, it does not meet this definition.",
+   "visual": {
+    "title": "Is It a Reportable Other Dx?",
+    "sub": "Meeting ANY one criterion is enough",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1",
+      "b": "Clinical evaluation"
+     },
+     {
+      "h": "2",
+      "b": "Therapeutic treatment"
+     },
+     {
+      "h": "3",
+      "b": "Diagnostic procedures"
+     },
+     {
+      "h": "4",
+      "b": "Extended length of hospital stay"
+     },
+     {
+      "h": "5",
+      "b": "Increased nursing care and/or monitoring"
+     },
+     {
+      "h": "None of the five?",
+      "b": "Not reported as an other diagnosis"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: The UHDDS Definition and Who Lists Diagnoses",
+   "content": "**UHDDS item #11-b** defines Other Diagnoses as \"all conditions that **coexist at the time of admission**, that **develop subsequently**, or that **affect the treatment received and/or the length of stay**. Diagnoses that relate to an **earlier episode which have no bearing on the current hospital stay are to be excluded**.\"\n\n**Settings:** UHDDS definitions apply to inpatients in acute care, short-term, long term care and psychiatric hospitals, and (as in Section II) have been expanded to all non-outpatient settings, including home health agencies, rehab facilities, nursing homes, and hospice services (all levels of care).\n\n**When Section III is used:** these guidelines apply when **neither the Alphabetic Index nor the Tabular List provide direction**.\n\n**Whose job is it?** \"The listing of the diagnoses in the patient record is the **responsibility of the provider**.\" The coder codes what the provider documents; the coder does not diagnose.",
+   "visual": {
+    "title": "UHDDS Item #11-b",
+    "sub": "Other Diagnoses: include vs exclude",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Include",
+      "b": "Coexist at the time of admission"
+     },
+     {
+      "h": "Include",
+      "b": "Develop after admission"
+     },
+     {
+      "h": "Include",
+      "b": "Affect treatment or length of stay"
+     },
+     {
+      "h": "Exclude",
+      "b": "Earlier episode, no bearing on this stay"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: Applying the Test",
+   "content": "**Documentation:** An inpatient admitted for pneumonia also has long-standing hypertension. The provider continues the patient's blood pressure medication and nurses check blood pressure every shift. The record also mentions an ankle sprain from years ago that has healed and had no effect on this stay.\n\n**Which guideline applies?** Section III general rules and UHDDS item #11-b.\n\n**Decision:**\n\n• **Hypertension:** coexists at admission and requires therapeutic treatment and monitoring → **report it** as an other diagnosis.\n• **Old healed sprain:** relates to an earlier episode with no bearing on the current stay → **exclude it**.",
+   "visual": {
+    "title": "Report or Exclude?",
+    "sub": "Applying the Section III test",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Hypertension",
+      "b": "Treated and monitored: report"
+     },
+     {
+      "h": "Healed old sprain",
+      "b": "No bearing on stay: exclude"
+     },
+     {
+      "h": "Test used",
+      "b": "Any 1 of 5 care criteria"
+     },
+     {
+      "h": "Source",
+      "b": "UHDDS item #11-b"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section III, which of the following would qualify a coexisting condition as a reportable \"other diagnosis\"?",
+   "options": [
+    "It is listed in the patient's past medical history only",
+    "It was treated during an earlier, unrelated admission",
+    "It required increased nursing care and/or monitoring during the stay",
+    "It is a condition the coder suspects from medication lists"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section III defines other diagnoses as additional clinically significant conditions that affect patient care in terms of requiring clinical evaluation, therapeutic treatment, diagnostic procedures, extended length of stay, or increased nursing care and/or monitoring. A history listing alone meets none of these. UHDDS item #11-b excludes diagnoses from an earlier episode with no bearing on the current stay. Section III also says listing diagnoses is the responsibility of the provider, so a coder's own suspicion from a medication list is not a basis for coding.",
+   "visual": {
+    "topic": "Other diagnoses criteria",
+    "hint": "Look for one of the five care criteria."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Under Section III, whose responsibility is the listing of diagnoses in the patient record?",
+   "options": [
+    "The provider",
+    "The coder",
+    "The hospital's billing office",
+    "The payer"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section III states \"The listing of the diagnoses in the patient record is the responsibility of the provider.\" Coders assign codes based on that documentation; they do not establish diagnoses. Billing offices and payers are not given this responsibility in the guideline.",
+   "visual": {
+    "topic": "Who lists diagnoses",
+    "hint": "Section III names one role."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "III.A"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Previous Conditions (III.A)",
+   "content": "**Starting point:** If the provider included a diagnosis in the **final diagnostic statement** (such as the discharge summary or face sheet), it **should ordinarily be coded**.\n\n**The exception:** Some providers list **resolved conditions** or **status-post procedures from previous admissions** that have **no bearing on the current stay**. These are **not reported**, and are coded **only if required by hospital policy**.\n\n**History codes:** **Categories Z80-Z87** (history codes) **may be used as secondary codes** if the historical condition or family history **has an impact on current care or influences treatment**.\n\n**Key distinction:** \"No bearing on the current stay\" → do not report. \"Impacts current care\" → a history code may be used.",
+   "visual": {
+    "title": "Previous Conditions",
+    "sub": "Section III.A",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "In final dx statement",
+      "b": "Ordinarily coded"
+     },
+     {
+      "h": "Resolved, no bearing",
+      "b": "Not reported unless hospital policy"
+     },
+     {
+      "h": "History affects care",
+      "b": "Z80-Z87 may be secondary codes"
+     },
+     {
+      "h": "Family history",
+      "b": "Also eligible if it affects care"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A discharge summary lists a condition that was resolved during a previous admission and has no bearing on the current stay. According to Section III.A, what should the coder do?",
+   "options": [
+    "Code it as a current condition because the provider listed it",
+    "Always report it with a history code",
+    "Query the provider to remove it from the discharge summary",
+    "Do not report it, unless hospital policy requires it"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section III.A says resolved conditions or diagnoses and status-post procedures from previous admissions that have no bearing on the current stay \"are not to be reported and are coded only if required by hospital policy.\" Coding it as current would misrepresent the stay. History codes (Z80-Z87) may be used only if the historical condition impacts current care or influences treatment, which is not the case here. The guideline does not call for a query to change the summary.",
+   "visual": {
+    "topic": "Previous conditions",
+    "hint": "Does it have any bearing on this stay?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section III.A, when may history codes (categories Z80-Z87) be used as secondary codes?",
+   "options": [
+    "Whenever any past condition appears in the record",
+    "When the historical condition or family history has an impact on current care or influences treatment",
+    "Only for family history, never personal history",
+    "Only as the principal diagnosis"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section III.A states history codes (categories Z80-Z87) \"may be used as secondary codes if the historical condition or family history has an impact on current care or influences treatment.\" Simply appearing in the record is not enough. The rule covers both historical conditions and family history. III.A describes them as secondary codes, not principal.",
+   "visual": {
+    "topic": "History codes",
+    "hint": "The history must matter to this stay."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient develops a new condition on day 3 of an acute care inpatient stay, and it is treated. Does UHDDS item #11-b include it among Other Diagnoses?",
+   "options": [
+    "No; only conditions present at admission are other diagnoses",
+    "Only if it extends the stay by more than a week",
+    "Yes; the definition includes conditions that develop subsequently",
+    "Only if it is coded as the principal diagnosis"
+   ],
+   "correct": 2,
+   "explanation": "Correct: UHDDS item #11-b, quoted in Section III, defines Other Diagnoses as \"all conditions that coexist at the time of admission, that develop subsequently, or that affect the treatment received and/or the length of stay.\" A condition that develops during the stay is included. The definition is not limited to conditions present at admission, sets no minimum number of extra days, and an other diagnosis is by definition not the principal diagnosis.",
+   "visual": {
+    "topic": "UHDDS item #11-b",
+    "hint": "Read all three parts of the definition."
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: When History Matters",
+   "content": "**Documentation:** An inpatient's discharge summary lists two items from the past: (1) a condition that was fully treated years ago and has no bearing on this stay, and (2) a family history that the provider documents as the reason for ordering additional testing during this admission.\n\n**Which guideline applies?** Section III.A, Previous conditions.\n\n**Decision:**\n\n• **Item 1:** resolved, no bearing on the current stay → **not reported** (unless hospital policy requires it).\n• **Item 2:** the family history **influences current care** → a history code from **categories Z80-Z87** may be used as a **secondary** code.",
+   "visual": {
+    "title": "Two Past Items, Two Outcomes",
+    "sub": "Applying Section III.A",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Old resolved condition",
+      "b": "No bearing: not reported"
+     },
+     {
+      "h": "Family history",
+      "b": "Drives testing: Z80-Z87 secondary"
+     },
+     {
+      "h": "Exception",
+      "b": "Hospital policy may require coding"
+     },
+     {
+      "h": "Key question",
+      "b": "Does it affect this stay?"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "III.B"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Abnormal Findings (III.B)",
+   "content": "**The rule:** Abnormal findings (**laboratory, x-ray, pathologic, and other diagnostic results**) are **not coded and reported unless the provider indicates their clinical significance**.\n\n**When to ask:** If the findings are **outside the normal range** and the provider has **ordered other tests to evaluate the condition or prescribed treatment**, it is **appropriate to ask the provider** whether the abnormal finding should be added.\n\n**What this means:** the coder does not code from a lab value alone. An abnormal number on a lab report is not a diagnosis until the provider documents its significance.\n\n**Exam trap:** the guideline itself notes this **differs from outpatient coding** of encounters for diagnostic tests that have been interpreted by a provider. In the outpatient setting (Section IV.K), confirmed or definitive diagnoses documented in the interpretation of a diagnostic test are coded.",
+   "visual": {
+    "title": "Abnormal Findings, Inpatient",
+    "sub": "Section III.B",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Abnormal result alone",
+      "b": "Not coded"
+     },
+     {
+      "h": "Significance documented",
+      "b": "Code it"
+     },
+     {
+      "h": "Abnormal + tests ordered",
+      "b": "Or treatment given: ask the provider"
+     },
+     {
+      "h": "Outpatient differs",
+      "b": "See Section IV.K"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Worked Example: An Abnormal Lab Value",
+   "content": "**Documentation:** During an inpatient stay, a lab report shows a value outside the normal range. The provider does not mention it in any note.\n\n→ **Section III.B:** do not code it. The provider has not indicated clinical significance.\n\n**Change the facts:** The provider orders repeat testing to evaluate the abnormal value and starts treatment, but never names a condition.\n\n→ **Section III.B:** it is **appropriate to ask the provider** whether the abnormal finding should be added.\n\n**Change the facts again:** The provider documents the abnormal finding and states that it is clinically significant.\n\n→ It may be coded, because the provider has indicated its clinical significance.",
+   "visual": {
+    "title": "Lab Value: Code It or Not?",
+    "sub": "Three versions of the same record",
+    "cols": 1,
+    "boxes": [
+     {
+      "h": "No provider mention",
+      "b": "Do not code"
+     },
+     {
+      "h": "Tests or treatment ordered",
+      "b": "Ask the provider"
+     },
+     {
+      "h": "Provider states significance",
+      "b": "Code it"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient's chest x-ray report shows an abnormal finding. The provider never addresses it, orders no further tests, and gives no treatment for it. According to Section III.B, what should the coder do?",
+   "options": [
+    "Code the abnormal finding as a secondary diagnosis",
+    "Do not code the abnormal finding",
+    "Code it as the principal diagnosis",
+    "Code the condition the radiologist suggests"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section III.B states abnormal findings \"are not coded and reported unless the provider indicates their clinical significance.\" Here the provider never addressed it. Coding it as secondary or principal ignores this rule. In the inpatient setting, III.B requires the provider to indicate clinical significance; the outpatient practice for interpreted diagnostic tests (Section IV.K) is different, and the guideline notes that difference.",
+   "visual": {
+    "topic": "Inpatient abnormal findings",
+    "hint": "Has the provider indicated significance?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "When does Section III.B say it is appropriate to ask the provider whether an abnormal finding should be added?",
+   "options": [
+    "When the findings are outside the normal range and the provider has ordered other tests to evaluate the condition or prescribed treatment",
+    "Whenever any lab value is printed in bold",
+    "Only after the patient has been discharged for 30 days",
+    "Never; coders may not ask providers about findings"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section III.B says \"If the findings are outside the normal range and the provider has ordered other tests to evaluate the condition or prescribed treatment, it is appropriate to ask the provider whether the abnormal finding should be added.\" Bold print on a report is not a criterion. No 30-day timing appears in the guideline. The guideline expressly says asking is appropriate in this situation.",
+   "visual": {
+    "topic": "When to ask the provider",
+    "hint": "Two conditions must both be present."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "III.C"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Uncertain Diagnosis for Other Diagnoses (III.C)",
+   "content": "**The rule:** Section III.C repeats the Section II.H rule, now for **additional** diagnoses. If a diagnosis documented **at the time of discharge** is qualified as \"probable,\" \"suspected,\" \"likely,\" \"questionable,\" \"possible,\" \"still to be ruled out,\" \"compatible with,\" \"consistent with,\" or similar terms, **code the condition as if it existed or was established**.\n\n**Basis:** the diagnostic workup, arrangements for further workup or observation, and initial therapeutic approach that correspond most closely with the established diagnosis.\n\n**Where it applies:** only inpatient admissions to **short-term, acute, long-term care and psychiatric hospitals**.\n\n**So:** the uncertain-diagnosis rule is the same whether the condition is principal (II.H) or secondary (III.C). It flips only when the setting changes to outpatient (IV.H).",
+   "visual": {
+    "title": "Uncertain Dx: II.H and III.C",
+    "sub": "Same rule for principal and other diagnoses",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "II.H",
+      "b": "Principal dx: code as if established"
+     },
+     {
+      "h": "III.C",
+      "b": "Other dx: code as if established"
+     },
+     {
+      "h": "Timing",
+      "b": "Documented at the time of discharge"
+     },
+     {
+      "h": "Outpatient (IV.H)",
+      "b": "Do not code uncertain diagnoses"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An acute care inpatient is admitted for a hip fracture. At discharge, the provider also documents \"possible\" early heart failure, which was evaluated and treated during the stay. According to Section III.C, how is the heart failure handled?",
+   "options": [
+    "It is not coded because it is only possible",
+    "Only its symptoms are coded",
+    "It replaces the hip fracture as principal diagnosis",
+    "It is coded as if it existed or was established, as an additional diagnosis"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section III.C says that if a diagnosis documented at the time of discharge is qualified as \"possible\" (or similar terms), code the condition as if it existed or was established, and this applies to inpatient admissions to short-term, acute, long-term care and psychiatric hospitals. Not coding it, or coding only symptoms, is the outpatient approach in Section IV.H. Nothing in the scenario makes it the reason for admission, so it does not replace the principal diagnosis.",
+   "visual": {
+    "topic": "Uncertain other diagnosis",
+    "hint": "Section III.C mirrors Section II.H."
+   }
+  },
+  {
+   "type": "application",
+   "title": "Applying Section III on an Inpatient Record",
+   "content": "Work through every condition the provider documents:\n\n1. **Check the Index and Tabular first.** Section III applies when they provide no direction.\n2. **Apply the five-part test.** Did the condition require clinical evaluation, therapeutic treatment, diagnostic procedures, extended length of stay, or increased nursing care/monitoring? One is enough.\n3. **Previous conditions (III.A).** Resolved conditions and status-post procedures with no bearing on this stay are not reported (unless hospital policy requires). Use Z80-Z87 history codes only when the history affects current care or treatment.\n4. **Abnormal findings (III.B).** Code only if the provider indicates clinical significance. If values are out of range and the provider ordered tests or treatment, ask the provider.\n5. **Uncertain terms (III.C).** For inpatient short-term, acute, long-term care and psychiatric hospital stays, code \"probable\"/\"suspected\" diagnoses at discharge as if established.\n6. **Never add diagnoses yourself.** Listing diagnoses is the provider's responsibility.",
+   "visual": {
+    "title": "Secondary Diagnosis Checklist",
+    "sub": "Six checks for each documented condition",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Conventions",
+      "b": "Index and Tabular first"
+     },
+     {
+      "h": "2. Five-part test",
+      "b": "One criterion is enough"
+     },
+     {
+      "h": "3. Previous",
+      "b": "No bearing = not reported"
+     },
+     {
+      "h": "4. Abnormal",
+      "b": "Provider must indicate significance"
+     },
+     {
+      "h": "5. Uncertain",
+      "b": "Inpatient: code as established"
+     },
+     {
+      "h": "6. Provider",
+      "b": "Provider lists the diagnoses"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• An \"other diagnosis\" is a **clinically significant condition** requiring **clinical evaluation, therapeutic treatment, diagnostic procedures, extended length of stay, or increased nursing care/monitoring**.\n• **UHDDS item #11-b:** include conditions that coexist at admission, develop later, or affect treatment or length of stay; exclude earlier episodes with no bearing on the stay.\n• Section III applies when **neither the Index nor the Tabular** gives direction; listing diagnoses is the **provider's** responsibility.\n• **III.A:** resolved conditions and old status-post procedures with no bearing are not reported (unless hospital policy). **Z80-Z87** history codes may be secondary when history affects current care.\n• **III.B:** abnormal findings are **not coded** unless the provider indicates clinical significance; ask when values are abnormal and tests or treatment were ordered. Outpatient practice differs.\n• **III.C:** inpatient uncertain diagnoses at discharge are coded **as if established**.",
+   "visual": {
+    "title": "Section III Key Takeaways",
+    "sub": "Report what affected this stay",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Test",
+      "b": "1 of 5 care criteria"
+     },
+     {
+      "h": "History",
+      "b": "Z80-Z87 only if it affects care"
+     },
+     {
+      "h": "Abnormal findings",
+      "b": "Need provider significance"
+     },
+     {
+      "h": "Uncertain (inpatient)",
+      "b": "Code as if established"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Which statement about Section III.B is correct?",
+   "options": [
+    "Inpatient abnormal findings are coded whenever they are outside the normal range",
+    "Abnormal pathology results are exempt from the rule",
+    "The guideline notes that its rule differs from outpatient coding of interpreted diagnostic tests",
+    "Abnormal findings may only be coded as principal diagnosis"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section III.B ends with \"Please note: This differs from the coding practices in the outpatient setting for coding encounters for diagnostic tests that have been interpreted by a provider.\" Being out of range is not enough; the provider must indicate clinical significance. Pathologic results are explicitly included among abnormal findings. Nothing in III.B limits them to principal diagnosis.",
+   "visual": {
+    "topic": "Abnormal findings",
+    "hint": "Read the 'Please note' at the end of III.B."
+   }
+  }
+ ]
+}

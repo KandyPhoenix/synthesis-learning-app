@@ -1,0 +1,648 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Adverse Effects, Poisoning, Underdosing and Abuse",
+   "content": "When a drug or chemical harms a patient, the coder must decide **what kind of event** it was. ICD-10-CM separates four situations, and each one is coded and sequenced differently:\n\n• **Adverse effect:** a correctly prescribed, properly administered drug causes a reaction.\n• **Poisoning:** improper use of a medication (overdose, wrong substance, wrong route, and more).\n• **Underdosing:** taking less than prescribed, or stopping on one's own.\n• **Toxic effect:** a harmful substance is ingested or contacts a person.\n\nThis is one of the most heavily tested topics in coding. This lesson covers **Section I.C.19.e** word for word and then **Section I.C.19.f**, adult and child abuse, neglect and other maltreatment, which has its own confirmed vs. suspected vs. ruled-out logic.",
+   "visual": {
+    "title": "Four drug-event types",
+    "sub": "Section I.C.19.e, plus abuse in I.C.19.f",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Adverse effect",
+      "b": "Right drug, right way; reaction happened"
+     },
+     {
+      "h": "Poisoning",
+      "b": "Improper use of a medication"
+     },
+     {
+      "h": "Underdosing",
+      "b": "Less than prescribed, or stopped on own"
+     },
+     {
+      "h": "Toxic effect",
+      "b": "Harmful substance ingested or contacted"
+     }
+    ]
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.19.e"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: T36-T65 Combination Codes",
+   "content": "The opening of Section I.C.19.e says codes in **categories T36-T65** are **combination codes** that include:\n\n• the **substance** that was taken, and\n• the **intent.**\n\nBecause the intent is built in, **no additional external cause code is required** for poisonings, toxic effects, adverse effects and underdosing codes.\n\n**Exam trap:** Compare this with burns, where Section I.C.19.d.9 says an external cause code *should* be used. For T36-T65, the code already carries the substance and intent.",
+   "visual": {
+    "title": "T36-T65 combination codes",
+    "sub": "Section I.C.19.e, opening",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Each code includes",
+      "b": "The substance and the intent"
+     },
+     {
+      "h": "Extra external cause code?",
+      "b": "Not required"
+     },
+     {
+      "h": "Applies to",
+      "b": "Poisoning, toxic effect, adverse effect, underdosing"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: General Rules 1-4",
+   "content": "**1) Do not code directly from the Table of Drugs and Chemicals.** Always refer back to the **Tabular List.**\n\n**2) Use as many codes as necessary** to describe completely all drugs, medicinal or biological substances.\n\n**3) Same code for more than one reaction:** If the same code would describe the causative agent for more than one adverse reaction, poisoning, toxic effect or underdosing, **assign the code only once.**\n\n**4) Two or more substances:** Code **each individually** unless a **combination code** is listed in the Table of Drugs and Chemicals. If **multiple unspecified** drugs, medicinal or biological substances were taken, assign the appropriate code from subcategory **T50.91**, Poisoning by, adverse effect of and underdosing of multiple unspecified drugs, medicaments and biological substances.",
+   "visual": {
+    "title": "Rules 1 to 4",
+    "sub": "Section I.C.19.e.1 to I.C.19.e.4",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1. Table of Drugs",
+      "b": "Never code from it alone; verify in Tabular"
+     },
+     {
+      "h": "2. How many codes?",
+      "b": "As many as needed for all substances"
+     },
+     {
+      "h": "3. Same code twice?",
+      "b": "Assign it only once"
+     },
+     {
+      "h": "4. Several drugs",
+      "b": "Code each, unless a combination code exists"
+     },
+     {
+      "h": "4. Multiple unspecified",
+      "b": "Subcategory T50.91"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient took several drugs, but the record does not specify which drugs they were. According to Section I.C.19.e.4, what should be assigned?",
+   "options": [
+    "A code from subcategory T50.91",
+    "One code for each drug class the coder suspects",
+    "A code taken directly from the Table of Drugs and Chemicals without checking the Tabular List",
+    "No code until the drugs are identified"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.19.e.4 says if multiple unspecified drugs, medicinal or biological substances were taken, assign the appropriate code from subcategory T50.91. Guessing drug classes is not supported by the documentation. Section I.C.19.e.1 says never to code directly from the Table of Drugs and Chemicals; always refer back to the Tabular List. The guideline gives a code for this situation, so leaving it uncoded is wrong.",
+   "visual": {
+    "topic": "Multiple unspecified drugs",
+    "hint": "The drugs are not named in the record."
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Adverse Effect",
+   "content": "Section I.C.19.e.5(a) covers the **adverse effect** of a drug that has been **correctly prescribed and properly administered.**\n\n**Sequencing:**\n1. First, the code for the **nature of the adverse effect** (what happened to the patient).\n2. Then, the code for the **adverse effect of the drug (T36-T50).**\n\n**Character to look for:** the drug code has a **5th or 6th character \"5\"** (for example, **T36.0X5-**).\n\n**Examples of the nature of an adverse effect** listed in the guideline: tachycardia, delirium, gastrointestinal hemorrhaging, vomiting, hypokalemia, hepatitis, renal failure, or respiratory failure.\n\n**Key phrase:** \"correctly prescribed and properly administered.\" If either part is not true, it is not an adverse effect.",
+   "visual": {
+    "title": "Adverse effect",
+    "sub": "Section I.C.19.e.5(a)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "When",
+      "b": "Drug correctly prescribed AND properly given"
+     },
+     {
+      "h": "Sequence first",
+      "b": "The nature of the effect (e.g., vomiting)"
+     },
+     {
+      "h": "Then",
+      "b": "T36-T50 adverse effect code"
+     },
+     {
+      "h": "Character",
+      "b": "5th or 6th character 5 (e.g., T36.0X5-)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Poisoning",
+   "content": "Section I.C.19.e.5(b) covers **poisoning**: improper use of a medication. The guideline's examples: **overdose, wrong substance given or taken in error, wrong route of administration.**\n\n**Sequencing:**\n1. **First**, the code from **categories T36-T50.**\n2. **Then**, additional code(s) for **all manifestations** of the poisoning.\n\n**Intent** is the 5th or 6th character: **accidental, intentional self-harm, assault, undetermined.**\n• Intent **unknown or unspecified** → code as **accidental.**\n• **Undetermined** is only for when the documentation **specifies that the intent cannot be determined.**\n\n**Abuse or dependence:** If there is also a diagnosis of abuse or dependence of the substance, it is assigned as an **additional code.**\n\n**Compare:** adverse effect puts the *reaction* first; poisoning puts the *T code* first.",
+   "visual": {
+    "title": "Poisoning",
+    "sub": "Section I.C.19.e.5(b)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "When",
+      "b": "Improper use: overdose, wrong drug, wrong route"
+     },
+     {
+      "h": "Sequence first",
+      "b": "T36-T50 poisoning code"
+     },
+     {
+      "h": "Then",
+      "b": "All manifestations"
+     },
+     {
+      "h": "Intent unknown",
+      "b": "Accidental, not undetermined"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Four Examples of Poisoning",
+   "content": "Section I.C.19.e.5(b) lists situations classified as **poisoning**:\n\n**(i) Error in drug prescription or administration:** errors made in drug prescription or in the administration of the drug by **provider, nurse, patient, or other person.**\n\n**(ii) Overdose intentionally taken:** an overdose of a drug intentionally taken or administered that results in drug toxicity is coded as a poisoning.\n\n**(iii) Nonprescribed drug with a prescribed drug:** if a **nonprescribed** drug or medicinal agent was taken in combination with a **correctly prescribed and properly administered** drug, any drug toxicity or other reaction from the **interaction** of the two drugs is classified as a poisoning.\n\n**(iv) Drug(s) and alcohol:** a reaction that results from the interaction of a drug(s) and **alcohol** is classified as poisoning.\n\nCross-references in the text: **Section I.C.4** if poisoning results from insulin pump malfunctions; **Section I.B.10** for sequela.",
+   "visual": {
+    "title": "These are poisonings",
+    "sub": "Section I.C.19.e.5(b)(i) to (iv)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "(i) Error",
+      "b": "Prescription or administration error by anyone"
+     },
+     {
+      "h": "(ii) Intentional overdose",
+      "b": "Results in drug toxicity"
+     },
+     {
+      "h": "(iii) Nonprescribed + Rx",
+      "b": "Interaction reaction"
+     },
+     {
+      "h": "(iv) Drug + alcohol",
+      "b": "Interaction reaction"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Adverse Effect or Poisoning?",
+   "content": "**Scenario 1:** A patient takes a prescribed drug exactly as directed and develops hypokalemia that the provider links to the drug.\n→ Correctly prescribed + properly administered → **adverse effect** (I.C.19.e.5(a)). Sequence **hypokalemia first**, then the T36-T50 code with 5th or 6th character 5.\n\n**Scenario 2:** A nurse gives a patient the wrong medication by mistake, and the patient becomes delirious.\n→ Error in administration → **poisoning** (I.C.19.e.5(b)(i)). Sequence the **T36-T50 poisoning code first** (accidental intent unless documented otherwise), then delirium.\n\n**Scenario 3:** A patient takes a prescribed drug correctly but also drinks alcohol, and a reaction results.\n→ Drug + alcohol interaction → **poisoning** (I.C.19.e.5(b)(iv)).\n\n**Scenario 4:** A patient takes a prescribed drug correctly plus an over-the-counter drug that was not prescribed; the two interact.\n→ **Poisoning** (I.C.19.e.5(b)(iii)).",
+   "visual": {
+    "title": "Which drug event?",
+    "sub": "Applying Section I.C.19.e.5",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Correct Rx, used right",
+      "b": "Adverse effect: reaction first"
+     },
+     {
+      "h": "Wrong drug given",
+      "b": "Poisoning: T code first"
+     },
+     {
+      "h": "Drug + alcohol",
+      "b": "Poisoning"
+     },
+     {
+      "h": "Rx + nonprescribed drug",
+      "b": "Poisoning"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient takes a correctly prescribed medication exactly as directed and develops tachycardia caused by the drug. According to Section I.C.19.e.5(a), how is this sequenced?",
+   "options": [
+    "The T36-T50 poisoning code first, then tachycardia",
+    "Tachycardia first, then the T36-T50 adverse effect code",
+    "Only the tachycardia code",
+    "Only the T36-T50 code"
+   ],
+   "correct": 1,
+   "explanation": "This is an adverse effect: the drug was correctly prescribed and properly administered. Section I.C.19.e.5(a) says to assign the code for the nature of the adverse effect followed by the code for the adverse effect of the drug (T36-T50). Putting a poisoning code first applies the poisoning rule to a situation that is not improper use. Coding only one of the two leaves out either the reaction or the drug.",
+   "visual": {
+    "topic": "Adverse effect sequencing",
+    "hint": "Was the drug used correctly?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient drinks alcohol while taking a correctly prescribed medication and has a reaction from the interaction. According to Section I.C.19.e.5(b), how is this classified?",
+   "options": [
+    "Adverse effect, because the drug was prescribed",
+    "Underdosing",
+    "Poisoning",
+    "Toxic effect only"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.e.5(b)(iv) states that when a reaction results from the interaction of a drug(s) and alcohol, this would be classified as poisoning. The fact that the drug was prescribed does not make it an adverse effect once alcohol interaction is involved. Underdosing is taking less than prescribed. The guideline classifies this drug-alcohol interaction as poisoning, not as a toxic effect.",
+   "visual": {
+    "topic": "Drug and alcohol interaction",
+    "hint": "Look at example (iv) of poisoning."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is treated for an overdose, and the record does not state whether it was accidental or intentional. Nothing says the intent cannot be determined. According to Section I.C.19.e.5(b), what intent is coded?",
+   "options": [
+    "Accidental",
+    "Undetermined",
+    "Intentional self-harm",
+    "Assault"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.19.e.5(b) says if the intent of the poisoning is unknown or unspecified, code the intent as accidental, and that undetermined intent is only for use if the documentation specifies that the intent cannot be determined. That statement is absent here, so undetermined is wrong. Intentional self-harm and assault require documentation supporting that intent.",
+   "visual": {
+    "topic": "Poisoning intent",
+    "hint": "'Unknown' and 'cannot be determined' are not the same."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with documented dependence on a drug is admitted for an overdose of that drug. According to Section I.C.19.e.5(b), how is the dependence handled?",
+   "options": [
+    "It replaces the poisoning code",
+    "It is sequenced before the poisoning code",
+    "It is not coded with a poisoning",
+    "It is assigned as an additional code"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.19.e.5(b) states that if there is also a diagnosis of abuse or dependence of the substance, the abuse or dependence is assigned as an additional code. For poisoning, the T36-T50 code is assigned first, so the dependence does not replace it or go before it. Leaving it out ignores the guideline's instruction to add it.",
+   "visual": {
+    "topic": "Poisoning with dependence",
+    "hint": "Additional, or first?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Underdosing",
+   "content": "Section I.C.19.e.5(c) defines **underdosing** as taking **less of a medication than is prescribed** by a provider or a manufacturer's instruction. **Stopping a prescribed medication on the patient's own initiative** (not directed by the provider) is also underdosing.\n\n**Coding rules:**\n• Assign the code from **T36-T50** with **5th or 6th character \"6.\"**\n• **Documentation of a change in condition is not required.** Documentation that the patient is taking less than prescribed, or stopped the medication, is enough.\n• Underdosing codes are **never** principal or first-listed.\n• If the reduced dose causes a **relapse or exacerbation** of the condition the drug treats, **code the medical condition itself.**\n• **Noncompliance** codes (Z91.12-, Z91.13-, Z91.14-, Z91.A4-) or **complication of care** codes (Y63.6-Y63.9) are used with the underdosing code to indicate **intent, if known.**",
+   "visual": {
+    "title": "Underdosing",
+    "sub": "Section I.C.19.e.5(c)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Definition",
+      "b": "Less than prescribed, or stopped on own"
+     },
+     {
+      "h": "Character",
+      "b": "5th or 6th character 6"
+     },
+     {
+      "h": "Principal/first-listed?",
+      "b": "Never"
+     },
+     {
+      "h": "Condition relapses",
+      "b": "Code the medical condition itself"
+     },
+     {
+      "h": "Intent, if known",
+      "b": "Noncompliance Z91 or Y63.6-Y63.9"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Underdosing",
+   "content": "**Scenario:** A patient prescribed a medication for a chronic condition decides on their own to take half the prescribed dose to make it last longer. The condition flares up and the patient is treated for the exacerbation.\n\n• **Is it underdosing?** Yes: taking less than prescribed (I.C.19.e.5(c)).\n• **Condition:** the exacerbation is from the reduced dose, so **code the medical condition itself.**\n• **Underdosing code:** T36-T50 with 5th or 6th character 6. It is **never principal or first-listed.**\n• **Intent:** the record shows why the patient took less, so add the appropriate **noncompliance** code (Z91.12-, Z91.13-, Z91.14- or Z91.A4-) to indicate intent.\n\n**Variation:** If the record only says the patient is taking less than prescribed and there is no change in condition, the underdosing code can still be assigned. A change in condition is not required.",
+   "visual": {
+    "title": "Underdosing case",
+    "sub": "Applying Section I.C.19.e.5(c)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Took half the dose",
+      "b": "Underdosing"
+     },
+     {
+      "h": "Condition flared",
+      "b": "Code the condition itself"
+     },
+     {
+      "h": "Underdosing code",
+      "b": "Character 6; never first"
+     },
+     {
+      "h": "Why they did it",
+      "b": "Add a noncompliance code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.C.19.e.5(c), which statement about underdosing codes is correct?",
+   "options": [
+    "They are sequenced first when the patient's condition worsens",
+    "They require documentation of a change in the patient's condition",
+    "They should never be assigned as principal or first-listed codes",
+    "They use a 5th or 6th character 5"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.e.5(c) says codes for underdosing should never be assigned as principal or first-listed codes. When the condition worsens, the medical condition itself is coded; the underdosing code still cannot be first. The text says documentation of a change in condition is not required. Underdosing uses the 5th or 6th character 6; character 5 is for adverse effects.",
+   "visual": {
+    "topic": "Underdosing rules",
+    "hint": "Check the sequencing rule for underdosing."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient stopped taking a prescribed medication on their own, without the provider's direction. According to Section I.C.19.e.5(c), how is this classified?",
+   "options": [
+    "As an adverse effect",
+    "As underdosing",
+    "As poisoning",
+    "It is not classified, because no drug was taken"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.e.5(c) states that discontinuing the use of a prescribed medication on the patient's own initiative (not directed by the patient's provider) is also classified as an underdosing. An adverse effect is a reaction to a correctly prescribed and properly administered drug. Poisoning is improper use such as overdose or wrong substance. The guideline expressly classifies stopping a drug on one's own, so it is coded.",
+   "visual": {
+    "topic": "Stopping a medication",
+    "hint": "Who decided to stop the drug?"
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Toxic Effects",
+   "content": "Section I.C.19.e.5(d) covers **toxic effects**: when a **harmful substance is ingested or comes in contact** with a person.\n\n• Toxic effect codes are in **categories T51-T65.**\n• **Sequencing:** the **toxic effect code first**, followed by codes for **all associated manifestations.**\n• Toxic effect codes have an associated **intent**: accidental, intentional self-harm, assault and undetermined.\n\nFor sequela (late effects), see **Section I.B.10.**\n\n**Compare the four types:**\n• Adverse effect: manifestation first, then T36-T50 (character 5).\n• Poisoning: T36-T50 first, then manifestations.\n• Underdosing: T36-T50 (character 6), never first-listed.\n• Toxic effect: T51-T65 first, then manifestations.",
+   "visual": {
+    "title": "Compare all four",
+    "sub": "Section I.C.19.e.5(a) to (d)",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Adverse effect",
+      "b": "Reaction first; T36-T50, char 5"
+     },
+     {
+      "h": "Poisoning",
+      "b": "T36-T50 first; then manifestations"
+     },
+     {
+      "h": "Underdosing",
+      "b": "T36-T50, char 6; never first"
+     },
+     {
+      "h": "Toxic effect",
+      "b": "T51-T65 first; then manifestations"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A worker comes in contact with a harmful substance and develops symptoms. According to Section I.C.19.e.5(d), how is this coded?",
+   "options": [
+    "The symptoms first, then a T36-T50 adverse effect code",
+    "Only the symptoms",
+    "An underdosing code with 6th character 6",
+    "The toxic effect code (T51-T65) first, followed by codes for the manifestations"
+   ],
+   "correct": 3,
+   "explanation": "Section I.C.19.e.5(d) says when a harmful substance is ingested or comes in contact with a person, it is a toxic effect; assign the toxic effect code first, followed by codes for all associated manifestations. Toxic effect codes are in T51-T65. Symptom-first sequencing with T36-T50 is the adverse effect rule, which applies to a correctly prescribed drug. Coding only the symptoms leaves out the toxic effect. Underdosing is about taking less of a medication.",
+   "visual": {
+    "topic": "Toxic effects",
+    "hint": "Harmful substance, not a prescribed drug."
+   }
+  },
+  {
+   "type": "official",
+   "ref": "I.C.19.f"
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: Abuse, Neglect and Maltreatment",
+   "content": "Section I.C.19.f sets the rules for adult and child abuse, neglect and other maltreatment.\n\n**Sequencing:** sequence **first** the code from **T74** (confirmed) or **T76** (suspected), **followed by** any accompanying mental health or injury code(s).\n\n**Confirmed vs. suspected:**\n• If the record **states abuse or neglect** → code as **confirmed (T74.-).**\n• If it is documented as **suspected** → code as **suspected (T76.-).**\n\n**Extra codes for confirmed cases only:**\n• An external cause code from the **assault section (X92-Y09)** to identify the cause of any physical injuries.\n• A **perpetrator code (Y07)** when the perpetrator is known.\n\n**For suspected cases:** do **not** report an external cause or perpetrator code.\n\nSee **Section I.C.15** for abuse in a pregnant patient.",
+   "visual": {
+    "title": "Confirmed vs suspected",
+    "sub": "Section I.C.19.f",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Sequence first",
+      "b": "T74 or T76, then injury/mental health"
+     },
+     {
+      "h": "Record states abuse",
+      "b": "Confirmed: T74.-"
+     },
+     {
+      "h": "Documented as suspected",
+      "b": "Suspected: T76.-"
+     },
+     {
+      "h": "Confirmed extras",
+      "b": "X92-Y09 cause; Y07 if perpetrator known"
+     },
+     {
+      "h": "Suspected extras",
+      "b": "None: no external cause, no Y07"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "In Plain English: When Suspected Abuse Is Ruled Out",
+   "content": "If a suspected case is **ruled out** during the encounter, Section I.C.19.f says to use a **Z04 code, not a code from T76:**\n\n• Alleged **physical adult abuse**, ruled out → **Z04.71**\n• Alleged **child physical abuse**, ruled out → **Z04.72**\n• Alleged **adult rape** ruled out → **Z04.41**\n• Alleged **child rape** ruled out → **Z04.42**\n• **Forced sexual exploitation** ruled out → **Z04.81**\n• **Forced labor exploitation** ruled out → **Z04.82**\n\n**Three-way decision:**\n• Stated → T74 (confirmed)\n• Suspected → T76 (suspected)\n• Ruled out → Z04 (examination and observation)",
+   "visual": {
+    "title": "Ruled out: Z04, not T76",
+    "sub": "Section I.C.19.f",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Physical abuse",
+      "b": "Adult Z04.71; child Z04.72"
+     },
+     {
+      "h": "Rape or sexual abuse",
+      "b": "Adult Z04.41; child Z04.42"
+     },
+     {
+      "h": "Exploitation",
+      "b": "Sexual Z04.81; labor Z04.82"
+     },
+     {
+      "h": "Never for ruled out",
+      "b": "T76"
+     }
+    ]
+   }
+  },
+  {
+   "type": "example",
+   "title": "Example: Abuse Coding",
+   "content": "**Scenario 1:** The provider documents that a child's fractures are the result of abuse by a known adult.\n→ Confirmed (I.C.19.f): **T74.-** first, then the injury codes, plus an assault external cause code (**X92-Y09**) and a perpetrator code (**Y07**).\n\n**Scenario 2:** The provider documents **suspected** abuse of an older adult with bruises. The perpetrator is not identified.\n→ Suspected: **T76.-** first, then the injury codes. **No** external cause or perpetrator code.\n\n**Scenario 3:** A child is brought in for alleged physical abuse. After evaluation, abuse is ruled out.\n→ **Z04.72**, not T76.\n\n**Scenario 4:** An adult is examined after alleged rape, and it is ruled out.\n→ **Z04.41**, not T76.",
+   "visual": {
+    "title": "Four abuse cases",
+    "sub": "Applying Section I.C.19.f",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Confirmed, known abuser",
+      "b": "T74, injuries, X92-Y09, Y07"
+     },
+     {
+      "h": "Suspected",
+      "b": "T76, injuries; no cause/Y07"
+     },
+     {
+      "h": "Child physical, ruled out",
+      "b": "Z04.72"
+     },
+     {
+      "h": "Adult rape, ruled out",
+      "b": "Z04.41"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A provider documents suspected abuse of an adult. According to Section I.C.19.f, which codes are NOT reported?",
+   "options": [
+    "The T76 code",
+    "Any accompanying injury codes",
+    "An external cause code and a perpetrator code",
+    "Any accompanying mental health codes"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.f says for suspected cases of abuse or neglect, do not report external cause or perpetrator code. The T76 code is reported (sequenced first) for suspected abuse, followed by any accompanying mental health or injury codes, so those are all reported.",
+   "visual": {
+    "topic": "Suspected abuse",
+    "hint": "What is only added for confirmed cases?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The medical record states that a child's injuries are due to abuse, and the perpetrator is known. According to Section I.C.19.f, which is correct?",
+   "options": [
+    "T76 first, with no external cause code",
+    "T74 first, followed by the injury codes, with an assault external cause code (X92-Y09) and a perpetrator code (Y07)",
+    "The injury codes first, followed by T74",
+    "Z04.72, because a child is involved"
+   ],
+   "correct": 1,
+   "explanation": "Section I.C.19.f says if the documentation states abuse, it is coded as confirmed (T74.-), sequenced first, followed by accompanying injury codes; for confirmed cases an external cause code from X92-Y09 is added for physical injuries, and Y07 is added when the perpetrator is known. T76 is for suspected cases. Putting injuries first reverses the required sequence. Z04.72 is only for when alleged child physical abuse is ruled out.",
+   "visual": {
+    "topic": "Confirmed abuse",
+    "hint": "Stated, suspected or ruled out?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A child is examined for alleged physical abuse, and abuse is ruled out during the encounter. According to Section I.C.19.f, what is assigned?",
+   "options": [
+    "Z04.72, Encounter for examination and observation following alleged child physical abuse, ruled out",
+    "A code from T76",
+    "A code from T74",
+    "Z04.71, Encounter for examination and observation following alleged physical adult abuse, ruled out"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.19.f says if a suspected case of abuse is ruled out, code Z04.72 for alleged child physical abuse, not a code from T76. T76 is for suspected abuse that is not ruled out. T74 is for confirmed abuse. Z04.71 is the adult version, but this patient is a child.",
+   "visual": {
+    "topic": "Abuse ruled out",
+    "hint": "Child or adult, and what kind of abuse?"
+   }
+  },
+  {
+   "type": "application",
+   "title": "Coding Drug Events and Abuse Step by Step",
+   "content": "**Drug and chemical events (I.C.19.e):**\n1. **Identify the event type.** Correct prescription + proper administration → adverse effect. Overdose, wrong substance, wrong route, prescription/administration error, nonprescribed + prescribed interaction, drug + alcohol → poisoning. Less than prescribed or stopped on own → underdosing. Harmful substance ingested or contacted → toxic effect.\n2. **Find the substance** in the Table of Drugs and Chemicals, then **verify in the Tabular List** (I.C.19.e.1).\n3. **Code every substance** individually unless a combination code exists; multiple unspecified drugs → T50.91; a code that describes the agent for more than one reaction is assigned once (I.C.19.e.2-4).\n4. **Sequence:** adverse effect → manifestation first; poisoning → T code first; toxic effect → T51-T65 first; underdosing → never first.\n5. **Intent** for poisoning: unknown → accidental; undetermined only when documented as such.\n6. **Add** abuse/dependence codes for poisoning; noncompliance or Y63.6-Y63.9 codes for underdosing when intent is known.\n7. **No separate external cause code** is required for T36-T65.\n\n**Abuse (I.C.19.f):**\n8. Stated → T74 + X92-Y09 + Y07 if perpetrator known. Suspected → T76 only. Ruled out → the matching Z04 code.",
+   "visual": {
+    "title": "Drug event workflow",
+    "sub": "Sections I.C.19.e and I.C.19.f",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1",
+      "b": "Name the event type"
+     },
+     {
+      "h": "2-3",
+      "b": "Table, then Tabular; code every drug"
+     },
+     {
+      "h": "4-7",
+      "b": "Sequence, intent, extra codes"
+     },
+     {
+      "h": "8",
+      "b": "Abuse: stated, suspected, ruled out"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **T36-T65** are combination codes (substance + intent); **no extra external cause code** is required.\n• **Never code from the Table of Drugs alone**; always check the Tabular List. Multiple unspecified drugs → **T50.91.**\n• **Adverse effect** (correct Rx, proper use): **reaction first**, then T36-T50 with character **5.**\n• **Poisoning** (overdose, wrong drug, wrong route, errors, nonprescribed + prescribed, drug + alcohol): **T code first**, then manifestations. Unknown intent = **accidental.** Abuse/dependence = additional code.\n• **Underdosing**: character **6**; **never first-listed**; change in condition not required; code the condition if it relapses; add noncompliance or Y63.6-Y63.9 for intent if known.\n• **Toxic effect** (T51-T65): toxic effect **first**, then manifestations.\n• **Abuse**: T74 (stated) or T76 (suspected) **first**; X92-Y09 and Y07 for **confirmed only**; ruled out → **Z04**, never T76.",
+   "visual": {
+    "title": "Key Takeaways",
+    "sub": "Sections I.C.19.e and I.C.19.f",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Adverse effect",
+      "b": "Reaction, then T code (5)"
+     },
+     {
+      "h": "Poisoning",
+      "b": "T code, then reaction"
+     },
+     {
+      "h": "Underdosing",
+      "b": "Char 6; never first"
+     },
+     {
+      "h": "Abuse",
+      "b": "T74 / T76 / Z04"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient was given a medication by the wrong route of administration and developed vomiting. According to Section I.C.19.e.5(b), how is this coded?",
+   "options": [
+    "Vomiting first, then the T36-T50 code with character 5",
+    "As underdosing",
+    "The T36-T50 poisoning code first, then vomiting",
+    "Only vomiting, since the drug was prescribed"
+   ],
+   "correct": 2,
+   "explanation": "Section I.C.19.e.5(b) lists wrong route of administration as improper use, so this is a poisoning. The rule is to first assign the code from T36-T50, then additional code(s) for all manifestations. Vomiting first with character 5 is the adverse effect pattern, which requires proper administration. Underdosing is taking less than prescribed. Coding only vomiting leaves out the poisoning.",
+   "visual": {
+    "topic": "Wrong route",
+    "hint": "Was the drug properly administered?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient took less of a prescribed medication than directed, and the provider documents this. The patient's condition has not changed. According to Section I.C.19.e.5(c), may an underdosing code be assigned?",
+   "options": [
+    "Yes, documentation that the patient is taking less than prescribed is sufficient",
+    "No, a change in the patient's condition must be documented",
+    "No, underdosing is only coded when the patient stops the drug completely",
+    "Yes, and it should be the first-listed code"
+   ],
+   "correct": 0,
+   "explanation": "Section I.C.19.e.5(c) states that documentation of a change in the patient's condition is not required to assign an underdosing code; documentation that the patient is taking less than prescribed or discontinued the medication is sufficient. Underdosing includes taking less, not only stopping. Underdosing codes should never be principal or first-listed.",
+   "visual": {
+    "topic": "Underdosing documentation",
+    "hint": "Is a change in condition required?"
+   }
+  }
+ ]
+}

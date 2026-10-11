@@ -1,0 +1,684 @@
+{
+ "cards": [
+  {
+   "type": "intro",
+   "title": "Capstone: Putting the Guidelines Together",
+   "content": "You have now studied every part of the FY 2027 ICD-10-CM Official Guidelines: the **conventions** (Section I.A), the **general guidelines** (I.B), the **chapter-specific guidelines** (I.C), **principal diagnosis** (II), **additional diagnoses** (III), **outpatient reporting** (IV), and **Present on Admission** reporting (Appendix I).\n\nOn an exam, and on a real record, these rules do not arrive one at a time. A single chart can require a convention, a chapter-specific sequencing rule and a setting-specific rule all at once.\n\nThis capstone:\n\n• Reviews the **highest-yield contrasts** between sections\n• Gives you a **step-by-step approach** for any record\n• Ends with **mixed scenario questions** drawn from every section, each answer tied to the guideline that decides it",
+   "visual": {
+    "title": "How the Sections Fit",
+    "sub": "Conventions first, then the rule for the setting",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Section I.A",
+      "b": "Conventions: take precedence"
+     },
+     {
+      "h": "Section I.B and I.C",
+      "b": "General and chapter-specific rules"
+     },
+     {
+      "h": "Sections II and III",
+      "b": "Inpatient: principal and other dx"
+     },
+     {
+      "h": "Section IV",
+      "b": "Outpatient: first-listed dx"
+     },
+     {
+      "h": "Appendix I",
+      "b": "POA indicator after coding"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "High-Yield Contrast 1: Uncertain Diagnoses",
+   "content": "The same word, such as **\"probable\"** or **\"suspected,\"** is handled three different ways depending on where you are in the guidelines.\n\n**Inpatient (Sections II.H and III.C):** if a diagnosis documented at the time of discharge is qualified as \"probable,\" \"suspected,\" \"likely,\" \"questionable,\" \"possible,\" \"still to be ruled out,\" \"compatible with,\" \"consistent with\" or similar terms, **code the condition as if it existed or was established**. This applies only to inpatient admissions to short-term, acute, long-term care and psychiatric hospitals.\n\n**Outpatient (Section IV.H):** **do not code** diagnoses documented as \"probable,\" \"suspected,\" \"questionable,\" \"rule out,\" \"compatible with,\" \"consistent with,\" \"working diagnosis\" or similar terms. Code the highest degree of certainty, such as symptoms, signs or abnormal test results.\n\n**COVID-19 exception (Section I.C.1.g.1.a):** code only a **confirmed** diagnosis of COVID-19 as documented by the provider. The guideline states this is **an exception to the hospital inpatient guideline Section II, H**. If the provider documents \"suspected,\" \"possible,\" \"probable,\" or \"inconclusive\" COVID-19, do not assign U07.1; code the signs and symptoms.\n\n**POA (Appendix I):** a possible, probable, suspected or rule out diagnosis at discharge gets **Y** if based on findings suspected at the time of admission, and **N** if based on findings not present on admission.",
+   "visual": {
+    "title": "\"Probable\": Three Answers",
+    "sub": "Uncertain diagnosis across the guidelines",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Inpatient II.H / III.C",
+      "b": "Code as if established"
+     },
+     {
+      "h": "Outpatient IV.H",
+      "b": "Do not code: code symptoms"
+     },
+     {
+      "h": "COVID-19 I.C.1.g.1.a",
+      "b": "Confirmed only, even inpatient"
+     },
+     {
+      "h": "POA (Appendix I)",
+      "b": "Y or N by when findings began"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "High-Yield Contrast 2: What Goes First",
+   "content": "Several rules override the simple idea of \"the main condition goes first\":\n\n• **Conventions first.** Section II and Section IV.A both say ICD-10-CM conventions take precedence over the guidelines.\n• **Etiology/manifestation (I.A.13):** the underlying condition is sequenced first, followed by the manifestation. \"In diseases classified elsewhere\" codes are **never** first-listed or principal.\n• **Chapter 15 (I.C.15.a.1):** obstetric codes have **sequencing priority** over codes from other chapters.\n• **Severe sepsis (I.C.1.d):** a code from subcategory **R65.2** can **never** be assigned as principal diagnosis.\n• **External causes (I.C.20):** external cause codes should **never** be sequenced as first-listed or principal.\n• **Chemotherapy, immunotherapy, radiation (I.C.2.e.2 and IV.L):** when the encounter is chiefly for the therapy, the **Z code for the service** is first and the malignancy is secondary.\n• **Symptoms (II.A):** a Chapter 18 symptom is not principal once a related definitive diagnosis is established.\n• **Complication of care (II.G):** when the admission is for treatment of the complication, the complication is principal.",
+   "visual": {
+    "title": "Sequencing Overrides",
+    "sub": "Rules that decide what is listed first",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Never first",
+      "b": "\"In diseases classified elsewhere\""
+     },
+     {
+      "h": "Never principal",
+      "b": "R65.2 severe sepsis"
+     },
+     {
+      "h": "Never first",
+      "b": "External cause codes"
+     },
+     {
+      "h": "Priority",
+      "b": "Chapter 15 obstetric codes"
+     },
+     {
+      "h": "Z code first",
+      "b": "Encounter chiefly for chemo/radiation"
+     },
+     {
+      "h": "Not principal",
+      "b": "Symptom with related dx found"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "High-Yield Contrast 3: Findings, Symptoms and History",
+   "content": "**Abnormal findings**\n\n• **Inpatient (III.B):** abnormal lab, x-ray, pathologic and other results are **not coded unless the provider indicates their clinical significance**. Ask the provider when values are out of range and tests or treatment were ordered.\n• **Outpatient (IV.K):** for diagnostic tests interpreted by a physician with the final report available at coding, **code the confirmed or definitive diagnosis** in the interpretation and do not code related signs and symptoms.\n\n**Symptoms**\n\n• Sign and symptom codes are acceptable when a related definitive diagnosis has not been established (I.B.4, IV.D).\n• Signs and symptoms routinely associated with a disease process are not coded additionally (I.B.5); those not routinely associated are coded when present (I.B.6).\n\n**History and previous conditions**\n\n• Resolved conditions with no bearing on the current stay are not reported (III.A); previously treated conditions that no longer exist are not coded (IV.J).\n• In both settings, history codes (categories Z80-Z87) may be secondary codes when the history impacts current care or influences treatment.",
+   "visual": {
+    "title": "Findings: Inpatient vs Outpatient",
+    "sub": "Same test result, different rules",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Inpatient III.B",
+      "b": "Provider must state significance"
+     },
+     {
+      "h": "Outpatient IV.K",
+      "b": "Code confirmed dx in final report"
+     },
+     {
+      "h": "Integral symptoms (I.B.5)",
+      "b": "Not coded additionally"
+     },
+     {
+      "h": "History (III.A / IV.J)",
+      "b": "Z80-Z87 if it affects care"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "High-Yield Contrast 4: 7th Characters, Aftercare and Rehab",
+   "content": "**7th characters for injuries (I.C.19.a):**\n\n• **A, initial encounter** – each encounter where the patient is receiving **active treatment**.\n• **D, subsequent encounter** – after active treatment is completed, for routine care during the **healing or recovery phase**.\n• **S, sequela** – for complications or conditions arising as a direct result of the injury; the specific sequela (e.g., scar) is sequenced first, followed by the injury code with S.\n• The 7th character depends on **active treatment**, not on whether the provider is seeing the patient for the first time.\n\n**Aftercare vs injury:** aftercare Z codes should **not** be used for injuries or poisonings, where 7th characters identify subsequent care; for aftercare of an injury, assign the acute injury code with 7th character **D** (I.C.19.a).\n\n**Rehab (II.K):** rehab after hip replacement for osteoarthritis → **Z47.1**, Aftercare following joint replacement surgery. Rehab after hip replacement for a fracture → the injury code with a subsequent encounter character, e.g., **S72.141D**.\n\n**Valid codes (I.A.5, IV.F.2):** a code missing its required 7th character is invalid; use placeholder **X** to fill empty positions when a code needing a 7th character is not 6 characters long.",
+   "visual": {
+    "title": "Injury Care Over Time",
+    "sub": "Active treatment drives the 7th character",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "A",
+      "b": "Active treatment, any provider"
+     },
+     {
+      "h": "D",
+      "b": "Healing or recovery phase"
+     },
+     {
+      "h": "S",
+      "b": "Sequela; sequela code goes first"
+     },
+     {
+      "h": "Injury aftercare",
+      "b": "Injury code with D, not a Z code"
+     }
+    ]
+   }
+  },
+  {
+   "type": "application",
+   "title": "A Step-by-Step Approach for Any Record",
+   "content": "1. **Identify the setting.** Inpatient (and other non-outpatient settings) → Sections II and III; outpatient or office visit → Section IV.\n2. **Read the whole record** to find the reason for the admission or encounter (I.B.18 says the entire record should be reviewed).\n3. **Look up each term in the Alphabetic Index, then verify in the Tabular List.** Never begin in the Tabular List (IV.A).\n4. **Apply conventions:** Excludes1/Excludes2, \"code first\"/\"use additional code,\" \"with,\" \"code also,\" placeholder X and 7th characters.\n5. **Apply chapter-specific rules** (sepsis, neoplasms, diabetes, hypertension, obstetrics, newborns, injuries, poisonings, Z codes).\n6. **Sequence:** principal diagnosis by the UHDDS definition (inpatient) or first-listed by the reason chiefly responsible for the services (outpatient), honoring the overrides.\n7. **Decide on other diagnoses:** the five-part test (inpatient) or coexisting conditions that affect care (outpatient).\n8. **Inpatient claims: assign POA** to each reported code after coding is complete.\n9. **Query** the provider whenever documentation is unclear or conflicting.",
+   "visual": {
+    "title": "Nine Steps on Any Record",
+    "sub": "From setting to POA",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "1-2",
+      "b": "Setting; read the whole record"
+     },
+     {
+      "h": "3-4",
+      "b": "Index, then Tabular; conventions"
+     },
+     {
+      "h": "5",
+      "b": "Chapter-specific rules"
+     },
+     {
+      "h": "6",
+      "b": "Sequence first-listed/principal"
+     },
+     {
+      "h": "7-8",
+      "b": "Other diagnoses; POA"
+     },
+     {
+      "h": "9",
+      "b": "Query when unclear"
+     }
+    ]
+   }
+  },
+  {
+   "type": "concept",
+   "title": "Key Takeaways",
+   "content": "• **Conventions take precedence** over the guidelines, in both inpatient and outpatient settings.\n• **Uncertain diagnoses:** code as established for inpatients (II.H, III.C); do not code for outpatients (IV.H). COVID-19 is the stated exception: confirmed cases only.\n• **Never first:** \"in diseases classified elsewhere\" codes, R65.2, and external cause codes.\n• **Abnormal findings:** inpatients need the provider's statement of significance (III.B); outpatient interpreted tests are coded from the final report (IV.K).\n• **7th characters** follow active treatment: A, D, S. Injury aftercare uses the injury code with D.\n• **POA** is assigned after coding; ED, observation and outpatient surgery conditions are POA.\n• When documentation is unclear or conflicting, **query the provider**.",
+   "visual": {
+    "title": "Capstone Key Takeaways",
+    "sub": "Rules that tie the sections together",
+    "cols": 2,
+    "boxes": [
+     {
+      "h": "Precedence",
+      "b": "Conventions first"
+     },
+     {
+      "h": "Uncertain dx",
+      "b": "Inpatient yes, outpatient no"
+     },
+     {
+      "h": "Never first",
+      "b": "Manifestation, R65.2, external cause"
+     },
+     {
+      "h": "POA",
+      "b": "After coding; ED counts as POA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Code F45.8, Other somatoform disorders, has an Excludes1 note for sleep related teeth grinding (G47.63). A patient has psychogenic dysmenorrhea (an inclusion term under F45.8) and, separately, sleep related teeth grinding. According to Section I.A.12.a, may F45.8 and G47.63 be reported together?",
+   "options": [
+    "No; an Excludes1 note never allows both codes",
+    "Only if the provider writes 'code also'",
+    "Yes; the two conditions are clearly unrelated, which is the stated exception to Excludes1",
+    "Only in the outpatient setting"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.A.12.a states \"An exception to the Excludes1 definition is the circumstance when the two conditions are unrelated to each other,\" and uses this exact example: psychogenic dysmenorrhea and sleep related teeth grinding are clearly unrelated, \"so it would be appropriate to report F45.8 and G47.63 together.\" 'Never' ignores the exception. A 'code also' note is a different convention (I.A.17). The rule is not limited to one setting.",
+   "visual": {
+    "topic": "Excludes1 exception",
+    "hint": "Are the two conditions related?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A code has an Excludes2 note for another condition, and the patient has both conditions. According to Section I.A.12.b, what may the coder do?",
+   "options": [
+    "Report both codes together, when appropriate",
+    "Report only the code above the note",
+    "Query the provider before reporting either code",
+    "Report only the excluded code"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.A.12.b says an Excludes2 note means \"Not included here\" and \"it is acceptable to use both the code and the excluded code together, when appropriate.\" Reporting only one code is the Excludes1 concept. A query is not required by the Excludes2 rule.",
+   "visual": {
+    "topic": "Excludes2",
+    "hint": "'Not included here' is not 'not coded here.'"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A code requires a 7th character but has only five characters before it. According to Section I.A.5, what must be done?",
+   "options": [
+    "Add the 7th character in the 6th position",
+    "Report the five-character code without a 7th character",
+    "Choose an unspecified code instead",
+    "Use the placeholder X to fill the empty character so the 7th character is in the 7th position"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.A.5 states \"The 7th character must always be the 7th character in the data field. If a code that requires a 7th character is not 6 characters, a placeholder X must be used to fill in the empty characters.\" Putting the 7th character in the 6th position breaks that rule. Section IV.F.2 says a code missing its required 7th character is invalid. Choosing an unspecified code is not the instruction.",
+   "visual": {
+    "topic": "Placeholder X and 7th characters",
+    "hint": "Where must the 7th character sit?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has dementia with Parkinson's disease. According to Section I.A.13, how are the codes sequenced?",
+   "options": [
+    "Dementia code (F02.80 or F02.81-) first, then Parkinson's disease",
+    "A code from category G20 (Parkinson's disease) first, followed by F02.80 or F02.81-",
+    "Either may be sequenced first",
+    "Only the dementia code is reported"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.A.13 gives this example: in the Alphabetic Index a code from category G20 is listed first, followed by F02.80 or F02.81- in brackets; the G20 code represents the underlying etiology and must be sequenced first, while the F02 codes are manifestation codes 'in diseases classified elsewhere,' which are never permitted as first-listed or principal. So dementia cannot go first, the order is not optional, and both codes are required.",
+   "visual": {
+    "topic": "Etiology/manifestation",
+    "hint": "Which one is the underlying condition?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has hypertension and chronic kidney disease. The provider does not comment on whether they are related. According to Section I.C.9.a, how are they coded?",
+   "options": [
+    "Code them separately, because the provider did not link them",
+    "Query the provider before coding either condition",
+    "Assign a code from category I12, Hypertensive chronic kidney disease, with a code from category N18 to identify the stage",
+    "Code only the hypertension"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.9.a states the classification presumes a causal relationship between hypertension and kidney involvement because they are linked by \"with\" in the Alphabetic Index, and they should be coded as related even without explicit provider linkage unless documentation clearly states they are unrelated. I.C.9.a.2 says assign category I12 when both hypertension and a condition in category N18 are present, with the N18 code as a secondary code for the stage. Coding separately would be correct only if the provider documented they were unrelated. A query is not required, and dropping the CKD loses required information.",
+   "visual": {
+    "topic": "Hypertension with CKD",
+    "hint": "What does 'with' presume? (I.A.15)"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "According to Section I.A.17, what does a \"code also\" note tell the coder?",
+   "options": [
+    "The two codes must be sequenced in the order listed",
+    "Two codes may be required to fully describe a condition, but the note does not provide sequencing direction",
+    "The second code is never reported",
+    "The codes cannot be reported together"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.A.17 states a \"code also\" note \"instructs that two codes may be required to fully describe a condition, but this note does not provide sequencing direction. The sequencing depends on the circumstances of the encounter.\" It does not set a fixed order, does not forbid the second code, and is not an exclusion note.",
+   "visual": {
+    "topic": "'Code also' note",
+    "hint": "Does 'code also' set an order?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "The same condition is documented as both acute and chronic, and the Alphabetic Index has separate subentries at the same indentation level. According to Section I.B.8, what should the coder do?",
+   "options": [
+    "Code both and sequence the acute (subacute) code first",
+    "Code only the chronic condition",
+    "Code only the acute condition",
+    "Code both and sequence the chronic code first"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.B.8 states \"If the same condition is described as both acute (subacute) and chronic, and separate subentries exist in the Alphabetic Index at the same indentation level, code both and sequence the acute (subacute) code first.\" Coding only one omits required information, and sequencing the chronic code first reverses the rule.",
+   "visual": {
+    "topic": "Acute and chronic",
+    "hint": "Both are coded; which is first?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient has a deviated septum due to a nasal fracture that healed years ago. According to Section I.B.10, how is this sequela coded?",
+   "options": [
+    "The nasal fracture code with an initial encounter character only",
+    "The sequela code first, followed by the deviated septum",
+    "No code, because too much time has passed",
+    "The condition or nature of the sequela (deviated septum) first, followed by the sequela code"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.B.10 lists \"deviated septum due to a nasal fracture\" as an example of a sequela and says coding generally requires two codes: \"the condition or nature of the sequela is sequenced first. The sequela code is sequenced second.\" It also says there is no time limit on when a sequela code can be used. The acute-phase code is never used with a code for the late effect, and an initial encounter character would describe active treatment of the fracture.",
+   "visual": {
+    "topic": "Sequela sequencing",
+    "hint": "Nature of the residual first."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with bilateral cataracts has surgery on the right eye at one encounter. At a later encounter, the left eye is treated; the right eye's condition no longer exists. According to Section I.B.13, which code is assigned at the second encounter?",
+   "options": [
+    "The bilateral code, because the condition was bilateral",
+    "The code for the unspecified side",
+    "The unilateral code for the left side, where the condition still exists",
+    "Both a right-side and a left-side code"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.B.13 states that for the second encounter after one side has been treated and the condition no longer exists on that side, \"assign the appropriate unilateral code for the side where the condition still exists (e.g., cataract surgery performed on each eye in separate encounters).\" The bilateral code is used for the first encounter, not the second. The side is known, so unspecified is wrong. The right eye no longer has the condition, so a right-side code is not assigned.",
+   "visual": {
+    "topic": "Laterality across encounters",
+    "hint": "Which side still has the condition?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A dietitian documents a patient's BMI. The attending provider does not document overweight or obesity anywhere in the record. According to Section I.B.14, which is correct?",
+   "options": [
+    "The BMI code may be based on the dietitian's documentation, but the associated diagnosis (such as obesity) must be documented by the patient's provider",
+    "The BMI and obesity may both be coded from the dietitian's note",
+    "Neither may be coded because the dietitian is not the provider",
+    "The BMI code should be sequenced as the principal diagnosis"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.B.14 lists BMI as an exception where code assignment may be based on documentation from clinicians other than the provider (e.g., a dietitian), but states \"the associated diagnosis (such as overweight, obesity...) must be documented by the patient's provider.\" It also says BMI codes should only be reported as secondary diagnoses. So obesity cannot be coded from the dietitian's note, the BMI code itself is allowed, and it is never principal.",
+   "visual": {
+    "topic": "Documentation by other clinicians",
+    "hint": "BMI vs the diagnosis behind it"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An acute care inpatient is discharged with \"suspected COVID-19.\" According to the guidelines, how is this coded?",
+   "options": [
+    "Assign U07.1, because Section II.H says to code uncertain inpatient diagnoses as if established",
+    "Assign U07.1 only if a positive test result is in the record",
+    "Assign U09.9, Post COVID-19 condition, unspecified",
+    "Do not assign U07.1; code the signs and symptoms reported"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.1.g.1.a says to code only a confirmed diagnosis of COVID-19, calls this \"an exception to the hospital inpatient guideline Section II, H,\" and states that if the provider documents \"suspected,\" \"possible,\" \"probable,\" or \"inconclusive\" COVID-19, do not assign U07.1 and instead code the signs and symptoms. Applying II.H is exactly what the exception overrides. Confirmation does not require a positive test, but a 'suspected' diagnosis is not confirmed. U09.9 is for post COVID-19 condition, which is not documented.",
+   "visual": {
+    "topic": "COVID-19 and uncertain diagnosis",
+    "hint": "This chapter rule names Section II.H directly."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "Severe sepsis is present on admission and meets the definition of principal diagnosis. According to Section I.C.1.d, what is sequenced as principal?",
+   "options": [
+    "A code from subcategory R65.2, Severe sepsis",
+    "The underlying systemic infection, followed by the appropriate R65.2 code",
+    "The localized infection only",
+    "Any associated acute organ dysfunction"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.1.d states that if severe sepsis is present on admission and meets the definition of principal diagnosis, \"the underlying systemic infection should be assigned as principal diagnosis followed by the appropriate code from subcategory R65.2,\" and \"a code from subcategory R65.2 can never be assigned as a principal diagnosis.\" The localized infection and organ dysfunction are not placed first by this rule.",
+   "visual": {
+    "topic": "Severe sepsis sequencing",
+    "hint": "One subcategory can never be principal."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient's encounter is chiefly for antineoplastic chemotherapy for a malignancy. According to Section I.C.2.e.2, what is first-listed or principal?",
+   "options": [
+    "The malignancy",
+    "Z51.0, Encounter for antineoplastic radiation therapy",
+    "Z51.11, Encounter for antineoplastic chemotherapy",
+    "A symptom of the malignancy"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.2.e.2 states that if the admission/encounter is chiefly for administration of chemotherapy, assign Z51.11, Encounter for antineoplastic chemotherapy, as the first-listed or principal diagnosis, and the malignancy is a secondary diagnosis. Section IV.L gives the same exception for outpatient encounters. Z51.0 is for radiation therapy, not chemotherapy. A symptom code is not called for.",
+   "visual": {
+    "topic": "Chemotherapy encounters",
+    "hint": "The service, not the disease, is first."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a primary malignancy and metastasis is treated only for the metastatic site during this encounter. According to Section I.C.2.l.2, what is the principal/first-listed diagnosis?",
+   "options": [
+    "The primary malignancy",
+    "The metastatic (secondary) site",
+    "A history of malignancy code",
+    "Either one, at the coder's choice"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.2.l.2 states \"When an encounter is for a primary malignancy with metastasis and treatment is directed toward the metastatic (secondary) site(s) only, the metastatic site(s) is designated as the principal/first-listed diagnosis. The primary malignancy is coded as an additional code.\" The primary goes second, not first. A history code is wrong because the primary malignancy still exists. The guideline gives a specific direction, so it is not the coder's choice.",
+   "visual": {
+    "topic": "Secondary malignancy treated",
+    "hint": "Where is treatment directed?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A record documents diabetes mellitus but never states the type. According to Section I.C.4.a.2, what is the default?",
+   "options": [
+    "E11.-, Type 2 diabetes mellitus",
+    "Type 1 diabetes mellitus",
+    "An unspecified diabetes code chosen by the coder",
+    "No code until the type is documented"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.4.a.2 states \"If the type of diabetes mellitus is not documented in the medical record the default is E11.-, Type 2 diabetes mellitus.\" Type 1 is not the default, and the guidelines specifically note that age is not the sole determining factor. The guideline provides the default, so the coder does not pick another code or withhold coding.",
+   "visual": {
+    "topic": "Diabetes type not documented",
+    "hint": "The guideline supplies a default."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A pregnant patient is seen for a condition, and the provider documents that the pregnancy is incidental to the encounter. According to Section I.C.15.a.1, what is coded?",
+   "options": [
+    "Chapter 15 codes first, because they have sequencing priority",
+    "No pregnancy-related code",
+    "A Chapter 16 perinatal code",
+    "Z33.1, Pregnant state, incidental, in place of any Chapter 15 codes"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.15.a.1 states Chapter 15 codes normally have sequencing priority, but \"Should the provider document that the pregnancy is incidental to the encounter, then code Z33.1, Pregnant state, incidental, should be used in place of any chapter 15 codes.\" So Chapter 15 codes are replaced, not sequenced first. The pregnancy is still reported, with Z33.1. Chapter 16 codes are never used on the maternal record (I.C.16.a.1).",
+   "visual": {
+    "topic": "Incidental pregnancy",
+    "hint": "Who documents that the pregnancy is incidental?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A healthy baby is born in the hospital. What is the principal diagnosis on the newborn's birth record, according to Section I.C.16.a.2?",
+   "options": [
+    "A Chapter 15 code for the delivery",
+    "A code from Chapter 16 only",
+    "A code from category Z38, Liveborn infants according to place of birth and type of delivery",
+    "The mother's principal diagnosis"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section I.C.16.a.2 states \"When coding the birth episode in a newborn record, assign a code from category Z38... as the principal diagnosis.\" Chapter 15 codes are never permitted on the newborn record (I.C.16.a.1 and I.C.15.a.2). A Chapter 16 code is used for perinatal conditions, not as the birth-episode principal for a healthy baby. The mother's diagnoses belong on the maternal record.",
+   "visual": {
+    "topic": "Newborn birth record",
+    "hint": "Which category is used once, at birth?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a fracture sees a new orthopedic provider for the first time, but active treatment was completed elsewhere and the visit is routine care during healing. According to Section I.C.19.a, which 7th character is used?",
+   "options": [
+    "D, subsequent encounter",
+    "A, because this provider is seeing the patient for the first time",
+    "S, sequela",
+    "No 7th character is needed for a follow-up"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section I.C.19.a says assignment of the 7th character \"is based on whether the patient is undergoing active treatment and not whether the provider is seeing the patient for the first time,\" and that \"D\" is used for encounters after active treatment is completed when the patient is receiving routine care during the healing or recovery phase. A is for active treatment. S is for sequelae. Omitting a required 7th character makes the code invalid (IV.F.2).",
+   "visual": {
+    "topic": "7th character choice",
+    "hint": "New provider does not mean initial encounter."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient takes an overdose of a medication, and the documentation does not state the intent. According to Section I.C.19.e.5.b, how is the intent coded?",
+   "options": [
+    "Undetermined intent",
+    "Intentional self-harm",
+    "Leave the intent blank",
+    "Accidental intent"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section I.C.19.e.5.b states \"If the intent of the poisoning is unknown or unspecified, code the intent as accidental intent. The undetermined intent is only for use if the documentation in the record specifies that the intent cannot be determined.\" Undetermined requires such documentation. Self-harm is not documented. The poisoning codes include intent as a character, so it cannot be left out.",
+   "visual": {
+    "topic": "Poisoning intent",
+    "hint": "Unknown is not the same as undetermined."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient is treated for an injury from a fall, and the facility reports external cause codes. According to Section I.C.20, where may the external cause code be sequenced?",
+   "options": [
+    "As the first-listed or principal diagnosis",
+    "Never as the first-listed or principal diagnosis",
+    "Only as the first code on outpatient claims",
+    "Anywhere, because external causes are optional"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section I.C.20 states \"The external causes of morbidity codes should never be sequenced as the first-listed or principal diagnosis.\" Even though external cause reporting is not nationally required, that does not change the sequencing rule when they are reported, and no exception is given for outpatient claims.",
+   "visual": {
+    "topic": "External cause sequencing",
+    "hint": "What does Chapter 20 say about first position?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient is admitted with chest pain. After study, the provider documents a related definitive diagnosis that explains the pain. According to Section II.A, which is principal?",
+   "options": [
+    "The chest pain",
+    "Both are sequenced as co-principal",
+    "The related definitive diagnosis",
+    "Neither; query is required"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section II.A states that codes for symptoms, signs, and ill-defined conditions from Chapter 18 \"are not to be used as principal diagnosis when a related definitive diagnosis has been established.\" ICD-10-CM has only one principal diagnosis, and no query is needed because the diagnosis is documented. Section I.B.5 also says signs and symptoms routinely associated with a disease process are not coded additionally.",
+   "visual": {
+    "topic": "Symptom vs diagnosis (inpatient)",
+    "hint": "Has a related definitive diagnosis been established?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient comes to a physician's office with fatigue. The note says \"probable anemia; labs ordered.\" According to Section IV.H, what is coded?",
+   "options": [
+    "Anemia, because 'probable' diagnoses are coded as established",
+    "Fatigue, the highest degree of certainty for the visit",
+    "Both anemia and fatigue",
+    "Nothing until the labs return"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section IV.H says do not code diagnoses documented as \"probable\" (and similar terms) in the outpatient setting; \"code the condition(s) to the highest degree of certainty for that encounter/visit, such as symptoms, signs...\" Coding anemia applies the inpatient rule (II.H / III.C), which IV.H says differs. Section IV.D confirms symptom codes are acceptable when a diagnosis has not been established, so the visit is coded now.",
+   "visual": {
+    "topic": "Outpatient uncertain diagnosis",
+    "hint": "Office visit, not inpatient."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An inpatient's lab report shows an abnormal value. The provider never comments on it, orders no follow-up, and gives no treatment. According to Section III.B, what should the coder do?",
+   "options": [
+    "Do not code the abnormal finding",
+    "Code the abnormal finding as a secondary diagnosis",
+    "Code a diagnosis that usually causes the abnormal value",
+    "Code it as principal diagnosis"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Section III.B states abnormal findings \"are not coded and reported unless the provider indicates their clinical significance.\" The provider has not done so, and has not ordered tests or treatment that would make a query appropriate. Coding a diagnosis the coder infers would be coding without provider documentation, and nothing makes the finding principal.",
+   "visual": {
+    "topic": "Inpatient abnormal findings",
+    "hint": "Who must indicate significance?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "An outpatient has a diagnostic test that was interpreted by a physician, and the final report with a confirmed diagnosis is available at the time of coding. According to Section IV.K, what should be coded?",
+   "options": [
+    "Only the signs and symptoms that led to the test",
+    "The confirmed diagnosis only if the ordering provider repeats it",
+    "Z01.89, Encounter for other specified special examinations, only",
+    "The confirmed diagnosis documented in the interpretation, without the related signs and symptoms"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section IV.K states \"code any confirmed or definitive diagnosis(es) documented in the interpretation. Do not code related signs and symptoms as additional diagnoses,\" and notes this differs from the inpatient practice (III.B). Coding only symptoms ignores the confirmed diagnosis. Repetition by the ordering provider is not required by IV.K. Z01.89 is for routine testing without signs, symptoms or associated diagnosis.",
+   "visual": {
+    "topic": "Outpatient interpreted tests",
+    "hint": "The final report is available."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient with a hip replacement for a right intertrochanteric femur fracture is admitted for rehabilitation. According to Sections II.K and I.C.19.a, what is the principal diagnosis?",
+   "options": [
+    "Z47.1, Aftercare following joint replacement surgery",
+    "The fracture code with 7th character A",
+    "S72.141D, Displaced intertrochanteric fracture of right femur, subsequent encounter for closed fracture with routine healing",
+    "A sequela code with 7th character S"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section II.K states for rehabilitation following active treatment of an injury, assign the injury code with the seventh character for subsequent encounter, and gives S72.141D for this scenario. Section I.C.19.a also says aftercare Z codes should not be used for injuries where 7th characters identify subsequent care. Z47.1 is the II.K example for hip replacement due to osteoarthritis. 'A' is for active treatment, which is complete. 'S' is for sequelae, which are not described.",
+   "visual": {
+    "topic": "Rehab after injury",
+    "hint": "Disease or injury? Active treatment done?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient slips and falls in the emergency department and injures a wrist, before the inpatient admission order is written. On the inpatient claim, what POA indicator is assigned to the wrist injury code?",
+   "options": [
+    "Y, because conditions that develop during an outpatient encounter, including the emergency department, are considered present on admission",
+    "N, because it happened in the hospital",
+    "U",
+    "W"
+   ],
+   "correct": 0,
+   "explanation": "Correct: Appendix I defines POA as present at the time the order for inpatient admission occurs and states conditions that develop during an outpatient encounter, including the emergency department, are considered present on admission. It also gives \"patient fell out of bed in emergency room prior to admission\" as a Y example for external causes. N applies to events during the inpatient hospitalization. U and W are not used because the timing is clear.",
+   "visual": {
+    "topic": "POA and the emergency department",
+    "hint": "When did 'admission' occur?"
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "A patient receives surgery in the hospital's outpatient surgery department and is then admitted as an inpatient of the same hospital because of a documented complication of the surgery. According to Section II.J, what is principal?",
+   "options": [
+    "The reason for the outpatient surgery",
+    "An observation code",
+    "The patient's most serious chronic condition",
+    "The complication"
+   ],
+   "correct": 3,
+   "explanation": "Correct: Section II.J states \"If the reason for the inpatient admission is a complication, assign the complication as the principal diagnosis.\" The reason for the outpatient surgery is principal only when no complication or other condition is documented as the reason for admission. Contrast with Section IV.A.2: if the patient had gone only to observation (outpatient), the reason for surgery would be first and the complication secondary. The other options are not supported by II.J.",
+   "visual": {
+    "topic": "Inpatient after outpatient surgery",
+    "hint": "Inpatient admission, not observation."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "During a routine annual adult physical, the provider newly identifies a condition. According to Section IV.P, how is the encounter coded?",
+   "options": [
+    "The new condition first, with no exam code",
+    "The general medical examination with abnormal finding code first, plus a secondary code for the abnormal finding",
+    "The general medical examination without abnormal findings code only",
+    "Z01.81 first, then the new condition"
+   ],
+   "correct": 1,
+   "explanation": "Correct: Section IV.P says an examination with abnormal findings refers to a condition/diagnosis that is newly identified or a change in severity of a chronic condition, and \"the code for general medical examination with abnormal finding should be assigned as the first-listed diagnosis. A secondary code for the abnormal finding should also be coded.\" Dropping the exam code, using the 'without abnormal findings' code, or using Z01.81 (pre-procedural examinations, IV.M) does not follow IV.P.",
+   "visual": {
+    "topic": "Routine exam with new finding",
+    "hint": "Exam code first, finding second."
+   }
+  },
+  {
+   "type": "quiz",
+   "question": "During an inpatient stay, a resolved condition from a previous admission is listed on the face sheet but has no bearing on the current stay. A separate family history influences the testing ordered during this stay. According to Section III.A, which is correct?",
+   "options": [
+    "Report both as current conditions",
+    "Report the resolved condition but not the family history",
+    "Do not report the resolved condition (unless hospital policy requires); a family history code from categories Z80-Z87 may be used as a secondary code",
+    "Report neither"
+   ],
+   "correct": 2,
+   "explanation": "Correct: Section III.A says resolved conditions or status-post procedures from previous admissions that have no bearing on the current stay \"are not to be reported and are coded only if required by hospital policy,\" and that history codes (categories Z80-Z87) \"may be used as secondary codes if the historical condition or family history has an impact on current care or influences treatment.\" The other options reverse one or both parts of this rule.",
+   "visual": {
+    "topic": "Previous conditions and history",
+    "hint": "Which item affects this stay?"
+   }
+  }
+ ]
+}
