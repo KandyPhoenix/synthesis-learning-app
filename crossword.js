@@ -1073,6 +1073,7 @@ class CrosswordSystem {
             const xp = c.xp || this.diffMeta(c.difficulty).xp;
             window.gamification.awardXP(xp, `Crossword solved: ${c.title}`);
         }
+        window.gamesHub?.credit('crossword');
         this.save();
         c.solvedNow = true;
         this.showWin(usedReveals);

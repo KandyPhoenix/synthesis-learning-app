@@ -40,6 +40,7 @@ class AnatomyGame {
         if (!s.memory) s.memory = {};          // boardId -> { bestMoves, plays }
         if (!s.parts) s.parts = {};            // "board:part" -> { ok, miss }
         if (!s.totalXp) s.totalXp = 0;
+        if (!s.patho) s.patho = { best: 0, rounds: 0 };
         return s;
     }
     save() { if (typeof saveProgress === 'function') saveProgress(); }
@@ -154,6 +155,7 @@ class AnatomyGame {
                         <button class="ag-btn ag-btn-primary" onclick="window.anatomyGame.startLabel('${b.id}')">🏷️ Label It</button>
                         <button class="ag-btn" onclick="window.anatomyGame.startMemory('${b.id}')">🃏 Memory</button>
                         <button class="ag-btn" onclick="window.anatomyGame.startLightning('${b.id}')">⚡ Lightning</button>
+                        ${(window.PATHO_MAP && window.PATHO_MAP[b.id]) ? `<button class="ag-btn" onclick="window.anatomyGame.startPatho('${b.id}')">🦠 Patho</button>` : ''}
                         <button class="ag-btn ag-btn-ghost" onclick="window.anatomyGame.startStudy('${b.id}')">📖 Study</button>
                     </div>
                 </div>
@@ -192,6 +194,11 @@ class AnatomyGame {
                     <span class="ag-mode-title">Memory match</span>
                     <span class="ag-mode-sub">Pair structures with names</span>
                 </button>
+                <button class="ag-mode-card" style="--ag-accent:#84cc16" onclick="window.anatomyGame.startPatho('mix')">
+                    <span class="ag-mode-icon">🦠</span>
+                    <span class="ag-mode-title">Patho Map</span>
+                    <span class="ag-mode-sub">Tap where the disease lives · best ${s.patho && s.patho.best || 0}/10</span>
+                </button>
             </div>
 
             ${this.weakSpotsHtml()}
@@ -226,32 +233,6 @@ class AnatomyGame {
                 <span class="ag-weak-rate">${Math.round(r.rate * 100)}% missed</span>
             </button>`).join('')}
         </div>`;
-    }
-
-    // Home-page teaser strip: today's board + the two quick modes.
-    renderHomeStrip() {
-        const strip = document.getElementById('anatomy-home-strip');
-        if (!strip) return;
-        const today = this.todaysBoard();
-        if (!today) { strip.innerHTML = ''; return; }
-        const s = this.store();
-        const st = this.labelStars(today.id);
-        strip.innerHTML = `
-            <button class="ag-home-card" style="--ag-accent:${today.color}" onclick="window.anatomyGame.startLabel('${today.id}')">
-                <span class="ag-home-thumb">${this.boardSvg(today, {})}</span>
-                <span class="ag-home-title">${today.icon} ${this.esc(today.title)}</span>
-                <span class="ag-home-meta">Today's board · ${this.stars(st)}</span>
-            </button>
-            <button class="ag-home-card" style="--ag-accent:#facc15" onclick="window.anatomyGame.startLightning('mix')">
-                <span class="ag-home-icon">⚡</span>
-                <span class="ag-home-title">Lightning round</span>
-                <span class="ag-home-meta">${this.LIGHTNING_SECONDS} seconds · best ${s.lightning.best || 0}</span>
-            </button>
-            <button class="ag-home-card" style="--ag-accent:#a78bfa" onclick="window.anatomyGame.startMemory('${today.id}')">
-                <span class="ag-home-icon">🃏</span>
-                <span class="ag-home-title">Memory match</span>
-                <span class="ag-home-meta">${this.esc(today.title)}</span>
-            </button>`;
     }
 
     // ============================================================
@@ -403,6 +384,7 @@ class AnatomyGame {
         if (!first) xp = Math.round(xp / 2);
         if (stars === 3) xp += 15;
         this.awardXP(xp, `Anatomy labelled: ${b.title}`);
+        window.gamesHub?.credit('anatomy');
         this.save();
         this.showWin({
             title: stars === 3 ? 'Flawless!' : 'Board complete!',
@@ -529,6 +511,7 @@ class AnatomyGame {
         const acc = c.hits + c.misses ? Math.round(c.hits / (c.hits + c.misses) * 100) : 0;
         const xp = Math.min(80, Math.floor(c.score / 100) * 2 + (newBest && c.score > 0 ? 10 : 0));
         this.awardXP(xp, 'Anatomy lightning round');
+        window.gamesHub?.credit('anatomy');
         this.save();
         this.showWin({
             title: newBest && c.score > 0 ? 'New best score!' : "Time's up!",
@@ -615,6 +598,7 @@ class AnatomyGame {
         let xp = first ? 20 : 10;
         if (sharp) xp += 10;
         this.awardXP(xp, `Anatomy memory: ${c.board.title}`);
+        window.gamesHub?.credit('anatomy');
         this.save();
         this.showWin({
             title: sharp ? 'Sharp memory!' : 'All pairs found!',
@@ -657,6 +641,98 @@ class AnatomyGame {
         host.querySelector('#ag-board-host').addEventListener('click', e => { const pid = this.partFromEvent(e); if (pid) show(pid); });
         host.querySelector('#ag-study-list').addEventListener('click', e => { const r = e.target.closest('.ag-study-row'); if (r) show(r.getAttribute('data-part')); });
         if (focusPartId) show(focusPartId);
+    }
+
+    // ============================================================
+    // MODE 5 — PATHO MAP (where does this disease live?)
+    // ============================================================
+    startPatho(boardId) {
+        const bank = window.PATHO_MAP || {};
+        let queue;
+        if (boardId === 'mix' || !bank[boardId]) {
+            queue = [];
+            Object.entries(bank).forEach(([bid, list]) => { if (this.board(bid)) list.forEach(cd => queue.push({ bid, cd })); });
+            queue = this.shuffle(queue).slice(0, 10);
+        } else {
+            queue = this.shuffle(bank[boardId]).slice(0, 10).map(cd => ({ bid: boardId, cd }));
+        }
+        if (!queue.length) return;
+        const mix = boardId === 'mix' || !bank[boardId];
+        this.current = { mode: 'patho', queue, i: 0, correct: 0, mistakes: 0, boardId: null, locked: false, start: Date.now(), done: false, mix };
+        const host = this.openPlayer(mix ? '🦠 Patho Map — all boards' : `🦠 Patho Map — ${this.board(boardId).title}`);
+        host.innerHTML = `
+        <div class="ag-play ag-play-patho">
+            <div class="ag-topbar">
+                <span class="ag-chip-stat">🦠 <b id="ag-progress">1/${queue.length}</b></span>
+                <span class="ag-chip-stat">✅ <b id="ag-ok">0</b></span>
+                <span class="ag-chip-stat">❌ <b id="ag-mistakes">0</b></span>
+            </div>
+            <div class="ag-prompt">Where does this live? <b id="ag-target">—</b></div>
+            <div class="ag-board-host" id="ag-board-host"></div>
+            <div class="ag-fact" id="ag-fact" hidden></div>
+            <div class="ag-win-actions" id="ag-next" hidden><button class="ag-btn ag-btn-primary" onclick="window.anatomyGame.pathoAdvance()">Next →</button></div>
+        </div>`;
+        host.querySelector('#ag-board-host').addEventListener('click', e => this.pathoTap(e));
+        this.pathoNext();
+    }
+    pathoNext() {
+        const c = this.current;
+        if (c.i >= c.queue.length) { this.pathoFinish(); return; }
+        const { bid, cd } = c.queue[c.i];
+        const host = document.getElementById('ag-board-host');
+        if (c.boardId !== bid) {
+            const b = this.board(bid);
+            host.innerHTML = this.boardSvg(b, {});
+            host.style.setProperty('--ag-accent', b.color);
+            c.boardId = bid;
+            const tag = document.getElementById('anatomy-game-play-title');
+            if (tag && c.mix) tag.textContent = `🦠 Patho Map — ${b.icon} ${b.title}`;
+        } else {
+            host.querySelectorAll('.ag-part.reveal, .ag-part.sel').forEach(el => el.classList.remove('reveal', 'sel'));
+        }
+        const t = document.getElementById('ag-target'); if (t) t.textContent = cd.name;
+        const pr = document.getElementById('ag-progress'); if (pr) pr.textContent = `${c.i + 1}/${c.queue.length}`;
+        document.getElementById('ag-fact').hidden = true;
+        document.getElementById('ag-next').hidden = true;
+        c.locked = false;
+    }
+    pathoTap(e) {
+        const c = this.current; if (!c || c.mode !== 'patho' || c.done || c.locked) return;
+        const pid = this.partFromEvent(e); if (!pid) return;
+        const { bid, cd } = c.queue[c.i];
+        const b = this.board(bid);
+        const host = document.getElementById('ag-board-host');
+        const ok = cd.parts.includes(pid);
+        this.tally(bid, ok ? pid : cd.parts[0], ok);
+        c.locked = true;
+        if (ok) { c.correct++; this.flashPart(host, pid, 'hit-ok', 600); }
+        else { c.mistakes++; this.flashPart(host, pid, 'hit-bad', 500); }
+        cd.parts.forEach(id => this.setPartClass(host, id, 'reveal', true));
+        const names = cd.parts.map(id => (b.parts.find(p => p.id === id) || {}).name).filter(Boolean).join(' / ');
+        const f = document.getElementById('ag-fact');
+        f.hidden = false;
+        f.innerHTML = `<b style="color:${ok ? '#34d399' : '#f87171'}">${this.esc(cd.name)}</b> → ${this.esc(names)}<br><span>${this.esc(cd.why)}</span>`;
+        document.getElementById('ag-ok').textContent = c.correct;
+        document.getElementById('ag-mistakes').textContent = c.mistakes;
+        document.getElementById('ag-next').hidden = false;
+    }
+    pathoAdvance() { const c = this.current; if (!c || c.mode !== 'patho') return; c.i++; this.pathoNext(); }
+    pathoFinish() {
+        const c = this.current; c.done = true;
+        const s = this.store();
+        const stars = c.mistakes === 0 ? 3 : c.mistakes <= 2 ? 2 : 1;
+        s.patho.rounds = (s.patho.rounds || 0) + 1;
+        s.patho.best = Math.max(s.patho.best || 0, c.correct);
+        const xp = c.correct * 3 + (stars === 3 ? 15 : 0);
+        this.awardXP(xp, 'Anatomy patho map');
+        window.gamesHub?.credit('anatomy');
+        this.save();
+        this.showWin({
+            title: stars === 3 ? 'Diagnostic eye!' : 'Round complete',
+            name: `🦠 ${c.correct}/${c.queue.length} located`,
+            rows: [this.stars(stars), `⏱ ${this.fmtTime(Date.now() - c.start)}`, `⭐ +${xp} XP`],
+            actions: `<button class="ag-btn" onclick="window.anatomyGame.startPatho('${c.mix ? 'mix' : c.boardId}')">🔁 Go again</button>`
+        });
     }
 
     // ============================================================

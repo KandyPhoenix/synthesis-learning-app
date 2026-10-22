@@ -98,9 +98,21 @@ class SynthesisApp {
             window.crossword = new CrosswordSystem(this);
         }
 
-        // Initialize the Anatomy Arcade (label / lightning / memory games)
+        // Initialize the Games section: hub (daily quest) + each game module
+        if (typeof GamesHub !== 'undefined') {
+            window.gamesHub = new GamesHub(this);
+        }
         if (typeof AnatomyGame !== 'undefined') {
             window.anatomyGame = new AnatomyGame(this);
+        }
+        if (typeof WordLab !== 'undefined') {
+            window.wordLab = new WordLab(this);
+        }
+        if (typeof FlowGame !== 'undefined') {
+            window.flowGame = new FlowGame(this);
+        }
+        if (typeof CodeSprint !== 'undefined') {
+            window.codeSprint = new CodeSprint(this);
         }
     }
 
@@ -507,6 +519,14 @@ class SynthesisApp {
             window.crossword?.render();
         } else if (viewName === 'anatomy-game') {
             window.anatomyGame?.render();
+        } else if (viewName === 'games') {
+            window.gamesHub?.render();
+        } else if (viewName === 'word-lab') {
+            window.wordLab?.render();
+        } else if (viewName === 'flow') {
+            window.flowGame?.render();
+        } else if (viewName === 'code-sprint') {
+            window.codeSprint?.render();
         }
     }
 
@@ -664,7 +684,7 @@ class SynthesisApp {
         // Deepstash-style "Ideas for You" strip
         window.deepstash?.renderHomeStrip();
         window.crossword?.renderCrosswordHomeStrip();
-        window.anatomyGame?.renderHomeStrip();
+        window.gamesHub?.renderHomeStrip();
     }
 
     updateExamDueBadge() {

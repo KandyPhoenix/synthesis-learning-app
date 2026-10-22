@@ -70,3 +70,19 @@ These categories have NO lesson maximum and NO card maximum:
 3. Find old book boundaries in data.js (brace-depth tracking)
 4. Splice new content in, verify comma between books
 5. Clean up temp files, open app to test
+
+## Games section
+The home page has a "🎮 Games" strip and a Games hub view (`games-hub.js`, view id
+`games`) with a Daily Quest (one round of each game = bonus XP + streak). Games are
+self-contained modules loaded after `data.js` (never named `-data.js`, so the
+What's New generator ignores them):
+- `anatomy-game.js` + `anatomy-game-boards.js` + `patho-map-bank.js` — Anatomy Arcade
+  (Label It, Lightning, Memory, Study, Patho Map). Boards are hand-drawn SVG; a part's
+  `shape` uses `"C"` as its color token; thin tubes carry invisible wide hit strokes.
+- `word-lab.js` + `word-lab-bank.js` — medical terminology (Build, Sort, Define, glossary).
+- `flow-game.js` + `flow-game-bank.js` — ordered sequences (physiology, pathology, HIM).
+- `code-sprint.js` + `code-sprint-bank.js` — ICD-10-CM chapter sort and code-set sort.
+- Shared helpers: `window.gamesUI` (in games-hub.js); styles in `anatomy-game.css`
+  and `games.css`. State: `APP_DATA.user.anatomyGame` and `APP_DATA.user.games`.
+- A game credits the Daily Quest by calling `window.gamesHub.credit('<key>')` when a
+  round finishes. Each game view renders its own menu and player in one view.
