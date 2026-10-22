@@ -6,10 +6,15 @@
 //   ICD-10-PCS · Root Operations · Sections · Approaches · PCS Guidelines
 //   CPT        · Section Sort · Surgery Subsections · Modifiers · CPT Rules
 //   HCPCS      · Letter Sort
+//   MS-DRG     · MDC Sort · Grouper Quiz · DRG Lab (MDC → tier → payment)
 //   Code sets  · ICD-10-CM / ICD-10-PCS / CPT / HCPCS Level II
+//   Custom     · E/M Level Builder · Anesthesia Units · Sequence It · Surgical
+//                Package sort · ICD-10-PCS 7-character Code Builder
+//   Flashcards · every miss (when enabled) becomes a card in the "Code Sprint
+//                misses" deck of the app's spaced-repetition flashcards
 //   Review     · the Missed Pile — anything you get wrong comes back until you
 //                answer it correctly twice in a row · Marathon across all banks
-// Data: code-sprint-bank.js + coding-bank.js. State: APP_DATA.user.games.code.
+// Data: code-sprint-bank.js + coding-bank.js + coding-bank-2.js. State: APP_DATA.user.games.code.
 // ============================================
 
 class CodeSprint {
@@ -41,6 +46,12 @@ class CodeSprint {
         this.cptRules = W.CPT_RULES_QUESTIONS || [];
         this.hcpcsSections = W.HCPCS_SECTIONS || [];
         this.hcpcsItems = W.HCPCS_ITEMS || [];
+        this.surgPkg = W.SURG_PKG_QUESTIONS || [];
+        this.surgItems = W.SURG_PKG_ITEMS || [];
+        this.surgBuckets = W.SURG_PKG_BUCKETS || [];
+        this.mdcs = W.MDC_LIST || [];
+        this.mdcItems = W.MDC_ITEMS || [];
+        this.drgQ = W.DRG_QUESTIONS || [];
         this.verifyCloze();
         this.banks = this.buildBanks();
     }
@@ -211,6 +222,31 @@ class CodeSprint {
             const opts = catOpts(neoCats, right, x => x.name);
             return { id: `neoplasm:${i}`, kind: 'Which column of the Neoplasm Table?', prompt: stmt, opts, a: opts.findIndex(o => o.ref === right), why: `${right.name}. ${why} ${right.tip}` };
         }, 'Primary, secondary, in situ, benign, uncertain, unspecified — or not the Table at all.');
+
+        B.surgpkg = mk('surgpkg', 'Surgical Package', '📦', '#fb923c', 'CPT', this.surgPkg.length, i => {
+            const q = this.surgPkg[i];
+            const order = u.shuffle(q.opts.map((o, k) => k));
+            return { id: `surgpkg:${i}`, kind: 'Surgical package & global period', prompt: q.q, opts: order.map(k => ({ label: q.opts[k] })), a: order.indexOf(q.a), why: q.why, cite: q.cite };
+        }, 'What the package includes, 0/10/90-day globals, 24-25-57, 58-78-79, split care 54/55/56.');
+
+        B.surgsort = mk('surgsort', 'In the Package?', '🧰', '#fdba74', 'CPT', this.surgItems.length, i => {
+            const [scen, id, why] = this.surgItems[i];
+            const opts = this.surgBuckets.map(b => ({ label: b.name, sub: b.sub, ref: b.id }));
+            return { id: `surgsort:${i}`, kind: 'During the global period, this service is…', prompt: scen, opts, a: opts.findIndex(o => o.ref === id), why, cite: 'CPT Surgery Guidelines; CMS MLN907166 Global Surgery' };
+        }, 'Included, separately reportable with a modifier, or simply outside the package?');
+
+        B.mdc = mk('mdc', 'MDC Sort', '🗂️', '#f59e0b', 'MS-DRG', this.mdcItems.length, i => {
+            const [dx, n] = this.mdcItems[i];
+            const right = this.mdcs.find(m => m.n === n);
+            const opts = catOpts(this.mdcs, right, m => `MDC ${String(m.n).padStart(2, '0')} · ${m.name}`);
+            return { id: `mdc:${i}`, kind: 'Which Major Diagnostic Category?', prompt: `Principal diagnosis: ${dx}`, opts, a: opts.findIndex(o => o.ref === right), why: `MDC ${String(right.n).padStart(2, '0')} — ${right.name}. The principal diagnosis drives the MDC (except Pre-MDC cases such as transplants).`, cite: 'CMS MS-DRG Definitions Manual' };
+        }, 'The principal diagnosis picks one of 25 Major Diagnostic Categories.');
+
+        B.drgq = mk('drgq', 'Grouper Quiz', '🏥', '#fbbf24', 'MS-DRG', this.drgQ.length, i => {
+            const q = this.drgQ[i];
+            const order = u.shuffle(q.opts.map((o, k) => k));
+            return { id: `drgq:${i}`, kind: 'MS-DRG and IPPS basics', prompt: q.q, opts: order.map(k => ({ label: q.opts[k] })), a: order.indexOf(q.a), why: q.why, cite: q.cite };
+        }, 'How the grouper thinks: MDC, surgical partition, MCC/CC, CC exclusions, weights, CMI, POA, outliers, transfers.');
         return B;
     }
     question(id) {
@@ -239,16 +275,19 @@ class CodeSprint {
         this.current = null;
         const u = this.ui(); const s = this.store();
         const pile = this.pileIds().length;
-        const groups = ['ICD-10-CM', 'ICD-10-PCS', 'CPT', 'HCPCS', 'Code sets'];
+        const groups = ['ICD-10-CM', 'ICD-10-PCS', 'CPT', 'HCPCS', 'MS-DRG', 'Code sets'];
         const study = {
             'ICD-10-CM': [['🗺️ Chapter Map', 'showMap()'], ['📜 Guideline sheet', "showTable('cloze')"]],
             'ICD-10-PCS': [['🔪 Root-operation table', "showTable('pcsroot')"], ['🚪 Approach table', "showTable('pcsapp')"], ['📚 Section table', "showTable('pcssect')"], ['🔢 7 characters', "showTable('pcschars')"]],
-            'CPT': [['📙 Section ranges', "showTable('cptsect')"], ['🩻 Surgery ranges', "showTable('cptsurg')"], ['🏷️ Modifier table', "showTable('cptmod')"], ['🧮 MDM table', "showTable('emtable')"]],
+            'CPT': [['📙 Section ranges', "showTable('cptsect')"], ['🩻 Surgery ranges', "showTable('cptsurg')"], ['🏷️ Modifier table', "showTable('cptmod')"], ['🧮 MDM table', "showTable('emtable')"], ['📦 Global period sheet', "showTable('global')"]],
             'HCPCS': [['🔤 Letter table', "showTable('hcpcs')"]],
+            'MS-DRG': [['🗂️ MDC table', "showTable('mdc')"]],
             'Code sets': []
         };
         const custom = {
             'ICD-10-CM': [{ icon: '🔗', title: 'Sequence It', color: '#f97316', blurb: 'Order the codes for a short case, principal first — with trap codes that must not be reported.', go: 'showSeqMenu()', key: 'seq', size: (window.SEQ_CASES || []).length, unit: 'cases' }],
+            'ICD-10-PCS': [{ icon: '🔢', title: 'PCS Code Builder', color: '#a78bfa', blurb: 'Build the full 7-character code for a procedure, one axis at a time: section, body system, root operation, body part, approach, device, qualifier.', go: 'startPcsBuild()', key: 'pcsb', size: (window.PCS_BUILD_CASES || []).length, unit: 'procedures' }],
+            'MS-DRG': [{ icon: '🏥', title: 'DRG Lab', color: '#f59e0b', blurb: 'A discharge with its diagnoses: pick the MDC, the severity tier (with MCC / with CC / without), then the payment from base rate × weight.', go: 'startDrg()', key: 'drg', size: (window.DRG_CASES || []).length, unit: 'cases' }],
             'CPT': [
                 { icon: '🧮', title: 'E/M Level Builder', color: '#38bdf8', blurb: 'Read a mini chart note, rate problems, data and risk, then pick the office visit code.', go: 'startEM()', key: 'em', size: (window.EM_CASES || []).length, unit: 'cases' },
                 { icon: '💉', title: 'Anesthesia Units', color: '#a855f7', blurb: 'Time units, modifying units, total units and the fee — step by step from a case card.', go: 'startAnes()', key: 'anes', size: (window.ANES_CODES || []).length, unit: 'codes · endless cases' }
@@ -270,7 +309,8 @@ class CodeSprint {
         <div class="gm-wrap">
             <div class="gm-hero" style="--gm-accent:#10b981">
                 <h2>Know the chapter, find the code.</h2>
-                <p>ICD-10-CM chapters and the Official Guidelines (quoted word for word), ICD-10-PCS root operations and approaches, CPT sections and modifiers, HCPCS letters. Everything you miss lands in the Review pile until you get it right twice.</p>
+                <p>ICD-10-CM chapters and the Official Guidelines (quoted word for word), ICD-10-PCS root operations and a 7-character code builder, CPT sections, modifiers and the surgical package, HCPCS letters, MS-DRG grouping. Everything you miss lands in the Review pile until you get it right twice.</p>
+                <button class="ag-btn ag-btn-ghost ag-btn-sm cs-flash" onclick="window.codeSprint.toggleFlash()">📇 Misses → Flashcards: <b>${this.flashOn() ? 'ON' : 'off'}</b>${this.flashCount() ? ` · ${this.flashCount()} cards in the deck` : ''}</button>
             </div>
             <div class="ag-modes cs-top">
                 <button class="ag-mode-card ag-mode-today" style="--ag-accent:${pile ? '#f87171' : '#34d399'}" onclick="window.codeSprint.startReview()" ${pile ? '' : 'disabled'}>
@@ -355,6 +395,29 @@ class CodeSprint {
             const T = window.EM_TABLE; title = 'Office/outpatient E/M: medical decision making (2021 table)'; play = 'cptrules';
             hint = T.note + ' Time minimums: 99202 15 · 99203 30 · 99204 45 · 99205 60 · 99212 10 · 99213 20 · 99214 30 · 99215 40 minutes.';
             rows = [['problems', 'Problems addressed'], ['data', 'Data reviewed and analyzed'], ['risk', 'Risk of patient management']].map(([el, label]) => `<h4 class="cs-tgroup">${label}</h4>` + T[el].map((o, k) => row(['#94a3b8', '#34d399', '#facc15', '#f87171'][k], u.esc(o.label), `MDM: ${T.mdm[k]} → ${T.codes.new[T.mdm[k]]} new / ${T.codes.est[T.mdm[k]]} established`, u.esc(o.text))).join('')).join('');
+        } else if (kind === 'mdc') {
+            title = 'The 25 Major Diagnostic Categories'; play = 'mdc';
+            hint = 'Assigned from the principal diagnosis. Pre-MDC DRGs (transplants, ECMO, tracheostomy with ventilation >96 hours) are assigned before this step.';
+            rows = this.mdcs.map(m => row(m.color, `MDC ${String(m.n).padStart(2, '0')}`, u.esc(m.name), u.esc(this.mdcItems.filter(r => r[1] === m.n).map(r => r[0]).slice(0, 3).join(' · ')))).join('');
+        } else if (kind === 'global') {
+            title = 'Global surgery cheat sheet (CMS)'; play = 'surgpkg';
+            hint = 'Sources: CPT Surgery Guidelines (surgical package definition) and CMS MLN907166 "Global Surgery". Payer rules on complications differ: CPT excludes them, Medicare includes those not needing a return to the OR.';
+            const R = [
+                ['#94a3b8', '000', 'Minor / endoscopy', 'Day of the procedure only. Same-day E/M needs modifier 25.'],
+                ['#94a3b8', '010', 'Minor', 'Day of + 10 days (11 days). No preoperative day. Same-day E/M needs 25.'],
+                ['#94a3b8', '090', 'Major', '1 day before + day of + 90 days (92 days). Decision visit the day before/of needs 57.'],
+                ['#94a3b8', 'XXX / ZZZ / MMM', 'Indicators', 'XXX global concept does not apply · ZZZ add-on, follows the primary · MMM maternity · YYY contractor-priced.'],
+                ['#2dd4bf', 'Included', 'In the package', 'Post-decision E/M day before/of (H&P) · local/topical/digital-block anesthesia · immediate post-op care, op note, family, orders, PACU · typical follow-up (99024) · dressings, suture/staple removal, routine lines, tubes, catheters · surgeon’s routine pain management · Medicare: complications not needing a return to the OR.'],
+                ['#fbbf24', '24', 'Unrelated E/M in the post-op period', 'Documentation must show it is unrelated to the surgery.'],
+                ['#fbbf24', '25', 'Significant, separately identifiable same-day E/M', 'Minor procedures (000/010).'],
+                ['#fbbf24', '57', 'Decision for surgery', 'Major procedures (090), the day before or day of.'],
+                ['#fbbf24', '58', 'Staged or related, planned', 'Planned, more extensive, or therapy after a diagnostic procedure. New global starts.'],
+                ['#fbbf24', '78', 'Unplanned return to the OR, related', 'Intraoperative portion only; the original global continues.'],
+                ['#fbbf24', '79', 'Unrelated procedure in the post-op period', 'New global starts.'],
+                ['#fbbf24', '54 · 55 · 56', 'Split care', 'Surgical care only · post-op management only · pre-op management only.'],
+                ['#34d399', 'Not included', 'Separately payable', 'The decision visit (57) · other physicians without transfer of care · unrelated visits (24) · underlying-condition treatment, chemo, immunosuppression · diagnostic tests and radiology · distinct unrelated procedures (79) · return to the OR (78) · a more extensive procedure after a failed lesser one · unrelated critical care.']
+            ];
+            rows = R.map(r => row(r[0], u.esc(r[1]), u.esc(r[2]), u.esc(r[3]))).join('');
         } else if (kind === 'cloze') {
             title = 'Guideline sheet — the sentences worth memorizing'; play = 'cloze';
             hint = `${this.clozeVerified}/${this.cloze.length} verified word-for-word against the FY 2027 guidelines book. The key phrase is highlighted.`;
@@ -636,6 +699,168 @@ class CodeSprint {
     }
 
     // ============================================================
+    // FLASHCARDS — misses become spaced-repetition cards (deck "Code Sprint misses")
+    // ============================================================
+    flashOn() { const s = this.store(); return s.flash !== false; }
+    toggleFlash() { const s = this.store(); s.flash = !this.flashOn(); this.ui().save(); this.ui().toast(s.flash ? 'Misses will be added to Flashcards.' : 'Flashcard capture off.', 'info'); this.render(); }
+    addFlashcard(id, front, back) {
+        if (!this.flashOn()) return false;
+        const u = APP_DATA.user;
+        if (!u.flashcards) u.flashcards = { cards: [], settings: { newCardsPerDay: 20, reviewsPerDay: 100 }, stats: {} };
+        if (!u.flashcards.cards) u.flashcards.cards = [];
+        const cid = `cs-${id}`;
+        if (u.flashcards.cards.some(c => c.id === cid)) return false;
+        const esc = this.ui().esc;
+        u.flashcards.cards.push({ id: cid, bookId: 'code-sprint', deck: 'Code Sprint misses', lessonId: id.split(':')[0], front: esc(front), back: esc(back),
+            stability: 0, difficulty: 0, interval: 1, nextReview: new Date().toISOString(), lastReviewed: null, reviewCount: 0 });
+        if (!u.flashcards.stats) u.flashcards.stats = {};
+        u.flashcards.stats.totalCards = u.flashcards.cards.length;
+        if (this.current) this.current.fc = (this.current.fc || 0) + 1;
+        window.activeRecall?.updateDueBadge?.();
+        return true;
+    }
+    flashCount() { return (APP_DATA.user.flashcards?.cards || []).filter(c => c.bookId === 'code-sprint').length; }
+    fcRow(c) { return c.fc ? `📇 +${c.fc} flashcard${c.fc === 1 ? '' : 's'}` : null; }
+
+    // ============================================================
+    // ICD-10-PCS CODE BUILDER — one character at a time
+    // ============================================================
+    pcsOptions(cs, i) {
+        const u = this.ui(); const ch = cs.chars[i]; const W = window;
+        let wrong = ch.wrong;
+        if (!wrong) {
+            const pools = [W.PCS_SECTIONS.map(s => [s.ch, s.name]), W.PCS_BODY_SYSTEMS, W.PCS_ROOT_OPS.map(r => [r.ch, r.op]), null, W.PCS_APPROACHES.map(a => [a.ch, a.name]), W.PCS_DEVICES, W.PCS_QUALIFIERS];
+            wrong = u.pick((pools[i] || []).filter(p => p[0] !== ch.v), 3);
+        }
+        return u.shuffle([[ch.v, ch.n], ...wrong]).map(o => ({ v: o[0], n: o[1] }));
+    }
+    startPcsBuild() {
+        const u = this.ui(); const cases = window.PCS_BUILD_CASES || []; if (!cases.length) return;
+        this.app.switchView('code-sprint');
+        this.current = { mode: 'pcsb', queue: u.shuffle(cases).slice(0, 4), i: 0, step: 0, points: 0, max: 0, start: Date.now(), locked: false, picked: [], misses: [] };
+        this.pcsNext();
+    }
+    pcsNext() {
+        const c = this.current; const u = this.ui();
+        if (c.i >= c.queue.length) { this.pcsFinish(); return; }
+        const cs = c.queue[c.i]; const axes = cs.axes || window.PCS_AXES; const i = c.step;
+        c.locked = false; c.opts = this.pcsOptions(cs, i);
+        this.host().innerHTML = `
+        <div class="ag-play" style="--ag-accent:#a78bfa">
+            <div class="ag-topbar">
+                <span class="ag-chip-stat">🔢 PCS Builder</span>
+                <span class="ag-chip-stat">case <b>${c.i + 1}/${c.queue.length}</b></span>
+                <span class="ag-chip-stat">⭐ <b>${c.points}</b>/${c.max}</span>
+            </div>
+            <div class="em-note"><span class="em-status">PROCEDURE</span><b>${u.esc(cs.proc)}</b></div>
+            <div class="pb-slots">${axes.map((ax, k) => `<div class="pb-slot ${k < i ? 'filled' : ''} ${k === i ? 'cur' : ''}"><b>${k < i ? u.esc(cs.chars[k].v) : (k === i ? '?' : '·')}</b><span>${k + 1}</span><em>${u.esc(ax)}</em></div>`).join('')}</div>
+            <div class="wl-meaning"><span>Character ${i + 1} of 7</span><b>${u.esc(axes[i])}</b></div>
+            <div class="cs-options" id="cs-options">${c.opts.map((o, k) => `<button class="cs-option" data-k="${k}"><span class="cs-range">${u.esc(o.v)}</span><span class="cs-name">${u.esc(o.n)}</span></button>`).join('')}</div>
+            <div class="ag-fact" id="cs-fact" hidden></div>
+            <div class="ag-win-actions" id="cs-next" hidden><button class="ag-btn ag-btn-primary" onclick="window.codeSprint.pcsAdvance()">Next →</button></div>
+            <p class="ag-hint">Build the code left to right. Characters 2–4 depend on the section; the letters O and I are never used.</p>
+        </div>`;
+        this.host().querySelector('#cs-options').addEventListener('click', e => { const b = e.target.closest('.cs-option'); if (b) this.pcsAnswer(+b.getAttribute('data-k')); });
+        window.scrollTo(0, 0);
+    }
+    pcsAnswer(k) {
+        const c = this.current; if (!c || c.mode !== 'pcsb' || c.locked) return; c.locked = true;
+        const cs = c.queue[c.i]; const ch = cs.chars[c.step]; const axes = cs.axes || window.PCS_AXES; const u = this.ui();
+        const ok = c.opts[k].v === ch.v; if (ok) c.points++; c.max++;
+        document.querySelectorAll('#cs-options .cs-option').forEach((b, i) => { b.disabled = true; if (c.opts[i].v === ch.v) b.classList.add('ok'); else if (i === k) b.classList.add('bad'); });
+        const f = document.getElementById('cs-fact'); f.hidden = false;
+        const last = c.step === 6;
+        f.innerHTML = `<b style="color:${ok ? '#34d399' : '#f87171'}">${ok ? 'Correct' : 'Not quite'}</b> — character ${c.step + 1} (${u.esc(axes[c.step])}) = <b>${u.esc(ch.v)}</b> ${u.esc(ch.n)}.${last ? `<br><br><b>Complete code: <span class="cs-code">${u.esc(cs.code)}</span></b><br>${u.esc(cs.why)}` : ''}`;
+        if (!ok) { c.misses.push(cs.id); this.addFlashcard(`pcsb:${cs.id}:${c.step}`, `ICD-10-PCS: ${cs.proc} — character ${c.step + 1} (${axes[c.step]})?`, `${ch.v} = ${ch.n}. Full code ${cs.code}. ${cs.why}`); }
+        document.getElementById('cs-next').hidden = false;
+        const t = document.querySelector('.ag-topbar .ag-chip-stat:last-child b'); if (t) t.textContent = c.points;
+    }
+    pcsAdvance() { const c = this.current; if (!c || c.mode !== 'pcsb') return; c.step++; if (c.step >= 7) { c.step = 0; c.i++; } this.pcsNext(); }
+    pcsFinish() {
+        const c = this.current; const u = this.ui();
+        const r = this.rec('pcsb'); r.plays++; r.correct += c.points; r.total += c.max; r.best = Math.max(r.best || 0, c.points);
+        const xp = c.points * 2 + (c.points === c.max ? 20 : 0);
+        u.awardXP(xp, 'Code Sprint: PCS builder'); window.gamesHub?.credit('code'); u.save();
+        u.win('code-sprint-content', { title: c.points === c.max ? 'Seven for seven!' : 'Round complete', name: `${c.points}/${c.max} characters right`,
+            rows: [`⏱ ${u.fmtTime(Date.now() - c.start)}`, `⭐ +${xp} XP`, this.fcRow(c)].filter(Boolean),
+            actions: `<button class="ag-btn" onclick="window.codeSprint.startPcsBuild()">🔁 New cases</button><button class="ag-btn" onclick="window.codeSprint.showTable('pcschars')">🔢 7 characters</button>`,
+            back: `<button class="ag-btn ag-btn-primary" onclick="window.codeSprint.back()">Code Sprint</button>` });
+    }
+
+    // ============================================================
+    // DRG LAB — MDC → severity tier → payment, one case at a time
+    // ============================================================
+    startDrg() {
+        const u = this.ui(); const cases = window.DRG_CASES || []; if (!cases.length) return;
+        this.app.switchView('code-sprint');
+        const base = 5500 + 100 * Math.floor(Math.random() * 26);   // illustrative hospital base rate $5,500–$8,000
+        this.current = { mode: 'drg', queue: u.shuffle(cases).slice(0, 5), i: 0, step: 0, points: 0, max: 0, start: Date.now(), locked: false, base };
+        this.drgNext();
+    }
+    drgSteps(cs) {
+        const u = this.ui(); const W = window; const fam = W.DRG_FAMILIES[cs.fam]; const c = this.current;
+        const mdc = W.MDC_LIST.find(m => m.n === cs.mdc);
+        const mdcOpts = u.shuffle([mdc, ...u.pick(W.MDC_LIST.filter(m => m.n !== cs.mdc), 3)]).map(m => ({ v: m.n, label: `MDC ${String(m.n).padStart(2, '0')}`, sub: m.name }));
+        const tierOpts = fam.tiers.map((t, k) => ({ v: k, label: `MS-DRG ${t[0]}`, sub: `${fam.name}, ${t[1]}` }));
+        const pay = Math.round(c.base * cs.w);
+        const payOpts = u.shuffle([pay, Math.round(c.base * (cs.w + 0.5)), Math.round(c.base * Math.max(0.3, cs.w - 0.4)), Math.round(c.base + cs.w * 1000)].filter((v, i, a) => a.indexOf(v) === i)).map(v => ({ v, label: `$${v.toLocaleString()}` }));
+        while (payOpts.length < 4) payOpts.push({ v: pay + 1000 * payOpts.length, label: `$${(pay + 1000 * payOpts.length).toLocaleString()}` });
+        const flags = cs.sec.map(s => `${s[0]} ${s[1]} → ${s[3] ? 'CC excluded (' + s[3] + ')' : (s[2] || 'non-CC')}`).join(' · ');
+        return [
+            { q: 'Which Major Diagnostic Category?', opts: mdcOpts, right: cs.mdc, why: `The principal diagnosis (${cs.pdx}) places the case in MDC ${String(cs.mdc).padStart(2, '0')} — ${mdc.name}.` },
+            { q: `Which severity tier? (${fam.tiers.length === 3 ? 'three-way split' : 'two-way split — a CC alone does not move the case up'})`, opts: tierOpts, right: cs.tier, why: `${flags}. → MS-DRG ${fam.tiers[cs.tier][0]}, ${fam.tiers[cs.tier][1]}.` },
+            { q: `Payment at a base rate of $${c.base.toLocaleString()} and an illustrative relative weight of ${cs.w.toFixed(2)}?`, opts: payOpts, right: pay, why: `$${c.base.toLocaleString()} × ${cs.w.toFixed(2)} = $${pay.toLocaleString()} (before IME, DSH, outlier and other adjustments). Weights here are illustrative, not the current CMS table.` }
+        ];
+    }
+    drgNext() {
+        const c = this.current; const u = this.ui();
+        if (c.i >= c.queue.length) { this.drgFinish(); return; }
+        const cs = c.queue[c.i]; const steps = this.drgSteps(cs); const st = steps[c.step];
+        c.locked = false; c.st = st;
+        this.host().innerHTML = `
+        <div class="ag-play" style="--ag-accent:#f59e0b">
+            <div class="ag-topbar">
+                <span class="ag-chip-stat">🏥 DRG Lab</span>
+                <span class="ag-chip-stat">case <b>${c.i + 1}/${c.queue.length}</b> · step ${c.step + 1}/3</span>
+                <span class="ag-chip-stat">⭐ <b>${c.points}</b>/${c.max}</span>
+            </div>
+            <div class="em-note">
+                <span class="em-status">INPATIENT DISCHARGE</span><b>${u.esc(cs.title)}</b>
+                <p><b>Principal dx:</b> ${u.esc(cs.pdx)}${cs.proc ? `<br><b>Procedure:</b> ${u.esc(cs.proc)}` : ''}<br><b>Secondary dx:</b> ${cs.sec.map(s => `${u.esc(s[0])} ${u.esc(s[1])}`).join('; ')}</p>
+            </div>
+            <div class="wl-meaning"><span>Step ${c.step + 1}</span><b>${u.esc(st.q)}</b></div>
+            <div class="cs-options" id="cs-options">${st.opts.map((o, k) => `<button class="cs-option" data-k="${k}"><span class="cs-range">${u.esc(o.label)}</span>${o.sub ? `<span class="cs-name">${u.esc(o.sub)}</span>` : ''}</button>`).join('')}</div>
+            <div class="ag-fact" id="cs-fact" hidden></div>
+            <div class="ag-win-actions" id="cs-next" hidden><button class="ag-btn ag-btn-primary" onclick="window.codeSprint.drgAdvance()">Next →</button></div>
+            <p class="ag-hint">Grouper order: principal diagnosis → MDC → medical or surgical → MCC / CC / none. Payment = base rate × relative weight.</p>
+        </div>`;
+        this.host().querySelector('#cs-options').addEventListener('click', e => { const b = e.target.closest('.cs-option'); if (b) this.drgAnswer(+b.getAttribute('data-k')); });
+        window.scrollTo(0, 0);
+    }
+    drgAnswer(k) {
+        const c = this.current; if (!c || c.mode !== 'drg' || c.locked) return; c.locked = true;
+        const st = c.st; const cs = c.queue[c.i]; const ok = st.opts[k].v === st.right; const u = this.ui();
+        if (ok) c.points++; c.max++;
+        document.querySelectorAll('#cs-options .cs-option').forEach((b, i) => { b.disabled = true; if (st.opts[i].v === st.right) b.classList.add('ok'); else if (i === k) b.classList.add('bad'); });
+        const f = document.getElementById('cs-fact'); f.hidden = false;
+        f.innerHTML = `<b style="color:${ok ? '#34d399' : '#f87171'}">${ok ? 'Correct' : 'Not quite'}</b> — ${u.esc(st.why)}`;
+        if (!ok && c.step < 2) this.addFlashcard(`drg:${cs.fam}:${cs.tier}:${c.step}`, `MS-DRG: ${cs.title} — principal ${cs.pdx}; secondary ${cs.sec.map(s => s[0] + ' ' + s[1]).join(', ')}. ${c.step === 0 ? 'Which MDC?' : 'Which severity tier / MS-DRG?'}`, st.why);
+        document.getElementById('cs-next').hidden = false;
+        const t = document.querySelector('.ag-topbar .ag-chip-stat:last-child b'); if (t) t.textContent = c.points;
+    }
+    drgAdvance() { const c = this.current; if (!c || c.mode !== 'drg') return; c.step++; if (c.step >= 3) { c.step = 0; c.i++; } this.drgNext(); }
+    drgFinish() {
+        const c = this.current; const u = this.ui();
+        const r = this.rec('drg'); r.plays++; r.correct += c.points; r.total += c.max; r.best = Math.max(r.best || 0, c.points);
+        const xp = c.points * 2 + (c.points === c.max ? 15 : 0);
+        u.awardXP(xp, 'Code Sprint: DRG lab'); window.gamesHub?.credit('code'); u.save();
+        u.win('code-sprint-content', { title: c.points === c.max ? 'Grouper-grade!' : 'Round complete', name: `${c.points}/${c.max} steps right`,
+            rows: [`⏱ ${u.fmtTime(Date.now() - c.start)}`, `⭐ +${xp} XP`, this.fcRow(c)].filter(Boolean),
+            actions: `<button class="ag-btn" onclick="window.codeSprint.startDrg()">🔁 New cases</button><button class="ag-btn" onclick="window.codeSprint.showTable('mdc')">🗂️ MDC table</button>`,
+            back: `<button class="ag-btn ag-btn-primary" onclick="window.codeSprint.back()">Code Sprint</button>` });
+    }
+
+    // ============================================================
     // ROUNDS
     // ============================================================
     startRound(key) {
@@ -692,6 +917,7 @@ class CodeSprint {
         const q = c.q; const ok = k === q.a; const u = this.ui(); const s = this.store();
         if (ok) c.correct++;
         this.recordAnswer(q.id, ok);
+        if (!ok) this.addFlashcard(q.id, `${q.kind}: ${q.prompt}`, `${q.opts[q.a].label}${q.opts[q.a].sub ? ' — ' + q.opts[q.a].sub : ''}. ${q.why}${q.cite ? ' (' + q.cite + ')' : ''}`);
         if (q.meta && q.meta.chapter && !ok) s.missed[q.meta.chapter] = (s.missed[q.meta.chapter] || 0) + 1;
         if (q.id.startsWith('chapters:')) { s.chapters.total++; if (ok) s.chapters.correct++; }
         document.querySelectorAll('#cs-options .cs-option').forEach((b, i) => { b.disabled = true; if (i === q.a) b.classList.add('ok'); else if (i === k) b.classList.add('bad'); });
@@ -718,7 +944,7 @@ class CodeSprint {
         u.win('code-sprint-content', {
             title: perfect ? 'Coder’s eye!' : 'Round complete',
             name: `${c.correct}/${n} correct`,
-            rows: [`⏱ ${u.fmtTime(Date.now() - c.start)}`, `⭐ +${xp} XP`, pile ? `🔁 ${pile} to review` : '🔁 pile clear'],
+            rows: [`⏱ ${u.fmtTime(Date.now() - c.start)}`, `⭐ +${xp} XP`, pile ? `🔁 ${pile} to review` : '🔁 pile clear', this.fcRow(c)].filter(Boolean),
             actions: `${c.key === 'review' || c.key === 'marathon' ? `<button class="ag-btn" onclick="window.codeSprint.${c.key === 'review' ? 'startReview' : 'startMarathon'}()">🔁 Again</button>` : `<button class="ag-btn" onclick="window.codeSprint.startRound('${c.key}')">🔁 New round</button>`}${pile && c.key !== 'review' ? `<button class="ag-btn" onclick="window.codeSprint.startReview()">🔁 Review pile (${pile})</button>` : ''}`,
             back: `<button class="ag-btn ag-btn-primary" onclick="window.codeSprint.back()">Code Sprint</button>`
         });
