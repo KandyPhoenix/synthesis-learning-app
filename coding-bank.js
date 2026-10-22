@@ -1,0 +1,587 @@
+// ============================================
+// SYNTHESIS — CODE SPRINT: EXPANDED CODING BANK
+// Guidelines (ICD-10-CM Official Guidelines), ICD-10-PCS, CPT and HCPCS
+// Level II content for the Code Sprint games.
+//
+// Sources and confidence:
+//  • CLOZE items quote the ICD-10-CM Official Guidelines verbatim (FY 2027,
+//    CMS/NCHS). At runtime the game checks each quote against the verbatim
+//    guidelines book (icd10cm-guidelines-fy2027-data.js) and marks it
+//    "verified" when the sentence is found word for word.
+//  • GUIDELINE questions are scenario questions written from the same
+//    guideline sections; every one cites its section.
+//  • PCS root-operation and approach definitions follow the ICD-10-PCS
+//    Reference Manual; CPT section ranges, modifiers and HCPCS letter ranges
+//    follow the current code books. Example codes are illustrative.
+//
+// Game module (not a book): this file deliberately does not end in -data.js.
+// ============================================
+
+// ------------------------------------------------------------------
+// 1. ICD-10-CM GUIDELINES — scenario questions
+//    { q, opts: [..4], a: index, why, cite }
+// ------------------------------------------------------------------
+window.CODING_GUIDELINE_QUESTIONS = [
+    { q: 'A code has an Excludes1 note for another condition. What does that mean?', opts: ['The two codes are never reported together (unless the conditions are unrelated)', 'The two codes may be reported together', 'The excluded code must be sequenced first', 'Query the provider before assigning either code'], a: 0, why: 'Excludes1 is a pure excludes note: "NOT CODED HERE!" The only exception is when the two conditions are genuinely unrelated.', cite: 'I.A.12.a' },
+    { q: 'An Excludes2 note appears under a code. The patient has both conditions. What do you do?', opts: ['Report only the code above the note', 'Report both codes', 'Report only the excluded code', 'Report neither until the provider clarifies'], a: 1, why: 'Excludes2 means "Not included here" — the patient may have both conditions, so both codes may be reported.', cite: 'I.A.12.b' },
+    { q: 'The Alphabetic Index lists a code with a second code in brackets. How are they sequenced?', opts: ['Bracketed code first', 'Either order', 'The bracketed (manifestation) code is always second', 'Only the bracketed code is reported'], a: 2, why: 'In the etiology/manifestation convention the etiology code is listed first and the manifestation code appears in brackets, always sequenced second.', cite: 'I.A.13' },
+    { q: 'A code title ends in "in diseases classified elsewhere." Can it be the principal diagnosis?', opts: ['Yes, if it is the reason for admission', 'Yes, in the outpatient setting only', 'No — it is a manifestation code and must follow the underlying condition', 'Only with a 7th character'], a: 2, why: '"In diseases classified elsewhere" codes are never permitted as first-listed or principal diagnosis; they follow the underlying condition.', cite: 'I.A.13' },
+    { q: 'The Index links hypertension and chronic kidney disease with the word "with." The provider never says they are related. How do you code?', opts: ['Code them separately', 'Code them as related (I12) unless the provider says they are unrelated', 'Query before coding anything', 'Code only the hypertension'], a: 1, why: '"With" means "associated with" or "due to"; the classification presumes the causal relationship unless documentation clearly states the conditions are unrelated.', cite: 'I.A.15 / I.C.9.a' },
+    { q: 'A "code also" note appears at a code. What does it tell you about sequencing?', opts: ['The second code goes first', 'The second code goes second', 'Nothing — sequencing depends on the circumstances of the encounter', 'The second code is optional and never sequenced'], a: 2, why: 'A "code also" note says two codes may be required but gives no sequencing direction.', cite: 'I.A.17' },
+    { q: 'The Index says "see" after a main term. What must you do?', opts: ['Optionally look at the other term', 'Go to the referenced main term to find the code', 'Use the code shown next to "see"', 'Code from the Tabular List directly'], a: 1, why: '"See" means the other term must be referenced to locate the correct code; "see also" is optional when the original term already provides the code.', cite: 'I.A.16' },
+    { q: 'NEC in the Index means the coder should look for which kind of code?', opts: ['Unspecified', 'Other specified', 'Not applicable', 'Combination'], a: 1, why: 'NEC ("not elsewhere classifiable") represents "other specified." NOS ("not otherwise specified") is the equivalent of unspecified.', cite: 'I.A.6' },
+    { q: 'Terms in parentheses in the Index are called what, and do they change the code?', opts: ['Essential modifiers — they change the code', 'Nonessential modifiers — they do not affect the code', 'Inclusion terms — they change the code', 'Manifestation terms — they add a second code'], a: 1, why: 'Parentheses enclose supplementary words that may be present or absent without affecting the code: nonessential modifiers.', cite: 'I.A.7' },
+    { q: 'The provider documents a diagnosis, but the patient does not meet the clinical criteria you expected. Do you code the diagnosis?', opts: ['No — clinical criteria must be met', 'Yes — the provider’s diagnostic statement is sufficient', 'Only after an audit', 'Only in the inpatient setting'], a: 1, why: 'Code assignment is based on the provider’s diagnostic statement, not on the clinical criteria used to establish the diagnosis. If documentation conflicts, query.', cite: 'I.A.19' },
+    { q: 'Where must you start when locating a code?', opts: ['Tabular List', 'Alphabetic Index, then verify in the Tabular List', 'Table of Drugs', 'The encoder’s search box'], a: 1, why: 'First locate the term in the Alphabetic Index, then verify the code in the Tabular List. Never begin in the Tabular.', cite: 'I.B.1 / IV.A' },
+    { q: 'An Index entry has no dash at the end. Can you skip the Tabular List?', opts: ['Yes, the Index gave the full code', 'No — you must still verify in the Tabular for a possible 7th character', 'Yes, unless laterality applies', 'Only for Z codes'], a: 1, why: 'Even without a dash you must refer to the Tabular List to verify that no 7th character is required.', cite: 'I.B.1' },
+    { q: 'A category can be subdivided to the 5th character. The coder reports the 3-character category code. Is that valid?', opts: ['Yes, if the provider was vague', 'No — a code is invalid if not coded to the full number of characters required', 'Yes, in the outpatient setting', 'Yes, with placeholder X'], a: 1, why: 'A three-character code is used only if it is not further subdivided; otherwise the code is invalid.', cite: 'I.B.2' },
+    { q: 'Patient has pneumonia with cough and fever. Do you code the cough and fever?', opts: ['Yes, always', 'No — signs and symptoms routinely associated with a disease are not coded separately', 'Only the fever', 'Only in the outpatient setting'], a: 1, why: 'Signs and symptoms that are integral to a disease process should not be assigned as additional codes.', cite: 'I.B.5' },
+    { q: 'Acute and chronic forms of the same condition are documented and the Index has separate subentries at the same indentation level. What do you do?', opts: ['Code only the chronic form', 'Code only the acute form', 'Code both, acute first', 'Code both, chronic first'], a: 2, why: 'Code both and sequence the acute (subacute) code first.', cite: 'I.B.8' },
+    { q: 'A single code exists that captures both the diagnosis and its complication. Should you add a second code for the complication?', opts: ['Yes, always', 'No — assign only the combination code when it fully identifies the conditions', 'Yes, if the payer allows', 'Only on inpatient claims'], a: 1, why: 'Multiple coding should not be used when the classification provides a combination code that identifies all elements documented.', cite: 'I.B.9' },
+    { q: 'Patient is seen for a scar from a burn two years ago. How is this sequenced?', opts: ['Burn code first, then scar', 'Scar (the sequela) first, then the burn code with 7th character S', 'Burn code only, with 7th character A', 'Scar code only'], a: 1, why: 'The condition or nature of the sequela is sequenced first; the sequela (burn with S) is second. The acute injury code is never used with the late-effect code.', cite: 'I.B.10 / I.C.19.a' },
+    { q: 'Discharge diagnosis: "impending myocardial infarction," which did not occur. The Index has an entry for "impending" MI? Check — what is the rule?', opts: ['Code the MI as confirmed', 'If an "impending"/"threatened" subterm exists, assign that code; if not, code the underlying condition(s)', 'Code a symptom code only', 'Code nothing'], a: 1, why: 'If it did not occur, look for "impending" or "threatened" subterms; if listed, assign them, otherwise code the existing underlying condition(s).', cite: 'I.B.11' },
+    { q: 'Patient has bilateral otitis media and there is no bilateral code. What do you report?', opts: ['The unspecified-side code once', 'Separate codes for the left and right side', 'The right-side code twice', 'Either side once'], a: 1, why: 'If no bilateral code is provided and the condition is bilateral, assign separate codes for both the left and right side.', cite: 'I.B.13' },
+    { q: 'Bilateral cataracts; the right eye was operated on last month and today the left eye is treated. Which code for today?', opts: ['Bilateral code', 'Unilateral code for the left eye', 'Unilateral code for the right eye', 'Unspecified side'], a: 1, why: 'For the second encounter after one side is treated, assign the unilateral code for the side where the condition still exists.', cite: 'I.B.13' },
+    { q: 'Which of these may be coded from documentation by a clinician other than the patient’s provider (e.g., a nurse or dietitian)?', opts: ['Obesity diagnosis', 'BMI', 'Pneumonia', 'Diabetes'], a: 1, why: 'BMI, pressure ulcer stage, ulcer depth, coma scale, NIHSS, SDOH, laterality, blood alcohol level, underimmunization status and firearm injury intent may be taken from other clinicians — but the associated diagnosis (e.g., obesity) must come from the provider.', cite: 'I.B.14' },
+    { q: 'Can a BMI code be reported as the principal diagnosis?', opts: ['Yes', 'No — BMI codes are secondary diagnoses only', 'Yes, with obesity', 'Only in outpatient'], a: 1, why: 'BMI, coma scale, NIHSS, blood alcohol level, SDOH and underimmunization codes should only be reported as secondary diagnoses.', cite: 'I.B.14' },
+    { q: 'A condition occurred after surgery. The provider did not write the word "complication." Can it still be coded as a complication?', opts: ['Never', 'Yes, if documentation supports a cause-and-effect relationship and clinical significance', 'Only if an incident report exists', 'Only if it extended the stay'], a: 1, why: 'The provider need not use the term "complication," but there must be a documented cause-and-effect relationship with the care and the condition must be clinically significant. Query if unclear.', cite: 'I.B.16' },
+    { q: 'Discharge diagnosis: "borderline hypertension." How is a borderline diagnosis coded?', opts: ['Not coded', 'As confirmed, unless the classification has a specific borderline entry', 'As a symptom', 'Only in inpatient settings'], a: 1, why: 'Borderline diagnoses are coded as confirmed unless a specific index entry exists (e.g., borderline diabetes). Setting does not matter — they are not uncertain diagnoses.', cite: 'I.B.17' },
+    { q: 'The provider diagnoses pneumonia but never documents the organism or type. What do you report?', opts: ['Hold the claim until cultures return', 'An unspecified pneumonia code', 'Bacterial pneumonia', 'A symptom code'], a: 1, why: 'When sufficient information is not known, it is acceptable to report the appropriate unspecified code; do not select a specific code the record does not support.', cite: 'I.B.18' },
+    { q: 'Record says "HIV positive," no symptoms, no HIV-related illness. Which code?', opts: ['B20', 'Z21', 'R75', 'Z11.4'], a: 1, why: '"HIV positive" without symptoms or HIV-related illness is Z21, Asymptomatic HIV infection status. B20 is for HIV disease/AIDS or any HIV-related illness.', cite: 'I.C.1.a' },
+    { q: 'A patient with a prior HIV-related illness is admitted for an unrelated injury. How is B20 handled?', opts: ['Not reported', 'Reported as the principal diagnosis', 'Reported as a secondary diagnosis; the injury is principal', 'Replaced by Z21'], a: 2, why: 'Once an HIV-related illness has developed, B20 is assigned on every subsequent encounter; for an unrelated admission it is secondary.', cite: 'I.C.1.a' },
+    { q: 'Is "HIV" an exception to the inpatient uncertain-diagnosis rule?', opts: ['No', 'Yes — code only confirmed cases of HIV', 'Only for pediatric patients', 'Only for outpatient'], a: 1, why: 'HIV is coded only when confirmed; this is an exception to Section II.H. Confirmation means the provider’s diagnostic statement, not a lab value.', cite: 'I.C.1.a' },
+    { q: 'Sepsis with no organism documented. Which code for the systemic infection?', opts: ['R65.20', 'A41.9', 'R78.81', 'A49.9'], a: 1, why: 'If the type of infection or causal organism is not further specified, assign A41.9, Sepsis, unspecified organism.', cite: 'I.C.1.d' },
+    { q: 'Severe sepsis is documented. What is the minimum coding?', opts: ['One code: R65.20', 'Two codes: the systemic infection first, then R65.2-, plus organ dysfunction codes', 'One code: A41.9', 'The organ dysfunction only'], a: 1, why: 'Severe sepsis requires a minimum of two codes: the underlying systemic infection followed by a code from R65.2, with additional codes for the acute organ dysfunction.', cite: 'I.C.1.d' },
+    { q: 'Can a code from subcategory R65.2 (severe sepsis) be the principal diagnosis?', opts: ['Yes, if present on admission', 'Never', 'Only with septic shock', 'Only in outpatient'], a: 1, why: 'A code from subcategory R65.2 can never be assigned as a principal diagnosis.', cite: 'I.C.1.d' },
+    { q: 'The provider documents "urosepsis." What do you do?', opts: ['Code sepsis A41.9', 'Code UTI N39.0', 'Query the provider — urosepsis is a nonspecific term with no default code', 'Code both sepsis and UTI'], a: 2, why: 'Urosepsis is nonspecific, not synonymous with sepsis, and has no default code; the provider must be queried.', cite: 'I.C.1.d' },
+    { q: 'Patient admitted with pneumonia; sepsis develops two days later. Which is sequenced first?', opts: ['Sepsis', 'The pneumonia', 'R65.20', 'Either'], a: 1, why: 'If the patient is admitted with a localized infection and sepsis develops after admission, the localized infection is sequenced first, followed by the sepsis codes.', cite: 'I.C.1.d' },
+    { q: 'Diabetes type is not documented. What is the default?', opts: ['E10 Type 1', 'E11 Type 2', 'E13 Other specified', 'Query is mandatory'], a: 1, why: 'If the type of diabetes is not documented, the default is E11.-, Type 2 diabetes mellitus.', cite: 'I.C.4.a' },
+    { q: 'A type 2 diabetic uses both insulin and oral hypoglycemic drugs long term. Which Z codes?', opts: ['Z79.4 only', 'Z79.84 only', 'Both Z79.4 and Z79.84', 'Neither'], a: 2, why: 'When treated with both oral hypoglycemics and insulin, assign both Z79.4 and Z79.84.', cite: 'I.C.4.a' },
+    { q: 'Insulin is given temporarily during an admission to control a type 2 patient’s blood sugar. Assign Z79.4?', opts: ['Yes', 'No', 'Only if given more than 3 days', 'Only with an insulin pump'], a: 1, why: 'Z79.4 should not be assigned if insulin is given temporarily to bring a type 2 patient’s blood sugar under control during an encounter.', cite: 'I.C.4.a' },
+    { q: 'Hypertension and heart failure are both documented, with no statement that they are unrelated. Category?', opts: ['I10 + I50 separately', 'I11 Hypertensive heart disease, plus an I50 code', 'I13', 'I15'], a: 1, why: 'Hypertension with heart failure is assigned to I11 with an additional I50 code, because the classification presumes the relationship via "with."', cite: 'I.C.9.a' },
+    { q: 'Hypertension, heart failure AND stage 3 CKD are documented. Which category captures the hypertension?', opts: ['I11', 'I12', 'I13', 'I10'], a: 2, why: 'Hypertension with both heart and chronic kidney disease is assigned to combination category I13, with I50 for the heart failure type and N18 for the CKD stage.', cite: 'I.C.9.a' },
+    { q: 'Elevated blood pressure reading with no diagnosis of hypertension. Code?', opts: ['I10', 'R03.0', 'I16', 'I1A.0'], a: 1, why: 'Assign R03.0, Elevated blood pressure reading without diagnosis of hypertension, unless hypertension has been established.', cite: 'I.C.9.a' },
+    { q: 'A pregnant patient is treated for a condition the provider documents as incidental to the pregnancy. What is reported?', opts: ['An O code for the condition', 'Z33.1, Pregnant state, incidental, plus the condition', 'Only the condition', 'Z34'], a: 1, why: 'When the provider documents the pregnancy is incidental to the encounter, Z33.1 is used in place of any chapter 15 codes.', cite: 'I.C.15.a' },
+    { q: 'Chapter 15 (O) codes versus codes from other chapters: which has sequencing priority?', opts: ['Other chapters', 'Chapter 15 codes', 'Whichever is documented first', 'Z codes'], a: 1, why: 'Chapter 15 codes have sequencing priority over codes from other chapters.', cite: 'I.C.15.a' },
+    { q: 'Can chapter 15 codes be used on the newborn’s record?', opts: ['Yes', 'No — only on the maternal record', 'Only for cesarean births', 'Only with a Z38 code'], a: 1, why: 'Chapter 15 codes are to be used only on the maternal record, never on the newborn record.', cite: 'I.C.15.a' },
+    { q: 'Gestation documented as 39 weeks and 6 days. Which weeks-of-gestation code?', opts: ['40 weeks', '39 weeks', '39 or 40', 'Unspecified'], a: 1, why: '"Completed" weeks means full weeks; at 39 weeks 6 days the patient has not reached 40 completed weeks.', cite: 'I.C.15.a' },
+    { q: 'Routine prenatal visit, no complications. First-listed code?', opts: ['O09.-', 'Z34.-', 'Z33.1', 'O80'], a: 1, why: 'Routine outpatient prenatal visits with no complications use a code from Z34 as first-listed, never with chapter 15 codes.', cite: 'I.C.15.b' },
+    { q: 'What must appear on every maternal record when a delivery has occurred?', opts: ['Z38 code', 'Z37 Outcome of delivery code', 'O80', 'Z34'], a: 1, why: 'A code from category Z37, Outcome of delivery, is included on every maternal delivery record — never on the newborn record.', cite: 'I.C.15.b' },
+    { q: 'A fracture is not described as open or closed, nor displaced or nondisplaced. Defaults?', opts: ['Open and displaced', 'Closed and displaced', 'Closed and nondisplaced', 'Open and nondisplaced'], a: 1, why: 'A fracture not indicated as open or closed is coded to closed; not indicated as displaced or not is coded to displaced.', cite: 'I.C.19.c' },
+    { q: 'A patient returns to a new orthopedist for routine cast care of a healing fracture. Which 7th character?', opts: ['A — new provider', 'D — subsequent encounter', 'S — sequela', 'G'], a: 1, why: 'The 7th character is based on whether the patient is undergoing active treatment, not whether the provider is seeing the patient for the first time. Routine healing-phase care is D.', cite: 'I.C.19.a' },
+    { q: 'Aftercare of a traumatic fracture: use an aftercare Z code?', opts: ['Yes, Z47.-', 'No — use the acute fracture code with the subsequent-encounter 7th character', 'Yes, Z48.-', 'Yes, with the injury code'], a: 1, why: 'Aftercare Z codes are not used for injuries or fractures; assign the acute injury/fracture code with the appropriate 7th character.', cite: 'I.C.19.a / I.C.19.c' },
+    { q: 'A patient with known osteoporosis fractures a hip in a minor fall that would not break a healthy bone. Which category?', opts: ['S72 traumatic fracture', 'M80 osteoporosis with current pathological fracture', 'M81', 'Z87.81'], a: 1, why: 'Use M80, not a traumatic fracture code, when a patient with known osteoporosis fractures from trauma that would not usually break a normal bone.', cite: 'I.C.19.c' },
+    { q: 'Second- and third-degree burns of the right thigh. How many burn codes for that site?', opts: ['Two', 'One — the highest degree', 'Three', 'One for each degree plus T31'], a: 1, why: 'Burns of the same site and side but different degrees are classified to the subcategory for the highest degree.', cite: 'I.C.19.d' },
+    { q: 'Multiple external burns of different degrees. Which is sequenced first?', opts: ['The largest burn', 'The burn of the highest degree', 'The first documented', 'T31 extent code'], a: 1, why: 'Sequence first the code that reflects the highest degree of burn when more than one burn is present.', cite: 'I.C.19.d' },
+    { q: 'In the rule of nines, how much body surface does each leg represent?', opts: ['9%', '18%', '1%', '27%'], a: 1, why: 'Head and neck 9%, each arm 9%, each leg 18%, anterior trunk 18%, posterior trunk 18%, genitalia 1%.', cite: 'I.C.19.d' },
+    { q: 'A patient develops vomiting from a correctly prescribed, properly administered antibiotic. How is it coded?', opts: ['Poisoning code first (T36.-X1), then vomiting', 'Vomiting (nature of the adverse effect) first, then T36.-X5 adverse effect', 'T36.-X6 underdosing', 'Only the vomiting'], a: 1, why: 'For an adverse effect, code the nature of the effect first, followed by the T code with 5th/6th character 5.', cite: 'I.C.19.e' },
+    { q: 'A patient takes a nonprescribed drug together with a correctly prescribed drug and has a reaction. Classification?', opts: ['Adverse effect', 'Poisoning', 'Underdosing', 'Toxic effect'], a: 1, why: 'A nonprescribed drug taken with a correctly prescribed drug — and any drug-alcohol interaction — is classified as a poisoning.', cite: 'I.C.19.e' },
+    { q: 'Intent of a poisoning is not documented. Default intent?', opts: ['Undetermined', 'Accidental', 'Intentional self-harm', 'Assault'], a: 1, why: 'If the intent is unknown or unspecified, code accidental. Undetermined is used only when documentation states the intent cannot be determined.', cite: 'I.C.19.e' },
+    { q: 'A patient stopped taking a prescribed medication on their own and the condition relapsed. What is sequenced first?', opts: ['The underdosing T code', 'The medical condition itself', 'A noncompliance Z code', 'An external cause code'], a: 1, why: 'Underdosing codes are never principal or first-listed; the relapsed medical condition is coded first, with the underdosing and noncompliance codes added.', cite: 'I.C.19.e' },
+    { q: 'Does a poisoning code require an additional external cause (chapter 20) code?', opts: ['Yes, always', 'No — T36–T65 codes include the substance and intent', 'Only for intentional self-harm', 'Only in the ED'], a: 1, why: 'Codes in T36–T65 are combination codes that include substance and intent; no additional external cause code is required.', cite: 'I.C.19.e' },
+    { q: 'Can an external cause code (V00–Y99) be the principal diagnosis?', opts: ['Yes', 'Never', 'Only for assaults', 'Only in trauma centers'], a: 1, why: 'External cause codes should never be sequenced as the first-listed or principal diagnosis.', cite: 'I.C.20' },
+    { q: 'Is reporting external cause codes required nationally?', opts: ['Yes, on every injury claim', 'No — only when a state mandate or payer requires it; otherwise voluntary', 'Yes, for Medicare only', 'Yes, for inpatients only'], a: 1, why: 'There is no national requirement; reporting is encouraged but required only under a state mandate or payer requirement.', cite: 'I.C.20' },
+    { q: 'Can Z codes be used as the principal diagnosis in the inpatient setting?', opts: ['Never', 'Yes, depending on the circumstances; some Z codes may only be first-listed', 'Only in outpatient', 'Only for newborns'], a: 1, why: 'Z codes are for use in any setting and may be first-listed/principal or secondary depending on the encounter.', cite: 'I.C.21.a' },
+    { q: 'How does the UHDDS define the principal diagnosis?', opts: ['The most serious condition', 'The condition established after study to be chiefly responsible for occasioning the admission', 'The first condition documented', 'The condition that used the most resources'], a: 1, why: 'The UHDDS definition: "that condition established after study to be chiefly responsible for occasioning the admission of the patient to the hospital for care."', cite: 'Section II' },
+    { q: 'A definitive diagnosis is established. Can the related chapter 18 symptom be the principal diagnosis?', opts: ['Yes', 'No', 'Only if documented first', 'Only in outpatient'], a: 1, why: 'Chapter 18 symptom codes are not used as principal diagnosis when a related definitive diagnosis has been established.', cite: 'II.A' },
+    { q: 'Two interrelated conditions each meet the definition of principal diagnosis and nothing in the record or the classification indicates otherwise. Sequencing?', opts: ['The one listed first', 'Either may be sequenced first', 'The more expensive one', 'The chronic one'], a: 1, why: 'Either condition may be sequenced first unless the circumstances of admission, therapy provided, Tabular List or Index indicate otherwise.', cite: 'II.B' },
+    { q: 'Discharge diagnosis: "gastroenteritis versus appendicitis" (either/or). Inpatient. How is this coded?', opts: ['Symptoms only', 'Both coded as if confirmed, sequenced by the circumstances of admission', 'Only the first one listed', 'Neither until confirmed'], a: 1, why: 'Contrasting/comparative diagnoses documented as either/or are coded as if confirmed and sequenced according to the circumstances of admission.', cite: 'II.D' },
+    { q: 'Patient admitted for planned surgery that was cancelled because of unforeseen circumstances. Principal diagnosis?', opts: ['Z53 cancelled procedure', 'The condition that occasioned the admission', 'A symptom', 'No diagnosis'], a: 1, why: 'Sequence as principal the condition which after study occasioned the admission, even though treatment was not carried out.', cite: 'II.F' },
+    { q: 'Admission is for a complication of a prior surgery. Principal diagnosis?', opts: ['The original condition', 'The complication code', 'A Z aftercare code', 'An external cause code'], a: 1, why: 'When the admission is for treatment of a complication of surgery or other medical care, the complication code is sequenced as principal.', cite: 'II.G' },
+    { q: 'Inpatient discharge diagnosis: "probable pulmonary embolism." How is it coded?', opts: ['Not coded', 'Coded as if established', 'Coded as a symptom', 'Coded as R-code only'], a: 1, why: 'For inpatient admissions, "probable," "suspected," "likely," "possible," "rule out," "compatible with," etc. are coded as if the condition existed.', cite: 'II.H' },
+    { q: 'Outpatient visit note: "rule out pneumonia," with cough and fever. How is it coded?', opts: ['Pneumonia', 'Cough and fever (highest degree of certainty)', 'Z03.89', 'Nothing'], a: 1, why: 'Outpatient: do not code uncertain diagnoses; code the condition to the highest degree of certainty — symptoms, signs, abnormal results or reason for visit.', cite: 'IV.H' },
+    { q: 'Which definition does NOT apply to hospital outpatient services and office visits?', opts: ['The UHDDS definition of principal diagnosis', 'Laterality', 'Combination codes', 'Excludes notes'], a: 0, why: 'The UHDDS definition of principal diagnosis does not apply to outpatient services; the term first-listed diagnosis is used instead.', cite: 'Section IV / IV.A' },
+    { q: 'Which "other diagnoses" are reported on an inpatient claim?', opts: ['Every condition in the patient’s history', 'Conditions requiring clinical evaluation, treatment, diagnostic procedures, extended stay, or increased nursing care/monitoring', 'Only conditions treated with medication', 'Only chronic conditions'], a: 1, why: 'Other diagnoses are additional clinically significant conditions that affect patient care in terms of those five criteria.', cite: 'Section III' },
+    { q: 'Inpatient lab result is abnormal but the provider never addresses it. Code it?', opts: ['Yes', 'No — abnormal findings are not coded unless the provider indicates clinical significance', 'Yes, as an R code', 'Yes, if outside normal range'], a: 1, why: 'Abnormal findings are not coded unless the provider indicates their clinical significance; it is appropriate to ask the provider if tests or treatment were ordered.', cite: 'III.B' },
+    { q: 'Outpatient encounter for a diagnostic test; the radiologist’s final report gives a definitive diagnosis. What do you code?', opts: ['The ordering symptom only', 'The confirmed diagnosis from the interpretation, not the related symptoms', 'Both symptom and diagnosis', 'Z01.89'], a: 1, why: 'For outpatient diagnostic tests interpreted by a physician with a final report available, code the confirmed diagnosis and do not add the related signs and symptoms.', cite: 'IV.K' },
+    { q: 'Outpatient encounter for chemotherapy. First-listed code?', opts: ['The malignancy', 'The Z code for the chemotherapy encounter, then the malignancy', 'A symptom', 'The drug'], a: 1, why: 'When the primary reason for the encounter is chemotherapy or radiation therapy, the Z code for the service is listed first and the diagnosis second.', cite: 'IV.L' },
+    { q: 'Preoperative evaluation only. First-listed code?', opts: ['The condition requiring surgery', 'Z01.81- pre-procedural examination, then the condition', 'Z00.00', 'The surgery code'], a: 1, why: 'Sequence first a code from Z01.81, then the condition that is the reason for surgery, plus any findings.', cite: 'IV.M' },
+    { q: 'Ambulatory surgery: the postoperative diagnosis differs from the preoperative diagnosis. Which do you code?', opts: ['Preoperative', 'Postoperative — it is the most definitive', 'Both', 'Neither'], a: 1, why: 'If the postoperative diagnosis is known to be different at the time the diagnosis is confirmed, select the postoperative diagnosis.', cite: 'IV.N' },
+    { q: 'A routine physical uncovers newly identified hypertension. First-listed code?', opts: ['Z00.00 without abnormal findings', 'Z00.01 with abnormal findings, plus the hypertension', 'I10 only', 'R03.0'], a: 1, why: 'A general medical examination with an abnormal finding (new condition or changed chronic condition) is coded Z00.01 first-listed, with a secondary code for the finding.', cite: 'IV.P' },
+    { q: 'Chronic conditions treated on an ongoing basis in the outpatient setting may be reported how often?', opts: ['Once per year', 'As many times as the patient receives treatment and care for them', 'Only at the first visit', 'Only if a medication changes'], a: 1, why: 'Chronic diseases treated on an ongoing basis may be coded and reported as many times as the patient receives treatment and care.', cite: 'IV.I' },
+    // ---- POA (Appendix I) ----
+    { q: 'POA indicator for a condition that developed in the emergency department before the inpatient admission order?', opts: ['N', 'Y', 'U', 'W'], a: 1, why: 'Conditions that develop during an outpatient encounter — ED, observation or outpatient surgery — before the inpatient admission order are present on admission.', cite: 'Appendix I' },
+    { q: 'POA indicator when the record is unclear whether the condition was present on admission?', opts: ['Y', 'N', 'U', 'W'], a: 2, why: 'U = documentation insufficient to determine. It should not be routinely assigned; query the provider.', cite: 'Appendix I' },
+    { q: 'POA indicator when the provider states it cannot be clinically determined whether the condition was present?', opts: ['Y', 'N', 'U', 'W'], a: 3, why: 'W = provider is unable to clinically determine whether the condition was present on admission.', cite: 'Appendix I' },
+    { q: 'Patient admitted with COPD; the acute exacerbation begins on day 3. The code includes both concepts. POA?', opts: ['Y', 'N', 'U', 'Exempt'], a: 1, why: 'For codes with multiple clinical concepts, assign N if at least one concept was not present on admission.', cite: 'Appendix I' },
+    { q: 'Pneumonia present on admission; cultures identify Pseudomonas three days later. POA for the organism-specific pneumonia code?', opts: ['N', 'Y', 'U', 'W'], a: 1, why: 'For infection codes that include the organism, assign Y if the infection was present on admission even though culture results came later.', cite: 'Appendix I' },
+    { q: 'A newborn aspirates meconium during delivery. POA?', opts: ['N', 'Y', 'U', 'Exempt'], a: 1, why: 'Newborns are not considered admitted until after birth, so conditions present at birth or that occur during delivery are Y.', cite: 'Appendix I' },
+    { q: 'External cause code for a fall out of the hospital bed on day 2. POA?', opts: ['Y', 'N', 'U', 'Exempt'], a: 1, why: 'Assign N for any external cause that occurred during the inpatient hospitalization.', cite: 'Appendix I' },
+    { q: 'When may the POA field be left blank?', opts: ['Any chronic condition', 'Only when the code is on the exempt-from-reporting list', 'When the provider is unavailable', 'For Z codes'], a: 1, why: 'Leave the field blank only for codes on the exempt list — the only circumstance in which it may be left blank.', cite: 'Appendix I' }
+];
+
+// ------------------------------------------------------------------
+// 2. VERBATIM CLOZE — exact sentences from the Official Guidelines.
+//    { sec, text (verbatim), blank (exact substring), opts: 3 distractors }
+// ------------------------------------------------------------------
+window.CODING_CLOZE = [
+    { sec: 'I.A.12.a', text: 'An Excludes1 note indicates that the code excluded should never be used at the same time as the code above the Excludes1 note.', blank: 'never', opts: ['always', 'sometimes', 'only'] },
+    { sec: 'I.A.12.b', text: 'An excludes2 note indicates that the condition excluded is not part of the condition represented by the code, but a patient may have both conditions at the same time.', blank: 'may have both conditions', opts: ['cannot have both conditions', 'must be queried for both conditions', 'has only one condition'] },
+    { sec: 'I.A.13', text: 'Wherever such a combination exists, there is a “use additional code” note at the etiology code, and a “code first” note at the manifestation code.', blank: 'manifestation', opts: ['etiology', 'symptom', 'sequela'] },
+    { sec: 'I.A.13', text: '“In diseases classified elsewhere” codes are never permitted to be used as first listed or principal diagnosis codes.', blank: 'never', opts: ['always', 'usually', 'rarely'] },
+    { sec: 'I.A.13', text: 'The code in brackets is always to be sequenced second.', blank: 'second', opts: ['first', 'alone', 'last'] },
+    { sec: 'I.A.14', text: 'The word “and” should be interpreted to mean either “and” or “or” when it appears in a title.', blank: '“and” or “or”', opts: ['“and” only', '“with” or “due to”', '“either” or “neither”'] },
+    { sec: 'I.A.15', text: 'The word “with” or “in” should be interpreted to mean “associated with” or “due to” when it appears in a code title, the Alphabetic Index (either under a main term or subterm), or an instructional note in the Tabular List.', blank: '“associated with” or “due to”', opts: ['“and” or “or”', '“in addition to”', '“not related to”'] },
+    { sec: 'I.A.15', text: 'The word “with” in the Alphabetic Index is sequenced immediately following the main term or subterm, not in alphabetical order.', blank: 'not in alphabetical order', opts: ['in alphabetical order', 'at the end of the list', 'in the Tabular List only'] },
+    { sec: 'I.A.16', text: 'It is not necessary to follow the “see also” note when the original main term provides the necessary code.', blank: 'not necessary', opts: ['mandatory', 'required', 'recommended'] },
+    { sec: 'I.A.17', text: 'A “code also” note instructs that two codes may be required to fully describe a condition, but this note does not provide sequencing direction.', blank: 'does not provide sequencing direction', opts: ['requires the second code first', 'requires the second code second', 'applies only to inpatient coding'] },
+    { sec: 'I.A.19', text: 'Code assignment is not based on clinical criteria used by the provider to establish the diagnosis.', blank: 'clinical criteria', opts: ['provider documentation', 'laboratory values alone', 'the discharge summary'] },
+    { sec: 'I.B.1', text: 'Selection of the full code, including laterality and any applicable 7th character can only be done in the Tabular List.', blank: 'Tabular List', opts: ['Alphabetic Index', 'Table of Drugs and Chemicals', 'Neoplasm Table'] },
+    { sec: 'I.B.1', text: 'A dash (-) at the end of an Alphabetic Index entry indicates that additional characters are required.', blank: 'additional characters are required', opts: ['the code is complete', 'the code is invalid', 'a manifestation code follows'] },
+    { sec: 'I.B.2', text: 'A three-character code is to be used only if it is not further subdivided.', blank: 'not further subdivided', opts: ['listed in the Index', 'a Z code', 'an injury code'] },
+    { sec: 'I.B.5', text: 'Signs and symptoms that are associated routinely with a disease process should not be assigned as additional codes, unless otherwise instructed by the classification.', blank: 'should not be assigned', opts: ['should always be assigned', 'must be sequenced first', 'may be assigned as principal'] },
+    { sec: 'I.B.8', text: 'If the same condition is described as both acute (subacute) and chronic, and separate subentries exist in the Alphabetic Index at the same indentation level, code both and sequence the acute (subacute) code first.', blank: 'acute (subacute) code first', opts: ['chronic code first', 'combination code only', 'unspecified code first'] },
+    { sec: 'I.B.9', text: 'Multiple coding should not be used when the classification provides a combination code that clearly identifies all of the elements documented in the diagnosis.', blank: 'combination code', opts: ['manifestation code', 'Z code', 'sequela code'] },
+    { sec: 'I.B.10', text: 'There is no time limit on when a sequela code can be used.', blank: 'no time limit', opts: ['a one-year limit', 'a 90-day limit', 'a six-month limit'] },
+    { sec: 'I.B.10', text: 'The code for the acute phase of an illness or injury that led to the sequela is never used with a code for the late effect.', blank: 'never', opts: ['always', 'first', 'second'] },
+    { sec: 'I.B.12', text: 'Each unique ICD-10-CM diagnosis code may be reported only once for an encounter.', blank: 'only once', opts: ['twice', 'up to four times', 'once per side'] },
+    { sec: 'I.B.13', text: 'If no bilateral code is provided and the condition is bilateral, assign separate codes for both the left and right side.', blank: 'separate codes for both the left and right side', opts: ['the unspecified side code', 'the right side code twice', 'a Z code for bilateral status'] },
+    { sec: 'I.B.14', text: 'The BMI, coma scale, NIHSS, blood alcohol level codes, codes for social determinants of health and underimmunization status should only be reported as secondary diagnoses.', blank: 'secondary diagnoses', opts: ['principal diagnoses', 'first-listed diagnoses', 'external causes'] },
+    { sec: 'I.B.16', text: 'It is not necessary for the provider to explicitly document the term “complication.”', blank: 'not necessary', opts: ['required', 'always necessary', 'prohibited'] },
+    { sec: 'I.B.17', text: 'Since borderline conditions are not uncertain diagnoses, no distinction is made between the care setting (inpatient versus outpatient).', blank: 'not uncertain diagnoses', opts: ['uncertain diagnoses', 'symptom codes', 'Z codes'] },
+    { sec: 'I.B.18', text: 'Each healthcare encounter should be coded to the level of certainty known for that encounter.', blank: 'level of certainty', opts: ['highest reimbursement', 'level of the attending physician', 'number of tests ordered'] },
+    { sec: 'I.C.1.a', text: 'Code only confirmed cases of HIV infection/illness.', blank: 'confirmed', opts: ['suspected', 'probable', 'screened'] },
+    { sec: 'I.C.1.d', text: 'The term urosepsis is a nonspecific term. It is not to be considered synonymous with sepsis.', blank: 'not to be considered synonymous with sepsis', opts: ['coded as A41.9', 'coded as N39.0', 'the default for sepsis'] },
+    { sec: 'I.C.1.d', text: 'A code from subcategory R65.2 can never be assigned as a principal diagnosis.', blank: 'never', opts: ['always', 'sometimes', 'only'] },
+    { sec: 'I.C.1.d', text: 'The coding of severe sepsis requires a minimum of 2 codes: first a code for the underlying systemic infection, followed by a code from subcategory R65.2, Severe sepsis.', blank: 'minimum of 2 codes', opts: ['single combination code', 'minimum of 3 codes', 'Z code'] },
+    { sec: 'I.C.4.a', text: 'If the type of diabetes mellitus is not documented in the medical record the default is E11.-, Type 2 diabetes mellitus.', blank: 'E11.-, Type 2 diabetes mellitus', opts: ['E10.-, Type 1 diabetes mellitus', 'E13.-, Other specified diabetes mellitus', 'R73.9, Hyperglycemia, unspecified'] },
+    { sec: 'I.C.4.a', text: 'Code Z79.4 should not be assigned if insulin is given temporarily to bring a type 2 patient’s blood sugar under control during an encounter.', blank: 'temporarily', opts: ['daily', 'subcutaneously', 'by pump'] },
+    { sec: 'I.C.9.a', text: 'The classification presumes a causal relationship between hypertension and heart involvement and between hypertension and kidney involvement, as the two conditions are linked by the term “with” in the Alphabetic Index.', blank: 'presumes a causal relationship', opts: ['requires provider linkage', 'denies any relationship', 'requires a query'] },
+    { sec: 'I.C.9.a', text: 'For hypertensive cerebrovascular disease, first assign the appropriate code from categories I60-I69, followed by the appropriate hypertension code.', blank: 'I60-I69', opts: ['I10-I15', 'I20-I25', 'N18'] },
+    { sec: 'I.C.15.a', text: 'Chapter 15 codes have sequencing priority over codes from other chapters.', blank: 'sequencing priority', opts: ['no priority', 'equal priority', 'secondary status'] },
+    { sec: 'I.C.15.a', text: 'Chapter 15 codes are to be used only on the maternal record, never on the record of the newborn.', blank: 'maternal record', opts: ['newborn record', 'father’s record', 'facility record'] },
+    { sec: 'I.C.19.a', text: 'While the patient may be seen by a new or different provider over the course of treatment for an injury, assignment of the 7th character is based on whether the patient is undergoing active treatment and not whether the provider is seeing the patient for the first time.', blank: 'active treatment', opts: ['inpatient care', 'surgical treatment', 'a new provider'] },
+    { sec: 'I.C.19.a', text: 'The “S” is added only to the injury code, not the sequela code.', blank: 'injury code', opts: ['sequela code', 'Z code', 'external cause code'] },
+    { sec: 'I.C.19.c', text: 'A fracture not indicated as open or closed should be coded to closed.', blank: 'closed', opts: ['open', 'displaced', 'unspecified'] },
+    { sec: 'I.C.19.c', text: 'Multiple fractures are sequenced in accordance with the severity of the fracture.', blank: 'severity', opts: ['date', 'laterality', 'body region'] },
+    { sec: 'I.C.19.d', text: 'Sequence first the code that reflects the highest degree of burn when more than one burn is present.', blank: 'highest degree', opts: ['largest area', 'first documented', 'most recent'] },
+    { sec: 'I.C.19.d', text: 'Non-healing burns are coded as acute burns.', blank: 'acute burns', opts: ['sequelae', 'chronic ulcers', 'complications of care'] },
+    { sec: 'I.C.19.e', text: 'Do not code directly from the Table of Drugs and Chemicals. Always refer back to the Tabular List.', blank: 'Tabular List', opts: ['Alphabetic Index', 'Neoplasm Table', 'Index to External Causes'] },
+    { sec: 'I.C.19.e', text: 'If the intent of the poisoning is unknown or unspecified, code the intent as accidental intent.', blank: 'accidental', opts: ['undetermined', 'intentional self-harm', 'assault'] },
+    { sec: 'I.C.19.e', text: 'Codes for underdosing should never be assigned as principal or first-listed codes.', blank: 'underdosing', opts: ['poisoning', 'adverse effect', 'toxic effect'] },
+    { sec: 'I.C.20', text: 'The external causes of morbidity codes should never be sequenced as the first-listed or principal diagnosis.', blank: 'never', opts: ['always', 'usually', 'only'] },
+    { sec: 'Section II', text: 'The circumstances of inpatient admission always govern the selection of principal diagnosis.', blank: 'circumstances of inpatient admission', opts: ['discharge disposition', 'attending physician’s specialty', 'length of stay'] },
+    { sec: 'Section II', text: 'In determining principal diagnosis, coding conventions in the ICD-10-CM, the Tabular List and Alphabetic Index take precedence over these official coding guidelines.', blank: 'take precedence over', opts: ['are overridden by', 'are identical to', 'are replaced by'] },
+    { sec: 'II.F', text: 'Sequence as the principal diagnosis the condition, which after study occasioned the admission to the hospital, even though treatment may not have been carried out due to unforeseen circumstances.', blank: 'even though treatment may not have been carried out', opts: ['only if treatment was carried out', 'unless surgery was cancelled', 'only in the outpatient setting'] },
+    { sec: 'II.G', text: 'When the admission is for treatment of a complication resulting from surgery or other medical care, the complication code is sequenced as the principal diagnosis.', blank: 'complication code', opts: ['original condition', 'external cause code', 'aftercare Z code'] },
+    { sec: 'II.H', text: 'Note: This guideline is applicable only to inpatient admissions to short-term, acute, long-term care and psychiatric hospitals.', blank: 'inpatient admissions', opts: ['outpatient visits', 'physician offices', 'ambulatory surgery'] },
+    { sec: 'III.B', text: 'Abnormal findings (laboratory, x-ray, pathologic, and other diagnostic results) are not coded and reported unless the provider indicates their clinical significance.', blank: 'clinical significance', opts: ['normal range', 'billing code', 'CPT code'] },
+    { sec: 'IV.A', text: 'In the outpatient setting, the term first-listed diagnosis is used in lieu of principal diagnosis.', blank: 'first-listed diagnosis', opts: ['primary diagnosis', 'admitting diagnosis', 'chief complaint'] },
+    { sec: 'IV.A', text: 'Never begin searching initially in the Tabular List as this will lead to coding errors.', blank: 'Tabular List', opts: ['Alphabetic Index', 'Table of Neoplasms', 'encoder'] },
+    { sec: 'IV.H', text: 'Do not code diagnoses documented as “probable”, “suspected,” “questionable,” “rule out,” “compatible with,” “consistent with,” or “working diagnosis” or other similar terms indicating uncertainty.', blank: 'Do not code', opts: ['Always code', 'Code as confirmed', 'Query before coding'] },
+    { sec: 'IV.I', text: 'Chronic diseases treated on an ongoing basis may be coded and reported as many times as the patient receives treatment and care for the condition(s).', blank: 'as many times as', opts: ['only the first time', 'once per calendar year', 'no more than twice'] },
+    { sec: 'IV.L', text: 'The only exception to this rule is that when the primary reason for the admission/encounter is chemotherapy or radiation therapy, the appropriate Z code for the service is listed first, and the diagnosis or problem for which the service is being performed listed second.', blank: 'chemotherapy or radiation therapy', opts: ['physical therapy', 'dialysis', 'wound care'] },
+    { sec: 'IV.N', text: 'If the postoperative diagnosis is known to be different from the preoperative diagnosis at the time the diagnosis is confirmed, select the postoperative diagnosis for coding, since it is the most definitive.', blank: 'postoperative', opts: ['preoperative', 'admitting', 'pathology'] },
+    { sec: 'Appendix I', text: 'Present on admission is defined as present at the time the order for inpatient admission occurs -- conditions that develop during an outpatient encounter, including emergency department, observation, or outpatient surgery, are considered as present on admission.', blank: 'the order for inpatient admission occurs', opts: ['the patient arrives in the ED', 'the first physician note is written', 'the patient is triaged'] },
+    { sec: 'Appendix I', text: 'Assign “Y” for chronic conditions, even though the condition may not be diagnosed until after admission.', blank: 'chronic conditions', opts: ['acute conditions', 'external causes', 'complications'] },
+    { sec: 'Appendix I', text: 'Newborns are not considered to be admitted until after birth.', blank: 'after birth', opts: ['at conception', 'when the mother is admitted', 'at discharge'] }
+];
+
+// ------------------------------------------------------------------
+// 3. ICD-10-PCS
+// ------------------------------------------------------------------
+window.PCS_CHARACTERS = [
+    { n: 1, name: 'Section', eg: '0 = Medical and Surgical' },
+    { n: 2, name: 'Body System', eg: '2 = Heart and Great Vessels; D = Gastrointestinal System' },
+    { n: 3, name: 'Root Operation', eg: 'B = Excision; T = Resection; 1 = Bypass' },
+    { n: 4, name: 'Body Part', eg: 'J = Appendix (in body system D)' },
+    { n: 5, name: 'Approach', eg: '0 = Open; 4 = Percutaneous Endoscopic' },
+    { n: 6, name: 'Device', eg: 'Z = No Device; J = Synthetic Substitute' },
+    { n: 7, name: 'Qualifier', eg: 'X = Diagnostic; Z = No Qualifier' }
+];
+
+window.PCS_SECTIONS = [
+    { ch: '0', name: 'Medical and Surgical', color: '#38bdf8', eg: 'Appendectomy, CABG, hip replacement' },
+    { ch: '1', name: 'Obstetrics', color: '#f472b6', eg: 'Cesarean delivery, products of conception procedures' },
+    { ch: '2', name: 'Placement', color: '#fbbf24', eg: 'Cast application, traction, splint' },
+    { ch: '3', name: 'Administration', color: '#a78bfa', eg: 'Chemotherapy infusion, transfusion, vaccination' },
+    { ch: '4', name: 'Measurement and Monitoring', color: '#34d399', eg: 'ECG, cardiac catheterization measurement, fetal monitoring' },
+    { ch: '5', name: 'Extracorporeal or Systemic Assistance and Performance', color: '#f97316', eg: 'Mechanical ventilation, hemodialysis, ECMO' },
+    { ch: '6', name: 'Extracorporeal or Systemic Therapies', color: '#fb7185', eg: 'Phototherapy, hyperthermia, plasmapheresis' },
+    { ch: '7', name: 'Osteopathic', color: '#c084fc', eg: 'Osteopathic manipulative treatment' },
+    { ch: '8', name: 'Other Procedures', color: '#94a3b8', eg: 'Acupuncture, robotic-assisted procedure, in vitro fertilization' },
+    { ch: '9', name: 'Chiropractic', color: '#2dd4bf', eg: 'Chiropractic manipulation' },
+    { ch: 'B', name: 'Imaging', color: '#60a5fa', eg: 'X-ray, CT, MRI, ultrasound' },
+    { ch: 'C', name: 'Nuclear Medicine', color: '#facc15', eg: 'PET scan, radionuclide bone scan' },
+    { ch: 'D', name: 'Radiation Therapy', color: '#ef4444', eg: 'Beam radiation, brachytherapy' },
+    { ch: 'F', name: 'Physical Rehabilitation and Diagnostic Audiology', color: '#84cc16', eg: 'Gait training, hearing assessment, speech therapy' },
+    { ch: 'G', name: 'Mental Health', color: '#ec4899', eg: 'Psychotherapy, ECT, psychological testing' },
+    { ch: 'H', name: 'Substance Abuse Treatment', color: '#fda4af', eg: 'Detoxification, substance abuse counseling' },
+    { ch: 'X', name: 'New Technology', color: '#e2e8f0', eg: 'New technology drugs, devices and procedures' }
+];
+
+// [procedure, section character]
+window.PCS_SECTION_ITEMS = [
+    ['Laparoscopic cholecystectomy', '0'], ['Total hip replacement', '0'], ['Appendectomy', '0'], ['Coronary artery bypass graft', '0'],
+    ['Cesarean delivery', '1'], ['Manually assisted vaginal delivery', '1'], ['Amniocentesis', '1'],
+    ['Application of a long arm cast', '2'], ['Skeletal traction', '2'], ['Immobilization with a splint', '2'],
+    ['IV chemotherapy infusion', '3'], ['Blood transfusion', '3'], ['Epidural injection of anesthetic', '3'],
+    ['12-lead electrocardiogram', '4'], ['Cardiac catheterization with pressure measurement', '4'], ['External fetal heart monitoring', '4'],
+    ['Mechanical ventilation, 24–96 hours', '5'], ['Hemodialysis', '5'], ['ECMO (extracorporeal membrane oxygenation)', '5'], ['Cardiopulmonary bypass during surgery', '5'],
+    ['Phototherapy of skin', '6'], ['Therapeutic plasmapheresis', '6'], ['Whole-body hyperthermia', '6'],
+    ['Osteopathic manipulative treatment of the lumbar region', '7'],
+    ['Acupuncture', '8'], ['Robotic-assisted procedure (reported in addition)', '8'],
+    ['Chiropractic manipulation of the cervical spine', '9'],
+    ['CT scan of the head', 'B'], ['MRI of the lumbar spine', 'B'], ['Abdominal ultrasound', 'B'], ['Chest x-ray', 'B'],
+    ['PET scan of the brain', 'C'], ['Radionuclide bone scan', 'C'],
+    ['External beam radiation to the breast', 'D'], ['Prostate brachytherapy', 'D'],
+    ['Gait training (physical therapy)', 'F'], ['Hearing assessment (audiology)', 'F'], ['Speech-language therapy', 'F'],
+    ['Individual psychotherapy', 'G'], ['Electroconvulsive therapy', 'G'], ['Psychological testing', 'G'],
+    ['Alcohol detoxification services', 'H'], ['Substance abuse group counseling', 'H']
+];
+
+window.PCS_ROOT_OPS = [
+    { op: 'Alteration', ch: '0', group: 'Other objectives', def: 'Modifying the anatomic structure of a body part without affecting the function of the body part.', eg: 'Face lift, cosmetic breast augmentation' },
+    { op: 'Bypass', ch: '1', group: 'Alter the diameter or route of a tubular body part', def: 'Altering the route of passage of the contents of a tubular body part.', eg: 'CABG, colostomy, gastric bypass, tracheostomy' },
+    { op: 'Change', ch: '2', group: 'Always involve a device', def: 'Taking out or off a device from a body part and putting back an identical or similar device in or on the same body part without cutting or puncturing the skin or a mucous membrane.', eg: 'Urinary catheter change, drainage tube change' },
+    { op: 'Control', ch: '3', group: 'Other repairs', def: 'Stopping, or attempting to stop, postprocedural or other acute bleeding.', eg: 'Control of postoperative hemorrhage, nasal packing for epistaxis' },
+    { op: 'Creation', ch: '4', group: 'Other objectives', def: 'Putting in or on biological or synthetic material to form a new body part that to the extent possible replicates the anatomic structure or function of an absent body part.', eg: 'Creation of a vagina in gender affirmation surgery; creation of an atrioventricular valve' },
+    { op: 'Destruction', ch: '5', group: 'Take out some or all of a body part', def: 'Physical eradication of all or a portion of a body part by the direct use of energy, force, or a destructive agent.', eg: 'Cardiac ablation, fulguration of a lesion, cryotherapy of a wart' },
+    { op: 'Detachment', ch: '6', group: 'Take out some or all of a body part', def: 'Cutting off all or a portion of the upper or lower extremities.', eg: 'Below-knee amputation, finger amputation' },
+    { op: 'Dilation', ch: '7', group: 'Alter the diameter or route of a tubular body part', def: 'Expanding an orifice or the lumen of a tubular body part.', eg: 'Coronary angioplasty with or without stent, esophageal dilation' },
+    { op: 'Division', ch: '8', group: 'Cutting or separation only', def: 'Cutting into a body part, without draining fluids and/or gases from the body part, in order to separate or transect a body part.', eg: 'Osteotomy, neurotomy, spinal cordotomy' },
+    { op: 'Drainage', ch: '9', group: 'Take out solids, fluids or gases', def: 'Taking or letting out fluids and/or gases from a body part.', eg: 'Thoracentesis, incision and drainage of abscess, paracentesis' },
+    { op: 'Excision', ch: 'B', group: 'Take out some or all of a body part', def: 'Cutting out or off, without replacement, a portion of a body part.', eg: 'Partial colectomy, breast lumpectomy, excisional biopsy' },
+    { op: 'Extirpation', ch: 'C', group: 'Take out solids, fluids or gases', def: 'Taking or cutting out solid matter from a body part.', eg: 'Thrombectomy, removal of a ureteral stone, removal of a foreign body' },
+    { op: 'Extraction', ch: 'D', group: 'Take out some or all of a body part', def: 'Pulling or stripping out or off all or a portion of a body part by the use of force.', eg: 'Dilation and curettage (non-obstetric), vein stripping, bone marrow biopsy, non-excisional debridement' },
+    { op: 'Fragmentation', ch: 'F', group: 'Take out solids, fluids or gases', def: 'Breaking solid matter in a body part into pieces.', eg: 'Extracorporeal shock wave lithotripsy' },
+    { op: 'Fusion', ch: 'G', group: 'Other objectives', def: 'Joining together portions of an articular body part rendering the articular body part immobile.', eg: 'Spinal fusion, ankle arthrodesis' },
+    { op: 'Insertion', ch: 'H', group: 'Always involve a device', def: 'Putting in a nonbiological appliance that monitors, assists, performs, or prevents a physiological function but does not physically take the place of a body part.', eg: 'Pacemaker lead insertion, central venous catheter insertion' },
+    { op: 'Inspection', ch: 'J', group: 'Examination only', def: 'Visually and/or manually exploring a body part.', eg: 'Diagnostic colonoscopy, diagnostic arthroscopy, exploratory laparotomy' },
+    { op: 'Map', ch: 'K', group: 'Examination only', def: 'Locating the route of passage of electrical impulses and/or locating functional areas in a body part.', eg: 'Cardiac electrophysiologic mapping, cortical mapping' },
+    { op: 'Occlusion', ch: 'L', group: 'Alter the diameter or route of a tubular body part', def: 'Completely closing an orifice or the lumen of a tubular body part.', eg: 'Tubal ligation, complete embolization of a vessel' },
+    { op: 'Reattachment', ch: 'M', group: 'Put in, put back or move some or all of a body part', def: 'Putting back in or on all or a portion of a separated body part to its normal location or other suitable location.', eg: 'Reattachment of a severed finger' },
+    { op: 'Release', ch: 'N', group: 'Cutting or separation only', def: 'Freeing a body part from an abnormal physical constraint by cutting or by the use of force.', eg: 'Carpal tunnel release, lysis of adhesions' },
+    { op: 'Removal', ch: 'P', group: 'Always involve a device', def: 'Taking out or off a device from a body part.', eg: 'Removal of a drainage tube, removal of a fixation device' },
+    { op: 'Repair', ch: 'Q', group: 'Other repairs', def: 'Restoring, to the extent possible, a body part to its normal anatomic structure and function.', eg: 'Suture of a laceration, herniorrhaphy without mesh' },
+    { op: 'Replacement', ch: 'R', group: 'Always involve a device', def: 'Putting in or on biological or synthetic material that physically takes the place and/or function of all or a portion of a body part.', eg: 'Total hip replacement, cataract extraction with intraocular lens, skin graft' },
+    { op: 'Reposition', ch: 'S', group: 'Put in, put back or move some or all of a body part', def: 'Moving to its normal location, or other suitable location, all or a portion of a body part.', eg: 'Fracture reduction (open or closed), reduction of a dislocation' },
+    { op: 'Resection', ch: 'T', group: 'Take out some or all of a body part', def: 'Cutting out or off, without replacement, all of a body part.', eg: 'Total nephrectomy, appendectomy, total lobectomy of lung' },
+    { op: 'Restriction', ch: 'V', group: 'Alter the diameter or route of a tubular body part', def: 'Partially closing an orifice or the lumen of a tubular body part.', eg: 'Gastric banding, cervical cerclage, partial embolization' },
+    { op: 'Revision', ch: 'W', group: 'Always involve a device', def: 'Correcting, to the extent possible, a portion of a malfunctioning device or the position of a displaced device.', eg: 'Adjustment of a pacemaker lead position, revision of a hip prosthesis component' },
+    { op: 'Supplement', ch: 'U', group: 'Always involve a device', def: 'Putting in or on biological or synthetic material that physically reinforces and/or augments the function of a portion of a body part.', eg: 'Hernia repair with mesh, mitral valve annuloplasty ring' },
+    { op: 'Transfer', ch: 'X', group: 'Put in, put back or move some or all of a body part', def: 'Moving, without taking out, all or a portion of a body part to another location to take over the function of all or a portion of a body part.', eg: 'Tendon transfer, pedicle skin flap transfer' },
+    { op: 'Transplantation', ch: 'Y', group: 'Put in, put back or move some or all of a body part', def: 'Putting in or on all or a portion of a living body part taken from another individual or animal to physically take the place and/or function of all or a portion of a similar body part.', eg: 'Kidney transplant, heart transplant' }
+];
+
+// [scenario, root operation, note]
+window.PCS_ROOT_SCENARIOS = [
+    ['Removal of the entire gallbladder', 'Resection', 'All of a body part (the gallbladder is its own body part value) = Resection.'],
+    ['Removal of a polyp from the sigmoid colon', 'Excision', 'A portion of a body part, without replacement.'],
+    ['Appendectomy', 'Resection', 'The appendix is a whole body part value, so taking all of it is Resection.'],
+    ['Partial colectomy of the ascending colon', 'Excision', 'Only a portion of the body part is removed.'],
+    ['Removal of a kidney stone from the ureter by cystoscope', 'Extirpation', 'Solid matter (the stone) is taken out of a body part.'],
+    ['Extracorporeal shock wave lithotripsy of a kidney stone', 'Fragmentation', 'The stone is broken into pieces, not removed.'],
+    ['Thoracentesis for a pleural effusion', 'Drainage', 'Fluid is let out of a body part.'],
+    ['Incision and drainage of a skin abscess', 'Drainage', 'Letting out fluid (pus).'],
+    ['Thrombectomy of a femoral artery', 'Extirpation', 'A clot is solid matter taken out of a body part.'],
+    ['Coronary artery bypass grafting', 'Bypass', 'The route of blood flow is altered around the blockage.'],
+    ['Colostomy creation', 'Bypass', 'Contents of the colon are rerouted to the skin.'],
+    ['Coronary angioplasty with drug-eluting stent', 'Dilation', 'The lumen of a tubular body part is expanded; the stent is the device.'],
+    ['Esophageal dilation for a stricture', 'Dilation', 'Expanding the lumen of a tubular body part.'],
+    ['Insertion of a pacemaker lead', 'Insertion', 'A nonbiological appliance that assists a function and does not replace a body part.'],
+    ['Total knee replacement', 'Replacement', 'Synthetic material takes the place of the body part.'],
+    ['Cataract extraction with intraocular lens implant', 'Replacement', 'The lens is removed and replaced by a synthetic substitute; the removal is integral.'],
+    ['Open reduction with internal fixation of a femur fracture', 'Reposition', 'The bone is moved back to its normal location; the fixation device is the 6th character.'],
+    ['Closed reduction of a dislocated shoulder', 'Reposition', 'Moving the body part to its normal location — approach External.'],
+    ['Bilateral tubal ligation', 'Occlusion', 'The lumen of a tubular body part is completely closed.'],
+    ['Laparoscopic adjustable gastric banding', 'Restriction', 'The lumen is partially closed (narrowed), not completely occluded.'],
+    ['Spinal fusion of L4-L5', 'Fusion', 'Joining portions of an articular body part so it is immobile.'],
+    ['Split-thickness skin graft to a burn of the thigh', 'Replacement', 'Biological material takes the place of the body part (skin).'],
+    ['Carpal tunnel release', 'Release', 'Freeing a body part (the median nerve) from an abnormal constraint; the nerve is the body part coded.'],
+    ['Lysis of peritoneal adhesions', 'Release', 'Freeing a body part from adhesions — the body part freed is coded.'],
+    ['Below-knee amputation', 'Detachment', 'Cutting off a portion of a lower extremity.'],
+    ['Hernia repair with mesh', 'Supplement', 'Synthetic material reinforces the body part.'],
+    ['Suture repair of a laceration of the forearm', 'Repair', 'Restoring a body part to its normal structure — the "none of the above" root operation.'],
+    ['Diagnostic colonoscopy with no biopsy', 'Inspection', 'Visually exploring a body part; nothing removed.'],
+    ['Diagnostic arthroscopy of the knee', 'Inspection', 'Exploration only.'],
+    ['Radiofrequency ablation of a liver tumor', 'Destruction', 'Eradication of a portion of a body part by energy; nothing is physically taken out.'],
+    ['Cryotherapy of a skin lesion', 'Destruction', 'Destructive agent (cold) eradicates the lesion.'],
+    ['Reattachment of a severed finger', 'Reattachment', 'Putting back a separated body part.'],
+    ['Tendon transfer in the hand', 'Transfer', 'Moving a body part, without taking it out, to take over another’s function.'],
+    ['Kidney transplant from a living donor', 'Transplantation', 'A living body part from another individual takes the place of the body part.'],
+    ['Control of postoperative bleeding after a tonsillectomy', 'Control', 'Stopping postprocedural bleeding.'],
+    ['Cardiac electrophysiologic mapping', 'Map', 'Locating the route of electrical impulses.'],
+    ['Osteotomy of the tibia (cutting the bone to realign it, no removal)', 'Division', 'Cutting into a body part to separate it, without draining.'],
+    ['Replacing a Foley urinary catheter with a new one', 'Change', 'Device taken out and a similar one put back without cutting or puncturing.'],
+    ['Removal of a chest tube', 'Removal', 'Taking out a device from a body part.'],
+    ['Repositioning a displaced pacemaker lead', 'Revision', 'Correcting the position of a displaced device.'],
+    ['Non-obstetric dilation and curettage of the endometrium', 'Extraction', 'Pulling or stripping out a portion of a body part by force.'],
+    ['Vein stripping of the saphenous vein', 'Extraction', 'Stripping out the body part by force.'],
+    ['Bone marrow biopsy', 'Extraction', 'Marrow is pulled out by force; the qualifier is Diagnostic.'],
+    ['Excisional debridement of a wound to the subcutaneous tissue', 'Excision', 'Cutting out a portion of a body part.'],
+    ['Non-excisional (brushing/irrigation) debridement', 'Extraction', 'Removing tissue by force without cutting.'],
+    ['Face lift (rhytidectomy) for cosmetic purposes', 'Alteration', 'Modifying structure without affecting function.'],
+    ['Tracheostomy creation', 'Bypass', 'The airway is rerouted to the skin.'],
+    ['Total nephrectomy', 'Resection', 'All of the kidney is removed.'],
+    ['Breast lumpectomy', 'Excision', 'A portion of the breast is removed.'],
+    ['Total lobectomy of the right upper lobe of the lung', 'Resection', 'Each lung lobe is its own body part value, so removing a whole lobe is Resection.'],
+    ['Complete coil embolization of a cerebral aneurysm vessel', 'Occlusion', 'Completely closing the lumen of a vessel.'],
+    ['Cervical cerclage', 'Restriction', 'Partially closing the cervical os.']
+];
+
+window.PCS_APPROACHES = [
+    { ch: '0', name: 'Open', color: '#ef4444', def: 'Cutting through the skin or mucous membrane and any other body layers necessary to expose the site of the procedure.', eg: 'Open appendectomy, laparotomy' },
+    { ch: '3', name: 'Percutaneous', color: '#f59e0b', def: 'Entry, by puncture or minor incision, of instrumentation through the skin or mucous membrane and any other body layers necessary to reach the site of the procedure.', eg: 'Needle biopsy, central line placement, PCI' },
+    { ch: '4', name: 'Percutaneous Endoscopic', color: '#a855f7', def: 'Entry, by puncture or minor incision, of instrumentation through the skin or mucous membrane and any other body layers necessary to reach and visualize the site of the procedure.', eg: 'Laparoscopic cholecystectomy, arthroscopy, thoracoscopy' },
+    { ch: '7', name: 'Via Natural or Artificial Opening', color: '#38bdf8', def: 'Entry of instrumentation through a natural or artificial external opening to reach the site of the procedure.', eg: 'Foley catheter insertion, endotracheal intubation' },
+    { ch: '8', name: 'Via Natural or Artificial Opening Endoscopic', color: '#10b981', def: 'Entry of instrumentation through a natural or artificial external opening to reach and visualize the site of the procedure.', eg: 'Colonoscopy, bronchoscopy, cystoscopy, TURP' },
+    { ch: 'F', name: 'Via Natural or Artificial Opening With Percutaneous Endoscopic Assistance', color: '#ec4899', def: 'Entry through a natural or artificial opening to reach the procedure site, with entry by puncture or minor incision of instrumentation to aid in the performance of the procedure.', eg: 'Laparoscopic-assisted vaginal hysterectomy' },
+    { ch: 'X', name: 'External', color: '#94a3b8', def: 'Procedures performed directly on the skin or mucous membrane and procedures performed indirectly by the application of external force through the skin or mucous membrane.', eg: 'Closed fracture reduction, suture of a skin laceration, tooth extraction' }
+];
+
+// [procedure, approach character]
+window.PCS_APPROACH_ITEMS = [
+    ['Laparoscopic cholecystectomy', '4'], ['Open appendectomy', '0'], ['Diagnostic colonoscopy', '8'], ['Closed reduction of a wrist fracture', 'X'],
+    ['Percutaneous needle biopsy of the liver', '3'], ['Insertion of a Foley urinary catheter', '7'], ['Laparoscopic-assisted vaginal hysterectomy', 'F'],
+    ['Suture of a skin laceration', 'X'], ['Bronchoscopy with biopsy', '8'], ['Arthroscopic meniscectomy', '4'], ['Central venous catheter placement', '3'],
+    ['Transurethral resection of the prostate (TURP)', '8'], ['Open reduction with internal fixation of the femur', '0'], ['Percutaneous coronary intervention (PCI)', '3'],
+    ['Endotracheal intubation', '7'], ['Thoracoscopic (VATS) lung biopsy', '4'], ['Tooth extraction', 'X'], ['Cystoscopy with stone removal', '8'],
+    ['Exploratory laparotomy', '0'], ['Thoracentesis with a needle', '3'], ['Manual reduction of a dislocated jaw', 'X'], ['Esophagogastroduodenoscopy (EGD)', '8']
+];
+
+window.PCS_GUIDELINE_QUESTIONS = [
+    { q: 'How many characters does an ICD-10-PCS code have, and which letters are never used?', opts: ['5 characters; no letters at all', '7 characters; the letters O and I are not used', '7 characters; the letters X and Z are not used', '6 characters; no restrictions'], a: 1, why: 'PCS codes are always 7 alphanumeric characters. O and I are excluded to avoid confusion with 0 and 1.', cite: 'ICD-10-PCS Conventions A1–A2' },
+    { q: 'Which character of a Medical and Surgical PCS code is the root operation?', opts: ['2nd', '3rd', '4th', '5th'], a: 1, why: 'Section, Body System, Root Operation, Body Part, Approach, Device, Qualifier.', cite: 'ICD-10-PCS structure' },
+    { q: 'Which character is the approach?', opts: ['4th', '5th', '6th', '7th'], a: 1, why: 'The 5th character is the approach; the 6th is the device and the 7th the qualifier.', cite: 'ICD-10-PCS structure' },
+    { q: 'A procedure is discontinued after only the incision is made. How is it coded?', opts: ['Not coded', 'Code the intended procedure', 'Code the root operation performed — e.g., Inspection if only the site was explored', 'Code Repair'], a: 2, why: 'If the intended procedure is discontinued, code to the root operation performed; if only the approach was performed, code Inspection of the body part or anatomical region inspected.', cite: 'PCS Guideline B3.3' },
+    { q: 'A biopsy is performed and in the same operative episode a more definitive excision of the same site follows. Coding?', opts: ['Code only the definitive procedure', 'Code only the biopsy', 'Code both the biopsy and the definitive treatment', 'Code Inspection'], a: 2, why: 'If a diagnostic Excision, Extraction or Drainage (biopsy) is followed by a more definitive procedure at the same site, both are coded.', cite: 'PCS Guideline B3.4b' },
+    { q: 'What qualifier value identifies a biopsy in PCS?', opts: ['Z No Qualifier', 'X Diagnostic', 'D Diagnostic', '0 Allogeneic'], a: 1, why: 'Biopsies are coded to Drainage, Excision or Extraction with the qualifier Diagnostic (X).', cite: 'PCS Guideline B3.4a' },
+    { q: 'An excisional debridement involves skin, subcutaneous tissue and muscle. Which body part layer is coded?', opts: ['Skin', 'Subcutaneous tissue', 'Muscle — the deepest layer', 'All three'], a: 2, why: 'If the root operation is performed on overlapping layers of the musculoskeletal system, the body part specifying the deepest layer is coded.', cite: 'PCS Guideline B3.5' },
+    { q: 'For a Bypass, what do the body part (4th) and qualifier (7th) characters represent?', opts: ['To, then from', 'Body part = bypassed FROM; qualifier = bypassed TO', 'Both the same site', 'Device, then route'], a: 1, why: 'Bypass is coded by identifying the body part bypassed from (4th character) and the body part bypassed to (qualifier).', cite: 'PCS Guideline B3.6a' },
+    { q: 'How are coronary artery bypass grafts counted in PCS?', opts: ['By the vessel bypassed from', 'By the number of coronary artery sites bypassed TO; the qualifier is the vessel bypassed FROM', 'One code per graft material', 'Always one code'], a: 1, why: 'Coronary arteries are classified by the number of distinct sites treated (bypassed to); the qualifier specifies the vessel bypassed from.', cite: 'PCS Guideline B3.6b' },
+    { q: 'Control of bleeding fails and the surgeon must resect the spleen to stop it. Root operation?', opts: ['Control', 'Resection', 'Repair', 'Both Control and Resection'], a: 1, why: 'If an attempt at Control fails and a more definitive root operation (Bypass, Detachment, Excision, Extraction, Reposition, Replacement or Resection) is required, that operation is coded instead of Control.', cite: 'PCS Guideline B3.7' },
+    { q: 'When is Resection used rather than Excision?', opts: ['Whenever a tumor is removed', 'When all of a body part, as defined by the PCS body part values, is cut out', 'When the procedure is open', 'When a device is left in place'], a: 1, why: 'Resection is coded when all of a body part is cut out or off; Excision is a portion. The PCS body part values decide what counts as "all" (e.g., a lung lobe is a body part).', cite: 'PCS Guideline B3.8' },
+    { q: 'Inspection of a body part is performed as part of an open procedure on that same body part. Is Inspection coded separately?', opts: ['Yes, always', 'No — Inspection integral to another procedure is not coded separately', 'Only if endoscopic', 'Only if a biopsy is taken'], a: 1, why: 'Inspection performed to achieve the objective of a procedure is not coded separately.', cite: 'PCS Guideline B3.11a' },
+    { q: 'Embolization of a vessel. Which root operation when the vessel is only partially closed?', opts: ['Occlusion', 'Restriction', 'Destruction', 'Bypass'], a: 1, why: 'Occlusion is coded when the objective is to completely close a vessel; Restriction when the objective is to narrow the lumen.', cite: 'PCS Guideline B3.12' },
+    { q: 'Closed reduction of a fracture (no incision, external force). Approach?', opts: ['Open', 'Percutaneous', 'External', 'Via natural or artificial opening'], a: 2, why: 'Procedures performed indirectly by applying external force through the skin are coded with the External approach.', cite: 'PCS Guideline B5.3b' },
+    { q: 'A device is placed during surgery but removed before the end of the procedure. Is it coded as a device?', opts: ['Yes', 'No — only devices that remain after the procedure are coded', 'Only if synthetic', 'Only if drug-eluting'], a: 1, why: 'A device is coded only if it remains after the procedure is completed; materials like sutures and clips that are integral to the procedure are not coded as devices.', cite: 'PCS Guideline B6.1a' },
+    { q: 'Where are PCS codes for procedures on the products of conception (fetus, placenta) found?', opts: ['Medical and Surgical (0)', 'Obstetrics (1)', 'Administration (3)', 'New Technology (X)'], a: 1, why: 'The Obstetrics section includes only procedures performed on the products of conception; procedures on the pregnant woman other than those are coded in Medical and Surgical.', cite: 'PCS Guideline C1' }
+];
+
+// ------------------------------------------------------------------
+// 4. CPT
+// ------------------------------------------------------------------
+window.CPT_SECTIONS = [
+    { id: 'em', name: 'Evaluation and Management', range: '99202–99499', color: '#38bdf8', tip: 'Visits, consults, critical care, preventive medicine — appears first in the book though numerically last.' },
+    { id: 'anes', name: 'Anesthesia', range: '00100–01999', color: '#a855f7', tip: 'Organized by anatomic site; reported with time and physical status modifiers. Qualifying circumstances 99100–99140.' },
+    { id: 'surg', name: 'Surgery', range: '10004–69990', color: '#ef4444', tip: 'The largest section, organized by body system from integumentary to auditory.' },
+    { id: 'rad', name: 'Radiology', range: '70010–79999', color: '#f59e0b', tip: 'Diagnostic radiology, ultrasound, radiation oncology, nuclear medicine.' },
+    { id: 'path', name: 'Pathology and Laboratory', range: '80047–89398', color: '#10b981', tip: 'Panels, chemistry, hematology, microbiology, surgical pathology.' },
+    { id: 'med', name: 'Medicine', range: '90281–99607', color: '#ec4899', tip: 'Vaccines, psychiatry, dialysis, cardiovascular, PT/OT, injections and more (excludes the E/M range).' },
+    { id: 'cat2', name: 'Category II', range: '0001F–9007F', color: '#2dd4bf', tip: 'Supplemental performance-measurement tracking codes ending in F; no fee attached.' },
+    { id: 'cat3', name: 'Category III', range: '0042T–…T', color: '#94a3b8', tip: 'Temporary codes for emerging technology, ending in T; must be used instead of an unlisted code when one exists.' }
+];
+
+// [code + description, section id]
+window.CPT_SECTION_ITEMS = [
+    ['99203 Office visit, new patient, low MDM', 'em'], ['99214 Office visit, established patient, moderate MDM', 'em'], ['99223 Initial hospital inpatient care, high MDM', 'em'],
+    ['99285 Emergency department visit, high MDM', 'em'], ['99291 Critical care, first 30–74 minutes', 'em'], ['99395 Preventive visit, established patient 18–39', 'em'],
+    ['00400 Anesthesia for procedures on the skin of the anterior trunk', 'anes'], ['01402 Anesthesia for total knee arthroplasty', 'anes'], ['00810 Anesthesia for lower intestinal endoscopy', 'anes'], ['01967 Neuraxial labor analgesia', 'anes'],
+    ['12001 Simple repair of a superficial wound, 2.5 cm or less', 'surg'], ['27447 Total knee arthroplasty', 'surg'], ['43239 EGD with biopsy', 'surg'], ['47562 Laparoscopic cholecystectomy', 'surg'],
+    ['66984 Cataract removal with IOL insertion', 'surg'], ['59400 Routine obstetric care, vaginal delivery', 'surg'], ['36415 Collection of venous blood by venipuncture', 'surg'], ['20610 Arthrocentesis, major joint', 'surg'],
+    ['70450 CT head without contrast', 'rad'], ['71046 Chest x-ray, 2 views', 'rad'], ['72148 MRI lumbar spine without contrast', 'rad'], ['76830 Transvaginal ultrasound', 'rad'], ['77067 Screening mammography, bilateral', 'rad'], ['78452 Myocardial perfusion imaging (SPECT)', 'rad'],
+    ['80053 Comprehensive metabolic panel', 'path'], ['80061 Lipid panel', 'path'], ['85025 CBC with automated differential', 'path'], ['87086 Urine culture', 'path'], ['88305 Surgical pathology, level IV', 'path'], ['83036 Hemoglobin A1c', 'path'],
+    ['90471 Immunization administration', 'med'], ['90837 Psychotherapy, 60 minutes', 'med'], ['93000 ECG with interpretation and report', 'med'], ['93306 Transthoracic echocardiogram, complete', 'med'], ['94010 Spirometry', 'med'], ['96372 Therapeutic injection, IM or subQ', 'med'], ['97110 Therapeutic exercise, each 15 minutes', 'med'], ['92014 Ophthalmological exam, established patient', 'med'],
+    ['3074F Most recent systolic blood pressure less than 130 mm Hg', 'cat2'], ['1000F Tobacco use assessed', 'cat2'], ['4004F Patient screened for tobacco use and received cessation counseling', 'cat2'],
+    ['0783T Transcutaneous auricular neurostimulation', 'cat3'], ['A code ending in T for an emerging-technology procedure', 'cat3']
+];
+
+window.CPT_SURGERY_SUBSECTIONS = [
+    { id: 'integ', name: 'Integumentary System', range: '10004–19499', color: '#fbbf24' },
+    { id: 'msk', name: 'Musculoskeletal System', range: '20100–29999', color: '#e2e8f0' },
+    { id: 'resp', name: 'Respiratory System', range: '30000–32999', color: '#38bdf8' },
+    { id: 'cv', name: 'Cardiovascular System', range: '33016–37799', color: '#ef4444' },
+    { id: 'hemic', name: 'Hemic and Lymphatic Systems', range: '38100–38999', color: '#fb7185' },
+    { id: 'medi', name: 'Mediastinum and Diaphragm', range: '39000–39599', color: '#94a3b8' },
+    { id: 'dig', name: 'Digestive System', range: '40490–49999', color: '#f97316' },
+    { id: 'uri', name: 'Urinary System', range: '50010–53899', color: '#facc15' },
+    { id: 'male', name: 'Male Genital System', range: '54000–55899', color: '#60a5fa' },
+    { id: 'female', name: 'Female Genital System', range: '56405–58999', color: '#f472b6' },
+    { id: 'ob', name: 'Maternity Care and Delivery', range: '59000–59899', color: '#fda4af' },
+    { id: 'endo', name: 'Endocrine System', range: '60000–60699', color: '#a3e635' },
+    { id: 'nerv', name: 'Nervous System', range: '61000–64999', color: '#a855f7' },
+    { id: 'eye', name: 'Eye and Ocular Adnexa', range: '65091–68899', color: '#22d3ee' },
+    { id: 'ear', name: 'Auditory System', range: '69000–69979', color: '#c084fc' }
+];
+
+// [code + description, subsection id]
+window.CPT_SURGERY_ITEMS = [
+    ['11042 Debridement, subcutaneous tissue, first 20 sq cm', 'integ'], ['12001 Simple repair of superficial wound', 'integ'], ['17110 Destruction of benign lesions (warts), up to 14', 'integ'], ['19120 Excision of breast lesion', 'integ'], ['10060 Incision and drainage of abscess, simple', 'integ'],
+    ['20610 Arthrocentesis, major joint', 'msk'], ['27447 Total knee arthroplasty', 'msk'], ['29881 Knee arthroscopy with meniscectomy', 'msk'], ['25500 Closed treatment of radial shaft fracture', 'msk'], ['22551 Anterior cervical discectomy and fusion', 'msk'],
+    ['31231 Nasal endoscopy, diagnostic', 'resp'], ['31600 Tracheostomy, planned', 'resp'], ['32554 Thoracentesis without imaging guidance', 'resp'], ['31622 Bronchoscopy, diagnostic', 'resp'],
+    ['33533 CABG, single arterial graft', 'cv'], ['36415 Venipuncture', 'cv'], ['37220 Iliac artery angioplasty', 'cv'], ['33208 Pacemaker insertion, dual chamber', 'cv'], ['36556 Central venous catheter insertion, non-tunneled, age 5 or older', 'cv'],
+    ['38500 Biopsy or excision of lymph node, superficial', 'hemic'], ['38100 Splenectomy, total', 'hemic'],
+    ['39200 Resection of mediastinal cyst', 'medi'], ['39503 Repair of neonatal diaphragmatic hernia', 'medi'],
+    ['43239 EGD with biopsy', 'dig'], ['45378 Colonoscopy, diagnostic', 'dig'], ['47562 Laparoscopic cholecystectomy', 'dig'], ['44970 Laparoscopic appendectomy', 'dig'], ['49505 Inguinal hernia repair, age 5 or older', 'dig'],
+    ['50590 Lithotripsy, extracorporeal shock wave', 'uri'], ['52000 Cystourethroscopy', 'uri'], ['51798 Measurement of post-voiding residual urine', 'uri'],
+    ['55700 Prostate biopsy, needle', 'male'], ['54150 Circumcision, clamp, newborn', 'male'], ['55250 Vasectomy', 'male'],
+    ['58150 Total abdominal hysterectomy', 'female'], ['57452 Colposcopy of the cervix', 'female'], ['58300 Insertion of IUD', 'female'],
+    ['59400 Routine obstetric care including vaginal delivery', 'ob'], ['59510 Routine obstetric care including cesarean delivery', 'ob'], ['59025 Fetal non-stress test', 'ob'],
+    ['60240 Thyroidectomy, total', 'endo'], ['60500 Parathyroidectomy', 'endo'],
+    ['62270 Spinal puncture, lumbar, diagnostic', 'nerv'], ['64483 Transforaminal epidural injection, lumbar', 'nerv'], ['64721 Carpal tunnel release', 'nerv'],
+    ['66984 Cataract removal with IOL', 'eye'], ['65855 Laser trabeculoplasty', 'eye'], ['67028 Intravitreal injection', 'eye'],
+    ['69436 Tympanostomy with tubes, general anesthesia', 'ear'], ['69210 Removal of impacted cerumen', 'ear']
+];
+
+window.CPT_MODIFIERS = [
+    { m: '22', name: 'Increased procedural services', tip: 'Work substantially greater than typical; needs documentation.' },
+    { m: '23', name: 'Unusual anesthesia', tip: 'General anesthesia for a procedure that usually needs none or local.' },
+    { m: '24', name: 'Unrelated E/M by the same physician during a postoperative period', tip: 'Different problem during the global period.' },
+    { m: '25', name: 'Significant, separately identifiable E/M on the same day as a procedure', tip: 'Goes on the E/M, same day as a minor procedure.' },
+    { m: '26', name: 'Professional component', tip: 'Interpretation/report only. TC (HCPCS) is the technical component.' },
+    { m: '27', name: 'Multiple outpatient hospital E/M encounters on the same date', tip: 'Facility use only.' },
+    { m: '32', name: 'Mandated services', tip: 'Required by a third party (e.g., court or payer).' },
+    { m: '33', name: 'Preventive service', tip: 'Service meets preventive mandate; no cost sharing.' },
+    { m: '47', name: 'Anesthesia by surgeon', tip: 'Surgeon provides regional/general anesthesia; not on anesthesia codes.' },
+    { m: '50', name: 'Bilateral procedure', tip: 'Same procedure, both sides, same session.' },
+    { m: '51', name: 'Multiple procedures', tip: 'Secondary procedures at the same session; not on add-on or ⊘ codes.' },
+    { m: '52', name: 'Reduced services', tip: 'Service partially reduced at the physician’s discretion.' },
+    { m: '53', name: 'Discontinued procedure', tip: 'Stopped for the patient’s well-being after anesthesia/start.' },
+    { m: '54', name: 'Surgical care only', tip: 'Surgeon does the operation only; another manages pre/postop.' },
+    { m: '55', name: 'Postoperative management only', tip: 'Another physician does the postoperative care.' },
+    { m: '56', name: 'Preoperative management only', tip: 'Another physician does the preoperative care.' },
+    { m: '57', name: 'Decision for surgery', tip: 'E/M that resulted in the decision for a major (90-day) procedure, day of or day before.' },
+    { m: '58', name: 'Staged or related procedure during the postoperative period', tip: 'Planned, more extensive, or therapy after a diagnostic procedure.' },
+    { m: '59', name: 'Distinct procedural service', tip: 'Different session, site, organ system, incision or lesion. XE/XS/XP/XU are the HCPCS subsets.' },
+    { m: '62', name: 'Two surgeons', tip: 'Co-surgeons each performing a distinct part of one procedure.' },
+    { m: '63', name: 'Procedure performed on infants less than 4 kg', tip: 'Increased complexity; not on codes already describing infants.' },
+    { m: '66', name: 'Surgical team', tip: 'Highly complex procedure needing a team.' },
+    { m: '76', name: 'Repeat procedure by the same physician', tip: 'Same service repeated after the original.' },
+    { m: '77', name: 'Repeat procedure by another physician', tip: 'Repeat by a different physician.' },
+    { m: '78', name: 'Unplanned return to the operating room for a related procedure during the postoperative period', tip: 'Complication requiring a return to the OR.' },
+    { m: '79', name: 'Unrelated procedure by the same physician during the postoperative period', tip: 'New problem, new global period.' },
+    { m: '80', name: 'Assistant surgeon', tip: 'Physician assistant-at-surgery.' },
+    { m: '81', name: 'Minimum assistant surgeon', tip: 'Assistant for a short portion.' },
+    { m: '82', name: 'Assistant surgeon when a qualified resident is not available', tip: 'Teaching-hospital situation.' },
+    { m: '90', name: 'Reference (outside) laboratory', tip: 'Test performed by an outside lab and billed by the ordering entity.' },
+    { m: '91', name: 'Repeat clinical diagnostic laboratory test', tip: 'Same test repeated the same day for a medically necessary reason.' },
+    { m: '92', name: 'Alternative laboratory platform testing', tip: 'Single-use kit/transportable instrument.' },
+    { m: '93', name: 'Synchronous telemedicine via telephone or other real-time audio-only system', tip: 'Audio only.' },
+    { m: '95', name: 'Synchronous telemedicine via real-time interactive audio and video', tip: 'Video visit.' },
+    { m: '96', name: 'Habilitative services', tip: 'Learning a skill never had.' },
+    { m: '97', name: 'Rehabilitative services', tip: 'Regaining a skill that was lost.' },
+    { m: '99', name: 'Multiple modifiers', tip: 'Two or more modifiers needed; list them in the record.' },
+    { m: 'TC', name: 'Technical component (HCPCS)', tip: 'Equipment, supplies, technologist — paired with 26 for the global service.' },
+    { m: 'LT / RT', name: 'Left side / Right side (HCPCS)', tip: 'Identifies the side; not a substitute for 50.' },
+    { m: 'XE XS XP XU', name: 'Separate encounter / structure / practitioner / unusual service (HCPCS)', tip: 'More specific alternatives to 59 for Medicare.' },
+    { m: 'GA', name: 'Waiver of liability (ABN) on file (HCPCS)', tip: 'Patient signed an Advance Beneficiary Notice.' },
+    { m: 'AS', name: 'PA, NP or CNS assistant at surgery (HCPCS)', tip: 'Non-physician assistant at surgery.' },
+    { m: 'P1–P6', name: 'Anesthesia physical status (CPT)', tip: 'P1 healthy · P2 mild systemic disease · P3 severe · P4 constant threat to life · P5 moribund · P6 brain-dead donor.' },
+    { m: 'AA / QK / QX / QZ', name: 'Anesthesia provider modifiers (HCPCS)', tip: 'AA anesthesiologist personally · QK medical direction of 2–4 · QX CRNA with direction · QZ CRNA without direction.' }
+];
+
+// [scenario, modifier]
+window.CPT_MODIFIER_SCENARIOS = [
+    ['Patient returns to the OR three days after surgery for bleeding at the surgical site', '78'],
+    ['During the 90-day global period of a hip replacement, the surgeon treats the patient’s unrelated sinus infection at an office visit', '24'],
+    ['An E/M visit leads to the decision to perform a major surgery the next day', '57'],
+    ['A significant, separately identifiable E/M is performed on the same day as a minor procedure (10-day global)', '25'],
+    ['Radiologist reads and reports the x-ray; the hospital owns the equipment', '26'],
+    ['Hospital bills for the equipment and technologist for that same x-ray', 'TC'],
+    ['Carpal tunnel release performed on both wrists in one session', '50'],
+    ['Colonoscopy stopped after sedation because the patient became unstable', '53'],
+    ['Surgeon performs the operation; a different physician in another town provides all postoperative care — surgeon’s claim', '54'],
+    ['The physician providing only that postoperative care — their claim', '55'],
+    ['Potassium level repeated three hours later on the same day to check treatment', '91'],
+    ['Lesion removed from the arm and, at the same session, a separate lesion removed from the leg', '59'],
+    ['Audio-only telephone visit with an established patient', '93'],
+    ['Real-time video visit', '95'],
+    ['Surgery on a 3.5 kg infant', '63'],
+    ['Physician office sends blood to an outside laboratory and bills for the test', '90'],
+    ['A physician assists the primary surgeon throughout the procedure', '80'],
+    ['A planned second-stage skin graft performed during the postoperative period of the first stage', '58'],
+    ['Same surgeon repeats the same chest tube insertion later the same day', '76'],
+    ['A different physician repeats the same procedure the same day', '77'],
+    ['A new, unrelated procedure by the same surgeon during the postoperative period', '79'],
+    ['Two surgeons of different specialties each perform a distinct part of one spinal procedure', '62'],
+    ['The surgeon personally administers a regional block for their own procedure', '47'],
+    ['Procedure took substantially more work than usual because of extensive adhesions, documented in detail', '22'],
+    ['A second procedure performed at the same session as the primary procedure (no add-on code)', '51'],
+    ['Physician elects to perform only part of a bilateral service', '52'],
+    ['Medicare patient signed an Advance Beneficiary Notice for a service that may be denied', 'GA'],
+    ['A nurse practitioner assists at surgery', 'AS'],
+    ['Physical therapy to regain walking after a stroke', '97'],
+    ['Speech therapy to help a child learn to speak for the first time', '96']
+];
+
+window.CPT_RULES_QUESTIONS = [
+    { q: 'Which symbol marks a CPT code that is exempt from modifier 51?', opts: ['●', '▲', '⊘', '+'], a: 2, why: '⊘ = modifier 51 exempt. ● new code · ▲ revised code · + add-on code · ★ telemedicine · # resequenced.', cite: 'CPT conventions' },
+    { q: 'What does the + symbol in front of a CPT code mean?', opts: ['New code', 'Add-on code — reported only with a primary procedure, never alone, exempt from modifier 51', 'Bilateral procedure', 'Telemedicine eligible'], a: 1, why: 'Add-on codes describe additional work and are always reported in addition to the primary code.', cite: 'CPT conventions' },
+    { q: 'What does the ★ symbol indicate?', opts: ['FDA approval pending', 'Code may be reported for telemedicine with modifier 95', 'Resequenced code', 'Category III code'], a: 1, why: 'The star identifies codes that may be used to report synchronous (real-time) telemedicine services.', cite: 'CPT conventions' },
+    { q: 'What does the # symbol mean?', opts: ['Resequenced code — out of numeric order', 'New code', 'Deleted code', 'Modifier required'], a: 0, why: 'Resequenced codes keep their number but appear out of numeric sequence next to related codes.', cite: 'CPT conventions' },
+    { q: 'Category III CPT codes end in which letter?', opts: ['F', 'T', 'X', 'U'], a: 1, why: 'Category III (emerging technology) codes end in T; Category II (performance measurement) codes end in F.', cite: 'CPT Category III' },
+    { q: 'An emerging-technology procedure has a Category III code. Can you report an unlisted Category I code instead?', opts: ['Yes, either', 'No — the Category III code must be used when one exists', 'Yes, if paid more', 'Only for Medicare'], a: 1, why: 'When a Category III code exists it must be reported instead of an unlisted code.', cite: 'CPT Category III' },
+    { q: 'Office/outpatient E/M levels (99202–99215) are selected by which methods?', opts: ['History and exam only', 'Medical decision making (MDM) OR total time on the date of the encounter', 'Time only', 'Number of diagnoses only'], a: 1, why: 'Since 2021 office/outpatient visits are leveled by MDM or by total practitioner time on the date of service; history and exam are "medically appropriate" but not scored.', cite: 'CPT E/M guidelines' },
+    { q: 'What are the three elements of medical decision making?', opts: ['History, exam, MDM', 'Number and complexity of problems addressed; amount and complexity of data; risk of complications of patient management', 'Time, counseling, coordination', 'Diagnoses, orders, referrals'], a: 1, why: 'MDM level requires meeting or exceeding two of the three elements.', cite: 'CPT E/M guidelines' },
+    { q: 'How many of the three MDM elements must be met to support a level?', opts: ['All three', 'Two of three', 'One of three', 'None if time is used'], a: 1, why: 'Two of the three elements must meet or exceed the requirements for the level.', cite: 'CPT E/M guidelines' },
+    { q: 'A patient was seen by a partner of the same specialty in the same group 2 years ago. New or established?', opts: ['New', 'Established', 'New if a different office location', 'Depends on the payer'], a: 1, why: 'A new patient has not received professional services from the physician, or another physician of the exact same specialty and subspecialty in the same group, within the past three years.', cite: 'CPT E/M guidelines' },
+    { q: 'Which office E/M code may be reported for a nurse visit without the physician present?', opts: ['99202', '99211', '99212', '99213'], a: 1, why: '99211 is for an established patient visit that may not require the presence of a physician or other qualified health care professional.', cite: 'CPT E/M guidelines' },
+    { q: 'Emergency department E/M codes (99281–99285) are leveled by what?', opts: ['Time', 'MDM only', 'MDM or time', 'Number of tests'], a: 1, why: 'ED codes have no time component; they are selected by MDM.', cite: 'CPT E/M guidelines' },
+    { q: 'Critical care: which code is reported for the first 30–74 minutes?', opts: ['99292', '99291', '99223', '99285'], a: 1, why: '99291 covers the first 30–74 minutes; +99292 is each additional 30 minutes. Less than 30 minutes is reported with an appropriate E/M code.', cite: 'CPT Critical Care' },
+    { q: 'What is included in the CPT surgical package?', opts: ['Only the operation', 'The operation, local/topical anesthesia, one related E/M after the decision for surgery (day before/day of), immediate postoperative care, orders, PACU evaluation and typical follow-up', 'All care for 1 year', 'Any complication requiring return to the OR'], a: 1, why: 'The global surgical package bundles the usual pre-, intra- and postoperative services; complications requiring a return to the OR are reported separately (modifier 78).', cite: 'CPT Surgery guidelines' },
+    { q: 'What are the Medicare global periods for minor and major procedures?', opts: ['0/10 days minor; 90 days major', '30 days minor; 180 days major', '10 days for all', '60 days major'], a: 0, why: 'Minor procedures carry a 0- or 10-day global period; major procedures carry 90 days.', cite: 'CMS global surgery' },
+    { q: 'A code is labeled "(separate procedure)." When may it be reported?', opts: ['Always', 'Only when performed alone or unrelated to the other procedures at that session (often with modifier 59)', 'Never', 'Only with modifier 51'], a: 1, why: '"Separate procedure" codes are integral to larger procedures and are reported only when performed independently.', cite: 'CPT Surgery guidelines' },
+    { q: 'Anesthesia time begins when?', opts: ['When the surgery begins', 'When the anesthesiologist begins to prepare the patient for induction in the OR or equivalent area', 'When the patient arrives at the hospital', 'When consent is signed'], a: 1, why: 'Anesthesia time starts with preparation for induction and ends when the anesthesia provider is no longer in personal attendance.', cite: 'CPT Anesthesia guidelines' },
+    { q: 'Physical status modifier for a patient with severe systemic disease that is a constant threat to life?', opts: ['P2', 'P3', 'P4', 'P5'], a: 2, why: 'P1 healthy · P2 mild systemic disease · P3 severe systemic disease · P4 severe disease that is a constant threat to life · P5 moribund · P6 brain-dead organ donor.', cite: 'CPT Anesthesia guidelines' },
+    { q: 'Which qualifying-circumstances code reports anesthesia for a patient under 1 or over 70 years?', opts: ['99100', '99116', '99135', '99140'], a: 0, why: '99100 extreme age · 99116 total body hypothermia · 99135 controlled hypotension · 99140 emergency conditions.', cite: 'CPT Anesthesia qualifying circumstances' },
+    { q: 'Standard anesthesia fee formula?', opts: ['Base units × conversion factor', '(Base units + Time units + Modifying units) × conversion factor', 'Time units only', 'RVU × GPCI'], a: 1, why: 'Base (from the code) plus time units (commonly 15 minutes each) plus modifying units (physical status, qualifying circumstances) times the conversion factor.', cite: 'Anesthesia billing' },
+    { q: 'In radiology, "with contrast" means contrast given by which routes?', opts: ['Oral or rectal', 'Intravascular, intra-articular or intrathecal', 'Topical', 'Any route'], a: 1, why: 'Oral and rectal contrast alone does not qualify as "with contrast."', cite: 'CPT Radiology guidelines' },
+    { q: 'A radiology code reported with both the professional and technical work by one entity is called what?', opts: ['Split service', 'Global service (no 26 or TC)', 'Component service', 'Bundled service'], a: 1, why: 'When one provider owns the equipment and interprets the study, the global code is reported without 26 or TC.', cite: 'CPT Radiology guidelines' },
+    { q: 'To report an organ or disease-oriented lab panel (e.g., 80053), what must be true?', opts: ['At least half the tests were performed', 'All tests listed in the panel were performed', 'The tests were ordered together', 'The panel was medically necessary'], a: 1, why: 'All component tests must be performed to report the panel; otherwise report the individual tests.', cite: 'CPT Pathology/Laboratory guidelines' },
+    { q: 'Surgical pathology codes 88300–88309 are leveled by what?', opts: ['Specimen size', 'The level of physician work required to examine the specimen (I–VI)', 'Number of slides', 'Time'], a: 1, why: 'Level I (gross only) through Level VI reflect increasing complexity of examination by specimen type.', cite: 'CPT Surgical Pathology' },
+    { q: 'How are unlisted procedure codes (e.g., 49999) handled?', opts: ['Reported freely', 'Reported only when no specific Category I or III code exists, with a description/documentation', 'Never used', 'Replaced by modifier 22'], a: 1, why: 'Unlisted codes require supporting documentation and are a last resort.', cite: 'CPT conventions' },
+    { q: 'Vaccine administration (90471) and the vaccine product (e.g., 90686): how are they reported?', opts: ['Only the product', 'Only the administration', 'Both — administration code plus the product code', 'As one bundled code'], a: 2, why: 'Immunization administration codes are reported in addition to the vaccine/toxoid product codes.', cite: 'CPT Medicine guidelines' },
+    { q: 'Psychotherapy codes 90832/90834/90837 are selected by what?', opts: ['Diagnosis', 'Time: 30, 45 and 60 minutes', 'Setting', 'Number of problems'], a: 1, why: '90832 (16–37 min), 90834 (38–52 min), 90837 (53+ min).', cite: 'CPT Psychiatry' },
+    { q: 'Which code set is used to report professional procedures and services in the physician office?', opts: ['ICD-10-PCS', 'CPT (HCPCS Level I)', 'ICD-10-CM', 'DRG'], a: 1, why: 'CPT is HCPCS Level I; ICD-10-PCS is used only for hospital inpatient procedures.', cite: 'Code sets' },
+    { q: 'Who publishes and maintains CPT?', opts: ['CMS', 'AMA', 'WHO', 'AHIMA'], a: 1, why: 'The American Medical Association owns and updates CPT annually (effective January 1).', cite: 'CPT' },
+    { q: 'Which E/M codes report initial hospital inpatient or observation care?', opts: ['99231–99233', '99221–99223', '99281–99285', '99202–99205'], a: 1, why: '99221–99223 initial; 99231–99233 subsequent; 99238–99239 discharge (since 2023 observation and inpatient share these codes).', cite: 'CPT E/M guidelines' },
+    { q: 'Modifier 25 is appended to which code?', opts: ['The procedure code', 'The E/M code', 'Both', 'The anesthesia code'], a: 1, why: 'Modifier 25 goes on the significant, separately identifiable E/M service, not the procedure.', cite: 'CPT Appendix A' },
+    { q: 'Modifier 57 is used with the decision for what kind of procedure?', opts: ['Minor (0/10-day global)', 'Major (90-day global)', 'Any procedure', 'Diagnostic tests'], a: 1, why: 'Modifier 57 applies to the E/M that results in the decision for a major surgery; for minor procedures use modifier 25 when appropriate.', cite: 'CPT Appendix A' },
+    { q: 'Which modifier is reported on an add-on code when multiple procedures are performed?', opts: ['51', 'None — add-on codes are exempt from modifier 51', '59', '22'], a: 1, why: 'Add-on codes are never reported with modifier 51.', cite: 'CPT conventions' }
+];
+
+// ------------------------------------------------------------------
+// 5. HCPCS LEVEL II
+// ------------------------------------------------------------------
+window.HCPCS_SECTIONS = [
+    { ch: 'A', name: 'Transportation, medical and surgical supplies, miscellaneous', range: 'A0021–A9999', color: '#38bdf8', eg: 'Ambulance (A0…), supplies (A4…), radiopharmaceuticals (A9…)' },
+    { ch: 'B', name: 'Enteral and parenteral therapy', range: 'B4034–B9999', color: '#a3e635', eg: 'Enteral formulas, feeding supply kits, parenteral nutrition' },
+    { ch: 'C', name: 'Outpatient PPS (hospital outpatient temporary codes)', range: 'C1000–C9999', color: '#f97316', eg: 'Devices and drugs under OPPS pass-through' },
+    { ch: 'D', name: 'Dental procedures (CDT codes, published by the ADA)', range: 'D0000–D9999', color: '#e2e8f0', eg: 'Oral evaluations, prophylaxis, restorations' },
+    { ch: 'E', name: 'Durable medical equipment (DME)', range: 'E0100–E8002', color: '#10b981', eg: 'Walkers, hospital beds, oxygen equipment, CPAP' },
+    { ch: 'G', name: 'Procedures and professional services (temporary)', range: 'G0008–G9999', color: '#f59e0b', eg: 'Medicare wellness visits, screenings, quality measures' },
+    { ch: 'H', name: 'Alcohol and drug abuse treatment, rehabilitative services', range: 'H0001–H2037', color: '#ec4899', eg: 'Assessments, counseling, methadone administration' },
+    { ch: 'J', name: 'Drugs administered other than oral method; chemotherapy drugs', range: 'J0120–J9999', color: '#a855f7', eg: 'Injections and infusions; J9… = chemotherapy' },
+    { ch: 'K', name: 'Temporary codes (DME MACs)', range: 'K0001–K1xxx', color: '#2dd4bf', eg: 'Wheelchairs and components' },
+    { ch: 'L', name: 'Orthotic and prosthetic procedures', range: 'L0112–L9900', color: '#fbbf24', eg: 'Braces, orthoses, artificial limbs, mastectomy bras' },
+    { ch: 'M', name: 'Medical services and quality measures', range: 'M0075–M1xxx', color: '#94a3b8', eg: 'Cellular therapy, quality measure reporting' },
+    { ch: 'P', name: 'Pathology and laboratory services', range: 'P2028–P9615', color: '#60a5fa', eg: 'Blood products, travel allowance for specimen collection' },
+    { ch: 'Q', name: 'Temporary codes (CMS)', range: 'Q0035–Q9992', color: '#c084fc', eg: 'Casting supplies, telehealth facility fee, biosimilars' },
+    { ch: 'R', name: 'Diagnostic radiology services', range: 'R0070–R0076', color: '#fda4af', eg: 'Portable x-ray equipment transport' },
+    { ch: 'S', name: 'Temporary national codes (non-Medicare; private payers)', range: 'S0012–S9999', color: '#fb7185', eg: 'Urgent care global fee, home infusion' },
+    { ch: 'T', name: 'National codes for state Medicaid agencies', range: 'T1000–T5999', color: '#84cc16', eg: 'Personal care services, non-emergency transportation' },
+    { ch: 'U', name: 'COVID-19 laboratory tests (CMS)', range: 'U0001–U0005', color: '#facc15', eg: 'SARS-CoV-2 PCR tests' },
+    { ch: 'V', name: 'Vision and hearing services', range: 'V2020–V5364', color: '#ef4444', eg: 'Frames, lenses, contact lenses (V2…); hearing aids (V5…)' }
+];
+
+// [item, letter, example code]
+window.HCPCS_ITEMS = [
+    ['Ground ambulance mileage, per mile', 'A', 'A0425'], ['Ambulance, basic life support, emergency', 'A', 'A0429'], ['Syringe with needle, sterile', 'A', 'A4206'], ['Electrodes, per pair', 'A', 'A4556'], ['Gauze pads, sterile', 'A', 'A6402'], ['Non-covered item or service', 'A', 'A9270'], ['Technetium Tc-99m sestamibi (radiopharmaceutical)', 'A', 'A9500'], ['Blood glucose test strips, box of 50', 'A', 'A4253'],
+    ['Enteral formula, nutritionally complete', 'B', 'B4150'], ['Enteral feeding supply kit, syringe, per day', 'B', 'B4034'],
+    ['Anchor/screw for opposing bone-to-bone (hospital outpatient)', 'C', 'C1713'], ['Unclassified drug or biological, hospital outpatient', 'C', 'C9399'],
+    ['Adult dental prophylaxis (cleaning)', 'D', 'D1110'], ['Periodic oral evaluation', 'D', 'D0120'],
+    ['Crutches, underarm, pair', 'E', 'E0114'], ['Walker, folding, wheeled', 'E', 'E0143'], ['Commode chair with fixed arms', 'E', 'E0163'], ['Hospital bed, semi-electric, with mattress', 'E', 'E0260'], ['Portable gaseous oxygen system', 'E', 'E0431'], ['CPAP device', 'E', 'E0601'], ['Home blood glucose monitor', 'E', 'E0607'], ['Ambulatory infusion pump', 'E', 'E0781'], ['Oxygen concentrator', 'E', 'E1390'],
+    ['Administration of influenza vaccine (Medicare)', 'G', 'G0008'], ['Cervical or vaginal cancer screening; pelvic and clinical breast exam', 'G', 'G0101'], ['Initial Preventive Physical Exam ("Welcome to Medicare")', 'G', 'G0402'], ['Annual wellness visit, initial', 'G', 'G0438'], ['Annual wellness visit, subsequent', 'G', 'G0439'], ['Annual depression screening, 5–15 minutes', 'G', 'G0444'], ['Hospital outpatient clinic visit', 'G', 'G0463'],
+    ['Alcohol and/or drug assessment', 'H', 'H0001'], ['Behavioral health counseling, per 15 minutes', 'H', 'H0004'], ['Methadone administration and/or service', 'H', 'H0020'], ['Crisis intervention service, per 15 minutes', 'H', 'H2011'],
+    ['Injection, epinephrine, 0.1 mg', 'J', 'J0171'], ['Injection, dexamethasone sodium phosphate, 1 mg', 'J', 'J1100'], ['Injection, ketorolac, 15 mg', 'J', 'J1885'], ['Injection, triamcinolone acetonide, 10 mg', 'J', 'J3301'], ['Injection, vitamin B12 (cyanocobalamin), up to 1000 mcg', 'J', 'J3420'], ['Infusion, normal saline, 1000 cc', 'J', 'J7030'], ['Injection, doxorubicin, 10 mg (chemotherapy)', 'J', 'J9000'], ['Injection, fluorouracil, 500 mg (chemotherapy)', 'J', 'J9190'], ['Injection, rituximab, 10 mg', 'J', 'J9312'],
+    ['Standard manual wheelchair', 'K', 'K0001'], ['Lightweight wheelchair', 'K', 'K0003'], ['Power wheelchair, group 2 standard', 'K', 'K0823'],
+    ['Thoracic-lumbar-sacral orthosis (TLSO), flexible', 'L', 'L0450'], ['Knee orthosis with adjustable joints', 'L', 'L1832'], ['Wrist-hand orthosis, cock-up', 'L', 'L3908'], ['Partial foot prosthesis, shoe insert', 'L', 'L5000'], ['Mastectomy bra', 'L', 'L8000'],
+    ['Whole blood, per unit', 'P', 'P9010'], ['Red blood cells, leukocytes reduced, per unit', 'P', 'P9016'], ['Travel allowance for specimen collection, per mile', 'P', 'P9603'],
+    ['Pap smear specimen collection (Medicare)', 'Q', 'Q0091'], ['Casting supplies, body cast', 'Q', 'Q4001'], ['Telehealth originating site facility fee', 'Q', 'Q3014'], ['Injection, filgrastim-sndz (biosimilar), 1 mcg', 'Q', 'Q5101'],
+    ['Transportation of portable x-ray equipment', 'R', 'R0070'],
+    ['Global fee, urgent care center', 'S', 'S9083'], ['Removal of sutures by a physician other than the one who placed them', 'S', 'S0630'],
+    ['Personal care services, per 15 minutes (Medicaid)', 'T', 'T1019'], ['Clinic visit, all-inclusive (Medicaid)', 'T', 'T1015'], ['Non-emergency transportation, patient attendant', 'T', 'T2001'],
+    ['SARS-CoV-2 test, CDC method', 'U', 'U0001'], ['SARS-CoV-2 test, high-throughput', 'U', 'U0003'],
+    ['Eyeglass frames', 'V', 'V2020'], ['Single-vision spherical lens', 'V', 'V2100'], ['Contact lens', 'V', 'V2500'], ['Hearing screening', 'V', 'V5008'], ['Hearing aid repair', 'V', 'V5014'], ['Hearing aid, digital, binaural', 'V', 'V5261']
+];

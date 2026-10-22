@@ -183,3 +183,29 @@ button.wl-tile:disabled { opacity: 0.25; cursor: default; }
 .cs-ch-body { padding: 0 0.75rem 0.6rem 2.6rem; display: flex; flex-direction: column; gap: 0.25rem; }
 .cs-ex { display: flex; justify-content: space-between; gap: 0.5rem; font-size: 0.8rem; color: var(--color-text-secondary); border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 0.25rem; }
 .cs-ex code { color: var(--gm-accent); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; white-space: nowrap; }
+
+/* ---------- Code Sprint: expanded menu, study tables, cloze ---------- */
+.cs-top { margin-bottom: var(--spacing-md); }
+.cs-modes { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.6rem; }
+.cs-mode { display: grid; grid-template-columns: 40px 1fr; gap: 0.6rem; align-items: start; text-align: left; background: var(--color-bg-secondary); border: 1px solid rgba(255, 255, 255, 0.07); border-left: 4px solid var(--gm-accent); border-radius: var(--radius-lg); padding: 0.75rem; color: var(--color-text-primary); cursor: pointer; transition: transform 0.15s ease, box-shadow 0.15s ease; }
+.cs-mode:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); }
+.cs-mode-icon { font-size: 1.6rem; }
+.cs-mode-body { display: flex; flex-direction: column; gap: 0.2rem; min-width: 0; }
+.cs-mode-body b { font-size: 0.95rem; }
+.cs-mode-body span { font-size: 0.78rem; color: var(--color-text-secondary); line-height: 1.35; }
+.cs-mode-body em { font-size: 0.7rem; font-style: normal; color: var(--gm-accent); }
+.cs-study { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.5rem 0 0.25rem; }
+.ag-mode-card:disabled { opacity: 0.6; cursor: default; }
+.cs-badge { display: inline-block; font-style: normal; font-size: 0.64rem; padding: 0.05rem 0.45rem; border-radius: 999px; background: rgba(96, 165, 250, 0.2); color: #93c5fd; margin-left: 0.35rem; vertical-align: middle; }
+.cs-cloze b { font-weight: 500; font-size: 1rem; line-height: 1.5; }
+.cs-cite { font-size: 0.74rem; color: var(--color-text-tertiary); }
+.cs-ttitle { font-size: 1.2rem; margin: 0 0 0.5rem; }
+.cs-table { display: flex; flex-direction: column; gap: 0.35rem; }
+.cs-tgroup { margin: 0.8rem 0 0.2rem; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.6px; color: var(--color-text-tertiary); }
+.cs-trow { display: grid; grid-template-columns: 78px 1fr; gap: 0.6rem; align-items: start; background: var(--color-bg-secondary); border-left: 4px solid var(--gm-accent); border-radius: var(--radius-md); padding: 0.5rem 0.7rem; font-size: 0.84rem; }
+.cs-tkey { font-weight: 800; color: var(--gm-accent); word-break: break-word; }
+.cs-tbody { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+.cs-tbody b { font-weight: 600; } .cs-tbody small { color: var(--color-text-tertiary); font-weight: 400; }
+.cs-tbody span { font-size: 0.76rem; color: var(--color-text-secondary); line-height: 1.4; }
+.cs-tbody em { color: var(--color-text-tertiary); }
+.cs-tbody mark { background: rgba(96, 165, 250, 0.3); color: #fff; border-radius: 4px; padding: 0 0.2rem; }

@@ -172,7 +172,7 @@ class GamesHub {
             today ? { color: today.color, icon: today.icon, title: today.title, meta: 'Anatomy · Label It', go: `window.anatomyGame.startLabel('${today.id}')` } : null,
             { color: '#38bdf8', icon: '🧬', title: 'Word Lab', meta: 'Build 8 medical terms', go: 'window.wordLab.startBuild()' },
             fl ? { color: fl.color, icon: fl.icon, title: fl.title, meta: 'Flow of the day', go: `window.flowGame.startOrder('${fl.id}')` } : null,
-            { color: '#10b981', icon: '🧾', title: 'Code Sprint', meta: 'ICD-10-CM chapters', go: 'window.codeSprint.startChapters()' },
+            { color: '#10b981', icon: '🧾', title: 'Code Sprint', meta: 'Chapters · guidelines · PCS · CPT · HCPCS', go: "app.switchView('code-sprint')" },
             { color: '#ef4444', icon: '🦠', title: 'Patho Map', meta: 'Tap where disease lives', go: "window.anatomyGame.startPatho('mix')" }
         ].filter(Boolean);
         strip.innerHTML = cards.map(c => `
