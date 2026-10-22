@@ -204,6 +204,13 @@ class CodeSprint {
             return { id: `hcpcs:${i}`, kind: 'Which HCPCS Level II section?', prompt: item, opts, a: opts.findIndex(o => o.ref === right), why: `${code} — section ${right.ch}, ${right.name} (${right.range}).` };
         }, 'A for ambulance and supplies, E for equipment, J for injectables, L for braces…');
 
+        const neoCats = window.NEOPLASM_CATEGORIES || []; const neoItems = window.NEOPLASM_ITEMS || [];
+        B.neoplasm = mk('neoplasm', 'Neoplasm Table', '🧫', '#f472b6', 'ICD-10-CM', neoItems.length, i => {
+            const [stmt, id, why] = neoItems[i];
+            const right = neoCats.find(x => x.id === id);
+            const opts = catOpts(neoCats, right, x => x.name);
+            return { id: `neoplasm:${i}`, kind: 'Which column of the Neoplasm Table?', prompt: stmt, opts, a: opts.findIndex(o => o.ref === right), why: `${right.name}. ${why} ${right.tip}` };
+        }, 'Primary, secondary, in situ, benign, uncertain, unspecified — or not the Table at all.');
         return B;
     }
     question(id) {
@@ -236,10 +243,20 @@ class CodeSprint {
         const study = {
             'ICD-10-CM': [['🗺️ Chapter Map', 'showMap()'], ['📜 Guideline sheet', "showTable('cloze')"]],
             'ICD-10-PCS': [['🔪 Root-operation table', "showTable('pcsroot')"], ['🚪 Approach table', "showTable('pcsapp')"], ['📚 Section table', "showTable('pcssect')"], ['🔢 7 characters', "showTable('pcschars')"]],
-            'CPT': [['📙 Section ranges', "showTable('cptsect')"], ['🩻 Surgery ranges', "showTable('cptsurg')"], ['🏷️ Modifier table', "showTable('cptmod')"]],
+            'CPT': [['📙 Section ranges', "showTable('cptsect')"], ['🩻 Surgery ranges', "showTable('cptsurg')"], ['🏷️ Modifier table', "showTable('cptmod')"], ['🧮 MDM table', "showTable('emtable')"]],
             'HCPCS': [['🔤 Letter table', "showTable('hcpcs')"]],
             'Code sets': []
         };
+        const custom = {
+            'ICD-10-CM': [{ icon: '🔗', title: 'Sequence It', color: '#f97316', blurb: 'Order the codes for a short case, principal first — with trap codes that must not be reported.', go: 'showSeqMenu()', key: 'seq', size: (window.SEQ_CASES || []).length, unit: 'cases' }],
+            'CPT': [
+                { icon: '🧮', title: 'E/M Level Builder', color: '#38bdf8', blurb: 'Read a mini chart note, rate problems, data and risk, then pick the office visit code.', go: 'startEM()', key: 'em', size: (window.EM_CASES || []).length, unit: 'cases' },
+                { icon: '💉', title: 'Anesthesia Units', color: '#a855f7', blurb: 'Time units, modifying units, total units and the fee — step by step from a case card.', go: 'startAnes()', key: 'anes', size: (window.ANES_CODES || []).length, unit: 'codes · endless cases' }
+            ]
+        };
+        const customCard = m => { const r = this.rec(m.key); return `<button class="cs-mode" style="--gm-accent:${m.color}" onclick="window.codeSprint.${m.go}">
+                <span class="cs-mode-icon">${m.icon}</span>
+                <span class="cs-mode-body"><b>${u.esc(m.title)}</b><span>${u.esc(m.blurb)}</span><em>${m.size} ${m.unit}${r.plays ? ` · ${r.plays} played · ${r.total ? Math.round(r.correct / r.total * 100) : 0}%` : ''}</em></span></button>`; };
         const card = b => {
             const r = this.rec(b.key); const acc = r.total ? Math.round(r.correct / r.total * 100) : null;
             return `<button class="cs-mode" style="--gm-accent:${b.color}" onclick="window.codeSprint.startRound('${b.key}')">
@@ -269,7 +286,7 @@ class CodeSprint {
                 const banks = Object.values(this.banks).filter(b => b.group === g);
                 if (!banks.length) return '';
                 return `<h3 class="ag-section-title">${g}</h3>
-                <div class="cs-modes">${banks.map(card).join('')}</div>
+                <div class="cs-modes">${banks.map(card).join('')}${(custom[g] || []).map(customCard).join('')}</div>
                 ${study[g].length ? `<div class="cs-study">${study[g].map(([l, fn]) => `<button class="ag-btn ag-btn-ghost ag-btn-sm" onclick="window.codeSprint.${fn}">${l}</button>`).join('')}</div>` : ''}`;
             }).join('')}
             ${missed.length ? `
@@ -334,6 +351,10 @@ class CodeSprint {
         } else if (kind === 'hcpcs') {
             title = 'HCPCS Level II letter sections'; play = 'hcpcs';
             rows = this.hcpcsSections.map(s => row(s.color, s.ch, `${u.esc(s.name)} <small>${u.esc(s.range)}</small>`, u.esc(s.eg))).join('');
+        } else if (kind === 'emtable') {
+            const T = window.EM_TABLE; title = 'Office/outpatient E/M: medical decision making (2021 table)'; play = 'cptrules';
+            hint = T.note + ' Time minimums: 99202 15 · 99203 30 · 99204 45 · 99205 60 · 99212 10 · 99213 20 · 99214 30 · 99215 40 minutes.';
+            rows = [['problems', 'Problems addressed'], ['data', 'Data reviewed and analyzed'], ['risk', 'Risk of patient management']].map(([el, label]) => `<h4 class="cs-tgroup">${label}</h4>` + T[el].map((o, k) => row(['#94a3b8', '#34d399', '#facc15', '#f87171'][k], u.esc(o.label), `MDM: ${T.mdm[k]} → ${T.codes.new[T.mdm[k]]} new / ${T.codes.est[T.mdm[k]]} established`, u.esc(o.text))).join('')).join('');
         } else if (kind === 'cloze') {
             title = 'Guideline sheet — the sentences worth memorizing'; play = 'cloze';
             hint = `${this.clozeVerified}/${this.cloze.length} verified word-for-word against the FY 2027 guidelines book. The key phrase is highlighted.`;
@@ -344,9 +365,274 @@ class CodeSprint {
             <h2 class="cs-ttitle">${u.esc(title)}</h2>
             ${hint ? `<p class="ag-hint">${hint}</p>` : ''}
             <div class="cs-table">${rows}</div>
-            <div class="ag-win-actions" style="margin-top:1rem"><button class="ag-btn ag-btn-primary" onclick="window.codeSprint.startRound('${play}')">▶ Drill this</button><button class="ag-btn" onclick="window.codeSprint.back()">Code Sprint</button></div>
+            <div class="ag-win-actions" style="margin-top:1rem"><button class="ag-btn ag-btn-primary" onclick="${kind === 'emtable' ? 'window.codeSprint.startEM()' : `window.codeSprint.startRound('${play}')`}">▶ Drill this</button><button class="ag-btn" onclick="window.codeSprint.back()">Code Sprint</button></div>
         </div>`;
         window.scrollTo(0, 0);
+    }
+
+    // ============================================================
+    // E/M LEVEL BUILDER — office/outpatient 99202–99215
+    // ============================================================
+    startEM() {
+        const u = this.ui(); const cases = window.EM_CASES || [];
+        if (!cases.length) return;
+        this.app.switchView('code-sprint');
+        this.current = { mode: 'em', queue: u.shuffle(cases).slice(0, 5), i: 0, points: 0, max: 0, start: Date.now(), picks: {}, scored: false, locked: false };
+        this.emNext();
+    }
+    emNext() {
+        const c = this.current; const u = this.ui(); const T = window.EM_TABLE;
+        if (c.i >= c.queue.length) { this.emFinish(); return; }
+        const cs = c.queue[c.i]; c.picks = {}; c.scored = false; c.locked = false;
+        const picker = (el, label) => `
+            <div class="em-el" data-el="${el}">
+                <div class="em-el-title">${label} <button class="ag-btn ag-btn-ghost ag-btn-sm" onclick="window.codeSprint.emHelp('${el}')">?</button></div>
+                <div class="em-el-opts">${T[el].map(o => `<button class="em-opt" data-el="${el}" data-level="${o.level}">${o.label}</button>`).join('')}</div>
+                <div class="em-el-why" id="em-why-${el}" hidden></div>
+            </div>`;
+        this.host().innerHTML = `
+        <div class="ag-play" style="--ag-accent:#38bdf8">
+            <div class="ag-topbar">
+                <span class="ag-chip-stat">🧮 E/M Builder</span>
+                <span class="ag-chip-stat"><b>${c.i + 1}/${c.queue.length}</b></span>
+                <span class="ag-chip-stat">⭐ <b>${c.points}</b>/${c.max}</span>
+            </div>
+            <div class="em-note"><span class="em-status">${cs.status === 'new' ? 'NEW patient' : 'ESTABLISHED patient'}</span><b>${u.esc(cs.title)}</b><p>${u.esc(cs.note)}</p></div>
+            <p class="ag-hint">Rate each element of medical decision making, then score it.</p>
+            ${picker('problems', 'Problems addressed')}${picker('data', 'Data reviewed and analyzed')}${picker('risk', 'Risk of management')}
+            <div class="ag-win-actions"><button class="ag-btn ag-btn-primary" id="em-score" disabled onclick="window.codeSprint.emScore()">Score it</button></div>
+            <div id="em-code" hidden></div>
+            <div class="ag-fact" id="em-fact" hidden></div>
+            <div class="ag-win-actions" id="em-next" hidden><button class="ag-btn ag-btn-primary" onclick="window.codeSprint.current.i++; window.codeSprint.emNext()">Next case →</button></div>
+        </div>`;
+        this.host().querySelectorAll('.em-opt').forEach(b => b.addEventListener('click', () => this.emPick(b.getAttribute('data-el'), b.getAttribute('data-level'))));
+        window.scrollTo(0, 0);
+    }
+    emHelp(el) {
+        const T = window.EM_TABLE; const u = this.ui();
+        const box = document.getElementById(`em-why-${el}`); if (!box) return;
+        box.hidden = !box.hidden;
+        if (!box.hidden) box.innerHTML = T[el].map(o => `<div><b>${u.esc(o.label)}</b> — ${u.esc(o.text)}</div>`).join('');
+    }
+    emPick(el, level) {
+        const c = this.current; if (!c || c.scored) return;
+        c.picks[el] = level;
+        document.querySelectorAll(`.em-opt[data-el="${el}"]`).forEach(b => b.classList.toggle('sel', b.getAttribute('data-level') === level));
+        document.getElementById('em-score').disabled = !(c.picks.problems && c.picks.data && c.picks.risk);
+    }
+    emLevel(cs) {
+        const T = window.EM_TABLE; const rank = { minimal: 0, low: 1, moderate: 2, high: 3, limited: 1, extensive: 3 };
+        const lv = [rank[cs.problems], rank[cs.data], rank[cs.risk]].sort((a, b) => b - a);
+        return T.mdm[lv[1]];
+    }
+    emScore() {
+        const c = this.current; if (!c || c.scored) return;
+        c.scored = true;
+        const cs = c.queue[c.i]; const T = window.EM_TABLE; const u = this.ui();
+        let got = 0;
+        ['problems', 'data', 'risk'].forEach(el => {
+            const ok = c.picks[el] === cs[el]; if (ok) got++;
+            document.querySelectorAll(`.em-opt[data-el="${el}"]`).forEach(b => { b.disabled = true; const l = b.getAttribute('data-level'); if (l === cs[el]) b.classList.add('ok'); else if (l === c.picks[el]) b.classList.add('bad'); });
+            const box = document.getElementById(`em-why-${el}`); const def = T[el].find(o => o.level === cs[el]);
+            box.hidden = false; box.innerHTML = `<div><b style="color:${ok ? '#34d399' : '#f87171'}">${ok ? 'Correct' : 'Expected'}: ${u.esc(def.label)}</b> — ${u.esc(def.text)}</div>`;
+        });
+        c.points += got; c.max += 3;
+        const mdm = cs.code === '99211' ? 'n/a (clinical staff visit)' : this.emLevel(cs);
+        const codes = cs.status === 'new' ? ['99202', '99203', '99204', '99205'] : ['99211', '99212', '99213', '99214', '99215'];
+        const box = document.getElementById('em-code');
+        box.hidden = false;
+        box.innerHTML = `<div class="wl-meaning"><span>MDM by 2 of 3 elements: <b>${u.esc(mdm)}</b>${cs.time ? ` · total time documented: <b>${cs.time} min</b>` : ''}</span><b>Which code?</b></div>
+            <div class="cs-options" id="em-codes">${codes.map(k => `<button class="cs-option" data-code="${k}"><span class="cs-range">${k}</span></button>`).join('')}</div>`;
+        box.querySelectorAll('.cs-option').forEach(b => b.addEventListener('click', () => this.emCode(b.getAttribute('data-code'))));
+        document.getElementById('em-score').disabled = true;
+        box.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    }
+    emCode(code) {
+        const c = this.current; if (!c || c.locked) return; c.locked = true;
+        const cs = c.queue[c.i]; const u = this.ui();
+        const ok = code === cs.code; if (ok) c.points++; c.max++;
+        document.querySelectorAll('#em-codes .cs-option').forEach(b => { b.disabled = true; const k = b.getAttribute('data-code'); if (k === cs.code) b.classList.add('ok'); else if (k === code) b.classList.add('bad'); });
+        const f = document.getElementById('em-fact'); f.hidden = false;
+        f.innerHTML = `<b style="color:${ok ? '#34d399' : '#f87171'}">${cs.code}</b> — ${u.esc(cs.why)}<br><span class="cs-cite">${u.esc(window.EM_TABLE.note)}</span>`;
+        document.getElementById('em-next').hidden = false;
+        const t = document.querySelector('.ag-topbar .ag-chip-stat:last-child b'); if (t) t.textContent = c.points;
+    }
+    emFinish() {
+        const c = this.current; const u = this.ui();
+        const r = this.rec('em'); r.plays++; r.correct += c.points; r.total += c.max; r.best = Math.max(r.best || 0, c.points);
+        const xp = c.points * 2 + (c.points === c.max ? 15 : 0);
+        u.awardXP(xp, 'Code Sprint: E/M builder'); window.gamesHub?.credit('code'); u.save();
+        u.win('code-sprint-content', { title: c.points === c.max ? 'Leveled perfectly!' : 'Round complete', name: `${c.points}/${c.max} points`,
+            rows: [`⏱ ${u.fmtTime(Date.now() - c.start)}`, `⭐ +${xp} XP`],
+            actions: `<button class="ag-btn" onclick="window.codeSprint.startEM()">🔁 New cases</button><button class="ag-btn" onclick="window.codeSprint.showTable('emtable')">📋 MDM table</button>`,
+            back: `<button class="ag-btn ag-btn-primary" onclick="window.codeSprint.back()">Code Sprint</button>` });
+    }
+
+    // ============================================================
+    // ANESTHESIA UNITS CALCULATOR
+    // ============================================================
+    anesCase() {
+        const codes = window.ANES_CODES || []; const QC = window.ANES_QC || [];
+        const code = codes[Math.floor(Math.random() * codes.length)];
+        const minutes = 15 * (2 + Math.floor(Math.random() * 11));         // 30–180 min
+        const ps = ['P1', 'P2', 'P3', 'P4', 'P5'][Math.floor(Math.random() * 5)];
+        const qc = Math.random() < 0.45 ? QC[Math.random() < 0.6 ? 0 : 3] : null;
+        const medicare = Math.random() < 0.35;
+        const cf = 20 + Math.floor(Math.random() * 6);
+        const timeUnits = minutes / 15;
+        const psUnits = window.ANES_PS[ps]; const qcUnits = qc ? qc[2] : 0;
+        const modUnits = medicare ? 0 : psUnits + qcUnits;
+        const total = code[2] + timeUnits + modUnits;
+        return { code: code[0], desc: code[1], base: code[2], minutes, ps, qc, medicare, cf, timeUnits, psUnits, qcUnits, modUnits, total, fee: total * cf };
+    }
+    startAnes() {
+        this.app.switchView('code-sprint');
+        this.current = { mode: 'anes', queue: Array.from({ length: 5 }, () => this.anesCase()), i: 0, step: 0, points: 0, max: 0, start: Date.now(), locked: false };
+        this.anesNext();
+    }
+    anesSteps(a) {
+        const u = this.ui();
+        const opts = (right, wrongs, fmt) => { const set = [right]; wrongs.forEach(w => { if (w !== right && !set.includes(w) && w >= 0) set.push(w); }); while (set.length < 4) set.push(right + set.length); return u.shuffle(set.slice(0, 4)).map(v => ({ v, label: fmt(v) })); };
+        return [
+            { q: 'How many time units?', right: a.timeUnits, opts: opts(a.timeUnits, [a.timeUnits + 1, a.timeUnits - 1, Math.round(a.minutes / 10)], v => `${v} units`),
+              why: `${a.minutes} minutes ÷ 15 = ${a.timeUnits} time units (one unit per 15 minutes; CMS carries fractions to one decimal).` },
+            { q: 'How many modifying units (physical status + qualifying circumstances)?', right: a.modUnits, opts: opts(a.modUnits, [a.psUnits + a.qcUnits, a.psUnits, a.qcUnits, 0, a.modUnits + 1], v => `${v} units`),
+              why: a.medicare ? `Medicare does not pay for physical status or qualifying circumstances, so modifying units = 0 (${a.ps} would be ${a.psUnits}${a.qc ? `, ${a.qc[0]} would be ${a.qcUnits}` : ''} for a payer that recognizes them).`
+                               : `${a.ps} = ${a.psUnits} unit${a.psUnits === 1 ? '' : 's'}${a.qc ? ` + ${a.qc[0]} (${a.qc[1]}) = ${a.qcUnits}` : ''} → ${a.modUnits}. (P1 0 · P2 0 · P3 1 · P4 2 · P5 3 · P6 0; 99100 +1 · 99116 +5 · 99135 +5 · 99140 +2.)` },
+            { q: 'Total units?', right: a.total, opts: opts(a.total, [a.base + a.timeUnits, a.total + a.psUnits + a.qcUnits, a.total - 1, a.base + a.modUnits], v => `${v} units`),
+              why: `Base ${a.base} + time ${a.timeUnits} + modifying ${a.modUnits} = ${a.total} units.` },
+            { q: `Allowed amount at a conversion factor of $${a.cf}.00?`, right: a.fee, opts: opts(a.fee, [a.base * a.cf, (a.base + a.timeUnits) * a.cf, a.fee + a.cf, a.fee - a.cf], v => `$${v.toFixed(2)}`),
+              why: `${a.total} units × $${a.cf}.00 = $${a.fee.toFixed(2)}.` }
+        ];
+    }
+    anesNext() {
+        const c = this.current; const u = this.ui();
+        if (c.i >= c.queue.length) { this.anesFinish(); return; }
+        const a = c.queue[c.i]; const steps = this.anesSteps(a); const st = steps[c.step];
+        c.locked = false; c.st = st;
+        this.host().innerHTML = `
+        <div class="ag-play" style="--ag-accent:#a855f7">
+            <div class="ag-topbar">
+                <span class="ag-chip-stat">💉 Anesthesia units</span>
+                <span class="ag-chip-stat">case <b>${c.i + 1}/${c.queue.length}</b> · step ${c.step + 1}/4</span>
+                <span class="ag-chip-stat">⭐ <b>${c.points}</b>/${c.max}</span>
+            </div>
+            <div class="em-note">
+                <span class="em-status">${a.medicare ? 'MEDICARE' : 'COMMERCIAL PAYER (recognizes modifying units)'}</span>
+                <b>${a.code} · ${u.esc(a.desc)}</b>
+                <p>Base units: <b>${a.base}</b> · Anesthesia time: <b>${a.minutes} minutes</b> · Physical status: <b>${a.ps}</b>${a.qc ? ` · Qualifying circumstance: <b>${a.qc[0]} ${u.esc(a.qc[1])}</b>` : ''} · Conversion factor: <b>$${a.cf}.00</b></p>
+            </div>
+            <div class="wl-meaning"><span>Step ${c.step + 1}</span><b>${u.esc(st.q)}</b></div>
+            <div class="cs-options" id="cs-options">${st.opts.map((o, k) => `<button class="cs-option" data-k="${k}"><span class="cs-range">${u.esc(o.label)}</span></button>`).join('')}</div>
+            <div class="ag-fact" id="cs-fact" hidden></div>
+            <div class="ag-win-actions" id="cs-next" hidden><button class="ag-btn ag-btn-primary" onclick="window.codeSprint.anesAdvance()">Next →</button></div>
+            <p class="ag-hint">Formula: (base + time + modifying units) × conversion factor. Time unit = 15 minutes.</p>
+        </div>`;
+        this.host().querySelector('#cs-options').addEventListener('click', e => { const b = e.target.closest('.cs-option'); if (b) this.anesAnswer(+b.getAttribute('data-k')); });
+        window.scrollTo(0, 0);
+    }
+    anesAnswer(k) {
+        const c = this.current; if (!c || c.locked) return; c.locked = true;
+        const st = c.st; const ok = st.opts[k].v === st.right; const u = this.ui();
+        if (ok) c.points++; c.max++;
+        document.querySelectorAll('#cs-options .cs-option').forEach((b, i) => { b.disabled = true; if (st.opts[i].v === st.right) b.classList.add('ok'); else if (i === k) b.classList.add('bad'); });
+        const f = document.getElementById('cs-fact'); f.hidden = false;
+        f.innerHTML = `<b style="color:${ok ? '#34d399' : '#f87171'}">${ok ? 'Correct' : 'Not quite'}</b> — ${u.esc(st.why)}`;
+        document.getElementById('cs-next').hidden = false;
+    }
+    anesAdvance() { const c = this.current; if (!c || c.mode !== 'anes') return; c.step++; if (c.step >= 4) { c.step = 0; c.i++; } this.anesNext(); }
+    anesFinish() {
+        const c = this.current; const u = this.ui();
+        const r = this.rec('anes'); r.plays++; r.correct += c.points; r.total += c.max; r.best = Math.max(r.best || 0, c.points);
+        const xp = c.points * 2 + (c.points === c.max ? 15 : 0);
+        u.awardXP(xp, 'Code Sprint: anesthesia units'); window.gamesHub?.credit('code'); u.save();
+        u.win('code-sprint-content', { title: c.points === c.max ? 'Unit master!' : 'Round complete', name: `${c.points}/${c.max} steps right`,
+            rows: [`⏱ ${u.fmtTime(Date.now() - c.start)}`, `⭐ +${xp} XP`],
+            actions: `<button class="ag-btn" onclick="window.codeSprint.startAnes()">🔁 New cases</button>`,
+            back: `<button class="ag-btn ag-btn-primary" onclick="window.codeSprint.back()">Code Sprint</button>` });
+    }
+
+    // ============================================================
+    // SEQUENCE IT — order the codes for a case
+    // ============================================================
+    seqStars(id) { const r = this.store().seq && this.store().seq[id]; return r ? (r.stars || 0) : 0; }
+    showSeqMenu() {
+        const host = this.host(); if (!host) return;
+        this.current = { mode: 'study' };
+        const u = this.ui(); const cases = window.SEQ_CASES || [];
+        host.innerHTML = `
+        <div class="gm-wrap">
+            <div class="gm-hero" style="--gm-accent:#f97316"><h2>Sequence It</h2><p>A short case, a shuffled set of codes — and a few traps that should not be reported. Tap the codes in order, principal first. Codes in the same group can go in any order.</p></div>
+            <div class="ag-win-actions" style="justify-content:flex-start;margin-bottom:0.8rem"><button class="ag-btn ag-btn-primary" onclick="window.codeSprint.startSeq()">🎲 Random case</button></div>
+            <div class="fl-list">${cases.map(cs => { const st = this.seqStars(cs.id); return `
+                <button class="fl-row" style="--gm-accent:${cs.setting === 'Inpatient' ? '#f97316' : '#38bdf8'}" onclick="window.codeSprint.startSeq('${cs.id}')">
+                    <span class="fl-row-icon">${cs.setting === 'Inpatient' ? '🏥' : '🩺'}</span>
+                    <span class="fl-row-body"><b>${u.esc(cs.title)}</b><span>${cs.setting} · ${cs.steps.flat().length} codes${cs.traps.length ? ` · ${cs.traps.length} trap${cs.traps.length === 1 ? '' : 's'}` : ''} · Guideline ${u.esc(cs.cite)}</span></span>
+                    <span class="fl-row-stars ${st ? 'on' : ''}">${u.stars(st)}</span>
+                </button>`; }).join('')}</div>
+        </div>`;
+        window.scrollTo(0, 0);
+    }
+    startSeq(id) {
+        const cases = window.SEQ_CASES || []; if (!cases.length) return;
+        const cs = cases.find(c => c.id === id) || cases[Math.floor(Math.random() * cases.length)];
+        const u = this.ui();
+        this.app.switchView('code-sprint');
+        const cards = [];
+        cs.steps.forEach((grp, g) => grp.forEach(([code, desc]) => cards.push({ code, desc, group: g })));
+        cs.traps.forEach(([code, desc, why]) => cards.push({ code, desc, trap: true, why }));
+        this.current = { mode: 'seq', cs, cards: u.shuffle(cards), group: 0, placed: 0, mistakes: 0, start: Date.now(), done: false };
+        const c = this.current; const total = cs.steps.flat().length;
+        this.host().innerHTML = `
+        <div class="ag-play" style="--ag-accent:#f97316">
+            <div class="fl-title"><span class="fl-title-icon">${cs.setting === 'Inpatient' ? '🏥' : '🩺'}</span><div><h2>${u.esc(cs.title)}</h2><p>${cs.setting} · tap the codes in order, principal first</p></div></div>
+            <div class="em-note"><p>${u.esc(cs.case)}</p></div>
+            <div class="ag-topbar"><span class="ag-chip-stat">🔗 <b id="seq-progress">0/${total}</b></span><span class="ag-chip-stat">❌ <b id="seq-miss">0</b></span></div>
+            <div class="fl-chain" id="seq-chain">${cs.steps.map((grp, g) => grp.map((_, k) => `<div class="fl-link" data-slot="${g}-${k}"><span class="fl-link-num">${g + 1}</span><span class="fl-link-text">${k === 0 && grp.length > 1 ? `group ${g + 1} (any order)` : ''}</span></div>`).join('')).join('')}</div>
+            <div class="fl-cards" id="seq-cards">${c.cards.map((cd, i) => `<button class="fl-card seq-card" data-i="${i}"><b>${u.esc(cd.code)}</b><span>${u.esc(cd.desc)}</span></button>`).join('')}</div>
+            <div class="ag-fact" id="seq-fact" hidden></div>
+        </div>`;
+        this.host().querySelector('#seq-cards').addEventListener('click', e => { const b = e.target.closest('.seq-card'); if (b && !b.classList.contains('used') && !b.classList.contains('trapped')) this.seqTap(+b.getAttribute('data-i')); });
+        window.scrollTo(0, 0);
+    }
+    seqTap(i) {
+        const c = this.current; if (!c || c.mode !== 'seq' || c.done) return;
+        const cd = c.cards[i]; const cs = c.cs; const u = this.ui();
+        const card = document.querySelector(`#seq-cards .seq-card[data-i="${i}"]`);
+        const fact = document.getElementById('seq-fact');
+        if (cd.trap) {
+            c.mistakes++; card.classList.add('trapped');
+            fact.hidden = false; fact.innerHTML = `<b style="color:#f87171">Trap — ${u.esc(cd.code)} is not reported.</b> ${u.esc(cd.why)}`;
+        } else if (cd.group === c.group) {
+            const slot = cs.steps[c.group].findIndex((_, k) => !document.querySelector(`.fl-link[data-slot="${c.group}-${k}"]`).classList.contains('filled'));
+            const link = document.querySelector(`.fl-link[data-slot="${c.group}-${slot}"]`);
+            link.classList.add('filled'); link.querySelector('.fl-link-text').innerHTML = `<b>${u.esc(cd.code)}</b> ${u.esc(cd.desc)}`;
+            card.classList.add('used'); c.placed++;
+            if (cs.steps[c.group].every((_, k) => document.querySelector(`.fl-link[data-slot="${c.group}-${k}"]`).classList.contains('filled'))) c.group++;
+            fact.hidden = true;
+        } else {
+            c.mistakes++; card.classList.add('bad'); setTimeout(() => card.classList.remove('bad'), 450);
+            fact.hidden = false; fact.innerHTML = `<b style="color:#f87171">Not yet.</b> ${u.esc(cd.code)} belongs ${cd.group < c.group ? 'earlier' : 'later'} in the sequence — fill group ${c.group + 1} first.`;
+        }
+        document.getElementById('seq-progress').textContent = `${c.placed}/${cs.steps.flat().length}`;
+        document.getElementById('seq-miss').textContent = c.mistakes;
+        if (c.placed === cs.steps.flat().length) this.seqFinish();
+    }
+    seqFinish() {
+        const c = this.current; c.done = true; const u = this.ui(); const s = this.store(); const cs = c.cs;
+        const stars = c.mistakes === 0 ? 3 : c.mistakes <= 2 ? 2 : 1;
+        if (!s.seq) s.seq = {};
+        const rec = s.seq[cs.id] || { stars: 0, plays: 0 }; const first = rec.plays === 0;
+        rec.plays++; rec.stars = Math.max(rec.stars || 0, stars); s.seq[cs.id] = rec;
+        const r = this.rec('seq'); r.plays++; r.correct += stars; r.total += 3; r.best = Math.max(r.best || 0, stars);
+        let xp = cs.steps.flat().length * 3 + (stars === 3 ? 10 : 0); if (!first) xp = Math.round(xp / 2);
+        u.awardXP(xp, `Code Sprint: sequenced ${cs.title}`); window.gamesHub?.credit('code'); u.save();
+        const fact = document.getElementById('seq-fact'); fact.hidden = false;
+        fact.innerHTML = `<b style="color:#34d399">Why this order</b> — ${u.esc(cs.why)}<br><span class="cs-cite">Guideline ${u.esc(cs.cite)}</span>${cs.traps.length ? `<br><br><b>Traps:</b> ${cs.traps.map(t => `<br>• <b>${u.esc(t[0])}</b> ${u.esc(t[1])} — ${u.esc(t[2])}`).join('')}` : ''}`;
+        u.win('code-sprint-content', { title: stars === 3 ? 'Perfect sequence!' : 'Case complete', name: cs.title,
+            rows: [u.stars(stars), `❌ ${c.mistakes}`, `⏱ ${u.fmtTime(Date.now() - c.start)}`, `⭐ +${xp} XP`],
+            actions: `<button class="ag-btn" onclick="this.closest('.ag-win-overlay').remove()">📖 Read why</button><button class="ag-btn" onclick="window.codeSprint.startSeq()">🎲 Another case</button>`,
+            back: `<button class="ag-btn ag-btn-primary" onclick="window.codeSprint.showSeqMenu()">All cases</button>` });
     }
 
     // ============================================================
