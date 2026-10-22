@@ -81,10 +81,15 @@ What's New generator ignores them):
   `shape` uses `"C"` as its color token; thin tubes carry invisible wide hit strokes.
 - `word-lab.js` + `word-lab-bank.js` — medical terminology (Build, Sort, Define, glossary).
 - `flow-game.js` + `flow-game-bank.js` — ordered sequences (physiology, pathology, HIM).
-- `code-sprint.js` + `code-sprint-bank.js` + `coding-bank.js` — coding: ICD-10-CM chapters,
-  guideline quiz and verbatim cloze (checked against the guidelines book at runtime),
-  Neoplasm Table, Sequence It cases, ICD-10-PCS, CPT (sections, modifiers, rules, E/M
-  level builder, anesthesia units), HCPCS; generic question runner + review pile.
+- `code-sprint.js` + `code-sprint-bank.js` + `coding-bank.js` + `coding-bank-2.js` — coding:
+  ICD-10-CM chapters, guideline quiz and verbatim cloze (checked against the guidelines
+  book at runtime), Neoplasm Table, Sequence It cases, ICD-10-PCS (root ops, sections,
+  approaches, guidelines, 7-character Code Builder), CPT (sections, modifiers, rules,
+  surgical package / global period, E/M level builder, anesthesia units), HCPCS, MS-DRG
+  (MDC sort, grouper quiz, DRG Lab with illustrative weights); generic question runner +
+  review pile. When "Misses → Flashcards" is on (default), every miss is added once to
+  `APP_DATA.user.flashcards.cards` with `bookId: 'code-sprint'` and `deck: 'Code Sprint
+  misses'` (active-recall.js shows `card.deck` as the deck name when set).
 - Shared helpers: `window.gamesUI` (in games-hub.js); styles in `anatomy-game.css`
   and `games.css`. State: `APP_DATA.user.anatomyGame` and `APP_DATA.user.games`.
 - A game credits the Daily Quest by calling `window.gamesHub.credit('<key>')` when a

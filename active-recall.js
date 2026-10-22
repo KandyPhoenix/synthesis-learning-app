@@ -112,7 +112,7 @@ class ActiveRecallSystem {
             if (!deckMap[card.bookId]) {
                 const book = getBookById(card.bookId);
                 deckMap[card.bookId] = {
-                    name: book ? book.title : 'Unknown',
+                    name: card.deck || (book ? book.title : 'Unknown'),
                     count: 0,
                     due: 0
                 };

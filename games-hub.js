@@ -116,7 +116,7 @@ class GamesHub {
               blurb: 'Put physiology, pathology and HIM processes in order — blood through the heart to the revenue cycle.',
               stat: fl ? fl.summary() : '' },
             { key: 'code', icon: '🧾', title: 'Code Sprint', color: '#10b981', view: 'code-sprint',
-              blurb: 'Sort conditions into ICD-10-CM chapters and pick the right code set: CM, PCS, CPT or HCPCS.',
+              blurb: 'ICD-10-CM chapters and guidelines, PCS code builder, CPT modifiers and surgical package, HCPCS, MS-DRG lab — misses become flashcards.',
               stat: cs ? cs.summary() : '' },
             { key: 'crossword', icon: '🧩', title: 'Crosswords', color: '#f59e0b', view: 'crossword',
               blurb: 'Hundreds of puzzles across every track in the library.',
@@ -172,7 +172,7 @@ class GamesHub {
             today ? { color: today.color, icon: today.icon, title: today.title, meta: 'Anatomy · Label It', go: `window.anatomyGame.startLabel('${today.id}')` } : null,
             { color: '#38bdf8', icon: '🧬', title: 'Word Lab', meta: 'Build 8 medical terms', go: 'window.wordLab.startBuild()' },
             fl ? { color: fl.color, icon: fl.icon, title: fl.title, meta: 'Flow of the day', go: `window.flowGame.startOrder('${fl.id}')` } : null,
-            { color: '#10b981', icon: '🧾', title: 'Code Sprint', meta: 'Chapters · guidelines · PCS · CPT · HCPCS', go: "app.switchView('code-sprint')" },
+            { color: '#10b981', icon: '🧾', title: 'Code Sprint', meta: 'CM · PCS builder · CPT · HCPCS · DRG', go: "app.switchView('code-sprint')" },
             { color: '#ef4444', icon: '🦠', title: 'Patho Map', meta: 'Tap where disease lives', go: "window.anatomyGame.startPatho('mix')" }
         ].filter(Boolean);
         strip.innerHTML = cards.map(c => `
