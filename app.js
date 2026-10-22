@@ -97,6 +97,11 @@ class SynthesisApp {
         if (typeof CrosswordSystem !== 'undefined') {
             window.crossword = new CrosswordSystem(this);
         }
+
+        // Initialize the Anatomy Arcade (label / lightning / memory games)
+        if (typeof AnatomyGame !== 'undefined') {
+            window.anatomyGame = new AnatomyGame(this);
+        }
     }
 
     updateHeaderXP() {
@@ -500,6 +505,8 @@ class SynthesisApp {
             window.deepstash?.render();
         } else if (viewName === 'crossword') {
             window.crossword?.render();
+        } else if (viewName === 'anatomy-game') {
+            window.anatomyGame?.render();
         }
     }
 
@@ -576,6 +583,9 @@ class SynthesisApp {
             // The crossword player holds runtime-only state, so a reload lands
             // back on the puzzle menu rather than an empty grid.
             this.switchView('crossword');
+        } else if (state.view === 'anatomy-game-play') {
+            // Same for the anatomy game player: back to its board menu.
+            this.switchView('anatomy-game');
         } else {
             // Other views (profile, glossary, flashcards, feynman, premium
             // features, fitness sub-pages, etc.) carry no extra context.
@@ -654,6 +664,7 @@ class SynthesisApp {
         // Deepstash-style "Ideas for You" strip
         window.deepstash?.renderHomeStrip();
         window.crossword?.renderCrosswordHomeStrip();
+        window.anatomyGame?.renderHomeStrip();
     }
 
     updateExamDueBadge() {
