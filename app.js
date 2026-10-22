@@ -97,6 +97,23 @@ class SynthesisApp {
         if (typeof CrosswordSystem !== 'undefined') {
             window.crossword = new CrosswordSystem(this);
         }
+
+        // Initialize the Games section: hub (daily quest) + each game module
+        if (typeof GamesHub !== 'undefined') {
+            window.gamesHub = new GamesHub(this);
+        }
+        if (typeof AnatomyGame !== 'undefined') {
+            window.anatomyGame = new AnatomyGame(this);
+        }
+        if (typeof WordLab !== 'undefined') {
+            window.wordLab = new WordLab(this);
+        }
+        if (typeof FlowGame !== 'undefined') {
+            window.flowGame = new FlowGame(this);
+        }
+        if (typeof CodeSprint !== 'undefined') {
+            window.codeSprint = new CodeSprint(this);
+        }
     }
 
     updateHeaderXP() {
@@ -500,6 +517,16 @@ class SynthesisApp {
             window.deepstash?.render();
         } else if (viewName === 'crossword') {
             window.crossword?.render();
+        } else if (viewName === 'anatomy-game') {
+            window.anatomyGame?.render();
+        } else if (viewName === 'games') {
+            window.gamesHub?.render();
+        } else if (viewName === 'word-lab') {
+            window.wordLab?.render();
+        } else if (viewName === 'flow') {
+            window.flowGame?.render();
+        } else if (viewName === 'code-sprint') {
+            window.codeSprint?.render();
         }
     }
 
@@ -576,6 +603,9 @@ class SynthesisApp {
             // The crossword player holds runtime-only state, so a reload lands
             // back on the puzzle menu rather than an empty grid.
             this.switchView('crossword');
+        } else if (state.view === 'anatomy-game-play') {
+            // Same for the anatomy game player: back to its board menu.
+            this.switchView('anatomy-game');
         } else {
             // Other views (profile, glossary, flashcards, feynman, premium
             // features, fitness sub-pages, etc.) carry no extra context.
@@ -654,6 +684,7 @@ class SynthesisApp {
         // Deepstash-style "Ideas for You" strip
         window.deepstash?.renderHomeStrip();
         window.crossword?.renderCrosswordHomeStrip();
+        window.gamesHub?.renderHomeStrip();
     }
 
     updateExamDueBadge() {

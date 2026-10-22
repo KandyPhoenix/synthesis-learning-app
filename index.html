@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="exam-center.css?v=20260624z">
     <link rel="stylesheet" href="deepstash.css?v=20260727c">
     <link rel="stylesheet" href="crossword.css?v=20260731a">
+    <link rel="stylesheet" href="anatomy-game.css?v=20261022a">
+    <link rel="stylesheet" href="games.css?v=20261022a">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Crimson+Pro:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
@@ -124,6 +126,17 @@
                     </div>
                     <div class="cw-home-strip" id="crossword-home-strip">
                         <!-- Dynamically populated by crossword.js -->
+                    </div>
+                </section>
+
+                <!-- Games: daily quest + a quick way into every game -->
+                <section class="games-home-section">
+                    <div class="section-header">
+                        <h2>🎮 Games</h2>
+                        <button class="btn-text" onclick="app.switchView('games')">See all</button>
+                    </div>
+                    <div class="gm-home-strip" id="games-home-strip">
+                        <!-- Dynamically populated by games-hub.js -->
                     </div>
                 </section>
 
@@ -535,6 +548,102 @@
                 </div>
                 <div class="crossword-puzzle-content" id="crossword-puzzle-content">
                     <!-- Dynamically populated by crossword.js -->
+                </div>
+            </div>
+
+            <!-- Anatomy Arcade — Menu View -->
+            <div id="anatomy-game-view" class="view">
+                <div class="view-header">
+                    <button class="btn-back" id="anatomy-game-back-btn" onclick="app.goBack()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                        Back
+                    </button>
+                    <h1>🫀 Anatomy Arcade</h1>
+                </div>
+                <div class="anatomy-game-content" id="anatomy-game-content">
+                    <!-- Dynamically populated by anatomy-game.js -->
+                </div>
+            </div>
+
+            <!-- Anatomy Arcade — Player View -->
+            <div id="anatomy-game-play-view" class="view">
+                <div class="view-header">
+                    <button class="btn-back" id="anatomy-game-play-back-btn" onclick="window.anatomyGame && window.anatomyGame.backToMenu()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                        Boards
+                    </button>
+                    <h1 id="anatomy-game-play-title">Anatomy Arcade</h1>
+                </div>
+                <div class="anatomy-game-play-content" id="anatomy-game-play-content">
+                    <!-- Dynamically populated by anatomy-game.js -->
+                </div>
+            </div>
+
+            <!-- Games Hub -->
+            <div id="games-view" class="view">
+                <div class="view-header">
+                    <button class="btn-back" onclick="app.goBack()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                        Back
+                    </button>
+                    <h1>🎮 Games</h1>
+                </div>
+                <div id="games-content">
+                    <!-- Dynamically populated by games-hub.js -->
+                </div>
+            </div>
+
+            <!-- Word Lab (medical terminology) -->
+            <div id="word-lab-view" class="view">
+                <div class="view-header">
+                    <button class="btn-back" onclick="window.wordLab && window.wordLab.back()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                        Back
+                    </button>
+                    <h1>🧬 Word Lab</h1>
+                </div>
+                <div id="word-lab-content">
+                    <!-- Dynamically populated by word-lab.js -->
+                </div>
+            </div>
+
+            <!-- Flow (sequence ordering) -->
+            <div id="flow-view" class="view">
+                <div class="view-header">
+                    <button class="btn-back" onclick="window.flowGame && window.flowGame.back()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                        Back
+                    </button>
+                    <h1>🔁 Flow</h1>
+                </div>
+                <div id="flow-content">
+                    <!-- Dynamically populated by flow-game.js -->
+                </div>
+            </div>
+
+            <!-- Code Sprint (coding) -->
+            <div id="code-sprint-view" class="view">
+                <div class="view-header">
+                    <button class="btn-back" onclick="window.codeSprint && window.codeSprint.back()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                        Back
+                    </button>
+                    <h1>🧾 Code Sprint</h1>
+                </div>
+                <div id="code-sprint-content">
+                    <!-- Dynamically populated by code-sprint.js -->
                 </div>
             </div>
 
@@ -1154,8 +1263,18 @@
     <script src="hw-crossword-data.js?v=20260730d"></script>
     <script src="ste-crossword-data.js?v=20260730e"></script>
     <script src="bf-crossword-data.js?v=20260731a"></script>
-    <script src="crossword.js?v=20260810a"></script>
-    <script src="app.js?v=20260930a"></script>
+    <script src="crossword.js?v=20261022a"></script>
+    <script src="games-hub.js?v=20261022a"></script>
+    <script src="anatomy-game-boards.js?v=20261022a"></script>
+    <script src="patho-map-bank.js?v=20261022a"></script>
+    <script src="anatomy-game.js?v=20261022a"></script>
+    <script src="word-lab-bank.js?v=20261022a"></script>
+    <script src="word-lab.js?v=20261022a"></script>
+    <script src="flow-game-bank.js?v=20261022a"></script>
+    <script src="flow-game.js?v=20261022a"></script>
+    <script src="code-sprint-bank.js?v=20261022a"></script>
+    <script src="code-sprint.js?v=20261022a"></script>
+    <script src="app.js?v=20261022a"></script>
     <!-- Firebase compat SDKs — exposes global `firebase` so we can use script tags (no bundler) -->
     <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
