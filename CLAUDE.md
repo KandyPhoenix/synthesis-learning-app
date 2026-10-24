@@ -84,8 +84,9 @@ What's New generator ignores them):
 - `code-sprint.js` + `code-sprint-bank.js` + `coding-bank.js` + `coding-bank-2.js` — coding:
   ICD-10-CM chapters, guideline quiz and verbatim cloze (checked against the guidelines
   book at runtime), Neoplasm Table, Sequence It cases, ICD-10-PCS (root ops, sections,
-  approaches, guidelines, 7-character Code Builder), CPT (sections, modifiers, rules,
-  surgical package / global period, E/M level builder, anesthesia units), HCPCS, MS-DRG
+  approaches, guidelines, 7-character Code Builder with 78 cases), CPT (sections, modifiers,
+  rules, surgical package / global period, E/M level builder, anesthesia units, CPT Code
+  Builder: section → subsection → family → code → modifier, 44 cases), HCPCS, MS-DRG
   (MDC sort, grouper quiz, DRG Lab with illustrative weights); generic question runner +
   review pile. When "Misses → Flashcards" is on (default), every miss is added once to
   `APP_DATA.user.flashcards.cards` with `bookId: 'code-sprint'` and `deck: 'Code Sprint

@@ -9,7 +9,7 @@
 //   MS-DRG     · MDC Sort · Grouper Quiz · DRG Lab (MDC → tier → payment)
 //   Code sets  · ICD-10-CM / ICD-10-PCS / CPT / HCPCS Level II
 //   Custom     · E/M Level Builder · Anesthesia Units · Sequence It · Surgical
-//                Package sort · ICD-10-PCS 7-character Code Builder
+//                Package sort · ICD-10-PCS 7-character Code Builder · CPT Code Builder
 //   Flashcards · every miss (when enabled) becomes a card in the "Code Sprint
 //                misses" deck of the app's spaced-repetition flashcards
 //   Review     · the Missed Pile — anything you get wrong comes back until you
@@ -289,6 +289,7 @@ class CodeSprint {
             'ICD-10-PCS': [{ icon: '🔢', title: 'PCS Code Builder', color: '#a78bfa', blurb: 'Build the full 7-character code for a procedure, one axis at a time: section, body system, root operation, body part, approach, device, qualifier.', go: 'startPcsBuild()', key: 'pcsb', size: (window.PCS_BUILD_CASES || []).length, unit: 'procedures' }],
             'MS-DRG': [{ icon: '🏥', title: 'DRG Lab', color: '#f59e0b', blurb: 'A discharge with its diagnoses: pick the MDC, the severity tier (with MCC / with CC / without), then the payment from base rate × weight.', go: 'startDrg()', key: 'drg', size: (window.DRG_CASES || []).length, unit: 'cases' }],
             'CPT': [
+                { icon: '📙', title: 'CPT Code Builder', color: '#fb923c', blurb: 'Narrow a service to its CPT code in five steps: section, subsection, code family, the exact code, then the modifier or add-on that belongs with it.', go: 'startCptBuild()', key: 'cptb', size: (window.CPT_BUILD_CASES || []).length, unit: 'services' },
                 { icon: '🧮', title: 'E/M Level Builder', color: '#38bdf8', blurb: 'Read a mini chart note, rate problems, data and risk, then pick the office visit code.', go: 'startEM()', key: 'em', size: (window.EM_CASES || []).length, unit: 'cases' },
                 { icon: '💉', title: 'Anesthesia Units', color: '#a855f7', blurb: 'Time units, modifying units, total units and the fee — step by step from a case card.', go: 'startAnes()', key: 'anes', size: (window.ANES_CODES || []).length, unit: 'codes · endless cases' }
             ]
@@ -309,7 +310,7 @@ class CodeSprint {
         <div class="gm-wrap">
             <div class="gm-hero" style="--gm-accent:#10b981">
                 <h2>Know the chapter, find the code.</h2>
-                <p>ICD-10-CM chapters and the Official Guidelines (quoted word for word), ICD-10-PCS root operations and a 7-character code builder, CPT sections, modifiers and the surgical package, HCPCS letters, MS-DRG grouping. Everything you miss lands in the Review pile until you get it right twice.</p>
+                <p>ICD-10-CM chapters and the Official Guidelines (quoted word for word), ICD-10-PCS root operations and a 7-character code builder, a CPT code builder, modifiers and the surgical package, HCPCS letters, MS-DRG grouping. Everything you miss lands in the Review pile until you get it right twice.</p>
                 <button class="ag-btn ag-btn-ghost ag-btn-sm cs-flash" onclick="window.codeSprint.toggleFlash()">📇 Misses → Flashcards: <b>${this.flashOn() ? 'ON' : 'off'}</b>${this.flashCount() ? ` · ${this.flashCount()} cards in the deck` : ''}</button>
             </div>
             <div class="ag-modes cs-top">
@@ -857,6 +858,74 @@ class CodeSprint {
         u.win('code-sprint-content', { title: c.points === c.max ? 'Grouper-grade!' : 'Round complete', name: `${c.points}/${c.max} steps right`,
             rows: [`⏱ ${u.fmtTime(Date.now() - c.start)}`, `⭐ +${xp} XP`, this.fcRow(c)].filter(Boolean),
             actions: `<button class="ag-btn" onclick="window.codeSprint.startDrg()">🔁 New cases</button><button class="ag-btn" onclick="window.codeSprint.showTable('mdc')">🗂️ MDC table</button>`,
+            back: `<button class="ag-btn ag-btn-primary" onclick="window.codeSprint.back()">Code Sprint</button>` });
+    }
+
+    // ============================================================
+    // CPT CODE BUILDER — section → subsection → family → code → modifier/add-on
+    // ============================================================
+    cptbSteps(cs) {
+        const u = this.ui();
+        const sec = this.cptSections.find(s => s.id === cs.sec);
+        const secOpts = u.shuffle([sec, ...u.pick(this.cptSections.filter(s => s.id !== cs.sec && s.id !== 'cat2' && s.id !== 'cat3'), 3)]).map(s => ({ label: s.name, sub: s.range, ok: s.id === cs.sec }));
+        const steps = [{ q: 'Which CPT section?', opts: secOpts }];
+        cs.steps.forEach(st => steps.push({ q: st.q, opts: u.shuffle(st.opts.map((o, k) => ({ label: o[0], sub: o[1], ok: k === 0 }))) }));
+        return steps;
+    }
+    startCptBuild() {
+        const u = this.ui(); const cases = window.CPT_BUILD_CASES || []; if (!cases.length) return;
+        this.app.switchView('code-sprint');
+        this.current = { mode: 'cptb', queue: u.shuffle(cases).slice(0, 4), i: 0, step: 0, points: 0, max: 0, start: Date.now(), locked: false, trail: [] };
+        this.cptbNext();
+    }
+    cptbNext() {
+        const c = this.current; const u = this.ui();
+        if (c.i >= c.queue.length) { this.cptbFinish(); return; }
+        const cs = c.queue[c.i];
+        if (c.step === 0) { c.steps = this.cptbSteps(cs); c.trail = []; }
+        const st = c.steps[c.step]; c.locked = false; c.st = st;
+        const labels = ['Section', 'Subsection', 'Family', 'Code', 'Modifier / add-on'];
+        this.host().innerHTML = `
+        <div class="ag-play" style="--ag-accent:#fb923c">
+            <div class="ag-topbar">
+                <span class="ag-chip-stat">📙 CPT Builder</span>
+                <span class="ag-chip-stat">case <b>${c.i + 1}/${c.queue.length}</b> · step ${c.step + 1}/5</span>
+                <span class="ag-chip-stat">⭐ <b>${c.points}</b>/${c.max}</span>
+            </div>
+            <div class="em-note"><span class="em-status">SERVICE</span><b>${u.esc(cs.proc)}</b></div>
+            <div class="pb-trail">${labels.map((l, k) => `<div class="pb-crumb ${k < c.step ? 'filled' : ''} ${k === c.step ? 'cur' : ''}"><span>${l}</span><b>${k < c.step ? u.esc(c.trail[k]) : (k === c.step ? '?' : '·')}</b></div>`).join('')}</div>
+            <div class="wl-meaning"><span>Step ${c.step + 1} · ${labels[c.step]}</span><b>${u.esc(st.q)}</b></div>
+            <div class="cs-options" id="cs-options">${st.opts.map((o, k) => `<button class="cs-option" data-k="${k}"><span class="cs-range">${u.esc(o.label)}</span>${o.sub ? `<span class="cs-name">${u.esc(o.sub)}</span>` : ''}</button>`).join('')}</div>
+            <div class="ag-fact" id="cs-fact" hidden></div>
+            <div class="ag-win-actions" id="cs-next" hidden><button class="ag-btn ag-btn-primary" onclick="window.codeSprint.cptbAdvance()">Next →</button></div>
+            <p class="ag-hint">Narrow from the section down to the code, then decide whether a modifier or add-on belongs. Descriptors are paraphrased — confirm in the current CPT book.</p>
+        </div>`;
+        this.host().querySelector('#cs-options').addEventListener('click', e => { const b = e.target.closest('.cs-option'); if (b) this.cptbAnswer(+b.getAttribute('data-k')); });
+        window.scrollTo(0, 0);
+    }
+    cptbAnswer(k) {
+        const c = this.current; if (!c || c.mode !== 'cptb' || c.locked) return; c.locked = true;
+        const cs = c.queue[c.i]; const st = c.st; const u = this.ui();
+        const right = st.opts.find(o => o.ok); const ok = st.opts[k].ok;
+        if (ok) c.points++; c.max++;
+        c.trail[c.step] = right.label.length > 14 && c.step < 3 ? right.label.slice(0, 13) + '…' : right.label;
+        document.querySelectorAll('#cs-options .cs-option').forEach((b, i) => { b.disabled = true; if (st.opts[i].ok) b.classList.add('ok'); else if (i === k) b.classList.add('bad'); });
+        const f = document.getElementById('cs-fact'); f.hidden = false;
+        const last = c.step === 4;
+        f.innerHTML = `<b style="color:${ok ? '#34d399' : '#f87171'}">${ok ? 'Correct' : 'Not quite'}</b> — <b>${u.esc(right.label)}</b>${right.sub ? ` · ${u.esc(right.sub)}` : ''}.${last ? `<br><br><b>Final answer: <span class="cs-code">${u.esc(cs.code)}</span>${c.steps[4].opts.find(o => o.ok).label !== 'None' ? ` + ${u.esc(c.steps[4].opts.find(o => o.ok).label.replace(/^\+\s*/, ''))}` : ''}</b><br>${u.esc(cs.why)}` : ''}`;
+        if (!ok) this.addFlashcard(`cptb:${cs.id}:${c.step}`, `CPT: ${cs.proc} — step ${c.step + 1}: ${st.q}`, `${right.label}${right.sub ? ' (' + right.sub + ')' : ''}. Final code ${cs.code}. ${cs.why}`);
+        document.getElementById('cs-next').hidden = false;
+        const t = document.querySelector('.ag-topbar .ag-chip-stat:last-child b'); if (t) t.textContent = c.points;
+    }
+    cptbAdvance() { const c = this.current; if (!c || c.mode !== 'cptb') return; c.step++; if (c.step >= 5) { c.step = 0; c.i++; } this.cptbNext(); }
+    cptbFinish() {
+        const c = this.current; const u = this.ui();
+        const r = this.rec('cptb'); r.plays++; r.correct += c.points; r.total += c.max; r.best = Math.max(r.best || 0, c.points);
+        const xp = c.points * 2 + (c.points === c.max ? 20 : 0);
+        u.awardXP(xp, 'Code Sprint: CPT builder'); window.gamesHub?.credit('code'); u.save();
+        u.win('code-sprint-content', { title: c.points === c.max ? 'Straight to the code!' : 'Round complete', name: `${c.points}/${c.max} steps right`,
+            rows: [`⏱ ${u.fmtTime(Date.now() - c.start)}`, `⭐ +${xp} XP`, this.fcRow(c)].filter(Boolean),
+            actions: `<button class="ag-btn" onclick="window.codeSprint.startCptBuild()">🔁 New cases</button><button class="ag-btn" onclick="window.codeSprint.showTable('cptsect')">📙 Section ranges</button>`,
             back: `<button class="ag-btn ag-btn-primary" onclick="window.codeSprint.back()">Code Sprint</button>` });
     }
 

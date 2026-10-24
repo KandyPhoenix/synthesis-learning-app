@@ -243,3 +243,14 @@ button.wl-tile:disabled { opacity: 0.25; cursor: default; }
 .pb-slot.cur { border-color: var(--ag-accent, #a78bfa); box-shadow: 0 0 0 2px color-mix(in srgb, var(--ag-accent, #a78bfa) 45%, transparent); }
 .pb-slot.cur b { color: var(--ag-accent, #a78bfa); }
 @media (max-width: 480px) { .pb-slot em { display: none; } .pb-slot b { font-size: 1.1rem; } }
+
+/* CPT builder breadcrumb trail */
+.pb-trail { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.8rem 0; }
+.pb-crumb { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 0.1rem; padding: 0.4rem 0.5rem; border-radius: 10px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); }
+.pb-crumb span { font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.55; white-space: nowrap; }
+.pb-crumb b { font-size: 0.78rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: rgba(255,255,255,0.4); }
+.pb-crumb.filled { background: color-mix(in srgb, var(--ag-accent, #fb923c) 16%, transparent); border-color: var(--ag-accent, #fb923c); }
+.pb-crumb.filled b { color: #fff; }
+.pb-crumb.cur { border-color: var(--ag-accent, #fb923c); box-shadow: 0 0 0 2px color-mix(in srgb, var(--ag-accent, #fb923c) 45%, transparent); }
+.pb-crumb.cur b { color: var(--ag-accent, #fb923c); }
+@media (max-width: 480px) { .pb-trail { gap: 0.2rem; } .pb-crumb { padding: 0.3rem 0.35rem; } .pb-crumb b { font-size: 0.7rem; } }
