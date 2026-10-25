@@ -102,10 +102,13 @@ class AnatomyGame {
         }).join('');
         let pins = '';
         if (opts.pins) {
+            // Pins scale with the board so tall boards (skeleton, long bone) keep readable numbers on screen.
+            const vb = String(board.viewBox || '0 0 400 400').split(/\s+/).map(Number);
+            const pr = Math.max(13, Math.round(Math.max(vb[2] || 400, vb[3] || 400) / 46));
             pins = board.parts.map((p, i) => `
                 <g class="ag-pin" data-part="${p.id}">
-                    <circle cx="${p.pin[0]}" cy="${p.pin[1]}" r="13"/>
-                    <text x="${p.pin[0]}" y="${p.pin[1]}" dy="0.36em" text-anchor="middle">${i + 1}</text>
+                    <circle cx="${p.pin[0]}" cy="${p.pin[1]}" r="${pr}" style="stroke-width:${(pr / 6.5).toFixed(1)}px"/>
+                    <text x="${p.pin[0]}" y="${p.pin[1]}" dy="0.36em" text-anchor="middle" style="font-size:${pr}px">${i + 1}</text>
                 </g>`).join('');
         }
         return `<svg class="ag-board${opts.mini ? ' ag-mini' : ''}${board.img ? ' ag-img' : ''}" viewBox="${board.viewBox}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${this.esc(board.title)}">
