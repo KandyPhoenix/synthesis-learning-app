@@ -324,3 +324,7 @@
 .ag-mini.ag-img .ag-part.hl { filter: none; }
 .ag-credit { font-size: 0.68rem; color: var(--color-text-tertiary); margin: 0.35rem 0 0; text-align: center; line-height: 1.35; }
 .ag-credit a { color: inherit; text-decoration: underline; }
+
+/* Image boards sit on a light plate so SVG and JPEG artwork look alike */
+svg.ag-board.ag-img { background: #fbfaf6; border-radius: 14px; }
+.ag-board-thumb svg.ag-img { border-radius: 8px; }

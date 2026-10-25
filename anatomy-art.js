@@ -108,20 +108,20 @@ window.ANATOMY_ART = {
             bladder: { pin: [290, 695], hit: [['e', 292, 695, 56, 42]] },
             urethra: { pin: [292, 760], hit: [['e', 292, 760, 11, 26]] }
         } },
-    cell: { src: 'assets/anatomy/cell.svg', w: 600, h: 401,
-        credit: { title: 'Animal cell structure', author: 'LadyofHats (Mariana Ruiz)', license: 'Public domain', url: 'https://commons.wikimedia.org/wiki/File:Animal_cell_structure_en.svg', note: 'labels removed' },
+    cell: { src: 'assets/anatomy/cell.jpg', w: 600, h: 524,
+        credit: { title: 'The animal cell (Figure 3.12)', author: 'OpenStax College, Anatomy & Physiology', license: 'CC BY 3.0', url: 'https://commons.wikimedia.org/wiki/File:0312_Animal_Cell_and_Components.jpg', note: 'labels removed, cropped' },
         parts: {
-            membrane: { pin: [566, 186], hit: [['pl', '172,122 205,102 262,100 320,110 362,100 398,88 440,95 472,108 502,137 522,167 556,181 576,192 577,211 560,226 520,233 478,249 440,251 418,246 380,268 362,280 330,292 290,300 250,300 215,291 188,285 158,292 130,300 106,305 102,294 116,270 150,240 166,214 168,180 166,150 172,122', 16]] },
-            cytoplasm: { pin: [470, 210], hit: [['p', '190,130 320,120 400,105 460,120 505,175 540,195 520,220 460,235 415,240 365,265 330,280 280,290 220,280 160,285 130,280 150,240 175,195 180,150']] },
-            nucleus: { pin: [330, 200], hit: [['c', 300, 180, 56]] },
-            nucleolus: { pin: [303, 178], hit: [['c', 303, 178, 17]] },
-            rer: { pin: [265, 215], hit: [['e', 266, 216, 42, 23]] },
-            ser: { pin: [205, 228], hit: [['e', 205, 226, 32, 20]] },
-            golgi: { pin: [232, 160], hit: [['e', 232, 160, 30, 24]] },
-            mito: { pin: [430, 168], hit: [['e', 432, 168, 34, 19], ['e', 345, 268, 32, 17]] },
-            lysosome: { pin: [378, 143], hit: [['c', 378, 143, 12], ['c', 456, 150, 11]] },
-            ribosomes: { pin: [330, 125], hit: [['e', 330, 126, 26, 13]] },
-            centrioles: { pin: [382, 218], hit: [['e', 383, 219, 19, 15]] }
+            membrane: { pin: [472, 200], hit: [['pl', '300,14 380,32 438,78 470,132 474,200 460,290 428,368 390,428 330,474 250,508 170,502 95,468 45,398 22,310 27,220 60,132 120,62 200,24 300,14', 18]] },
+            cytoplasm: { pin: [425, 318], hit: [['p', '300,30 375,45 430,90 462,140 465,210 455,290 425,365 385,420 325,465 250,495 175,488 105,455 62,395 40,310 45,225 78,145 130,80 205,40']] },
+            nucleus: { pin: [175, 310], hit: [['c', 148, 285, 75]] },
+            nucleolus: { pin: [120, 265], hit: [['c', 120, 265, 21]] },
+            rer: { pin: [225, 190], hit: [['ring', 150, 285, 108, 50]] },
+            ser: { pin: [300, 290], hit: [['e', 300, 290, 33, 46]] },
+            golgi: { pin: [95, 390], hit: [['e', 95, 390, 56, 46]] },
+            mito: { pin: [250, 70], hit: [['e', 250, 70, 43, 29], ['e', 330, 105, 43, 29], ['e', 415, 265, 29, 43]] },
+            lysosome: { pin: [378, 318], hit: [['c', 378, 318, 14], ['c', 410, 336, 14], ['c', 248, 453, 14]] },
+            ribosomes: { pin: [395, 150], hit: [['e', 395, 150, 30, 24], ['e', 245, 118, 25, 18]] },
+            centrioles: { pin: [328, 212], hit: [['e', 328, 212, 26, 23]] }
         } },
     muscles: { src: 'assets/anatomy/muscles.png', w: 600, h: 684,
         credit: { title: 'Muscles, anterior view (unlabeled)', author: 'OpenStax College, Anatomy & Physiology', license: 'CC BY 4.0', url: 'https://commons.wikimedia.org/wiki/File:Muscles;_anterior_view;_unlabeled.png', note: 'leader lines removed' },
@@ -150,6 +150,31 @@ window.ANATOMY_ART = {
             hair: { pin: [245, 70], hit: [['pl', '135,330 175,190 245,70 325,22', 22], ['pl', '335,165 352,105 368,65', 20], ['pl', '388,225 405,150 440,100 456,88', 20], ['pl', '497,150 505,100 520,72', 20]] },
             sebaceous: { pin: [80, 385], hit: [['e', 80, 385, 30, 28], ['e', 165, 418, 25, 25], ['e', 540, 278, 25, 30]] },
             arrector: { pin: [222, 398], hit: [['pl', '195,430 255,360 320,300', 22]] }
+        } },
+    longbone: { src: 'assets/anatomy/longbone.jpg', w: 600, h: 1875,
+        credit: { title: 'Anatomy of a long bone (Figure 6.7)', author: 'OpenStax College, Anatomy & Physiology', license: 'CC BY 3.0', url: 'https://commons.wikimedia.org/wiki/File:603_Anatomy_of_Long_Bone.jpg', note: 'labels removed, cropped' },
+        parts: {
+            epiphysis: { pin: [130, 1720], hit: [['e', 360, 175, 200, 155], ['e', 310, 1760, 248, 122]] },
+            spongy: { pin: [300, 150], hit: [['e', 320, 200, 142, 132]] },
+            cartilage: { pin: [490, 90], hit: [['e', 482, 100, 82, 86], ['e', 270, 1790, 122, 86]] },
+            epiline: { pin: [300, 240], hit: [['e', 300, 240, 112, 20]] },
+            metaphysis: { pin: [300, 380], hit: [['e', 300, 372, 112, 56], ['e', 300, 1560, 112, 72]] },
+            periosteum: { pin: [230, 1060], hit: [['p', '185,1000 302,1005 276,1150 210,1082']] },
+            diaphysis: { pin: [300, 1400], hit: [['e', 280, 950, 98, 530]] },
+            medullary: { pin: [265, 930], hit: [['e', 275, 650, 46, 300], ['e', 265, 930, 44, 46]] },
+            compact: { pin: [348, 700], hit: [['pl', '210,420 205,700 200,950 185,1300 170,1500', 26], ['pl', '345,420 350,700 350,950 335,1300 330,1500', 26]] }
+        } },
+    neuron: { src: 'assets/anatomy/neuron.jpg', w: 600, h: 401,
+        credit: { title: 'The neuron (Figure 12.8)', author: 'OpenStax College, Anatomy & Physiology', license: 'CC BY 3.0', url: 'https://commons.wikimedia.org/wiki/File:1206_The_Neuron.jpg', note: 'labels removed' },
+        parts: {
+            dendrites: { pin: [190, 45], hit: [['e', 210, 60, 92, 56], ['e', 225, 185, 72, 46]] },
+            soma: { pin: [270, 132], hit: [['e', 245, 110, 56, 43]] },
+            nucleus: { pin: [234, 108], hit: [['c', 234, 108, 17]] },
+            hillock: { pin: [303, 124], hit: [['e', 303, 124, 17, 13]] },
+            axon: { pin: [340, 138], hit: [['pl', '300,124 360,144 420,150', 16], ['pl', '497,285 497,312', 14]] },
+            myelin: { pin: [380, 146], hit: [['e', 380, 146, 28, 15], ['e', 432, 160, 26, 15], ['e', 508, 170, 22, 15], ['e', 520, 215, 16, 25], ['e', 514, 268, 16, 23]] },
+            node: { pin: [408, 153], hit: [['c', 408, 153, 10], ['c', 463, 165, 10], ['c', 518, 242, 10]] },
+            terminals: { pin: [500, 338], hit: [['e', 500, 335, 46, 32]] }
         } }
 };
 
@@ -163,8 +188,8 @@ window.ANATOMY_ART = {
         if (t === 'e') return `<ellipse cx="${s[1]}" cy="${s[2]}" rx="${s[3]}" ry="${s[4]}" fill="C" stroke="C"${s[5] ? ` transform="rotate(${s[5]} ${s[1]} ${s[2]})"` : ''}/>`;
         if (t === 'p') return `<polygon points="${s[1]}" fill="C" stroke="C"/>`;
         if (t === 'r') return `<rect x="${s[1]}" y="${s[2]}" width="${s[3]}" height="${s[4]}" rx="6" fill="C" stroke="C"/>`;
-        if (t === 'ring') return `<circle cx="${s[1]}" cy="${s[2]}" r="${s[3]}" fill="none" stroke="C" stroke-width="${s[4]}" pointer-events="stroke"/>`;
-        if (t === 'pl') return `<polyline points="${s[1]}" fill="none" stroke="C" stroke-width="${s[2]}" stroke-linejoin="round" stroke-linecap="round" pointer-events="stroke"/>`;
+        if (t === 'ring') return `<circle cx="${s[1]}" cy="${s[2]}" r="${s[3]}" fill="none" stroke="C" style="stroke-width:${s[4]}px" pointer-events="stroke"/>`;
+        if (t === 'pl') return `<polyline points="${s[1]}" fill="none" stroke="C" style="stroke-width:${s[2]}px" stroke-linejoin="round" stroke-linecap="round" pointer-events="stroke"/>`;
         return '';
     };
     boards.forEach(b => {
