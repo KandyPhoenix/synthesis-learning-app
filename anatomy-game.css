@@ -306,3 +306,21 @@
 .ag-win-stats { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem; margin-bottom: 1rem; }
 .ag-win-stats div { background: var(--color-bg-tertiary); border-radius: 999px; padding: 0.35rem 0.75rem; font-size: 0.82rem; }
 .ag-win-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; }
+
+/* ---- Image boards (open-licensed artwork + transparent tap zones) ---- */
+.ag-img .ag-part > * { fill-opacity: 0; stroke-opacity: 0; stroke-width: 3; transition: fill-opacity 0.15s ease, stroke-opacity 0.15s ease; }
+.ag-img .ag-part:hover > * { fill-opacity: 0.12; stroke-opacity: 0.6; }
+.ag-img .ag-part.sel > * { fill-opacity: 0.35; stroke-opacity: 1; }
+.ag-img .ag-part.done > * { fill-opacity: 0.16; stroke-opacity: 0.55; }
+.ag-img .ag-part.reveal > * { fill-opacity: 0.45; stroke-opacity: 1; }
+.ag-img .ag-part.hit-ok > * { fill-opacity: 0.5; stroke-opacity: 1; }
+.ag-img .ag-part.hit-bad > * { fill-opacity: 0.35; stroke-opacity: 1; }
+.ag-img .ag-part.sel, .ag-img .ag-part.reveal, .ag-img .ag-part.hit-ok { filter: none; }
+.ag-img .ag-part.done { filter: none; opacity: 1; }
+.ag-img .ag-part:hover { filter: none; }
+.ag-mini.ag-img image { opacity: 0.38; filter: saturate(0.4); }
+.ag-mini.ag-img .ag-part { opacity: 1; }
+.ag-mini.ag-img .ag-part.hl > * { fill-opacity: 0.55; stroke-opacity: 1; stroke-width: 4; }
+.ag-mini.ag-img .ag-part.hl { filter: none; }
+.ag-credit { font-size: 0.68rem; color: var(--color-text-tertiary); margin: 0.35rem 0 0; text-align: center; line-height: 1.35; }
+.ag-credit a { color: inherit; text-decoration: underline; }
