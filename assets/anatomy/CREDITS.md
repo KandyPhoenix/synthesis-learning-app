@@ -14,7 +14,8 @@ structure; nothing else was altered. Each board shows its credit in the app.
 | Respiratory System | [Respiratory system complete en.svg](https://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg) | LadyofHats (Mariana Ruiz), Jmarchn | Public domain |
 | Urinary System | [Urinary system.svg](https://commons.wikimedia.org/wiki/File:Urinary_system.svg) | Jordi March i Nogué | CC BY-SA 3.0 |
 | The Animal Cell | [Animal cell structure en.svg](https://commons.wikimedia.org/wiki/File:Animal_cell_structure_en.svg) | LadyofHats (Mariana Ruiz) | Public domain |
+| The Skin | [501 Structure of the skin.jpg](https://commons.wikimedia.org/wiki/File:501_Structure_of_the_skin.jpg) (cropped to the block, labels inpainted out) | OpenStax College, Anatomy & Physiology | CC BY 3.0 |
 | Major Muscles | [Muscles; anterior view; unlabeled.png](https://commons.wikimedia.org/wiki/File:Muscles;_anterior_view;_unlabeled.png) | OpenStax College, Anatomy & Physiology | CC BY 4.0 |
 
 The derived label-free files in this folder carry the same license as their source.
-CC BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/ · CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+CC BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/ · CC BY 3.0: https://creativecommons.org/licenses/by/3.0/ · CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
