@@ -77,8 +77,13 @@ The home page has a "🎮 Games" strip and a Games hub view (`games-hub.js`, vie
 self-contained modules loaded after `data.js` (never named `-data.js`, so the
 What's New generator ignores them):
 - `anatomy-game.js` + `anatomy-game-boards.js` + `patho-map-bank.js` — Anatomy Arcade
-  (Label It, Lightning, Memory, Study, Patho Map). Boards are hand-drawn SVG; a part's
-  `shape` uses `"C"` as its color token; thin tubes carry invisible wide hit strokes.
+  (Label It, Lightning, Memory, Study, Patho Map). Boards are defined as hand-drawn SVG
+  (a part's `shape` uses `"C"` as its color token); `anatomy-art.js` then swaps most boards
+  for open-licensed illustrations in `assets/anatomy/` (labels stripped) and replaces each
+  part's shape with a transparent tap zone (`pin` + `hit` shapes in the image's 600-wide
+  pixel space, sorted big-to-small so small structures stay tappable). Every image board
+  shows its credit under the board; `assets/anatomy/CREDITS.md` lists sources and
+  licenses. Boards with no art entry keep their hand-drawn SVG.
 - `word-lab.js` + `word-lab-bank.js` — medical terminology (Build, Sort, Define, glossary).
 - `flow-game.js` + `flow-game-bank.js` — ordered sequences (physiology, pathology, HIM).
 - `code-sprint.js` + `code-sprint-bank.js` + `coding-bank.js` + `coding-bank-2.js` — coding:

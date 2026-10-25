@@ -108,8 +108,13 @@ class AnatomyGame {
                     <text x="${p.pin[0]}" y="${p.pin[1]}" dy="0.36em" text-anchor="middle">${i + 1}</text>
                 </g>`).join('');
         }
-        return `<svg class="ag-board${opts.mini ? ' ag-mini' : ''}" viewBox="${board.viewBox}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${this.esc(board.title)}">
-            <g pointer-events="none">${board.base || ''}</g>${parts}<g pointer-events="none">${board.over || ''}</g>${pins}</svg>`;
+        return `<svg class="ag-board${opts.mini ? ' ag-mini' : ''}${board.img ? ' ag-img' : ''}" viewBox="${board.viewBox}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${this.esc(board.title)}">
+            <g pointer-events="none">${board.base || ''}</g>${parts}<g pointer-events="none">${board.over || ''}</g>${pins}</svg>${this.credit(board, opts)}`;
+    }
+    // Attribution for open-licensed artwork (shown under every image board).
+    credit(board, opts = {}) {
+        const c = board.credit; if (!c || opts.mini || opts.credit === false) return '';
+        return `<p class="ag-credit">Artwork: <a href="${this.esc(c.url)}" target="_blank" rel="noopener">${this.esc(c.title)}</a> by ${this.esc(c.author)} · ${this.esc(c.license)}${c.note ? ` · ${this.esc(c.note)}` : ''}</p>`;
     }
 
     // Resolve a tap anywhere inside a board to a part id (or null).
@@ -146,7 +151,7 @@ class AnatomyGame {
             const mem = s.memory[b.id];
             return `
             <div class="ag-board-card" style="--ag-accent:${b.color}">
-                <div class="ag-board-thumb">${this.boardSvg(b, {})}</div>
+                <div class="ag-board-thumb">${this.boardSvg(b, { credit: false })}</div>
                 <div class="ag-board-info">
                     <div class="ag-board-title">${b.icon} ${this.esc(b.title)}</div>
                     <div class="ag-board-meta">${b.parts.length} structures · ${this.esc(b.system)}</div>
