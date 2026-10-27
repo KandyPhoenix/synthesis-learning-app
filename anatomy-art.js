@@ -10,18 +10,18 @@
 // under every board; see assets/anatomy/CREDITS.md for the full list.
 // ============================================
 window.ANATOMY_ART = {
-    heart: { src: 'assets/anatomy/heart.svg', w: 600, h: 590,
-        credit: { title: 'Diagram of the human heart', author: 'Wapcaplet', license: 'CC BY-SA 3.0', url: 'https://commons.wikimedia.org/wiki/File:Diagram_of_the_human_heart_(cropped).svg', note: 'labels removed' },
+    heart: { src: 'assets/anatomy/heart.jpg', w: 600, h: 659,
+        credit: { title: 'Internal structures of the heart (Figure 19.6)', author: 'OpenStax College, Anatomy & Physiology', license: 'CC BY 3.0', url: 'https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy', note: 'labels removed, cropped' },
         parts: {
-            svc: { pin: [165, 120], hit: [['e', 165, 125, 30, 70]] },
-            ivc: { pin: [180, 500], hit: [['e', 180, 500, 33, 60]] },
-            pulmveins: { pin: [450, 205], hit: [['e', 125, 215, 38, 34], ['e', 452, 205, 38, 45]] },
-            ra: { pin: [195, 320], hit: [['e', 195, 320, 48, 82]] },
-            la: { pin: [370, 235], hit: [['e', 372, 235, 52, 46]] },
-            rv: { pin: [270, 450], hit: [['p', '200,375 300,352 345,425 332,505 262,545 200,485']] },
-            lv: { pin: [420, 420], hit: [['p', '332,302 470,282 502,382 472,482 402,545 345,505 322,422']] },
-            aorta: { pin: [300, 70], hit: [['p', '230,45 300,22 372,35 397,100 387,165 350,150 345,115 300,90 265,105 250,160 220,150 198,100'], ['e', 300, 545, 25, 32]] },
-            pulmtrunk: { pin: [292, 250], hit: [['p', '258,335 268,300 268,240 282,185 335,172 472,135 477,177 345,195 330,230 322,300 300,347'], ['e', 130, 155, 38, 20]] }
+            svc: { pin: [155, 110], hit: [['e', 155, 150, 36, 76]] },
+            ivc: { pin: [165, 540], hit: [['e', 165, 520, 36, 56]] },
+            pulmveins: { pin: [85, 255], hit: [['e', 85, 255, 40, 44], ['e', 478, 215, 32, 34]] },
+            ra: { pin: [150, 340], hit: [['e', 160, 320, 64, 82]] },
+            la: { pin: [400, 230], hit: [['e', 395, 235, 64, 44]] },
+            rv: { pin: [230, 470], hit: [['p', '140,385 300,335 322,430 332,540 250,576 160,512']] },
+            lv: { pin: [430, 470], hit: [['p', '330,330 450,300 506,350 526,460 482,560 380,586 336,540']] },
+            aorta: { pin: [300, 60], hit: [['e', 300, 85, 96, 72]] },
+            pulmtrunk: { pin: [275, 200], hit: [['p', '235,250 245,150 300,135 470,120 476,166 330,170 300,215 300,250'], ['e', 100, 152, 36, 23]] }
         } },
     brain: { src: 'assets/anatomy/brain.svg', w: 600, h: 428,
         credit: { title: 'Lobes of the brain (Gray’s Anatomy plate, coloured)', author: 'Henry Vandyke Carter', license: 'Public domain', url: 'https://commons.wikimedia.org/wiki/File:Lobes_of_the_brain_NL.svg' },
@@ -66,19 +66,19 @@ window.ANATOMY_ART = {
             appendix: { pin: [250, 745], hit: [['e', 250, 745, 15, 15]] },
             rectum: { pin: [305, 790], hit: [['e', 305, 790, 17, 36]] }
         } },
-    eye: { src: 'assets/anatomy/eye.svg', w: 600, h: 611,
-        credit: { title: 'Schematic diagram of the human eye', author: 'Rhcastilhos, Jmarchn', license: 'CC BY-SA 3.0', url: 'https://commons.wikimedia.org/wiki/File:Schematic_diagram_of_the_human_eye_en.svg', note: 'labels removed' },
+    eye: { src: 'assets/anatomy/eye.jpg', w: 600, h: 568,
+        credit: { title: 'Structure of the eye (Figure 14.15)', author: 'OpenStax College, Anatomy & Physiology', license: 'CC BY 3.0', url: 'https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception', note: 'labels removed, cropped' },
         parts: {
-            opticnerve: { pin: [165, 540], hit: [['p', '110,562 190,455 252,472 162,602']] },
-            sclera: { pin: [62, 330], hit: [['ring', 300, 322, 238, 16]] },
-            choroid: { pin: [497, 394], hit: [['ring', 300, 322, 210, 12]] },
-            retina: { pin: [413, 480], hit: [['ring', 300, 322, 194, 12]] },
-            vitreous: { pin: [300, 350], hit: [['c', 300, 340, 170]] },
-            ciliary: { pin: [225, 140], hit: [['e', 225, 140, 32, 11], ['e', 377, 140, 32, 11]] },
-            lens: { pin: [300, 160], hit: [['e', 300, 160, 66, 33]] },
-            iris: { pin: [365, 118], hit: [['e', 232, 118, 42, 11], ['e', 368, 118, 42, 11]] },
-            pupil: { pin: [300, 128], hit: [['e', 300, 128, 36, 9]] },
-            cornea: { pin: [300, 92], hit: [['p', '200,122 232,86 300,70 370,86 400,122 350,112 300,106 250,112']] }
+            opticnerve: { pin: [90, 380], hit: [['p', '45,355 150,330 166,376 60,432']] },
+            sclera: { pin: [171, 131], hit: [['ring', 315, 275, 204, 14]] },
+            choroid: { pin: [125, 275], hit: [['ring', 315, 275, 190, 14]] },
+            retina: { pin: [191, 399], hit: [['ring', 315, 275, 176, 14]] },
+            vitreous: { pin: [300, 250], hit: [['c', 300, 280, 150]] },
+            ciliary: { pin: [465, 185], hit: [['e', 465, 185, 26, 26], ['e', 465, 375, 26, 26]] },
+            lens: { pin: [445, 278], hit: [['e', 445, 278, 32, 80]] },
+            iris: { pin: [505, 218], hit: [['e', 505, 218, 18, 42], ['e', 505, 340, 18, 42]] },
+            pupil: { pin: [505, 280], hit: [['e', 505, 280, 18, 30]] },
+            cornea: { pin: [538, 280], hit: [['e', 538, 280, 26, 110]] }
         } },
     respiratory: { src: 'assets/anatomy/respiratory.svg', w: 600, h: 639,
         credit: { title: 'Respiratory system (complete)', author: 'LadyofHats (Mariana Ruiz), Jmarchn', license: 'Public domain', url: 'https://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg', note: 'labels removed' },

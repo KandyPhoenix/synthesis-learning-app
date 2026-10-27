@@ -6,11 +6,11 @@ structure; nothing else was altered. Each board shows its credit in the app.
 
 | Board | File | Author | License |
 |---|---|---|---|
-| The Heart | [Diagram of the human heart (cropped).svg](https://commons.wikimedia.org/wiki/File:Diagram_of_the_human_heart_(cropped).svg) | Wapcaplet | CC BY-SA 3.0 |
+| The Heart | [Internal Structures of the Heart, Figure 19.6](https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy) (cropped, labels inpainted out) | OpenStax College, Anatomy & Physiology | CC BY 3.0 |
 | The Brain | [Lobes of the brain NL.svg](https://commons.wikimedia.org/wiki/File:Lobes_of_the_brain_NL.svg) | Henry Vandyke Carter (Gray's Anatomy) | Public domain |
 | The Skeleton | [Human skeleton front - no labels.svg](https://commons.wikimedia.org/wiki/File:Human_skeleton_front_-_no_labels.svg) | LadyofHats (Mariana Ruiz Villarreal), Mikael Häggström | Public domain |
 | Digestive System | [Digestive system diagram en.svg](https://commons.wikimedia.org/wiki/File:Digestive_system_diagram_en.svg) | Mariana Ruiz (LadyofHats), Jmarchn | Public domain |
-| The Eye | [Schematic diagram of the human eye en.svg](https://commons.wikimedia.org/wiki/File:Schematic_diagram_of_the_human_eye_en.svg) | Rhcastilhos, Jmarchn | CC BY-SA 3.0 |
+| The Eye | [Structure of the Eye, Figure 14.15](https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception) (cropped, labels inpainted out) | OpenStax College, Anatomy & Physiology | CC BY 3.0 |
 | Respiratory System | [Respiratory system complete en.svg](https://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg) | LadyofHats (Mariana Ruiz), Jmarchn | Public domain |
 | Urinary System | [Urinary system.svg](https://commons.wikimedia.org/wiki/File:Urinary_system.svg) | Jordi March i Nogué | CC BY-SA 3.0 |
 | The Animal Cell | [0312 Animal Cell and Components.jpg](https://commons.wikimedia.org/wiki/File:0312_Animal_Cell_and_Components.jpg) (cropped, labels inpainted out) | OpenStax College, Anatomy & Physiology | CC BY 3.0 |
