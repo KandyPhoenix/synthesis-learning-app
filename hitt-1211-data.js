@@ -4,9 +4,9 @@ window.HITT_1211_BOOK = {
           "id": "hitt-1211",
           "title": "HITT 1211: Health Information Systems",
           "author": "Lone Star College",
-          "description": "College-depth Health Information Systems: an Exam 1 study guide (Chapters 1–3, Sayles & Barefield) plus 28 lessons mapped to the HITT 1211 syllabus and AHIMA associate-degree competencies. Covers EHR foundations (HITECH, Meaningful Use, Cures Act), CPOE/CDS, patient portals, data standards (HL7 v2/v3/FHIR, SNOMED/LOINC/ICD/CPT), HIE & TEFCA, databases, system selection (RFI/RFP, TCO), implementation lifecycle, testing & training, infrastructure, HIPAA Security Rule, backup & DR, information governance, digital literacy and the Microsoft Office suite, encoders/groupers/online coding tools, computer-assisted coding, paper-to-electronic migration and EDMS, the acute care EHR vendor landscape, EHR and PHR evaluation, public health reporting and disease surveillance, and emerging technologies (AI, ambient docs, IoMT).",
-          "lessons": 29,
-          "duration": "452",
+          "description": "College-depth Health Information Systems: study guides for Exam 1 (Chapters 1–3), Exam 2 (Chapters 4–7), Exam 3 (Chapters 8–11), and the Final (Chapters 12–13) from Sayles & Barefield, plus 28 lessons mapped to the HITT 1211 syllabus and AHIMA associate-degree competencies. Covers EHR foundations (HITECH, Meaningful Use, Cures Act), CPOE/CDS, patient portals, data standards (HL7 v2/v3/FHIR, SNOMED/LOINC/ICD/CPT), HIE & TEFCA, databases, system selection (RFI/RFP, TCO), implementation lifecycle, testing & training, infrastructure, HIPAA Security Rule, backup & DR, information governance, digital literacy and the Microsoft Office suite, encoders/groupers/online coding tools, computer-assisted coding, paper-to-electronic migration and EDMS, the acute care EHR vendor landscape, EHR and PHR evaluation, public health reporting and disease surveillance, and emerging technologies (AI, ambient docs, IoMT).",
+          "lessons": 32,
+          "duration": "589",
           "progress": 0,
           "category": "him",
           "lessonList": [
@@ -472,6 +472,2408 @@ window.HITT_1211_BOOK = {
         "type": "diagram",
         "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">YOUR PRACTICE</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Five steps before Exam 1</text><rect x=\"50\" y=\"162\" width=\"1000\" height=\"160\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"212\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">1. Book definitions</text><text x=\"90\" y=\"267\" fill=\"#fff\" font-size=\"24\">Integrity, precision, hot spot, network model, template entry, mask.</text><rect x=\"50\" y=\"346\" width=\"1000\" height=\"160\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"90\" y=\"396\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">2. Compare tables</text><text x=\"90\" y=\"451\" fill=\"#fff\" font-size=\"24\">Networks, field types, database models, data stores, analytics.</text><rect x=\"50\" y=\"530\" width=\"1000\" height=\"160\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"580\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">3. Check Your Understanding</text><text x=\"90\" y=\"635\" fill=\"#fff\" font-size=\"24\">Each chapter's end-of-section questions in the textbook.</text><rect x=\"50\" y=\"714\" width=\"1000\" height=\"160\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"90\" y=\"764\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">4. CoachMe in VitalSource</text><text x=\"90\" y=\"819\" fill=\"#fff\" font-size=\"24\">Practice questions in the ebook platform.</text><rect x=\"50\" y=\"898\" width=\"1000\" height=\"160\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"948\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">5. Retake these quizzes</text><text x=\"90\" y=\"1003\" fill=\"#fff\" font-size=\"24\">Repeat until every answer is automatic.</text></svg>",
         "caption": "Exam 1 study steps"
+      }
+    }
+  ]
+},
+{
+  "id": "hitt-1211-exam2",
+  "title": "Exam 2 Study Guide: Chapters 4–7",
+  "duration": 47,
+  "completed": false,
+  "cards": [
+    {
+      "type": "intro",
+      "title": "Exam 2: Chapters 4–7",
+      "content": "This is your **HITT 1211 Exam 2 study guide**, built from your instructor's Exam 2 study guide and checked against the textbook glossary, your instructor's graded chapter quizzes for Chapters 4–7, and the book's Check Your Understanding answers (Appendix B). Textbook: *Introduction to Information Systems for Health Information Technology*, 4th ed. (**Sayles & Barefield**, AHIMA).\n\n**Exam 2 has 60 questions on four chapters:**\n• **Chapter 4** — System Selection (SDLC, user needs, RFI/RFP, vendor evaluation, contracts, project management)\n• **Chapter 5** — System Implementation (setting configuration, training, testing, go-live, evaluation)\n• **Chapter 6** — Computerization in HIM (encoder, grouper, CAC, CDI, ROI, chart locator and deficiency, registries, birth certificates, dictation and transcription)\n• **Chapter 7** — Administrative Information Systems (financial, HRIS, MPI/EMPI, R-ADT, scheduling, practice management, materials, facilities, DSS/EIS)\n\n**Instructor note:** you are responsible for all assigned readings, bold terms, chapter content, and the Check Your Understanding questions. Know each term's **concept, purpose, and application**, not just the definition, and be ready to apply the concepts to healthcare scenarios.\n\n**Vocabulary heads-up:** the study guide's go-live and testing words do not all match the book's. The guide says **direct, phased, pilot, and parallel**; in the book's questions the direct approach shows up as **straight turnover, big bang, or cutover**. The guide lists **unit, system, performance, and regression** testing; the book's questions use **application, interface, integration, volume, conversion, and acceptance** testing. Learn both sets.\n\n**How to use this lesson:** read the book-specific traps first, then work chapter by chapter. Answer the way the book and your instructor's key word it, not the way a general website would.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 2: Chapters 4–7</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">60 questions</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Chapter 4</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">System selection: SDLC,</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">RFI/RFP, vendors,</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">contracts, project tools</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Chapter 5</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">System implementation:</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">settings, training,</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">testing, go-live</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Chapter 6</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">HIM systems: encoder,</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">grouper, CAC, CDI, ROI,</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">registries</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Chapter 7</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Administrative systems:</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">financial, HRIS, MPI,</text><text x=\"602\" y=\"804\" fill=\"#fff\" font-size=\"24\">R-ADT, DSS, EIS</text></svg>",
+        "caption": "Exam 2 covers Chapters 4 through 7"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Book-Specific Definitions to Memorize",
+      "content": "These are where generic study sites (and even the slides) can lead you wrong. Learn the **book's and your course key's** version:\n\n• **Realistic (SMART)** — your course key: \"challenging but can be accomplished given the time and other factors.\" The slide spells SMART with **Attainable**, but your graded quiz marked *attainable* wrong for this definition. Give **realistic**.\n• **Best of fit** = all ISs from **one** vendor (integrated). **Best of breed** = the best IS for each need from **different** vendors (interfaced).\n• **Alpha site** = the **first** to use an IS still under development, partnering with the vendor. **Beta site** = the next organizations **after** the alpha sites.\n• **On-site demonstration** = the vendor comes to you, so the **most users** can watch. **Site visit** = a few people see the IS **live** at a similar facility.\n• **Integration testing** = all **hardware** (computers, printers, scanners) works together. **Interface testing** = data from a **source system** land in the correct field and format.\n• **Parallel processing** = the **least risk** go-live choice (old IS kept current as a safety net).\n• **Entering settings** = implementation stage. **Installing an update** = support and evaluation stage.\n• **CDI** — the book says clinical documentation **integrity**; the slides say clinical documentation **improvement**.\n• **Legacy system** — glossary: the system currently operating, the one being replaced. Slide: uses older technology but may still perform optimally.\n• **AHIMA does not** set health record content requirements.\n• **Strategic planning** — course key: **EIS**. Exception: Appendix B keys CYU 7.2 #4 (a 10-year IS strategic plan) to the **DSS**.\n• **Warranties** live in the **contract**; \"improve patient care\" is an **intangible** benefit; **external scanning** is how a facility learns of new legislation.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Book-Specific Traps</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Course-key and textbook wording</text><rect x=\"50\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"308\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Realistic (SMART)</text><text x=\"90\" y=\"363\" fill=\"#fff\" font-size=\"24\">Challenging but doable</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">given the time and other</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">factors</text><rect x=\"562\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"308\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Fit vs. breed</text><text x=\"602\" y=\"363\" fill=\"#fff\" font-size=\"24\">Fit = one vendor. Breed =</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">best IS per need, many</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">vendors</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Alpha vs. beta</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">Alpha = first, helps</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">design. Beta = next after</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">alpha</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Demo vs. site visit</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">On-site demo = most users.</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">Site visit = see it live</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Integration/interface</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Integration = hardware.</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">Interface = data from a</text><text x=\"90\" y=\"927\" fill=\"#fff\" font-size=\"24\">source</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Least risky go-live</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">Parallel processing: old IS</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">kept as a safety net</text></svg>",
+        "caption": "Six of the most-missed Exam 2 distinctions"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 4: The SDLC & Starting the Search",
+      "content": "**System selection** — determining which information system will be purchased. It is part of the **system development life cycle (SDLC)**: a model of the ongoing process of developing or purchasing information systems.\n\n**The six SDLC phases (instructor slides)**\n• Project planning\n• System analysis\n• System design\n• System implementation\n• Evaluation of implementation\n• Maintenance of the IS\nThe book's questions compress these to **planning and analysis → design → implementation → support (maintenance) and evaluation**. Know both forms.\n\n**How the search for an IS begins**\n• **IS strategic planning** — developing IS strategy from the organization's information needs. The IS strategic plan should support **the business strategic plan**.\n• **Steering committee** — staff group responsible for every IS acquisition project.\n• **Project definition** — exactly what the organization wants the IS to do and the expected outcomes: purpose, link to business strategy, goals, and scope.\n• **Feasibility study** — an **early** study determining whether a proposed IS is an appropriate option. It weighs tangible and intangible benefits and possible issues, and its results decide whether to proceed.\n• **Systems analysis** — gather user needs and scan for change (**internal** and **external scanning**) to build the **functional requirements**.\n• **RFI, then RFP** — the RFI requests basic information and narrows the vendor list; the RFP goes only to the shortlist.\n\n**Existing systems:** **legacy system** = the system currently operating (the one being replaced). **Sunset** = the vendor will no longer maintain an IS after a specified date.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">The SDLC</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Six phases on the instructor's slides</text><rect x=\"50\" y=\"294\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"344\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">1. Project planning</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">Feasibility study, budget,</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">goals, team, buy-in</text><rect x=\"562\" y=\"294\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"344\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">2. System analysis</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">User needs, scanning,</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">functional requirements</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">3. System design</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">Build, buy, or cloud;</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">integrated vs. interfaced;</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">pick the IS</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">4. Implementation</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">Configure, train, test,</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">convert, go live</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">5. Evaluation</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Does the IS function as</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">expected?</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">6. Maintenance</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">Updates, fixes, and</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">day-to-day support</text></svg>",
+        "caption": "The six phases of the system development life cycle"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 4: Planning, SMART Goals & the Project Team",
+      "content": "**Project** — has a specific objective, a series of activities, defined start and stop dates, and deliverables; it lasts a finite period. Implementing an EHR or developing the IS strategic plan is a project. A monthly report or a bill-drop setting change is routine work.\n\n**Project planning steps:** conduct the feasibility study, set the budget, set goals and objectives, identify the project manager and team, and obtain buy-in from management and users.\n\n**Benefits** — **tangible** benefits are easy to quantify in dollars (eliminating duplicate tests, no more file folders). **Intangible** benefits cannot be given a dollar value: **improve patient care**, improved quality of care.\n\n**SMART goals** — based on business goals. Slide: **S**pecific, **M**easurable, **A**ttainable, **R**elevant, **T**ime-based.\n• **Measurable** — lets you compare the actual outcome to the goal.\n• **Realistic** (course key) — challenging but can be accomplished given the time and other factors.\n\n**Roles**\n• **Steering committee** — responsible for every IS acquisition project; receives status reports.\n• **Project manager** — budget, resources, schedule; keeps the plan on time, resolves issues, meets outcomes.\n• **Project team** — represents multiple disciplines and discusses the project and its issues. HIM is frequently on it to address HIM needs (compliance, privacy, security, legal, data quality).\n• Also: **CIO**, user task force, vendor, consultant. Contracts are negotiated by a **contract team**.\n• **Selection committee** — I could not confirm the book's exact wording. Standard HIM meaning: the group of users and leaders that reviews proposals, demos, and site visits and recommends which IS to buy. In the chapter material I have, the project team does this evaluation work (demos, site visits), and the steering committee oversees every IS acquisition project.\n\n**Scope creep** — items not in the original scope get added after the project begins.\n**Change management** — formally introducing change, getting it adopted, and diffusing it; administration must be honest with employees.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Planning Must-Knows</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Goals, benefits, and scope</text><rect x=\"50\" y=\"294\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"344\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Measurable</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">You can compare the actual</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">outcome to the goal</text><rect x=\"562\" y=\"294\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"344\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Realistic (course key)</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">Challenging but doable</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">given the time and other</text><text x=\"602\" y=\"471\" fill=\"#fff\" font-size=\"24\">factors</text><rect x=\"50\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Tangible benefit</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Has a dollar value: fewer</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">duplicate tests</text><rect x=\"562\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"590\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Intangible benefit</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">No dollar value: improve</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">patient care</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Project definition</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Scope decided BEFORE the</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">project begins</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Scope creep</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">Items added AFTER the</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">project begins</text></svg>",
+        "caption": "Key project planning distinctions"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 4: Determining User Needs",
+      "content": "**Systems analysis** collects what users need. The result is the **functional requirements**, a list of functions or tasks the IS must be able to perform (for example, \"the IS must work with our existing technology\"), plus user buy-in.\n\n**Tools to determine user needs**\n• **Questionnaires** — reach a **large number** of users; results are easy to collect and analyze. They use closed- and open-ended questions.\n• **Interviews** — structured, unstructured, or semi-structured.\n• **Observation** — watching what employees actually do. Keep sessions **short** (the observer can disrupt the workplace) and spread them through the day.\n• **Flowcharts** — standardized symbols for each step of a process.\n• **Internal scanning** — changes **within** the organization that affect IS needs.\n• **External scanning** — changes **outside** it: legislation, regulation, competitors, technology trends. This is how a facility learns of **new legislation**.\n\n**Open-ended question** — a question the participant can expand on; it fills gaps but slows analysis. A **closed-ended** question limits the answer to set choices such as yes/no or a rating (standard meaning; the glossary defines only open-ended).\n\n**Examples of open-ended questions** (my illustrations, not quoted from the book):\n• \"What problems do you have with the current system?\"\n• \"Describe how you process a release of information request.\"\n• \"What would you like the new EHR to do that the current one cannot?\"\nClosed-ended versions: \"Do you use the chart locator daily? Yes/No\" or \"Rate the current system 1 to 5.\"\n\n**Functional requirements in the RFP** are ranked **mandatory, desirable, or luxury** and later used to judge whether a vendor has the functionality needed.\n\n**Appendix B heads-up:** CYU 4.2 keys **design** as the SDLC phase that identifies the functions needed, while the chapter builds functional requirements during systems analysis. Answer **design** on that question; know both.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Tools for User Needs</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Systems analysis</text><rect x=\"50\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"362\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Questionnaires</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">Many users at once; easy to</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">collect and analyze</text><rect x=\"562\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"362\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Interviews</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">Structured, unstructured,</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">or semi-structured</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Observation</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">What staff really do; keep</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">sessions short</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Flowcharts</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Standard symbols for each</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">process step</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Internal scanning</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Changes WITHIN the</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">organization</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">External scanning</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">Changes OUTSIDE: new</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">legislation, competitors</text></svg>",
+        "caption": "Tools used to determine user needs for an IS"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 4: Build, Buy, or Cloud & Vendor Strategies",
+      "content": "**Design phase decision:** build vs. buy vs. cloud computing.\n• **Build** — built on the organization's needs, but it takes a long time, needs detailed planning and long-term maintenance, and has a high development cost. A **prototype** is a quick way to build your own: design, show users, get feedback, revise, and repeat.\n• **Buy** — may not completely meet the organization's needs. Alpha and beta sites are part of the buy option.\n• **Cloud computing** — advantages: collaboration, speed, mobility, privacy and security, decreased costs. Disadvantages: less control, scheduling of maintenance and upgrades, and it is a rental. A contract is signed with the cloud organization.\n\n**Alpha site** — the FIRST organization to implement the IS; it helps design it, usually for a discount. Justification for being one: it lets the organization play a significant role in the design of the IS.\n**Beta site** — the next organizations to implement the IS after the alpha site.\n\n**Integrated vs. interfaced**\n• **Integrated systems** — separate applications designed to work together; data entered into one are accessible to the others. Buying all ISs from **one vendor** = **best of fit**.\n• **Interfaced systems** — not designed to work together; linked through an **interface**. Choosing the best IS for each need regardless of vendor = **best of breed**.\n\n**Purpose of a best of breed strategy:** get the best IS for each function or department, regardless of vendor. The trade-off is that systems from different vendors must be linked through interfaces. The strategy that **links two ISs from different vendors** is called **interfaced**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Best of Fit vs. Breed</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Design-phase choices</text><rect x=\"50\" y=\"276\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"326\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Best of fit</text><text x=\"90\" y=\"381\" fill=\"#fff\" font-size=\"24\">All ISs from ONE vendor;</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">integrated, made to work</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">together</text><rect x=\"562\" y=\"276\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"326\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Best of breed</text><text x=\"602\" y=\"381\" fill=\"#fff\" font-size=\"24\">Best IS for each need from</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">MANY vendors; interfaced</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Alpha site</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">First to use it; helps</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">design it, usually for a</text><text x=\"90\" y=\"699\" fill=\"#fff\" font-size=\"24\">discount</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Beta site</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Next organizations after</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">the alpha sites</text><rect x=\"50\" y=\"768\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"818\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Build</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">Fits needs but slow and</text><text x=\"90\" y=\"909\" fill=\"#fff\" font-size=\"24\">costly; prototype speeds it</text><rect x=\"562\" y=\"768\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"818\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Cloud</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">Speed and lower cost; less</text><text x=\"602\" y=\"909\" fill=\"#fff\" font-size=\"24\">control; a rental</text></svg>",
+        "caption": "Vendor strategies and site types"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 4: RFI, RFP & Evaluating Vendors",
+      "content": "**Five system selection steps:** request for information → request for proposal → evaluation of the proposed IS → selection of the IS → contract negotiation.\n\n**RFI** — formal document requesting **basic information** on an IS. RFI responses narrow the list of vendors who get the RFP.\n**RFP** — detailed product and contract information request sent to **shortlisted** vendors. It describes what IS is needed, the organization, and the desired functions.\n\n**Purpose of the RFP:** get detailed, comparable proposals from preselected vendors so the team can judge which one meets its functional requirements. **Contents:** letter of introduction (covers the bidders' conference), vendor information, descriptions of the organization and system, functional requirements (mandatory, desirable, luxury), response format, instructions, samples (documentation, contract, résumés), vendor profile, testing and training requirements, selection criteria, references.\n**Bidders' conference** — meeting where vendors ask questions about the RFP. Proposals go to one designated person, generally the project manager.\n\n**Evaluating proposals**\n• **On-site demonstration** — the vendor demonstrates at your facility so **as many users** and team members as possible can watch (demo or full version). Online demonstrations are also listed on the slides.\n• **Site visit** — the team visits a similar facility to observe the IS in **live** use. To conduct one, a small group goes to an organization that already uses the product, watches it working in its live environment, and asks its questions. The vendor's salesperson often attends to answer questions and make sure the team gets what it needs to decide.\n• **Reference checks** and **review of RFP responses**.\n• **Weighted decision matrix** — scores vendors by the features that matter most. A **point system** assigns points to evaluation elements; spreadsheets can compare RFP responses.\n\n**Appendix B heads-up:** for CYU 4.3's tool for analyzing submitted RFPs, the chapter supports **weighted decision matrix**, but Appendix B prints (b) Database. The printed letter looks like an error.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Five Selection Steps</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">From RFI to contract</text><rect x=\"50\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"362\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">1. RFI</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">Basic information; narrows</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">the vendor list</text><rect x=\"562\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"362\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">2. RFP</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">Detailed proposals from the</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">shortlist only</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">3. Evaluation</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Demos, site visits,</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">references, RFP review</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">4. Selection</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Weighted decision matrix or</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">point system</text><rect x=\"50\" y=\"732\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">5. Contract negotiation</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">A contract team works toward a win-win agreement with the</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">vendor</text></svg>",
+        "caption": "The five system selection steps"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 4: Contracts & Payment Milestones",
+      "content": "The contract is the legally binding document, so protections such as **warranties** are found in the **contract**, not the RFP or RFI.\n\n**Key clauses**\n• **Software license** — what the organization can do with the IS.\n• **Delivery dates** — when software and hardware arrive. The book stresses that nothing can be done until the **software** is available and installed.\n• **Warranties and guarantees** — for example, warranty of title: the vendor's assurance that it has the right to sell the product.\n• **Escrow** — a third party holds a copy of the software/source code in case the vendor goes bankrupt.\n• **Force majeure** — an event that cannot be reasonably anticipated or controlled.\n• **Cotermination** — lets maintenance agreements renew at the same time regardless of their effective dates.\n• **Software version** — the version to be delivered should be specified.\n• Also: responsibilities of each party, the state whose laws govern, cost, cancellation, penalties, acceptance testing, maintenance and updates, training (including ongoing training), and documentation.\n\n**Payment milestone** — an action that triggers payment to the vendor. Instead of paying everything up front, the organization pays as the project reaches set points.\n\n**Typical milestones (Table 4.9):**\n• Signing of contract: 20%\n• Delivery of software: 10%\n• Commencement of testing: 10%\n• Go-live: 30%\n• Completion of acceptance testing: 30%\nCheck: 20 + 10 + 10 + 30 + 30 = 100%.\n\n**Traps:** force majeure does NOT trigger payments (payment milestones do). The source code does not define what you may do with the IS (the software license does).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Payment Milestones</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Table 4.9 example (adds to 100%)</text><rect x=\"50\" y=\"348\" width=\"488\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"398\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Signing of contract</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">20% of the price</text><rect x=\"562\" y=\"348\" width=\"488\" height=\"150\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"398\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Delivery of software</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">10% of the price</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"150\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Start of testing</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">10% of the price</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"150\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Go-live</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">30% of the price</text><rect x=\"50\" y=\"696\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"746\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Acceptance testing done</text><text x=\"90\" y=\"801\" fill=\"#fff\" font-size=\"24\">30% of the price, paid once the IS is confirmed to meet the</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">contract</text></svg>",
+        "caption": "Typical payment milestones in an IS contract"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 4: Project Tools & Documenting Issues",
+      "content": "**Project management** — a formal set of principles and procedures that help control the activities of a usually large undertaking to achieve a specific goal.\n\n**Tools**\n• **Project plan** — lists the tasks to be performed (feasibility study, resources, design, hardware and software procurement, transition, implementation, evaluation and maintenance).\n• **Gantt chart** — tasks, start and end dates, the person responsible, and connections between tasks.\n• **PERT chart** — evaluates tasks, dependencies, sequence, and time required.\n• **Critical path** — the longest amount of time to complete the project; a delay on it lengthens the project. It shows whether the implementation date will **slip**.\n• **Status reports** — written by the project manager (or a designee) and directed to the IS steering committee to keep it informed of progress.\n• **Trouble tickets** — see below.\n\n**How issues should be documented during a project**\nThe book's tool is the **trouble ticket**: a form documenting specific information on problems encountered. It records:\n• the screen where the problem occurred and the function being performed\n• the error message received and the data entered\n• any report with incorrect data or other problem\nThe ticket is **logged into a tracking system**, given a **tracking number**, and **assigned** to the appropriate project team member to resolve. After the fix, the IS is retested. The project manager makes sure issues are resolved, the project team discusses the project and its issues, and status reports keep the steering committee informed.\n\n**Scope creep example (CYU):** the EHR was planned for the emergency department, and now it must be used for all outpatient services.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Project Tools</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Keeping the project on track</text><rect x=\"50\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"362\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Gantt chart</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">Tasks, start and end dates,</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">owners, links</text><rect x=\"562\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"362\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">PERT chart</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">Dependencies, sequence, and</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">time needed</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Critical path</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Longest route; a slip here</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">delays go-live</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Status report</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Project manager to steering</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">committee</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Trouble ticket</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Logs each problem with a</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">tracking number</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Project plan</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">The list of tasks to be</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">performed</text></svg>",
+        "caption": "Project management tools from Chapter 4"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In a SMART goal, a goal that is challenging but can be accomplished given the time and other factors is known as:",
+      "options": [
+        {
+          "text": "Measurable",
+          "correct": false
+        },
+        {
+          "text": "Realistic",
+          "correct": true
+        },
+        {
+          "text": "Attainable",
+          "correct": false
+        },
+        {
+          "text": "Timely",
+          "correct": false
+        }
+      ],
+      "explanation": "**Realistic.** Your instructor's graded quiz defines realistic as challenging but able to be accomplished given the time and other factors, and it marked **attainable** wrong for this exact stem, even though the slide spells SMART with Attainable. On the exam, give **realistic** for this definition. **Measurable** means the goal gives you something to compare the actual outcome against, and **timely** concerns the time frame, not how challenging the goal is.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">SMART goals</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Answer with your course key, not the slide spelling</text></svg>",
+        "caption": "Knowledge check: SMART goals"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The healthcare facility has decided to purchase all of its information systems from one vendor. This strategy is known as:",
+      "options": [
+        {
+          "text": "Best of the best",
+          "correct": false
+        },
+        {
+          "text": "Best of breed",
+          "correct": false
+        },
+        {
+          "text": "Best of fit",
+          "correct": true
+        },
+        {
+          "text": "Best of choice",
+          "correct": false
+        }
+      ],
+      "explanation": "**Best of fit.** Buying every IS from a single vendor gives you integrated systems: separate applications designed to work together, so data entered into one are accessible to the others. The tempting wrong answer is **best of breed**, which means choosing the best IS for each need regardless of vendor; those systems come from different vendors and must be linked through interfaces. \"Best of the best\" and \"best of choice\" are not book terms.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Vendor strategy</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">One vendor or many? Integrated or interfaced?</text></svg>",
+        "caption": "Knowledge check: Vendor strategy"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The hospital has partnered with an IS vendor and will be the first healthcare facility to use the EHR while it is still under development. The hospital is known as a(n):",
+      "options": [
+        {
+          "text": "Alpha site",
+          "correct": true
+        },
+        {
+          "text": "Beta site",
+          "correct": false
+        },
+        {
+          "text": "Project plan",
+          "correct": false
+        },
+        {
+          "text": "Critical path",
+          "correct": false
+        }
+      ],
+      "explanation": "**Alpha site.** An alpha site is the first organization to implement the IS; it partners with the vendor to help design it, usually in exchange for a discount. Read the stem carefully: the book's Chapter 4 Review version says the hospital will be the first **after** the alpha sites, and that answer is **beta site**, the next organizations to implement after the alpha site. Project plan and critical path are project management tools, not types of sites.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Alpha and beta sites</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Watch the word &quot;first&quot; and whether anyone came before</text></svg>",
+        "caption": "Knowledge check: Alpha and beta sites"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following evaluations would get the most users involved?",
+      "options": [
+        {
+          "text": "On-site demonstration",
+          "correct": true
+        },
+        {
+          "text": "Site visit",
+          "correct": false
+        },
+        {
+          "text": "Reference checks",
+          "correct": false
+        },
+        {
+          "text": "Reviewing RFP responses",
+          "correct": false
+        }
+      ],
+      "explanation": "**On-site demonstration.** The vendor comes to the facility, so as many users and project team members as possible can watch, using either a demo or a full version of the IS. The tempting wrong answer is the **site visit**: a small team goes to a similar facility to see the IS in live use, which shows the system working but involves only a few people. Reference checks and reviewing RFP responses are handled by a few project team members.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Evaluating vendors</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Who travels, and who can attend?</text></svg>",
+        "caption": "Knowledge check: Evaluating vendors"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is a typical payment milestone in an IS contract?",
+      "options": [
+        {
+          "text": "Submission of RFP",
+          "correct": false
+        },
+        {
+          "text": "Completing settings",
+          "correct": false
+        },
+        {
+          "text": "Signing of contract",
+          "correct": true
+        },
+        {
+          "text": "Feasibility study",
+          "correct": false
+        }
+      ],
+      "explanation": "**Signing of contract.** A payment milestone is an action that triggers payment to the vendor. The book's Table 4.9 example spreads payments across signing of contract (20%), delivery of software (10%), commencement of testing (10%), go-live (30%), and completion of acceptance testing (30%). Submission of the RFP and the feasibility study happen before a vendor is chosen, so no payment is owed yet, and completing settings is an implementation task that is not on the milestone list.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Payment milestones</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Which event actually obligates the organization to pay?</text></svg>",
+        "caption": "Knowledge check: Payment milestones"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 5: Implementation Steps & Setting Configuration",
+      "content": "**System implementation** — preparing and launching the selected IS. The slide steps, in order:\n1. Site preparation\n2. User preparation\n3. Installing hardware and software\n4. Programming and customization (programming and data conversion)\n5. User configurations and settings\n6. User interface design\n7. Reengineering processes\n8. Policy and procedure development and documentation\n9. Testing plan\n10. Training\n11. Conversion\n12. Go-live\n\n**Site preparation** — physical changes where hardware will be installed: renovating nursing units or HIM for terminals and printers, the data center, and infrastructure upgrades.\n**User preparation** — informing and readying users **both psychologically and through training**. It is a change management job: manage fear, manage expectations, and get user involvement.\n\n**Setting configuration** — entering the desired behaviors of the IS into tables or setting fields: populating drop-down lists and tables, controlling **when bills drop**, and other rules. Setting configurations are what **control how an IS behaves**. Entering the settings happens in the **implementation** stage of the SDLC.\n\n**Reengineering** — evaluating the way the organization does business in order to improve efficiency. Keep asking **\"Why?\"** a process is done the way it is, so the new IS does not simply automate an old, broken process.\n\n**Policies and procedures** — updated to cover new processes and the maintenance of the IS.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Implementation Musts</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Four terms the exam leans on</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Site preparation</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Physical changes for</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">hardware: renovation, data</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">center</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">User preparation</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Psychologically AND through</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">training</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Setting configuration</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">IS behaviors entered in</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">tables: drop-downs, bill</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">drop</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Reengineering</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Improve how work is done;</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">keep asking WHY</text></svg>",
+        "caption": "Site prep, user prep, configuration, and reengineering"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 5: Screen Design & Data Conversion",
+      "content": "**User interface (screen) design** — designing screens to meet user needs and promote job efficiency.\n**Reasons to redesign a screen:** no single screen has all the data needed, the screen is not in a logical order for workflow, screens are too cluttered, or to improve workflow.\n\n**Design rules**\n• Fields in a **logical sequence** (address, city, and state together, in that order)\n• Read **left to right, top to bottom** (in the US)\n• A title, a control number, standardized terminology, and a standardized look and feel\n• Use color, blinking, and reverse video **sparingly**; bright colors strain the eyes\n\n**Graphical user interface (GUI)** — users interact by clicking icons, menus, and other tools, often on a toolbar. The GUI is the tool used to **navigate** the IS.\n\n**Data conversion** — changing data from one format to another.\n• **Format:** a health record number from 9 digits (000123456) to 12 digits (000000123456) by adding leading zeros; a date from 6 digits (XX/XX/XX) to 8 (XX/XX/XXXX).\n• **Content:** the old IS has 4 services and the new one needs 8, so old values are mapped to new ones.\n• Conversion **requires interfaces to be programmed**: they must be written and tested before converting. A formal testing plan tests the conversion before go-live.\n\n**Appendix B heads-up:** CYU 5.1 asks you to critique \"screens are read left to right, top to bottom.\" The statement is **true**, but Appendix B prints (c), a \"false\" option, while its own explanation agrees the statement is correct. The printed letter appears to be a typo; the content answer is **true**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Screen Design Rules</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Plus data conversion</text><rect x=\"50\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"362\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Logical order</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">Address, city, state</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">together, in order</text><rect x=\"562\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"362\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Reading flow</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">Left to right, top to</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">bottom</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Standard look</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Title, control number, same</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">terminology</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Color</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Use sparingly; bright</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">colors strain the eyes</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Data conversion</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Old format to new: 9-digit</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">number to 12 digits</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">GUI</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">Icons and menus used to</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">navigate the IS</text></svg>",
+        "caption": "User interface design and data conversion"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 5: Training Plans & Training Resources",
+      "content": "**Training plan** — states when training will be conducted and the type of training. Contents: the **schedule** (covering 24/7/365 staff, length, and timing), **learning objectives**, the **agenda**, **teaching tools**, and **content**. Trainers first determine each trainee's level of computer literacy.\n\n**Training resources** — the slide names the **training materials** and the **classroom**. The chapter also describes:\n• **Vendor resources** that trainers customize for the organization\n• **Handouts** for every user at each session; materials later remind users how to do a task they forgot\n• **Train the trainer** — train certain individuals (often **superusers**) who train everyone else\n• **Computer-assisted instruction (CAI)** — software using multimedia and interactive technology to teach a topic; learners work at their own pace and schedule. Use CAI only when content is **not expected to change**, because the software would need updating with every change.\n• **E-learning** — technology used asynchronously (not live)\n\n**Adult learning principles:** adults need to know **why**, need to see the **relevance** of what they are learning, and like having a say in their education.\n\n**Good practice**\n• Break training into **modules** by content area; short sessions work better than one long session.\n• Train **physicians** one-on-one **before or after their office hours** (early morning, lunch, evening, weekends).\n• Evaluate training (were objectives met? trainee evaluations) and provide ongoing training for existing and new employees.\n• **Document** attendees, copies of training materials, objectives, and competency test results (more than a sign-in sheet).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Training Resources</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Planning and delivering training</text><rect x=\"50\" y=\"294\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"344\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Materials and classroom</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">The slide's two training</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">resources</text><rect x=\"562\" y=\"294\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"344\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Train the trainer</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">Superusers learn first,</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">then train others</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">CAI</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">Self-paced; only for</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">content that will not</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">change</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Adult learners</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">Need to know WHY and see</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">the relevance</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Modules</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Short sessions broken down</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">by content area</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Physicians</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">One-on-one, before or after</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">office hours</text></svg>",
+        "caption": "Training resources and principles from Chapter 5"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 5: The Testing Plan & the Book's Testing Types",
+      "content": "**Testing plan** — describes the testing to be performed. Its purpose is to create a **realistic test environment** and make sure complete, accurate testing is done in a timely manner before go-live. Testing is a **cyclical** process: test, log problems, fix, and retest.\n\n**Test environment** — where changes are tested before production: an **exact duplicate** of the IS in use, **excluding the live data**. A new vendor update goes into the test environment first.\n\n**The book's testing types**\n• **Application testing** — every **function** of the IS works as it should.\n• **Interface testing** — data from a **source system** transfer into the new IS in the correct field and format.\n• **Integration testing** — all **hardware** (computers, printers, scanners) works together; the new IS works with the existing infrastructure.\n• **Volume testing** — the IS can handle a **large number of transactions** at the same time.\n• **Conversion testing** — the formal testing plan tests the data conversion to work out problems before go-live.\n• **Acceptance testing** — confirms the IS meets the contract; it is a contract clause, and its completion is a payment milestone.\n• The book's list also names **documentation**, **training**, and **parallel** testing. I could not confirm the book's exact definitions for these three in my sources.\n\n**Problems found** go on **trouble tickets**, and the IS is retested after every fix.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Book Testing Types</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Know what each one checks</text><rect x=\"50\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"362\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Application</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">Every FUNCTION works</text><rect x=\"562\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"362\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Interface</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">Source-system data land in</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">the right field</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Integration</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">All HARDWARE works together</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Volume</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Many transactions at the</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">same time</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Conversion</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Converted data checked</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">before go-live</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Acceptance</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">The IS meets the contract</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">(a milestone)</text></svg>",
+        "caption": "The book's testing vocabulary"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 5: The Study Guide's Testing Vocabulary",
+      "content": "Your instructor's guide lists **unit, system, performance, and regression** testing. **I could not confirm the book's exact wording for any of these four**; they do not appear in the chapter material I was given. These are standard IS testing definitions, tied to the closest book terms:\n\n• **Unit testing** — testing one component, module, or function by itself. Closest book idea: application testing checks each function.\n• **System testing** — testing the complete IS as a whole, after the pieces are put together, to confirm it meets its requirements.\n• **Performance testing** — checking speed, response time, and stability under expected workloads. Closest book term: **volume testing** (many transactions at once).\n• **Regression testing** — retesting after a change or fix to make sure functions that worked before still work. The book's version: the IS is **retested after every fix**, which is why testing is cyclical.\n\n**Exam strategy:** if a question uses the guide's words, apply these meanings. If it uses the book's words (application, interface, integration, volume, conversion, acceptance), use the book's definitions from the previous card.\n\n**The trap that never changes:** **integration** = hardware working together; **interface** = data coming in from another system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Two Testing Vocabularies</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Guide terms and the book's closest match</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Unit</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">One module or function</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">alone (like application)</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">System</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">The whole IS tested against</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">requirements</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Performance</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Speed under load (like</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">volume testing)</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Regression</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Retest after a fix (book:</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">retest every fix)</text></svg>",
+        "caption": "The study guide's four testing terms"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 5: Go-Live & Turnover Strategies",
+      "content": "**Go-live** — the official time and date the organization begins using the new IS. Schedule it when the organization is **least busy**. Initial support comes from the project team and trainers; ongoing support comes from the help desk.\n\n**Go-live models (book)**\n• **Phased** — one **module** at a time (medication ordering first, then laboratory, and so on).\n• **Pilot** — implement in **one area** (one unit or department) before rolling out to other areas; it can bring all features to that one department.\n• **Big bang (cutover)** — everything at once; the riskiest.\n\n**Turnover strategies (book)**\n• **Straight turnover** — the old IS stops when the new one starts. More cost-effective and no duplication of effort, but risky if the new IS has to be aborted.\n• **Parallel processing** — data are entered in **both** the old and new IS for a specified period, such as two weeks. Labor intensive and expensive, but the old IS stays current as a safety net: **the least risk**.\n\n**Matching the guide's words to the book's**\n• Guide **direct** = book **straight turnover / big bang / cutover**\n• Guide **phased** = phased (by module)\n• Guide **pilot** = pilot (by unit or department)\n• Guide **parallel** = parallel processing\n\n**Scenario clues:** \"one department or nursing unit first\" = pilot. \"One module at a time\" = phased. \"Avoid risk\" = parallel. \"Cheapest, no duplicate entry\" = straight turnover.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Go-Live Strategies</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Guide words and book words</text><rect x=\"50\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"362\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Direct / straight</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">Old IS stops at go-live;</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">cheaper but risky</text><rect x=\"562\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"362\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Big bang (cutover)</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">Everything at once; the</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">riskiest model</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Phased</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">One MODULE at a time</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Pilot</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">One UNIT or department</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">first, then the next</text><rect x=\"50\" y=\"732\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Parallel processing</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Old and new IS run together for a set period; expensive, but</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">the least risk</text></svg>",
+        "caption": "Comparison of go-live and turnover strategies"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 5: After Go-Live — Evaluation & Support",
+      "content": "**System evaluation** — determining whether the IS functions as expected: what worked, what did not, and did the organization get what it expected? It is paired with routine maintenance in the final SDLC stage (**support and evaluation**, also called evaluation and maintenance).\n\n**What happens in support and evaluation**\n• Day-to-day support and maintenance\n• **Installing updates** and fixes (course key: support and evaluation, not implementation)\n• Resolving problems found after go-live that system testing did not reveal\n• Determining what the team **could have done better** with the next implementation\n• Ongoing training for existing and new employees\n\n**Trouble ticket** — form documenting specific information on problems encountered; it gets a tracking number and is assigned to a team member to resolve.\n\n**Stage check (a favorite trick)**\n• Entering the **settings** → **implementation**\n• Installing an **update** → **support and evaluation**\n• Deciding what the team could have done better → **evaluation and maintenance**\n• Identifying the functions needed (Appendix B, CYU 4.2) → **design**",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Which SDLC Stage?</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Matching tasks to stages</text><rect x=\"50\" y=\"435\" width=\"488\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"485\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Entering settings</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">Implementation</text><rect x=\"562\" y=\"435\" width=\"488\" height=\"150\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"485\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Installing an update</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">Support and evaluation</text><rect x=\"50\" y=\"609\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"659\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">What could we do better?</text><text x=\"90\" y=\"714\" fill=\"#fff\" font-size=\"24\">Evaluation and maintenance</text><rect x=\"562\" y=\"609\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"659\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Needed functions (App B)</text><text x=\"602\" y=\"714\" fill=\"#fff\" font-size=\"24\">Design (the chapter text</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">says analysis)</text></svg>",
+        "caption": "Stage questions from the course quizzes and CYU"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "If the healthcare facility wants to avoid risk during go-live, which strategy should it use?",
+      "options": [
+        {
+          "text": "Straight turnover",
+          "correct": false
+        },
+        {
+          "text": "Big bang",
+          "correct": false
+        },
+        {
+          "text": "Pilot",
+          "correct": false
+        },
+        {
+          "text": "Parallel processing",
+          "correct": true
+        }
+      ],
+      "explanation": "**Parallel processing.** Data are entered in both the old and new IS for a specified period, such as two weeks, so the old IS stays in place and current as a safety net. That makes it the least risky choice, although it is labor intensive and expensive. A **pilot** also lowers risk by starting in one unit, but it is not the book's answer to this question. **Straight turnover** and **big bang** leave no fallback if the new IS fails.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Go-live risk</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Which strategy keeps the old system running?</text></svg>",
+        "caption": "Knowledge check: Go-live risk"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which go-live model has the new IS used first in one department or nursing unit, then rolled out to the next?",
+      "options": [
+        {
+          "text": "Phased",
+          "correct": false
+        },
+        {
+          "text": "Pilot",
+          "correct": true
+        },
+        {
+          "text": "Cutover",
+          "correct": false
+        },
+        {
+          "text": "Parallel",
+          "correct": false
+        }
+      ],
+      "explanation": "**Pilot.** The pilot method implements the IS in one area, such as a single unit or department, before rolling it out to other areas, and it can bring all features of the new IS to that one department. The tempting wrong answer is **phased**, which brings up one **module** at a time (medication ordering, then laboratory). **Cutover** is the big bang approach, everything at once, and **parallel** runs the old and new systems together.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Go-live models</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">One place at a time, or one module at a time?</text></svg>",
+        "caption": "Knowledge check: Go-live models"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The type of testing that addresses the sharing of data from a source system to the new IS is known as:",
+      "options": [
+        {
+          "text": "Interface testing",
+          "correct": true
+        },
+        {
+          "text": "Integration testing",
+          "correct": false
+        },
+        {
+          "text": "Application testing",
+          "correct": false
+        },
+        {
+          "text": "Conversion testing",
+          "correct": false
+        }
+      ],
+      "explanation": "**Interface testing.** It confirms that data from the source system transfer into the new IS in the correct field and format. The tempting wrong answer is **integration testing**, which in this book means all the hardware (computers, printers, scanners) works together with the existing infrastructure. **Application testing** checks that every function of the IS works, and **conversion testing** checks data being changed from the old format to the new one before go-live.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Testing types</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Data moving between systems, or hardware working together?</text></svg>",
+        "caption": "Knowledge check: Testing types"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "When conducting reengineering, what question should be constantly asked?",
+      "options": [
+        {
+          "text": "When?",
+          "correct": false
+        },
+        {
+          "text": "How?",
+          "correct": false
+        },
+        {
+          "text": "Why?",
+          "correct": true
+        },
+        {
+          "text": "Where?",
+          "correct": false
+        }
+      ],
+      "explanation": "**Why?** Reengineering means evaluating the way the organization does business in order to improve efficiency. Constantly asking why a process is done the way it is keeps the team from simply automating an old, broken process with the new IS. **How** is tempting because reengineering does change how work gets done, but the course key wants the question that challenges whether a step should exist at all. When and where are scheduling details, not reengineering.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Reengineering</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Which question challenges whether a step should exist?</text></svg>",
+        "caption": "Knowledge check: Reengineering"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 6: Informatics & New HIM Roles",
+      "content": "**Health informatics** — the scientific discipline concerned with the cognitive, information-processing, and communication tasks of healthcare practice, education, and research, including the information science and technology to support these tasks (word for word on your course quiz).\n**Data analytics** — the science of examining raw data to draw conclusions. **Analytics** — the ability of an organization to use data and information to achieve its strategy, goals, and mission.\n**Efficiency** — how the desired outcome is achieved, particularly without wasting resources (time, personnel, money). **Effectiveness** — the degree to which stated outcomes are attained.\n\n**New HIM roles**\n• **Mapping specialist** — creates maps between systems such as vocabularies and classification systems (ICD-9-CM to ICD-10-CM).\n• **Data quality manager** — works with providers to meet the organization's data quality goals for coding, reimbursement, and documentation.\n• **Data integrity analyst** — ensures the quality of data in HIM systems; applies and controls data edits.\n• Also: data analyst, CDI specialist, content analyst, clinical informatics coordinator, director of clinical informatics.\n\n**C-suite informatics roles**\n• **CSO (chief security officer)** — protects data from unauthorized access, alteration, and destruction; responsible for compliance and security (cybersecurity).\n• **CTO (chief technology officer)** — upper executive coordinating all technology necessary for the information systems.\n• **CCIO (chief clinical informatics officer)** — works with clinical providers to lead the use of technology to improve quality of care.\n\n**Soft skills** — subjective traits involving perception and analysis: communication, critical thinking, decision-making, empathy. Writing SQL, database design, and predictive modeling are **hard** skills.\n\n**Legal health record (LHR)** — documents and data elements a provider may release for legally permissible requests.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">HIM Roles</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Who does what</text><rect x=\"50\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"362\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Mapping specialist</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">Maps between code sets:</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">ICD-9 to ICD-10</text><rect x=\"562\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"362\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Data quality manager</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">Provider data quality for</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">coding and payment</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Data integrity analyst</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Applies and controls data</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">edits</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">CSO</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Protects data; compliance</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">and security</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">CTO</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Coordinates all technology</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">for the ISs</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">CCIO</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">Leads clinical technology</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">to improve care</text></svg>",
+        "caption": "New HIM and C-suite informatics roles"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 6: Encoder, Grouper & HIM Revenue Systems",
+      "content": "**Encoder** — specialty software coders use to select the appropriate diagnosis and procedure codes supported by the health record. Two kinds:\n• **Automated codebook encoder** — lists diagnoses and procedures alphabetically like the ICD-10-CM/CPT index; it **mimics the codebook**.\n• **Rules-based encoder** — type the name, or part of the name, of the diagnosis or procedure to get suggestions.\nOne of its biggest advantages is its **prompts**, but an encoder does **not** guarantee coding quality: a code is only as good as the data entered.\n\n**Grouper** — uses data elements to assign the codes entered into the encoder to the appropriate **MS-DRG** (or other DRG). The most common are the **MS-DRG grouper** and the **APC grouper**; some insurers, including some Medicaid programs, have their own. **MS-DRG** = a system that better accounts for how sick the patient is and the resources used.\n**Data the encoder/grouper needs:** admitting, principal, and secondary diagnoses; principal and secondary procedures; age or date of birth; discharge disposition; gender; name; record number; account number.\n\n**Revenue generation systems for HIM** — **I could not confirm the book's exact wording for this phrase.** In these chapters, these HIM systems drive revenue:\n• **Encoder and grouper** — linked to the financial information system so codes transfer automatically to **billing**. That is why **HIM and billing staff** need a strong working relationship to produce MS-DRGs and claims.\n• **CAC** — produces codes for billing and coding and reports the impact on reimbursement and the revenue cycle.\n• **CDI** — better documentation supports appropriate reimbursement.\n• **Disclosure (ROI) system** — posts copy charges and payments; reports revenue collected and accounts receivable.\n• Coders populate the diagnosis and procedure codes either by direct data entry or through an interface to the **encoder**. HIM makes sure the IS department completes the annual **chargemaster** updates (Ch 7).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Encoder vs. Grouper</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Coding software in HIM</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Codebook encoder</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">Mimics the alphabetic index</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">of the codebook</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Rules-based encoder</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Type the term (or part of</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">it) and get suggestions</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Grouper</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Assigns the codes to an</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">MS-DRG (or APC)</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Linked to billing</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Codes flow to the financial</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">IS for claims</text></svg>",
+        "caption": "Encoder types and the grouper"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 6: CAC & Clinical Documentation Integrity",
+      "content": "**Computer-assisted coding (CAC)** — uses **natural language processing (NLP)** to analyze clinical documentation in the EHR and suggest codes. It extracts and translates dictated, transcribed, or computer-generated free text into ICD-10-CM, ICD-10-PCS, and CPT codes (and evaluation and management codes) for billing and coding. Purpose: improve the **efficiency** of coding.\n**NLP** — an artificial intelligence technology that converts human language (structured or unstructured) into data that information systems can translate and manipulate.\n**CAC reporting:** productivity, and the number of records where codes were **changed** from what the software recommended. These reports evaluate the quality, accuracy, and completeness of CAC codes and, with financial data, the impact on reimbursement and the revenue cycle.\n\n**Clinical documentation integrity (CDI)** — the book's name. Glossary: improving clinical documentation via **facilitated physician queries**. The CDI system helps identify ways to improve documentation in the health record **before discharge or in real time**, and supports HIM and CDI staff in the **physician query** process. Chapter 7 adds that CDI provides comprehensive and unambiguous communication about a patient's condition, course of treatment, and care.\n\n**Slide wording:** your instructor's slides call CDI **clinical documentation improvement**: the process an organization undertakes to improve clinical specificity and documentation so coders can assign more concise codes. Same acronym and purpose; answer \"CDI\" whichever name appears.\n\n**Why it matters:** quality documentation is vital to evaluate patient care, meet regulatory requirements, and obtain the appropriate reimbursement.\n\n**Scenario clues:** a coder needs to **query a physician** → CDI. Software reads the EHR with NLP and assigns codes → CAC.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">CAC vs. CDI</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Codes vs. documentation</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">CAC</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">NLP reads EHR text and</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">suggests codes</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">CDI</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Physician queries to</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">improve documentation</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">NLP</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">AI that turns human</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">language into data</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">CDI name check</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Book: integrity. Slides:</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">improvement</text></svg>",
+        "caption": "Computer-assisted coding compared with CDI"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 6: Release of Information & Disclosure Management",
+      "content": "**Disclosure** — the release, transfer, provision of access to, or divulging in any manner of information outside the organization holding it.\n**Release of information (ROI) system** — manages processing of PHI requests received by HIM. The book also calls it the **disclosure of health information system**. **HIPAA** regulates the tracking of requests and the accounting of disclosures.\n\n**Disclosure management system** — I could not confirm a separate book definition. The slides use \"disclosure management\" for the reporting side of the disclosure of health information system. If both appear as choices for processing PHI requests, choose **disclosure of health information**: that is the system the book defines as managing the processing of PHI requests.\n\n**What the system does**\n• Logs each request: patient, record number, date received, requester type (insurance, patient, attorney, patient care), assigned to, action taken, information sent, charges, amount paid and due\n• Tracks status, such as review by risk management or a record to pull\n• Posts charges and payments\n• **Customization** — letters and reports tailored to the request or recipient: no record of the patient, **invalid authorization**, authorization needed, delay in release, prepayment needed, invoices, cover letters\n• Reports: requests processed and not processed, turnaround time, revenue collected, accounts receivable, productivity, backlogs, frequent requesters; run by employee, requester type, specific requester, or all\n• Reminds staff of maintenance tasks (backups, archiving)\n\n**Scenario clues:** a law firm's authorization is invalid → the disclosure of health information system sends the letter. A requester complains about not getting copies → start investigating in this system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">ROI System</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Disclosure of health information</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Logs requests</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">Who asked, what was sent,</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">charges, payments</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Customized letters</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Invalid authorization,</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">prepayment, delay</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Reports</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Turnaround, backlog,</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">revenue, productivity</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">HIPAA</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Requires tracking and</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">accounting of disclosures</text></svg>",
+        "caption": "What the release of information system does"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 6: Chart Locator & Chart Deficiency",
+      "content": "**Chart locator (chart tracking) system** — identifies the current location of the **paper** health record, which moves for patient care, quality reviews, coding, and more. The Joint Commission requires health records to be readily accessible for patient care.\n• **Shows:** where the record is, how long it has been there, when it is due back to HIM, whether it is overdue, and who checked it out.\n• **Data elements:** patient name, record number, volume, location checked out to, dates checked out and returned, who checked it out or in.\n• **Reports:** who requests records most, productivity, trends in retrieval volume, areas that do not return records on time.\n\n**Chart deficiency system** — tracks records that don't comply with documentation requirements. Requirements come from **accreditation** (Joint Commission), **state licensure**, **federal** requirements, **medical staff rules**, and facility policy. **AHIMA does not** set record content requirements; it is a professional association.\n• Deficiencies can be in paper, imaged, or electronic records; imaged or electronic records can be completed from the office or home.\n• **Data elements:** patient, record number, discharge date, physician responsible, document type (H&P, discharge summary, progress note), deficiency type (sign or dictate), date of surgery, comments.\n• **Functions:** identifies incomplete records **by physician** so they can be notified; **ages** deficiencies for Joint Commission tracking; lists physicians **suspended** for delinquent records (used in credentialing).\n• **Delinquent record** — an incomplete record not completed within the time frame set by the medical staff.\n\n**Scenario clue:** a report of all H&Ps incomplete more than 30 days → chart deficiency.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Locator vs. Deficiency</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Where is it? What is missing?</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Chart locator</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">WHERE is the paper record,</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">and who has it?</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Chart deficiency</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">WHAT is missing, and who</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">must sign or dictate?</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Content rules come from</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Joint Commission, state,</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">federal, medical staff</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Not a source</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">AHIMA does not set record</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">content</text></svg>",
+        "caption": "Chart locator compared with chart deficiency"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 6: Cancer & Trauma Registries",
+      "content": "**Registry** — a collection of care information related to a specific disease, condition, or procedure that makes health record information available for analysis and comparison (cancer, diabetes, trauma, transplants). Registries need demographics, reporting, treatment, a description of the condition, and often long-term follow-up.\n\n**Cancer registry** (also called tumor registry) — tracks the patient's cancer from **time of diagnosis to death**. Its purpose is population-based reporting to state and national agencies to track the epidemiology, treatment, and outcomes of cancer.\n• **Data elements:** site and type of cancer, treatment, date of last contact, **TNM stage** (tumor, node, metastasis: tumor size, lymph nodes involved, spread to other organs), behavior, grade, date of death, accession number.\n• **ICD-O** — the coding scheme for cancer and oncology cases.\n• **SEER** — the disease reporting program for cancer registries. **MMDDYYYY** is the preferred date format (the book's registry edit example).\n• Verified cases (usually monthly) are sent automatically to the state cancer registry. Reports: follow-up rate, patients due for or lost to follow-up, life expectancy, follow-up letters.\n\n**Trauma registry** — tracks traumatic injuries from **initial treatment to death**.\n• **Data elements:** site, type, date, and time of injury; how it occurred; work-related; ICD-10-CM and ICD-10-PCS codes; safety equipment; ED arrival time; autopsy.\n• **AIS (Abbreviated Injury Scale)** — based on body system; describes location and severity.\n• **ISS (Injury Severity Score)** — calculated from the AIS of the three most severe injuries; helps determine the level of care and potential for morbidity or mortality.\n• The **trauma registrar** assigns these codes. Reports: outcomes, follow-up rates, best practices, causes and types of injuries.\n\n**Scenario clues:** TNM, ICD-O, metastatic cancer → cancer registry. Motor vehicle accident injuries, AIS or ISS → trauma registry.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Cancer vs. Trauma</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Two registries to compare</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Cancer registry</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">Diagnosis to death; TNM,</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">ICD-O, SEER</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Trauma registry</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Initial treatment to death;</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">AIS and ISS</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">TNM</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Tumor, Node, Metastasis</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">staging</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">ISS</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Built from the AIS of the 3</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">worst injuries</text></svg>",
+        "caption": "Cancer registry compared with trauma registry"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 6: Birth Certificates, Abstracting & Quality Indicators",
+      "content": "**Birth certificate software** — reports births occurring in the organization to the state agency. Content is the minimum data set established by the **National Center for Health Statistics (NCHS)**, the federal agency collecting US vital statistics, plus any state-required data.\n• **Who completes it:** **HIM staff** interview the mother (or other parents or guardians), review the record, and enter the data. Not local health department or NCHS staff.\n• **Functions:** pulls demographics from the HIS; offers an obstetrical physicians table; uses mandatory fields and edit checks to prevent omissions and drop-down boxes for consistency; prints the data for parents to proof; sends the parent's Social Security number request to the Social Security Administration; creates an electronic **birth log**; reports births to the state in the approved format.\n• **Reports:** Caesarean section rate and birth-rate trends; states may feed other databases such as the immunization registry.\n\n**Data abstracting** — extracting information from a document, or data elements from a database, to create a **brief summary** of a patient's illness, treatment, and outcome, and entering that summary into an automated system.\n\n**Healthcare quality indicator system** — an abstracting system recording the patient, the care delivered, and the practitioners involved, so actual care can be measured. It may be interfaced to the HIS for demographics, and its data feed the quality improvement program.\n• **Quality indicator (QI)** — a standard against which actual care is measured to identify a level of performance.\n• Reports: infection rate, deaths by physician, blood incompatibility, surgical errors, maternal deaths, outcomes; external reporting such as the Joint Commission's **ORYX** measures.\n\n**Scenario clue:** a report of hip fracture and pneumonia cases monitored for ORYX → healthcare quality indicator system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Birth Data &amp; Quality</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Who, what, and why</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Birth certificate</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">HIM staff enter it; NCHS</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">sets the content</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Data abstracting</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Brief summary of illness,</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">treatment, outcome</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Quality indicator</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Standard that actual care</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">is measured against</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Quality system output</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Infection rates, outcomes,</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">ORYX reporting</text></svg>",
+        "caption": "Birth certificates, abstracting, and quality indicators"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 6: Dictation, Transcription & Voice Recognition",
+      "content": "**Dictation system** — physicians dictate reports into it (history and physicals, discharge summaries, radiology, autopsy, and catheterization reports); HIM uses it to manage dictated reports and **monitor pending transcription**. **Dictating** = recording the physician's voice as he or she describes a scenario, problem note, or report. A physician may dictate into a mobile phone.\n• Key reporting focus: **workload** (volume dictated and remaining), used to set transcription staffing, justify overtime, and see dictation trends.\n\n**Transcription** — the separate process of deciphering the provider's recorded dictation and typing the document.\n**Transcription system** — used by transcriptionists to type documents dictated by physicians. Its purpose is to turn dictation into finished documents efficiently.\n• Interfaced with the HIS so patient name, record number, and date of service are already filled in\n• Works with dictation and voice recognition systems; lets transcriptionists work remotely\n• Tracks **productivity** (transcriptionists are usually paid on it), calculates incentive pay, and monitors volume by report type\n• **Expander** (macro) — type an acronym (CHF, CABG) and the full phrase spells itself out, saving keystrokes and time; the organization can control it\n\n**Voice recognition** — converts the spoken word into a documented word (text) and may reduce the need for human transcriptionists.\n\n**Scenario clues:** physician speaks into a phone and it is transcribed later → **dictation**. Type CABG, get \"coronary artery bypass graft\" → **expander**. Spoken word to text with fewer transcriptionists → **voice recognition**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Dictation to Document</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">From voice to finished report</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Dictation</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">Physician records the</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">report; workload tracked</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Transcription</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Transcriptionist types it;</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">productivity tracked</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Expander</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Type CHF, get congestive</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">heart failure</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Voice recognition</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Speech to text; fewer</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">transcriptionists needed</text></svg>",
+        "caption": "Dictation, transcription, expander, and voice recognition"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A newly hired coder is training on the facility's encoder. She enters a portion of a diagnosis term and receives a list of possible codes to choose from. Which type of encoder is she using?",
+      "options": [
+        {
+          "text": "Grouper",
+          "correct": false
+        },
+        {
+          "text": "Rules-based encoder",
+          "correct": true
+        },
+        {
+          "text": "Automated codebook encoder",
+          "correct": false
+        },
+        {
+          "text": "Registry",
+          "correct": false
+        }
+      ],
+      "explanation": "**Rules-based encoder.** It lets the user type the name, or a portion of the name, of a diagnosis or procedure and then generates suggestions. The tempting wrong answer is the **automated codebook encoder**, which lists diagnoses and procedures alphabetically like the index of the ICD-10-CM and CPT codebooks, so coders browse it as they would a book. A **grouper** assigns MS-DRGs from codes already selected, and a **registry** tracks a disease or condition population.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Encoder types</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Typing a term vs. browsing an alphabetic list</text></svg>",
+        "caption": "Knowledge check: Encoder types"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "All of the following determine the requirements for the content of the hospital health record EXCEPT:",
+      "options": [
+        {
+          "text": "Joint Commission",
+          "correct": false
+        },
+        {
+          "text": "Medical staff rules and regulations",
+          "correct": false
+        },
+        {
+          "text": "State licensure and facility policies",
+          "correct": false
+        },
+        {
+          "text": "AHIMA",
+          "correct": true
+        }
+      ],
+      "explanation": "**AHIMA.** Documentation requirements come from accreditation standards such as the Joint Commission, state licensure regulations, federal requirements, medical staff rules and regulations, and facility policy. Records that do not meet them are marked deficient and tracked in the chart deficiency system. AHIMA is a professional association: it supports HIM professionals but does not mandate what a hospital record must contain. The Joint Commission is the tempting pick only if you forget it is an accrediting body.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Record content rules</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Who has authority over a hospital, and who is a professional</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">group?</text></svg>",
+        "caption": "Knowledge check: Record content rules"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Who typically completes the birth certificate when a baby is born in the hospital?",
+      "options": [
+        {
+          "text": "Local health department personnel",
+          "correct": false
+        },
+        {
+          "text": "NCHS staff",
+          "correct": false
+        },
+        {
+          "text": "HIM staff",
+          "correct": true
+        },
+        {
+          "text": "Registration-admission, discharge, transfer staff",
+          "correct": false
+        }
+      ],
+      "explanation": "**HIM staff.** The HIM staff interview the mother (or other parents or guardians), review the health record, and enter the data into the state-approved birth certificate system, which then reports the birth to the state. **NCHS** is tempting because it establishes the standard birth certificate content (the minimum data set), but NCHS staff do not fill out individual certificates. The state or local health department receives the data, and R-ADT staff handle patient registration.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Birth certificates</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Who is in the hospital and works with the health record?</text></svg>",
+        "caption": "Knowledge check: Birth certificates"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which software improves the efficiency of coding by using translated dictation reports and NLP to analyze clinical data?",
+      "options": [
+        {
+          "text": "CDI",
+          "correct": false
+        },
+        {
+          "text": "TNM",
+          "correct": false
+        },
+        {
+          "text": "MS-DRGs",
+          "correct": false
+        },
+        {
+          "text": "CAC",
+          "correct": true
+        }
+      ],
+      "explanation": "**CAC.** Computer-assisted coding uses natural language processing to analyze clinical documentation in the EHR and translate dictated, transcribed, or computer-generated free text into ICD-10-CM, ICD-10-PCS, and CPT codes. The tempting wrong answer is **CDI**, clinical documentation integrity, which improves the documentation itself through physician queries rather than suggesting codes. **TNM** is the cancer staging method, and **MS-DRGs** are the payment groups the grouper assigns.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Coding software</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Which one turns documentation into suggested codes?</text></svg>",
+        "caption": "Knowledge check: Coding software"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 7: Administrative & Financial Systems",
+      "content": "**Administrative information systems** — manage the business of healthcare; they were the **first** ISs used in healthcare, and their data are mainly financial or business-oriented. A system with MPI, scheduling and registration, HR, and financial modules is **administrative** (not clinical).\n**Hospital information system (HIS)** — the major facility IS, the umbrella over administrative systems including the financial system and the MPI.\n\n**Financial information system** — monitors and controls the financial aspects: accounts receivable (AR), accounts payable (AP), expenses, and revenue. It is used to plan and control day-to-day operating expenses and long-term investments. Functions: patient accounting, AR, AP, general ledger, investment management, contract management, payroll, billing and claims management.\n• Scenario: comparing surgery costs to CMS reimbursement to find the most profitable surgeries → financial information system.\n\n**Revenue cycle management (RCM)** — daily management of AR and AP: claims submitted, outstanding and returned claims, **denials**, missing accounts, and **bill holds**. A revenue cycle manager reviews claims denials and outstanding claims.\n\n**Chargemaster (charge description master, CDM)** — financial management form or software containing the organization's charges for the services it provides, with the codes for each. It is updated at least **annually** because classification codes change: ICD-10 each federal fiscal year (**October 1**), CPT each calendar year (**January 1**). HIM ensures the IS department completes the updates.\n• **ICD-10-CM** — alphanumeric scheme for diagnoses and inpatient billing. **CPT** — numeric outpatient scheme for billing provider services.\n\n**Data stewardship** — formalized accountability across the data life cycle and the enterprise.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">The Money Systems</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Financial side of the HIS</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Financial IS</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">AR, AP, expenses, revenue,</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">investments</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Revenue cycle</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Claims, denials, bill</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">holds, follow-up</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Chargemaster (CDM)</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Charges and codes; update</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">at least yearly</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Code update dates</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">ICD-10: October 1. CPT:</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">January 1</text></svg>",
+        "caption": "Financial IS, revenue cycle, and chargemaster"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 7: HRIS, Materials & Facilities Management",
+      "content": "**Human resources information system (HRIS)** — tracks employees: promotions, transfers, terminations, performance appraisals, absenteeism. It matters because facilities need many staff, many run 24/7, and payroll is a large part of the operating budget.\n• **Data elements:** name and number, department, title, salary, benefits, hire date, appraisal results, certifications, disciplinary actions, termination date, rehire eligibility.\n• **Tracks:** credential and certification status, mandated annual classes (CPR, fire and safety, OSHA, privacy and security), turnover rate, open positions, labor costs, overtime, employee satisfaction.\n• Scenario: salaries, hiring, turnover rates, training sessions → HRIS.\n\n**Materials management system** — automates purchasing, inventory control, menu planning, and food service.\n• Creates requisitions, gains approvals, compares purchases to budget, and **automatically orders** at preset inventory thresholds.\n• Generates bar codes so supplies are charged to the patient correctly, and notifies the financial IS when supplies arrive so the vendor can be paid.\n• Dietary component: patient diet needs, food inventory, food costs.\n• Scenario: shipping schedules, storage costs, ordering time frames, distribution to departments → materials management. HIM uses it to order supplies such as backup paper forms.\n\n**Facilities management system** — manages the **physical plant**: building, grounds, parking, and equipment such as elevators.\n• Controls thermostats (energy efficiency), **automatic locks** on a schedule, and **key cards** for restricted areas.\n• Tracks routine and preventive maintenance: elevator and fire extinguisher inspections, filter changes. Preventive maintenance makes equipment last longer and saves money.\n• Uses PERT and Gantt charts for renovations; most closely aligned with the Joint Commission's patient safety focus.\n• Scenario: key cards for new weekend clerks → facilities management.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Which System?</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">People, supplies, or building</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">HRIS</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">Staff: salary, credentials,</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">turnover, training</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Materials management</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Supplies: purchasing,</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">inventory, food service</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Facilities management</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Building: locks, key cards,</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">HVAC, upkeep</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Quick rule</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Supplies = materials.</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">Building = facilities</text></svg>",
+        "caption": "HRIS, materials management, and facilities management"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 7: MPI, EMPI & R-ADT",
+      "content": "**Master patient index (MPI)** — patient-identifying directory referencing all patients related to a facility and linking to their records. It identifies every patient ever admitted, is the key to locating all health records, and helps maintain a longitudinal record from birth to death. It holds demographic and visit-specific data and must be kept **permanently**.\n• **Problems:** **duplicates** (one patient with more than one record number) and **overlays** (one patient's record overwritten by another's; HIM must unmerge them).\n• Sophisticated **algorithms** in the MPI and R-ADT help prevent and identify duplicates.\n• HIM uses it to look up record numbers, identify discharge dates, confirm all visits, see the last visit, merge duplicates, and correct errors. **Printing consent forms is NOT an MPI function** (that is R-ADT).\n• **Soundex** — phonetic indexing for surnames that sound alike but are spelled differently.\n\n**Enterprise master patient index (EMPI)** — access to multiple repositories of overlapping patient populations across an **integrated delivery system (IDS)**. It is the **gateway**: was the patient treated here, confirm identity, and was the patient treated at other facilities in the IDS?\n**IDS** — a network of providers (hospitals, physicians, HMOs) delivering coordinated care across the continuum, possibly across a region.\n\n**Registration-admission, discharge, transfer (R-ADT)** — stores demographics and handles registration, admission, discharge, and transfer of patients. It drives the **census**.\n• Generates the daily admission list, discharge list, **census report**, transfer list, and bed utilization reports.\n• HIM uses the discharge list to confirm all discharged records arrive for processing.\n• Prints routine documents to sign: general consent, notice of privacy practices acknowledgment, advance directives.\n• Scenario: tracking a patient from triage to surgery to ICU to discharge → **R-ADT**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">MPI vs. EMPI vs. R-ADT</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Patient identity and patient flow</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">MPI</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">Every patient ever seen</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">here; kept permanently</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">EMPI</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">The same patient across</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">every IDS facility</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">R-ADT</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Admit, discharge, transfer;</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">the daily census</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Duplicate vs. overlay</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Two numbers for one patient</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">vs. one record overwritten</text></svg>",
+        "caption": "Comparison of MPI, EMPI, and R-ADT"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 7: Scheduling, Practice Management & Algorithms",
+      "content": "**Scheduling system** — uses scheduling **algorithms** to control the use of resources: staff, equipment, rooms, beds, operating rooms, and tests.\n• It knows which operating rooms are available, how long a procedure takes (a colonoscopy or appendectomy), the staff required, and the equipment needed.\n• **Centralized** — schedules all services, so one call makes multiple appointments. **Decentralized** — each department schedules its own, so multiple calls are needed.\n• Reports: cancellations, resource utilization, patient volume.\n• Book key: planning HIM **staff schedules** from admission and discharge trends → scheduling (registration/R-ADT is the tempting distractor).\n\n**Practice management system** — the physician-practice suite: scheduling, patient accounting, collections, claims submission, human resources, and basic reports (number of patients, profit or loss, most common services). HIM office managers use it for financials, the MPI, chargemaster management, entering codes, and tracking visits.\n• Scenario: coordinating the schedules of several physicians and nurse practitioners in a busy group practice → practice management.\n\n**Algorithms** — **I could not confirm the book's exact definition.** Standard meaning: a step-by-step set of rules a computer follows to solve a problem or make a decision. Where the book uses them:\n• **Scheduling algorithms** — control the use of staff, equipment, and rooms.\n• **MPI and R-ADT algorithms** — match patient records to prevent and identify **duplicate** record numbers.\n• **Deterministic algorithm** — an MPI matching method. It appears as a distractor in the revenue cycle and chargemaster questions; it is not a financial term.\n\n**Trap (course key):** comparing how long patients wait for a physician vs. a nurse practitioner → **EIS**, not practice management (next card).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Scheduling &amp; Algorithms</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Resources, offices, and matching rules</text><rect x=\"50\" y=\"399\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"449\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Centralized scheduling</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">One call books many</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">appointments</text><rect x=\"562\" y=\"399\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"449\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Decentralized</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">Each department books its</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">own</text><rect x=\"50\" y=\"609\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"659\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Practice management</text><text x=\"90\" y=\"714\" fill=\"#fff\" font-size=\"24\">Office suite: schedule,</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">bill, claims, HR</text><rect x=\"562\" y=\"609\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"659\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Algorithms</text><text x=\"602\" y=\"714\" fill=\"#fff\" font-size=\"24\">Rules that schedule</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">resources and match</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">duplicates</text></svg>",
+        "caption": "Scheduling, practice management, and algorithms"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 7: DSS, EIS, Big Data & Business Intelligence",
+      "content": "**Decision support system (DSS)** — gathers data from a variety of sources and structures it with analytics (analytical models, visual tools, data repositories and warehouses). It is built for **nonroutine, nonrepetitive** problems and runs **\"what if\"** scenarios.\n• Scenario: deciding whether more facilities, staff, and equipment are needed for a physician's unusual caseload → **DSS**.\n\n**Executive information system (EIS)** — decision support for senior managers; the type of DSS designed for healthcare administrators. It must be easy to use and access a wide range of internal and external data. (Slides 24–25 title it \"Enterprise Information System\"; the book says executive.)\n• **Four advantages:** improved competitiveness, knowledge of the organization, information available to authorized users, and **assistance in making strategic decisions**.\n• **EIS dashboard** — structured information in graphs and tables that shows where problems are greatest; it monitors **KPIs** (critical measurable objectives): bed occupancy rate, average length of stay, claims denial rate, training by department, confidentiality breach rate.\n• A dashboard report can show a physician's patient load, patient wait times, and satisfaction results and compare them with other providers.\n\n**Which one? Know the keys**\n• Upper administration's yearly strategic planning meetings → **EIS** (course key and Review Q6).\n• Physician vs. nurse practitioner wait-time comparison → **EIS** (course key; the book's Review key printed practice management).\n• Appendix B, CYU 7.2 #4 (CIO's 10-year IS strategic plan) → **DSS**. Give DSS on that exact question.\n\n**Big data** — extremely large data sets beyond traditional relational databases, requiring special tools to analyze. **Business intelligence (BI)** — using data analysis to drive business decisions; the technology and procedures to analyze all aspects of the organization's performance.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">DSS vs. EIS</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Decision layers of Chapter 7</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">DSS</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">Nonroutine problems;</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">what-if models</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">EIS</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Administrators' DSS:</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">dashboards of KPIs</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">EIS advantages</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Competitiveness, knowledge,</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">access, strategy</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">KPI examples</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Bed occupancy, length of</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">stay, denial rate</text></svg>",
+        "caption": "Decision support system compared with EIS"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Smith treats highly unusual cases requiring many laboratory, radiology, and other diagnostic tests. Administration wants to determine whether additional facilities, personnel, and equipment are needed to meet current and future community demand. Which information system would help?",
+      "options": [
+        {
+          "text": "DSS",
+          "correct": true
+        },
+        {
+          "text": "R-ADT",
+          "correct": false
+        },
+        {
+          "text": "HRIS",
+          "correct": false
+        },
+        {
+          "text": "EIS",
+          "correct": false
+        }
+      ],
+      "explanation": "**DSS.** A decision support system gathers data from a variety of sources and structures it with analytical models for nonroutine, nonrepetitive problems, including what-if scenarios such as whether added facilities, personnel, and equipment are needed. The closest distractor is the **EIS**, the type of DSS built for administrators with dashboards of KPIs and the course's answer for strategic planning meetings. **R-ADT** tracks admissions and patient movement, and **HRIS** tracks employees.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Decision support</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">A one-time, nonroutine what-if question</text></svg>",
+        "caption": "Knowledge check: Decision support"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Every October, the CEO and other upper administrative staff hold strategic planning meetings to set the upcoming year's goals and objectives. Which information system would assist them?",
+      "options": [
+        {
+          "text": "DSS",
+          "correct": false
+        },
+        {
+          "text": "R-ADT",
+          "correct": false
+        },
+        {
+          "text": "HRIS",
+          "correct": false
+        },
+        {
+          "text": "EIS",
+          "correct": true
+        }
+      ],
+      "explanation": "**EIS.** The executive information system is the type of DSS designed for healthcare administrators, and the book lists assistance in making strategic decisions about the organization among its four advantages. Your course key and the book's Review question both give EIS here. Know the one exception: Appendix B keys CYU 7.2 #4, a CIO building a 10-year IS strategic plan, to the **DSS**. If you see that exact question, answer DSS; for upper administration's strategic planning, answer EIS.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Strategic planning</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Who is using it: upper administration</text></svg>",
+        "caption": "Knowledge check: Strategic planning"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which information system is the gateway into a healthcare facility to identify whether a patient has been treated there, contains demographics to confirm identity, and shows whether the patient was treated at other facilities within an IDS?",
+      "options": [
+        {
+          "text": "EMPI",
+          "correct": true
+        },
+        {
+          "text": "EIS",
+          "correct": false
+        },
+        {
+          "text": "HRIS",
+          "correct": false
+        },
+        {
+          "text": "R-ADT",
+          "correct": false
+        }
+      ],
+      "explanation": "**EMPI.** The master patient index identifies every patient ever treated and holds the demographics used to confirm identity. The enterprise MPI extends this across an integrated delivery system, giving access to multiple repositories of overlapping patient populations kept in separate systems, so it shows visits at other IDS facilities. **R-ADT** is tempting because it stores demographics too, but it handles registration, admission, discharge, and transfer, not the cross-facility identity lookup.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Patient identity</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Notice the phrase &quot;other facilities within an IDS&quot;</text></svg>",
+        "caption": "Knowledge check: Patient identity"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A medical office manager wants to compare how long it takes for a patient to be seen by a physician versus a nurse practitioner. Which information system would help with this analysis?",
+      "options": [
+        {
+          "text": "Materials management",
+          "correct": false
+        },
+        {
+          "text": "Practice management",
+          "correct": false
+        },
+        {
+          "text": "Facilities management",
+          "correct": false
+        },
+        {
+          "text": "EIS",
+          "correct": true
+        }
+      ],
+      "explanation": "**EIS**, per your instructor's graded key. The book's EIS section shows a dashboard report of a physician's practice performance, including patient wait times, with the same measures used to compare providers. Source conflict: the book's Chapter 7 Review key for this same question prints **practice management**, which handles scheduling, billing, claims, and basic reports such as number of patients. Your course quiz marked EIS correct, so give **EIS** on the exam. Materials and facilities management handle supplies and the building.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 2</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Comparing providers</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Follow your course key, not the book key</text></svg>",
+        "caption": "Knowledge check: Comparing providers"
+      }
+    },
+    {
+      "type": "application",
+      "title": "Exam 2 Game Plan",
+      "content": "**Before the exam:**\n1. **Lock in the course-key answers first:** realistic (SMART), best of fit, alpha vs. beta, warranties in the contract, improve patient care = intangible, external scanning for new legislation, on-site demo = most users, parallel = least risk, updates = support and evaluation, EIS for strategic planning and for physician vs. NP wait times.\n2. **Learn both vocabularies** for go-live (guide's direct = book's straight turnover, big bang, or cutover) and testing (unit, system, performance, regression vs. application, interface, integration, volume, conversion, acceptance).\n3. **Drill the compare pairs:** RFI vs. RFP; on-site demo vs. site visit; best of fit vs. best of breed; phased vs. pilot; integration vs. interface testing; codebook vs. rules-based encoder; encoder vs. grouper; CAC vs. CDI; chart locator vs. chart deficiency; cancer vs. trauma registry; dictation vs. transcription; MPI vs. EMPI vs. R-ADT; materials vs. facilities; DSS vs. EIS.\n4. **Do every chapter's Check Your Understanding questions**, since your instructor says they are fair game. Remember the Appendix B oddities flagged here (design for functions, left-to-right typo, weighted decision matrix, DSS for the 10-year plan).\n5. **Retake this lesson's quizzes** until each answer feels automatic.\n\n**During the exam, read the scenario clues:**\n• New legislation → external scanning. Scope added mid-project → scope creep. One unit first → pilot. One module at a time → phased. Avoid risk → parallel.\n• Type part of a term → rules-based encoder. MS-DRG → grouper. NLP → CAC. Physician query → CDI. Invalid authorization letter → disclosure of health information (ROI).\n• Where is the paper chart → chart locator. H&Ps incomplete → chart deficiency. TNM or ICD-O → cancer registry. AIS, ISS, car crash → trauma registry.\n• Census or patient movement → R-ADT. Treated anywhere in the IDS → EMPI. Key cards → facilities. Supplies → materials. Turnover or certifications → HRIS. Nonroutine what-if → DSS. Administrators' dashboard → EIS.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 2 Game Plan</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">60 questions, Chapters 4–7</text><rect x=\"50\" y=\"330\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"380\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">1. Course-key answers</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">Realistic, best of fit,</text><text x=\"90\" y=\"471\" fill=\"#fff\" font-size=\"24\">alpha, parallel, EIS</text><rect x=\"562\" y=\"330\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"380\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">2. Both vocabularies</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">Go-live and testing: guide</text><text x=\"602\" y=\"471\" fill=\"#fff\" font-size=\"24\">words and book words</text><rect x=\"50\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">3. Compare pairs</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Fit/breed, pilot/phased,</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">MPI/EMPI, DSS/EIS</text><rect x=\"562\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"590\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">4. CYU questions</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">All chapters; note the</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">Appendix B oddities</text><rect x=\"50\" y=\"750\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">5. Retake quizzes</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Until every answer feels automatic</text></svg>",
+        "caption": "Exam 2 study steps"
+      }
+    }
+  ]
+},
+{
+  "id": "hitt-1211-exam3",
+  "title": "Exam 3 Study Guide: Chapters 8–11",
+  "duration": 50,
+  "completed": false,
+  "cards": [
+    {
+      "type": "intro",
+      "title": "Exam 3: Chapters 8–11",
+      "content": "This is your **HITT 1211 Exam 3 study guide**. It was built from your instructor's Exam 3 study guide and checked against the textbook glossary, your instructor's graded chapter quizzes (Chapters 8, 9, and 10; Chapter 11 has no course quiz), the book's Check Your Understanding answers in Appendix B (Chapters 8, 9, and 11; Chapter 10 has no CYU boxes), and the end-of-chapter Review Questions. Textbook: *Introduction to Information Systems for Health Information Technology*, 4th ed. (**Sayles & Barefield**, AHIMA).\n\n**Exam 3 is 60 questions and covers four chapters:**\n• **Chapter 8**: Clinical Information Systems (RIS, LIS, NIS, PIS, DMS, OCR, CDS, telehealth)\n• **Chapter 9**: Electronic Health Record (EMR vs. EHR, CPOE, alerts, reminders, BC-MAR, standards, signatures, CEHRT)\n• **Chapter 10**: Consumer Informatics (health literacy, patient portal, PHR, social media, population and public health)\n• **Chapter 11**: Health Information Exchange (HIE, HIO, ONC, HITECH, identity, interoperability, public health)\n\n**Study by term, not by chapter.** Your instructor's guide files some terms under different chapters than the book does:\n• Her Chapter 8 list includes CPOE, clinical decision support, reminders, alerts, BC-MAR, EMR vs. EHR, the longitudinal record, structured vs. unstructured data, source systems, GUI, and digital vs. electronic signatures. The book covers those in **Chapter 9**.\n• Her Chapter 9 list includes HIE, HIO, record locator service, identity management and matching, HITECH, and the ONC. The book covers those in **Chapter 11**.\n• Her Chapter 10 list includes telesurgery and remote patient monitoring. The book covers those in **Chapter 8**.\n\nThis lesson follows the **book's** chapters. The dashboard item comes from book Chapter 7, so it gets its own review card. Learn the book-specific definitions first, then work chapter by chapter.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 3: Chapters 8–11</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">60 questions · study by term, not chapter</text><rect x=\"50\" y=\"363\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"413\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Chapter 8</text><text x=\"90\" y=\"468\" fill=\"#fff\" font-size=\"24\">Clinical information</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">systems: RIS, LIS, NIS,</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">PIS, DMS, OCR, CDS,</text><text x=\"90\" y=\"576\" fill=\"#fff\" font-size=\"24\">telehealth</text><rect x=\"562\" y=\"363\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"413\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Chapter 9</text><text x=\"602\" y=\"468\" fill=\"#fff\" font-size=\"24\">Electronic health record:</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">CPOE, alerts, BC-MAR,</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">standards, signatures,</text><text x=\"602\" y=\"576\" fill=\"#fff\" font-size=\"24\">CEHRT</text><rect x=\"50\" y=\"645\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"695\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Chapter 10</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">Consumer informatics:</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">health literacy, patient</text><text x=\"90\" y=\"822\" fill=\"#fff\" font-size=\"24\">portal, PHR, social media</text><rect x=\"562\" y=\"645\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"695\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Chapter 11</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">Health information</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">exchange: HIO, ONC, HITECH,</text><text x=\"602\" y=\"822\" fill=\"#fff\" font-size=\"24\">identity, interoperability</text></svg>",
+        "caption": "Exam 3 covers Chapters 8 through 11"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Book-Specific Definitions to Memorize",
+      "content": "These are the places where the book's wording or the course key differs from generic wording. Learn the **book's** version:\n\n• **Telehealth vs. telemedicine.** Telehealth is the **broader** term. Telemedicine is the **subset** focused on providing care (Chapter 10 says care delivered by physicians). They are not synonyms.\n• **Reminder vs. alert.** A **reminder** notifies the physician of screenings due based on the patient's **age and gender**. An **alert** flags a **contraindication**, such as a drug allergy.\n• **PHR vs. patient portal.** The **PHR** is created and controlled by the **patient**. The **portal** is created and controlled by the **healthcare organization**.\n• **Consumer health applications** are used by the patient **or the provider**. The book never mentions insurers.\n• **Health literacy** is **not** simply reading level or education level.\n• **Population health vs. public health.** Chapter 10 says they are **different**. Chapter 11 says \"population health, **or** public health.\" Answer by the chapter the question comes from.\n• **Digitized signature** = an image of a handwritten signature. **Digital signature** = electronic signature **plus encryption** (nonrepudiation; the most secure).\n• **Identity matching** = finding the right patient. **Identity management** = proving the person is who they say they are. **Consent management** has nothing to do with consent for treatment.\n• **Book terms:** \"virtual visits\" are **e-visits**, and \"patient engagement\" is **consumer engagement**.\n• **Two interoperability lists.** HIMSS levels (Ch 9): foundational, structural, semantic, organizational. The four types (Ch 11): technical, syntactic, semantic, process.\n• **Key surprise (CYU 8.2 #5):** for the mislabeled blood vials, Appendix B answers **CIS**, but the chapter text supports **LIS**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Book Traps</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Where generic answers go wrong</text><rect x=\"50\" y=\"222\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"272\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Telehealth</text><text x=\"90\" y=\"327\" fill=\"#fff\" font-size=\"24\">The BROADER term.</text><text x=\"90\" y=\"363\" fill=\"#fff\" font-size=\"24\">Telemedicine is the subset</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">focused on providing care.</text><rect x=\"562\" y=\"222\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"272\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Reminder vs. alert</text><text x=\"602\" y=\"327\" fill=\"#fff\" font-size=\"24\">Reminder: screenings due by</text><text x=\"602\" y=\"363\" fill=\"#fff\" font-size=\"24\">age and gender. Alert:</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">contraindication such as an</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">allergy.</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">PHR vs. portal</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">PHR is controlled by the</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">patient. The portal is</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">controlled by the</text><text x=\"90\" y=\"717\" fill=\"#fff\" font-size=\"24\">organization.</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Health literacy</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">Not just reading level.</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">Culture and socioeconomic</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">status affect it.</text><rect x=\"50\" y=\"786\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"836\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Digital signature</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">Electronic signature plus</text><text x=\"90\" y=\"927\" fill=\"#fff\" font-size=\"24\">encryption. Digitized means</text><text x=\"90\" y=\"963\" fill=\"#fff\" font-size=\"24\">an image of a signature.</text><rect x=\"562\" y=\"786\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"836\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Population health</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">Ch 10: differs from public</text><text x=\"602\" y=\"927\" fill=\"#fff\" font-size=\"24\">health. Ch 11: &quot;population</text><text x=\"602\" y=\"963\" fill=\"#fff\" font-size=\"24\">health, or public health.&quot;</text></svg>",
+        "caption": "Six of the book-specific traps"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 7 Carryover: The EIS Dashboard",
+      "content": "Your Exam 3 guide asks how a **dashboard** is used in healthcare, but the book covers it in **Chapter 7**, under the executive information system.\n\n**Executive information system (EIS)**: a type of decision support system built for senior managers and administrators, serving dashboards of key performance indicators (KPIs).\n\n**EIS dashboard**: a tool administrators use to monitor **KPIs** such as **bed occupancy, length of stay, claims denials, or training by department** (CYU 7.2).\n\n**What the dashboard does (Ch 7 slide 25):**\n• Gives administration structured information to make intelligent decisions for the future.\n• Shows detailed data in selectable graphs, tables, and other visuals.\n• Shows visually where a problem is greatest and where priority should be focused.\n\n**Course-key example (Ch 7 quiz, confirmed):** comparing how long patients wait to be seen by a physician versus a nurse practitioner is an **EIS** job. Heads up: the book's Chapter 7 Review version of this question is keyed to **practice management**; give **EIS** on the exam, since that is the instructor's confirmed answer. The book's EIS dashboard report shows a physician's patient load, patient wait times, and satisfaction survey results, and compares them across physicians.\n\n**Exam 1 wording to connect:** a dashboard is a collection of KPIs focused on specific aspects or departments, and it can be interactive with drill-down.\n\n**Chapter 8 tie-in:** dashboards are also one of the CDS \"intervention formats\" (with order sets, flow sheets, and patient lists).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">The EIS Dashboard</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Book Chapter 7, on your Exam 3 guide</text><rect x=\"50\" y=\"363\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"413\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Who uses it</text><text x=\"90\" y=\"468\" fill=\"#fff\" font-size=\"24\">Administrators and senior</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">managers, through the</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">executive information</text><text x=\"90\" y=\"576\" fill=\"#fff\" font-size=\"24\">system (EIS)</text><rect x=\"562\" y=\"363\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"413\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">What it shows</text><text x=\"602\" y=\"468\" fill=\"#fff\" font-size=\"24\">KPIs: bed occupancy, length</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">of stay, claims denials,</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">training by department</text><rect x=\"50\" y=\"645\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"695\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Why it helps</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">Shows visually where a</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">problem is greatest and</text><text x=\"90\" y=\"822\" fill=\"#fff\" font-size=\"24\">where to focus priority</text><rect x=\"562\" y=\"645\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"695\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Exam clue</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">Comparing wait times or</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">provider performance means</text><text x=\"602\" y=\"822\" fill=\"#fff\" font-size=\"24\">EIS dashboard</text></svg>",
+        "caption": "How administrators use a dashboard"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 8: Clinical Information Systems Overview",
+      "content": "**Clinical information system (CIS)**: collects and stores medical, nursing, clinical ancillary, and therapy data related to patient care. Because the data are patient identifiable, they are protected by **HIPAA**.\n\n**The slide's 11 CISs:** DMS, RIS, LIS, NIS, PIS, interdisciplinary charting, emergency department, anesthesia, patient monitoring, telehealth, and smart cards.\n\n**Not a CIS (course quiz, confirmed): quality improvement.** It is an operations or administrative function. Surgery, nursing, and pharmacy are clinical.\n\n**The HIM professional** is typically **not a direct user** of the CISs. HIM reaches their information through the CIS or the EHR.\n\n**Interface**: software that works **between** two information systems, separate from the EHR.\n\n**Other clinical systems:**\n• **Emergency department system (EDS)**: meets unique ED needs and tracks patients from triage to discharge. It notifies health authorities of **emerging diseases** (Zika, drug-resistant TB), **mass casualties** (bombings, train derailments), and **natural disasters**.\n• **Anesthesia information system**: follows the patient through surgery (pre-op, operative, post-op), capturing risk factors, vitals, type of anesthesia, agents, and dosage. It also creates charges.\n• **Patient monitoring system**: **automatically** collects vitals, fetal monitoring, and oxygen saturation. Used in ICUs, operating rooms, and recovery rooms.\n• **Interdisciplinary charting**: used by any professional (nurses, therapists, pharmacists, dietitians) for assessments, progress notes, and care plans.\n• **Smart card**: a plastic card with a computer chip embedded in it. Its uses are emergency treatment, reducing fraud and abuse, and reducing administrative costs.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Clinical Systems</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Chapter 8 at a glance</text><rect x=\"50\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"308\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">CIS</text><text x=\"90\" y=\"363\" fill=\"#fff\" font-size=\"24\">Collects medical, nursing,</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">ancillary, and therapy</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">patient-care data</text><rect x=\"562\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"308\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Not a CIS</text><text x=\"602\" y=\"363\" fill=\"#fff\" font-size=\"24\">Quality improvement is an</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">operations function</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">EDS</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">Reports emerging diseases,</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">mass casualties, and</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">natural disasters</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Anesthesia IS</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">Pre-op, operative, and</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">post-op data; also creates</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">charges</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Patient monitoring</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Automatically captures</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">vitals, fetal monitoring,</text><text x=\"90\" y=\"927\" fill=\"#fff\" font-size=\"24\">oxygen saturation</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Smart card</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">Plastic card with an</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">embedded chip; helps in</text><text x=\"602\" y=\"927\" fill=\"#fff\" font-size=\"24\">emergencies</text></svg>",
+        "caption": "Clinical information systems in Chapter 8"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 8: RIS, PACS, LIS & LOINC",
+      "content": "**Radiology information system (RIS)**: collects, stores, and provides information on radiological tests, including x-rays, ultrasound, MRI, CT, and PET scans, plus procedures such as ultrasound-guided biopsies and GI series.\n• Administrative tasks: scheduling exams, reporting charges to the financial system, management and radiology reports, tracking nuclear materials, transcription, retrieving results, faxing reports to the ordering physician, and monitoring supply inventory.\n• **CPOE is not an RIS test** (course quiz, confirmed). It is the system orders come through.\n\n**PACS (picture archiving and communication system)**: obtains, stores, retrieves, and displays **digital images**, such as x-rays, MRIs, mammograms, ultrasounds, and cardiac catheterization films. It removes the need to store physical **film** (film is the physical form of an x-ray). A discharge summary is text, so it is not a PACS item.\n\n**Teleradiology**: radiologists view radiology images from **any location**, even at several locations at once. It is often used for consults between distant radiologists.\n\n**Laboratory information system (LIS)**: collects, stores, and manages lab tests and results.\n• Orders usually arrive through **CPOE**, which identifies the tests, schedules them, gives the patient's location, and marks each test routine or urgent.\n• It prints **barcode labels to track specimens**, sets normal ranges, marks values high, low, or **panic**, and alerts staff to panic values (a ping, a color, or a to-do note).\n• It records QC, produces management reports (such as turnaround time), and submits charges. Results can be reached from anywhere in the hospital, the physician's office, or the clinician's home.\n\n**LOINC**: a clinical terminology (more than 93,000 terms) for laboratory codes and clinical test descriptors. It gives standardized codes for exchanging lab results.\n\n**Key conflict:** CYU 8.2 #5 (mislabeled blood-vial barcodes) is keyed **CIS** in Appendix B, but the text lists specimen barcode labels as an **LIS** function. The LIS is itself a CIS.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Imaging and Lab</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">RIS, PACS, LIS, LOINC</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">RIS</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Radiology tests: x-ray,</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">ultrasound, MRI, CT, PET;</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">scheduling and charges</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">PACS</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Obtains, stores, retrieves,</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">displays digital images; no</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">more film</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">LIS</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Lab tests and results;</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">specimen barcodes; flags</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">panic values</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">LOINC</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Clinical terminology of</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">standardized lab codes for</text><text x=\"602\" y=\"804\" fill=\"#fff\" font-size=\"24\">exchanging results</text></svg>",
+        "caption": "Radiology and laboratory systems compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 8: Nursing & Pharmacy Information Systems",
+      "content": "**Nursing information system (NIS)**: assists in **planning and monitoring overall patient care** and documents the nursing care provided.\n• **Nursing documentation:** admission assessment, nursing activities, **intake and output**, **graphic information**, **activities of daily living (ADLs)**, nursing care plans, nurses' notes, and the medication administration record (MAR).\n• **Supports nursing administration:** monitors staffing allocation, schedules nursing staff, and produces performance improvement reports.\n• **Advantages:** lower nursing-care costs, improved care, immediate notice of lab, radiology, and ancillary results, fewer lost charges, and a shorter average length of stay.\n• Hospitals may run different NISs for the ED, intensive care, and other nursing areas because their needs differ.\n\n**Pharmacy information system (PIS)**: assists providers in **ordering, allocating, and administering medication**. It is the front line against **medication errors**.\n• It combines the hospital information system, the EHR, and the PIS with drug knowledge (medical databases, drug formularies) to check **drug-drug and food-drug interactions** and other contraindications.\n• If a physician prescribes a drug that conflicts with a documented **allergy**, the PIS alerts the physician and suggests another medication.\n• Its greatest benefit comes from **integration with CPOE**.\n• **Inventory:** ordering drugs, inventory control, managing the formulary, tracking drug costs, and reporting controlled-medication use.\n• **Dispensing:** individual dosages, secure storage, robotics, barcodes, and documenting when and by whom a drug was given.\n• Like an LIS, it can be internal or run through contracted pharmacy services.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">NIS vs. PIS</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Nursing and pharmacy systems</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">NIS purpose</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Plans and monitors overall</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">patient care; documents</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">nursing care</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">PIS purpose</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Ordering, allocating,</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">administering medication;</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">prevents errors</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">NIS clues</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Intake and output, graphic</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">info, ADLs, care plans,</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">staffing</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">PIS clues</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Drug interactions, allergy</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">checks, formulary, works</text><text x=\"602\" y=\"804\" fill=\"#fff\" font-size=\"24\">with CPOE</text></svg>",
+        "caption": "Nursing and pharmacy systems compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 8: Document Management System & OCR",
+      "content": "**Document management system (DMS)**: the electronic capture and management of documents. It is **HIM's primary system**, though other departments use it too. Documents enter by **scanning** or are **obtained electronically** from other information systems.\n\n**A DMS is not an EHR.** The provider does not create data in it, and without OCR the scanned images are only pictures that cannot be searched, edited, or used for decision support.\n\n**Components:** the **scanner** (rated in pages per minute, **PPM**), the scanning workstation, the abstracting and quality control workstation, storage (file server or a **storage area network**, local or remote via cloud computing), and printers. The **LIS is not a DMS component** (course quiz, confirmed).\n\n**Key DMS terms:**\n• **Target sheet**: a barcode-only page that tells the scanner what the following pages contain.\n• **Indexing**: identifies the patient, the type of form, and each scanned page so the document can be retrieved.\n• **Quality control**: a clerk views every image to check image quality, indexing, and patient demographics.\n• **Annotation**: the ability to add to the scanned image. Its five tools are note, highlighting, drawing, zoom and reduction, and rotate.\n• **Print tracking log**: like an audit log for printing. It records who requested the print, where it printed, the date and time, and what printed.\n\n**Optical character recognition (OCR)**: encodes text from paper into bitmapped images and translates them into a **computer-readable** form, so scanned text can be **searched and edited**. In the book's matching exercise, OCR \"makes text scannable and readable\" for the DMS and EHR.\n\n**Access:** any authorized user can retrieve an image from any location, and **multiple users can view the same image at the same time**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Inside the DMS</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Scanning, indexing, OCR</text><rect x=\"50\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"308\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Target sheet</text><text x=\"90\" y=\"363\" fill=\"#fff\" font-size=\"24\">Barcode-only page telling</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">the scanner what follows</text><rect x=\"562\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"308\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Indexing</text><text x=\"602\" y=\"363\" fill=\"#fff\" font-size=\"24\">Identifies patient, form</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">type, and page for</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">retrieval</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Annotation</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">Add to the image: note,</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">highlight, draw, zoom,</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">rotate</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Print tracking log</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">Who printed what, where,</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">and when; like an audit log</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">OCR</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Turns scanned images of</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">text into searchable,</text><text x=\"90\" y=\"927\" fill=\"#fff\" font-size=\"24\">editable text</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Not a component</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">The LIS is a separate</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">clinical system, not part</text><text x=\"602\" y=\"927\" fill=\"#fff\" font-size=\"24\">of a DMS</text></svg>",
+        "caption": "Core DMS tools"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 8: DMS Workflow, Backscanning & Pros/Cons",
+      "content": "**Workflow** is the DMS's biggest advantage: **record completion, disclosure of health information, and routing documents for review** without moving paper. The disclosure coordinator no longer stands at a copier, and coders don't wait for charts to be assembled.\n\n**Advantages (slide 18):** space savings, retrieval of large numbers of records, productivity gains, online availability, system security and control, and database retrieval. Slide 12 adds that multiple users can view the same image at once.\n**Disadvantages:** **lack of manipulation or reporting** (the images are pictures, so you cannot update the data) and **fear of change**.\n\n**Implementation facts:**\n• **Backscanning**: scanning past health records into the system so there is a database of patient information from the first day of go-live. (course quiz, confirmed)\n• **Scan ED records first.** They run about 5 to 15 pages, compared with 75 to 100+ pages for an inpatient stay. (course quiz, confirmed)\n• **ROI for a DMS** is calculated over **5 to 10 years**. Costs may rise in the short term, and staffing at first increases because HIM still manages paper too. (course quiz, confirmed)\n• **Barcodes** enter metadata automatically, which makes **indexing** more efficient. (course quiz, confirmed)\nAlso from the book and slides:\n• Forms are redesigned at least **six months** before implementation. The recommended barcode symbology is **Code 39** (Code 3 of 9).\n• **When to scan:** immediately after discharge, or after record completion.\n• **The workload:** hire temporary employees or contract with an **outside vendor** (vendors have high productivity and experienced staff).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">DMS Pros and Cons</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Implementation facts from the course key</text><rect x=\"50\" y=\"294\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"344\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Biggest advantage</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">Workflow: completion,</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">disclosure, routing without</text><text x=\"90\" y=\"471\" fill=\"#fff\" font-size=\"24\">paper</text><rect x=\"562\" y=\"294\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"344\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Disadvantages</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">Lack of data manipulation</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">or reporting; fear of</text><text x=\"602\" y=\"471\" fill=\"#fff\" font-size=\"24\">change</text><rect x=\"50\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Backscanning</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Scan past records so data</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">exist from day one</text><rect x=\"562\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"590\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Scan first</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">Emergency department</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">records (5 to 15 pages)</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">ROI period</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">5 to 10 years</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Faster indexing</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">Barcodes enter metadata</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">automatically</text></svg>",
+        "caption": "DMS implementation facts"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 8: Clinical Decision Support (CDS)",
+      "content": "**Clinical decision support (CDS)**: provides clinicians, staff, and patients with knowledge and person-specific information, **intelligently filtered and presented at appropriate times**, to enhance health and health care (ONC definition). In the book's matching exercise, CDS is software that helps medical professionals determine the best course of action for the patient.\n\n**CDS tools:** alerts and reminders (to care providers and patients), clinical guidelines, condition-specific order sets, focused patient data reports and summaries, documentation templates, diagnostic support, and contextually relevant reference information.\n\n**The CDC's five rights of CDS:**\n• The right **information**\n• To the right **people** (the whole care team, including the patient)\n• Through the right **channels** (EHR, mobile devices, patient portal)\n• In the right **intervention formats** (order sets, flow sheets, dashboards, patient lists)\n• At the right **points in the workflow**\n\n**Results:** studies show CDS helps decrease average length of stay, offers cheaper medication recommendations, improves documentation (leading to better coding and billing), and decreases duplicate diagnostic tests.\n\n**Artificial intelligence (AI)**: computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translating languages. AI increasingly powers CDS.\n\n**The catch: alert fatigue.** Irrelevant or overbearing alerts increase clinician **burnout**. To improve CDS acceptance, do **workflow evaluations before implementation**, get input from all clinical, nursing, and therapy staff, and monitor feedback and productivity.\n\nThe EHR version, the **CDSS**, is covered on the Chapter 9 CPOE card.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Five Rights of CDS</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">CDC framework</text><rect x=\"50\" y=\"294\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"344\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Right information</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">Knowledge and</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">person-specific data,</text><text x=\"90\" y=\"471\" fill=\"#fff\" font-size=\"24\">intelligently filtered</text><rect x=\"562\" y=\"294\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"344\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Right people</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">The entire care team,</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">including the patient</text><rect x=\"50\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Right channels</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">EHR, mobile devices,</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">patient portal</text><rect x=\"562\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"590\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Right formats</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">Order sets, flow sheets,</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">dashboards, patient lists</text><rect x=\"50\" y=\"750\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Right point in workflow</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Built into the workflow. Irrelevant or overbearing alerts</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">cause alert fatigue and burnout</text></svg>",
+        "caption": "The five rights of clinical decision support"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 8: Telehealth, Telesurgery & Remote Monitoring",
+      "content": "**Telehealth**: professional services delivered through an interactive telecommunications system. It has two parts: professional services by a practitioner at a distant site, and a telecommunications network that links organizations and patients in different places and carries text and images for consultation and treatment.\n\n**Telemedicine**: the **subset** of telehealth focused on the **provision of care**. Telehealth also includes **administrative uses and education** programs. Teleradiology and telesurgery are specialties.\n\n**Telesurgery** (book Chapter 8, p.199; on your guide's Chapter 10 list): uses **virtual reality and robotics** to help with examination or treatment, so **surgery can be performed on a patient in a different location**.\n\n**Remote patient monitoring (RPM)** (book Chapter 8, p.200; on your guide's Chapter 10 list): **home care telehealth** that uses **smartphones and mobile medical devices** to collect **patient-generated health data (PGHD)**. It suits patients with chronic conditions, high-risk patients, and senior care. Home data are submitted into a CIS and become part of the EHR.\n\n**Benefits:**\n• **Access:** specialty consults, biomedical monitoring, second opinions\n• **Continuity:** chronic follow-ups, less travel, underserved areas\n• **Cost efficiency:** fewer admissions, shorter stays\n• Better access to records and online information, and better training\n\n**Issues:**\n• Privacy and security during the event\n• **Liability** is usually shared by the referring and consulting providers\n• **Licensure** and accreditation rules differ by state, and there is no federal telemedicine legislation\n• Fraud risk, so vendor services, billing, and contracts need legal review; agreed policies; documentation of the services provided",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Care at a Distance</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Chapter 8 telehealth family</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Telehealth</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Broad: care plus</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">administrative and</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">educational uses</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Telemedicine</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">The subset of telehealth</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">focused on providing care</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Telesurgery</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Robotics and virtual</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">reality; surgery on a</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">distant patient</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">RPM</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Home smartphones and</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">devices collect</text><text x=\"602\" y=\"804\" fill=\"#fff\" font-size=\"24\">patient-generated data</text></svg>",
+        "caption": "Telehealth terms compared"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Jones, a rural primary care physician, asks Dr. Smith, a radiologist at a metropolitan medical center, to review a recent digital mammogram and ultrasound to confirm suspected breast cancer. Which system will Dr. Smith access to complete the consult?",
+      "options": [
+        {
+          "text": "LIS",
+          "correct": false
+        },
+        {
+          "text": "PACS",
+          "correct": true
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "PIS",
+          "correct": false
+        }
+      ],
+      "explanation": "**PACS.** The picture archiving and communication system is an integrated system that **obtains, stores, retrieves, and displays digital images**, including x-ray films, MRIs, mammograms, and other radiological exams (CYU 8.2); the chapter also lists ultrasounds (p.192). The most tempting wrong answer is **LIS**, because it is also a diagnostic results system, but the LIS manages **laboratory tests and results**, not images. **CPOE** is how orders are entered, and the **PIS** handles medication ordering and dispensing. Because the radiologist is reading the images from another location, this is also an example of teleradiology.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">PACS</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Think about which system handles images rather than lab</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">results, drugs, or orders.</text></svg>",
+        "caption": "Knowledge check: PACS"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In which area would you find robotics performing specific and complex tasks?",
+      "options": [
+        {
+          "text": "Telehealth",
+          "correct": false
+        },
+        {
+          "text": "Telesurgery",
+          "correct": true
+        },
+        {
+          "text": "EDS",
+          "correct": false
+        },
+        {
+          "text": "Telemedicine",
+          "correct": false
+        }
+      ],
+      "explanation": "**Telesurgery** (course quiz, confirmed). The book says telesurgery uses **virtual reality and robotics** so surgery can be performed on a patient in a **different location** (p.199). **Telehealth** is tempting because it is the umbrella term that includes telesurgery, but the question asks for the specific area that uses robotics. **Telemedicine** is the care-focused subset of telehealth, and the **EDS** is the emergency department system. Remember that your instructor's guide lists telesurgery under Chapter 10, but the book teaches it in Chapter 8.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Telesurgery</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Ask which specialty performs procedures, not just consults</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">or monitoring.</text></svg>",
+        "caption": "Knowledge check: Telesurgery"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "All of the following are advantages of a document management system (DMS) except:",
+      "options": [
+        {
+          "text": "Space saving",
+          "correct": false
+        },
+        {
+          "text": "Retrieval of a large number of records",
+          "correct": false
+        },
+        {
+          "text": "Lack of ability to manipulate data",
+          "correct": true
+        },
+        {
+          "text": "Multiple users can access data at one time",
+          "correct": false
+        }
+      ],
+      "explanation": "**Lack of ability to manipulate data** (course quiz, confirmed). The DMS stores **pictures** of the record, not data entered into the EHR, so users cannot update or report on the content. The book's two disadvantages are **lack of manipulation or reporting** and **fear of change**. Space savings and retrieval of large numbers of records are on the advantages list (slide 18). Multiple users viewing the same image at the same time is also an advantage (slide 12), which makes it the most tempting wrong pick.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">DMS disadvantages</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">One option is a weakness of scanned images. The other three</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">appear on the advantages list.</text></svg>",
+        "caption": "Knowledge check: DMS disadvantages"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Edna wears a Holter monitor for 72 hours. An app on her smartphone sends the cardiac data to her doctor's office every 24 hours, so she does not have to go in every day. Which activity is Edna participating in?",
+      "options": [
+        {
+          "text": "RPM",
+          "correct": true
+        },
+        {
+          "text": "Telesurgery",
+          "correct": false
+        },
+        {
+          "text": "EDS",
+          "correct": false
+        },
+        {
+          "text": "PACS",
+          "correct": false
+        }
+      ],
+      "explanation": "**RPM (remote patient monitoring).** The book defines RPM as **home care telehealth** that uses **smartphones and mobile medical devices** to collect **patient-generated health data** (p.200). It suits patients with chronic conditions, high-risk patients, and senior care. **Telesurgery** uses robotics for surgery on a distant patient, the **EDS** serves the emergency department, and **PACS** stores digital images. Watch the chapter mismatch: your instructor's guide puts RPM under Chapter 10, but the book covers it in Chapter 8.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Remote patient monitoring</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">The patient stays home, and a phone app sends her device</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">data to the office.</text></svg>",
+        "caption": "Knowledge check: Remote patient monitoring"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What makes the indexing of scanned health records more efficient because it can enter metadata automatically?",
+      "options": [
+        {
+          "text": "Barcodes",
+          "correct": true
+        },
+        {
+          "text": "Backscanning",
+          "correct": false
+        },
+        {
+          "text": "OCR",
+          "correct": false
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        }
+      ],
+      "explanation": "**Barcodes** (course quiz, confirmed). A barcode printed on the form enters the **metadata automatically**, which makes **indexing** efficient (slide 20). Indexing identifies the patient, the form type, and each page. **OCR** is tempting because it also reads scanned pages, but OCR translates the **text** of an image into a computer-readable, editable form. It is not the tool the book credits with automatic indexing. **Backscanning** means scanning past records before go-live, and **CPOE** is order entry.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Barcodes and indexing</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Which tool puts metadata on the form itself so nobody has to</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">type it?</text></svg>",
+        "caption": "Knowledge check: Barcodes and indexing"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 9: HIT, EMR vs. EHR & the Longitudinal Record",
+      "content": "**Why HIT matters:** the IOM report ***To Err Is Human: Building a Safer Health System*** (the IOM is now the National Academy of Medicine) advocated using health information technology to prevent the mistakes that injure and kill tens of thousands of patients (course quiz, confirmed).\n\n**Health information technology (HIT)**: hardware, software, integrated technologies, related licenses, intellectual property, and upgrades or packaged solutions designed for the electronic **creation, maintenance, access, or exchange** of health information (slide 5).\n\n**EMR vs. EHR (exam favorite):**\n• **Electronic medical record (EMR)**: an electronic record used within **one** healthcare entity. The matching exercise calls it the computerized version of the paper record.\n• **Electronic health record (EHR)**: health information on an individual that conforms to nationally recognized **interoperability** standards and can be created, managed, and consulted by authorized clinicians and staff across **more than one** healthcare organization.\n\n**Longitudinal record**: your instructor's slide (Ch 9 slide 6) describes the longitudinal health record as a **permanent** record of significant information in **chronological order**, maintained **across time**, ideally **from birth to death**, and accessible remotely to providers and the consumer, not just inside one organization. **I could not confirm the book's exact wording**, and no book question covers it. This is what separates the shared EHR from the single-organization EMR.\n\n**Hybrid record**: a combination of paper and electronic records. It is common during the transition.\n\n**Benefits:** better efficiency and quality, alerts that prevent medication errors, records that are not lost or delayed, simultaneous access, immediate test results, more time with patients, and **safer prescribing**. The best reason to implement an EHR is to **improve patient care** (CYU 9.1).\n**Barriers:** the biggest is **cost** (no guaranteed return), plus a limited HIT workforce, products that may not suit the practice, limited vendor help, and broadband access.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">EMR vs. EHR</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">One organization or many</text><rect x=\"50\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"308\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">EMR</text><text x=\"90\" y=\"363\" fill=\"#fff\" font-size=\"24\">Electronic record used</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">within ONE healthcare</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">entity</text><rect x=\"562\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"308\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">EHR</text><text x=\"602\" y=\"363\" fill=\"#fff\" font-size=\"24\">Meets interoperability</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">standards; shared across</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">more than one organization</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Longitudinal record</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">Permanent, chronological,</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">birth to death, across</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">providers</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Hybrid record</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">A combination of paper and</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">electronic records</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">HIT</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Hardware, software, and</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">technologies to create,</text><text x=\"90\" y=\"927\" fill=\"#fff\" font-size=\"24\">keep, access, exchange data</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Biggest barrier</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">Cost, with no guaranteed</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">return on investment</text></svg>",
+        "caption": "EMR, EHR, and longitudinal record compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 9: Interoperability & Data Standards",
+      "content": "**Interoperability**: the ability of different IT systems and software applications to **communicate, exchange data accurately, effectively, and consistently, and use** the information exchanged (p.211). The \"use it\" part is easy to miss.\n\n**HIMSS levels of interoperability (Chapter 9):**\n• **Level 1, Foundational**: the interconnectivity needed for one system to **securely send data to and receive data from** another.\n• **Level 2, Structural**\n• **Level 3, Semantic** (Chapter 11 defines semantic as standardized terminologies, such as SNOMED CT, that give data a consistent meaning.)\n• **Level 4, Organizational**: governance, policy, social, legal, and organizational considerations. Clue: policy, disclosure, and an attorney at the table.\n**I could not confirm the book's exact wording for Level 2 (structural)**. The sources name it but do not define it.\n\n**Standards:**\n• **HL7**: an ANSI-accredited standards development organization providing the framework for electronic health information exchange. It focuses on data **exchange** standards.\n• **FHIR** (pronounced \"fire\"): HL7's newest standard. It is a set of **modular components** for **mobile phone apps**, cloud communications, EHR-based data sharing, and server communication.\n• **Continuity of care record (CCR)**: a **core data set** of the most relevant administrative, demographic, and clinical information about a patient's care. It holds what matters most for continued care when a patient is transferred to or seen by another practitioner. It is **not** the minimum data set for the EHR. **ASTM International** (an SDO) established it, which is a trap: ASTM is the organization, not the data set. It can be sent as XML or HL7, or on paper.\n• **CCD**: the implementation guide for sharing CCR data (CCR content in HL7 CDA format).\n• **RxNorm**: the drug terminology.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Interoperability</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HIMSS levels and key standards</text><rect x=\"50\" y=\"294\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"344\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Level 1 Foundational</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">Securely send and receive</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">data between two systems</text><rect x=\"562\" y=\"294\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"344\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Level 4 Organizational</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">Governance, policy, legal,</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">and organizational issues</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">HL7</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">ANSI-accredited SDO for</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">health data exchange</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">standards</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">FHIR</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">Modular components for</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">mobile apps, cloud, data</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">sharing</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">CCR</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Core data set for continued</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">care; established by ASTM</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">CCD</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">Implementation guide: CCR</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">content in HL7 CDA format</text></svg>",
+        "caption": "HIMSS levels and Chapter 9 standards"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 9: Source Systems & EHR Components",
+      "content": "**Source systems**: the information systems that **capture and feed data into the EHR**. They are the foundation systems that collect the administrative and clinical data making up the EHR (course quiz, confirmed).\n• **Examples:** EMAR, LIS, RIS, the hospital information system, the nursing information system, and R-ADT (registration-admission, discharge, transfer: demographics such as name, address, and phone).\n• They include **administrative and financial** systems such as registration, billing, and patient financial services, not just clinical ones.\n\n**The 14 EHR components (slides 26 to 28):** R-ADT, patient financial services, order communication and results retrieval, ancillary and department applications, patient monitoring, DMS, clinical messaging and provider-patient portals, results management, point-of-care charting, CPOE, EMAR, CDSS, HIE, and population health.\n\n**Components to know:**\n• **Order communication and results retrieval**: notifies departments (lab, radiology, PT, dietary) of orders and moves diagnostic results into the EHR.\n• **Point of care (POC) charting**: documenting at the bedside, as information is obtained from the patient.\n• **E-prescribing**: pharmacies receive electronic prescriptions from hospitals, practices, and health departments.\n• **Clinical messaging** (book p.223): connects medical staff and the hospital to systems such as order entry and results reporting and the DMS. It **electronically delivers data and automates the workflow** around clinical data, using email, portals, virtual private networks, and other **secure** methods.\n• **Patient-provider portal**: secure communication between provider and patient, including secure email, remote access to test results, and patient monitoring.\n• **Population health component**: captures and reports data used for **public health** (infectious diseases, immunizations, cancer, other reportable conditions).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Feeding the EHR</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Source systems and components</text><rect x=\"50\" y=\"276\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"326\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Source systems</text><text x=\"90\" y=\"381\" fill=\"#fff\" font-size=\"24\">Capture and feed data into</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">the EHR: clinical, admin,</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">financial</text><rect x=\"562\" y=\"276\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"326\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Examples</text><text x=\"602\" y=\"381\" fill=\"#fff\" font-size=\"24\">EMAR, LIS, RIS, hospital</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">IS, nursing IS, R-ADT,</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">billing</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Clinical messaging</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Secure delivery of data;</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">automates clinical workflow</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Order communication</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Tells departments of</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">orders; returns results to</text><text x=\"602\" y=\"699\" fill=\"#fff\" font-size=\"24\">the EHR</text><rect x=\"50\" y=\"768\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"818\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">POC charting</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">Documentation at the</text><text x=\"90\" y=\"909\" fill=\"#fff\" font-size=\"24\">bedside as care happens</text><rect x=\"562\" y=\"768\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"818\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Population health</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">Reports immunizations and</text><text x=\"602\" y=\"909\" fill=\"#fff\" font-size=\"24\">reportable conditions</text></svg>",
+        "caption": "Source systems and EHR components"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 9: CPOE, CDSS, Reminders, Alerts & BC-MAR",
+      "content": "**Computerized provider order entry (CPOE)**: providers **enter orders directly** for prescriptions, lab tests, and x-rays, with **built-in edits** that prevent impossible orders. If orders are written on paper and then transcribed into the system, the organization does not get CPOE's benefits. The PIS's greatest benefit comes from working with CPOE.\n\n**Clinical decision support system (CDSS)**: gives active or passive alerts and advice about **allergies, contraindications, and off-formulary drugs**, offers clinical practice guideline advice, and provides access to knowledge-based systems.\n• **Benchmarking** standardizes practice patterns and reduces the use of high-cost drugs and other treatments (p.224).\n• **Rules engines** control the alerts.\n\n**Reminders vs. alerts (CYU 9.1):**\n• **Reminder**: notifies the physician of **screenings** that should be done based on the patient's **age and gender**, such as a mammogram, colonoscopy, or MMR immunization. Reminders cover things that can be scheduled or that happen regularly.\n• **Alert**: flags something **contraindicated**, such as a **drug allergy**, before the prescription is carried out.\n\n**BC-MAR / EMAR** (barcode medication administration record / electronic medication administration record): automates medication administration and supports the **eight rights**:\n• Right patient\n• Right medication\n• Right time\n• Right dose\n• Right route\n• Right position\n• Right documentation\n• The patient's right to refuse\n\nThe EMAR lists medications to be given and documents their administration. It replaces binders and paper med-pass sheets.\n\n**RFID** (radio frequency identification): microchips implanted in an item so it can be tracked.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Orders and Safety</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">CPOE, CDSS, reminders, BC-MAR</text><rect x=\"50\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"308\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">CPOE</text><text x=\"90\" y=\"363\" fill=\"#fff\" font-size=\"24\">Providers enter orders</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">directly; edits block</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">impossible orders</text><rect x=\"562\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"308\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">CDSS</text><text x=\"602\" y=\"363\" fill=\"#fff\" font-size=\"24\">Alerts on allergies,</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">contraindications,</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">formulary; guidelines</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Reminder</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">Screening due by age and</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">gender, e.g., MMR or</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">mammogram</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Alert</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">Contraindication flag,</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">e.g., patient is allergic</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">to sulfa</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">BC-MAR / EMAR</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Barcode medication</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">administration; automates</text><text x=\"90\" y=\"927\" fill=\"#fff\" font-size=\"24\">the eight rights</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">RFID</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">Microchip in an item so the</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">item can be tracked</text></svg>",
+        "caption": "Order entry and medication safety tools"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 9: Structured vs. Unstructured Data, GUI & NLP",
+      "content": "**Structured data**: machine-readable data in **discrete fields with limits** on what can be entered, (book Chapter 2 glossary). Exam 1 field examples: drop-down boxes, checkboxes, radio buttons. Structured data are easier to report on.\n\n**Unstructured data**: **narrative, free-text** data, usually typed (Chapter 2 glossary). It has a reporting disadvantage, but it is still needed to capture important clinical documentation (p.229).\n\n**Template-based entry**: a **blend** of free text and structured entry. It is the compromise when some clinicians want structured fields and others want text boxes or dictation (CYU 9.3).\n\n**Natural language processing (NLP)**: converts **unstructured data into structured data** through computer algorithms or statistical methods. It supports automated coding, which must understand the relationships between terms.\n\n**Graphical user interface (GUI)**: graphic displays on the screen, such as **icons, colors, buttons, and menus**, that make a system user-friendly (p.229).\n\n**EHR tools on slide 37:** data retrieval, the GUI, structured and unstructured data entry, template-based entry, and NLP.\n\n**Exam clue words:**\n• \"Discrete fields,\" \"drop-down,\" \"reportable\": structured\n• \"Free text,\" \"narrative,\" \"dictation\": unstructured\n• \"A compromise of both\": template-based entry\n• \"Converts unstructured to structured\": NLP\n• \"Icons and colors\": GUI",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Ways to Enter Data</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Chapter 9 EHR data tools</text><rect x=\"50\" y=\"312\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"362\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Structured</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">Discrete fields with</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">limits; machine-readable;</text><text x=\"90\" y=\"489\" fill=\"#fff\" font-size=\"24\">easy to report</text><rect x=\"562\" y=\"312\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"362\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Unstructured</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">Narrative free text; harder</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">to report but still needed</text><rect x=\"50\" y=\"558\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"608\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Template-based</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">A blend of structured</text><text x=\"90\" y=\"699\" fill=\"#fff\" font-size=\"24\">fields and free text</text><rect x=\"562\" y=\"558\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"608\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">NLP</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">Converts unstructured data</text><text x=\"602\" y=\"699\" fill=\"#fff\" font-size=\"24\">into structured data</text><rect x=\"50\" y=\"768\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"818\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">GUI</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">Icons, colors, buttons, and menus for ease of use</text></svg>",
+        "caption": "Structured and unstructured data compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 9: Signatures, Authentication & Audit Logs",
+      "content": "**Authentication**: corroboration that a person is who they claim to be. Signatures record the identity of the person who made an entry, and authenticating entries is required by state licensing, accreditation, and other standards.\n\n**Three signature types:**\n• **Electronic signature**: the slide says it requires at least a **password** and can use **two-factor authentication** (slide 33). I could not confirm the book's exact glossary definition of electronic signature itself.\n• **Digitized signature**: an electronic **image** of a handwritten signature.\n• **Digital signature**: an electronic signature **plus encryption**, which provides **nonrepudiation** (the signer cannot deny signing). It is the most secure option.\n\n**Signer authentication vs. document authentication:**\n• **Signer authentication** identifies the person who signed the document electronically (course quiz, confirmed).\n• **Document authentication** ensures the document and signature were not changed after signing.\n\nThe system will not accept an entry without a signature, which reduces deficient records.\n\n**Audit log**: an electronic footprint that tracks **who** accessed the record, **what** they did (including printing and saving), **when**, how long, and from which terminal or device. Use it to find who is making repeated errors and when and where.\n\n**Copy and paste**: copying moves information from an existing record, and pasting enters it into the current one. It saves time but risks nullified entries, a suspect record, missing information, misrepresenting the case, **fraudulent claims**, patient harm, and sentinel events. The audit log is how usage is checked.\n\n**Hybrid record:** policies must define the source of each part of the record. Unnecessary printing is costly and complicates managing the hybrid record.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Signature Types</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Electronic, digitized, digital</text><rect x=\"50\" y=\"276\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"326\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Electronic</text><text x=\"90\" y=\"381\" fill=\"#fff\" font-size=\"24\">At least a password; can</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">use two-factor</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">authentication</text><rect x=\"562\" y=\"276\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"326\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Digitized</text><text x=\"602\" y=\"381\" fill=\"#fff\" font-size=\"24\">An electronic image of a</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">handwritten signature</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Digital</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Electronic plus encryption;</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">nonrepudiation; most secure</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Signer authentication</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Identifies the person who</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">signed electronically</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Audit log</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Who accessed, what was</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">done, when, and from which</text><text x=\"90\" y=\"909\" fill=\"#fff\" font-size=\"24\">device</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Copy and paste risk</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">Missing info,</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">misrepresentation,</text><text x=\"602\" y=\"909\" fill=\"#fff\" font-size=\"24\">fraudulent claims</text></svg>",
+        "caption": "Signature types compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 9: CEHRT, Meaningful Use, MIPS & Information Blocking",
+      "content": "**CEHRT (certified EHR technology)**: an EHR product that has been **tested and certified** to meet HIT criteria set by the **ONC** (course quiz, confirmed). The ONC is the agency, not the technology.\n• **Certification chain:** NVLAP accredits the testing labs (ATLs). The ONC-Approved Accreditor accredits the ONC-ACBs. ONC-ACBs certify products and post them on the CHPL (updated at least weekly).\n• **Surveillance** is the next step after certification (CYU 9.2). Certified products stay under surveillance, randomized or in response to a problem, to prove they work \"in the real world.\"\n• About **97%** of U.S. hospitals had CEHRT (course quiz, confirmed).\n\n**Meaningful Use (MU)**: the CMS incentive program for adopting CEHRT. It is now called **Promoting Interoperability** and was replaced in 2018 by **MIPS**, part of CMS's **Quality Payment Program (QPP)** under **MACRA**. MIPS rewards value and outcomes and consolidates several quality programs into one.\n\n**MIPS weights (source conflict):** the Companion and book list Quality **30%**, Promoting Interoperability 25%, Improvement Activities 15%, Cost **30%**. Your instructor's slide 21 lists Quality **45%** and Cost **15%**. The course notes say to go with the slide for this instructor. In both versions, **Quality** is the category built on **performance measures**, and **Cost** is calculated by CMS from Medicare claims.\n\n**eCQMs**: electronic clinical quality measures of healthcare processes, outcomes, and patient perceptions.\n\n**Health information blocking** (book Chapter 9, plus the Chapter 11 roadmap, p.262): \"actors\" **knowingly and unreasonably interfering** with the access, exchange, or use of electronic health information, except as required by law or covered by an exception. The 2020 Cures Act Final Rule applies it to **providers, certified health IT developers, HIEs, and HINs**. Slide 22 lists it as an obstacle to EHR implementation.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Certification and Pay</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">CEHRT, MU, MIPS, blocking</text><rect x=\"50\" y=\"276\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"326\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">CEHRT</text><text x=\"90\" y=\"381\" fill=\"#fff\" font-size=\"24\">EHR tested and certified</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">against ONC criteria</text><rect x=\"562\" y=\"276\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"326\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">After certification</text><text x=\"602\" y=\"381\" fill=\"#fff\" font-size=\"24\">Surveillance: it must work</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">in the real world</text><rect x=\"50\" y=\"486\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"536\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">MU to MIPS</text><text x=\"90\" y=\"591\" fill=\"#fff\" font-size=\"24\">MU became Promoting</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Interoperability inside</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">MIPS (QPP)</text><rect x=\"562\" y=\"486\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"536\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">MIPS Quality</text><text x=\"602\" y=\"591\" fill=\"#fff\" font-size=\"24\">Performance measures; 30%</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">in the book, 45% on her</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">slide</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">eCQMs</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Electronic measures of</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">processes, outcomes,</text><text x=\"90\" y=\"909\" fill=\"#fff\" font-size=\"24\">perceptions</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Information blocking</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">Knowingly, unreasonably</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">interfering with EHI</text><text x=\"602\" y=\"909\" fill=\"#fff\" font-size=\"24\">exchange</text></svg>",
+        "caption": "Certification and payment programs"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What term describes the hardware, software, and other integrated technologies used in the creation of electronic patient health information?",
+      "options": [
+        {
+          "text": "HIPAA",
+          "correct": false
+        },
+        {
+          "text": "HIM",
+          "correct": false
+        },
+        {
+          "text": "HIT",
+          "correct": true
+        },
+        {
+          "text": "ACA",
+          "correct": false
+        }
+      ],
+      "explanation": "**HIT, health information technology** (course quiz, confirmed). The slide defines HIT as hardware, software, integrated technologies, related licenses, intellectual property, and upgrades designed for the electronic **creation, maintenance, access, or exchange** of health information. **HIM** is tempting because the letters look alike, but HIM is the health information management profession that **uses** the technology, not the technology itself. **HIPAA** is the privacy and security law, and the **ACA** is the Affordable Care Act.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">HIT</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">The term covers the technology itself, not the profession or</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">a law.</text></svg>",
+        "caption": "Knowledge check: HIT"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Wilson asks you to explain the difference between an alert and a reminder in the EHR. Which of these is an example of a reminder?",
+      "options": [
+        {
+          "text": "Use of anticoagulant is contraindicated",
+          "correct": false
+        },
+        {
+          "text": "Patient is due for MMR immunization",
+          "correct": true
+        },
+        {
+          "text": "Patient is allergic to sulfa drugs",
+          "correct": false
+        },
+        {
+          "text": "Drug does not come in this format",
+          "correct": false
+        }
+      ],
+      "explanation": "**Patient is due for MMR immunization** (CYU 9.1). The book says a **reminder** notifies physicians of **screenings** that should be performed based on the patient's **age and gender**, the kind of thing that can be scheduled. An **alert** flags items that are **contraindicated**, such as a drug allergy. That makes \"allergic to sulfa drugs\" and \"anticoagulant is contraindicated\" alerts, and the most tempting wrong choices. A drug not coming in a certain format is an order-entry edit, not a scheduled screening.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Reminders vs. alerts</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Reminders cover things that can be scheduled or happen</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">regularly.</text></svg>",
+        "caption": "Knowledge check: Reminders vs. alerts"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Christopher, the PIS coordinator, is building a training session on preventing medication errors. Which technology supports the eight rights of medication administration?",
+      "options": [
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "EMAR",
+          "correct": true
+        },
+        {
+          "text": "DMS",
+          "correct": false
+        },
+        {
+          "text": "PHR",
+          "correct": false
+        }
+      ],
+      "explanation": "**EMAR, the electronic medication administration record** (also called **BC-MAR**, barcode medication administration) (CYU 9.2). It automates medication administration and addresses the **eight rights**: right patient, medication, time, dose, route, position, documentation, and the patient's right to refuse. **CPOE** is tempting because it also prevents medication errors, but CPOE handles the provider **entering the order**, not the nurse **administering** the dose. The **DMS** manages scanned documents, and the **PHR** is the patient's own record.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">BC-MAR / EMAR</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Look for the technology that documents each dose as it is</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">given.</text></svg>",
+        "caption": "Knowledge check: BC-MAR / EMAR"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What term describes the foundation systems that collect the administrative and clinical data that make up the EHR?",
+      "options": [
+        {
+          "text": "Source systems",
+          "correct": true
+        },
+        {
+          "text": "Connectivity systems",
+          "correct": false
+        },
+        {
+          "text": "Specialty clinical systems",
+          "correct": false
+        },
+        {
+          "text": "Smart peripherals",
+          "correct": false
+        }
+      ],
+      "explanation": "**Source systems** (course quiz, confirmed). Source systems are the information systems that **capture and feed data into the EHR**, such as the EMAR, LIS, RIS, hospital information system, nursing information system, and R-ADT. They include **administrative and financial** systems, not just clinical ones (slide 11). **Specialty clinical systems** is the most tempting distractor, but it would leave out the registration and billing systems that also feed the EHR. Connectivity systems and smart peripherals are not the book's term.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Source systems</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">These systems sit underneath the EHR and supply its data.</text></svg>",
+        "caption": "Knowledge check: Source systems"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The medical staff votes to require an encrypted electronic signature on all EHR documentation. Which type of signature will be implemented?",
+      "options": [
+        {
+          "text": "Digital signature",
+          "correct": true
+        },
+        {
+          "text": "Digitized signature",
+          "correct": false
+        },
+        {
+          "text": "Electronic signature",
+          "correct": false
+        },
+        {
+          "text": "Autosignature",
+          "correct": false
+        }
+      ],
+      "explanation": "**Digital signature** (CYU 9.3). The book says the digital signature is similar to the electronic signature except that it uses **encryption** to provide **nonrepudiation**, which makes it the most secure option. **Electronic signature** is tempting because the stem uses those words, but a plain electronic signature needs only a password (and can add two-factor authentication). Adding encryption makes it digital. A **digitized** signature is only an electronic image of a handwritten signature.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Signature types</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">The key word in the scenario is &quot;encrypted.&quot;</text></svg>",
+        "caption": "Knowledge check: Signature types"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A new nurse asks how ABC Hospital knows what information to send to the care team at a rehab clinic in another city. The EHR subsystem that includes the most relevant patient information for continued care is the:",
+      "options": [
+        {
+          "text": "CCR",
+          "correct": true
+        },
+        {
+          "text": "PHR",
+          "correct": false
+        },
+        {
+          "text": "Source system",
+          "correct": false
+        },
+        {
+          "text": "Mini-EHR",
+          "correct": false
+        }
+      ],
+      "explanation": "**CCR, the continuity of care record** (CYU 9.1). The CCR is a **core data set** of the most relevant administrative, demographic, and clinical information about a patient's healthcare. It holds what matters most for continued care when a patient is transferred to or seen by another practitioner. The **PHR** is tempting because it also travels with the patient, but the PHR is maintained **by the patient**, not compiled by the hospital for a transfer. A **source system** feeds data into the EHR. Remember that ASTM International created the CCR; it is not the data set itself.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Continuity of care record</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">This data set travels with the patient when care moves to a</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">new team.</text></svg>",
+        "caption": "Knowledge check: Continuity of care record"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 10: Consumer Informatics & Consumer Engagement",
+      "content": "**Consumer**: a patient, client, resident, or other recipient of healthcare services.\n\n**Consumer informatics**: the field devoted to informatics from multiple consumer or patient views. The patient becomes an active user of health IT. It **includes consumer health applications, patient portals, the PHR, health information literature, and other consumer applications** (p.241).\n• **Course-key trap:** telehealth is **not** on that list. On the course quiz, the correct answer was **health information literature** (confirmed).\n• Consumer informatics improves the chance of good outcomes by **meeting the consumer's health literacy level**.\n\n**Consumer health**: your guide asks you to define it. The book defines **consumer**, **consumer informatics**, and **consumer health applications**, but **I could not confirm a book definition of \"consumer health\"** as a separate term. Use the definitions above.\n\n**Consumer health applications**: healthcare apps designed for use by the **patient or the provider** on smartphones, tablets, and other devices.\n• **Patients** use them to access health information, live healthier, track calories, manage conditions, and reach the PHR.\n• **Providers** use them to access patient information, communicate, monitor patients, and deliver telemedicine.\n• They are **not** used solely by patients, and the book never mentions insurers (course quiz, confirmed).\n\n**Consumer engagement** (the book's term for \"patient engagement\"; p.248): the level at which healthcare clients are **actively involved in decisions** about their health, wellness, and care. Activities include interacting with providers, seeking health information, maintaining a PHR, and taking an active role in decisions.\n• **Benefits:** reduced costs, increased communications, **improved patient satisfaction**, and better population health (course quiz, confirmed).\n• The **Blue Button** campaign is a consumer informatics application.\n• **E-patient** (course quiz): the term is not in the book. The keyed answer is a patient who **is engaged in her healthcare**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">The Active Patient</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Consumer informatics terms</text><rect x=\"50\" y=\"399\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"449\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Consumer</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">Patient, client, resident,</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">or other recipient of care</text><rect x=\"562\" y=\"399\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"449\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Consumer informatics</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">Apps, portals, PHR, health</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">information literature</text><rect x=\"50\" y=\"609\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"659\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Health applications</text><text x=\"90\" y=\"714\" fill=\"#fff\" font-size=\"24\">Used by the patient OR the</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">provider; not insurers</text><rect x=\"562\" y=\"609\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"659\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Consumer engagement</text><text x=\"602\" y=\"714\" fill=\"#fff\" font-size=\"24\">Clients actively involved</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">in decisions about their</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">care</text></svg>",
+        "caption": "Consumer informatics terms"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 10: Health Literacy",
+      "content": "**Health literacy** (personal health literacy): the degree to which individuals have the capacity to **obtain, process, and understand** basic health information and services needed to make appropriate health decisions.\n• Patients need it to understand **consent forms, discharge instructions**, how and when to make appointments, **when to seek treatment**, and their **risk** (course quiz, confirmed).\n• It is **not** simply reading ability or education level.\n• **Influences:** age, gender, race and ethnicity, culture, **socioeconomic status**, health insurance coverage, and the source of health information.\n• **Contributing factors to low health literacy:** communication skills, knowledge of healthcare, culture, demands of the healthcare system, age over 65, nonwhite ethnicity, recent immigration, poverty, and English as a second language.\n\n**Organizational health literacy**: the degree to which **organizations** equitably enable individuals to find, understand, and use information and services to make health decisions. Example: a clinic orientation that helps new patients understand health information.\n\n**Jargon**: specialized terminology used by a specific group, such as \"CABG for CAD before an AMI.\" Jargon works against health literacy.\n\n**Tools that help:**\n• Pictures and visual aids\n• **Teach Back**: the provider explains in simple language, then asks the **patient to repeat** it.\n• **Ask Me 3**: the patient asks three questions: What is my problem? What should I do? Why do I need to do this?\n\n**HHS** developed the **National Action Plan to Improve Health Literacy**, with two overarching principles and seven goals.\n\n**Digital divide**: the gap between people who **do and do not have access to computers and the internet**.\n\n**Health disparities**: health differences closely linked with social, economic, or environmental disadvantage, such as Black women dying of breast cancer at a higher rate than white women.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Health Literacy</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Understanding drives decisions</text><rect x=\"50\" y=\"276\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"326\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Health literacy</text><text x=\"90\" y=\"381\" fill=\"#fff\" font-size=\"24\">Ability to obtain, process,</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">and understand health info</text><rect x=\"562\" y=\"276\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"326\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Not just reading</text><text x=\"602\" y=\"381\" fill=\"#fff\" font-size=\"24\">Culture, age, and</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">socioeconomic status all</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">affect it</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Teach Back</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Provider explains simply;</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">the patient repeats it back</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Ask Me 3</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Patient asks: my problem,</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">what to do, why it matters</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Digital divide</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Gap in access to computers</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">and the internet</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Health disparities</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">Health differences tied to</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">social or economic</text><text x=\"602\" y=\"909\" fill=\"#fff\" font-size=\"24\">disadvantage</text></svg>",
+        "caption": "Health literacy terms and tools"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 10: Telehealth, Telemedicine & E-Visits",
+      "content": "Chapter 10 revisits telehealth with slightly different wording from Chapter 8. Learn both.\n\n**Telehealth**: \"a **broad term** that encompasses a variety of telecommunications technologies and tactics to provide health services from a distance\" (p.247).\n**Telemedicine**: narrower. It focuses on **care delivered by physicians**. Telehealth also includes other professionals, patient education, and administrative purposes. Telehealth is **broader**, not a synonym.\n\n**Book question flaw:** in the Chapter 10 review question \"Identify the true statement regarding telehealth,\" two printed options (\"broader term\" and \"broader concept\") say the same thing. Either is defensible. What matters is that telehealth is the **broader** one.\n\n**Technologies:** video conferencing, the internet, **store-and-forward** imaging, streaming media, and communications.\n**Visit timing:** **synchronous** (both parties online at the same time) or **asynchronous** (such as store-and-forward).\n\n**Virtual visits = e-visits.** Your guide says \"virtual visits.\" The book's term is **e-visits** (p.247), a telehealth visit with a provider. **I could not confirm the book's exact definition of e-visit.** The course notes disagree on where e-visits belong: the Chapter 10 review explanation calls them telehealth, and the course-quiz explanation says they run through the patient portal. Both agree e-visits are **not** a PHR function, and that is how the course quiz tests it.\n\n**Benefits:**\n• Easier access; rural patients skip trips to city specialists\n• Fewer no-shows and better continuity\n• **Reduced hospitalizations** through early detection (course quiz, confirmed)\n• Less time out of work\n• Patients send blood sugar, blood pressure, and pulse readings and stay more engaged\n\n**Disadvantages:** some physical exams cannot be done, no face-to-face interaction, state regulations may get in the way, patients and providers need the technology, lack of provider funds, and reimbursement.\n**Policy drivers:** ACA incentives, state mandates that insurers pay, employer benefits, and the Veterans Administration. COVID-19 changed how telehealth is used.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Telehealth in Ch 10</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Broader term, real benefits</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Telehealth</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">Broad term for health</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">services from a distance</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Telemedicine</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Narrower: care delivered by</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">physicians</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">E-visits</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">The book's term for virtual</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">visits; NOT a PHR function</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Key benefit</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Reduced hospitalizations</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">through early detection</text></svg>",
+        "caption": "Telehealth benefits and terms"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 10: Patient Portal vs. PHR",
+      "content": "**Patient portal**: an information system **established and maintained by the healthcare organization**. Patients log in to obtain health information and test results, **register**, **schedule appointments**, request **prescription refills**, complete or download forms, update demographics, and use **secure e-mail**.\n• **Patient-provider portal**: secure communication between the patient and providers, or between the provider and the payer.\n• **Two types:** **standalone** (fewer features; used by smaller providers) and **system integrated** (a function of the EHR, so it is fully functioning).\n• The provider or another agent owns the portal. The patient owns the information.\n• **Benefits:** improved communications, health information and resources, patient engagement, and more efficient staff.\n\n**Secure messaging and other portal functions:** the portal's secure e-mail lets patients message care providers. In Chapter 9, **clinical messaging** uses email, portals, and VPNs to deliver data securely. In Chapter 11, **Direct** messaging works like encrypted email between providers.\n\n**Personal health record (PHR)**: an electronic or paper record **maintained and updated by an individual** for him- or herself. It is a tool to collect, track, and share past and current information about their health or the health of someone in their care. It is **controlled by the patient**.\n• **Tethered**: connected to the EHR, showing a subset of its information. **Untethered**: a separate application.\n• **Four formats:** paper, personal computer, internet, and portable devices.\n• **Contents:** identification, emergency contacts, doctors, allergies, medications and dosages, illnesses and surgeries, advance directives, family and immunization history, home blood pressure readings, exercise and diet, and health goals.\n\n**The dividing line:** the patient **adds information** (dietary supplements, exercise, home readings) in the **PHR**. Appointments and refill requests go through the **portal**. The patient does not document in the portal.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Portal vs. PHR</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Who controls it decides the answer</text><rect x=\"50\" y=\"276\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"326\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Patient portal</text><text x=\"90\" y=\"381\" fill=\"#fff\" font-size=\"24\">Created and controlled by</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">the healthcare organization</text><rect x=\"562\" y=\"276\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"326\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">PHR</text><text x=\"602\" y=\"381\" fill=\"#fff\" font-size=\"24\">Created, maintained, and</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">controlled by the patient</text><rect x=\"50\" y=\"486\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"536\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Portal tasks</text><text x=\"90\" y=\"591\" fill=\"#fff\" font-size=\"24\">Register, schedule, refill,</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">forms, results, secure</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">e-mail</text><rect x=\"562\" y=\"486\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"536\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">PHR tasks</text><text x=\"602\" y=\"591\" fill=\"#fff\" font-size=\"24\">Add supplements, exercise,</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">home readings, health goals</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Portal types</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Standalone or system</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">integrated (part of the</text><text x=\"90\" y=\"909\" fill=\"#fff\" font-size=\"24\">EHR)</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">PHR types</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">Tethered (linked to the</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">EHR) or untethered</text><text x=\"602\" y=\"909\" fill=\"#fff\" font-size=\"24\">(separate)</text></svg>",
+        "caption": "Patient portal and PHR compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 10: Social Media, Population Health & Public Health",
+      "content": "**Social media**: online tools that allow people to communicate.\n• **How healthcare uses it:** to advertise, promote wellness, provide health education, manage **support forums**, and communicate. Patients can post reviews, and organizations can post upcoming classes.\n• **Benefits:** a sense of community for patients with chronic diseases, better-informed patients who can track their health, help finding clinical trials, building awareness of conditions, improved patient education, legitimate online resources, and patients **sharing their experiences** with other patients.\n• **The limit:** patient information **cannot be posted** on social media. That would be a HIPAA violation. The facility's social media policy should address **improper usage** by its workforce (course quiz, confirmed). Clinical information between patient and physician goes through the portal, not social media.\n\n**Population health** (glossary): the **study of health outcomes** found in a group of individuals. EHR reporting of population health metrics, such as immunizations and colon cancer screenings, is a key EHR function.\n• **Slide wording (slide 4):** an opportunity for health care systems, agencies, and organizations to work together to improve the health outcomes of the communities they serve.\n\n**Public health** (glossary): the policies, outreach, and research used to improve the health of the community. Public health works to **protect and improve community health** through policy recommendations, health education and outreach, and research for disease detection and injury prevention. Example: a COVID-19 testing site plan to notify patients, trace contacts, and arrange follow-up care.\n\n**Chapter conflict:** Chapter 10 says population health and public health are **different**. Chapter 11 says \"population health, **or** public health,\" treating them as the same. On the exam, answer by the chapter the question comes from.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Community Health</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Social media and public health</text><rect x=\"50\" y=\"399\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"449\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Social media benefit</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">Community, education, and</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">patients sharing</text><text x=\"90\" y=\"576\" fill=\"#fff\" font-size=\"24\">experiences</text><rect x=\"562\" y=\"399\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"449\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Social media limit</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">Never post patient</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">information; that violates</text><text x=\"602\" y=\"576\" fill=\"#fff\" font-size=\"24\">HIPAA</text><rect x=\"50\" y=\"645\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"695\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Population health</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">Ch 10: the STUDY of health</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">outcomes in a group</text><rect x=\"562\" y=\"645\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"695\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Public health</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">Protects community health:</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">policy, outreach, research</text></svg>",
+        "caption": "Social media, population and public health"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Critique this statement: \"Consumer health applications are used solely by patients.\"",
+      "options": [
+        {
+          "text": "This is a true statement",
+          "correct": false
+        },
+        {
+          "text": "This is a false statement, as they are also used by insurers and healthcare providers",
+          "correct": false
+        },
+        {
+          "text": "This is a false statement, as they are also used by healthcare providers",
+          "correct": true
+        },
+        {
+          "text": "This is a false statement, as they are only used by physicians",
+          "correct": false
+        }
+      ],
+      "explanation": "**False, because they are also used by healthcare providers** (course quiz, confirmed; Review Question 10). Page 246 says consumer health applications are designed for use by the **patient or provider** on smartphones, tablets, and other devices. Providers use them to access patient information, communicate, monitor patients, and provide telemedicine. The option adding **insurers** is the trap: it sounds more complete, but the book never mentions insurers, so it is wrong. \"Only physicians\" ignores the patient uses entirely.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Consumer health applications</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Look back at the two lists of uses in the chapter: one for</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">patients, one for providers.</text></svg>",
+        "caption": "Knowledge check: Consumer health applications"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Kyle wants his physician to know about the dietary supplements he takes for irritable bowel syndrome. Where should Kyle record this?",
+      "options": [
+        {
+          "text": "Health record",
+          "correct": false
+        },
+        {
+          "text": "PHR",
+          "correct": true
+        },
+        {
+          "text": "Telehealth",
+          "correct": false
+        },
+        {
+          "text": "Patient portal",
+          "correct": false
+        }
+      ],
+      "explanation": "**PHR, the personal health record** (Chapter 10 review). The PHR is created, maintained, and controlled by the **patient**. It lets the patient share information from other providers, exercise regimen, medications, **dietary supplements**, and anything else the patient wants the provider to know. The **patient portal** is the most tempting wrong answer, but the portal is controlled by the healthcare organization. Patients use it to schedule, request refills, and message, and they do not document in it (Table 10.1). The health record is kept by the provider.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">PHR vs. patient portal</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Ask who is doing the documenting.</text></svg>",
+        "caption": "Knowledge check: PHR vs. patient portal"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Health literacy is impacted by:",
+      "options": [
+        {
+          "text": "Reading level",
+          "correct": false
+        },
+        {
+          "text": "Socioeconomic factors",
+          "correct": true
+        },
+        {
+          "text": "Patient's medical condition",
+          "correct": false
+        },
+        {
+          "text": "Wearable technology",
+          "correct": false
+        }
+      ],
+      "explanation": "**Socioeconomic factors** (Chapter 10 review). The book lists the influences on health literacy as age, gender, race and ethnicity, culture, **socioeconomic status**, health insurance coverage, and the source of health information (p.243). **Reading level** is the trap. The book specifically says health literacy is **not** necessarily about reading ability or education level. Health literacy is the capacity to obtain, process, and understand health information to make decisions, so a patient's medical condition and wearable technology are not on the list.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Health literacy</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">The book lists several influences, and it says one common</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">assumption is wrong.</text></svg>",
+        "caption": "Knowledge check: Health literacy"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Social media in healthcare includes:",
+      "options": [
+        {
+          "text": "Support groups",
+          "correct": true
+        },
+        {
+          "text": "Sharing clinical information with the physician",
+          "correct": false
+        },
+        {
+          "text": "Obtaining clinical information from the physician",
+          "correct": false
+        },
+        {
+          "text": "Wearable technology",
+          "correct": false
+        }
+      ],
+      "explanation": "**Support groups** (course quiz, confirmed). Social media are online tools that allow people to communicate. Healthcare uses them to promote wellness, provide health education, and **manage support forums**, and patients use them to share their experiences (p.247; slide 28). Sharing or obtaining clinical information with your physician is tempting, but that belongs in the **patient portal**, which offers secure messaging. Posting patient information on social media would be a HIPAA violation. Wearable technology is a device, not a social media tool.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Social media in healthcare</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Clinical information exchanged with your own physician goes</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">somewhere else.</text></svg>",
+        "caption": "Knowledge check: Social media in healthcare"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A university COVID-19 testing site works with the state health department and local hospitals on a plan to notify patients of positive results, contact health professionals about treatment, trace contacts, and arrange follow-up care. This is an example of:",
+      "options": [
+        {
+          "text": "Population health",
+          "correct": false
+        },
+        {
+          "text": "Public health",
+          "correct": true
+        },
+        {
+          "text": "Health disparities",
+          "correct": false
+        },
+        {
+          "text": "Health literacy",
+          "correct": false
+        }
+      ],
+      "explanation": "**Public health** (Chapter 10 review). Chapter 10 says public health works to **protect and improve the health of communities** through policy recommendations, health education and outreach, and research for disease detection and injury prevention. Notifying patients and tracing contacts is that kind of action (p.242). **Population health** is the tempting wrong answer. Chapter 10 defines it as the **study** of health outcomes in a group and says the two are different. Remember that a Chapter 11 question treats them as the same.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Public health</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Is this studying a group, or acting to protect the</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">community?</text></svg>",
+        "caption": "Knowledge check: Public health"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 11: HIE, HIO & the eHealth Exchange",
+      "content": "**Health information exchange (HIE)**: the formal, agreed-upon process for the **seamless exchange of health information electronically** between providers and others with the same level of interoperability, according to nationally recognized standards. Exchange is possible **only if interoperability is in place**.\n• HIE encourages patients to become active participants in their care.\n• **Societal benefit:** equity of treatment and services, improved outcomes, and **reduced health disparities**.\n\n**Health information organization (HIO)**: typically a **public-private partnership** that **oversees, governs, and facilitates** the transmission of health data between healthcare organizations that use different EHR systems.\n• HIOs may be **local, regional, or state** level, and members sign a **contract** to share information.\n• In the matching exercise, the HIO is \"the middleman\" that runs the exchange.\n• **RHIO** (regional HIO) is a **precursor** to the HIO in a specific geographic area. **LHIO** is a community group of stakeholders who band together to exchange information. Both definitions come only from the chapter's matching exercise.\n\n**NwHIN** (nationwide health information network): the standards, specifications, and policies that enable secure exchange of health information over the internet. It is now the **eHealth Exchange**.\n\n**eHealth Exchange**: a group of federal agencies and non-federal organizations under a common mission. It is the **largest query-based HIE network in the U.S.** (all 50 states and 75% of U.S. hospitals), and it is the infrastructure HIE needs to succeed.\n\n**BYOD** (bring your own device): practitioners using their **personal smartphones or devices** instead of devices the organization provides. The device must meet encryption and security protocols.\n\n**National patient identifier:** Congress continues to ban HHS from developing a national unique patient identifier.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Who Runs the Exchange</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HIE, HIO, eHealth Exchange</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">HIE</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">The process: seamless</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">electronic exchange under</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">national standards</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">HIO</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">The organization:</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">public-private partnership</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">that governs exchange</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">eHealth Exchange</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Largest query-based HIE</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">network in the US; formerly</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">NwHIN</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">BYOD</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Clinicians using their own</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">phones and devices for work</text></svg>",
+        "caption": "Exchange organizations compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 11: The ONC, HITECH & the Interoperability Roadmap",
+      "content": "**Office of the National Coordinator for Health Information Technology (ONC)**:\n• The **principal federal entity** charged with coordinating nationwide efforts to implement and use the most advanced HIT and the electronic exchange of health information.\n• Established in **2004 by executive order**. It is a **permanent agency within HHS**.\n• The **first federal agency** empowered to coordinate and modernize HIT.\n• Advises the HHS Secretary, sets guidelines and requirements for HIT adoption, sets **certification criteria** for CEHRT, and coordinates nationwide HIE.\n• It is the resource for national interoperability standards (CYU 11.1).\n\n**ARRA** (American Recovery and Reinvestment Act, 2009): federal legislation passed to **stimulate the U.S. economy** during a recession and invest in the country's infrastructure.\n\n**HITECH Act**: the **part of ARRA** that invests specifically in healthcare and HIT. It dedicated **more than $19 billion** to developing HIT, workforce training, certifying EHR products, standards, and security and privacy regulations. HITECH led to Meaningful Use.\n• **Trap:** ARRA is the whole stimulus law. HITECH is the health IT part of it.\n\n**Interoperability roadmap**: grew out of the ONC's 2014 ten-year vision. The industry used it to set the direction for policy on **information blocking**, nationwide electronic HIE, **FHIR and APIs**, and the **USCDI** standard (CYU 11.1).\n\n**Information blocking** (p.262): knowingly and unreasonably interfering with the exchange or use of electronic health information. It is prohibited.\n\n**2019 rule:** CMS and the ONC required providers and insurers serving **Medicare** patients to make their data electronically accessible by 2020.\n\n**Why it all exists: value-based healthcare**, meaning better individual care, better community health, and lower cost.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">The Federal Players</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">ONC, ARRA, HITECH, roadmap</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">ONC</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Lead federal HIT</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">coordinator; created 2004;</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">part of HHS</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">ARRA (2009)</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Stimulus law to boost the</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">US economy and</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">infrastructure</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">HITECH</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Part of ARRA: over $19</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">billion invested in health</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">IT</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Roadmap</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Set policy on info</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">blocking, HIE, FHIR APIs,</text><text x=\"602\" y=\"804\" fill=\"#fff\" font-size=\"24\">USCDI</text></svg>",
+        "caption": "Federal agencies and laws in Chapter 11"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 11: Four Types of Interoperability",
+      "content": "Chapter 11 sorts interoperability into **four types**. This is a different list from the Chapter 9 HIMSS levels, and only **semantic** appears on both.\n\n• **Technical**: based on the **hardware and equipment connectivity** used in the exchange. It lets any computer or device exchange data with another without corrupting the data or creating errors. Clue: new hardware, computers, devices.\n• **Syntactic**: **message format standards** that identify how the data should be **formatted and structured** so seamless exchange can take place. Clue: \"formatted correctly,\" \"structure.\"\n• **Semantic** (p.260): **standardized terminologies, such as SNOMED CT**, that give exchanged data a **clear, consistent meaning**. Clue: terms, vocabulary, meaning.\n• **Process**: the **workflows and procedures** around the exchange. It is the **most difficult** type to achieve.\n\n**Inside one organization:** to achieve interoperability internally, a healthcare organization must make sure software across its departments communicates and exchanges information.\n\n**Compare the two lists:**\n• **HIMSS levels (Ch 9):** foundational, structural, semantic, organizational\n• **Types (Ch 11):** technical, syntactic, semantic, process\n\nYour guide's outline item \"technical and organizational interoperability\" pulls one word from each list: **technical** is a Chapter 11 type, and **organizational** is HIMSS Level 4 in Chapter 9 (governance, policy, legal, and organizational considerations).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Interoperability Types</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Chapter 11 list</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Technical</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Hardware and equipment</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">connectivity; no corrupted</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">data</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Syntactic</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Message format: how data</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">are formatted and</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">structured</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Semantic</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Standard terminology such</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">as SNOMED CT gives shared</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">meaning</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Process</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Workflows and procedures;</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">the most difficult type</text></svg>",
+        "caption": "Four types of interoperability"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 11: HIE Architecture, the RLS & Exchange Methods",
+      "content": "**Three architecture models:**\n• **Federated (decentralized)**: **no centralized database**. Each organization maintains its own patients' records and is responsible for **vetting** user access. It works much like the internet, is more common than the consolidated model, and may grow more common with cloud computing.\n• **Consolidated (centralized)**: one shared central database for the exchange. It also uses a master patient index or RLS.\n• **Hybrid**: **some data in a central repository**, the rest stays with the member organizations. It uses a **record locator service (RLS)** and has a **patient portal to the HIE itself**.\n\n**Record locator service (RLS)**: a master patient index that **detects where a patient's information lives** among the participating organizations, based on patient identity information and record data type. In the matching exercise, it is software that finds health information on a specific patient after a query is started.\n\n**Vetting**: critically appraising an organization or person against stated criteria before granting access.\n\n**Three exchange methods:**\n• **Directed exchange**: the provider-to-provider **\"push.\"** The **Direct Project** (overseen by DirectTrust) works like regular email but secure and **encrypted**, and messages can be opened only by another Direct address. It is used for lab results, summary care records, referrals, public health reporting, and quality measures.\n• **Query-based exchange**: a **\"find-and-seek\"** request sent through the HIO to find any available information on a patient. It is the **\"pull.\"** Example: an ED patient who can't remember his other doctors.\n• **Consumer-mediated exchange**: the **patient controls** the movement of their own information. It is encouraged through the **Blue Button** campaign.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">How HIE Is Built</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Models and exchange methods</text><rect x=\"50\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"308\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Federated</text><text x=\"90\" y=\"363\" fill=\"#fff\" font-size=\"24\">No central database; each</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">organization keeps and vets</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">its own</text><rect x=\"562\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"308\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Consolidated</text><text x=\"602\" y=\"363\" fill=\"#fff\" font-size=\"24\">One shared central database</text><text x=\"602\" y=\"399\" fill=\"#fff\" font-size=\"24\">for the exchange</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Hybrid</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">Some data central; uses an</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">RLS and its own patient</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">portal</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">RLS</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">Finds where a patient's</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">records live across</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">organizations</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Directed vs. query</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Directed is a secure push;</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">query-based is</text><text x=\"90\" y=\"927\" fill=\"#fff\" font-size=\"24\">find-and-seek pull</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Consumer-mediated</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">The patient controls the</text><text x=\"602\" y=\"891\" fill=\"#fff\" font-size=\"24\">flow; promoted by Blue</text><text x=\"602\" y=\"927\" fill=\"#fff\" font-size=\"24\">Button</text></svg>",
+        "caption": "HIE architecture and exchange methods"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 11: Identity Matching, Identity Management & Consent",
+      "content": "These three look-alikes are a favorite exam trap. Keep them apart:\n\n• **Identity matching** (also called **patient matching**): the process in which the **HIO identifies the right person** within the database so information can be exchanged between organizations. It links name, birth date, phone, and address. Clue: many people with the same name and birth date.\n• **Identity management**: ensures the person who has been identified **is who they say they are**, **has the authority** to do what they want to do, and that **their actions are tracked**.\n  - Example: requiring a photo ID and insurance card at registration.\n  - It provides security functions: deciding who may access information, authentication services, audit logging, encryption, and transmission controls.\n  - Traditionally it was done at patient registration, or in HIM when the paper record or master patient index was reconciled.\n• **Consent management**: has **nothing to do with consent for treatment**. It is the patient's consent or approval for the **HIO to transmit health information** between two or more authorized entities.\n\n**Meaningful consent** has three components (Figure 11.5):\n• **Patient education and engagement**: telling consumers their choices and what those choices mean\n• **Technology**\n• **Law and policy**\n\n**Consent options:**\n• **Opt-in**: the patient's information is **not** included in the HIE until the patient **specifically agrees**.\n• **Opt-out**: information is included **automatically** unless the patient chooses to be excluded. Opting out completely is allowed under HIPAA.\n• Variations of both exist.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Identity and Consent</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Three look-alikes</text><rect x=\"50\" y=\"363\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"413\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Identity matching</text><text x=\"90\" y=\"468\" fill=\"#fff\" font-size=\"24\">HIO finds the RIGHT patient</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">in the database</text><rect x=\"562\" y=\"363\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"413\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Identity management</text><text x=\"602\" y=\"468\" fill=\"#fff\" font-size=\"24\">Proves who they are, their</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">authority, and tracks</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">actions</text><rect x=\"50\" y=\"609\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"659\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Consent management</text><text x=\"90\" y=\"714\" fill=\"#fff\" font-size=\"24\">Patient approval for the</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">HIO to transmit data, not</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">treatment</text><rect x=\"562\" y=\"609\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"659\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Opt-in vs. opt-out</text><text x=\"602\" y=\"714\" fill=\"#fff\" font-size=\"24\">Opt-in: excluded until the</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">patient agrees. Opt-out:</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">included unless they</text><text x=\"602\" y=\"822\" fill=\"#fff\" font-size=\"24\">decline</text></svg>",
+        "caption": "Identity and consent terms compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 11: MU, CQMs, Public Health & Syndromic Surveillance",
+      "content": "**Meaningful Use (MU)**: the CMS regulation of **July 28, 2010** that set up an incentive program for eligible professionals, hospitals, and critical access hospitals that adopt and show meaningful use of CEHRT. It is now Promoting Interoperability, and **MIPS** (under **MACRA**) combined PQRS, the Value-Based Payment Modifier, and MU into one program that uses technology and data analytics.\n• **MU's three components:** HIT used in a meaningful way (e-prescribing, CPOE), exchange of health information to improve quality, and **submitting eCQMs**.\n\n**CQM / eCQM** (electronic clinical quality measures): criteria and tools that **measure or quantify healthcare processes, outcomes, patient perceptions**, and organizational structure and systems tied to the quality goals for healthcare (effective, safe, efficient, patient-centered, equitable, timely).\n• **Trap:** MU is the incentive **program**. The eCQMs are the **measures** reported under it.\n• Your guide writes \"CQM.\" The book's term is eCQM, the electronic version.\n\n**Population health reporting**: the aggregate data on **immunizations, communicable diseases**, and other health events and eCQMs that healthcare entities and public health agencies are required to report. It is a standard EHR function. Example: tracking MMR vaccinations to shrink measles outbreaks.\n\n**Public health in Chapter 11** (p.268): \"Population health, **or public health**, focuses on preventing, diagnosing, and treating an entire group of people rather than one person at a time.\" Chapter 11 treats the two terms as the same. Chapter 10 does not.\n\n**Syndromic surveillance** (p.268): syndromic surveillance data are health data used by **community and public health officials to plan, respond to, and evaluate a disease and its spread**. No book question covers it, so learn this definition.\n\n**Health disparities in Chapter 11:** coordination and planning for underserved populations, through data collection, reporting, analysis, and closing gaps in access, can decrease disparities.\n\n**Background:** the IOM (2000) estimated 98,000 deaths a year from a lack of quality in healthcare. That call to action led to HIT and HIE.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Measuring Quality</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">MU, eCQMs, public health</text><rect x=\"50\" y=\"363\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"413\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Meaningful Use</text><text x=\"90\" y=\"468\" fill=\"#fff\" font-size=\"24\">CMS incentive program</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">(2010) for using CEHRT; now</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">in MIPS</text><rect x=\"562\" y=\"363\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"413\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">eCQMs</text><text x=\"602\" y=\"468\" fill=\"#fff\" font-size=\"24\">Measures of processes,</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">outcomes, and patient</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">perceptions</text><rect x=\"50\" y=\"609\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"659\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Population reporting</text><text x=\"90\" y=\"714\" fill=\"#fff\" font-size=\"24\">Aggregate immunization and</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">communicable disease data</text><rect x=\"562\" y=\"609\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"659\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Syndromic surveillance</text><text x=\"602\" y=\"714\" fill=\"#fff\" font-size=\"24\">Data officials use to plan</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">for, respond to, and</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">evaluate a disease and its</text><text x=\"602\" y=\"822\" fill=\"#fff\" font-size=\"24\">spread</text></svg>",
+        "caption": "Quality measures and public health reporting"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Hospitals in a seven-county area of Montana agree to set up an information exchange for their area, following national standards, to share electronic health data. This is referred to as a(n):",
+      "options": [
+        {
+          "text": "RHIA",
+          "correct": false
+        },
+        {
+          "text": "Healthcare organization",
+          "correct": false
+        },
+        {
+          "text": "HIO",
+          "correct": true
+        },
+        {
+          "text": "NwHIN",
+          "correct": false
+        }
+      ],
+      "explanation": "**HIO, a health information organization** (CYU 11.2). An HIO is typically a public-private partnership that **oversees, governs, and facilitates** the transmission of health data between organizations with different EHR systems. HIOs may be local, regional, or state level. **NwHIN** is the tempting distractor, but it is the **nationwide** set of standards, specifications, and policies (now the eHealth Exchange), not a seven-county group. **RHIA** is an AHIMA credential, and a single healthcare organization does not govern exchange among many. HIE is the **process**; the HIO is the **organization** running it.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">HIO</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">The hospitals created an organization, not just a process.</text></svg>",
+        "caption": "Knowledge check: HIO"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "ABC Hospital's IT department wants new demographic data and medical terms added to the EHR to be formatted correctly, so nothing glitches when the data are sent to other organizations. Which type of interoperability describes how data should be formatted and structured for seamless exchange?",
+      "options": [
+        {
+          "text": "Technical",
+          "correct": false
+        },
+        {
+          "text": "Syntactic",
+          "correct": true
+        },
+        {
+          "text": "Semantic",
+          "correct": false
+        },
+        {
+          "text": "Process",
+          "correct": false
+        }
+      ],
+      "explanation": "**Syntactic** (Chapter 11 review). Syntactic interoperability uses **message format standards** that identify how the data should be **formatted or structured** to allow the exchange (p.260). **Semantic** is the tempting answer because the stem mentions medical terms, but semantic means standardized terminologies, such as **SNOMED CT**, that give data a consistent **meaning**. The stem's focus is **formatting**. **Technical** is about hardware and equipment connectivity, and **process** is about workflows and procedures.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Syntactic interoperability</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">The scenario is about format and structure, not meaning or</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">hardware.</text></svg>",
+        "caption": "Knowledge check: Syntactic interoperability"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Danielle, an urgent care intake clerk, must confirm with two forms of identification, a photo ID and proof of insurance, that the patient is who they say they are. Which process is Danielle performing?",
+      "options": [
+        {
+          "text": "Patient engagement",
+          "correct": false
+        },
+        {
+          "text": "Identity matching",
+          "correct": false
+        },
+        {
+          "text": "Identity management",
+          "correct": true
+        },
+        {
+          "text": "Opt-in consent",
+          "correct": false
+        }
+      ],
+      "explanation": "**Identity management** (CYU 11.4). The book says identity management ensures the identified person **is who they say they are**, **has the authority** to do what they want to do, and that their **actions are tracked**. Its example is requiring a driver's license or state ID and an insurance card at registration. **Identity matching** is the tempting look-alike. It is the process where the **HIO finds the right person** within its database to exchange records. **Opt-in consent** is a patient agreeing to be included in the HIE.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Identity management</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">She is confirming a person, not searching a database.</text></svg>",
+        "caption": "Knowledge check: Identity management"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "GaHIN, a public-private partnership, surveys its stakeholders and finds they want limited patient data stored in a central repository, plus a patient portal to the HIE. Which HIE architecture is this?",
+      "options": [
+        {
+          "text": "Direct",
+          "correct": false
+        },
+        {
+          "text": "Hybrid",
+          "correct": true
+        },
+        {
+          "text": "Centralized",
+          "correct": false
+        },
+        {
+          "text": "Decentralized",
+          "correct": false
+        }
+      ],
+      "explanation": "**Hybrid** (Chapter 11 review). The book's hybrid model uses a **record locator service (RLS)**, stores **some** data in a central repository while the rest stays with the member organizations, and has a **patient portal to the HIE itself** rather than to one organization (p.271). **Centralized** (consolidated) is tempting because of the central repository, but in that model **all** the exchange's data sit in one shared database. **Decentralized** (federated) has no central database at all. **Direct** is an exchange method, not an architecture.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Hybrid HIE model</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Some data stay central, and the exchange has its own portal.</text></svg>",
+        "caption": "Knowledge check: Hybrid HIE model"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Brown wants to measure what percentage of his patients got a flu shot after portal reminders. What are the criteria and tools providers report to show they are using the EHR to positively affect patient care?",
+      "options": [
+        {
+          "text": "CEHRT",
+          "correct": false
+        },
+        {
+          "text": "MU",
+          "correct": false
+        },
+        {
+          "text": "HIPAA",
+          "correct": false
+        },
+        {
+          "text": "eCQM",
+          "correct": true
+        }
+      ],
+      "explanation": "**eCQMs, electronic clinical quality measures** (CYU 11.3). eCQMs are criteria and tools that **measure or quantify** healthcare processes, outcomes, patient perceptions, and organizational structure tied to quality goals. A flu-shot percentage is a measure. **MU** is the most tempting distractor, but Meaningful Use is the incentive **program**. The eCQMs are the **measures** reported under it. **CEHRT** is the certified EHR technology itself, and **HIPAA** is the privacy and security law.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Exam 3</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">eCQMs</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Is the answer a program, a certification, a law, or a</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">measurement tool?</text></svg>",
+        "caption": "Knowledge check: eCQMs"
+      }
+    },
+    {
+      "type": "application",
+      "title": "Exam 3 Game Plan",
+      "content": "**Before the exam:**\n1. **Study by term, not by chapter.** Your instructor's guide files CPOE, alerts, BC-MAR, EMR vs. EHR, and signatures under Chapter 8; HIE, HIO, identity, HITECH, and the ONC under Chapter 9; and telesurgery and RPM under Chapter 10. Know each term no matter which chapter label the question carries.\n2. **Memorize the book-specific traps:** telehealth is broader, reminder vs. alert, PHR vs. portal, health literacy is not just reading level, digitized vs. digital signature, and identity matching vs. management.\n3. **Work the compare sets:** RIS/PACS/LIS/NIS/PIS; EMR vs. EHR; structured vs. unstructured; the HIMSS levels vs. the Chapter 11 types of interoperability; federated, consolidated, and hybrid; directed, query-based, and consumer-mediated; opt-in vs. opt-out; ARRA vs. HITECH; MU vs. eCQM.\n4. **Know the confirmed course-key answers:** quality improvement is not a CIS; scan ED records first; DMS ROI is 5 to 10 years; barcodes speed indexing; health information literature is part of consumer informatics; consumer health apps serve patients and providers.\n5. **Know the conflicts:** CYU 8.2 #5 is keyed CIS (text supports LIS); population vs. public health differs between Chapters 10 and 11; MIPS weights differ between the book and her slide.\n6. **Do the Check Your Understanding and Review questions**, then the CoachMe practice in VitalSource, and retake this lesson's quizzes.\n\n**During the exam:** read for clue words. *Images* means PACS. *Robotics* means telesurgery. *Age and gender screening* means reminder. *Encrypted* means digital signature. *Patient adds it* means PHR. *Organization controls it* means portal. *Find-and-seek* means query-based. *Format and structure* means syntactic. *Meaning or SNOMED CT* means semantic. *Photo ID at registration* means identity management.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 3 Clue Words</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Read the scenario, find the term</text><rect x=\"50\" y=\"330\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"380\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Images, mammogram</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">PACS</text><rect x=\"562\" y=\"330\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"380\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Screening by age/gender</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">Reminder (an allergy is an</text><text x=\"602\" y=\"471\" fill=\"#fff\" font-size=\"24\">alert)</text><rect x=\"50\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Patient adds supplements</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">PHR (scheduling is the</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">portal)</text><rect x=\"562\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"590\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Find-and-seek</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">Query-based exchange (a</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">pull)</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"150\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Format and structure</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Syntactic interoperability</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"150\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Photo ID at check-in</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">Identity management</text></svg>",
+        "caption": "Exam 3 clue words"
+      }
+    }
+  ]
+},
+{
+  "id": "hitt-1211-final",
+  "title": "Final Exam Study Guide: Chapters 12–13",
+  "duration": 40,
+  "completed": false,
+  "cards": [
+    {
+      "type": "intro",
+      "title": "Final Exam: Chapters 12–13",
+      "content": "This is your **HITT 1211 Final Exam study guide**, built from your instructor's Final Exam study guide and checked against the textbook glossary and the book's own questions: Check Your Understanding answers (**Appendix B**), Chapter Review questions, and CoachMe items from *Introduction to Information Systems for Health Information Technology*, 4th ed. (**Sayles & Barefield**, AHIMA). There are **no instructor course quizzes** for Chapters 12–13, so every quiz here comes from the book's questions.\n\n**The final is 60 questions and covers two chapters:**\n• **Chapter 12** — Security: HIPAA and administrative simplification, covered entities and business associates, e-PHI and security, safeguards, security threats, and the CHPS / CISM / CISSP credentials\n• **Chapter 13** — Security Compliance and Monitoring: compliance and monitoring, auditing concepts, audit tools, and forensic review\n\n**Instructor note:** her guide is the complete list (61 items), and the concept cards below follow her grouping. A few items come from earlier chapters (**dashboard**, **firewalls**, **BYOD**), and they are covered here too.\n\n**Heads up:** Appendix B disagrees with the chapter text on several Chapter 12–13 questions (OIG vs. OCR, spoliation, denial of service, the first forensic step). The **Answer-Key Conflicts** card gives you both versions and tells you which one to give.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Final: Chapters 12–13</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">60 questions · 61 study guide items</text><rect x=\"50\" y=\"399\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"449\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Chapter 12</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">Security: HIPAA, CEs and</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">BAs, e-PHI, safeguards,</text><text x=\"90\" y=\"576\" fill=\"#fff\" font-size=\"24\">threats, credentials</text><rect x=\"562\" y=\"399\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"449\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Chapter 13</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">Compliance and monitoring:</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">auditing, audit tools,</text><text x=\"602\" y=\"576\" fill=\"#fff\" font-size=\"24\">forensic review</text><rect x=\"50\" y=\"645\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"695\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Watch the answer key</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">Appendix B conflicts with the chapter text on OIG vs. OCR,</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">spoliation, denial of service, and the first forensic step.</text></svg>",
+        "caption": "The final exam covers Chapters 12 and 13"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Book-Specific Definitions to Memorize",
+      "content": "These are worded in a specific way in the book (or are easy to guess wrong), so learn the **book's** version:\n\n• **Security Rule** — defines the **minimum** a CE must do to protect ePHI, and applies **only to electronic** PHI. Paper, oral, and microfilm PHI fall outside it, and a **fax is not ePHI**.\n• **HIPAA patient right** — to **access** (inspect, copy, receive a copy of) the health record. Amendment is only a right to **request** one, so \"amend their record\" is the wrong answer.\n• **Addressable is not optional** — the CE evaluates whether the standard is reasonable and appropriate; if it is not adopted, the CE documents why and implements an equivalent. **Encryption is addressable.**\n• **Security incident** — the **attempted** or successful unauthorized access, use, disclosure, modification, or destruction of information. The attempt does not have to succeed. A **security event** is poor practice without harm.\n• **Emergency mode operation plan** — HIPAA's name for the **contingency plan**.\n• **Medical device** — the book's term for what the guide calls a biomedical device.\n• **Fieldwork** — the process of completing the audit: **data collection and data analysis**.\n• **Threshold** — the desired level of performance for a metric; the **goal to meet or exceed**.\n• **Benchmarking** — compare with **similar** organizations (a 900-bed teaching hospital compares itself to another large teaching hospital, not a physician practice).\n• **Retention** — policies, procedures, and training documentation are kept **six years** from the date last in effect (amended in 2024 = keep until 2030).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Book Wording Traps</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Learn the book's version</text><rect x=\"50\" y=\"240\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"290\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Security Rule</text><text x=\"90\" y=\"345\" fill=\"#fff\" font-size=\"24\">The MINIMUM to protect</text><text x=\"90\" y=\"381\" fill=\"#fff\" font-size=\"24\">ePHI. Electronic only: a</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">fax is not ePHI.</text><rect x=\"562\" y=\"240\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"290\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Patient right</text><text x=\"602\" y=\"345\" fill=\"#fff\" font-size=\"24\">ACCESS the record.</text><text x=\"602\" y=\"381\" fill=\"#fff\" font-size=\"24\">Amendment is only a right</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">to REQUEST one.</text><rect x=\"50\" y=\"486\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"536\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Addressable</text><text x=\"90\" y=\"591\" fill=\"#fff\" font-size=\"24\">Not optional: assess,</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">document why, use an</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">equivalent. Encryption is</text><text x=\"90\" y=\"699\" fill=\"#fff\" font-size=\"24\">addressable.</text><rect x=\"562\" y=\"486\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"536\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Security incident</text><text x=\"602\" y=\"591\" fill=\"#fff\" font-size=\"24\">An ATTEMPT counts. Poor</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">practice without harm is</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">only an event.</text><rect x=\"50\" y=\"768\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"818\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Threshold</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">The desired performance</text><text x=\"90\" y=\"909\" fill=\"#fff\" font-size=\"24\">level for a metric: the</text><text x=\"90\" y=\"945\" fill=\"#fff\" font-size=\"24\">goal to meet or exceed.</text><rect x=\"562\" y=\"768\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"818\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Six years</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">Keep policies, procedures,</text><text x=\"602\" y=\"909\" fill=\"#fff\" font-size=\"24\">and training records six</text><text x=\"602\" y=\"945\" fill=\"#fff\" font-size=\"24\">years from last in effect.</text></svg>",
+        "caption": "Six book-specific definitions for the final"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Answer-Key Conflicts to Know",
+      "content": "Appendix B (the book's answer key) disagrees with the chapter text on these questions. There is no instructor course quiz for Chapters 12–13, so **give the Appendix B answer on the exam**, but know the chapter's version in case she words a question from the text.\n\n• **Oversight of the Security Rule (CYU 13.2 #1)** — Appendix B: **Office of the Inspector General (OIG)**. Chapter text (pp. 315, 330): the **Office for Civil Rights (OCR)** is in charge of oversight; the OIG is described as responsible for enforcement and publishes the compliance tips.\n• **Resolution agreement (CYU 13.2)** — the answer is resolution agreement either way, but the key's explanation says OIG and CE; the chapter says it is between the **OCR** and a CE or BA.\n• **Protecting data needed in court (CYU 12.2 #3)** — Appendix B: **spoliation**. Chapter definition: spoliation is information inappropriately **destroyed or hidden** when it is needed during discovery, which is the thing you are preventing. Protecting the data is a forensics step.\n• **Malicious software that denies an information system (CYU 12.4 #2)** — Appendix B: **denial of service**. Chapter: **ransomware** is the malicious software that prohibits access to information systems; a distributed denial of service is an attack a worm may launch.\n• **First step of a forensic review (CYU 13.2)** — Appendix B: **copy the hard drive**. Chapter text (p. 340): **isolate** the storage media first, then copy the drive.\n• **Consultant reviews the security program (CYU 13.1)** — Appendix B: **system audit**. Who does it is **external** (the option \"outside audit\" is not the book's term); what kind of audit it is, is **system**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Appendix B vs. Chapter</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Give the key's answer; know the text</text><rect x=\"50\" y=\"363\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"413\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Rule oversight</text><text x=\"90\" y=\"468\" fill=\"#fff\" font-size=\"24\">Key: OIG. Text: OCR has</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">oversight; OIG enforces and</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">publishes compliance tips.</text><rect x=\"562\" y=\"363\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"413\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Protecting court data</text><text x=\"602\" y=\"468\" fill=\"#fff\" font-size=\"24\">Key: spoliation. Text:</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">spoliation is the</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">destruction; protecting is</text><text x=\"602\" y=\"576\" fill=\"#fff\" font-size=\"24\">forensics.</text><rect x=\"50\" y=\"645\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"695\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Software that denies</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">Key: denial of service.</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">Text: ransomware prohibits</text><text x=\"90\" y=\"822\" fill=\"#fff\" font-size=\"24\">access to systems.</text><rect x=\"562\" y=\"645\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"695\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">First forensic step</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">Key: copy the hard drive.</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">Text: isolate the media</text><text x=\"602\" y=\"822\" fill=\"#fff\" font-size=\"24\">first, then copy.</text></svg>",
+        "caption": "Four answer-key conflicts in Chapters 12–13"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: HIPAA & Administrative Simplification",
+      "content": "**HIPAA 1996** — the Health Insurance Portability and Accountability Act of 1996. **Title II (Fraud and Abuse / Administrative Simplification)** is the part this chapter builds on. My sources describe HIPAA through Title II, so **I could not confirm the book's exact wording** for an overall definition of HIPAA 1996.\n\n**Administrative simplification** — exists to **improve the efficiency and effectiveness of healthcare business processes**, such as claims submission, by standardizing **electronic data interchange (EDI)**: the transfer of data from one point to another without human intervention.\n\n**Transaction and Code Sets Rule**\n• **Code set** — a set of codes used to encode data elements. HIPAA-mandated code sets: **ICD-10-CM, ICD-10-PCS, CPT-4, HCPCS, CDT-2, and NDC**.\n• **DSMOs** — the **six** organizations HHS assigned to develop and maintain the Transaction and Code Sets standards: **ASC X12**, the **Dental Content Committee of the ADA**, **HL7**, **NCPDP**, **NUBC**, and **NUCC**.\n\n**Patient right** — HIPAA gives patients the right to **access** their health record (inspect, copy, receive a copy). Amendment is only a right to request one.\n\n**Information blocking** (21st Century Cures Act, 2016) — anything that interferes with the sharing of electronic health information. Those subject to it are called **actors** (healthcare professionals, health IT vendors, HIE organizations, and health information networks), and there are eight exceptions. The book's example: an EHR that cannot print the health record.\n\n**Retention** — policies and procedures must be kept **six years** from the date last in effect.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Admin Simplification</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HIPAA 1996, Title II</text><rect x=\"50\" y=\"363\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"413\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Purpose</text><text x=\"90\" y=\"468\" fill=\"#fff\" font-size=\"24\">Improve efficiency and</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">effectiveness of business</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">processes such as claims</text><text x=\"90\" y=\"576\" fill=\"#fff\" font-size=\"24\">submission</text><rect x=\"562\" y=\"363\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"413\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">EDI</text><text x=\"602\" y=\"468\" fill=\"#fff\" font-size=\"24\">Transfer of data from one</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">point to another without</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">human intervention</text><rect x=\"50\" y=\"645\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"695\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Code sets</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">ICD-10-CM, ICD-10-PCS,</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">CPT-4, HCPCS, CDT-2, NDC</text><rect x=\"562\" y=\"645\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"695\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Six DSMOs</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">ASC X12, ADA Dental Content</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">Committee, HL7, NCPDP,</text><text x=\"602\" y=\"822\" fill=\"#fff\" font-size=\"24\">NUBC, NUCC</text></svg>",
+        "caption": "What Title II standardizes"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: Covered Entities & Business Associates",
+      "content": "**Covered entity (CE)** — an organization subject to HIPAA. There are **three** kinds:\n• **Health plan** — pays for the healthcare provided to the individuals covered under the plan (medical, dental, vision).\n• **Healthcare clearinghouse** — processes billing data.\n• **Healthcare provider** — one that transmits health information **electronically** for a covered transaction.\n\n**Business associate (BA)** — an **outside** entity handling PHI on the CE's behalf. **Examples:** contract coders, transcription services, and billing services. BAs need a business associate agreement and are **liable under the Privacy and Security Rules just like a CE**.\n\n**Business associate agreement (BAA)** — the agreement between the CE and the business associate assuring the BA will **protect the ePHI** and **notify the CE of any breach**. It should let the CE **terminate the contract** if the BA fails to do so. The required elements are listed in the book's Table 12.3.\n\n**Scalable** — the concept that lets CEs consider their **size, complexity, and capabilities** when developing their compliance strategy. A solo practitioner and a 500-bed hospital must both comply, but not with identical solutions.\n\n**Exam tip:** the word **outside** is your clue for a business associate: a separate company doing work for the CE that involves its PHI.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Who Must Comply?</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Covered entities and business associates</text><rect x=\"50\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"308\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Health plan</text><text x=\"90\" y=\"363\" fill=\"#fff\" font-size=\"24\">Pays for the care of</text><text x=\"90\" y=\"399\" fill=\"#fff\" font-size=\"24\">individuals covered under</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">the plan</text><rect x=\"562\" y=\"258\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"308\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Clearinghouse</text><text x=\"602\" y=\"363\" fill=\"#fff\" font-size=\"24\">Processes billing data</text><rect x=\"50\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"554\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Healthcare provider</text><text x=\"90\" y=\"609\" fill=\"#fff\" font-size=\"24\">Transmits health</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">information electronically</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">for a covered transaction</text><rect x=\"562\" y=\"504\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"554\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Business associate</text><text x=\"602\" y=\"609\" fill=\"#fff\" font-size=\"24\">Outside entity handling PHI</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">for a CE: contract coders,</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">transcription, billing</text><rect x=\"50\" y=\"750\" width=\"1000\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Business associate agreement (BAA)</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">The BA promises to protect the ePHI and notify the CE of any</text><text x=\"90\" y=\"891\" fill=\"#fff\" font-size=\"24\">breach; it lets the CE terminate the contract if the BA</text><text x=\"90\" y=\"927\" fill=\"#fff\" font-size=\"24\">fails.</text></svg>",
+        "caption": "Three covered entities plus their business associates"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: e-PHI & the Security Rule",
+      "content": "**PHI** — individually identifiable health information transmitted or maintained in any form or format by an organization subject to HIPAA.\n**Electronic protected health information (e-PHI)** — PHI in electronic form.\n\n**Security Rule** — defines the **minimum** a CE must do to protect ePHI. It applies **only to ePHI**; PHI in other media (paper, oral communication, microfilm) falls under the Privacy Rule instead. Voicemail, fax, and copy machines (unless the copy machine stores data) are **not** ePHI.\n\n**Three states of data**\n• **Data at rest** — stored on electronic media such as a hard drive.\n• **Data in motion** — moving from point A to point B.\n• **Data in use** — being accessed for review, updates, or other purposes.\n\n**Required vs. addressable standards**\n• **Required** — must be implemented by all CEs.\n• **Addressable** — the CE evaluates whether the standard is reasonable and appropriate. If it is not adopted, the CE must **document why** and implement an **equivalent** measure. Addressable does **not** mean optional. **Encryption is addressable.**\n\n**Integrity** — ensuring that data are not altered, either during transmission across a network or during storage, by an unauthorized individual. It is the security principle that protects data from inappropriate modification or corruption.\n\nThe rule is organized into **three safeguard families**: **administrative**, **physical**, and **technical** (next cards).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Three States of Data</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">All three must be protected</text><rect x=\"50\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"467\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">At rest</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">Stored on electronic media</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">such as a hard drive</text><rect x=\"562\" y=\"417\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"467\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">In motion</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Moving from point A to</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">point B</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">In use</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Being accessed for review,</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">updates, or other purposes</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Not ePHI</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Paper, oral, microfilm,</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">voicemail, fax</text></svg>",
+        "caption": "Data at rest, in motion, and in use"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: Administrative Safeguards",
+      "content": "**Administrative safeguards** — the **people-focused** standards: policies, training, workforce clearance, activity review, and the assignment of an individual responsible for security. (The guide says administrative standards; the book's Table 12.1 lists them as administrative safeguard standards.)\n\n**Key administrative standards**\n• **Risk analysis** — identifies threats and vulnerabilities and estimates the potential costs of security breaches versus the cost of safeguards to prevent them.\n• **Information system activity review** — CEs are **required** to conduct it; it monitors for the inappropriate use or disclosure of ePHI.\n• **Information access management** — establishing the process (the policies) for **determining what employees will have access to**.\n• **Workforce clearance procedure** — then ensures each member's level of access is appropriate.\n• **Termination process** — eliminates access when employment ends through resignation or firing. If the last shift ends at 5:00 p.m., access is cancelled at or before 5:00 p.m. Access is also reviewed when a person's role changes.\n• **Security awareness and training** — ongoing, and provided whenever policies, procedures, or security areas change; many workforce members need extra training for their job functions.\n• **Penalties** — HIPAA does not require specific employee penalties; the CE decides how breaches and other violations are handled.\n\n**Exam tip:** emergency access procedure, access controls, and audit controls are **technical** safeguards, not administrative.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Administrative Safeguards</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">People-focused standards</text><rect x=\"50\" y=\"240\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"290\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Access management</text><text x=\"90\" y=\"345\" fill=\"#fff\" font-size=\"24\">Information access</text><text x=\"90\" y=\"381\" fill=\"#fff\" font-size=\"24\">management: decide what</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">employees will have access</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">to</text><rect x=\"562\" y=\"240\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"290\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Workforce clearance</text><text x=\"602\" y=\"345\" fill=\"#fff\" font-size=\"24\">Ensures each member's level</text><text x=\"602\" y=\"381\" fill=\"#fff\" font-size=\"24\">of access is appropriate</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Termination process</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Ends access when employment</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">ends, by the last shift</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Activity review</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Required: monitors for</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">inappropriate use or</text><text x=\"602\" y=\"699\" fill=\"#fff\" font-size=\"24\">disclosure of ePHI</text><rect x=\"50\" y=\"768\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"818\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Training</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">Security awareness and</text><text x=\"90\" y=\"909\" fill=\"#fff\" font-size=\"24\">training, ongoing</text><rect x=\"562\" y=\"768\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"818\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Not administrative</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">Access controls, audit</text><text x=\"602\" y=\"909\" fill=\"#fff\" font-size=\"24\">controls, emergency access</text><text x=\"602\" y=\"945\" fill=\"#fff\" font-size=\"24\">are technical</text></svg>",
+        "caption": "Administrative safeguard standards"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: Physical Safeguards & Devices",
+      "content": "**Physical safeguards** — physical measures protecting systems, buildings, and equipment: facility access controls, workstation security, and media disposal. HIPAA mandates that physical access to electronic information systems is limited to authorized staff.\n\n• **Facility access controls** — data center access by **card keys** (a plastic card with a magnetic strip), access codes, or other methods. Visitors such as vendors and technicians sign in and are escorted; being on the workforce does not automatically authorize someone to be in the data center.\n• **Media disposal** — deleting ePHI does **not** make it inaccessible, because utilities can undelete files. **Degaussing** applies a magnetic field to the media to render the data useless. It is **not reversible** and does **not work on solid state drives**.\n• **Physical breach** — someone gains access to the hardware so the data can be stolen, such as stealing a computer with PHI on it.\n\n**Medical device** (the guide says biomedical device) — an instrument, apparatus, machine, or implant used for a medical purpose, such as **pacemakers and fetal monitors**. They are part of the **Internet of Medical Things (IoMT)** and are a security risk because they often **lack antivirus software and encryption**.\n\n**Bring your own device (BYOD)** — providers using their **personal** tablet or phone to access ePHI. If allowed, there must be policies and procedures such as **encryption** and **remote wipe** (which deletes data from a lost or stolen mobile device). Staff using mobile devices are trained on physical security, logging off, and related responsibilities. (The BYOD questions are in **Chapter 11**.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Physical Safeguards</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Protecting systems, buildings, equipment</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Card key</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Plastic card with a</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">magnetic strip that opens</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">restricted areas</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Degaussing</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Magnetic field makes media</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">data useless; not</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">reversible; fails on SSDs</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Medical device</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Pacemakers, fetal monitors:</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">IoMT; often no antivirus or</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">encryption</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">BYOD</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Personal phone or tablet</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">for ePHI: needs encryption</text><text x=\"602\" y=\"804\" fill=\"#fff\" font-size=\"24\">and remote wipe</text></svg>",
+        "caption": "Physical safeguards and device risks"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A clinic faxes a patient's lab results to a specialist. According to the textbook, which statement about the fax is true?",
+      "options": [
+        {
+          "text": "A fax is considered to be ePHI",
+          "correct": false
+        },
+        {
+          "text": "A fax is not ePHI",
+          "correct": true
+        },
+        {
+          "text": "Faxing is prohibited by HIPAA",
+          "correct": false
+        },
+        {
+          "text": "The use of a fax machine is mandated by HIPAA",
+          "correct": false
+        }
+      ],
+      "explanation": "**A fax is not ePHI.** The Security Rule applies **only to electronic** PHI. It does not apply to PHI in other media such as paper, oral communication, and microfilm, and the book specifically says voicemail, fax, and copy machines (unless the copy machine stores data) are not considered ePHI. The tempting wrong answer is \"a fax is ePHI\" because it travels electronically over a line, but the book places it outside the Security Rule. HIPAA neither prohibits nor mandates faxing.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">ePHI and the Security Rule</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Recall which media the Security Rule covers and which it</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">leaves out.</text></svg>",
+        "caption": "Knowledge check: ePHI"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "One of the purposes of HIPAA Title II: Fraud and Abuse / Administrative Simplification is to ___.",
+      "options": [
+        {
+          "text": "Prevent security incidents from ever occurring in a healthcare organization",
+          "correct": false
+        },
+        {
+          "text": "Create socialized medicine in the US",
+          "correct": false
+        },
+        {
+          "text": "Improve efficiency and effectiveness of healthcare business processes",
+          "correct": true
+        },
+        {
+          "text": "Establish a prospective payment system",
+          "correct": false
+        }
+      ],
+      "explanation": "**Improve efficiency and effectiveness of healthcare business processes.** Administrative simplification standardizes electronic data interchange so business processes such as **claims submission** run more efficiently. \"Prevent security incidents from ever occurring\" is tempting, but no rule can promise that; the Security Rule defines only the **minimum** a CE must do to protect ePHI. HIPAA did not create socialized medicine, and it did not establish a prospective payment system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Administrative simplification</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Think about what standardizing EDI does for claims and other</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">business processes.</text></svg>",
+        "caption": "Knowledge check: Administrative simplification"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Smith is a solo practitioner. Hospital X is a 500-bed hospital. The concept that allows each of them to consider their size and resources when complying with the Security Rule is known as ___.",
+      "options": [
+        {
+          "text": "Technology neutral",
+          "correct": false
+        },
+        {
+          "text": "Scalable",
+          "correct": true
+        },
+        {
+          "text": "Business associate",
+          "correct": false
+        },
+        {
+          "text": "Covered entity",
+          "correct": false
+        }
+      ],
+      "explanation": "**Scalable.** The Security Rule lets CEs consider their **size, complexity, and capabilities** when developing their compliance strategy, so a solo practice and a large hospital can meet the same standards in different ways. \"Technology neutral\" is the tempting distractor because it also sounds flexible, but scalable is the book's answer for size and resources. Dr. Smith and Hospital X are both covered entities, but that term names who must comply, not how they adjust for size.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Size and resources</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">One rule, very different organizations: what lets each fit</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">the rule to itself?</text></svg>",
+        "caption": "Knowledge check: Scalability"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is an example of an administrative safeguard?",
+      "options": [
+        {
+          "text": "Emergency access procedure",
+          "correct": false
+        },
+        {
+          "text": "Access controls",
+          "correct": false
+        },
+        {
+          "text": "Security awareness and training",
+          "correct": true
+        },
+        {
+          "text": "Audit controls",
+          "correct": false
+        }
+      ],
+      "explanation": "**Security awareness and training.** Administrative safeguards are the **people-focused** standards: policies, training, workforce clearance, information system activity review, and assigning someone responsible for security. The book's Table 12.1 lists security awareness and training as an administrative standard. The other three options are all **technical** safeguards. Emergency access procedure is the most tempting because it sounds like a policy, but it is the technical \"break the glass\" access that must be recorded and audited.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Safeguard families</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Administrative safeguards are people-focused. Which option</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">is about people rather than technology?</text></svg>",
+        "caption": "Knowledge check: Safeguard families"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: Access Controls & Authentication",
+      "content": "**Access controls** — a computer software program designed to **prevent unauthorized use** of an information resource. CEs must define in their policies who can **view, create, and modify** data in a system containing ePHI, then use access controls to grant or limit those rights.\n\n**Three kinds of authentication**\n• **User-based** — functions and data are based on the **individual** user's needs, not the job title (each coder has their own access).\n• **Role-based** — functions and data are based on the user's **role**.\n• **Context-based** — limits access by identity and role **and by the location and time** of access. Book example: a quality-management nurse who picks up nursing-unit shifts gets different functionality depending on how she logs in.\n\n**Factors**\n• **One-factor** — one level of access control, such as a username and password.\n• **Two-factor** — two of: something you **know**, something you **have**, something you **are**. Password + biometrics = two-factor.\n• **Token** — a physical device given to an authorized user to aid authentication. Smart cards and telephone callback are other methods.\n• **Biometric identifiers** — based on a physical characteristic (fingerprints, retina scans), so something you **are**; used to access secure areas such as the data center or an information system.\n\n**CAPTCHA** — used along with usernames and passwords to **prevent computerized attempts to break into a system**: pick out images, check a box, or type a word shown in wavy fonts. It also protects against **bots**.\n**Single sign-on** — log in once and move between applications; helps users who cannot remember many passwords.\n**Emergency access procedure** — \"break the glass\" access during an emergency; it must record **who** used it and **why**, and it is audited.\n\nNever use social security numbers for user identification (identity theft).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Who Gets In?</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Authentication types and factors</text><rect x=\"50\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"362\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">User-based</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">Access fits the individual</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">user, not the job title</text><rect x=\"562\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"362\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Role-based</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">Access fits the user's role</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Context-based</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Identity and role PLUS the</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">location and time of access</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Two-factor</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Two of: something you know,</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">have, or are</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">CAPTCHA</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Blocks computerized</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">break-in attempts and bots</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Break the glass</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">Emergency access: records</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">who and why; audited</text></svg>",
+        "caption": "Access control and authentication"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: Audit Controls & Audit Trails",
+      "content": "**Technical safeguards** — \"the technology and the policy and procedures for its use that protect electronic protected health information and control access to it.\" The four: **access control, audit controls, integrity, and transmission security**.\n\n**Audit controls** — the technical safeguard that records and examines activity in information systems containing ePHI, so inappropriate access and use can be found and investigated. **I could not confirm the book's exact wording** for this term; my sources describe audit controls through the audit trail and its tools.\n\n**Audit trail** — a log of **who did what and when**.\n• It records **all** system activity: system-level, application-level, and user-level, not only actions outside the norm.\n• It must be protected from alteration and deletion, for example by **storing it on a different computer**, and only a small number of users should have access.\n\n**Trigger** — identifies an entry in the audit trail that **needs to be investigated**. Book example: a user looks up another patient with the **same last name**. The security audit process should include triggers that flag the need for a closer inspection.\n\n**Audit-reduction tools** — review the audit trail and compare it to **facility-specific criteria**, then **eliminate routine entries** such as periodic backups (routine maintenance events). They can also spot trends and behavior outside the norm.\n\n**Exam tip:** the audit trail captures everything; triggers flag what to investigate; audit-reduction tools filter out the routine.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Reading the Audit Trail</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Technical safeguard: audit controls</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Audit trail</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Log of who did what and</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">when; records ALL system</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">activity</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Trigger</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Flags an entry to</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">investigate, e.g., a</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">same-last-name lookup</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Audit-reduction tool</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Removes routine entries</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">such as backups, using</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">facility criteria</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Protect the logs</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Store on a different</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">computer; few users have</text><text x=\"602\" y=\"804\" fill=\"#fff\" font-size=\"24\">access</text></svg>",
+        "caption": "Audit trail, triggers, and audit-reduction tools"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: Encryption & Network Security",
+      "content": "**Encryption** — encoding data; it protects data **at rest, in motion, and in use**. Encryption is an **addressable** standard.\n• **Symmetric** — one secret key: the sending computer scrambles the message and the receiving computer uses the **same** key to revert it.\n• **Asymmetric** (public key infrastructure) — **two keys**: a private key to convert the data and a public key to read it.\n\n**Network security** — uses technology to protect the data transmitted across the network, including firewalls and encryption. HIPAA mandates it.\n• **Firewall** — a computer system or combination of systems that provides a security barrier or supports an access control policy between two networks, or between a network and any other traffic outside it: the gatekeeper between a public and a private network (packet filtering). Chapter 1 defined a firewall as what controls data entering and leaving the network.\n• **Intrusion detection system (IDS)** — monitors and **notifies** staff of an intrusion. It does not stop it.\n• **Intrusion prevention system (IPS)** — monitors networks for possible malware threats, notifies, **and takes steps to stop** the threat.\n• **Data loss prevention (DLP)** — tools preventing data from leaving the organization improperly. When a breach of policy is identified, the software notifies the organization and acts to prevent the unauthorized sharing.\n• **Virtual private network (VPN)** — an encrypted tunnel through the internet, so two facilities can share ePHI securely over a public network.\n• **Penetration testing** — a cybersecurity professional tries to locate and take advantage of vulnerabilities so they can be fixed before a hacker uses them.\n• **Redundancy** — duplication of data, hardware, cables, or other hardware components of the information system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Network Defenses</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Protecting data across the network</text><rect x=\"50\" y=\"276\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"326\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Firewall</text><text x=\"90\" y=\"381\" fill=\"#fff\" font-size=\"24\">Gatekeeper between a public</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">and a private network</text><rect x=\"562\" y=\"276\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"326\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">IDS vs. IPS</text><text x=\"602\" y=\"381\" fill=\"#fff\" font-size=\"24\">IDS only notifies; IPS</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">notifies and acts to stop</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">the threat</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">DLP</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Stops data leaving</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">improperly: at rest, in</text><text x=\"90\" y=\"699\" fill=\"#fff\" font-size=\"24\">motion, in use</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">VPN</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Encrypted tunnel through</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">the internet</text><rect x=\"50\" y=\"768\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"818\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Encryption</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">Symmetric: one shared key.</text><text x=\"90\" y=\"909\" fill=\"#fff\" font-size=\"24\">Asymmetric: two keys.</text><rect x=\"562\" y=\"768\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"818\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Penetration testing</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">An expert tries to break in</text><text x=\"602\" y=\"909\" fill=\"#fff\" font-size=\"24\">before a hacker does</text></svg>",
+        "caption": "Network security tools compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: Security Threats & Malware",
+      "content": "**Malicious software (malware)** — software designed to damage an information system or gain unauthorized access to it. **I could not confirm the book's exact one-line definition**; the book teaches malware through its types. **HIPAA mandates** that CEs take steps to protect data and systems from malware, and once malware gets into one HIM computer it can spread to most, if not all, of the department.\n\n• **Virus** — needs a host.\n• **Worm** — self-propagates across networks without a host; can launch a distributed denial of service.\n• **Trojan** — masquerades as legitimate software.\n• **Spyware** — captures keystrokes and passwords, monitors websites visited, and reports them to someone else.\n• **Ransomware** — prohibits access to your own information systems; about **75 percent** is triggered by phishing.\n• **Bots** — perform **automated tasks**, such as gathering information and instant messaging, relieving a person of doing it. CAPTCHA protects against them.\n• **Denial of service (DoS)** — so many transactions hit the website or system that it **crashes**.\n\n**Other threats:** insider misuse, and **external threats** such as floods, tornadoes, and hurricanes that can destroy or disable the information system.\n\n**Security event vs. security incident**\n• **Event** — poor practice without harm: a monitor facing the public, a written-down password, a logged-in computer in a private office.\n• **Incident** — \"the attempted or successful unauthorized access, use, disclosure, modification, or destruction of information or interference with system operations in an information system.\" A hacker's failed **attempt** still counts.\n\n**Blockchain** — data shared across a network in a distributed ledger; **blocks** contain data made up of one or more transactions. Benefits: immediacy, security, traceability, and immutability.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Malware Lineup</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Know each threat by its behavior</text><rect x=\"50\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"362\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Virus vs. worm</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">A virus needs a host; a</text><text x=\"90\" y=\"453\" fill=\"#fff\" font-size=\"24\">worm spreads by itself</text><rect x=\"562\" y=\"312\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"362\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Trojan</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">Pretends to be legitimate</text><text x=\"602\" y=\"453\" fill=\"#fff\" font-size=\"24\">software</text><rect x=\"50\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Spyware</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Captures keystrokes and</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">passwords</text><rect x=\"562\" y=\"522\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"572\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Ransomware</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">Prohibits access to your</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">own systems</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Bots</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Perform automated tasks;</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">CAPTCHA blocks them</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Denial of service</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">So many transactions that</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">the system crashes</text></svg>",
+        "caption": "Malware and other threats compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: Social Engineering",
+      "content": "**Social engineering** — tricking **people** instead of machines into giving up information or access. The book lists **10 types**, including phishing, vishing, baiting, pretexting, and quid pro quo. These are the ones its questions test:\n\n• **Baiting** — the offender **dangles a lure**: a free music or video download, a too-good price, or a **thumb drive left in a public place**, hoping the victim takes it and gets infected with malware.\n• **Vishing** — phishing that is **verbally** performed: the perpetrator uses the **phone** to scam someone out of personal information, such as a social security number. The book's review question uses a \"car warranty\" call asking for a vehicle number and social security number.\n• **Quid pro quo** — proposes an **exchange** of some service with the victim being duped out of something. It looks like a fair exchange, but the victim always loses.\n• **Phishing** — the threat behind about 75 percent of ransomware.\n\n**Scenario clues**\n• A **lure** or a **found thumb drive** = baiting.\n• **By phone** = vishing.\n• **Something offered in exchange** = quid pro quo.\n\n**Physical breach** — not social engineering, but a related threat: someone gains access to the hardware so the data can be stolen.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Social Engineering</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Tricking people, not machines</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Baiting</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Dangles a lure: free</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">download, too-good price,</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">planted thumb drive</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Vishing</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Phishing by phone to get</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">personal information</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Quid pro quo</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Offers an exchange; the</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">victim always loses</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Physical breach</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Gaining access to hardware,</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">e.g., stealing a computer</text><text x=\"602\" y=\"804\" fill=\"#fff\" font-size=\"24\">with PHI</text></svg>",
+        "caption": "Social engineering types the book tests"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: Contingency Planning & Incident Response",
+      "content": "**Contingency plan** — keeping the business running through downtime. When information systems are down, CEs must have a plan to continue business even though they cannot retrieve information, place orders, or perform other key tasks. A CE can reduce the risk of critical systems going down, but it **cannot eliminate** it. The plan must be **tested periodically** and revised as areas needing improvement are identified.\n\n**Emergency mode operation plan** — HIPAA's name for the contingency plan: the policies and procedures for how the CE reacts in an information system emergency, including the **manual processes** used during downtime.\n\n**Data recovery** — the process of recouping data lost in the information system crash, **plus entering the data captured during the downtime**, to bring the system back to its original state.\n\n**Hot site** — a **remote** location set up with an exact duplicate of the information systems and data.\n\n**When an incident happens**\n• **Mitigation** — reducing the harmful effects of a breach.\n• The investigation may require confiscating hardware, printing network logs, and backing up data.\n• **Spoliation** — information **inappropriately destroyed or hidden** when it is needed during discovery. Failure to protect data may result in the destruction of evidence. (Appendix B uses spoliation as the answer to the \"protect data needed in court\" question; see the conflicts card.)\n• **Forensics** — taking steps to look for proof of a cybercrime and gather evidence: **identification, preservation, analysis, documentation, presentation**.\n\nCEs must critique their security program through ongoing monitoring and evaluation.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">When Systems Go Down</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Plan, recover, investigate</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Contingency plan</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Keeps business running in</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">downtime. HIPAA: emergency</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">mode operation plan</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Data recovery</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Recoup lost data plus enter</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">downtime data to restore</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">the original state</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Hot site</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Remote site with an exact</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">duplicate of the systems</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">and data</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Forensics</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Identification,</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">preservation, analysis,</text><text x=\"602\" y=\"804\" fill=\"#fff\" font-size=\"24\">documentation, presentation</text></svg>",
+        "caption": "Contingency planning and incident response"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 12: OCR, Penalties & Credentials",
+      "content": "**HHS Office for Civil Rights (OCR)** — Chapter 12 says oversight of the HIPAA Security Rule \"has been given to the Office of Civil Rights.\" The OCR can award **civil and criminal penalties**. (Appendix B keys the oversight question to the OIG; see the conflicts card.)\n\n**Four tiers of civil penalties**\n1. Did not know\n2. Reasonable cause\n3. Willful neglect, corrected\n4. Willful neglect, not corrected\n\n**Accreditation standards** generally include broad security requirements that vary by accrediting organization.\n\n**Privacy and security credentials** — the book names **three** certifications:\n• **CHPS — Certified in Healthcare Privacy and Security** — **healthcare-specific**; offered by **AHIMA**.\n• **CISSP — Certified Information Systems Security Professional** — offered by **(ISC)²**; **generic** (not healthcare-specific) security.\n• **CISM — Certified Information Security Manager** — offered by **ISACA**; **international**.\n\n**Memory hook:** the only one with \"Healthcare\" in its name, CHPS, is the AHIMA credential.\n\n**Note:** my sources give only each credential's full name, sponsor, and scope. I could not confirm a longer book definition for CHPS, CISM, or CISSP.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Privacy &amp; Security Creds</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Three certifications in Chapter 12</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">CHPS</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Certified in Healthcare</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">Privacy and Security:</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">AHIMA, healthcare-specific</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"258\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">CISSP</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Certified Information</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">Systems Security</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">Professional: (ISC)2,</text><text x=\"602\" y=\"594\" fill=\"#fff\" font-size=\"24\">generic</text><rect x=\"50\" y=\"663\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"713\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">CISM</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">Certified Information Security Manager: offered by ISACA;</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">international</text></svg>",
+        "caption": "CHPS, CISSP, and CISM compared"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A nurse in the quality management department picks up a few shifts on the nursing units. With her normal sign-in she has certain functionality; when she logs in to work on the nursing unit, she has different functionality. This is known as ___.",
+      "options": [
+        {
+          "text": "Role-based authentication",
+          "correct": false
+        },
+        {
+          "text": "User-based authentication",
+          "correct": false
+        },
+        {
+          "text": "Context-based authentication",
+          "correct": true
+        },
+        {
+          "text": "Emergency access procedure",
+          "correct": false
+        }
+      ],
+      "explanation": "**Context-based authentication.** It limits access not only by identity and role but also by the **location and time** of access, and this nurse is the book's own example. Role-based is the tempting choice because her role does change, but role-based access alone does not account for where and when she logs in. User-based authentication tailors access to one individual's needs, and the emergency access procedure is \"break the glass\" access during an emergency.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Authentication types</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Same person, two different logins depending on where and</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">when she works.</text></svg>",
+        "caption": "Knowledge check: Authentication types"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The access control used in the EHR requires a password and biometrics. This is an example of ___.",
+      "options": [
+        {
+          "text": "Single-factor authentication",
+          "correct": false
+        },
+        {
+          "text": "Audit trail",
+          "correct": false
+        },
+        {
+          "text": "Two-factor authentication",
+          "correct": true
+        },
+        {
+          "text": "Tokens",
+          "correct": false
+        }
+      ],
+      "explanation": "**Two-factor authentication** uses two of the following: something you **know**, something you **have**, and something you **are**. A password is something you know; biometrics (such as fingerprints or retina scans) are something you are. Single-factor is tempting if you count \"one login,\" but one-factor authentication is a single level of control, such as a username and password. A token is a physical device (something you have), and an audit trail logs activity rather than granting access.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Authentication factors</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Sort each requirement: something you know, something you</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">have, or something you are.</text></svg>",
+        "caption": "Knowledge check: Authentication factors"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An audit-reduction tool will remove ___.",
+      "options": [
+        {
+          "text": "Invalid data",
+          "correct": false
+        },
+        {
+          "text": "Routine maintenance events",
+          "correct": true
+        },
+        {
+          "text": "User's access",
+          "correct": false
+        },
+        {
+          "text": "Outdated data",
+          "correct": false
+        }
+      ],
+      "explanation": "**Routine maintenance events.** Audit-reduction tools review the audit trail, compare it to **facility-specific criteria**, and **eliminate routine entries**, such as periodic backups, so reviewers can focus on what matters, including trends and behavior outside the norm. They do not remove a user's access; that is the job of access controls and the termination process. They also do not judge data as invalid or outdated. The audit trail records all activity, and reduction tools filter the routine part out of the review.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Audit-reduction tools</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">What would clutter an audit trail without telling the</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">reviewer anything useful?</text></svg>",
+        "caption": "Knowledge check: Audit-reduction tools"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is a security incident?",
+      "options": [
+        {
+          "text": "A monitor is turned toward the public",
+          "correct": false
+        },
+        {
+          "text": "A computer is not logged out, but it is located in a private office",
+          "correct": false
+        },
+        {
+          "text": "An employee wrote down their password",
+          "correct": false
+        },
+        {
+          "text": "A hacker attempted, but did not succeed, in accessing ePHI",
+          "correct": true
+        }
+      ],
+      "explanation": "**The hacker's attempt.** The Security Rule defines a security incident as \"the **attempted** or successful unauthorized access, use, disclosure, modification, or destruction of information or interference with system operations in an information system.\" The attempt does not need to succeed. The other three options are security **events**: poor practice without a breach. The written-down password is the most tempting because it is risky, but nobody has used it to gain access, so it is still only an event.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Event vs. incident</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Poor practice is one thing. Look for unauthorized access</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">that was tried or achieved.</text></svg>",
+        "caption": "Knowledge check: Event vs. incident"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the type of malicious software that denies an information system.",
+      "options": [
+        {
+          "text": "Ransomware",
+          "correct": false
+        },
+        {
+          "text": "Phishing",
+          "correct": false
+        },
+        {
+          "text": "Denial of service",
+          "correct": true
+        },
+        {
+          "text": "Worm",
+          "correct": false
+        }
+      ],
+      "explanation": "**Denial of service** is the Appendix B answer: so many transactions hit a website that it crashes. Heads up: the chapter text defines **ransomware** as the malicious software that \"prohibits access to information systems in an organization,\" and describes a distributed denial of service as an attack a worm may launch rather than a type of software. There is no course quiz for this chapter, so give the Appendix B answer (denial of service) on the exam, but know ransomware's definition too. Phishing is social engineering, not malware.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Answer-key conflict</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">This is one of the Appendix B conflicts. Review the</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">conflicts card: which answer does the key give?</text></svg>",
+        "caption": "Knowledge check: Malware types (key conflict)"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An employee finds a thumb drive in the hospital parking lot and plugs it into a workstation to see whose it is. The computer becomes infected with malware. Which type of social engineering is this?",
+      "options": [
+        {
+          "text": "Vishing",
+          "correct": false
+        },
+        {
+          "text": "Quid pro quo",
+          "correct": false
+        },
+        {
+          "text": "Baiting",
+          "correct": true
+        },
+        {
+          "text": "Denial of service",
+          "correct": false
+        }
+      ],
+      "explanation": "**Baiting.** The offender dangles a lure, such as a free music or video download, a too-good price, or a **thumb drive left in a public place**, hoping the victim takes it and gets infected with malware. Quid pro quo is tempting because the victim seems to get something, but quid pro quo proposes an **exchange** of a service. Vishing is phishing performed by **phone**, and denial of service floods a system with transactions until it crashes; it is not social engineering.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Social engineering</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Something was left where a curious person would pick it up.</text></svg>",
+        "caption": "Knowledge check: Social engineering"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 13: Compliance & the Compliance Plan",
+      "content": "**Compliance** — establishing an organizational culture that promotes the **prevention, detection, and resolution** of conduct that does not conform to law or policy. It **cannot be put off** or done only when convenient: it must be **ongoing and a priority**. Compliance is mandated by HIPAA.\n\n**Compliance plan** — the documented program that establishes that culture and its controls. The **OIG** (described as responsible for enforcement of the Security Rule) published tips for building a culture of compliance and recommends **seven elements**:\n1. Written policies and standards of conduct\n2. A compliance officer\n3. Training and education\n4. Effective communication\n5. Internal monitoring and auditing\n6. Enforcement\n7. Prompt response to noncompliance\n\n**Training**\n• Based on the **role** the workforce member has (IT technical support trains differently from housekeeping because of their role, not their department).\n• Must be **ongoing**, on a schedule, and **tracked** (a mechanism tracks who completed it).\n• Documentation is kept **six years**, not four.\n\n**Sanction policy** — the Security Rule mandates one; it defines the penalties if a workforce member fails to follow security measures. Using PHI to open a credit card in a patient's name would warrant termination.\n\n**Penalties** for noncompliance — **financial and/or prison**. A breach that makes the evening news can also drive patients to another hospital.\n\n**Engaged listener** — understands what is said **and what is not said**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">OIG's Seven Elements</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">What a compliance plan contains</text><rect x=\"50\" y=\"399\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"449\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Policies &amp; officer</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">Written policies and</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">standards of conduct; a</text><text x=\"90\" y=\"576\" fill=\"#fff\" font-size=\"24\">compliance officer</text><rect x=\"562\" y=\"399\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"449\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Training &amp; communication</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">Training and education;</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">effective communication</text><rect x=\"50\" y=\"645\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"695\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Monitoring &amp; auditing</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">Internal monitoring and</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">auditing</text><rect x=\"562\" y=\"645\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"695\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Enforcement &amp; response</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">Enforcement, plus prompt</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">response to noncompliance</text></svg>",
+        "caption": "The seven OIG compliance plan elements in four groups"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 13: OCR Oversight & Resolution Agreements",
+      "content": "**OCR's role (chapter text)** — the HHS Office for Civil Rights is **in charge of oversight** for the HIPAA Security Rule. It audits CEs and BAs (a **desk audit**, then an **on-site compliance review** if issues are found) and reviews complaints. (Appendix B keys oversight to the OIG: give the key's answer, know the text.)\n\n**Complaints** — reviewed in a process called **intake and review**. Then OCR does one of five things:\n• close the complaint\n• provide technical assistance\n• find no violation\n• obtain corrective action (a resolution agreement)\n• opt not to investigate further, such as **deferring to another agency** like the Department of Justice\n\n**Civil monetary penalties** are decided through settlements or negotiations.\n\n**Resolution agreement** — an agreement between the **OCR and a CE or BA** describing the failure to meet HIPAA requirements, any **civil monetary penalties**, and a **corrective action plan**.\n\n**Corrective action plan (CAP)** — a **written plan** of action taken in response to identified issues: specific, with **deadlines**, holding the CE accountable. When the CE finds a problem in its **own** audit, it creates a CAP. A resolution agreement comes from the OCR.\n\n**Breach** — an impermissible use or disclosure under the Privacy Rule that compromises the security or privacy of PHI.\n• **More than 500** patients: notify the **Secretary of HHS** as soon as possible (not to exceed **60 days**) and notify the **media**. (Appendix B words it as breaches of 500 or more reported immediately; either way, **500** is the number.)\n• Fewer than 500: notify the Secretary **electronically**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">After a Complaint</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">OCR intake and review</text><rect x=\"50\" y=\"399\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"449\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Intake and review</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">OCR's first step with every</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">security complaint</text><rect x=\"562\" y=\"399\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"449\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Resolution agreement</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">OCR + CE or BA: the</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">failure, penalties, and a</text><text x=\"602\" y=\"576\" fill=\"#fff\" font-size=\"24\">CAP</text><rect x=\"50\" y=\"645\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"695\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Corrective action plan</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">Written fix with specific</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">steps and deadlines</text><rect x=\"562\" y=\"645\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"695\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Breach of 500+</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">Notify the HHS Secretary</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">(60 days max) and the media</text></svg>",
+        "caption": "OCR enforcement terms"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement regarding security compliance.",
+      "options": [
+        {
+          "text": "Compliance monitoring is performed annually",
+          "correct": false
+        },
+        {
+          "text": "Compliance only addresses the top three risks",
+          "correct": false
+        },
+        {
+          "text": "Security training is only required upon hiring",
+          "correct": false
+        },
+        {
+          "text": "Compliance must be a priority",
+          "correct": true
+        }
+      ],
+      "explanation": "**Compliance must be a priority.** The book says compliance cannot be put off or conducted just when it is convenient; it must be an **ongoing** process and a priority. \"Performed annually\" is tempting because external audits are often annual, but monitoring and auditing are not one-and-done and must be ongoing. Training is ongoing too, not only at hire, and audit areas are based on both risk and HIPAA's requirements, not only the top three risks.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Compliance</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Three options limit compliance to a time or a scope. One</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">does not.</text></svg>",
+        "caption": "Knowledge check: Compliance"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Security training should be based on the ___.",
+      "options": [
+        {
+          "text": "Length of time the workforce member has worked at the CE",
+          "correct": false
+        },
+        {
+          "text": "Education of the workforce member",
+          "correct": false
+        },
+        {
+          "text": "Department in which the employee works",
+          "correct": false
+        },
+        {
+          "text": "Role the workforce member has in the CE",
+          "correct": true
+        }
+      ],
+      "explanation": "**The role the workforce member has in the CE.** The book's example: an IT technical support employee gets very different training than housekeeping, **not because of the department** but because of their role. That makes \"department\" the tempting wrong answer. Training must also be ongoing and tracked, and the documentation is kept for six years. IT staff, for example, are trained on data center access, terminating access, and monitoring the intrusion detection system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Security training</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Two people in the same department can need very different</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">training. Why?</text></svg>",
+        "caption": "Knowledge check: Security training"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the entity with oversight of the HIPAA Security Rule.",
+      "options": [
+        {
+          "text": "Office of the Inspector General",
+          "correct": true
+        },
+        {
+          "text": "Office of Civil Rights",
+          "correct": false
+        },
+        {
+          "text": "Centers for Medicare and Medicaid Services",
+          "correct": false
+        },
+        {
+          "text": "Office of the National Coordinator of Health Information Technology",
+          "correct": false
+        }
+      ],
+      "explanation": "**Office of the Inspector General** is the Appendix B answer: the key says the OIG is \"the only one of these organizations that is in charge of the Security Rule.\" Heads up: the chapter text says otherwise. Page 330 says the Office of Civil Rights \"is in charge of oversight for the HIPAA Security Rule,\" and Chapter 12 says oversight \"has been given to the Office of Civil Rights.\" The chapter calls the OIG responsible for **enforcement**. With no course quiz for this chapter, give the Appendix B answer (OIG), but know the text says OCR.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Answer-key conflict</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">This is one of the Appendix B conflicts. Check the conflicts</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">card: which office does the key name?</text></svg>",
+        "caption": "Knowledge check: Oversight (key conflict)"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "When a CE identifies an issue during its own audit, it should create a(n) ___.",
+      "options": [
+        {
+          "text": "Resolution agreement",
+          "correct": false
+        },
+        {
+          "text": "Policy and procedure",
+          "correct": false
+        },
+        {
+          "text": "Compliance plan",
+          "correct": false
+        },
+        {
+          "text": "Corrective action plan",
+          "correct": true
+        }
+      ],
+      "explanation": "**Corrective action plan (CAP).** When a problem is identified, a CAP is a written plan of action taken in response to the identified issues, **specific and with deadlines**, holding the CE accountable. A resolution agreement is the tempting wrong answer, but it is an agreement between the **OCR** and a CE or BA after a HIPAA failure; it contains a CAP along with any civil monetary penalties. A new policy may be part of the fix, and the compliance plan is the overall program.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Fixing audit findings</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">The CE found the problem itself. No outside agency is</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">involved yet.</text></svg>",
+        "caption": "Knowledge check: Corrective action plan"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 13: Auditing vs. Monitoring",
+      "content": "**Auditing** — the **retrospective reconstruction of events** and an independent review of system records and activities. Auditing reviews the monitoring program to make sure it is effective at getting the CE to its anticipated outcome.\n\n**Monitoring** — **assessing the effectiveness** of the compliance program and established controls. It is part of the auditing process, and important parts of it are **keeping current on laws and regulations**, establishing standards, developing policies and procedures, and training. Neither monitoring nor auditing is \"one and done\": HIPAA requires them to be ongoing.\n\n**Internal vs. external audit**\n• **Internal** — performed by the CE's **own staff** (daily, weekly, monthly).\n• **External** — performed by **consultants or others who do not work for the CE** (often annually), to confirm the internal audits are catching the risks. The consulting contract spells out deliverables, areas audited, the purpose of the audit, and clauses such as termination.\n\n**Three audit types**\n• **Process audit** — confirms performance of **tasks** meets established standards (e.g., 100 percent of triggers reviewed).\n• **Product audit** — evaluates a **product or service** against expected requirements (e.g., the firewall blocks spam and malware).\n• **System audit** — determines if the plan or **system** meets accepted standards and is appropriate and effective (e.g., is the **training program** working; a consultant reviewing the security program).\n\n**What gets audited** — areas based on **both risk and HIPAA's requirements**, covering all **three safeguard types** (administrative, physical, technical).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Three Audit Types</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Plus who performs the audit</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Process audit</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Are tasks done to standard?</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">e.g., 100% of triggers</text><text x=\"90\" y=\"558\" fill=\"#fff\" font-size=\"24\">reviewed</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Product audit</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">Does a product meet</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">requirements? e.g.,</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">firewall blocks malware</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">System audit</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">Is the system or plan</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">effective? e.g., is</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">training working</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Internal vs. external</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Internal: CE's own staff.</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">External: consultants who</text><text x=\"602\" y=\"804\" fill=\"#fff\" font-size=\"24\">don't work for the CE</text></svg>",
+        "caption": "Process, product, and system audits"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 13: The Audit Process & Fieldwork",
+      "content": "**Eight audit steps**\n1. Identify areas to be audited (based on risk and HIPAA's requirements)\n2. Determine frequency\n3. Schedule the audit (once frequency is set)\n4. Notify departments\n5. **Prepare for the audit** — ensure policies are current, staff are educated, the data collection tool and analysis plan are chosen, **the necessary data are available**, and the reporting format is created\n6. Conduct the audit\n7. Record findings\n8. Report results\n\n**Fieldwork** — the process of completing the audit: **data collection and data analysis**. It can include interviews, reviewing policies, and monitoring employee actions.\n\n**Data collection** — the data collected should **support the purpose of the audit**. Some data are captured automatically and some must be captured manually, and data can be **quantitative** (numerical) or **qualitative** (nonnumeric). Example: an access-control audit collects the access policies and procedures, the types of access controls used, termination of access, and appropriateness of access.\n\n**Data analysis** — the second half of fieldwork: examining the collected data to determine whether standards were met and to identify findings, problems, and trends. **I could not confirm the book's exact wording** for this term; my sources define it only as part of fieldwork.\n\n**Documentation** — the CE must be able to retrieve policies, procedures, and other documents when required by an **OCR investigation**, a corporate audit, or an external audit. Policies are retained **six years**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Eight Audit Steps</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Fieldwork = collection + analysis</text><rect x=\"50\" y=\"399\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"449\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Plan (steps 1–2)</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">Identify areas to audit;</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">determine frequency</text><rect x=\"562\" y=\"399\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"449\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Schedule (steps 3–4)</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">Schedule the audit; notify</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">departments</text><rect x=\"50\" y=\"609\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"659\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Prepare (step 5)</text><text x=\"90\" y=\"714\" fill=\"#fff\" font-size=\"24\">Policies current, staff</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">educated, tools chosen,</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">data available</text><rect x=\"562\" y=\"609\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"659\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Do (steps 6–8)</text><text x=\"602\" y=\"714\" fill=\"#fff\" font-size=\"24\">Conduct the audit; record</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">findings; report results</text></svg>",
+        "caption": "The eight audit steps in four stages"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 13: Audit Tools",
+      "content": "**Standard** — a scientifically based statement of expected behavior that outcomes can be measured against.\n\n**Metric** — a statement of expectations used to monitor progress and find improvement areas; what you **measure** to \"track progress, identify problems and opportunities for improvement, and determine areas of improvement.\" If a policy changes, the metric is reassessed to see whether the expected change occurred.\n\n**Threshold** — the **desired level of performance** for a metric. The goal is to **meet or exceed** the threshold.\n\n**Benchmarking** — comparing your metrics against peers or standards: **similar** organizations or regional and national standards. A 900-bed teaching hospital compares itself to another large teaching hospital, not to a physician practice. It is a key part of any compliance program. (The guide says \"benchmark compliance\"; the book's term is benchmarking.)\n\n**Dashboard** — a **display of process measures** that helps leaders follow progress and assists with strategic planning. In security compliance it shows the metrics the CE has established so the **chief security officer** knows where the CE stands. (Earlier chapters: a dashboard is a collection of key performance indicators, and an EIS dashboard lets administrators monitor KPIs such as bed occupancy and length of stay.)\n\n**Data display** — a method for presenting or viewing data: **tables, graphs, infographics**, and other displays.\n\n**Audit trails, audit controls, and triggers** supply much of the automatically captured audit data (see Chapter 12).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Measuring Compliance</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Metric, threshold, benchmark, dashboard</text><rect x=\"50\" y=\"276\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"326\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Metric</text><text x=\"90\" y=\"381\" fill=\"#fff\" font-size=\"24\">What you measure to track</text><text x=\"90\" y=\"417\" fill=\"#fff\" font-size=\"24\">progress</text><rect x=\"562\" y=\"276\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"326\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Threshold</text><text x=\"602\" y=\"381\" fill=\"#fff\" font-size=\"24\">Desired performance level:</text><text x=\"602\" y=\"417\" fill=\"#fff\" font-size=\"24\">the goal to meet or exceed</text><rect x=\"50\" y=\"486\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"536\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Benchmarking</text><text x=\"90\" y=\"591\" fill=\"#fff\" font-size=\"24\">Compare with SIMILAR</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">organizations or standards</text><rect x=\"562\" y=\"486\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"536\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Dashboard</text><text x=\"602\" y=\"591\" fill=\"#fff\" font-size=\"24\">Shows current metric status</text><text x=\"602\" y=\"627\" fill=\"#fff\" font-size=\"24\">for the chief security</text><text x=\"602\" y=\"663\" fill=\"#fff\" font-size=\"24\">officer</text><rect x=\"50\" y=\"732\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"782\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Data display</text><text x=\"90\" y=\"837\" fill=\"#fff\" font-size=\"24\">Tables, graphs,</text><text x=\"90\" y=\"873\" fill=\"#fff\" font-size=\"24\">infographics</text><rect x=\"562\" y=\"732\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"782\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Standard</text><text x=\"602\" y=\"837\" fill=\"#fff\" font-size=\"24\">Scientific statement of</text><text x=\"602\" y=\"873\" fill=\"#fff\" font-size=\"24\">expected behavior to</text><text x=\"602\" y=\"909\" fill=\"#fff\" font-size=\"24\">measure against</text></svg>",
+        "caption": "Audit tools compared"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Ch 13: Evidence & Forensic Review",
+      "content": "**Evidence** — proof used in a **court of law** to present facts related to the case.\n**Objective evidence** — proof that standards were **either met or not**; it uses facts to determine compliance. The book's review question describes it as **unbiased, factual, first-hand, traceable, and impersonal**.\n**Visual observation** — gathering evidence by **watching what occurs**, such as walking around to confirm computer monitors are turned away from the public, mobile devices are protected, and hardware is secured.\n\n**Forensics** — taking steps to look for proof of a cybercrime and gather evidence: identification, preservation, analysis, documentation, presentation.\n**Computer forensics** — the \"application of investigation and analysis techniques to gather and preserve evidence from a particular computing device in a way that is suitable for presentation in a court of law.\"\n\n**Forensic review of a hard drive**\n• Chapter text (p. 340): **isolate** the computer's storage media so it cannot be destroyed or altered, **then copy** the hard drive.\n• Appendix B: **copy the hard drive** is the **first step**, so the drive can be reviewed without altering the original data. Give this answer on the exam.\n• Review of the hard drive may identify unauthorized deletions, evidence of hacking, alteration of data, and more.\n\n**Spoliation** — information inappropriately destroyed or hidden when it is needed during discovery; good forensic practice prevents it.\n\n**Auditing training** confirms not only that the documentation exists but that all workforce members are included in the training.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Evidence Types</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">From audits to the courtroom</text><rect x=\"50\" y=\"399\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"449\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Evidence</text><text x=\"90\" y=\"504\" fill=\"#fff\" font-size=\"24\">Proof used in a court of</text><text x=\"90\" y=\"540\" fill=\"#fff\" font-size=\"24\">law</text><rect x=\"562\" y=\"399\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"449\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Objective evidence</text><text x=\"602\" y=\"504\" fill=\"#fff\" font-size=\"24\">Proof that standards were</text><text x=\"602\" y=\"540\" fill=\"#fff\" font-size=\"24\">either met or not</text><rect x=\"50\" y=\"609\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"659\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Visual observation</text><text x=\"90\" y=\"714\" fill=\"#fff\" font-size=\"24\">Watching what occurs, e.g.,</text><text x=\"90\" y=\"750\" fill=\"#fff\" font-size=\"24\">monitors turned away from</text><text x=\"90\" y=\"786\" fill=\"#fff\" font-size=\"24\">the public</text><rect x=\"562\" y=\"609\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"659\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">First forensic step</text><text x=\"602\" y=\"714\" fill=\"#fff\" font-size=\"24\">Key: copy the hard drive.</text><text x=\"602\" y=\"750\" fill=\"#fff\" font-size=\"24\">Text: isolate the media,</text><text x=\"602\" y=\"786\" fill=\"#fff\" font-size=\"24\">then copy.</text></svg>",
+        "caption": "Evidence, objective evidence, and forensic review"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An audit is conducted to determine if the security compliance program is working. This type of audit is known as ___.",
+      "options": [
+        {
+          "text": "Product audit",
+          "correct": false
+        },
+        {
+          "text": "Process audit",
+          "correct": false
+        },
+        {
+          "text": "System audit",
+          "correct": true
+        },
+        {
+          "text": "Monitoring",
+          "correct": false
+        }
+      ],
+      "explanation": "**System audit.** A system audit reviews activities to make sure the system used is **appropriate and effective**; the book's example is checking how effective the training program is. A process audit is tempting, but it checks whether individual **tasks** meet established standards (such as 100 percent of triggers reviewed). A product audit checks whether a product or service meets requirements (such as the firewall blocking malware). Monitoring is part of the auditing process, not one of the three audit types.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Audit types</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">Is this checking one task, one product, or whether the whole</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">program works?</text></svg>",
+        "caption": "Knowledge check: Audit types"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The goal to meet or exceed is known as ___.",
+      "options": [
+        {
+          "text": "Metric",
+          "correct": false
+        },
+        {
+          "text": "Threshold",
+          "correct": true
+        },
+        {
+          "text": "Selection",
+          "correct": false
+        },
+        {
+          "text": "Resolution agreement",
+          "correct": false
+        }
+      ],
+      "explanation": "**Threshold.** The threshold is the **desired level of performance** for a metric, and the goal is to meet or exceed it. Metric is the tempting wrong answer, but the metric is the thing being **measured** (for example, the percentage of triggers reviewed); the threshold is the target level for that measurement. If a policy changes, the metric is reassessed to see whether the desired threshold is reached. A resolution agreement comes from the OCR after a HIPAA failure.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Metric vs. threshold</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">One is what you measure; the other is the level you are</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">aiming for.</text></svg>",
+        "caption": "Knowledge check: Metric vs. threshold"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Unbiased, factual, first-hand, traceable, and impersonal evidence is known as ___ evidence.",
+      "options": [
+        {
+          "text": "Fact-based",
+          "correct": false
+        },
+        {
+          "text": "Impartial",
+          "correct": false
+        },
+        {
+          "text": "Independent",
+          "correct": false
+        },
+        {
+          "text": "Objective",
+          "correct": true
+        }
+      ],
+      "explanation": "**Objective evidence** is proof that standards were either met or not; it uses facts to determine compliance. \"Fact-based\" is tempting because the description says factual, but objective is the book's term. Plain **evidence** is proof used in a court of law to present facts related to the case, and **visual observation** is one way to gather evidence: watching what occurs, such as checking that monitors are turned away from the public.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"540\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Types of evidence</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Choose the book's term, not a synonym for the description.</text></svg>",
+        "caption": "Knowledge check: Objective evidence"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The CE has a suspected security breach. They need to conduct a forensic review of data on the hard drive. The first step of the forensic review is to ___.",
+      "options": [
+        {
+          "text": "Check the database for signs of breaches",
+          "correct": false
+        },
+        {
+          "text": "Isolate storage media",
+          "correct": false
+        },
+        {
+          "text": "Review the audit trail",
+          "correct": false
+        },
+        {
+          "text": "Copy the hard drive",
+          "correct": true
+        }
+      ],
+      "explanation": "**Copy the hard drive** is the Appendix B answer: copying first lets investigators review the drive **without altering the original data**. Heads up: the chapter text (p. 340) says steps are taken to **isolate** the computer's storage media so it cannot be destroyed or altered, and the hard drive is then copied, which would make isolation first. With no course quiz for this chapter, give the Appendix B answer (copy the hard drive), but know the text's order: isolate, then copy. Either way, the goal is evidence suitable for court.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">KNOWLEDGE CHECK</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">HITT 1211 Final Exam</text><rect x=\"50\" y=\"522\" width=\"1000\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"572\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Answer-key conflict</text><text x=\"90\" y=\"627\" fill=\"#fff\" font-size=\"24\">This is one of the Appendix B conflicts. Review the</text><text x=\"90\" y=\"663\" fill=\"#fff\" font-size=\"24\">conflicts card: which step does the key put first?</text></svg>",
+        "caption": "Knowledge check: Forensic review (key conflict)"
+      }
+    },
+    {
+      "type": "application",
+      "title": "Final Exam Game Plan",
+      "content": "**Before the exam:**\n1. **Learn the answer-key conflicts first** (OIG vs. OCR, spoliation, denial of service vs. ransomware, copy vs. isolate). Give the Appendix B answer; know the chapter's version.\n2. **Memorize the lists:** three covered entities, three safeguard families, three states of data, six DSMOs, six code sets, four civil penalty tiers, three credentials, the OIG's seven compliance elements, eight audit steps, and five forensics steps.\n3. **Work the compare pairs:** required vs. addressable, user/role/context-based, IDS vs. IPS, symmetric vs. asymmetric, event vs. incident, internal vs. external audit, process/product/system audit, metric vs. threshold, resolution agreement vs. CAP, evidence vs. objective evidence.\n4. **Review the earlier-chapter items** on the final guide: dashboard, firewalls, and BYOD (the BYOD questions are in Chapter 11).\n5. **Do the Chapter 12 and 13 Check Your Understanding and Review questions**, plus the CoachMe items in VitalSource.\n6. **Retake this lesson's quizzes** until every answer feels automatic.\n\n**During the exam:** match scenario clues to the book's terms. *Attempted* means security incident; *location and time* means context-based; *lure or found thumb drive* means baiting; *by phone* means vishing; *an outside consultant doing the audit* means external audit, but if the question asks what kind of audit a consultant does to see whether the security program meets accepted standards, the Appendix B answer is system audit; *is the program working* means system audit; *goal to meet or exceed* means threshold; *the CE's own audit found a problem* means corrective action plan.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Final Exam Game Plan</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">60 questions · Chapters 12–13</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Conflicts first</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Give the Appendix B answer;</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">know the chapter text</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Memorize the lists</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">CEs, safeguards, data</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">states, DSMOs, OIG's 7, 8</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">audit steps</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Compare pairs</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">IDS/IPS, event/incident,</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">internal/external,</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">metric/threshold</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Scenario clues</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Attempt = incident; lure =</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">baiting; goal = threshold</text></svg>",
+        "caption": "Final exam study steps"
       }
     }
   ]

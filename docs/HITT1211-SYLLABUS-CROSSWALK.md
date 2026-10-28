@@ -204,3 +204,22 @@ Center cannot harvest them:
 - `him-insurance-101` — 6 cards
 
 These are outside HITT 1211 and AHIMA Domains and were left alone.
+
+---
+
+## 9. Exam study guides (added 2026-10-27)
+
+Four study-guide lessons now open the book, in exam order. They come from the
+instructor's exam study guides, checked against the textbook glossary, the
+instructor-confirmed chapter quizzes, and the book's Appendix B answers:
+
+| Lesson id | Title | Cards | Quizzes |
+|---|---|---|---|
+| `hitt-1211-exam1` | Exam 1 Study Guide: Chapters 1–3 | 26 | 11 |
+| `hitt-1211-exam2` | Exam 2 Study Guide: Chapters 4–7 | 47 | 17 |
+| `hitt-1211-exam3` | Exam 3 Study Guide: Chapters 8–11 | 50 | 21 |
+| `hitt-1211-final` | Final Exam Study Guide: Chapters 12–13 | 40 | 18 |
+
+Where the instructor's key, Appendix B, and the chapter text disagree, the cards
+show both versions and say which one to give on the exam. Items with no book
+definition are labeled "I could not confirm the book's exact wording."
