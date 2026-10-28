@@ -7,7 +7,8 @@ such as a complaint seen outside the usual specialty, and is written up as one l
 | File | What it is |
 |------|------------|
 | `cases/NN-<slug>.json` | One case = one lesson: `id` (`uncommon-N`), `title`, `short`, `duration` (a number, in minutes), `cards`. |
-| `build.py` | Turns the cases into the book module. Diagrams use the same renderer and size limits as `tools/icd10cm-guidelines/build.py`. |
+| `book.json` | Book id, title, description, global and output file. |
+| `build.py` | Turns the cases into the book module. With `--dir <folder>` it builds another book in the same format (used by `tools/him-billing-desk`). Diagrams use the same renderer and size limits as `tools/icd10cm-guidelines/build.py`. |
 
 ## Adding a case
 
