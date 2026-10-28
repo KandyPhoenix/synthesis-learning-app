@@ -1,0 +1,7 @@
+{
+ "id": "him-billing-desk",
+ "title": "HIM Billing Desk: Codes by Provider Type",
+ "global": "HIM_BILLING_DESK_BOOK",
+ "out": "him-billing-desk-data.js",
+ "description": "Practical billing references for the front office and billing desk: which CPT and HCPCS codes a provider type can bill, where each payer's rules come from, and how to bill so every earned service is paid. Medicare rules are cited to CMS manuals; payer-specific items are marked for you to verify. Each lesson includes a downloadable worksheet."
+}
