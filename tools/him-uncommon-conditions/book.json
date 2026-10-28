@@ -1,7 +1,0 @@
-{
- "id": "him-uncommon-conditions",
- "title": "HIM Casebook: Uncommon Conditions",
- "global": "HIM_UNCOMMON_CONDITIONS_BOOK",
- "out": "him-uncommon-conditions-data.js",
- "description": "Real questions from the billing desk about conditions and visit types that do not come up every day: what the visit is, who can treat it, and which ICD-10-CM codes fit, checked against the official code set and the Official Guidelines. One case per lesson; new cases are added as they come up."
-}

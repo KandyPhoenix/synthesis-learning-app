@@ -8,7 +8,6 @@
 window.BOOK_ADDED_ON = {
  "1491": "2026-08-15",
  "stop-letting-everything-affect-you": "2026-10-26",
- "him-uncommon-conditions": "2026-10-13",
  "icd10cm-guidelines-fy2027": "2026-10-10",
  "rand-anthem": "2026-09-28",
  "rand-atlas-shrugged": "2026-09-28",
