@@ -2936,7 +2936,6 @@ function integrateExternalCategories() {
       { global: 'AHIMA_DOMAINS_BOOK', categoryId: 'him' },
       { global: 'ICD10CM_GUIDELINES_BOOK', categoryId: 'him' },
       { global: 'HIM_UNCOMMON_CONDITIONS_BOOK', categoryId: 'him' },
-      { global: 'HIM_BILLING_DESK_BOOK', categoryId: 'him' },
       { global: 'ANATOMY_PHYSIOLOGY_MASTERY_BOOK', categoryId: 'anatomy-physiology' },
       { global: 'CARDIOVASCULAR_DEEP_DIVE_BOOK', categoryId: 'anatomy-physiology' },
       { global: 'NEUROSCIENCE_AP_BOOK', categoryId: 'anatomy-physiology' },
