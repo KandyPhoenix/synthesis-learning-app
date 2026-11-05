@@ -6,6 +6,7 @@
 // committed, since the date comes from the commit that added the file).
 // ============================================
 window.BOOK_ADDED_ON = {
+ "advancement-of-learning": "2026-11-05",
  "1491": "2026-08-15",
  "stop-letting-everything-affect-you": "2026-10-26",
  "icd10cm-guidelines-fy2027": "2026-10-10",

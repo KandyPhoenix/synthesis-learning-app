@@ -3268,7 +3268,8 @@ function integrateExternalCategories() {
       { global: 'RAND_WE_THE_LIVING_BOOK', categoryId: 'ayn-rand' },
       { global: 'RAND_CAPITALISM_UNKNOWN_IDEAL_BOOK', categoryId: 'ayn-rand' },
       { global: 'ZINN_PEOPLES_HISTORY_BOOK', categoryId: 'history' },
-      { global: 'STOP_LETTING_EVERYTHING_BOOK', categoryId: 'personal-development' }
+      { global: 'STOP_LETTING_EVERYTHING_BOOK', categoryId: 'personal-development' },
+      { global: 'ADVANCEMENT_OF_LEARNING_BOOK', categoryId: 'philosophy' }
     ];
     externalBooks.forEach(({ global, categoryId, ensureCategory }) => {
         const book = (typeof window !== 'undefined' && window[global]) ||
