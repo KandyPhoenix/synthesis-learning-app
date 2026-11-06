@@ -1249,6 +1249,146 @@ window.HITT_1211_BOOK = {
       }
     },
     {
+      "type": "quiz",
+      "question": "The project team is collecting data from system users regarding their needs. They must be in which stage of the system life cycle?",
+      "options": [
+        {
+          "text": "Implementation",
+          "correct": false
+        },
+        {
+          "text": "Design",
+          "correct": false
+        },
+        {
+          "text": "Planning and analysis",
+          "correct": true
+        },
+        {
+          "text": "Support and evaluation",
+          "correct": false
+        }
+      ],
+      "explanation": "**Planning and analysis.** Your instructor says this question is on Exam 2. The book: during the planning and analysis phase the project is defined, a project-management structure is set up, and the **needs of the healthcare organization and its users are identified** (questionnaires, interviews, observation, flowcharts). Design comes after the needs are known; implementation and support/evaluation come later still.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">SDLC stage</text><text x=\"550\" y=\"115\" fill=\"#a0aec0\" font-size=\"24\" text-anchor=\"middle\">Instructor practice question: on Exam 2</text><rect x=\"80\" y=\"150\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"550\" y=\"220\" fill=\"#10b981\" font-size=\"34\" text-anchor=\"middle\" font-weight=\"bold\">Planning and analysis</text><text x=\"90\" y=\"330\" fill=\"#fff\" font-size=\"26\">Planning and analysis = define the project,</text><text x=\"90\" y=\"376\" fill=\"#fff\" font-size=\"26\">set up project management, identify needs.</text><text x=\"90\" y=\"422\" fill=\"#fff\" font-size=\"26\">Collecting user needs happens HERE.</text><text x=\"90\" y=\"468\" fill=\"#fff\" font-size=\"26\">Then: design, implementation, support/evaluation.</text><rect x=\"80\" y=\"544\" width=\"940\" height=\"104\" rx=\"18\" fill=\"rgba(239,68,68,0.12)\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"110\" y=\"589\" fill=\"#ef4444\" font-size=\"28\" font-weight=\"bold\">Trap</text><text x=\"110\" y=\"634\" fill=\"#fff\" font-size=\"24\">Design uses the needs; it does not collect them.</text></svg>",
+        "caption": "Instructor practice question: SDLC stage"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "When a healthcare facility decides to use the best of breed strategy, which of the following is true?",
+      "options": [
+        {
+          "text": "The various information systems must be integrated",
+          "correct": false
+        },
+        {
+          "text": "The various information systems must be interfaced",
+          "correct": true
+        },
+        {
+          "text": "The information systems purchased are from the same vendor",
+          "correct": false
+        },
+        {
+          "text": "The information systems purchased are easier to manage",
+          "correct": false
+        }
+      ],
+      "explanation": "**Must be interfaced.** Your instructor says this question is on Exam 2. The book: best of breed = choosing each IS for its functionality regardless of vendor (R-ADT from vendor A, CPOE from vendor B, EHR from vendor C). Those products are not designed to work together, so they are linked through **interfaces**. Integrated, same vendor, and easier to manage all describe **best of fit**.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Best of breed</text><text x=\"550\" y=\"115\" fill=\"#a0aec0\" font-size=\"24\" text-anchor=\"middle\">Instructor practice question: on Exam 2</text><rect x=\"80\" y=\"150\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"550\" y=\"220\" fill=\"#10b981\" font-size=\"34\" text-anchor=\"middle\" font-weight=\"bold\">Systems must be INTERFACED</text><text x=\"90\" y=\"330\" fill=\"#fff\" font-size=\"26\">Best of breed = best product for each need,</text><text x=\"90\" y=\"376\" fill=\"#fff\" font-size=\"26\">from different vendors.</text><text x=\"90\" y=\"422\" fill=\"#fff\" font-size=\"26\">Interfaces act as bridges between the ISs.</text><text x=\"90\" y=\"468\" fill=\"#fff\" font-size=\"26\">Interfaced ISs take more effort to manage.</text><rect x=\"80\" y=\"544\" width=\"940\" height=\"148\" rx=\"18\" fill=\"rgba(239,68,68,0.12)\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"110\" y=\"589\" fill=\"#ef4444\" font-size=\"28\" font-weight=\"bold\">Trap</text><text x=\"110\" y=\"634\" fill=\"#fff\" font-size=\"24\">Integrated / same vendor / easier to manage</text><text x=\"110\" y=\"678\" fill=\"#fff\" font-size=\"24\">= best of FIT, not best of breed.</text></svg>",
+        "caption": "Instructor practice question: Best of breed"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The vendor is scheduled to receive 30 percent of their payment when the software is delivered. This is an example of a _________.",
+      "options": [
+        {
+          "text": "Payment milestone",
+          "correct": true
+        },
+        {
+          "text": "Force majeure",
+          "correct": false
+        },
+        {
+          "text": "Source code",
+          "correct": false
+        },
+        {
+          "text": "Escrow",
+          "correct": false
+        }
+      ],
+      "explanation": "**Payment milestone.** Your instructor says this question is on Exam 2. The book: a payment milestone is **an action that triggers payment to the vendor** (contract signing, software delivery, start of testing, go-live, completion of acceptance testing). Force majeure excuses performance for events outside anyone's control; source code is the program itself; escrow is a third party holding the source code in case the vendor fails.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Payment milestone</text><text x=\"550\" y=\"115\" fill=\"#a0aec0\" font-size=\"24\" text-anchor=\"middle\">Instructor practice question: on Exam 2</text><rect x=\"80\" y=\"150\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"550\" y=\"220\" fill=\"#10b981\" font-size=\"34\" text-anchor=\"middle\" font-weight=\"bold\">Payment milestone</text><text x=\"90\" y=\"330\" fill=\"#fff\" font-size=\"26\">An ACTION that triggers payment to the vendor.</text><text x=\"90\" y=\"376\" fill=\"#fff\" font-size=\"26\">Example: software delivered = vendor paid 30%.</text><text x=\"90\" y=\"422\" fill=\"#fff\" font-size=\"26\">Never pay the full price up front.</text><rect x=\"80\" y=\"498\" width=\"940\" height=\"148\" rx=\"18\" fill=\"rgba(239,68,68,0.12)\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"110\" y=\"543\" fill=\"#ef4444\" font-size=\"28\" font-weight=\"bold\">Trap</text><text x=\"110\" y=\"588\" fill=\"#fff\" font-size=\"24\">Force majeure, source code and escrow are</text><text x=\"110\" y=\"632\" fill=\"#fff\" font-size=\"24\">contract terms that never trigger payment.</text></svg>",
+        "caption": "Instructor practice question: Payment milestone"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The EHR that is currently being selected was initially planned for the inpatients at the hospital. Now the CIO has instructed the project management team to purchase one that works for both the inpatient and ambulatory services. This is an example of __________.",
+      "options": [
+        {
+          "text": "Project management",
+          "correct": false
+        },
+        {
+          "text": "Project definition",
+          "correct": false
+        },
+        {
+          "text": "Scope creep",
+          "correct": true
+        },
+        {
+          "text": "Buy-in",
+          "correct": false
+        }
+      ],
+      "explanation": "**Scope creep.** Your instructor says this question is on Exam 2. The book: scope creep is when things are **added after the project has begun**, increasing the time, money and resources needed. The book's own example is nearly identical: an EHR planned for a medical clinic is then expanded to outpatient surgery. Project definition is what the organization wanted at the start; buy-in is user support.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Scope creep</text><text x=\"550\" y=\"115\" fill=\"#a0aec0\" font-size=\"24\" text-anchor=\"middle\">Instructor practice question: on Exam 2</text><rect x=\"80\" y=\"150\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"550\" y=\"220\" fill=\"#10b981\" font-size=\"34\" text-anchor=\"middle\" font-weight=\"bold\">Scope creep</text><text x=\"90\" y=\"330\" fill=\"#fff\" font-size=\"26\">Additions AFTER the project has begun.</text><text x=\"90\" y=\"376\" fill=\"#fff\" font-size=\"26\">Inpatient only -&gt; inpatient + ambulatory.</text><text x=\"90\" y=\"422\" fill=\"#fff\" font-size=\"26\">Costs more time, money and resources.</text><text x=\"90\" y=\"468\" fill=\"#fff\" font-size=\"26\">Causes: unclear deliverables, mid-project changes.</text><rect x=\"80\" y=\"544\" width=\"940\" height=\"148\" rx=\"18\" fill=\"rgba(239,68,68,0.12)\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"110\" y=\"589\" fill=\"#ef4444\" font-size=\"28\" font-weight=\"bold\">Trap</text><text x=\"110\" y=\"634\" fill=\"#fff\" font-size=\"24\">Project definition = the ORIGINAL plan,</text><text x=\"110\" y=\"678\" fill=\"#fff\" font-size=\"24\">not the change to it.</text></svg>",
+        "caption": "Instructor practice question: Scope creep"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement about a project team.",
+      "options": [
+        {
+          "text": "The project team contains only information system and HIM employees",
+          "correct": false
+        },
+        {
+          "text": "The project team members are always assigned to the project on a full-time basis",
+          "correct": false
+        },
+        {
+          "text": "The project team's composition is based on the needs of the project",
+          "correct": true
+        },
+        {
+          "text": "The project team is made up of consultants",
+          "correct": false
+        }
+      ],
+      "explanation": "**Composition is based on the needs of the project.** Your instructor says this question is on Exam 2. The book: a project team is a collection of individuals from various disciplines (billing, clinicians, administration, IT) assigned to work on a project, and **members' skills vary according to the needs of the project**. An EHR project, for example, needs IT, HIM, physicians, nursing and other clinical users. Watch the absolute words: only, always.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Project team</text><text x=\"550\" y=\"115\" fill=\"#a0aec0\" font-size=\"24\" text-anchor=\"middle\">Instructor practice question: on Exam 2</text><rect x=\"80\" y=\"150\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"550\" y=\"220\" fill=\"#10b981\" font-size=\"34\" text-anchor=\"middle\" font-weight=\"bold\">Based on the needs of the project</text><text x=\"90\" y=\"330\" fill=\"#fff\" font-size=\"26\">Many disciplines: billing, clinicians,</text><text x=\"90\" y=\"376\" fill=\"#fff\" font-size=\"26\">administration, IT, HIM.</text><text x=\"90\" y=\"422\" fill=\"#fff\" font-size=\"26\">Skills vary with the needs of the project.</text><text x=\"90\" y=\"468\" fill=\"#fff\" font-size=\"26\">Carries out the plan for the project manager.</text><rect x=\"80\" y=\"544\" width=\"940\" height=\"104\" rx=\"18\" fill=\"rgba(239,68,68,0.12)\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"110\" y=\"589\" fill=\"#ef4444\" font-size=\"28\" font-weight=\"bold\">Trap</text><text x=\"110\" y=\"634\" fill=\"#fff\" font-size=\"24\">ONLY / ALWAYS / all consultants = wrong.</text></svg>",
+        "caption": "Instructor practice question: Project team"
+      }
+    },
+    {
       "type": "application",
       "title": "Exam 2 Game Plan",
       "content": "**Before the exam:**\n1. **Lock in the course-key answers first:** realistic (SMART), best of fit, alpha vs. beta, warranties in the contract, improve patient care = intangible, external scanning for new legislation, on-site demo = most users, parallel = least risk, updates = support and evaluation, EIS for strategic planning and for physician vs. NP wait times.\n2. **Learn both vocabularies** for go-live (guide's direct = book's straight turnover, big bang, or cutover) and testing (unit, system, performance, regression vs. application, interface, integration, volume, conversion, acceptance).\n3. **Drill the compare pairs:** RFI vs. RFP; on-site demo vs. site visit; best of fit vs. best of breed; phased vs. pilot; integration vs. interface testing; codebook vs. rules-based encoder; encoder vs. grouper; CAC vs. CDI; chart locator vs. chart deficiency; cancer vs. trauma registry; dictation vs. transcription; MPI vs. EMPI vs. R-ADT; materials vs. facilities; DSS vs. EIS.\n4. **Do every chapter's Check Your Understanding questions**, since your instructor says they are fair game. Remember the Appendix B oddities flagged here (design for functions, left-to-right typo, weighted decision matrix, DSS for the 10-year plan).\n5. **Retake this lesson's quizzes** until each answer feels automatic.\n\n**During the exam, read the scenario clues:**\n• New legislation → external scanning. Scope added mid-project → scope creep. One unit first → pilot. One module at a time → phased. Avoid risk → parallel.\n• Type part of a term → rules-based encoder. MS-DRG → grouper. NLP → CAC. Physician query → CDI. Invalid authorization letter → disclosure of health information (ROI).\n• Where is the paper chart → chart locator. H&Ps incomplete → chart deficiency. TNM or ICD-O → cancer registry. AIS, ISS, car crash → trauma registry.\n• Census or patient movement → R-ADT. Treated anywhere in the IDS → EMPI. Key cards → facilities. Supplies → materials. Turnover or certifications → HRIS. Nonroutine what-if → DSS. Administrators' dashboard → EIS.",
