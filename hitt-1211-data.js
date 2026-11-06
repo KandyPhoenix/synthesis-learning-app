@@ -4,9 +4,9 @@ window.HITT_1211_BOOK = {
           "id": "hitt-1211",
           "title": "HITT 1211: Health Information Systems",
           "author": "Lone Star College",
-          "description": "College-depth Health Information Systems: study guides for Exam 1 (Chapters 1–3), Exam 2 (Chapters 4–7), Exam 3 (Chapters 8–11), and the Final (Chapters 12–13) from Sayles & Barefield, plus 28 lessons mapped to the HITT 1211 syllabus and AHIMA associate-degree competencies. Covers EHR foundations (HITECH, Meaningful Use, Cures Act), CPOE/CDS, patient portals, data standards (HL7 v2/v3/FHIR, SNOMED/LOINC/ICD/CPT), HIE & TEFCA, databases, system selection (RFI/RFP, TCO), implementation lifecycle, testing & training, infrastructure, HIPAA Security Rule, backup & DR, information governance, digital literacy and the Microsoft Office suite, encoders/groupers/online coding tools, computer-assisted coding, paper-to-electronic migration and EDMS, the acute care EHR vendor landscape, EHR and PHR evaluation, public health reporting and disease surveillance, and emerging technologies (AI, ambient docs, IoMT).",
-          "lessons": 32,
-          "duration": "589",
+          "description": "College-depth Health Information Systems: study guides for Exam 1 (Chapters 1–3), Exam 2 (Chapters 4–7) plus an Exam 2 Quizlet practice quiz, Exam 3 (Chapters 8–11), and the Final (Chapters 12–13) from Sayles & Barefield, plus 28 lessons mapped to the HITT 1211 syllabus and AHIMA associate-degree competencies. Covers EHR foundations (HITECH, Meaningful Use, Cures Act), CPOE/CDS, patient portals, data standards (HL7 v2/v3/FHIR, SNOMED/LOINC/ICD/CPT), HIE & TEFCA, databases, system selection (RFI/RFP, TCO), implementation lifecycle, testing & training, infrastructure, HIPAA Security Rule, backup & DR, information governance, digital literacy and the Microsoft Office suite, encoders/groupers/online coding tools, computer-assisted coding, paper-to-electronic migration and EDMS, the acute care EHR vendor landscape, EHR and PHR evaluation, public health reporting and disease surveillance, and emerging technologies (AI, ambient docs, IoMT).",
+          "lessons": 33,
+          "duration": "619",
           "progress": 0,
           "category": "him",
           "lessonList": [
@@ -1396,6 +1396,1798 @@ window.HITT_1211_BOOK = {
         "type": "diagram",
         "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 2 Game Plan</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">60 questions, Chapters 4–7</text><rect x=\"50\" y=\"330\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"380\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">1. Course-key answers</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">Realistic, best of fit,</text><text x=\"90\" y=\"471\" fill=\"#fff\" font-size=\"24\">alpha, parallel, EIS</text><rect x=\"562\" y=\"330\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"380\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">2. Both vocabularies</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">Go-live and testing: guide</text><text x=\"602\" y=\"471\" fill=\"#fff\" font-size=\"24\">words and book words</text><rect x=\"50\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">3. Compare pairs</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">Fit/breed, pilot/phased,</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">MPI/EMPI, DSS/EIS</text><rect x=\"562\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"590\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">4. CYU questions</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">All chapters; note the</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">Appendix B oddities</text><rect x=\"50\" y=\"750\" width=\"1000\" height=\"150\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">5. Retake quizzes</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Until every answer feels automatic</text></svg>",
         "caption": "Exam 2 study steps"
+      }
+    }
+  ]
+},
+{
+  "id": "hitt-1211-exam2-quizlet",
+  "title": "Practice Quiz: Exam 2 Quizlet",
+  "duration": 30,
+  "completed": false,
+  "cards": [
+    {
+      "type": "intro",
+      "title": "Exam 2 Quizlet: Practice Quiz",
+      "content": "This is the **Quizlet that matches your instructor's Exam 2 Final Review Checklist** (Quizlet set 'Test 2 266'). Its questions run through the checklist in order, forward for Chapter 4, backward for Chapter 5, forward for Chapter 6, which is the sign that it is her actual test. It also has all five practice questions she gave you, word for word.\n\n• **Questions 1–49:** the Quizlet, in its own order, with the **Quizlet's answers** (her key). Where the book says something different, the explanation tells you, so you know both.\n• **Questions 50–63:** **Chapter 7**, which the Quizlet is missing (checklist items 36–46: HRIS, financial systems, EMPI, R-ADT, scheduling, practice management, facilities, EIS, DSS, materials management, algorithms). Her exam has 60 questions, so these are most likely the missing ones. Answers come from your **graded Chapter 7 quiz** (her key) and the book.\n\n**Watch these key-vs-book conflicts:** Q17 transcription (book: dictation), Q21 data abstracting (book never says obsolete), Q9 evaluation only (book adds maintenance), Q31 Design (answer key; chapter text says analysis), and Q58 (physician vs. NP time) = EIS on her key (book key: practice management).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 2 Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">49 Quizlet questions + 14 Chapter 7</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">questions</text><rect x=\"80\" y=\"397\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"445\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"489\" fill=\"#fff\" font-size=\"24\">Learn the Quizlet answers as her key; the book version is</text><text x=\"110\" y=\"531\" fill=\"#fff\" font-size=\"24\">noted wherever it differs.</text></svg>",
+        "caption": "How this practice quiz is built"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The project team is collecting data from system users regarding their needs. They must be in which stage of the system life cycle?",
+      "options": [
+        {
+          "text": "Support and evaluation",
+          "correct": false
+        },
+        {
+          "text": "Design",
+          "correct": false
+        },
+        {
+          "text": "Implementation",
+          "correct": false
+        },
+        {
+          "text": "Planning and analysis",
+          "correct": true
+        }
+      ],
+      "explanation": "**Planning and analysis.** User and organizational needs are identified during planning and analysis. Also one of your instructor's practice questions.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q1 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Planning and analysis</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"196\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">User and organizational needs are identified during</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">planning and analysis. Also one of your instructor's</text><text x=\"110\" y=\"527\" fill=\"#fff\" font-size=\"24\">practice questions.</text></svg>",
+        "caption": "Exam 2 Quizlet Q1"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The EHR that is currently being selected was initially planned for the inpatients at the hospital. Now the CIO has instructed the project management team to purchase one that works for both the inpatient and ambulatory services. This is an example of _____.",
+      "options": [
+        {
+          "text": "Buy-in",
+          "correct": false
+        },
+        {
+          "text": "Scope creep",
+          "correct": true
+        },
+        {
+          "text": "Project definition",
+          "correct": false
+        },
+        {
+          "text": "Project management",
+          "correct": false
+        }
+      ],
+      "explanation": "**Scope creep.** Additions after the project has begun. Also one of your instructor's practice questions.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q2 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Scope creep</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Additions after the project has begun. Also one of your</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">instructor's practice questions.</text></svg>",
+        "caption": "Exam 2 Quizlet Q2"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Testing has identified an issue. This issue should be documented in the _____.",
+      "options": [
+        {
+          "text": "Evaluation",
+          "correct": false
+        },
+        {
+          "text": "Work flow",
+          "correct": false
+        },
+        {
+          "text": "Trouble ticket",
+          "correct": true
+        },
+        {
+          "text": "Project plan",
+          "correct": false
+        }
+      ],
+      "explanation": "**Trouble ticket.** Problems found in testing are logged on trouble tickets, and the IS is retested after each fix.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q3 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Trouble ticket</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Problems found in testing are logged on trouble tickets,</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">and the IS is retested after each fix.</text></svg>",
+        "caption": "Exam 2 Quizlet Q3"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "When a project implementation team member enters the number of days after which the bill drops, the services performed, and other information about how the system should function, what part of the implementation is being performed?",
+      "options": [
+        {
+          "text": "Data conversion",
+          "correct": false
+        },
+        {
+          "text": "Setting configuration",
+          "correct": true
+        },
+        {
+          "text": "Programming",
+          "correct": false
+        },
+        {
+          "text": "Conversion",
+          "correct": false
+        }
+      ],
+      "explanation": "**Setting configuration.** Setting configuration tells the IS how to work for this organization (bill-drop days, services, and so on).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q4 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Setting configuration</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Setting configuration tells the IS how to work for this</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">organization (bill-drop days, services, and so on).</text></svg>",
+        "caption": "Exam 2 Quizlet Q4"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is accomplished during system evaluation?",
+      "options": [
+        {
+          "text": "Support users during go-live",
+          "correct": false
+        },
+        {
+          "text": "Learn what worked and what did not",
+          "correct": true
+        },
+        {
+          "text": "Create documentation required to continue use of the IS",
+          "correct": false
+        },
+        {
+          "text": "Ensure system is working properly",
+          "correct": false
+        }
+      ],
+      "explanation": "**Learn what worked and what did not.** System evaluation looks back at the project to learn what worked and what did not.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q5 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Learn what worked and what did not</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">System evaluation looks back at the project to learn what</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">worked and what did not.</text></svg>",
+        "caption": "Exam 2 Quizlet Q5"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "During implementation, an evaluation of the facility's processes should be conducted. This evaluation is known as _____.",
+      "options": [
+        {
+          "text": "Test environment",
+          "correct": false
+        },
+        {
+          "text": "Evaluation and support",
+          "correct": false
+        },
+        {
+          "text": "Reengineering",
+          "correct": true
+        },
+        {
+          "text": "Change management",
+          "correct": false
+        }
+      ],
+      "explanation": "**Reengineering.** Reengineering evaluates and redesigns processes; keep asking why.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q6 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Reengineering</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Reengineering evaluates and redesigns processes; keep</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">asking why.</text></svg>",
+        "caption": "Exam 2 Quizlet Q6"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The healthcare facility has decided to test the new EHR to ensure that it meets the functional requirements. They plan to conduct _____ testing.",
+      "options": [
+        {
+          "text": "Application",
+          "correct": true
+        },
+        {
+          "text": "Documentation",
+          "correct": false
+        },
+        {
+          "text": "Volume",
+          "correct": false
+        },
+        {
+          "text": "Acceptance",
+          "correct": false
+        }
+      ],
+      "explanation": "**Application.** Application testing makes sure every function works and the IS meets the functional requirements.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q7 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Application</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Application testing makes sure every function works and</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">the IS meets the functional requirements.</text></svg>",
+        "caption": "Exam 2 Quizlet Q7"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A realistic test environment should be made up of _____.",
+      "options": [
+        {
+          "text": "An exact replica of the IS to be used including data",
+          "correct": false
+        },
+        {
+          "text": "An exact replica of the IS to be used excluding data",
+          "correct": true
+        },
+        {
+          "text": "Both the IS and the documentation to be followed",
+          "correct": false
+        },
+        {
+          "text": "A subset of features that change as the type of testing changes",
+          "correct": false
+        }
+      ],
+      "explanation": "**An exact replica of the IS to be used excluding data.** The test environment duplicates the live IS but not the live data.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q8 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">An exact replica of the IS to be used</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">excluding data</text><rect x=\"80\" y=\"397\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"445\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"489\" fill=\"#fff\" font-size=\"24\">The test environment duplicates the live IS but not the</text><text x=\"110\" y=\"531\" fill=\"#fff\" font-size=\"24\">live data.</text></svg>",
+        "caption": "Exam 2 Quizlet Q8"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is an accurate assessment of the statement: Once the system is operational and is working well, then the implementation process is over?",
+      "options": [
+        {
+          "text": "The statement is true",
+          "correct": false
+        },
+        {
+          "text": "The statement is inaccurate because there should be an evaluation of the implementation.",
+          "correct": true
+        },
+        {
+          "text": "The statement is inaccurate because there should be an evaluation of the implementation as well as ongoing maintenance.",
+          "correct": false
+        },
+        {
+          "text": "The statement is true because the acceptance testing has been done.",
+          "correct": false
+        }
+      ],
+      "explanation": "**The statement is inaccurate because there should be an evaluation of the implementation..** Implementation is not over until the implementation has been evaluated.\n\n**Book says otherwise:** the book's life cycle also includes ongoing IS maintenance, so the evaluation-plus-maintenance option fits the book better. Use this answer for her test; know the book's version as backup.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q9 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"218\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">The statement is inaccurate because</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">there should be an evaluation of the</text><text x=\"110\" y=\"327\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">implementation.</text><rect x=\"80\" y=\"443\" width=\"940\" height=\"196\" rx=\"18\" fill=\"rgba(239,68,68,0.12)\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"110\" y=\"491\" fill=\"#ef4444\" font-size=\"26\" font-weight=\"bold\">Book says otherwise</text><text x=\"110\" y=\"535\" fill=\"#fff\" font-size=\"24\">the book's life cycle also includes ongoing IS</text><text x=\"110\" y=\"577\" fill=\"#fff\" font-size=\"24\">maintenance, so the evaluation-plus-maintenance option</text><text x=\"110\" y=\"619\" fill=\"#fff\" font-size=\"24\">fits the book better.</text></svg>",
+        "caption": "Exam 2 Quizlet Q9"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement regarding training in the following list.",
+      "options": [
+        {
+          "text": "Training should be limited to the information system only.",
+          "correct": false
+        },
+        {
+          "text": "Training should be performed a minimum of six months prior to implementation of the IS.",
+          "correct": false
+        },
+        {
+          "text": "In order to facilitate training, all employees should receive the exact same training regardless of their position.",
+          "correct": false
+        },
+        {
+          "text": "A variety of methods should be used to accommodate different learning styles",
+          "correct": true
+        }
+      ],
+      "explanation": "**A variety of methods should be used to accommodate different learning styles.** Training is role-based and uses varied methods; it is done close to go-live, not six months early.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q10 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">A variety of methods should be used to</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">accommodate different learning styles</text><rect x=\"80\" y=\"397\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"445\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"489\" fill=\"#fff\" font-size=\"24\">Training is role-based and uses varied methods; it is done</text><text x=\"110\" y=\"531\" fill=\"#fff\" font-size=\"24\">close to go-live, not six months early.</text></svg>",
+        "caption": "Exam 2 Quizlet Q10"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement about training resources provided to the employees.",
+      "options": [
+        {
+          "text": "Training materials are not required",
+          "correct": false
+        },
+        {
+          "text": "The employee should keep these in order to refer to the materials later.",
+          "correct": true
+        },
+        {
+          "text": "These should be collected at the end of training to be used in the next session.",
+          "correct": false
+        },
+        {
+          "text": "The content should not include objectives or the agenda",
+          "correct": false
+        }
+      ],
+      "explanation": "**The employee should keep these in order to refer to the materials later..** Training materials are for employees to keep and refer back to.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q11 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">The employee should keep these in order</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">to refer to the materials later.</text><rect x=\"80\" y=\"397\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"445\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"489\" fill=\"#fff\" font-size=\"24\">Training materials are for employees to keep and refer</text><text x=\"110\" y=\"531\" fill=\"#fff\" font-size=\"24\">back to.</text></svg>",
+        "caption": "Exam 2 Quizlet Q11"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following should the healthcare facility do prior to initiating a search for an information system?",
+      "options": [
+        {
+          "text": "Conduct a feasibility study",
+          "correct": true
+        },
+        {
+          "text": "Establish the budget",
+          "correct": false
+        },
+        {
+          "text": "Establish the user task force",
+          "correct": false
+        },
+        {
+          "text": "Create project plan",
+          "correct": false
+        }
+      ],
+      "explanation": "**Conduct a feasibility study.** A feasibility study decides whether the proposed IS is practical before the search begins.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q12 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Conduct a feasibility study</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">A feasibility study decides whether the proposed IS is</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">practical before the search begins.</text></svg>",
+        "caption": "Exam 2 Quizlet Q12"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A facility has decided to implement one module of the IS across the entire healthcare facility, a strategy known as _____.",
+      "options": [
+        {
+          "text": "Pilot",
+          "correct": false
+        },
+        {
+          "text": "Big bang",
+          "correct": false
+        },
+        {
+          "text": "Phased",
+          "correct": true
+        },
+        {
+          "text": "Parallel",
+          "correct": false
+        }
+      ],
+      "explanation": "**Phased.** Phased = one module at a time across the organization. Pilot = the whole IS in one area first.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q13 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Phased</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Phased = one module at a time across the organization.</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">Pilot = the whole IS in one area first.</text></svg>",
+        "caption": "Exam 2 Quizlet Q13"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "If a coding manager wanted to evaluate the impact of sequence changes of ICD-10-CM codes on the MS-DRG assignment for cardiac inpatients, which software would be used?",
+      "options": [
+        {
+          "text": "Disclosure management",
+          "correct": false
+        },
+        {
+          "text": "Chart deficiency",
+          "correct": false
+        },
+        {
+          "text": "Encoder",
+          "correct": false
+        },
+        {
+          "text": "Grouper",
+          "correct": true
+        }
+      ],
+      "explanation": "**Grouper.** The grouper assigns MS-DRGs from the codes and their sequence.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q14 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Grouper</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The grouper assigns MS-DRGs from the codes and their</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">sequence.</text></svg>",
+        "caption": "Exam 2 Quizlet Q14"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What information system performs part of its activities while the patient is still admitted and then is updated once the patient is discharged in order to improve efficiency to get claims submitted in a timely manner?",
+      "options": [
+        {
+          "text": "ROI",
+          "correct": false
+        },
+        {
+          "text": "Transcription",
+          "correct": false
+        },
+        {
+          "text": "CAC",
+          "correct": true
+        },
+        {
+          "text": "CDI",
+          "correct": false
+        }
+      ],
+      "explanation": "**CAC.** The book: CAC may be done while the patient is still in the hospital and updated after discharge.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q15 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">CAC</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The book: CAC may be done while the patient is still in</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">the hospital and updated after discharge.</text></svg>",
+        "caption": "Exam 2 Quizlet Q15"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which software would identify that Dr. Williams needs to dictate and sign an operative report?",
+      "options": [
+        {
+          "text": "Chart deficiency",
+          "correct": true
+        },
+        {
+          "text": "Chart locator",
+          "correct": false
+        },
+        {
+          "text": "Release of information",
+          "correct": false
+        },
+        {
+          "text": "Quality indicator system",
+          "correct": false
+        }
+      ],
+      "explanation": "**Chart deficiency.** The chart deficiency system tracks missing documentation and signatures.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q16 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chart deficiency</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The chart deficiency system tracks missing documentation</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">and signatures.</text></svg>",
+        "caption": "Exam 2 Quizlet Q16"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following systems would be used primarily by physicians and that may have voice or speech recognition capabilities, rather than HIM department staff?",
+      "options": [
+        {
+          "text": "Dictation system",
+          "correct": false
+        },
+        {
+          "text": "Data quality indicators system",
+          "correct": false
+        },
+        {
+          "text": "Cancer registry system",
+          "correct": false
+        },
+        {
+          "text": "Transcription system",
+          "correct": true
+        }
+      ],
+      "explanation": "**Transcription system.** This is the Quizlet (her test) answer.\n\n**Book says otherwise:** physicians use the DICTATION system; HIM staff use the transcription system. Use this answer for her test; know the book's version as backup.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q17 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Transcription system</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(239,68,68,0.12)\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#ef4444\" font-size=\"26\" font-weight=\"bold\">Book says otherwise</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">physicians use the DICTATION system; HIM staff use the</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">transcription system.</text></svg>",
+        "caption": "Exam 2 Quizlet Q17"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following systems, that is required by HIPAA, can be queried to determine the percentage of responses to ROIs that are sent to attorneys, insurance companies, and covered entities?",
+      "options": [
+        {
+          "text": "Disclosure management system",
+          "correct": true
+        },
+        {
+          "text": "Chart locator system",
+          "correct": false
+        },
+        {
+          "text": "Encoder/grouper",
+          "correct": false
+        },
+        {
+          "text": "CDI system",
+          "correct": false
+        }
+      ],
+      "explanation": "**Disclosure management system.** Disclosure management tracks what was released and to whom (accounting of disclosures).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q18 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Disclosure management system</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Disclosure management tracks what was released and to whom</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">(accounting of disclosures).</text></svg>",
+        "caption": "Exam 2 Quizlet Q18"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "To determine the severity of illness, collaborative staging and TNM staging is performed. This is part of which of the following systems?",
+      "options": [
+        {
+          "text": "Encoder/grouper",
+          "correct": false
+        },
+        {
+          "text": "Cancer registry",
+          "correct": true
+        },
+        {
+          "text": "Release of information system",
+          "correct": false
+        },
+        {
+          "text": "Data quality indicator",
+          "correct": false
+        }
+      ],
+      "explanation": "**Cancer registry.** TNM and collaborative staging belong to the cancer registry.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q19 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Cancer registry</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">TNM and collaborative staging belong to the cancer</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">registry.</text></svg>",
+        "caption": "Exam 2 Quizlet Q19"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "To assist in determining death rates from motor vehicle accidents in the state, which of the following systems would track follow-up rates?",
+      "options": [
+        {
+          "text": "Release of information system",
+          "correct": false
+        },
+        {
+          "text": "Trauma registry",
+          "correct": true
+        },
+        {
+          "text": "Dictation system",
+          "correct": false
+        },
+        {
+          "text": "Encoder/grouper",
+          "correct": false
+        }
+      ],
+      "explanation": "**Trauma registry.** The trauma registry tracks injury cases and follow-up.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q20 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Trauma registry</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"112\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The trauma registry tracks injury cases and follow-up.</text></svg>",
+        "caption": "Exam 2 Quizlet Q20"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following systems is used in a hybrid paper and electronic health record system but is expected to become obsolete when a fully functional and complete EHR system is in place?",
+      "options": [
+        {
+          "text": "Data quality indicator",
+          "correct": false
+        },
+        {
+          "text": "Tumor registry",
+          "correct": false
+        },
+        {
+          "text": "Encoder/grouper",
+          "correct": false
+        },
+        {
+          "text": "Data abstracting",
+          "correct": true
+        }
+      ],
+      "explanation": "**Data abstracting.** This is the Quizlet (her test) answer; the card's choices were garbled on Quizlet.\n\n**Book says otherwise:** the book never says data abstracting becomes obsolete; it is the key function of the quality indicator system. Use this answer for her test; know the book's version as backup.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q21 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Data abstracting</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(239,68,68,0.12)\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#ef4444\" font-size=\"26\" font-weight=\"bold\">Book says otherwise</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">the book never says data abstracting becomes obsolete; it</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">is the key function of the quality indicator system.</text></svg>",
+        "caption": "Exam 2 Quizlet Q21"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "When a healthcare facility decides to use the best of breed strategy, which of the following is true?",
+      "options": [
+        {
+          "text": "The information systems purchased are easier to manage",
+          "correct": false
+        },
+        {
+          "text": "The various information systems must be interfaced.",
+          "correct": true
+        },
+        {
+          "text": "The information systems purchased are from the same vendor",
+          "correct": false
+        },
+        {
+          "text": "The various information systems must be integrated.",
+          "correct": false
+        }
+      ],
+      "explanation": "**The various information systems must be interfaced..** Best of breed = different vendors linked by interfaces. Also one of your instructor's practice questions.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q22 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">The various information systems must be</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">interfaced.</text><rect x=\"80\" y=\"397\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"445\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"489\" fill=\"#fff\" font-size=\"24\">Best of breed = different vendors linked by interfaces.</text><text x=\"110\" y=\"531\" fill=\"#fff\" font-size=\"24\">Also one of your instructor's practice questions.</text></svg>",
+        "caption": "Exam 2 Quizlet Q22"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Kelly, the CDI specialist, is evaluating the information used by the coding professionals when they need to code various surgeries. She is particularly interested in the time lag between the actual surgical procedure and when the pathology diagnosis is determined. In which information system would the data element principal procedure be found?",
+      "options": [
+        {
+          "text": "Transcription system",
+          "correct": false
+        },
+        {
+          "text": "Encoder/grouper",
+          "correct": true
+        },
+        {
+          "text": "Data quality indicator",
+          "correct": false
+        },
+        {
+          "text": "Tumor registry",
+          "correct": false
+        }
+      ],
+      "explanation": "**Encoder/grouper.** Principal procedure is one of the book's encoder/grouper data elements.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q23 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Encoder/grouper</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Principal procedure is one of the book's encoder/grouper</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">data elements.</text></svg>",
+        "caption": "Exam 2 Quizlet Q23"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Sarah is the CDI coordinator and knows that healthcare quality indicator reporting is used to help performance improvement for healthcare professionals delivering patient care. She needs to hire an employee who is meticulous and detail-oriented to perform what essential HIM function that provides the data for the healthcare quality indicator system?",
+      "options": [
+        {
+          "text": "CAC",
+          "correct": false
+        },
+        {
+          "text": "Chart deficiency analysis",
+          "correct": false
+        },
+        {
+          "text": "Data abstracting",
+          "correct": true
+        },
+        {
+          "text": "Dictation and transcription",
+          "correct": false
+        }
+      ],
+      "explanation": "**Data abstracting.** Abstracting is the key function of the quality indicator system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q24 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Data abstracting</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Abstracting is the key function of the quality indicator</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">system.</text></svg>",
+        "caption": "Exam 2 Quizlet Q24"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following statements is true?",
+      "options": [
+        {
+          "text": "The release of information system's letters communicates with the requester.",
+          "correct": true
+        },
+        {
+          "text": "The release of information staff rarely utilize the reporting function.",
+          "correct": false
+        },
+        {
+          "text": "The release of information system's letters are only used to send letters to administration.",
+          "correct": false
+        },
+        {
+          "text": "The release of information staff probably do not use the letter capabilities as communication with those outside the department.",
+          "correct": false
+        }
+      ],
+      "explanation": "**The release of information system's letters communicates with the requester..** ROI letters (cover letters, invalid-authorization letters) go to the requester.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q25 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">The release of information system's</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">letters communicates with the requester.</text><rect x=\"80\" y=\"397\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"445\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"489\" fill=\"#fff\" font-size=\"24\">ROI letters (cover letters, invalid-authorization letters)</text><text x=\"110\" y=\"531\" fill=\"#fff\" font-size=\"24\">go to the requester.</text></svg>",
+        "caption": "Exam 2 Quizlet Q25"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "To assist in determining death rates from lung cancer, which of the following would be used as a function of the cancer registry software?",
+      "options": [
+        {
+          "text": "Entering the device implanted",
+          "correct": false
+        },
+        {
+          "text": "Invoicing requester",
+          "correct": false
+        },
+        {
+          "text": "Checking social security death index",
+          "correct": true
+        },
+        {
+          "text": "Resequencing diagnoses",
+          "correct": false
+        }
+      ],
+      "explanation": "**Checking social security death index.** The cancer registry follows patients, including checking the Social Security Death Index.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q26 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Checking social security death index</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The cancer registry follows patients, including checking</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">the Social Security Death Index.</text></svg>",
+        "caption": "Exam 2 Quizlet Q26"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The PERT chart shows if there is slippage in the implementation date. This slippage is shown by ___.",
+      "options": [
+        {
+          "text": "Critical path",
+          "correct": true
+        },
+        {
+          "text": "Project plan",
+          "correct": false
+        },
+        {
+          "text": "Dependencies",
+          "correct": false
+        },
+        {
+          "text": "Gantt chart",
+          "correct": false
+        }
+      ],
+      "explanation": "**Critical path.** The critical path is the longest route to completion; a slip on it delays the project.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q27 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Critical path</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The critical path is the longest route to completion; a</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">slip on it delays the project.</text></svg>",
+        "caption": "Exam 2 Quizlet Q27"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the tool that shows a work process.",
+      "options": [
+        {
+          "text": "Interviews",
+          "correct": false
+        },
+        {
+          "text": "Observation",
+          "correct": false
+        },
+        {
+          "text": "Flowchart",
+          "correct": true
+        },
+        {
+          "text": "Questionnaires",
+          "correct": false
+        }
+      ],
+      "explanation": "**Flowchart.** Flowcharts use standard symbols for each step of a process.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q28 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Flowchart</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Flowcharts use standard symbols for each step of a</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">process.</text></svg>",
+        "caption": "Exam 2 Quizlet Q28"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following can assist protecting the company's interest in case the vendor goes out of business?",
+      "options": [
+        {
+          "text": "Warranty",
+          "correct": false
+        },
+        {
+          "text": "Escrow",
+          "correct": true
+        },
+        {
+          "text": "Force majeure",
+          "correct": false
+        },
+        {
+          "text": "Prototype",
+          "correct": false
+        }
+      ],
+      "explanation": "**Escrow.** Escrow = a third party holds the source code in case the vendor fails.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q29 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Escrow</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Escrow = a third party holds the source code in case the</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">vendor fails.</text></svg>",
+        "caption": "Exam 2 Quizlet Q29"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A weighted decision matrix is used to ____.",
+      "options": [
+        {
+          "text": "Identify the structure of the project",
+          "correct": false
+        },
+        {
+          "text": "Select the IS to be purchased",
+          "correct": true
+        },
+        {
+          "text": "Identify the functional requirements needed",
+          "correct": false
+        },
+        {
+          "text": "Negotiate the contract",
+          "correct": false
+        }
+      ],
+      "explanation": "**Select the IS to be purchased.** The weighted decision matrix compares vendors to pick the best IS.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q30 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Select the IS to be purchased</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The weighted decision matrix compares vendors to pick the</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">best IS.</text></svg>",
+        "caption": "Exam 2 Quizlet Q30"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The SDLC phase that identifies the functions that are needed in an IS is ________.",
+      "options": [
+        {
+          "text": "Planning and analysis",
+          "correct": false
+        },
+        {
+          "text": "Maintenance and evaluation",
+          "correct": false
+        },
+        {
+          "text": "Implementation",
+          "correct": false
+        },
+        {
+          "text": "Design",
+          "correct": true
+        }
+      ],
+      "explanation": "**Design.** Design matches the book's answer key (Appendix B).\n\n**Book says otherwise:** the chapter text places functional requirements in systems analysis; the answer key says Design. Use this answer for her test; know the book's version as backup.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q31 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Design</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(239,68,68,0.12)\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#ef4444\" font-size=\"26\" font-weight=\"bold\">Book says otherwise</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">the chapter text places functional requirements in systems</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">analysis; the answer key says Design.</text></svg>",
+        "caption": "Exam 2 Quizlet Q31"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the step that would allow the facility to learn of a new legislation.",
+      "options": [
+        {
+          "text": "External scanning",
+          "correct": true
+        },
+        {
+          "text": "Request for information",
+          "correct": false
+        },
+        {
+          "text": "Request for proposal",
+          "correct": false
+        },
+        {
+          "text": "Internal scanning",
+          "correct": false
+        }
+      ],
+      "explanation": "**External scanning.** External scanning looks outside the organization (laws, competitors, technology). Same as your graded ch 4 quiz.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q32 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">External scanning</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">External scanning looks outside the organization (laws,</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">competitors, technology). Same as your graded ch 4 quiz.</text></svg>",
+        "caption": "Exam 2 Quizlet Q32"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which component of the request for proposal provides the size of the healthcare facility and the number of employees who will utilize the information system?",
+      "options": [
+        {
+          "text": "Request for vendor profile",
+          "correct": false
+        },
+        {
+          "text": "Description of the proposed system",
+          "correct": false
+        },
+        {
+          "text": "Information for potential vendors",
+          "correct": true
+        },
+        {
+          "text": "Letter of introduction",
+          "correct": false
+        }
+      ],
+      "explanation": "**Information for potential vendors.** This RFP section describes the organization: size, employees, users, locations, volumes.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q33 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Information for potential vendors</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">This RFP section describes the organization: size,</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">employees, users, locations, volumes.</text></svg>",
+        "caption": "Exam 2 Quizlet Q33"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The hospital has gone into a partnership with an IS vendor. The hospital will be the first healthcare facility to utilize the EHR under development. The hospital is known as a(n) ______.",
+      "options": [
+        {
+          "text": "Alpha site",
+          "correct": true
+        },
+        {
+          "text": "Project plan",
+          "correct": false
+        },
+        {
+          "text": "Beta site",
+          "correct": false
+        },
+        {
+          "text": "Critical path",
+          "correct": false
+        }
+      ],
+      "explanation": "**Alpha site.** Alpha site = the first facility to use the IS. Beta = later test sites.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q34 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Alpha site</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Alpha site = the first facility to use the IS. Beta =</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">later test sites.</text></svg>",
+        "caption": "Exam 2 Quizlet Q34"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Controlling how an IS works is impacted by ___.",
+      "options": [
+        {
+          "text": "Reengineering",
+          "correct": false
+        },
+        {
+          "text": "Setting configuration",
+          "correct": true
+        },
+        {
+          "text": "Interfaces",
+          "correct": false
+        },
+        {
+          "text": "Policies and procedures",
+          "correct": false
+        }
+      ],
+      "explanation": "**Setting configuration.** Settings control how the IS behaves.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q35 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Setting configuration</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"112\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Settings control how the IS behaves.</text></svg>",
+        "caption": "Exam 2 Quizlet Q35"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Making room for new computers is part of which of the following?",
+      "options": [
+        {
+          "text": "Flow charting",
+          "correct": false
+        },
+        {
+          "text": "System selection",
+          "correct": false
+        },
+        {
+          "text": "Reengineering",
+          "correct": false
+        },
+        {
+          "text": "Site preparation",
+          "correct": true
+        }
+      ],
+      "explanation": "**Site preparation.** Site preparation = changes to the physical location where hardware will be installed.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q36 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Site preparation</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Site preparation = changes to the physical location where</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">hardware will be installed.</text></svg>",
+        "caption": "Exam 2 Quizlet Q36"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is used to interact with computer?",
+      "options": [
+        {
+          "text": "GUI",
+          "correct": true
+        },
+        {
+          "text": "Policies and procedures",
+          "correct": false
+        },
+        {
+          "text": "Conversion",
+          "correct": false
+        },
+        {
+          "text": "Reengineering",
+          "correct": false
+        }
+      ],
+      "explanation": "**GUI.** The graphical user interface uses icons and images to interact with the computer.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q37 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">GUI</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The graphical user interface uses icons and images to</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">interact with the computer.</text></svg>",
+        "caption": "Exam 2 Quizlet Q37"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Where is an update to software loaded first, before the users start using it, to ensure it works as expected?",
+      "options": [
+        {
+          "text": "Test environment",
+          "correct": true
+        },
+        {
+          "text": "Pilot implementation",
+          "correct": false
+        },
+        {
+          "text": "Production environment",
+          "correct": false
+        },
+        {
+          "text": "Training environment",
+          "correct": false
+        }
+      ],
+      "explanation": "**Test environment.** Updates are tested in the test environment before going live.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q38 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Test environment</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Updates are tested in the test environment before going</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">live.</text></svg>",
+        "caption": "Exam 2 Quizlet Q38"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The implementation stage when the team determines what they could have done better is known as",
+      "options": [
+        {
+          "text": "Support and evaluation",
+          "correct": true
+        },
+        {
+          "text": "Testing",
+          "correct": false
+        },
+        {
+          "text": "Training",
+          "correct": false
+        },
+        {
+          "text": "System analysis",
+          "correct": false
+        }
+      ],
+      "explanation": "**Support and evaluation.** Evaluation looks back at what could have been done better.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q39 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Support and evaluation</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"112\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Evaluation looks back at what could have been done better.</text></svg>",
+        "caption": "Exam 2 Quizlet Q39"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The information system used to notify requesters of invalid authorization is called a(n) ___.",
+      "options": [
+        {
+          "text": "Encoder",
+          "correct": false
+        },
+        {
+          "text": "Registry",
+          "correct": false
+        },
+        {
+          "text": "Grouper",
+          "correct": false
+        },
+        {
+          "text": "Release of information",
+          "correct": true
+        }
+      ],
+      "explanation": "**Release of information.** The ROI system sends letters to requesters, including invalid-authorization notices.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q40 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Release of information</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The ROI system sends letters to requesters, including</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">invalid-authorization notices.</text></svg>",
+        "caption": "Exam 2 Quizlet Q40"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which information system would keep track of what health information was sent to authorized requestors?",
+      "options": [
+        {
+          "text": "Disclosure management",
+          "correct": true
+        },
+        {
+          "text": "Encoder",
+          "correct": false
+        },
+        {
+          "text": "Grouper",
+          "correct": false
+        },
+        {
+          "text": "Release of information",
+          "correct": false
+        }
+      ],
+      "explanation": "**Disclosure management.** Disclosure management tracks what was sent and to whom.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q41 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Disclosure management</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"112\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Disclosure management tracks what was sent and to whom.</text></svg>",
+        "caption": "Exam 2 Quizlet Q41"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which information system tracks the location of the paper health record?",
+      "options": [
+        {
+          "text": "Disclosure management",
+          "correct": false
+        },
+        {
+          "text": "Chart locator",
+          "correct": true
+        },
+        {
+          "text": "Chart deficiency",
+          "correct": false
+        },
+        {
+          "text": "Release of information",
+          "correct": false
+        }
+      ],
+      "explanation": "**Chart locator.** The chart locator tracks where paper records are (slides 35-38).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q42 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chart locator</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The chart locator tracks where paper records are (slides</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">35-38).</text></svg>",
+        "caption": "Exam 2 Quizlet Q42"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A physician speaks into a phone and gives a summary of the patient's care, which is later transcribed. What type of information system is the physician using?",
+      "options": [
+        {
+          "text": "Dictation",
+          "correct": true
+        },
+        {
+          "text": "Chart locator",
+          "correct": false
+        },
+        {
+          "text": "Quality indicator monitoring",
+          "correct": false
+        },
+        {
+          "text": "Chart deficiency",
+          "correct": false
+        }
+      ],
+      "explanation": "**Dictation.** Physicians record reports into the dictation system; HIM transcribes them.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q43 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Dictation</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Physicians record reports into the dictation system; HIM</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">transcribes them.</text></svg>",
+        "caption": "Exam 2 Quizlet Q43"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is an open-ended question?",
+      "options": [
+        {
+          "text": "Do you like the current information system?",
+          "correct": false
+        },
+        {
+          "text": "Do you believe the current information system should be replaced?",
+          "correct": false
+        },
+        {
+          "text": "How does the current information system meet your needs?",
+          "correct": true
+        },
+        {
+          "text": "On a scale of 1 to 5, with 5 being the best, how does the current information system meet your needs?",
+          "correct": false
+        }
+      ],
+      "explanation": "**How does the current information system meet your needs?.** Open-ended questions let people answer in their own words.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q44 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">How does the current information system</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">meet your needs?</text><rect x=\"80\" y=\"397\" width=\"940\" height=\"112\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"445\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"489\" fill=\"#fff\" font-size=\"24\">Open-ended questions let people answer in their own words.</text></svg>",
+        "caption": "Exam 2 Quizlet Q44"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What information system converts the spoken word into a documented word and may reduce the need to have human transcriptionists?",
+      "options": [
+        {
+          "text": "Voice recognition",
+          "correct": true
+        },
+        {
+          "text": "Registries",
+          "correct": false
+        },
+        {
+          "text": "MS-DRGs",
+          "correct": false
+        },
+        {
+          "text": "CDI",
+          "correct": false
+        }
+      ],
+      "explanation": "**Voice recognition.** Same as your graded ch 6 quiz.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q45 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Voice recognition</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"112\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Same as your graded ch 6 quiz.</text></svg>",
+        "caption": "Exam 2 Quizlet Q45"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The vendor is scheduled to receive 30 percent of their payment when the software is delivered. This is an example of a _____.",
+      "options": [
+        {
+          "text": "Escrow",
+          "correct": false
+        },
+        {
+          "text": "Payment milestone",
+          "correct": true
+        },
+        {
+          "text": "Source code",
+          "correct": false
+        },
+        {
+          "text": "Force majeure",
+          "correct": false
+        }
+      ],
+      "explanation": "**Payment milestone.** An action that triggers payment to the vendor. Also one of your instructor's practice questions.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q46 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Payment milestone</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">An action that triggers payment to the vendor. Also one of</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">your instructor's practice questions.</text></svg>",
+        "caption": "Exam 2 Quizlet Q46"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Three members of the project team are conducting a site visit for an EHR under consideration. This is an example of a(n) _____.",
+      "options": [
+        {
+          "text": "Evaluation",
+          "correct": true
+        },
+        {
+          "text": "Functional requirement",
+          "correct": false
+        },
+        {
+          "text": "System analysis",
+          "correct": false
+        },
+        {
+          "text": "Request for proposal",
+          "correct": false
+        }
+      ],
+      "explanation": "**Evaluation.** A site visit is part of evaluating the proposed system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q47 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Evaluation</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"112\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">A site visit is part of evaluating the proposed system.</text></svg>",
+        "caption": "Exam 2 Quizlet Q47"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In order to determine what users need in an information system, which tool should be used?",
+      "options": [
+        {
+          "text": "Questionnaire",
+          "correct": true
+        },
+        {
+          "text": "Weighted system",
+          "correct": false
+        },
+        {
+          "text": "Trouble ticket",
+          "correct": false
+        },
+        {
+          "text": "Source code",
+          "correct": false
+        }
+      ],
+      "explanation": "**Questionnaire.** Questionnaires reach many users at once (also interviews, observation, flowcharts).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q48 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Questionnaire</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Questionnaires reach many users at once (also interviews,</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">observation, flowcharts).</text></svg>",
+        "caption": "Exam 2 Quizlet Q48"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What should be reviewed to learn about the vendor's financial status, the number of installs of the information system, sample resumes, and more?",
+      "options": [
+        {
+          "text": "Request for proposal",
+          "correct": true
+        },
+        {
+          "text": "Contract",
+          "correct": false
+        },
+        {
+          "text": "Functional requirements",
+          "correct": false
+        },
+        {
+          "text": "Request for information",
+          "correct": false
+        }
+      ],
+      "explanation": "**Request for proposal.** The vendor's RFP response includes financial status, installs and staff resumes.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q49 · Quizlet</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Request for proposal</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">The vendor's RFP response includes financial status,</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">installs and staff resumes.</text></svg>",
+        "caption": "Exam 2 Quizlet Q49"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The HRIS would track which of the following?",
+      "options": [
+        {
+          "text": "employee certification status",
+          "correct": true
+        },
+        {
+          "text": "reimbursements received from CMS",
+          "correct": false
+        },
+        {
+          "text": "inventory supplies",
+          "correct": false
+        },
+        {
+          "text": "R-ADT",
+          "correct": false
+        }
+      ],
+      "explanation": "**employee certification status.** 36 HRIS: tracks personnel issues such as certification status.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q50 · Ch 7 · her graded quiz</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">employee certification status</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">36 HRIS: tracks personnel issues such as certification</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">status.</text></svg>",
+        "caption": "Exam 2 Quizlet Q50"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which information system can the HIM director use to determine salaries, assist in hiring new staff, evaluate turnover rates, and track training sessions?",
+      "options": [
+        {
+          "text": "practice management",
+          "correct": false
+        },
+        {
+          "text": "materials management",
+          "correct": false
+        },
+        {
+          "text": "facilities management",
+          "correct": false
+        },
+        {
+          "text": "human resources",
+          "correct": true
+        }
+      ],
+      "explanation": "**human resources.** 36 HRIS: salaries, hiring, turnover and training = human resources.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q51 · Ch 7 · her graded quiz</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">human resources</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">36 HRIS: salaries, hiring, turnover and training = human</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">resources.</text></svg>",
+        "caption": "Exam 2 Quizlet Q51"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is the name of the financial management software that contains information about the healthcare facility's charges for the services it provides to patients?",
+      "options": [
+        {
+          "text": "deterministic algorithm",
+          "correct": false
+        },
+        {
+          "text": "revenue cycle",
+          "correct": false
+        },
+        {
+          "text": "R-ADT",
+          "correct": false
+        },
+        {
+          "text": "chargemaster",
+          "correct": true
+        }
+      ],
+      "explanation": "**chargemaster.** 37 Financial: the chargemaster lists the facility's charges for its services.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q52 · Ch 7 · her graded quiz</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">chargemaster</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">37 Financial: the chargemaster lists the facility's</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">charges for its services.</text></svg>",
+        "caption": "Exam 2 Quizlet Q52"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What term is used to describe the process of submitting claims for reimbursement, denials, billing matters, accounting, and any other issues or follow-up on claims?",
+      "options": [
+        {
+          "text": "deterministic algorithm",
+          "correct": false
+        },
+        {
+          "text": "revenue cycle",
+          "correct": true
+        },
+        {
+          "text": "R-ADT",
+          "correct": false
+        },
+        {
+          "text": "chargemaster",
+          "correct": false
+        }
+      ],
+      "explanation": "**revenue cycle.** 37 Financial: claims, denials, billing and follow-up = the revenue cycle.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q53 · Ch 7 · her graded quiz</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">revenue cycle</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">37 Financial: claims, denials, billing and follow-up = the</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">revenue cycle.</text></svg>",
+        "caption": "Exam 2 Quizlet Q53"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which information system is the gateway  into a healthcare facility to identify if a patient has been treated there, contains demographic information to confirm patient identify, and shows if the patient has been treated at other facilities within an IDS?",
+      "options": [
+        {
+          "text": "EMPI",
+          "correct": true
+        },
+        {
+          "text": "EIS",
+          "correct": false
+        },
+        {
+          "text": "HRIS",
+          "correct": false
+        },
+        {
+          "text": "R-ADT",
+          "correct": false
+        }
+      ],
+      "explanation": "**EMPI.** 38 EMPI: the gateway that confirms identity and shows treatment across an IDS.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q54 · Ch 7 · her graded quiz</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">EMPI</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">38 EMPI: the gateway that confirms identity and shows</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">treatment across an IDS.</text></svg>",
+        "caption": "Exam 2 Quizlet Q54"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "During a disaster, which information system would help track the patients movements through the hospital as they go through triage, surgery, intensive care unit (ICU), regular patient care floor, and finally discharge to a rehabilitation facility?",
+      "options": [
+        {
+          "text": "DSS",
+          "correct": false
+        },
+        {
+          "text": "R-ADT",
+          "correct": true
+        },
+        {
+          "text": "HRIS",
+          "correct": false
+        },
+        {
+          "text": "EIS",
+          "correct": false
+        }
+      ],
+      "explanation": "**R-ADT.** 39 R-ADT: tracks patient movement in, out of and around the hospital.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q55 · Ch 7 · her graded quiz</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">R-ADT</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">39 R-ADT: tracks patient movement in, out of and around</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">the hospital.</text></svg>",
+        "caption": "Exam 2 Quizlet Q55"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Tom, the patient care coordinator at Dr. Jones's office, needs to confirm that his patient has appointments at Mercy Hospital for multiple preoperative labs and a surgery. Which information system would help?",
+      "options": [
+        {
+          "text": "Decision support system",
+          "correct": false
+        },
+        {
+          "text": "Executive decision system",
+          "correct": false
+        },
+        {
+          "text": "Scheduling system",
+          "correct": true
+        },
+        {
+          "text": "Facilities management system",
+          "correct": false
+        }
+      ],
+      "explanation": "**Scheduling system.** 40 Scheduling: books patient appointments and resources (book ch 7 review).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q56 · Ch 7 · book</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Scheduling system</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">40 Scheduling: books patient appointments and resources</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">(book ch 7 review).</text></svg>",
+        "caption": "Exam 2 Quizlet Q56"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Julio must coordinate the schedules of five physicians and seven nurse practitioners based on patient needs in a busy internal medicine group practice. Which information system would help?",
+      "options": [
+        {
+          "text": "Materials management",
+          "correct": false
+        },
+        {
+          "text": "Practice management",
+          "correct": true
+        },
+        {
+          "text": "Facilities management",
+          "correct": false
+        },
+        {
+          "text": "Scheduling",
+          "correct": false
+        }
+      ],
+      "explanation": "**Practice management.** 41 Practice management: runs a physician practice, including provider schedules (book ch 7 CYU).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q57 · Ch 7 · book</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Practice management</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">41 Practice management: runs a physician practice,</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">including provider schedules (book ch 7 CYU).</text></svg>",
+        "caption": "Exam 2 Quizlet Q57"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "If the medical office manager wanted to compare the amount of time it takes for a patient to be seen by a physician versus a nurse practitioner, which information system would be helpful in this analysis?",
+      "options": [
+        {
+          "text": "materials management",
+          "correct": false
+        },
+        {
+          "text": "practice management",
+          "correct": false
+        },
+        {
+          "text": "facilities management",
+          "correct": false
+        },
+        {
+          "text": "EIS",
+          "correct": true
+        }
+      ],
+      "explanation": "**EIS.** 41 This is her graded-quiz key: EIS.\n\n**Book says otherwise:** the book's own review key says practice management for this question. Use this answer for her test; know the book's version as backup.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q58 · Ch 7 · her graded quiz</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">EIS</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(239,68,68,0.12)\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#ef4444\" font-size=\"26\" font-weight=\"bold\">Book says otherwise</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">the book's own review key says practice management for</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">this question.</text></svg>",
+        "caption": "Exam 2 Quizlet Q58"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Given the increase in litigation, the risk manager wants to prioritize a safety review of the area most closely aligned with the Joint Commission's focus on the environment of care. Which information system covers that area?",
+      "options": [
+        {
+          "text": "Facilities management",
+          "correct": true
+        },
+        {
+          "text": "Practice management",
+          "correct": false
+        },
+        {
+          "text": "Registration",
+          "correct": false
+        },
+        {
+          "text": "Scheduling",
+          "correct": false
+        }
+      ],
+      "explanation": "**Facilities management.** 42 Facilities management: buildings, grounds, maintenance and safety (book ch 7 CYU).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q59 · Ch 7 · book</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Facilities management</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">42 Facilities management: buildings, grounds, maintenance</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">and safety (book ch 7 CYU).</text></svg>",
+        "caption": "Exam 2 Quizlet Q59"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Every October, the CEO and other members of the upper administrative staff have strategic planning meetings to address the upcoming year's goals and objectives. What information system would assist them in this process?",
+      "options": [
+        {
+          "text": "DSS",
+          "correct": false
+        },
+        {
+          "text": "R-ADT",
+          "correct": false
+        },
+        {
+          "text": "HRIS",
+          "correct": false
+        },
+        {
+          "text": "EIS",
+          "correct": true
+        }
+      ],
+      "explanation": "**EIS.** 43 EIS: helps top administrators with strategic planning.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q60 · Ch 7 · her graded quiz</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">EIS</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"112\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">43 EIS: helps top administrators with strategic planning.</text></svg>",
+        "caption": "Exam 2 Quizlet Q60"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Smith treats highly unusual medical cases requiring many laboratory, radiology, and other diagnostic tests. Hospital administration wants to determine if additional facilities, personnel, and equipment are needed to meet current and future community demands. Which information system would be helpful in this scenario?",
+      "options": [
+        {
+          "text": "DSS",
+          "correct": true
+        },
+        {
+          "text": "R-ADT",
+          "correct": false
+        },
+        {
+          "text": "HRIS",
+          "correct": false
+        },
+        {
+          "text": "EIS",
+          "correct": false
+        }
+      ],
+      "explanation": "**DSS.** 44 DSS: helps decide whether more facilities, staff or equipment are needed.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q61 · Ch 7 · her graded quiz</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">DSS</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">44 DSS: helps decide whether more facilities, staff or</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">equipment are needed.</text></svg>",
+        "caption": "Exam 2 Quizlet Q61"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "If the CFO wanted to evaluate the supply shipping schedule, storage costs for supplies and equipment, timeframes for ordering supplies, and the distribution of equipment and supplies to the correct departments, which information system would facilitate this process?",
+      "options": [
+        {
+          "text": "materials management",
+          "correct": true
+        },
+        {
+          "text": "practice management",
+          "correct": false
+        },
+        {
+          "text": "facilities management",
+          "correct": false
+        },
+        {
+          "text": "EIS",
+          "correct": false
+        }
+      ],
+      "explanation": "**materials management.** 45 Materials management: supplies, shipping, storage and distribution.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q62 · Ch 7 · her graded quiz</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">materials management</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">45 Materials management: supplies, shipping, storage and</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">distribution.</text></svg>",
+        "caption": "Exam 2 Quizlet Q62"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Sam is analyzing HIM software to identify why some individual patients have more than one medical record number. Identify the software that uses algorithms to match duplicate patients.",
+      "options": [
+        {
+          "text": "Decision support system",
+          "correct": false
+        },
+        {
+          "text": "Executive information system",
+          "correct": false
+        },
+        {
+          "text": "Master patient index",
+          "correct": true
+        },
+        {
+          "text": "Enterprise master patient index",
+          "correct": false
+        }
+      ],
+      "explanation": "**Master patient index.** 46 Algorithms: the MPI uses algorithms to find duplicate patients (book ch 7 CYU).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q63 · Ch 7 · book</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Master patient index</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"154\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">46 Algorithms: the MPI uses algorithms to find duplicate</text><text x=\"110\" y=\"485\" fill=\"#fff\" font-size=\"24\">patients (book ch 7 CYU).</text></svg>",
+        "caption": "Exam 2 Quizlet Q63"
+      }
+    },
+    {
+      "type": "application",
+      "title": "Exam 2 Quizlet: How to Use It",
+      "content": "**1.** Take this quiz until you get every Quizlet question right; these are most likely her exact test questions.\n**2.** Learn her key answers even where the book differs (red boxes), but know the book version in case she corrected her key.\n**3.** Drill Questions 50–63 (Chapter 7) until automatic; they are probably the last 10–12 questions on her exam.\n**4.** Then do the Exam 2 Study Guide quiz cards for anything you miss.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 2 game plan</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Quizlet answers = her key</text><rect x=\"80\" y=\"351\" width=\"940\" height=\"112\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"399\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"443\" fill=\"#fff\" font-size=\"24\">Then lock in Chapter 7 from her graded quiz.</text></svg>",
+        "caption": "Study steps"
       }
     }
   ]
