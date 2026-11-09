@@ -475,6 +475,10 @@ class SynthesisApp {
         if (targetView) {
             targetView.classList.add('active');
             this.currentView = viewName;
+            // Keep the bottom bar in step when a tab's screen is opened some other
+            // way (a home-page shortcut, the back button, a restored session).
+            const navMatch = document.querySelector(`.bottom-nav .nav-item[data-view="${viewName}"]`);
+            if (navMatch) this.updateActiveNav(navMatch);
             // Also scroll the view container to top
             targetView.scrollTop = 0;
             // Save current view to localStorage
