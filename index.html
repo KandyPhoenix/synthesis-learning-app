@@ -16,7 +16,6 @@
     <link rel="apple-touch-icon" href="icon.svg">
     <link rel="icon" type="image/svg+xml" href="icon.svg">
     <link rel="stylesheet" href="styles.css?v=20261109b">
-    <link rel="stylesheet" href="random-workout-generator.css?v=20260624z">
     <link rel="stylesheet" href="exam-center.css?v=20260624z">
     <link rel="stylesheet" href="deepstash.css?v=20260727c">
     <link rel="stylesheet" href="crossword.css?v=20260731a">
@@ -666,22 +665,6 @@
                 </div>
             </div>
 
-            <!-- Workout Tracker View -->
-            <div id="workout-view" class="view">
-                <div class="view-header">
-                    <button class="btn-back" id="workout-back-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                            <path d="M19 12H5M12 19l-7-7 7-7"/>
-                        </svg>
-                        Back
-                    </button>
-                    <h1>💪 Health Hub</h1>
-                </div>
-                <div class="workout-content" id="workout-content">
-                    <!-- Dynamically populated -->
-                </div>
-            </div>
-
             <!-- Flashcards View -->
             <div id="flashcards-view" class="view">
                 <div class="view-header">
@@ -746,86 +729,6 @@
                 </div>
             </div>
 
-            <!-- Body Metrics View -->
-            <div id="body-metrics-view" class="view">
-                <div class="view-header">
-                    <button class="btn-back" id="body-metrics-back-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                            <path d="M19 12H5M12 19l-7-7 7-7"/>
-                        </svg>
-                        Back
-                    </button>
-                    <h1>📊 Body Metrics</h1>
-                </div>
-                <div class="body-metrics-content" id="body-metrics-content">
-                    <!-- Dynamically populated -->
-                </div>
-            </div>
-
-            <!-- TRT Protocol View -->
-            <div id="trt-view" class="view">
-                <div class="view-header">
-                    <button class="btn-back" id="trt-back-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                            <path d="M19 12H5M12 19l-7-7 7-7"/>
-                        </svg>
-                        Back
-                    </button>
-                    <h1>💉 TRT Protocol</h1>
-                </div>
-                <div class="trt-content" id="trt-content">
-                    <!-- Dynamically populated -->
-                </div>
-            </div>
-
-            <!-- Supplements View -->
-            <div id="supplements-view" class="view">
-                <div class="view-header">
-                    <button class="btn-back" id="supplements-back-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                            <path d="M19 12H5M12 19l-7-7 7-7"/>
-                        </svg>
-                        Back
-                    </button>
-                    <h1>💊 Supplement Stack</h1>
-                </div>
-                <div class="supplements-content" id="supplements-content">
-                    <!-- Dynamically populated -->
-                </div>
-            </div>
-
-            <!-- Nutrition Planner View -->
-            <div id="nutrition-view" class="view">
-                <div class="view-header">
-                    <button class="btn-back" id="nutrition-back-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                            <path d="M19 12H5M12 19l-7-7 7-7"/>
-                        </svg>
-                        Back
-                    </button>
-                    <h1>🥗 Nutrition Planner</h1>
-                </div>
-                <div class="nutrition-content" id="nutrition-content">
-                    <!-- Dynamically populated -->
-                </div>
-            </div>
-
-            <!-- Nutrition Research / Food Facts View -->
-            <div id="nutrition-research-view" class="view">
-                <div class="view-header">
-                    <button class="btn-back" id="nutrition-research-back-btn">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                            <path d="M19 12H5M12 19l-7-7 7-7"/>
-                        </svg>
-                        Back
-                    </button>
-                    <h1>🔬 Nutrition Research</h1>
-                </div>
-                <div class="nutrition-research-content" id="nutrition-research-content">
-                    <!-- Dynamically populated -->
-                </div>
-            </div>
-
         </main>
 
         <!-- Bottom Navigation -->
@@ -859,15 +762,13 @@
                 </svg>
                 <span>Games</span>
             </button>
-            <button class="nav-item" data-view="workout">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M14.4 14.4 9.6 9.6"></path>
-                    <path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z"></path>
-                    <path d="m21.5 21.5-1.4-1.4"></path>
-                    <path d="M3.9 3.9 2.5 2.5"></path>
-                    <path d="M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z"></path>
+            <button class="nav-item" data-view="exam">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 10 12 5 2 10l10 5 10-5z"></path>
+                    <path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"></path>
+                    <path d="M22 10v6"></path>
                 </svg>
-                <span>Health</span>
+                <span>Exam Hub</span>
             </button>
             <button class="nav-item" data-view="profile">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -877,31 +778,6 @@
                 <span>Profile</span>
             </button>
         </nav>
-
-        <!-- Recipe Assistant Chat Widget -->
-        <div id="recipe-assistant" class="recipe-assistant hidden">
-            <div class="ra-header">
-                <span class="ra-title">Recipe Assistant</span>
-                <button class="ra-close" onclick="toggleRecipeAssistant()" title="Close" aria-label="Close recipe assistant">×</button>
-            </div>
-            <div class="ra-messages" id="ra-messages">
-                <div class="ra-message assistant">
-                    <p>Hi! I'm your Recipe Assistant. Search for recipes by ingredient!</p>
-                    <p class="ra-hint">Try: chicken, beef, pasta, rice, salmon, shrimp, lamb, pork</p>
-                    <p class="ra-hint" style="font-size: 0.75rem; opacity: 0.7;">(Uses TheMealDB - works best with common ingredients)</p>
-                </div>
-            </div>
-            <div class="ra-input-area">
-                <input type="text" id="ra-input" placeholder="Enter an ingredient..." onkeypress="if(event.key==='Enter')searchRecipes()">
-                <button class="ra-send" onclick="searchRecipes()">Search</button>
-            </div>
-        </div>
-        <button id="recipe-fab" class="recipe-fab" onclick="toggleRecipeAssistant()" title="Recipe Assistant" aria-label="Recipe Assistant">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <path d="M3 11h18M3 11v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-9M3 11V9a2 2 0 0 1 2-2h2l1-3h8l1 3h2a2 2 0 0 1 2 2v2"/>
-                <circle cx="12" cy="16" r="2"/>
-            </svg>
-        </button>
 
         <!-- AI Tutor Chat Widget (only shown while viewing a lesson) -->
         <div id="ai-tutor-panel" class="ai-tutor-panel">
@@ -927,7 +803,7 @@
 
     <!-- Scripts -->
     <!-- External category modules must load BEFORE data.js -->
-    <script src="hitt2160-clinical-data.js?v=20260728b"></script>
+    <script src="hitt2160-clinical-data.js?v=20261109c"></script>
     <script src="cdi-fundamentals-data.js?v=20260804a"></script>
     <script src="hitt1349-pharmacology-data.js?v=20260805a"></script>
     <script src="hitt1311-revenue-cycle-data.js?v=20260805b"></script>
@@ -1196,9 +1072,6 @@
     <script src="gamification.js?v=20260624z"></script>
     <script src="active-recall.js?v=20261022d"></script>
     <script src="exam-center.js?v=20260624z"></script>
-    <script src="random-workout-generator.js?v=20260624z"></script>
-    <script src="fitness-tracker.js?v=20260803b"></script>
-    <script src="recipe-assistant.js?v=20260624z"></script>
     <script src="toast.js?v=20260624z"></script>
     <script src="ideas-data.js?v=20260726d"></script>
     <script src="deepstash.js?v=20260727c"></script>
@@ -1230,7 +1103,7 @@
     <script src="coding-bank.js?v=20261022c"></script>
     <script src="coding-bank-2.js?v=20261024a"></script>
     <script src="code-sprint.js?v=20261024a"></script>
-    <script src="app.js?v=20261109b"></script>
+    <script src="app.js?v=20261109c"></script>
     <!-- Firebase compat SDKs — exposes global `firebase` so we can use script tags (no bundler) -->
     <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>

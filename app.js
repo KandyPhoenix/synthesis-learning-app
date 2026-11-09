@@ -92,11 +92,6 @@ class SynthesisApp {
             examCenter = window.examCenter;
         }
 
-        // Initialize fitness tracker
-        if (typeof FitnessTracker !== 'undefined') {
-            window.fitnessTracker = new FitnessTracker(this);
-        }
-
         // Initialize Deepstash-style ideas feed
         if (typeof DeepstashFeed !== 'undefined') {
             window.deepstash = new DeepstashFeed(this);
@@ -450,6 +445,11 @@ class SynthesisApp {
     }
 
     switchView(viewName) {
+        // A screen that no longer exists (Vision Board, Journal, Shadow Work and the
+        // Health hub have moved out of Synthesis) can still be the saved "last
+        // view" or sit in the back-history. Send those home instead of showing
+        // a blank page.
+        if (!document.getElementById(`${viewName}-view`)) viewName = 'home';
         // Record where we're navigating away from, so any "back" button can
         // return here regardless of which page that actually is — unless
         // this call is itself goBack() replaying a popped history entry.
@@ -485,11 +485,6 @@ class SynthesisApp {
             this.saveCurrentView();
         }
 
-        // Update Recipe Assistant visibility (only shows in nutrition hub)
-        if (typeof updateRecipeAssistantVisibility === 'function') {
-            updateRecipeAssistantVisibility(viewName);
-        }
-
         // Update AI Tutor visibility (only shows while reading a lesson)
         this.updateAiTutorVisibility(viewName);
 
@@ -498,8 +493,6 @@ class SynthesisApp {
             this.renderProfile();
         } else if (viewName === 'home') {
             this.renderHome();
-        } else if (viewName === 'workout') {
-            window.fitnessTracker?.renderWorkoutHub();
         } else if (viewName === 'flashcards') {
             window.activeRecall?.renderFlashcards();
         } else if (viewName === 'quick-quiz') {
@@ -508,16 +501,6 @@ class SynthesisApp {
             window.examCenter?.renderExamHome();
         } else if (viewName === 'feynman') {
             window.activeRecall?.renderFeynman();
-        } else if (viewName === 'body-metrics') {
-            window.fitnessTracker?.renderBodyMetrics();
-        } else if (viewName === 'trt') {
-            window.fitnessTracker?.renderTRT();
-        } else if (viewName === 'supplements') {
-            window.fitnessTracker?.renderSupplements();
-        } else if (viewName === 'nutrition') {
-            window.fitnessTracker?.renderNutrition();
-        } else if (viewName === 'nutrition-research') {
-            window.fitnessTracker?.renderNutritionResearch();
         } else if (viewName === 'glossary') {
             this.renderGlossary();
         } else if (viewName === 'deepstash') {
@@ -641,8 +624,6 @@ class SynthesisApp {
             this.showCategory(this.currentCategory.id);
         } else if (this.currentView === 'exam' && this.currentBook && this.isMBCBook(this.currentBook.id)) {
             this.goToMBCHub();
-        } else if (['body-metrics', 'trt', 'supplements', 'nutrition', 'nutrition-research'].includes(this.currentView)) {
-            this.switchView('workout');
         } else {
             this.switchView('home');
         }
