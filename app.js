@@ -1,3 +1,17 @@
+// Safely inject text into an HTML attribute or text node. Shared by app.js,
+// active-recall.js, anatomy-game.js, crossword.js, deepstash.js and games-hub.js.
+// (It lived in premium-features.js until Vision Board, Manifestation Journal and
+// Shadow Work moved to the Inner Work app.)
+function escapeHtml(str) {
+    if (str === null || str === undefined) return '';
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
 // ============================================
 // SYNTHESIS LEARNING APP - MAIN APPLICATION
 // ============================================
@@ -61,11 +75,6 @@ class SynthesisApp {
         // Update streak
         this.updateStreak();
         
-        // Initialize premium features
-        if (typeof PremiumFeatures !== 'undefined') {
-            window.premiumFeatures = new PremiumFeatures(this);
-        }
-
         // Initialize gamification system
         if (typeof GamificationSystem !== 'undefined') {
             window.gamification = new GamificationSystem(this);
@@ -485,12 +494,6 @@ class SynthesisApp {
             this.renderProfile();
         } else if (viewName === 'home') {
             this.renderHome();
-        } else if (viewName === 'vision-board') {
-            window.premiumFeatures?.renderVisionBoard();
-        } else if (viewName === 'manifestation') {
-            window.premiumFeatures?.renderManifestation();
-        } else if (viewName === 'shadow-work') {
-            window.premiumFeatures?.renderShadowWork();
         } else if (viewName === 'workout') {
             window.fitnessTracker?.renderWorkoutHub();
         } else if (viewName === 'flashcards') {
