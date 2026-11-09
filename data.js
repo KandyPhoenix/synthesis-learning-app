@@ -212,14 +212,6 @@ const APP_DATA = {
         "description": "Complete a lesson after 10pm",
         "xp": 75,
         "icon": "🌃"
-      },
-      {
-        "id": "workout_log",
-        "type": "workout",
-        "target": 1,
-        "description": "Log a workout",
-        "xp": 50,
-        "icon": "💪"
       }
     ],
     "badges": [
@@ -2509,12 +2501,14 @@ function loadProgress() {
         // Merge saved progress with current data structure
         APP_DATA.user = { ...APP_DATA.user, ...savedData.user };
 
+        // The Health hub (workouts, body metrics, TRT, supplements, nutrition) was
+        // removed too; its saved data also stays in APP_DATA.user.
         // Vision Board, Manifestation Journal and Shadow Work moved to the Inner Work
         // app. Their saved entries stay in APP_DATA.user (visionBoard,
         // manifestationJournal, shadowWork) so Inner Work can import them, but their
         // daily challenges can no longer be completed here, so drop those from
         // saved state.
-        const movedOut = c => c && (c.type === 'journal' || c.type === 'vision');
+        const movedOut = c => c && (c.type === 'journal' || c.type === 'vision' || c.type === 'workout');
         if (Array.isArray(APP_DATA.user.challengeTemplates)) {
             APP_DATA.user.challengeTemplates = APP_DATA.user.challengeTemplates.filter(c => !movedOut(c));
         }
