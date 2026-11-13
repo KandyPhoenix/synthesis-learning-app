@@ -4,9 +4,9 @@ window.HITT_1211_BOOK = {
           "id": "hitt-1211",
           "title": "HITT 1211: Health Information Systems",
           "author": "Lone Star College",
-          "description": "College-depth Health Information Systems: study guides for Exam 1 (Chapters 1–3), Exam 2 (Chapters 4–7) plus an Exam 2 Quizlet practice quiz, Exam 3 (Chapters 8–11), and the Final (Chapters 12–13) from Sayles & Barefield, plus 28 lessons mapped to the HITT 1211 syllabus and AHIMA associate-degree competencies. Covers EHR foundations (HITECH, Meaningful Use, Cures Act), CPOE/CDS, patient portals, data standards (HL7 v2/v3/FHIR, SNOMED/LOINC/ICD/CPT), HIE & TEFCA, databases, system selection (RFI/RFP, TCO), implementation lifecycle, testing & training, infrastructure, HIPAA Security Rule, backup & DR, information governance, digital literacy and the Microsoft Office suite, encoders/groupers/online coding tools, computer-assisted coding, paper-to-electronic migration and EDMS, the acute care EHR vendor landscape, EHR and PHR evaluation, public health reporting and disease surveillance, and emerging technologies (AI, ambient docs, IoMT).",
-          "lessons": 33,
-          "duration": "619",
+          "description": "College-depth Health Information Systems: study guides for Exam 1 (Chapters 1–3), Exam 2 (Chapters 4–7) plus an Exam 2 Quizlet practice quiz, Exam 3 (Chapters 8–11) plus an Exam 3 review built from the Exam 3 Quizlet, the graded course quizzes, the book's Review Questions and her Final Review Checklist, and the Final (Chapters 12–13) from Sayles & Barefield, plus 28 lessons mapped to the HITT 1211 syllabus and AHIMA associate-degree competencies. Covers EHR foundations (HITECH, Meaningful Use, Cures Act), CPOE/CDS, patient portals, data standards (HL7 v2/v3/FHIR, SNOMED/LOINC/ICD/CPT), HIE & TEFCA, databases, system selection (RFI/RFP, TCO), implementation lifecycle, testing & training, infrastructure, HIPAA Security Rule, backup & DR, information governance, digital literacy and the Microsoft Office suite, encoders/groupers/online coding tools, computer-assisted coding, paper-to-electronic migration and EDMS, the acute care EHR vendor landscape, EHR and PHR evaluation, public health reporting and disease surveillance, and emerging technologies (AI, ambient docs, IoMT).",
+          "lessons": 34,
+          "duration": "714",
           "progress": 0,
           "category": "him",
           "lessonList": [
@@ -4074,6 +4074,5010 @@ window.HITT_1211_BOOK = {
         "type": "diagram",
         "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 3 Clue Words</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">Read the scenario, find the term</text><rect x=\"50\" y=\"330\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"380\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Images, mammogram</text><text x=\"90\" y=\"435\" fill=\"#fff\" font-size=\"24\">PACS</text><rect x=\"562\" y=\"330\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"380\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Screening by age/gender</text><text x=\"602\" y=\"435\" fill=\"#fff\" font-size=\"24\">Reminder (an allergy is an</text><text x=\"602\" y=\"471\" fill=\"#fff\" font-size=\"24\">alert)</text><rect x=\"50\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"590\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Patient adds supplements</text><text x=\"90\" y=\"645\" fill=\"#fff\" font-size=\"24\">PHR (scheduling is the</text><text x=\"90\" y=\"681\" fill=\"#fff\" font-size=\"24\">portal)</text><rect x=\"562\" y=\"540\" width=\"488\" height=\"186\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"590\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Find-and-seek</text><text x=\"602\" y=\"645\" fill=\"#fff\" font-size=\"24\">Query-based exchange (a</text><text x=\"602\" y=\"681\" fill=\"#fff\" font-size=\"24\">pull)</text><rect x=\"50\" y=\"750\" width=\"488\" height=\"150\" rx=\"20\" fill=\"rgba(59,130,246,0.15)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"90\" y=\"800\" fill=\"#3b82f6\" font-size=\"28\" font-weight=\"bold\">Format and structure</text><text x=\"90\" y=\"855\" fill=\"#fff\" font-size=\"24\">Syntactic interoperability</text><rect x=\"562\" y=\"750\" width=\"488\" height=\"150\" rx=\"20\" fill=\"rgba(236,72,153,0.1)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"602\" y=\"800\" fill=\"#ec4899\" font-size=\"28\" font-weight=\"bold\">Photo ID at check-in</text><text x=\"602\" y=\"855\" fill=\"#fff\" font-size=\"24\">Identity management</text></svg>",
         "caption": "Exam 3 clue words"
+      }
+    }
+  ]
+},
+{
+  "id": "hitt-1211-exam3-review",
+  "title": "Exam 3 Review: Quizlet, Book Review & Quiz Questions",
+  "duration": 95,
+  "completed": false,
+  "cards": [
+    {
+      "type": "intro",
+      "title": "Exam 3 Review: Quizlet, Book Review and Quiz Questions",
+      "content": "This lesson gathers **everything that could feed your Exam 3** into one place, in the order of your instructor's **Exam 3 Final Review Checklist**.\n\n• **Checklist first:** six cards list all 49 checklist lines with a one-sentence answer for each (Chapters 8–11 plus the outline items).\n• **Questions 1–60: the Exam 3 Quizlet.** Items 106–165 of the course homework Quizlet (quizlet.com/_7xsvvd). Your Exam 2 questions appeared in that same Quizlet word for word, so this block is the closest thing to her question pool. It is ordered by checklist line; 42 of 45 checklist lines get at least one question.\n• **Questions 61–90: your graded course quizzes** for Chapters 8, 9 and 10 (Chapter 11 has no course quiz). Every answer is instructor-confirmed.\n• **Questions 91–177: the book's end-of-chapter Review Questions** for Chapters 8, 9, 10 and 11. The book publishes no key for these, so each answer was worked out from the chapter text and the explanation says where.\n\n**Keys were checked against the 5th edition** (Sayles & Barefield, *Introduction to Information Systems for Health Information Technology*). Where a key and the book disagree, the explanation gives both so you learn the right thing and still know what she will mark correct.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 3 Review</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">177 questions + 49 checklist lines</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"196\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"359\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"403\" fill=\"#fff\" font-size=\"24\">60 Quizlet items in checklist order, then 30 graded</text><text x=\"110\" y=\"445\" fill=\"#fff\" font-size=\"24\">course-quiz questions (Ch 8-10), then 87 book Review</text><text x=\"110\" y=\"487\" fill=\"#fff\" font-size=\"24\">Questions (Ch 8-11). Checklist cards come first.</text></svg>",
+        "caption": "How this review is built"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Checklist, Chapter 8 lines",
+      "content": "Her Exam 3 Final Review Checklist, lines 1–11 of 49. Learn each line as a one-sentence answer:\n\n• **Define and explain telehealth** — using telecommunications technology to deliver care, health information and education at a distance. Benefits on her key: better access to care, better continuity of care, better access to health information (Ch 8).\n• **Compare telehealth and telemedicine** — telemedicine is the clinical service (a provider diagnosing or treating at a distance); telehealth is the broader umbrella that also covers education, monitoring and administrative uses (Ch 8, Ch 10).\n• **Describe telesurgery** — virtual reality plus robotics so a surgeon operates on a patient in a different location (Ch 8, p. 199).\n• **Radiology information system (RIS)** — schedules, tracks and reports imaging exams: x-ray, MRI, CT, PET, ultrasound and ultrasound-guided biopsies; PACS stores and displays the digital images, so no film is needed (Ch 8).\n• **Laboratory information system (LIS)** — manages lab orders, specimen tracking, results reporting and quality control; results are coded with LOINC (Ch 8).\n• **Nursing information system (NIS)** — nursing documentation: care plans, the medication administration record, intake/output and nurses' notes. Benefits: lower nursing cost, better care, immediate results, fewer lost charges, shorter length of stay (Ch 8).\n• **Pharmacy information system (PIS)** — dispensing plus safety checks for drug-drug and food-drug interactions, allergies and dosing, by combining the HIS, EHR and drug knowledge bases (Ch 8).\n• **Document management system (DMS)** — scans paper into images, indexes them (barcodes, OCR), then supports retrieval, annotation and workflow; backscanning converts old records; the hybrid record is the transition state (Ch 8).\n• **How a dashboard is used in healthcare** — a visual display of key indicators that administrators monitor; in the book it belongs to the executive information system in Chapter 7.\n• **Define and explain CPOE** — computerized provider order entry: the provider keys orders directly, which removes handwriting and transcription errors and lets clinical decision support fire at the moment of ordering (Ch 9).\n• **Purpose of OCR** — optical character recognition turns a scanned text image into computer-readable text so documents can be indexed and searched (Ch 8).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Chapter 8 lines</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">Clinical information systems and telehealth</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"502\" rx=\"20\" fill=\"rgba(99,102,241,0.12)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Define and explain telehealth</text><text x=\"100\" y=\"242\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Compare telehealth and telemedicine</text><text x=\"100\" y=\"284\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Describe telesurgery</text><text x=\"100\" y=\"326\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Radiology information system (RIS)</text><text x=\"100\" y=\"368\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">5.</text><text x=\"150\" y=\"368\" fill=\"#fff\" font-size=\"22\">Laboratory information system (LIS)</text><text x=\"100\" y=\"410\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">6.</text><text x=\"150\" y=\"410\" fill=\"#fff\" font-size=\"22\">Nursing information system (NIS)</text><text x=\"100\" y=\"452\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">7.</text><text x=\"150\" y=\"452\" fill=\"#fff\" font-size=\"22\">Pharmacy information system (PIS)</text><text x=\"100\" y=\"494\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">8.</text><text x=\"150\" y=\"494\" fill=\"#fff\" font-size=\"22\">Document management system (DMS)</text><text x=\"100\" y=\"536\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">9.</text><text x=\"150\" y=\"536\" fill=\"#fff\" font-size=\"22\">How a dashboard is used in healthcare</text><text x=\"100\" y=\"578\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">10.</text><text x=\"150\" y=\"578\" fill=\"#fff\" font-size=\"22\">Define and explain CPOE</text><text x=\"100\" y=\"620\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">11.</text><text x=\"150\" y=\"620\" fill=\"#fff\" font-size=\"22\">Purpose of OCR</text></svg>",
+        "caption": "Clinical information systems and telehealth"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Checklist, Chapter 9 lines (part 1)",
+      "content": "Her Exam 3 Final Review Checklist, lines 12–22 of 49. Learn each line as a one-sentence answer:\n\n• **Define health information technology (HIT)** — the hardware, software and other integrated technologies used to manage health information (Ch 9).\n• **Describe a longitudinal record** — a record of a patient's health and care across the lifespan and across providers. I cannot confirm the book's exact wording; no book question covers it.\n• **Explain interoperability** — the ability of different systems to exchange data and to use the data that was exchanged (Ch 9, Ch 11).\n• **Compare EMR and EHR** — EMR is one organization's electronic record; EHR conforms to national interoperability standards and can be shared across organizations (Ch 9, p. 219).\n• **Purpose of reminders** — a reminder tells the provider a screening or preventive service is due, based on age and gender (Ch 9).\n• **Purpose of alerts** — an alert warns of a problem right now, such as a drug interaction, allergy or abnormal result (Ch 9).\n• **Describe BC-MAR** — barcode medication administration record: scan the patient's wristband and the drug to confirm the five rights before giving a medication (Ch 9).\n• **Structured vs. unstructured data** — structured data come from controlled choices the computer can interpret (drop-downs, check boxes, codes); unstructured data are free text or narrative the computer cannot interpret (Ch 9).\n• **Examples of source systems** — the foundation systems that feed the EHR: R-ADT, laboratory, radiology, pharmacy, nursing and billing systems (Ch 9).\n• **Describe a graphical user interface (GUI)** — a screen built from windows, icons, menus and a pointer so users interact by clicking instead of typing commands (Ch 9).\n• **Clinical decision support system (CDSS)** — delivers knowledge and patient-specific information at the point of care: alerts, reminders, order sets, guidelines and drug checks (Ch 9).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Chapter 9 lines (part 1)</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">EHR foundations: HIT, EMR vs. EHR, CPOE, CDSS</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"502\" rx=\"20\" fill=\"rgba(139,92,246,0.12)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Define health information technology (HIT)</text><text x=\"100\" y=\"242\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Describe a longitudinal record</text><text x=\"100\" y=\"284\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Explain interoperability</text><text x=\"100\" y=\"326\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Compare EMR and EHR</text><text x=\"100\" y=\"368\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">5.</text><text x=\"150\" y=\"368\" fill=\"#fff\" font-size=\"22\">Purpose of reminders</text><text x=\"100\" y=\"410\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">6.</text><text x=\"150\" y=\"410\" fill=\"#fff\" font-size=\"22\">Purpose of alerts</text><text x=\"100\" y=\"452\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">7.</text><text x=\"150\" y=\"452\" fill=\"#fff\" font-size=\"22\">Describe BC-MAR</text><text x=\"100\" y=\"494\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">8.</text><text x=\"150\" y=\"494\" fill=\"#fff\" font-size=\"22\">Structured vs. unstructured data</text><text x=\"100\" y=\"536\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">9.</text><text x=\"150\" y=\"536\" fill=\"#fff\" font-size=\"22\">Examples of source systems</text><text x=\"100\" y=\"578\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">10.</text><text x=\"150\" y=\"578\" fill=\"#fff\" font-size=\"22\">Describe a graphical user interface (GUI)</text><text x=\"100\" y=\"620\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">11.</text><text x=\"150\" y=\"620\" fill=\"#fff\" font-size=\"22\">Clinical decision support system (CDSS)</text></svg>",
+        "caption": "EHR foundations: HIT, EMR vs. EHR, CPOE, CDSS"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Checklist, Chapter 9 lines (part 2)",
+      "content": "Her Exam 3 Final Review Checklist, lines 23–29 of 49. Learn each line as a one-sentence answer:\n\n• **Define CCR** — continuity of care record: a standardized summary of a patient's key clinical facts (problems, medications, allergies) passed from one provider to the next (Ch 9).\n• **Define PHR** — personal health record: owned and maintained by the patient, who controls who sees it; different from the provider's portal (Ch 10).\n• **Explain health information blocking** — a practice likely to interfere with access, exchange or use of electronic health information, prohibited by the 21st Century Cures Act (Ch 9; roadmap in Ch 11, p. 262).\n• **Define CEHRT** — certified EHR technology: an EHR that meets the ONC certification criteria, required for Meaningful Use and Promoting Interoperability (Ch 9).\n• **Describe clinical messaging** — secure electronic communication among providers, and between providers and patients, inside the EHR (Ch 9, p. 223).\n• **Explain population health** — the health outcomes of a group of individuals, including how those outcomes are distributed within the group (Kindig and Stoddart, 2003; Ch 10).\n• **Digital vs. electronic signature** — an electronic signature is any electronic symbol or process attached to a record with intent to sign; a digital signature is the encrypted kind that verifies the signer and detects tampering (Ch 9).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Chapter 9 lines (part 2)</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">CCR, PHR, information blocking, CEHRT, signatures</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"334\" rx=\"20\" fill=\"rgba(59,130,246,0.12)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Define CCR</text><text x=\"100\" y=\"242\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Define PHR</text><text x=\"100\" y=\"284\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Explain health information blocking</text><text x=\"100\" y=\"326\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Define CEHRT</text><text x=\"100\" y=\"368\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">5.</text><text x=\"150\" y=\"368\" fill=\"#fff\" font-size=\"22\">Describe clinical messaging</text><text x=\"100\" y=\"410\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">6.</text><text x=\"150\" y=\"410\" fill=\"#fff\" font-size=\"22\">Explain population health</text><text x=\"100\" y=\"452\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">7.</text><text x=\"150\" y=\"452\" fill=\"#fff\" font-size=\"22\">Digital vs. electronic signature</text></svg>",
+        "caption": "CCR, PHR, information blocking, CEHRT, signatures"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Checklist, Chapter 10 lines",
+      "content": "Her Exam 3 Final Review Checklist, lines 30–33 of 49. Learn each line as a one-sentence answer:\n\n• **Explain health literacy** — the degree to which a person can obtain, process and understand basic health information to make health decisions; affected by education, language, age and culture (Ch 10).\n• **Define consumer health** — consumer health informatics: the information resources and tools patients use to manage their own health, from portals to apps to online communities (Ch 10).\n• **Purpose of a patient portal** — a secure website tied to the provider's EHR where the patient can view results, send secure messages, request refills, schedule visits, complete forms and pay bills (Ch 10).\n• **Benefits of social media in healthcare** — patient education, outreach and marketing, support communities, public health messaging, recruitment and research; the risk is privacy (Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Chapter 10 lines</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">Consumer informatics</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"208\" rx=\"20\" fill=\"rgba(16,185,129,0.12)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Explain health literacy</text><text x=\"100\" y=\"242\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Define consumer health</text><text x=\"100\" y=\"284\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Purpose of a patient portal</text><text x=\"100\" y=\"326\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Benefits of social media in healthcare</text></svg>",
+        "caption": "Consumer informatics"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Checklist, Chapter 11 lines",
+      "content": "Her Exam 3 Final Review Checklist, lines 34–44 of 49. Learn each line as a one-sentence answer:\n\n• **Explain health information exchange (HIE)** — the electronic movement of health information among organizations according to nationally recognized standards (Ch 11).\n• **Purpose of HITECH** — the 2009 law (part of ARRA) that paid for EHR adoption through Meaningful Use incentives, funded HIEs, put ONC in statute and tightened HIPAA enforcement (Ch 11).\n• **Explain semantic interoperability** — shared meaning: standardized terminologies such as SNOMED CT and LOINC let the receiving system interpret the data exactly as the sender meant it (Ch 11).\n• **Role of the ONC** — the Office of the National Coordinator for Health IT, inside HHS, sets national HIT policy, runs EHR certification and publishes the interoperability roadmap (Ch 11).\n• **Define HIO** — health information organization: the body that oversees and governs the exchange of health information among stakeholders in a region (Ch 11).\n• **Explain identity management** — the policies and processes that control how patients are identified in the system and how users are authenticated and authorized (Ch 11).\n• **Explain identity matching** — linking the records that belong to the same patient across systems by comparing name, birth date, address and phone (Ch 11).\n• **Define CQM** — clinical quality measure: a standardized measure of processes, outcomes or patient experience reported for Meaningful Use and MIPS (Ch 11).\n• **Explain public health** — protecting and improving the health of whole populations through prevention, surveillance and required reporting of diseases and immunizations (Ch 11).\n• **Describe syndromic surveillance** — health data used by community and public health agencies to spot outbreaks early, before diagnoses are confirmed (Ch 11, p. 268).\n• **Explain RLS (record locator service)** — the HIE directory that says where a patient's records are held among participants without storing the clinical data itself (Ch 11).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Chapter 11 lines</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">Health information exchange</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"502\" rx=\"20\" fill=\"rgba(245,158,11,0.12)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Explain health information exchange (HIE)</text><text x=\"100\" y=\"242\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Purpose of HITECH</text><text x=\"100\" y=\"284\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Explain semantic interoperability</text><text x=\"100\" y=\"326\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Role of the ONC</text><text x=\"100\" y=\"368\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">5.</text><text x=\"150\" y=\"368\" fill=\"#fff\" font-size=\"22\">Define HIO</text><text x=\"100\" y=\"410\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">6.</text><text x=\"150\" y=\"410\" fill=\"#fff\" font-size=\"22\">Explain identity management</text><text x=\"100\" y=\"452\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">7.</text><text x=\"150\" y=\"452\" fill=\"#fff\" font-size=\"22\">Explain identity matching</text><text x=\"100\" y=\"494\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">8.</text><text x=\"150\" y=\"494\" fill=\"#fff\" font-size=\"22\">Define CQM</text><text x=\"100\" y=\"536\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">9.</text><text x=\"150\" y=\"536\" fill=\"#fff\" font-size=\"22\">Explain public health</text><text x=\"100\" y=\"578\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">10.</text><text x=\"150\" y=\"578\" fill=\"#fff\" font-size=\"22\">Describe syndromic surveillance</text><text x=\"100\" y=\"620\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">11.</text><text x=\"150\" y=\"620\" fill=\"#fff\" font-size=\"22\">Explain RLS (record locator service)</text></svg>",
+        "caption": "Health information exchange"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Checklist, outline items",
+      "content": "Her Exam 3 Final Review Checklist, lines 45–49 of 49. Learn each line as a one-sentence answer:\n\n• **Outline item: remote patient monitoring** — home-care telehealth that uses smartphones and mobile medical devices to collect patient-generated health data (Ch 8, p. 200).\n• **Outline item: virtual visits** — the book calls these e-visits: real-time video or portal visits (Ch 10, p. 247).\n• **Outline item: patient engagement** — the book's term is consumer engagement: patients taking an active role in their care through portals, PHRs and apps (Ch 10, p. 248).\n• **Outline item: technical and organizational interoperability** — two lists to know: HIMSS levels in Ch 9 (foundational, structural, semantic, organizational) and the Ch 11 list (technical, syntactic, semantic, process).\n• **Outline item: secure messaging and other portal functions** — secure e-mail, refill requests, scheduling, forms and test results (Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">outline items</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">Extra lines from her study-guide outline</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"250\" rx=\"20\" fill=\"rgba(236,72,153,0.12)\" stroke=\"#ec4899\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#ec4899\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Outline item: remote patient monitoring</text><text x=\"100\" y=\"242\" fill=\"#ec4899\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Outline item: virtual visits</text><text x=\"100\" y=\"284\" fill=\"#ec4899\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Outline item: patient engagement</text><text x=\"100\" y=\"326\" fill=\"#ec4899\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Outline item: technical and organizational interoperability</text><text x=\"100\" y=\"368\" fill=\"#ec4899\" font-size=\"22\" font-weight=\"bold\">5.</text><text x=\"150\" y=\"368\" fill=\"#fff\" font-size=\"22\">Outline item: secure messaging and other portal functions</text></svg>",
+        "caption": "Extra lines from her study-guide outline"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following are considered benefits of telehealth?",
+      "options": [
+        {
+          "text": "Decreased access to care",
+          "correct": false
+        },
+        {
+          "text": "Decreased continuity of care",
+          "correct": false
+        },
+        {
+          "text": "Decreased access to health information",
+          "correct": false
+        },
+        {
+          "text": "Decreased lengths of stay for inpatients",
+          "correct": true
+        }
+      ],
+      "explanation": "**Decreased lengths of stay for inpatients.** **Checklist: Define and explain telehealth.** Telehealth benefits: better access, continuity, timely care, and cost efficiency through fewer admissions and **shorter stays** (Ch 8; slide 45). The other three options say “decreased” where the book says improved.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q1 · Quizlet HW #113</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define and explain telehealth</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 113 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #113: question 1"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is considered a challenge in the delivery of telehealth?",
+      "options": [
+        {
+          "text": "Increased cost efficiency",
+          "correct": false
+        },
+        {
+          "text": "Improved patient follow-up and education",
+          "correct": false
+        },
+        {
+          "text": "Liability and fraud",
+          "correct": true
+        },
+        {
+          "text": "Improved access to health information",
+          "correct": false
+        }
+      ],
+      "explanation": "**Liability and fraud.** **Checklist: Define and explain telehealth.** Telehealth issues in the book: privacy and security during the visit, liability with no legal precedent for vendors, fraud, policies and procedures, and documentation (Ch 8; slides 50–51).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q2 · Quizlet HW #118</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define and explain telehealth</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 118 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #118: question 2"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The type of telehealth that is used for face-to-face communication is _____.",
+      "options": [
+        {
+          "text": "PHR",
+          "correct": false
+        },
+        {
+          "text": "Remote monitoring",
+          "correct": false
+        },
+        {
+          "text": "Store-and-forward",
+          "correct": false
+        },
+        {
+          "text": "Live video",
+          "correct": true
+        }
+      ],
+      "explanation": "**Live video.** **Checklist: Define and explain telehealth.** Synchronous telehealth is the real-time video visit; store-and-forward is asynchronous (Ch 10, p. 247).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q3 · Quizlet HW #145</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define and explain telehealth</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 145 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #145: question 3"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "True or false? A benefit to telehealth is that patients are able to control the data.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explanation": "**False.** **Checklist: Define and explain telehealth.** False. Telehealth benefits are access, convenience, fewer no-shows, continuity and fewer hospitalizations (Ch 10). Controlling one's own data is the PHR.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q4 · Quizlet HW #146</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define and explain telehealth</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 146 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #146: question 4"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The difference between telehealth and telemedicine is that telehealth includes _____.",
+      "options": [
+        {
+          "text": "Patient care",
+          "correct": false
+        },
+        {
+          "text": "e-visits",
+          "correct": false
+        },
+        {
+          "text": "Education",
+          "correct": true
+        },
+        {
+          "text": "Video",
+          "correct": false
+        }
+      ],
+      "explanation": "**Education.** **Checklist: Compare telehealth and telemedicine.** Telemedicine is care delivered by physicians; telehealth is broader and adds other professionals' services and patient **education** (Ch 10). HHS also counts administrative uses.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q5 · Quizlet HW #142</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Compare telehealth and telemedicine</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 142 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #142: question 5"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Evelyn lives in Oregon and was diagnosed with a rare brain tumor. She is admitted to a local university medical center for treatment where a robot controlled remotely by a neurosurgeon in Chicago performs a procedure to remove the tumor. This type of procedure is termed _____.",
+      "options": [
+        {
+          "text": "Telehealth",
+          "correct": false
+        },
+        {
+          "text": "Telemonitoring",
+          "correct": false
+        },
+        {
+          "text": "Telesurgery",
+          "correct": true
+        },
+        {
+          "text": "Teleradiology",
+          "correct": false
+        }
+      ],
+      "explanation": "**Telesurgery.** **Checklist: Describe telesurgery.** Telesurgery uses virtual reality and robotics so a surgeon can operate on a patient in a different location (Ch 8, p. 199; slide 47).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q6 · Quizlet HW #109</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Describe telesurgery</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 109 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #109: question 6"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Thornton needs to perform a biopsy on the ascending colon and will need assistance from a ultrasound to ensure the location of the tumor. Which information system would be used during this procedure?",
+      "options": [
+        {
+          "text": "Radiology",
+          "correct": true
+        },
+        {
+          "text": "Pharmacy",
+          "correct": false
+        },
+        {
+          "text": "Laboratory",
+          "correct": false
+        },
+        {
+          "text": "Nursing",
+          "correct": false
+        }
+      ],
+      "explanation": "**Radiology.** **Checklist: Explain the purpose of a radiology information system (RIS).** Ultrasound-guided biopsies are listed among the procedures the radiology information system covers along with x-ray, MRI, CT and PET (Ch 8; slides 21–22).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q7 · Quizlet HW #108</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Radiology information system (RIS)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 108 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #108: question 7"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What specialty software is needed to retrieve and store digital images such as MRI scans and cardiac catheterization films?",
+      "options": [
+        {
+          "text": "SQL",
+          "correct": false
+        },
+        {
+          "text": "DMS",
+          "correct": false
+        },
+        {
+          "text": "OCR",
+          "correct": false
+        },
+        {
+          "text": "PACS",
+          "correct": true
+        }
+      ],
+      "explanation": "**PACS.** **Checklist: Explain the purpose of a radiology information system (RIS).** PACS obtains, stores, retrieves and displays digital images, including cardiac catheterization films and ultrasounds, so no physical film is needed (Ch 8; slide 24).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q8 · Quizlet HW #111</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Radiology information system (RIS)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 111 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #111: question 8"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following information systems would notify physicians of normal ranges and panic values of blood glucose, creatine kinase, and bilirubin levels?",
+      "options": [
+        {
+          "text": "Laboratory",
+          "correct": true
+        },
+        {
+          "text": "Radiology",
+          "correct": false
+        },
+        {
+          "text": "Nursing",
+          "correct": false
+        },
+        {
+          "text": "Inventory control",
+          "correct": false
+        }
+      ],
+      "explanation": "**Laboratory.** **Checklist: Explain the purpose of a laboratory information system (LIS).** The LIS sets normal ranges per test, marks values high, low or panic, and alerts staff to panic values (Ch 8; slide 29).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q9 · Quizlet HW #114</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Laboratory information system (LIS)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 114 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #114: question 9"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following tests is not performed in an LIS?",
+      "options": [
+        {
+          "text": "Blood glucose",
+          "correct": false
+        },
+        {
+          "text": "Urinalysis",
+          "correct": false
+        },
+        {
+          "text": "Positron emission tomography",
+          "correct": true
+        },
+        {
+          "text": "Bacterial culture",
+          "correct": false
+        }
+      ],
+      "explanation": "**Positron emission tomography.** **Checklist: Explain the purpose of a laboratory information system (LIS).** Glucose, urinalysis and cultures are laboratory tests. A PET scan is imaging, run through the radiology information system and PACS (Ch 8).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q10 · Quizlet HW #119</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Laboratory information system (LIS)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 119 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #119: question 10"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "All of the following are benefits to an NIS except _____.",
+      "options": [
+        {
+          "text": "Reduced costs in nursing care",
+          "correct": false
+        },
+        {
+          "text": "Improved patient care",
+          "correct": false
+        },
+        {
+          "text": "Decrease in lost charges",
+          "correct": false
+        },
+        {
+          "text": "Increased average length of stay",
+          "correct": true
+        }
+      ],
+      "explanation": "**Increased average length of stay.** **Checklist: Explain the purpose of a nursing information system (NIS).** NIS benefits in the book: lower nursing-care costs, improved care, immediate access to results, fewer lost charges, and a **reduced** average length of stay (Ch 8; slide 32). Increased length of stay is the opposite.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q11 · Quizlet HW #106</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Nursing information system (NIS)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 106 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #106: question 11"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "To evaluate the timeframes for the administration of painkillers in surgical patients, the medication administration record would be reviewed. The medication administration record would be found within which clinical software?",
+      "options": [
+        {
+          "text": "Nursing",
+          "correct": true
+        },
+        {
+          "text": "Laboratory",
+          "correct": false
+        },
+        {
+          "text": "Radiology",
+          "correct": false
+        },
+        {
+          "text": "Pharmacy",
+          "correct": false
+        }
+      ],
+      "explanation": "**Nursing.** **Checklist: Explain the purpose of a nursing information system (NIS).** The medication administration record is traditional nursing documentation, kept in the nursing information system with intake/output, care plans and nurses' notes (Ch 8; slide 33). The pharmacy IS dispenses; the NIS documents administration.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q12 · Quizlet HW #110</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Nursing information system (NIS)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 110 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #110: question 12"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What type of system would look for contraindications between two medications such as Warfarin (Coumadin) and ibuprofen which could increase bleeding?",
+      "options": [
+        {
+          "text": "Laboratory",
+          "correct": false
+        },
+        {
+          "text": "Radiology",
+          "correct": false
+        },
+        {
+          "text": "Pharmacy",
+          "correct": true
+        },
+        {
+          "text": "Nursing",
+          "correct": false
+        }
+      ],
+      "explanation": "**Pharmacy.** **Checklist: Explain the purpose of a pharmacy information system (PIS).** The pharmacy information system combines the HIS, EHR and drug knowledge bases to check drug-drug and food-drug interactions and other contraindications (Ch 8; slide 36).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q13 · Quizlet HW #112</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Pharmacy information system (PIS)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 112 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #112: question 13"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Smith highlighted a section of a consultation report in the DMS so that Dr. Franklin would discuss it with him later in the day. This is possible due to what feature in the DMS?",
+      "options": [
+        {
+          "text": "Annotation",
+          "correct": true
+        },
+        {
+          "text": "OCR",
+          "correct": false
+        },
+        {
+          "text": "SQL",
+          "correct": false
+        },
+        {
+          "text": "Symbiology",
+          "correct": false
+        }
+      ],
+      "explanation": "**Annotation.** **Checklist: Describe a document management system (DMS).** Annotation is the DMS tool set for adding to a scanned image: note, highlighting, drawing, zoom and rotate (Ch 8; slide 17). OCR is text recognition; symbology is the barcode type (Code 39).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q14 · Quizlet HW #107</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Document management system (DMS)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 107 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #107: question 14"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is a benefit of a DMS?",
+      "options": [
+        {
+          "text": "Lack of manipulation of data since it is not an original data entry",
+          "correct": false
+        },
+        {
+          "text": "Lack of reporting due to images and not on entered data",
+          "correct": false
+        },
+        {
+          "text": "Decreased data controls, audit trails, and other security measures",
+          "correct": false
+        },
+        {
+          "text": "Increased space saving with the elimination of paper health records",
+          "correct": true
+        }
+      ],
+      "explanation": "**Increased space saving with the elimination of paper health records.** **Checklist: Describe a document management system (DMS).** DMS advantages: space savings, retrieval of many records, productivity, online availability, security and control, database retrieval (Ch 8; slide 18). Options a to c are the DMS _disadvantages_ reworded.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q15 · Quizlet HW #115</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Document management system (DMS)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 115 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #115: question 15"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is a screen that contains summary information about a department showing physician and nurse productivity, bed count, pending lab results, processing times and patient locations?",
+      "options": [
+        {
+          "text": "Dashboard",
+          "correct": true
+        },
+        {
+          "text": "PACS",
+          "correct": false
+        },
+        {
+          "text": "OCR",
+          "correct": false
+        },
+        {
+          "text": "DMS",
+          "correct": false
+        }
+      ],
+      "explanation": "**Dashboard.** **Checklist: Explain how a dashboard is used in healthcare.** A dashboard is a collection of key performance indicators for a department or organization, often interactive with drill-down (Ch 7 EIS dashboard; Ch 8 names dashboards as a CDS format).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q16 · Quizlet HW #117</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">How a dashboard is used in healthcare</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 117 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #117: question 16"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which software allows a physician to order x-rays, lab tests, and medications within the laboratory, radiology, and pharmacy information systems?",
+      "options": [
+        {
+          "text": "CPOE",
+          "correct": true
+        },
+        {
+          "text": "PACS",
+          "correct": false
+        },
+        {
+          "text": "DMS",
+          "correct": false
+        },
+        {
+          "text": "OCR",
+          "correct": false
+        }
+      ],
+      "explanation": "**CPOE.** **Checklist: Define and explain CPOE.** Computerized provider order entry: the physician enters orders for tests, medications and procedures directly and is prompted for required information; built-in edits prevent impossible orders (Ch 9, p. 223; Ch 1).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q17 · Quizlet HW #120</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define and explain CPOE</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 120 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #120: question 17"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is a method used to scan analog paper images into an information system so that they can be edited, barcoded, and indexed in order for old documents to be incorporated with new digital documents in an EHR?",
+      "options": [
+        {
+          "text": "PACS",
+          "correct": false
+        },
+        {
+          "text": "OCR",
+          "correct": true
+        },
+        {
+          "text": "DMS",
+          "correct": false
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        }
+      ],
+      "explanation": "**OCR.** **Checklist: Explain the purpose of OCR.** Optical character recognition encodes scanned analog paper into bitmapped images and translates them into computer-readable text so scanned documents can be edited and indexed (Ch 8; slide 9).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q18 · Quizlet HW #116</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Purpose of OCR</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 116 of 106–165 · Chapter 8</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #116: question 18"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is the all-inclusive term that refers to the monitors, computers, programming, and processes that are used by facilities and patients when collecting storing, or using electronic health data?",
+      "options": [
+        {
+          "text": "EHR",
+          "correct": false
+        },
+        {
+          "text": "HIT",
+          "correct": true
+        },
+        {
+          "text": "PHR",
+          "correct": false
+        },
+        {
+          "text": "EMAR",
+          "correct": false
+        }
+      ],
+      "explanation": "**HIT.** **Checklist: Define health information technology (HIT).** Health information technology: the hardware, software, integrated technologies, licenses and processes used to create, maintain, access or exchange health information (Ch 9; slide 5).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q19 · Quizlet HW #133</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define health information technology</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">(HIT)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 133 of 106–165 · Chapter 9</text><text x=\"110\" y=\"443\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #133: question 19"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A record that incorporates all health and medical information from the time a baby is born until that person dies is referred to as a _____.",
+      "options": [
+        {
+          "text": "EHR",
+          "correct": false
+        },
+        {
+          "text": "PHR",
+          "correct": false
+        },
+        {
+          "text": "Longitudinal record",
+          "correct": true
+        },
+        {
+          "text": "BC-MAR",
+          "correct": false
+        }
+      ],
+      "explanation": "**Longitudinal record.** **Checklist: Describe a longitudinal record.** The longitudinal health record is a permanent record of significant information in chronological order across time, ideally from birth to death (Ch 9; slide 6). It is the idea behind the EHR.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q20 · Quizlet HW #122</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Describe a longitudinal record</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 122 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #122: question 20"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The ability of a computer information systems to receive and transmit data from any other computer information system without loss of integrity, security, and accuracy on a consistent basis so that the information can be used in a meaningful way is termed _____.",
+      "options": [
+        {
+          "text": "Interoperability",
+          "correct": true
+        },
+        {
+          "text": "Infrastructure",
+          "correct": false
+        },
+        {
+          "text": "Longitudinal",
+          "correct": false
+        },
+        {
+          "text": "CEHRT",
+          "correct": false
+        }
+      ],
+      "explanation": "**Interoperability.** **Checklist: Explain interoperability.** Interoperability: different systems communicate, exchange data accurately, effectively and consistently, and use the information exchanged (Ch 9 and 11).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q21 · Quizlet HW #127</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain interoperability</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 127 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #127: question 21"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What term is used to describe the ability of one hospital's EHR from Vendor ABC to communicate flawlessly with another hospital's EHR from Vendor XYZ without any glitches or loss of data integrity?",
+      "options": [
+        {
+          "text": "Interoperability",
+          "correct": true
+        },
+        {
+          "text": "Electronic health record",
+          "correct": false
+        },
+        {
+          "text": "Health information technology",
+          "correct": false
+        },
+        {
+          "text": "Health information exchange",
+          "correct": false
+        }
+      ],
+      "explanation": "**Interoperability.** **Checklist: Explain interoperability.** Interoperability (Ch 9 and 11). HIE is the agreed-upon exchange process that interoperability makes possible, which is the distractor.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q22 · Quizlet HW #161</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain interoperability</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 161 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #161: question 22"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A doctor is reviewing lab results on a patient in his office. The EHR screen displays one set of results in red with a flashing asterisk and also shows that this result is three times higher than the expected value. This is an example of a(n) _____.",
+      "options": [
+        {
+          "text": "Alert",
+          "correct": true
+        },
+        {
+          "text": "Reminder",
+          "correct": false
+        },
+        {
+          "text": "Structured data",
+          "correct": false
+        },
+        {
+          "text": "Unstructured data",
+          "correct": false
+        }
+      ],
+      "explanation": "**Alert.** **Checklist: Explain the purpose of alerts.** An **alert** flags a contraindicated or abnormal item (an allergy, a critical lab value). A **reminder** notifies the physician of screenings due by age and gender (Ch 9; CYU 9.1 #2).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q23 · Quizlet HW #121</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Purpose of alerts</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 121 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #121: question 23"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What process uses bar codes to efficiently deliver medications and ensures the patient gets the right drug?",
+      "options": [
+        {
+          "text": "PHR",
+          "correct": false
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "BC-MAR",
+          "correct": true
+        },
+        {
+          "text": "EMR",
+          "correct": false
+        }
+      ],
+      "explanation": "**BC-MAR.** **Checklist: Describe BC-MAR.** Barcode medication administration (BC-MAR / EMAR) scans the wristband and the medication to confirm the rights of medication administration (Ch 9, p. 223).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q24 · Quizlet HW #134</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Describe BC-MAR</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 134 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #134: question 24"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Bloodwork results from the laboratory information system, mammogram reports and films from radiology information system, a listing of chemotherapy agents administered to the patient from the pharmacy information system are all delivered into the patient's EHR. These different information systems that feed information into the EHR are called _____.",
+      "options": [
+        {
+          "text": "Interoperability",
+          "correct": false
+        },
+        {
+          "text": "Source systems",
+          "correct": true
+        },
+        {
+          "text": "Continuity of care record",
+          "correct": false
+        },
+        {
+          "text": "Clinical decision support system",
+          "correct": false
+        }
+      ],
+      "explanation": "**Source systems.** **Checklist: Identify examples of source systems.** Source systems are the information systems that capture data and feed the EHR: LIS, RIS, pharmacy, EMAR, nursing, plus administrative and financial systems (Ch 9; slide 11).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q25 · Quizlet HW #125</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Examples of source systems</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 125 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #125: question 25"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Jones just clicked on an image on the screen that looked like a printer in order to get a copy of discharge instructions to give to a patient. What software allows this to occur in an EHR?",
+      "options": [
+        {
+          "text": "Presentation layer",
+          "correct": false
+        },
+        {
+          "text": "Screen layout",
+          "correct": false
+        },
+        {
+          "text": "Alert",
+          "correct": false
+        },
+        {
+          "text": "Graphical user interface",
+          "correct": true
+        }
+      ],
+      "explanation": "**Graphical user interface.** **Checklist: Describe a graphical user interface (GUI).** The graphical user interface uses icons, colors, buttons and menus; clicking a printer icon prints (Ch 9, p. 229).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q26 · Quizlet HW #126</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Describe a graphical user interface</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">(GUI)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 126 of 106–165 · Chapter 9</text><text x=\"110\" y=\"443\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #126: question 26"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "To reduce health disparities, what system is used to remind and ensure that all female emergency department patients over the age of 50 complaining of any pain above the waist are screened for acute myocardial infarction?",
+      "options": [
+        {
+          "text": "Interoperability",
+          "correct": false
+        },
+        {
+          "text": "Source systems",
+          "correct": false
+        },
+        {
+          "text": "Continuity of care record",
+          "correct": false
+        },
+        {
+          "text": "Clinical decision support system",
+          "correct": true
+        }
+      ],
+      "explanation": "**Clinical decision support system.** **Checklist: Explain a clinical decision support system (CDSS).** A clinical decision support system supplies alerts, reminders, guidelines and order sets at the point of decision; a rule that reminds the ED to work up chest pain in women over 50 is CDSS logic (Ch 8 CDS; Ch 9 CDSS).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q27 · Quizlet HW #130</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Clinical decision support system (CDSS)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 130 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #130: question 27"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What collection of patient data and information is sent to the receiving healthcare facility when a patient is transferred to additional care after the acute phase of illness?",
+      "options": [
+        {
+          "text": "PHR",
+          "correct": false
+        },
+        {
+          "text": "CCR",
+          "correct": true
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "CDSS",
+          "correct": false
+        }
+      ],
+      "explanation": "**CCR.** **Checklist: Define CCR.** The Continuity of Care Record is the core data set of the most relevant administrative, demographic and clinical information sent when a patient transfers to another provider (Ch 9, p. 212). The CCD is the CCR in HL7 CDA format.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q28 · Quizlet HW #131</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define CCR</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 131 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #131: question 28"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Amanda uploads her diet and fitness log from her smartwatch to her doctor's office EHR. She also adds information about her previous medical history. What type of system is Amanda using?",
+      "options": [
+        {
+          "text": "PHR",
+          "correct": true
+        },
+        {
+          "text": "CCR",
+          "correct": false
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "CDSS",
+          "correct": false
+        }
+      ],
+      "explanation": "**PHR.** **Checklist: Define PHR.** The personal health record is maintained and updated by the individual; diet, exercise and supplements go in the PHR (Ch 9, p. 234; Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q29 · Quizlet HW #123</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define PHR</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 123 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #123: question 29"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The PHR enables the patient to _____.",
+      "options": [
+        {
+          "text": "Link all of his or her health records in one location",
+          "correct": true
+        },
+        {
+          "text": "Register for appointments and pay their bill",
+          "correct": false
+        },
+        {
+          "text": "View videos created and provided by the physician",
+          "correct": false
+        },
+        {
+          "text": "Take advantage of their right to access of health information",
+          "correct": false
+        }
+      ],
+      "explanation": "**Link all of his or her health records in one location.** **Checklist: Define PHR.** The PHR collects, tracks and shares the individual's own health information across providers; appointments and bills are portal functions, which is the trap (Ch 10; slide 24).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q30 · Quizlet HW #141</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define PHR</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 141 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #141: question 30"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "True or false? Tethered PHRs are connected to insurance company's database.",
+      "options": [
+        {
+          "text": "True",
+          "correct": false
+        },
+        {
+          "text": "False",
+          "correct": true
+        }
+      ],
+      "explanation": "**False.** **Checklist: Define PHR.** False. A tethered PHR is connected to the provider's EHR and shows a subset of it; an untethered PHR is a separate application (Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q31 · Quizlet HW #150</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define PHR</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 150 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #150: question 31"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An EHR system is programmed by the vendor to not release certain patient data because it is considered proprietary to the vendor and HCO. The vendor is protecting its own business interests above that of the patient. This is an example of _____.",
+      "options": [
+        {
+          "text": "Continuity of care record",
+          "correct": false
+        },
+        {
+          "text": "Graphic user interface",
+          "correct": false
+        },
+        {
+          "text": "HIPAA security breach",
+          "correct": false
+        },
+        {
+          "text": "Health information blocking",
+          "correct": true
+        }
+      ],
+      "explanation": "**Health information blocking.** **Checklist: Explain health information blocking.** Health information blocking: an actor knowingly and unreasonably interfering with access, exchange or use of electronic health information; a vendor withholding data as proprietary is the classic example (Ch 9; Ch 11, p. 262).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q32 · Quizlet HW #124</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain health information blocking</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 124 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #124: question 32"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "To ensure that Jonesville Family Practice invests in an EHR system that meets or exceeds Meaningful Use requirements so that they receive their incentive payments, what should they look for in and EHR?",
+      "options": [
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "BC-MAR",
+          "correct": false
+        },
+        {
+          "text": "CEHRT",
+          "correct": true
+        },
+        {
+          "text": "Hybrid systems",
+          "correct": false
+        }
+      ],
+      "explanation": "**CEHRT.** **Checklist: Define CEHRT.** Certified EHR technology: tested by an accredited testing lab and certified by an ONC-Authorized Certification Body; required for the incentive programs (Ch 9, slide 24).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q33 · Quizlet HW #129</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define CEHRT</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 129 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #129: question 33"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In order to qualify for Meaningful Use (MU) funding, healthcare providers must use CEHRT. As James, the HIM operations manager, is explaining to the chief of the medical staff, he describes the three components required for MU. Which of the following is one of those required components?",
+      "options": [
+        {
+          "text": "The CEHRT must improve the ability to collect payment/reimbursement from insurance companies and patients for healthcare services rendered.",
+          "correct": false
+        },
+        {
+          "text": "Any health information that is exchanged with other HCO or providers must improve the quality of care delivered.",
+          "correct": true
+        },
+        {
+          "text": "The CEHRT must help lower liability insurance premiums to protect the HCO from lawsuits.",
+          "correct": false
+        },
+        {
+          "text": "The CEHRT must be used in analyzing staffing patterns in the HCO to better determine productivity of healthcare personnel.",
+          "correct": false
+        }
+      ],
+      "explanation": "**Any health information that is exchanged with other HCO or providers must improve the quality of care delivered..** **Checklist: Define CEHRT.** Meaningful Use had three components: HIT used in a meaningful way (e-prescribing, CPOE), exchange of health information to improve quality of care, and submission of eCQMs (Ch 11).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q34 · Quizlet HW #153</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define CEHRT</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 153 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #153: question 34"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In order to qualify for the Meaningful Use incentive program, a hospital must use which of the following?",
+      "options": [
+        {
+          "text": "HIO",
+          "correct": false
+        },
+        {
+          "text": "CEHRT",
+          "correct": true
+        },
+        {
+          "text": "CAH",
+          "correct": false
+        },
+        {
+          "text": "ePHI",
+          "correct": false
+        }
+      ],
+      "explanation": "**CEHRT.** **Checklist: Define CEHRT.** Certified EHR technology is the product requirement for Meaningful Use / Promoting Interoperability (Ch 9 and 11).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q35 · Quizlet HW #154</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define CEHRT</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 154 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #154: question 35"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What component of an EHR provides communication between clinical and administrative staff members, offers access to various results reporting from lab and radiology, and to even communicate with patients?",
+      "options": [
+        {
+          "text": "Clinical messaging",
+          "correct": true
+        },
+        {
+          "text": "Clinical decision support",
+          "correct": false
+        },
+        {
+          "text": "Document management system",
+          "correct": false
+        },
+        {
+          "text": "Registration—admission, discharge, transfer (R-ADT)",
+          "correct": false
+        }
+      ],
+      "explanation": "**Clinical messaging.** **Checklist: Describe clinical messaging.** Clinical messaging connects medical staff and hospital systems such as order entry, results reporting and the DMS, delivering data electronically and automating workflow (Ch 9, p. 223).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q36 · Quizlet HW #132</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Describe clinical messaging</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 132 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #132: question 36"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which component of the EHR is designed to track and report outbreaks of infectious diseases and childhood immunization levels to public health officials?",
+      "options": [
+        {
+          "text": "Population health",
+          "correct": true
+        },
+        {
+          "text": "Continuity of care record",
+          "correct": false
+        },
+        {
+          "text": "Results reporting",
+          "correct": false
+        },
+        {
+          "text": "Health information exchange",
+          "correct": false
+        }
+      ],
+      "explanation": "**Population health.** **Checklist: Explain population health.** The EHR's population health component captures and reports immunizations, communicable diseases and other reportable conditions to public health (Ch 9; Ch 11, p. 268).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q37 · Quizlet HW #135</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain population health</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 135 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #135: question 37"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "To ensure authentication of data entries, which type of signature is the most secure?",
+      "options": [
+        {
+          "text": "Digital",
+          "correct": true
+        },
+        {
+          "text": "Electronic",
+          "correct": false
+        },
+        {
+          "text": "Handwritten",
+          "correct": false
+        },
+        {
+          "text": "Virtual",
+          "correct": false
+        }
+      ],
+      "explanation": "**Digital.** **Checklist: Compare digital signature and electronic signature.** A **digital** signature is an electronic signature plus encryption, giving nonrepudiation; it is the most secure. A **digitized** signature is just an image of handwriting (Ch 9).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q38 · Quizlet HW #128</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Digital vs. electronic signature</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 128 of 106–165 · Chapter 9</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #128: question 38"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A specialized language is known as _____.",
+      "options": [
+        {
+          "text": "Telehealth",
+          "correct": false
+        },
+        {
+          "text": "Jargon",
+          "correct": true
+        },
+        {
+          "text": "Blue Button",
+          "correct": false
+        },
+        {
+          "text": "Health literacy",
+          "correct": false
+        }
+      ],
+      "explanation": "**Jargon.** **Checklist: Explain health literacy.** Jargon is specialized terminology used by a specific group; it works against health literacy (Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q39 · Quizlet HW #136</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain health literacy</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 136 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #136: question 39"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the group most impacted by health literacy is _____.",
+      "options": [
+        {
+          "text": "Caucasians",
+          "correct": false
+        },
+        {
+          "text": "Those older than 65",
+          "correct": true
+        },
+        {
+          "text": "Wealthy",
+          "correct": false
+        },
+        {
+          "text": "Those under the age of 65",
+          "correct": false
+        }
+      ],
+      "explanation": "**Those older than 65.** **Checklist: Explain health literacy.** Age over 65 is on the slide's list of health-literacy factors (slide 9); the book lists age with culture, gender, insurance, information source and computer skills (Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q40 · Quizlet HW #139</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain health literacy</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 139 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #139: question 40"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The healthcare facility has been promoting a communication strategy that puts the responsibility on the patient. They are promoting using _____.",
+      "options": [
+        {
+          "text": "Using pictures",
+          "correct": false
+        },
+        {
+          "text": "Ask Me 3 initiative",
+          "correct": true
+        },
+        {
+          "text": "Teach Back communications",
+          "correct": false
+        },
+        {
+          "text": "Jargon",
+          "correct": false
+        }
+      ],
+      "explanation": "**Ask Me 3 initiative.** **Checklist: Explain health literacy.** Ask Me 3 puts the step on the patient, who asks: What is my problem? What should I do? Why do I need to do this? Teach Back puts the step on the provider (Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q41 · Quizlet HW #143</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain health literacy</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 143 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #143: question 41"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The physician explained to the patient that she had diabetes mellitus. He explained the condition, changes in her lifestyle that should would have to make, and the proposed treatment. He uses the Teach Back communication tool, so his next step is to requires the patient to _____.",
+      "options": [
+        {
+          "text": "Repeat what the healthcare provider said in their own words",
+          "correct": true
+        },
+        {
+          "text": "Write down what the healthcare provider said",
+          "correct": false
+        },
+        {
+          "text": "Learn the language of medicine",
+          "correct": false
+        },
+        {
+          "text": "Call back the next day to explain what they are doing to comply with their instructions.",
+          "correct": false
+        }
+      ],
+      "explanation": "**Repeat what the healthcare provider said in their own words.** **Checklist: Explain health literacy.** Teach Back: the provider explains in plain language, then asks the patient to repeat it in their own words (Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q42 · Quizlet HW #144</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain health literacy</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 144 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #144: question 42"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "True or false? One way that a patient can improve his or her understanding of instructions is bringing a friend or family member to the appointment.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explanation": "**True.** **Checklist: Explain health literacy.** True. Bringing someone along is one of the plain-language strategies listed with Teach Back, Ask Me 3 and pictures (Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q43 · Quizlet HW #148</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain health literacy</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 148 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #148: question 43"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "True or false? Patients with advanced education can still be challenged in their health literacy.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explanation": "**True.** **Checklist: Explain health literacy.** True. Health literacy is not reading level or education; culture, age, insurance and information source all affect it (Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q44 · Quizlet HW #149</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain health literacy</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 149 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #149: question 44"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Consumer health applications are used by patients to ______.",
+      "options": [
+        {
+          "text": "Consult with a physician",
+          "correct": true
+        },
+        {
+          "text": "Continue their current diet and exercise program",
+          "correct": false
+        },
+        {
+          "text": "Monitor patients",
+          "correct": false
+        },
+        {
+          "text": "Address issues with the patient's technology",
+          "correct": false
+        }
+      ],
+      "explanation": "**Consult with a physician.** **Checklist: Define consumer health.** Consumer health applications let patients access information, track health data and communicate with providers (Ch 10; slide 12).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q45 · Quizlet HW #137</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define consumer health</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 137 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #137: question 45"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the consumer informatics tool used by patients to access patient information and register for appointments.",
+      "options": [
+        {
+          "text": "Personal health record",
+          "correct": false
+        },
+        {
+          "text": "Patient portal",
+          "correct": true
+        },
+        {
+          "text": "Social media",
+          "correct": false
+        },
+        {
+          "text": "Telehealth",
+          "correct": false
+        }
+      ],
+      "explanation": "**Patient portal.** **Checklist: Explain the purpose of a patient portal.** The patient portal: log in to see results, register, schedule appointments, refill prescriptions, download forms, use secure e-mail (Ch 10; slide 21).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q46 · Quizlet HW #138</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Purpose of a patient portal</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 138 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #138: question 46"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "One benefit to using social media is _____.",
+      "options": [
+        {
+          "text": "Reporting infectious diseases, immunizations, cancer and other conditions",
+          "correct": false
+        },
+        {
+          "text": "To collect, store and track patient information",
+          "correct": false
+        },
+        {
+          "text": "Have face-to-face interaction with the healthcare provider",
+          "correct": false
+        },
+        {
+          "text": "Building a sense of community for patients with the same diagnosis",
+          "correct": true
+        }
+      ],
+      "explanation": "**Building a sense of community for patients with the same diagnosis.** **Checklist: Describe the benefits of social media in healthcare.** Social media let patients share experiences and improve patient education; slide 29 names the sense of community for patients with chronic disease (Ch 10).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q47 · Quizlet HW #140</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Benefits of social media in healthcare</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 140 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #140: question 47"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which method of HIE is considered a \"push\" model because it pushes or send the authorized patient information on to the next healthcare providers?",
+      "options": [
+        {
+          "text": "Directed",
+          "correct": true
+        },
+        {
+          "text": "Federated",
+          "correct": false
+        },
+        {
+          "text": "Query-based",
+          "correct": false
+        },
+        {
+          "text": "Consolidated",
+          "correct": false
+        }
+      ],
+      "explanation": "**Directed.** **Checklist: Explain health information exchange (HIE).** Directed exchange = push, provider to provider; query-based = pull; consumer-mediated = patient controls it (Ch 11). Federated and consolidated are architecture models.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q48 · Quizlet HW #164</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain health information exchange</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">(HIE)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 164 of 106–165 · Chapter 11</text><text x=\"110\" y=\"443\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #164: question 48"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is used to describe the contractual process between two or more healthcare organizations to swap patient data without interruptions or corruption of data so that the business of healthcare is conducted?",
+      "options": [
+        {
+          "text": "Interoperability",
+          "correct": false
+        },
+        {
+          "text": "Electronic health record",
+          "correct": false
+        },
+        {
+          "text": "Health information technology",
+          "correct": false
+        },
+        {
+          "text": "Health information exchange",
+          "correct": true
+        }
+      ],
+      "explanation": "**Health information exchange.** **Checklist: Explain health information exchange (HIE).** HIE is the formal, agreed-upon process for exchanging health information electronically between organizations according to nationally recognized standards (Ch 11).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q49 · Quizlet HW #165</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain health information exchange</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">(HIE)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 165 of 106–165 · Chapter 11</text><text x=\"110\" y=\"443\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #165: question 49"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What legislation provided funding to expand HIT usage to increase efficiency and patient safety outcomes?",
+      "options": [
+        {
+          "text": "ARRA",
+          "correct": false
+        },
+        {
+          "text": "HIO",
+          "correct": false
+        },
+        {
+          "text": "HITECH",
+          "correct": true
+        },
+        {
+          "text": "HIPAA",
+          "correct": false
+        }
+      ],
+      "explanation": "**HITECH.** **Checklist: Describe the purpose of HITECH.** HITECH, the HIT part of ARRA (2009), funded HIT adoption, workforce training, certification and standards (Ch 11). ARRA is the stimulus act it sits inside.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q50 · Quizlet HW #159</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Purpose of HITECH</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 159 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #159: question 50"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What type of interoperability addresses the medical words, phrases, and terms used in healthcare and the definitions of those things so that there is clear and consistent usage among all EHR systems?",
+      "options": [
+        {
+          "text": "Process",
+          "correct": false
+        },
+        {
+          "text": "Technical",
+          "correct": false
+        },
+        {
+          "text": "Semantic",
+          "correct": true
+        },
+        {
+          "text": "Syntactic",
+          "correct": false
+        }
+      ],
+      "explanation": "**Semantic.** **Checklist: Explain semantic interoperability.** Semantic interoperability: standardized terminologies such as SNOMED CT give exchanged data consistent meaning (Ch 11, p. 260). Technical = hardware, syntactic = format, process = workflow.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q51 · Quizlet HW #162</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain semantic interoperability</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 162 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #162: question 51"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which federal agency published a \"roadmap\" showing milestones to achieve complete interoperability in health information technology and systems by 2024?",
+      "options": [
+        {
+          "text": "CDC",
+          "correct": false
+        },
+        {
+          "text": "HIO",
+          "correct": false
+        },
+        {
+          "text": "ONC",
+          "correct": true
+        },
+        {
+          "text": "AHIMA",
+          "correct": false
+        }
+      ],
+      "explanation": "**ONC.** **Checklist: Describe the role of the ONC.** The ONC's 10-year interoperability roadmap (2014–2024) set direction on information blocking, nationwide HIE, FHIR and APIs, and USCDI (Ch 11, p. 262).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q52 · Quizlet HW #163</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Role of the ONC</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 163 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #163: question 52"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What organization acts as an intermediary, typically governs and coordinates all efforts of an HIE, and is usually a public-private partnership?",
+      "options": [
+        {
+          "text": "CDC",
+          "correct": false
+        },
+        {
+          "text": "HIO",
+          "correct": true
+        },
+        {
+          "text": "ONC",
+          "correct": false
+        },
+        {
+          "text": "AHIMA",
+          "correct": false
+        }
+      ],
+      "explanation": "**HIO.** **Checklist: Define HIO.** The health information organization oversees, governs and facilitates exchange among organizations with different EHRs, typically a public-private partnership (Ch 11).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q53 · Quizlet HW #160</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define HIO</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 160 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #160: question 53"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Keith is the supervisor of the MPI and chart deficiency review staff in the HIM department, which also includes being the liaison for the billing department and the R-ADT staff. He frequently meets with Michael, the R-ADT supervisor, to discuss methods to combat healthcare fraud and the process of verifying that the patients are truly who they say they are and that these patients have the appropriate documentation for verification. This process is called ______.",
+      "options": [
+        {
+          "text": "Consent management",
+          "correct": false
+        },
+        {
+          "text": "Identity management",
+          "correct": true
+        },
+        {
+          "text": "Identity matching",
+          "correct": false
+        },
+        {
+          "text": "Patient identification",
+          "correct": false
+        }
+      ],
+      "explanation": "**Identity management.** **Checklist: Explain identity management.** Identity management proves a person is who they say they are and has authority to act (ID and insurance card at registration). Identity matching finds the right patient's records in the database (Ch 11).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q54 · Quizlet HW #155</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain identity management</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 155 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #155: question 54"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Eligible hospitals and professionals must show that the use of an EHR improves the quality of care provided by meeting certain medical and health standards and criteria. These criteria are referred to as _____.",
+      "options": [
+        {
+          "text": "CQM",
+          "correct": true
+        },
+        {
+          "text": "CEHRT",
+          "correct": false
+        },
+        {
+          "text": "ePHI",
+          "correct": false
+        },
+        {
+          "text": "CAH",
+          "correct": false
+        }
+      ],
+      "explanation": "**CQM.** **Checklist: Define CQM.** Clinical quality measures (eCQMs): the criteria and tools that measure healthcare processes, outcomes and patient perceptions (Ch 11).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q55 · Quizlet HW #152</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Define CQM</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 152 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #152: question 55"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Using aggregate data from an EHR system to help evaluate the health of a community rather than focusing on an individual's health status or response to treatment is called _____.",
+      "options": [
+        {
+          "text": "CQM",
+          "correct": false
+        },
+        {
+          "text": "Acute care",
+          "correct": false
+        },
+        {
+          "text": "Outpatient care",
+          "correct": false
+        },
+        {
+          "text": "Public health",
+          "correct": true
+        }
+      ],
+      "explanation": "**Public health.** **Checklist: Explain public health.** Chapter 11 treats population health and public health as the same idea: preventing, diagnosing and treating an entire group rather than one person (p. 268). Chapter 10 would say population health.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q56 · Quizlet HW #157</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain public health</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 157 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #157: question 56"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The process of gathering aggregate data by public health officials and agencies to monitor the status of a community to identify outbreaks, epidemics and bioterrorism incidents is referred to as _____.",
+      "options": [
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "HIE",
+          "correct": false
+        },
+        {
+          "text": "Public health",
+          "correct": false
+        },
+        {
+          "text": "Syndromic surveillance",
+          "correct": true
+        }
+      ],
+      "explanation": "**Syndromic surveillance.** **Checklist: Describe syndromic surveillance.** Syndromic surveillance data are health data used by community and public health officials to plan, respond to and evaluate a disease and its spread (Ch 11, p. 268).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q57 · Quizlet HW #156</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Describe syndromic surveillance</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 156 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #156: question 57"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Both consolidated and federated models of HIE have a master patient index-like tool that identifies where the patient information is located. This tool is referred to as a _____.",
+      "options": [
+        {
+          "text": "HIO",
+          "correct": false
+        },
+        {
+          "text": "RLS",
+          "correct": true
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "HITECH",
+          "correct": false
+        }
+      ],
+      "explanation": "**RLS.** **Checklist: Explain RLS (record locator service).** The record locator service is the MPI-like index that detects where a patient's information lives among member organizations (Ch 11). The book attaches it to the hybrid and consolidated models.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q58 · Quizlet HW #151</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Explain RLS (record locator service)</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 151 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #151: question 58"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "True or false? One of the factors contributing to the increase in telehealth is patients are more engaged in their healthcare.",
+      "options": [
+        {
+          "text": "True",
+          "correct": true
+        },
+        {
+          "text": "False",
+          "correct": false
+        }
+      ],
+      "explanation": "**True.** **Checklist: Outline item: patient engagement.** True. Consumer engagement, the level at which clients are actively involved in decisions about their health, is one driver the book gives (Ch 10, p. 248).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q59 · Quizlet HW #147</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Outline item: patient engagement</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 147 of 106–165 · Chapter 10</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #147: question 59"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is the phrase used to describe an unequal difference in health outcomes or treatment based on factors such as socioeconomic status, gender or race?",
+      "options": [
+        {
+          "text": "Health disparity",
+          "correct": true
+        },
+        {
+          "text": "Clinical quality measures",
+          "correct": false
+        },
+        {
+          "text": "Syndromic surveillance",
+          "correct": false
+        },
+        {
+          "text": "Public health",
+          "correct": false
+        }
+      ],
+      "explanation": "**Health disparity.** **Not a checklist line.** Health disparities: differences in health access, status or outcome linked to social, economic or environmental disadvantage (Ch 10 and 11). Not a checklist line, but it is in both chapters.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q60 · Quizlet HW #158</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Exam 3 Quizlet item 158 of 106–165 · Chapter 11</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #158: question 60"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which function is not under CIS?",
+      "options": [
+        {
+          "text": "quality improvement",
+          "correct": true
+        },
+        {
+          "text": "surgery",
+          "correct": false
+        },
+        {
+          "text": "nursing",
+          "correct": false
+        },
+        {
+          "text": "pharmacy",
+          "correct": false
+        }
+      ],
+      "explanation": "**quality improvement.** Confirmed. A clinical information system collects medical, nursing, clinical ancillary and therapy data tied to patient care. Surgery (and its anesthesia IS), nursing and pharmacy are all clinical; quality improvement is an administrative function. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q61 · Ch 8 course quiz Q1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 8 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 1 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 course quiz Q1: question 61"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "All of the following are advantages of a DMS except __________.",
+      "options": [
+        {
+          "text": "space saving",
+          "correct": false
+        },
+        {
+          "text": "retrieval of a large number of records",
+          "correct": false
+        },
+        {
+          "text": "lack of ability to manipulate data",
+          "correct": true
+        },
+        {
+          "text": "multiple users can access data at one time",
+          "correct": false
+        }
+      ],
+      "explanation": "**lack of ability to manipulate data.** Confirmed. The PowerPoint's DMS list (slide 18) names space savings and retrieval of large numbers of records as advantages, and lack of manipulation or reporting as a DISADVANTAGE. Multiple users viewing the same image at once is an advantage (slide 12). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q62 · Ch 8 course quiz Q2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 8 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 2 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 course quiz Q2: question 62"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is the term used for the processing of scanning past health records into the information system so there is an existing database of patient information, making the information system valuable to the user from the first day of implementation?",
+      "options": [
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "OCR",
+          "correct": false
+        },
+        {
+          "text": "backscanning",
+          "correct": true
+        },
+        {
+          "text": "barcoding",
+          "correct": false
+        }
+      ],
+      "explanation": "**backscanning.** Confirmed. Backscanning = scanning past records into the DMS so there is a database from day one (slide 19). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q63 · Ch 8 course quiz Q3</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 8 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 3 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 course quiz Q3: question 63"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which health record should be scanned first when implementing a DMS?",
+      "options": [
+        {
+          "text": "inpatient",
+          "correct": false
+        },
+        {
+          "text": "outpatient surgery",
+          "correct": false
+        },
+        {
+          "text": "newborns",
+          "correct": false
+        },
+        {
+          "text": "emergency department",
+          "correct": true
+        }
+      ],
+      "explanation": "**emergency department.** Confirmed. ED records are short (about 5-15 pages) and are usually scanned before inpatient records (75-100+ pages), so the DMS starts paying off quickly. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q64 · Ch 8 course quiz Q4</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 8 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 4 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 course quiz Q4: question 64"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The return on investment for a DMS is usually calculated using what time period?",
+      "options": [
+        {
+          "text": "5-10 years",
+          "correct": true
+        },
+        {
+          "text": "6-12 months",
+          "correct": false
+        },
+        {
+          "text": "1-3 years",
+          "correct": false
+        },
+        {
+          "text": "1-3 months",
+          "correct": false
+        }
+      ],
+      "explanation": "**5-10 years.** Confirmed. The book says ROI for a DMS is calculated over 5-10 years. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q65 · Ch 8 course quiz Q5</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 8 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 5 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 course quiz Q5: question 65"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What makes the indexing of scanned health record more efficient because it can enter metadata automatically?",
+      "options": [
+        {
+          "text": "barcodes",
+          "correct": true
+        },
+        {
+          "text": "backscanning",
+          "correct": false
+        },
+        {
+          "text": "OCR",
+          "correct": false
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        }
+      ],
+      "explanation": "**barcodes.** Confirmed. A barcode on the form enters the metadata automatically, which makes indexing efficient (slide 20). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q66 · Ch 8 course quiz Q6</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 8 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 6 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 course quiz Q6: question 66"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is not a component of a DMS?",
+      "options": [
+        {
+          "text": "scanner",
+          "correct": false
+        },
+        {
+          "text": "LIS",
+          "correct": true
+        },
+        {
+          "text": "File server",
+          "correct": false
+        },
+        {
+          "text": "workstations",
+          "correct": false
+        }
+      ],
+      "explanation": "**LIS.** Confirmed. DMS components are the scanner, scanning and abstracting/QC workstations, storage (file server/SAN) and printers (slides 13-16). The LIS is a separate clinical information system for lab tests. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q67 · Ch 8 course quiz Q7</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 8 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 7 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 course quiz Q7: question 67"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is not a diagnostic test completed in an RIS?",
+      "options": [
+        {
+          "text": "MRI",
+          "correct": false
+        },
+        {
+          "text": "PET",
+          "correct": false
+        },
+        {
+          "text": "CPOE",
+          "correct": true
+        },
+        {
+          "text": "CT",
+          "correct": false
+        }
+      ],
+      "explanation": "**CPOE.** Confirmed. The RIS covers x-rays, ultrasound, MRI, CT and PET (slide 21). CPOE is computerized provider order entry, the system orders come through, not a test. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q68 · Ch 8 course quiz Q8</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 8 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 8 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 course quiz Q8: question 68"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following systems obtains, stores, retrieves, and displays digital images?",
+      "options": [
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "OCR",
+          "correct": false
+        },
+        {
+          "text": "PIS",
+          "correct": false
+        },
+        {
+          "text": "PACS",
+          "correct": true
+        }
+      ],
+      "explanation": "**PACS.** Confirmed. PACS (picture archiving and communication system) obtains, stores, retrieves and displays digital images (slide 24). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q69 · Ch 8 course quiz Q9</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 8 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 9 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 course quiz Q9: question 69"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In which area would you find robotics performing specific and complex tasks?",
+      "options": [
+        {
+          "text": "telehealth",
+          "correct": false
+        },
+        {
+          "text": "telesurgery",
+          "correct": true
+        },
+        {
+          "text": "EDS",
+          "correct": false
+        },
+        {
+          "text": "telemedicine",
+          "correct": false
+        }
+      ],
+      "explanation": "**telesurgery.** Confirmed. Telesurgery uses robotics (and virtual reality) so surgery can be performed on a patient in a different location (slide 47). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q70 · Ch 8 course quiz Q10</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 8 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 10 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 course quiz Q10: question 70"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The ability of the EHR system to identify the person who signed the document electronically is called:",
+      "options": [
+        {
+          "text": "signer authentication",
+          "correct": true
+        },
+        {
+          "text": "document authentication",
+          "correct": false
+        },
+        {
+          "text": "password authentication",
+          "correct": false
+        },
+        {
+          "text": "biometric authentication",
+          "correct": false
+        }
+      ],
+      "explanation": "**signer authentication.** Confirmed. Signer authentication is the capability to identify the individual who signed the document electronically (p.227). Document authentication is about proving the document was not altered after signing. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q71 · Ch 9 course quiz Q1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 9 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 1 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 course quiz Q1: question 71"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What publication highlighted the large number of medical mistakes that kill thousands of patients every year?",
+      "options": [
+        {
+          "text": "The Federal Register",
+          "correct": false
+        },
+        {
+          "text": "To Err is Human",
+          "correct": true
+        },
+        {
+          "text": "The Affordable Care Act",
+          "correct": false
+        },
+        {
+          "text": "Crossing the Quality Chasm",
+          "correct": false
+        }
+      ],
+      "explanation": "**To Err is Human.** Confirmed. The IOM (now National Academy of Medicine) report To Err Is Human: Building a Safer Health System pushed HIT to prevent the errors that injure and kill tens of thousands of patients (Ch 9 slide 4). Crossing the Quality Chasm was its follow-up report. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q72 · Ch 9 course quiz Q2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 9 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 2 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 course quiz Q2: question 72"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What term is used to describe the hardware, software, and other integrated technologies used in the creation of electronic patient health information?",
+      "options": [
+        {
+          "text": "HIPAA",
+          "correct": false
+        },
+        {
+          "text": "HIM",
+          "correct": false
+        },
+        {
+          "text": "HIT",
+          "correct": true
+        },
+        {
+          "text": "ACA",
+          "correct": false
+        }
+      ],
+      "explanation": "**HIT.** Confirmed. Health information technology (HIT) = hardware, software, integrated technologies, licenses, IP and upgrades used for the electronic creation, maintenance, access or exchange of health information (Ch 9 slide 5). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q73 · Ch 9 course quiz Q3</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 9 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 3 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 course quiz Q3: question 73"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "How much did the US spend on healthcare in 2015?",
+      "options": [
+        {
+          "text": "$3.2 million",
+          "correct": false
+        },
+        {
+          "text": "$3.2 billion",
+          "correct": false
+        },
+        {
+          "text": "$3.2 gazillion",
+          "correct": false
+        },
+        {
+          "text": "$3.2 trillion",
+          "correct": true
+        }
+      ],
+      "explanation": "**$3.2 trillion.** Confirmed. U.S. national health expenditures were about $3.2 trillion in 2015 (CMS figures). Million and billion are far too small. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q74 · Ch 9 course quiz Q4</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 9 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 4 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 course quiz Q4: question 74"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is the approximate percentage of hospitals in the US that have CEHRT?",
+      "options": [
+        {
+          "text": "77",
+          "correct": false
+        },
+        {
+          "text": "97",
+          "correct": true
+        },
+        {
+          "text": "26",
+          "correct": false
+        },
+        {
+          "text": "40",
+          "correct": false
+        }
+      ],
+      "explanation": "**97.** Confirmed. By 2015 about 96-97% of U.S. hospitals had certified EHR technology (ONC data), so 97 is the closest option. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q75 · Ch 9 course quiz Q5</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 9 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 5 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 course quiz Q5: question 75"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What term is used to describe HI technologies that have been tested and certified to perform up to national standards?",
+      "options": [
+        {
+          "text": "CEHRT",
+          "correct": true
+        },
+        {
+          "text": "CERT",
+          "correct": false
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "ONC",
+          "correct": false
+        }
+      ],
+      "explanation": "**CEHRT.** Confirmed. CEHRT = certified EHR technology: tested by Accredited Testing Laboratories and certified by an ONC-ACB against the national criteria (Ch 9 slides 23-24). The ONC is the agency, not the technology. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q76 · Ch 9 course quiz Q6</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 9 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 6 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 course quiz Q6: question 76"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is the term used to describe foundation systems that collect administrative and clinical data that make up the EHR?",
+      "options": [
+        {
+          "text": "source systems",
+          "correct": true
+        },
+        {
+          "text": "connectivity systems",
+          "correct": false
+        },
+        {
+          "text": "specialty clinical systems",
+          "correct": false
+        },
+        {
+          "text": "smart peripherals",
+          "correct": false
+        }
+      ],
+      "explanation": "**source systems.** Confirmed. Source systems capture and feed data into the EHR (EMAR, LIS, RIS, HIS, nursing IS) and include administrative and financial systems, not just clinical ones (Ch 9 slide 11). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q77 · Ch 9 course quiz Q7</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 9 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 7 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 course quiz Q7: question 77"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What term is used to describe activities and charting that happen at the patient's bedside or while the patient is actively receiving care?",
+      "options": [
+        {
+          "text": "POC",
+          "correct": true
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "CDS",
+          "correct": false
+        },
+        {
+          "text": "BC-MAR",
+          "correct": false
+        }
+      ],
+      "explanation": "**POC.** Confirmed. Point of care (POC) is where the service is delivered, such as the bedside; point-of-care charting documents as information is obtained from the patient (p.222). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q78 · Ch 9 course quiz Q8</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 9 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 8 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 course quiz Q8: question 78"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is not a barrier to EHR adoption?",
+      "options": [
+        {
+          "text": "cost",
+          "correct": false
+        },
+        {
+          "text": "limited HealthIT workforce",
+          "correct": false
+        },
+        {
+          "text": "suitability of products to meet practice needs",
+          "correct": false
+        },
+        {
+          "text": "ability to prescribe medication safely",
+          "correct": true
+        }
+      ],
+      "explanation": "**ability to prescribe medication safely.** Confirmed. Safer, more reliable prescribing is a BENEFIT of the EHR (Ch 9 slide 30). Cost, a limited HIT workforce and product suitability are the book's barriers (p.226). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q79 · Ch 9 course quiz Q9</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 9 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 9 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 course quiz Q9: question 79"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The combination of paper and electronic health records is called ________.",
+      "options": [
+        {
+          "text": "hybrid",
+          "correct": true
+        },
+        {
+          "text": "half and half",
+          "correct": false
+        },
+        {
+          "text": "half-witted",
+          "correct": false
+        },
+        {
+          "text": "healthy",
+          "correct": false
+        }
+      ],
+      "explanation": "**hybrid.** Confirmed. A hybrid record is a combination of paper and electronic records, common during the transition to the EHR (Ch 9 slide 41). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q80 · Ch 9 course quiz Q10</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 9 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 10 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 course quiz Q10: question 80"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Consumer informatics includes which of the following?",
+      "options": [
+        {
+          "text": "health information literature",
+          "correct": true
+        },
+        {
+          "text": "EHR",
+          "correct": false
+        },
+        {
+          "text": "telehealth",
+          "correct": false
+        },
+        {
+          "text": "health record",
+          "correct": false
+        }
+      ],
+      "explanation": "**health information literature.** Confirmed. This is Review Question 1 word for word. Page 241 says consumer informatics includes consumer health applications, patient portals, the PHR, health information literature, and other consumer applications. Telehealth is a separate section of the chapter and is not on that list, which is why (c) is the trap. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q81 · Ch 10 course quiz Q1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 10 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 1 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 course quiz Q1: question 81"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Health literacy is important because patients need to be able to __________.",
+      "options": [
+        {
+          "text": "understand risk",
+          "correct": true
+        },
+        {
+          "text": "use patient portal",
+          "correct": false
+        },
+        {
+          "text": "utilize telehealth technologies",
+          "correct": false
+        },
+        {
+          "text": "use social media",
+          "correct": false
+        }
+      ],
+      "explanation": "**understand risk.** Confirmed. Page 243: health literacy is the capacity to obtain, process, and understand basic health information needed to make appropriate health decisions, and patients need to be able to understand consent forms, discharge instructions, and when to seek treatment. Understanding is the point; portals, telehealth, and social media are tools. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q82 · Ch 10 course quiz Q2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 10 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 2 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 course quiz Q2: question 82"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An e-patient is one who_________",
+      "options": [
+        {
+          "text": "is engaged in her healthcare",
+          "correct": true
+        },
+        {
+          "text": "is using telehealth technologies",
+          "correct": false
+        },
+        {
+          "text": "has note signed up to use patient portal",
+          "correct": false
+        },
+        {
+          "text": "uses social media",
+          "correct": false
+        }
+      ],
+      "explanation": "**is engaged in her healthcare.** Answered from the book, with a caveat: the term e-patient does not appear anywhere in Chapter 10. The closest book idea is consumer engagement, the level at which healthcare clients are actively involved in decisions about their health, wellness, and care (p.248). The standard e-patient definition is a patient who is equipped, enabled, empowered, and engaged in their healthcare, so (a). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q83 · Ch 10 course quiz Q3</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 10 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 3 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 course quiz Q3: question 83"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Social media includes ____________.",
+      "options": [
+        {
+          "text": "support groups",
+          "correct": true
+        },
+        {
+          "text": "sharing clinical information with physician",
+          "correct": false
+        },
+        {
+          "text": "obtaining clinical information form physician",
+          "correct": false
+        },
+        {
+          "text": "wearable technology",
+          "correct": false
+        }
+      ],
+      "explanation": "**support groups.** Confirmed. Social media are online communication tools; healthcare uses them to promote wellness, provide health education, and manage support forums, and patients use them to share experiences (p.247; Ch 10 slide 28). Clinical information with the physician goes through the portal, not social media. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q84 · Ch 10 course quiz Q4</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 10 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 4 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 course quiz Q4: question 84"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The healthcare facility's social media policies should address ____________",
+      "options": [
+        {
+          "text": "improper usage of social media",
+          "correct": true
+        },
+        {
+          "text": "how patients can use social media",
+          "correct": false
+        },
+        {
+          "text": "how employees can use social media at home",
+          "correct": false
+        },
+        {
+          "text": "use of wearable technology",
+          "correct": false
+        }
+      ],
+      "explanation": "**improper usage of social media.** Confirmed. Patient information cannot be posted on social media, so that is a HIPAA violation; the organization needs policies covering improper use by its workforce (p.247). What patients do, or what employees do privately, is outside the facility's policy. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q85 · Ch 10 course quiz Q5</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 10 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 5 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 course quiz Q5: question 85"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "PHRs allow patients to ____________",
+      "options": [
+        {
+          "text": "add information",
+          "correct": true
+        },
+        {
+          "text": "experience e-visits",
+          "correct": false
+        },
+        {
+          "text": "request prescription refill",
+          "correct": false
+        },
+        {
+          "text": "schedule appointments",
+          "correct": false
+        }
+      ],
+      "explanation": "**add information.** Confirmed. The PHR is created, maintained, and controlled by the patient, who adds and updates the information (dietary supplements, exercise, home readings). Refills, appointments, and e-visits run through the patient portal, which the healthcare organization controls (pp.245-246). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q86 · Ch 10 course quiz Q6</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 10 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 6 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 course quiz Q6: question 86"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Benefits of patient engagement include __________",
+      "options": [
+        {
+          "text": "focus on the individual",
+          "correct": false
+        },
+        {
+          "text": "improved patient satisfaction",
+          "correct": true
+        },
+        {
+          "text": "telehealth",
+          "correct": false
+        },
+        {
+          "text": "social media",
+          "correct": false
+        }
+      ],
+      "explanation": "**improved patient satisfaction.** Confirmed. The benefits of consumer engagement are reduced costs, increased communications, improved patient satisfaction, and population health (p.246; Ch 10 slide 20). Telehealth and social media are applications, not benefits. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q87 · Ch 10 course quiz Q7</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 10 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 7 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 course quiz Q7: question 87"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The information system that is controlled by the healthcare facility that allows patients to register is known as ________.",
+      "options": [
+        {
+          "text": "PHR",
+          "correct": false
+        },
+        {
+          "text": "wearable device",
+          "correct": false
+        },
+        {
+          "text": "social media",
+          "correct": false
+        },
+        {
+          "text": "patient portal",
+          "correct": true
+        }
+      ],
+      "explanation": "**patient portal.** Confirmed. The patient portal is established and maintained by the healthcare organization and lets patients register, schedule, refill, and message (p.245). The PHR is controlled by the patient. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q88 · Ch 10 course quiz Q8</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 10 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 8 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 course quiz Q8: question 88"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Benefits to telehealth include__________",
+      "options": [
+        {
+          "text": "access to patient information",
+          "correct": false
+        },
+        {
+          "text": "reducing hospitalization",
+          "correct": true
+        },
+        {
+          "text": "providing information to healthcare providers",
+          "correct": false
+        },
+        {
+          "text": "population health",
+          "correct": false
+        }
+      ],
+      "explanation": "**reducing hospitalization.** Confirmed. The chapter lists reduced hospitalizations as a telehealth benefit, because health issues are identified early and patients are monitored remotely (p.244; Ch 10 slide 17). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q89 · Ch 10 course quiz Q9</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 10 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 9 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 course quiz Q9: question 89"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Critique this statement: Consumer health applications are used solely by patients.",
+      "options": [
+        {
+          "text": "this is a true statement",
+          "correct": false
+        },
+        {
+          "text": "this is a false statement as it is also used by insurers and healthcare providers",
+          "correct": false
+        },
+        {
+          "text": "this is a false statement as it is also used by healthcare providers",
+          "correct": true
+        },
+        {
+          "text": "this is a false statement as it is only used by physicians",
+          "correct": false
+        }
+      ],
+      "explanation": "**this is a false statement as it is also used by healthcare providers.** Confirmed. This is Review Question 10 word for word. Page 246: consumer health applications are designed for use by the patient or provider on smartphones, tablets, and other devices; providers use them to access patient information, communicate, monitor patients, and provide telemedicine. Insurers are never mentioned. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q90 · Ch 10 course quiz Q10</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 10 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Question 10 of 10 · instructor-confirmed key</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 course quiz Q10: question 90"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Rene is a new processing technician. You are explaining where she would find specific information in the EHR for her various work duties. Since one of her areas is R-ADT productivity, she will have access to the MPI and DSS but not the CIS. Identify the function that does not fall under the CIS.",
+      "options": [
+        {
+          "text": "Quality improvement",
+          "correct": true
+        },
+        {
+          "text": "Surgery",
+          "correct": false
+        },
+        {
+          "text": "Nursing",
+          "correct": false
+        },
+        {
+          "text": "Pharmacy",
+          "correct": false
+        }
+      ],
+      "explanation": "**Quality improvement.** Review questions have no published key — From Figure 8.1 (p.181): quality improvement sits under operations systems; nursing, pharmacy, and surgical systems are all clinical systems.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q91 · Ch 8 Review p.204</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 204 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.204: question 91"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Olsen wants to know more about the differences between an EHR and a DMS. He thinks he'll be able to update the old documents once they have been scanned into the DMS system. Identify a disadvantage of a DMS system.",
+      "options": [
+        {
+          "text": "Space saving",
+          "correct": false
+        },
+        {
+          "text": "Retrieval of a large number of records",
+          "correct": false
+        },
+        {
+          "text": "Lack of ability to manipulate data",
+          "correct": true
+        },
+        {
+          "text": "Multiple users can access data at one time",
+          "correct": false
+        }
+      ],
+      "explanation": "**Lack of ability to manipulate data.** Review questions have no published key — From the text (p.187): because the images are pictures of the record and not entries in the EHR, the user is unable to manipulate the data — the listed disadvantages are lack of manipulation/reporting and fear of change.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q92 · Ch 8 Review p.204</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 204 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.204: question 92"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "As HIM director, you explain to the CEO that clinicians need patient information on the go-live date for the new EHR. You discuss with her the importance of having the old health records input into the new system at least six months prior to the go-live date. Your productivity calculations show that you will need four clerical positions to complete this task in the allotted time. The term used for the processing of scanning past health records into the information system so there is an existing database of patient information, making the information system valuable to the user from the first day of implementation, is ___.",
+      "options": [
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "OCR",
+          "correct": false
+        },
+        {
+          "text": "Backscanning",
+          "correct": true
+        },
+        {
+          "text": "Barcoding",
+          "correct": false
+        }
+      ],
+      "explanation": "**Backscanning.** Review questions have no published key — From the text (p.188): backscanning is the process of scanning past health records into the DMS so there is an existing database of patient information from the first day of the go-live.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q93 · Ch 8 Review p.204</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 204 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.204: question 93"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The CFO wants to know which patient charts will be scanned first. You explain that the records with fewer pages per encounter would have the most productive impact. Typically, the health record that is smaller, is more controllable, is easiest to manage, and should be scanned first when implementing a DMS is the ___.",
+      "options": [
+        {
+          "text": "Inpatient",
+          "correct": false
+        },
+        {
+          "text": "Outpatient surgery",
+          "correct": false
+        },
+        {
+          "text": "Newborns",
+          "correct": false
+        },
+        {
+          "text": "Emergency department",
+          "correct": true
+        }
+      ],
+      "explanation": "**Emergency department.** Review questions have no published key — From the text (p.188): many hospitals begin by scanning ED records — 5 to 15 pages versus 75 to 100+ pages for a three- to four-day inpatient stay.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q94 · Ch 8 Review p.204</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 204 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.204: question 94"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "During the discussion of the DMS with the CFO, he asks about the high initial personnel costs of implementing such a system. You explain that once all the old records are backscanned, the costs go down significantly. You explain that the return on investment for a DMS is usually calculated using a ___ time period.",
+      "options": [
+        {
+          "text": "5–10 year",
+          "correct": true
+        },
+        {
+          "text": "6–12 month",
+          "correct": false
+        },
+        {
+          "text": "1–3 year",
+          "correct": false
+        },
+        {
+          "text": "1–3 month",
+          "correct": false
+        }
+      ],
+      "explanation": "**5–10 year.** Review questions have no published key — From the text (p.188): costs may go up in the short term; the return on investment for a DMS may be calculated over a 5- to 10-year period.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q95 · Ch 8 Review p.204</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 204 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.204: question 95"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The CIO is concerned about provider feedback on workflows as well as provider burnout due to alert fatigue. He has asked the director of HIM, the chief of medicine, and the director of nursing to meet with him to discuss these concerns and brainstorm resolutions. Identify the clinical information system that will be addressed during this meeting.",
+      "options": [
+        {
+          "text": "Document management",
+          "correct": false
+        },
+        {
+          "text": "Nursing information",
+          "correct": false
+        },
+        {
+          "text": "Patient monitoring",
+          "correct": false
+        },
+        {
+          "text": "Clinical decision support",
+          "correct": true
+        }
+      ],
+      "explanation": "**Clinical decision support.** Review questions have no published key — From the text (p.183): alert and alarm fatigue is a real issue with CDS — systems can increase clinician burnout when alerts are irrelevant or overbearing, so workflow evaluations and clinical input are critical.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q96 · Ch 8 Review p.204</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 204 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.204: question 96"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Jennifer is the HIM operations manager. She is evaluating the conversion workflow of paper documents received from external providers into her hospital's EHR system. Identify the component that Jennifer will not be reviewing within the DMS.",
+      "options": [
+        {
+          "text": "Scanner",
+          "correct": false
+        },
+        {
+          "text": "LIS",
+          "correct": true
+        },
+        {
+          "text": "File server",
+          "correct": false
+        },
+        {
+          "text": "Workstations",
+          "correct": false
+        }
+      ],
+      "explanation": "**LIS.** Review questions have no published key — From the text (p.184): a DMS is made of a scanner, magnetic storage, a file server, and scanning workstations. The LIS is a separate clinical system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q97 · Ch 8 Review p.205</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 205 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.205: question 97"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The health IT implementation team at Oceanside Medical is meeting to determine the next component they will add to the facility's EHR. The new component will need to capture documentation including intake and output, medication administration records, activities of daily living assistance and graphic information. Administration will also use the system to monitor staffing allocations based on bed occupancy. Based on these details, determine which component will be added to the EHR.",
+      "options": [
+        {
+          "text": "Pharmacy information system",
+          "correct": false
+        },
+        {
+          "text": "Nursing information system",
+          "correct": true
+        },
+        {
+          "text": "Emergency department system",
+          "correct": false
+        },
+        {
+          "text": "Laboratory information system",
+          "correct": false
+        }
+      ],
+      "explanation": "**Nursing information system.** Review questions have no published key — From the text (p.196): nursing documentation includes intake and output, graphic information, ADLs, and the MAR, and the NIS also assists administration by monitoring staffing allocation.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q98 · Ch 8 Review p.205</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 205 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.205: question 98"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The case manager at City Cardiac Care Specialists (a multi-physician cardiac care group) has recommended all patients with a pacemaker wear a medical alert bracelet. She is concerned that emergency care providers would not be aware of the patient's heart status without such a device. What other new technology could the case manager suggest to the patient that would alert providers to the patient's pacemaker and provide access to basic health information in the event of an emergency?",
+      "options": [
+        {
+          "text": "Telemedicine",
+          "correct": false
+        },
+        {
+          "text": "Smart card",
+          "correct": true
+        },
+        {
+          "text": "Artificial intelligence",
+          "correct": false
+        },
+        {
+          "text": "Annotation",
+          "correct": false
+        }
+      ],
+      "explanation": "**Smart card.** Review questions have no published key — From the text (p.201): smart cards provide portable storage of health information; in an emergency, a smart card can give a physician critical information such as allergies and significant conditions.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q99 · Ch 8 Review p.205</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 205 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.205: question 99"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Meridian Medical Center (MMC) utilizes a variety of technologies to care for its patient population that is spread across 23 counties in the state of Georgia. To address patient needs in a variety of communities, MMC has embraced artificial intelligence as well as other new technologies. In particular, it uses robotics to perform specific and complex tasks. What area of the organization would most likely use robotics to provide patient care?",
+      "options": [
+        {
+          "text": "Telehealth",
+          "correct": false
+        },
+        {
+          "text": "Telemedicine",
+          "correct": false
+        },
+        {
+          "text": "EDS",
+          "correct": false
+        },
+        {
+          "text": "Telesurgery",
+          "correct": true
+        }
+      ],
+      "explanation": "**Telesurgery.** Review questions have no published key — From the text (p.199): the use of robotics to perform surgery is called telesurgery, which allows surgery on a patient in a different location.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q100 · Ch 8 Review p.205</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 205 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.205: question 100"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Edna is told that she needs to wear a Holter monitor for 72 hours to check her heart rate. There is an app she downloads onto her smartphone so that this cardiac information is sent to her doctor's office for evaluation every 24 hours. She does not have to go to the doctor's office every day and only needs to wait until her doctor checks the information to determine if Edna needs to see a specialist. Identify the activity that Edna is participating in.",
+      "options": [
+        {
+          "text": "RPM",
+          "correct": true
+        },
+        {
+          "text": "Telesurgery",
+          "correct": false
+        },
+        {
+          "text": "EDS",
+          "correct": false
+        },
+        {
+          "text": "PACS",
+          "correct": false
+        }
+      ],
+      "explanation": "**RPM.** Review questions have no published key — From the text (p.200): remote patient monitoring is home care telehealth that uses smartphones and mobile medical devices to collect patient-generated health data.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q101 · Ch 8 Review p.205</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 205 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.205: question 101"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "You are working with the IT and radiology managers to develop a list of all the radiological images that would be included in the EHR. Your group is developing an inventory for the data dictionary. Which of the following data or documents would not be used in a PACS?",
+      "options": [
+        {
+          "text": "CT scan",
+          "correct": false
+        },
+        {
+          "text": "Ultrasound",
+          "correct": false
+        },
+        {
+          "text": "Discharge summary",
+          "correct": true
+        },
+        {
+          "text": "X-ray",
+          "correct": false
+        }
+      ],
+      "explanation": "**Discharge summary.** Review questions have no published key — From the text (p.192): a PACS obtains, stores, retrieves, and displays digital images (x-rays, MRIs, mammograms, ultrasounds). A discharge summary is a text document, not an image.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q102 · Ch 8 Review p.205</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 205 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.205: question 102"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — EDS is best described as ___.",
+      "options": [
+        {
+          "text": "An information system that is important in tracking outbreaks due to monitoring activity of patients seeking emergency care for symptoms",
+          "correct": true
+        },
+        {
+          "text": "Software that incorporates paper and external documents into the provider's EHR system",
+          "correct": false
+        },
+        {
+          "text": "Software that converts images to digital format, eliminating the need for films",
+          "correct": false
+        },
+        {
+          "text": "Makes text scannable and readable in order to be inputted into a DMS and EHR",
+          "correct": false
+        }
+      ],
+      "explanation": "**An information system that is important in tracking outbreaks due to monitoring activity of patients seeking emergency care for symptoms.** Review questions have no published key — The emergency department system tracks patients from triage to discharge and supports population health reporting of emerging diseases and mass casualty events (p.198).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q103 · Ch 8 Review p.206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 206 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.206: question 103"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — DMS is best described as ___.",
+      "options": [
+        {
+          "text": "Software that documents the overall nursing care of the patient",
+          "correct": false
+        },
+        {
+          "text": "Software that incorporates paper and external documents into the provider's EHR system",
+          "correct": true
+        },
+        {
+          "text": "Makes text scannable and readable in order to be inputted into a DMS and EHR",
+          "correct": false
+        },
+        {
+          "text": "Software that helps medical professionals determine the best course of action for the patient",
+          "correct": false
+        }
+      ],
+      "explanation": "**Software that incorporates paper and external documents into the provider's EHR system.** Review questions have no published key — The document management system is an electronic method of capturing and managing documents — scanned or obtained electronically from other systems (p.183).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q104 · Ch 8 Review p.206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 206 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.206: question 104"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — CDS is best described as ___.",
+      "options": [
+        {
+          "text": "Software that collects, stores, and manages all health and medical information on a patient",
+          "correct": false
+        },
+        {
+          "text": "Software that incorporates paper and external documents into the provider's EHR system",
+          "correct": false
+        },
+        {
+          "text": "Software that helps medical professionals determine the best course of action for the patient",
+          "correct": true
+        },
+        {
+          "text": "Software that converts images to digital format, eliminating the need for films",
+          "correct": false
+        }
+      ],
+      "explanation": "**Software that helps medical professionals determine the best course of action for the patient.** Review questions have no published key — Clinical decision support provides clinicians with knowledge and person-specific information, intelligently filtered, to enhance health and health care (p.181).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q105 · Ch 8 Review p.206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 206 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.206: question 105"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — PPM is best described as ___.",
+      "options": [
+        {
+          "text": "An information system that is important in tracking outbreaks due to monitoring activity of patients seeking emergency care for symptoms",
+          "correct": false
+        },
+        {
+          "text": "Software that converts images to digital format, eliminating the need for films",
+          "correct": false
+        },
+        {
+          "text": "Makes text scannable and readable in order to be inputted into a DMS and EHR",
+          "correct": false
+        },
+        {
+          "text": "A method to evaluate the speed and capability of a scanner",
+          "correct": true
+        }
+      ],
+      "explanation": "**A method to evaluate the speed and capability of a scanner.** Review questions have no published key — Scanners are rated by the number of pages per minute (PPM) they can process (p.184).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q106 · Ch 8 Review p.206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 206 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.206: question 106"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — NIS is best described as ___.",
+      "options": [
+        {
+          "text": "Software that documents the overall nursing care of the patient",
+          "correct": true
+        },
+        {
+          "text": "A method to evaluate the speed and capability of a scanner",
+          "correct": false
+        },
+        {
+          "text": "Makes text scannable and readable in order to be inputted into a DMS and EHR",
+          "correct": false
+        },
+        {
+          "text": "Software that incorporates paper and external documents into the provider's EHR system",
+          "correct": false
+        }
+      ],
+      "explanation": "**Software that documents the overall nursing care of the patient.** Review questions have no published key — The nursing information system assists in the planning and monitoring of overall patient care and documents the nursing care provided (p.196).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q107 · Ch 8 Review p.206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 206 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.206: question 107"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — PACS is best described as ___.",
+      "options": [
+        {
+          "text": "Software that collects, stores, and manages all health and medical information on a patient",
+          "correct": false
+        },
+        {
+          "text": "Software that converts images to digital format, eliminating the need for films",
+          "correct": true
+        },
+        {
+          "text": "Software that incorporates paper and external documents into the provider's EHR system",
+          "correct": false
+        },
+        {
+          "text": "Software that documents the overall nursing care of the patient",
+          "correct": false
+        }
+      ],
+      "explanation": "**Software that converts images to digital format, eliminating the need for films.** Review questions have no published key — The picture archival communication system stores images digitally, eliminating the need to store and manage physical film (p.192).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q108 · Ch 8 Review p.206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 206 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.206: question 108"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — CPOE is best described as ___.",
+      "options": [
+        {
+          "text": "An information system that is important in tracking outbreaks due to monitoring activity of patients seeking emergency care for symptoms",
+          "correct": false
+        },
+        {
+          "text": "Software that documents the overall nursing care of the patient",
+          "correct": false
+        },
+        {
+          "text": "Software that coordinates the ordering of all tests, scans, and other diagnostic activities for the patient",
+          "correct": true
+        },
+        {
+          "text": "Makes text scannable and readable in order to be inputted into a DMS and EHR",
+          "correct": false
+        }
+      ],
+      "explanation": "**Software that coordinates the ordering of all tests, scans, and other diagnostic activities for the patient.** Review questions have no published key — Computerized provider order entry identifies what tests need to be run, schedules them, and sends the order to the department (p.193).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q109 · Ch 8 Review p.206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 206 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.206: question 109"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — CIS is best described as ___.",
+      "options": [
+        {
+          "text": "A method to evaluate the speed and capability of a scanner",
+          "correct": false
+        },
+        {
+          "text": "Makes text scannable and readable in order to be inputted into a DMS and EHR",
+          "correct": false
+        },
+        {
+          "text": "Software that incorporates paper and external documents into the provider's EHR system",
+          "correct": false
+        },
+        {
+          "text": "Software that collects, stores, and manages all health and medical information on a patient",
+          "correct": true
+        }
+      ],
+      "explanation": "**Software that collects, stores, and manages all health and medical information on a patient.** Review questions have no published key — A clinical information system collects and stores medical, nursing, clinical ancillary, and therapy department information (p.180).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q110 · Ch 8 Review p.206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 206 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.206: question 110"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — OCR is best described as ___.",
+      "options": [
+        {
+          "text": "Makes text scannable and readable in order to be inputted into a DMS and EHR",
+          "correct": true
+        },
+        {
+          "text": "Software that coordinates the ordering of all tests, scans, and other diagnostic activities for the patient",
+          "correct": false
+        },
+        {
+          "text": "Software that incorporates paper and external documents into the provider's EHR system",
+          "correct": false
+        },
+        {
+          "text": "Software that documents the overall nursing care of the patient",
+          "correct": false
+        }
+      ],
+      "explanation": "**Makes text scannable and readable in order to be inputted into a DMS and EHR.** Review questions have no published key — Optical character recognition translates bitmapped images of paper into a form that is computer readable, so text can be searched and edited (p.183).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q111 · Ch 8 Review p.206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 206 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.206: question 111"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — RPM is best described as ___.",
+      "options": [
+        {
+          "text": "An information system that is important in tracking outbreaks due to monitoring activity of patients seeking emergency care for symptoms",
+          "correct": false
+        },
+        {
+          "text": "Helps patients who live far away to send information and status updates of their health and medical devices to their healthcare providers",
+          "correct": true
+        },
+        {
+          "text": "Software that documents the overall nursing care of the patient",
+          "correct": false
+        },
+        {
+          "text": "Software that collects, stores, and manages all health and medical information on a patient",
+          "correct": false
+        }
+      ],
+      "explanation": "**Helps patients who live far away to send information and status updates of their health and medical devices to their healthcare providers.** Review questions have no published key — Remote patient monitoring is home care telehealth using smartphones and mobile medical devices to collect patient-generated health data (p.200).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q112 · Ch 8 Review p.206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 8 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 206 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 8 Review p.206: question 112"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In the EHR, authentication of documentation is managed with digital signature technologies. Determine the type of authentication that will identify the person who signed the document electronically.",
+      "options": [
+        {
+          "text": "Signer authentication",
+          "correct": true
+        },
+        {
+          "text": "Document authentication",
+          "correct": false
+        },
+        {
+          "text": "Password authentication",
+          "correct": false
+        },
+        {
+          "text": "Biometric authentication",
+          "correct": false
+        }
+      ],
+      "explanation": "**Signer authentication.** Review questions have no published key — From the text (p.227): signer authentication is the capability to identify the individual who digitally signed the document; document authentication ensures the document and signature cannot be changed.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q113 · Ch 9 Review p.235</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 235 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.235: question 113"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The EHR should be accessible to not only the healthcare provider, but also the consumer. Identify the key characteristic that is needed in order for different systems in the EHR to communicate both within and outside of the entity; exchange information effectively; and use the information that has been exchanged.",
+      "options": [
+        {
+          "text": "Auditing",
+          "correct": false
+        },
+        {
+          "text": "Interoperability",
+          "correct": true
+        },
+        {
+          "text": "Structured data",
+          "correct": false
+        },
+        {
+          "text": "Standards",
+          "correct": false
+        }
+      ],
+      "explanation": "**Interoperability.** Review questions have no published key — From the text (p.211): interoperability is the ability of different IT systems and software applications to communicate, exchange data accurately, effectively, and consistently, and use the information exchanged.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q114 · Ch 9 Review p.235</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 235 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.235: question 114"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Mary, the office manager for ABC Primary Practice, is working with John, the IT consultant, to determine what information should be included from the patient's record when referring a patient to another physician or when an outside physician requests a patient summary. They have chosen to use a core data set that is recognized as an international standard for the minimum requirement of patient data. This set includes physician information, patient information, financial information, and care documentation. Identify the core data set they have chosen to use as their standard.",
+      "options": [
+        {
+          "text": "CCR",
+          "correct": true
+        },
+        {
+          "text": "ASTM",
+          "correct": false
+        },
+        {
+          "text": "FHIR",
+          "correct": false
+        },
+        {
+          "text": "HL7",
+          "correct": false
+        }
+      ],
+      "explanation": "**CCR.** Review questions have no published key — From the text (p.212 and Figure 9.1): the CCR is the core data set. Watch the trap: ASTM International is the standards development ORGANIZATION that defined the CCR's minimum requirements — it is not the data set itself.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q115 · Ch 9 Review p.235</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 235 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.235: question 115"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the example that can be used to justify a policy against using the copy and paste function.",
+      "options": [
+        {
+          "text": "Improves the quality of care",
+          "correct": false
+        },
+        {
+          "text": "Decreases the chances of fraudulent claims",
+          "correct": true
+        },
+        {
+          "text": "Provides more detailed documentation",
+          "correct": false
+        },
+        {
+          "text": "Documentation cannot be used for quality improvement purposes",
+          "correct": false
+        }
+      ],
+      "explanation": "**Decreases the chances of fraudulent claims.** Review questions have no published key — From the text (p.228): the book's list of copy-and-paste problems includes “fraudulent claims for reimbursement may be made.” A policy against copy/paste decreases that chance. The stem is loosely worded; b is the only option tied to the book's list.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q116 · Ch 9 Review p.235</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 235 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.235: question 116"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Professor Smith has assigned her HIT students the task of researching which health information exchange standard would be suitable for use in a dental practice. The standard must be compatible with the EHR and mobile phone technology. Determine the standard the students should recommend.",
+      "options": [
+        {
+          "text": "CCR",
+          "correct": false
+        },
+        {
+          "text": "ASTM",
+          "correct": false
+        },
+        {
+          "text": "FHIR",
+          "correct": true
+        },
+        {
+          "text": "CCD",
+          "correct": false
+        }
+      ],
+      "explanation": "**FHIR.** Review questions have no published key — From the text (p.212): FHIR is a set of modular components for mobile phone apps, cloud communications, EHR-based data sharing, and server communication.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q117 · Ch 9 Review p.235</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 235 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.235: question 117"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Wesson is looking for a new EHR system for her practice. Since you are the HIM director, she asks you what is the most important thing an EHR system should have. You tell her EHRs must prove they have been tested to perform up to national standards. Identify the term that is used to describe health information technologies that have been tested and certified to perform up to national standards.",
+      "options": [
+        {
+          "text": "CEHRT",
+          "correct": true
+        },
+        {
+          "text": "CERT",
+          "correct": false
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "ONC",
+          "correct": false
+        }
+      ],
+      "explanation": "**CEHRT.** Review questions have no published key — From the text (p.216): EHR systems that meet ONC certification criteria are deemed certified electronic health record technology (CEHRT).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q118 · Ch 9 Review p.235</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 235 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.235: question 118"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The physical therapy director wants to know how all the patient information is put into the EHR. You explain that the information systems of radiology, lab, R-ADT demographic information, and billing each feed their material electronically into the EHR. The phrase ___ is used to describe the foundation systems that collect administrative and clinical data that make up the EHR.",
+      "options": [
+        {
+          "text": "Source systems",
+          "correct": true
+        },
+        {
+          "text": "Connectivity systems",
+          "correct": false
+        },
+        {
+          "text": "Specialty clinical systems",
+          "correct": false
+        },
+        {
+          "text": "Smart peripherals",
+          "correct": false
+        }
+      ],
+      "explanation": "**Source systems.** Review questions have no published key — From the text (p.212): source systems are information systems that capture and feed data into the EHR — clinical, administrative, and financial.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q119 · Ch 9 Review p.235</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 235 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.235: question 119"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Emily, the director of nursing for Centennial Nursing Home, recently audited the medication administration process. Centennial uses individually dosed medications, and nursing staff document the medication administration in a three-ring binder that contains a med-pass spreadsheet for each patient. Emily frequently finds errors or omissions and has requested IT implement a system that will automate the process. What system should IT add to the existing EHR utilized by Centennial Nursing Home?",
+      "options": [
+        {
+          "text": "CDSS",
+          "correct": false
+        },
+        {
+          "text": "Order communication and results retrieval",
+          "correct": false
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "EMAR",
+          "correct": true
+        }
+      ],
+      "explanation": "**EMAR.** Review questions have no published key — From the text (p.223): the EMAR automates many of the medication administration processes — listing medications to be given and documenting their administration.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q120 · Ch 9 Review p.236</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 236 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.236: question 120"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following statements would be considered a barrier to EHR adoption?",
+      "options": [
+        {
+          "text": "Cost",
+          "correct": true
+        },
+        {
+          "text": "Unlimited HIT workforce",
+          "correct": false
+        },
+        {
+          "text": "Availability of diverse EHR products to meet practice needs",
+          "correct": false
+        },
+        {
+          "text": "Ability to prescribe medication safely",
+          "correct": false
+        }
+      ],
+      "explanation": "**Cost.** Review questions have no published key — From the text (p.226): one of the primary barriers to EHR implementation is cost. The other options reverse the book's barriers (limited HIT workforce, suitability of products) or name a benefit.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q121 · Ch 9 Review p.236</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 236 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.236: question 121"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The nursing director wants her staff to be consistent when discussing patient information either within the paper medical record or the EHR. She's heard various terms bantered about on the nursing floors and it seems to be causing confusion. You inform her that the combination of paper and electronic health records is called ___.",
+      "options": [
+        {
+          "text": "Hybrid",
+          "correct": true
+        },
+        {
+          "text": "Half and half",
+          "correct": false
+        },
+        {
+          "text": "Mixed",
+          "correct": false
+        },
+        {
+          "text": "Interoperable",
+          "correct": false
+        }
+      ],
+      "explanation": "**Hybrid.** Review questions have no published key — From the text (p.231): the hybrid record is a combination of paper and electronic health records.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q122 · Ch 9 Review p.236</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 236 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.236: question 122"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The CIO of Broadway Medical Center is concerned that the current vendor proposal for a new EHR does not include a system that will notify ancillary departments when orders are written or results are reported to the provider upon completion of diagnostic testing. Identify the essential system that is missing in the EHR proposal.",
+      "options": [
+        {
+          "text": "Clinical messaging",
+          "correct": false
+        },
+        {
+          "text": "Patient monitoring",
+          "correct": false
+        },
+        {
+          "text": "Order communication and results retrieval",
+          "correct": true
+        },
+        {
+          "text": "Document management system",
+          "correct": false
+        }
+      ],
+      "explanation": "**Order communication and results retrieval.** Review questions have no published key — From the text (p.221): the order communication system notifies clinical departments (lab, radiology, PT, dietary) of orders, and results of diagnostic studies are compiled and transferred into the EHR.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q123 · Ch 9 Review p.236</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 236 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.236: question 123"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The medical director at XYZ Hospital is interested in standardizing practice patterns in the Cardiac Rehab Unit. He wants to ensure that all physicians have the ability to compare internal treatment data across the service, as well as alerts when they order high-cost drugs or duplicative testing and treatment. Identify the system that would address the need for benchmarking and alerts in an EHR.",
+      "options": [
+        {
+          "text": "CDSS",
+          "correct": true
+        },
+        {
+          "text": "CPOE",
+          "correct": false
+        },
+        {
+          "text": "BC-MAR",
+          "correct": false
+        },
+        {
+          "text": "DMS",
+          "correct": false
+        }
+      ],
+      "explanation": "**CDSS.** Review questions have no published key — From the text (p.224): in a CDSS, benchmarking is used to standardize practice patterns and reduce the usage of high-cost drugs and other treatments, and rules engines control the alerts.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q124 · Ch 9 Review p.236</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 236 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.236: question 124"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A new procedure is implemented during patient checkout from the clinic. Patients are given a brochure that has a temporary username and password in order for them to access their health information online from their respective doctor. They are informed they can also see their bill, check lab results, and schedule appointments. Technicians tell the patients that the name of this process is referred to as the ___.",
+      "options": [
+        {
+          "text": "Patient-provider portal",
+          "correct": true
+        },
+        {
+          "text": "EMR",
+          "correct": false
+        },
+        {
+          "text": "CCR",
+          "correct": false
+        },
+        {
+          "text": "EHR",
+          "correct": false
+        }
+      ],
+      "explanation": "**Patient-provider portal.** Review questions have no published key — From the text (p.222): the patient-provider portal is a secure method of communication between the provider and the patient, including remote access to test results.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q125 · Ch 9 Review p.236</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 236 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.236: question 125"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "There have been consistent issues with the R-ADT system regarding the identification of the primary and secondary insurance carriers for patients being admitted. Identify processes that would help the HIM and registration managers determine who was making these mistakes and when and where these mistakes were constantly happening.",
+      "options": [
+        {
+          "text": "Interoperability standards",
+          "correct": false
+        },
+        {
+          "text": "Source systems",
+          "correct": false
+        },
+        {
+          "text": "Audit logs",
+          "correct": true
+        },
+        {
+          "text": "Patient-provider portal",
+          "correct": false
+        }
+      ],
+      "explanation": "**Audit logs.** Review questions have no published key — From the text (p.228): an audit log is an electronic footprint that maps when a file was accessed, who accessed it, what was done, and which terminal or device was used.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q126 · Ch 9 Review p.237</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 237 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.237: question 126"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The Jackson Orthopedic Clinic has a high percentage of Medicare patients. The QPP gives monetary rewards to healthcare providers who show improved value and patient outcomes. Identify the area that the clinic should prioritize in their review efforts since this section has a high weight of 30 percent and focuses on measuring performance.",
+      "options": [
+        {
+          "text": "Quality of care",
+          "correct": true
+        },
+        {
+          "text": "Promoting interoperability",
+          "correct": false
+        },
+        {
+          "text": "Improvement activities",
+          "correct": false
+        },
+        {
+          "text": "Cost",
+          "correct": false
+        }
+      ],
+      "explanation": "**Quality of care.** Review questions have no published key — From the text (p.216): Quality (30%) is the quality of care delivered by the clinician based on specific PERFORMANCE MEASURES. Trap: Cost is also 30%, but it is calculated by CMS from Medicare claims — “measuring performance” is the discriminator.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q127 · Ch 9 Review p.237</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 237 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.237: question 127"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Fredericka, the CIO of XYZ Hospital, has brought together the directors of HIM and IT and the hospital's attorney. The goal for this team is to update policies and procedures for information security and disclosures of health information in the new EHR system scheduled to go live in six months. Identify the level of interoperability used.",
+      "options": [
+        {
+          "text": "Level 1",
+          "correct": false
+        },
+        {
+          "text": "Level 2",
+          "correct": false
+        },
+        {
+          "text": "Level 3",
+          "correct": false
+        },
+        {
+          "text": "Level 4",
+          "correct": true
+        }
+      ],
+      "explanation": "**Level 4.** Review questions have no published key — From the text (p.211): Organizational (Level 4) interoperability includes governance, policy, social, legal, and organizational considerations — policies, disclosures, and an attorney at the table.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q128 · Ch 9 Review p.237</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 237 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.237: question 128"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — NLP is best described as ___.",
+      "options": [
+        {
+          "text": "Computer software that changes voice or dictation into electronic format to be input into the EHR system",
+          "correct": true
+        },
+        {
+          "text": "This is the computerized version of the actual paper health record containing all patient information",
+          "correct": false
+        },
+        {
+          "text": "A standard and complete set of patient information during an encounter for service sent to the next provider to ensure optimal continued care",
+          "correct": false
+        },
+        {
+          "text": "An electronic method, usually by a computer chip of tracking an object",
+          "correct": false
+        }
+      ],
+      "explanation": "**Computer software that changes voice or dictation into electronic format to be input into the EHR system.** Review questions have no published key — Natural language processing converts unstructured data into structured data through computer algorithms or statistical methods (p.229).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q129 · Ch 9 Review p.238</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 238 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.238: question 129"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — EMR is best described as ___.",
+      "options": [
+        {
+          "text": "The federal agency in charge of all things associated with the implementation and functioning of the EHR by US healthcare providers",
+          "correct": false
+        },
+        {
+          "text": "This is the computerized version of the actual paper health record containing all patient information",
+          "correct": true
+        },
+        {
+          "text": "An electronic method, usually by a computer chip of tracking an object",
+          "correct": false
+        },
+        {
+          "text": "The evaluation of an EHR system against specific established criteria to ensure its proper functioning by a healthcare provider",
+          "correct": false
+        }
+      ],
+      "explanation": "**This is the computerized version of the actual paper health record containing all patient information.** Review questions have no published key — The EMR is the electronic collection of a patient's information stored and used by members of ONE healthcare entity — much like the paper record in digital form (p.210).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q130 · Ch 9 Review p.238</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 238 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.238: question 130"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — CEHRT is best described as ___.",
+      "options": [
+        {
+          "text": "Any patient care or discussions that happen at the bedside or during the services being provided to the patient",
+          "correct": false
+        },
+        {
+          "text": "This is the computerized version of the actual paper health record containing all patient information",
+          "correct": false
+        },
+        {
+          "text": "The evaluation of an EHR system against specific established criteria to ensure its proper functioning by a healthcare provider",
+          "correct": true
+        },
+        {
+          "text": "A standard and complete set of patient information during an encounter for service sent to the next provider to ensure optimal continued care",
+          "correct": false
+        }
+      ],
+      "explanation": "**The evaluation of an EHR system against specific established criteria to ensure its proper functioning by a healthcare provider.** Review questions have no published key — Certified EHR technology meets ONC certification criteria after testing by an ATL and certification by an ONC-ACB (pp.216–218).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q131 · Ch 9 Review p.238</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 238 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.238: question 131"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — EMAR is best described as ___.",
+      "options": [
+        {
+          "text": "Computer software that changes voice or dictation into electronic format to be input into the EHR system",
+          "correct": false
+        },
+        {
+          "text": "A standard and complete set of patient information during an encounter for service sent to the next provider to ensure optimal continued care",
+          "correct": false
+        },
+        {
+          "text": "An electronic method, usually by a computer chip of tracking an object",
+          "correct": false
+        },
+        {
+          "text": "A safety mechanism to track the drugs given to patients to make sure each is the proper drug, is in the correct amount, is given the right way, and has no contraindications",
+          "correct": true
+        }
+      ],
+      "explanation": "**A safety mechanism to track the drugs given to patients to make sure each is the proper drug, is in the correct amount, is given the right way, and has no contraindications.** Review questions have no published key — The electronic medication administration record automates medication administration and addresses the eight rights (p.223).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q132 · Ch 9 Review p.238</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 238 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.238: question 132"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — ONC is best described as ___.",
+      "options": [
+        {
+          "text": "The federal agency in charge of all things associated with the implementation and functioning of the EHR by US healthcare providers",
+          "correct": true
+        },
+        {
+          "text": "A safety mechanism to track the drugs given to patients to make sure each is the proper drug, is in the correct amount, is given the right way, and has no contraindications",
+          "correct": false
+        },
+        {
+          "text": "An electronic method, usually by a computer chip of tracking an object",
+          "correct": false
+        },
+        {
+          "text": "This is the computerized version of the actual paper health record containing all patient information",
+          "correct": false
+        }
+      ],
+      "explanation": "**The federal agency in charge of all things associated with the implementation and functioning of the EHR by US healthcare providers.** Review questions have no published key — The Office of the National Coordinator for HIT is the lead federal agency for the national HIT effort and sets certification criteria (p.215).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q133 · Ch 9 Review p.238</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 238 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.238: question 133"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — CCR is best described as ___.",
+      "options": [
+        {
+          "text": "Any patient care or discussions that happen at the bedside or during the services being provided to the patient",
+          "correct": false
+        },
+        {
+          "text": "A standard and complete set of patient information during an encounter for service sent to the next provider to ensure optimal continued care",
+          "correct": true
+        },
+        {
+          "text": "This is the computerized version of the actual paper health record containing all patient information",
+          "correct": false
+        },
+        {
+          "text": "The federal agency in charge of all things associated with the implementation and functioning of the EHR by US healthcare providers",
+          "correct": false
+        }
+      ],
+      "explanation": "**A standard and complete set of patient information during an encounter for service sent to the next provider to ensure optimal continued care.** Review questions have no published key — The continuity of care record is a core data set of the most relevant information for continued care (p.212).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q134 · Ch 9 Review p.238</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 238 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.238: question 134"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — HL7 is best described as ___.",
+      "options": [
+        {
+          "text": "Computer software that changes voice or dictation into electronic format to be input into the EHR system",
+          "correct": false
+        },
+        {
+          "text": "The federal agency in charge of all things associated with the implementation and functioning of the EHR by US healthcare providers",
+          "correct": false
+        },
+        {
+          "text": "A standards organization that establishes criteria and protocols for the sharing of patient information",
+          "correct": true
+        },
+        {
+          "text": "An electronic method, usually by a computer chip of tracking an object",
+          "correct": false
+        }
+      ],
+      "explanation": "**A standards organization that establishes criteria and protocols for the sharing of patient information.** Review questions have no published key — Health Level Seven International is a not-for-profit, ANSI-accredited standards-developing organization for exchange of electronic health information (p.212).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q135 · Ch 9 Review p.238</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 238 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.238: question 135"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — POC is best described as ___.",
+      "options": [
+        {
+          "text": "A safety mechanism to track the drugs given to patients to make sure each is the proper drug, is in the correct amount, is given the right way, and has no contraindications",
+          "correct": false
+        },
+        {
+          "text": "An electronic method, usually by a computer chip of tracking an object",
+          "correct": false
+        },
+        {
+          "text": "This is the computerized version of the actual paper health record containing all patient information",
+          "correct": false
+        },
+        {
+          "text": "Any patient care or discussions that happen at the bedside or during the services being provided to the patient",
+          "correct": true
+        }
+      ],
+      "explanation": "**Any patient care or discussions that happen at the bedside or during the services being provided to the patient.** Review questions have no published key — Point-of-care charting lets the provider document as the information is obtained from the patient, e.g., at the bedside (p.222).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q136 · Ch 9 Review p.238</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 238 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.238: question 136"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — RFID is best described as ___.",
+      "options": [
+        {
+          "text": "An electronic method, usually by a computer chip of tracking an object",
+          "correct": true
+        },
+        {
+          "text": "A standards organization that establishes criteria and protocols for the sharing of patient information",
+          "correct": false
+        },
+        {
+          "text": "This is the computerized version of the actual paper health record containing all patient information",
+          "correct": false
+        },
+        {
+          "text": "The federal agency in charge of all things associated with the implementation and functioning of the EHR by US healthcare providers",
+          "correct": false
+        }
+      ],
+      "explanation": "**An electronic method, usually by a computer chip of tracking an object.** Review questions have no published key — Radio frequency identification devices are microchips implanted in an item to allow tracking of that item (p.223).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q137 · Ch 9 Review p.238</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 238 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.238: question 137"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — GUI is best described as ___.",
+      "options": [
+        {
+          "text": "Computer software that changes voice or dictation into electronic format to be input into the EHR system",
+          "correct": false
+        },
+        {
+          "text": "The use of graphic displays on computer screens, such as icons, colors, and buttons, to increase the ease of use",
+          "correct": true
+        },
+        {
+          "text": "The federal agency in charge of all things associated with the implementation and functioning of the EHR by US healthcare providers",
+          "correct": false
+        },
+        {
+          "text": "Any patient care or discussions that happen at the bedside or during the services being provided to the patient",
+          "correct": false
+        }
+      ],
+      "explanation": "**The use of graphic displays on computer screens, such as icons, colors, and buttons, to increase the ease of use.** Review questions have no published key — The graphical user interface uses icons, colors, buttons, and menus to make a system user-friendly (p.229).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q138 · Ch 9 Review p.238</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 9 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 238 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 9 Review p.238: question 138"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Connie has met with her new primary care physician and nurse practitioner (NP). The NP has explained the patient portal for the practice in detail to her. Since Connie has some unusual medical conditions, the NP has shown her how to find more information on her conditions. The NP called it “consumer informatics.” An example of consumer informatics includes ___.",
+      "options": [
+        {
+          "text": "Health information literature",
+          "correct": true
+        },
+        {
+          "text": "EHR",
+          "correct": false
+        },
+        {
+          "text": "Telehealth",
+          "correct": false
+        },
+        {
+          "text": "Health record",
+          "correct": false
+        }
+      ],
+      "explanation": "**Health information literature.** Review questions have no published key — From the text (p.241): consumer informatics includes consumer health applications, patient portals, the personal health record (PHR), health information literature, and other consumer applications. Finding more information on her conditions = health information literature.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q139 · Ch 10 Review p.251</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 251 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.251: question 139"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "New patients at ABC Clinic are given an orientation to the clinic's services. This orientation includes helping patients to access and understand health information. This is known as ___.",
+      "options": [
+        {
+          "text": "Organizational health literacy",
+          "correct": true
+        },
+        {
+          "text": "Use of consumer health application",
+          "correct": false
+        },
+        {
+          "text": "Use of telehealth technologies",
+          "correct": false
+        },
+        {
+          "text": "Use of social media",
+          "correct": false
+        }
+      ],
+      "explanation": "**Organizational health literacy.** Review questions have no published key — From the text (p.244): organizational health literacy is the degree to which ORGANIZATIONS equitably enable individuals to find, understand, and use information and services to inform health-related decisions.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q140 · Ch 10 Review p.251</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 251 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.251: question 140"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement regarding social media.",
+      "options": [
+        {
+          "text": "Social media allows quick access to patient information.",
+          "correct": false
+        },
+        {
+          "text": "Social media allows patients to schedule appointments.",
+          "correct": false
+        },
+        {
+          "text": "Patients must use the patient portal before gaining access to social media.",
+          "correct": false
+        },
+        {
+          "text": "Social media allow patients to share their experiences.",
+          "correct": true
+        }
+      ],
+      "explanation": "**Social media allow patients to share their experiences..** Review questions have no published key — From the text (p.250): social media change healthcare by improving patient education, providing legitimate online resources, improving quality of care, and enabling patients to share their experiences with other patients. Patient information cannot be posted on social media — that would be a HIPAA violation.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q141 · Ch 10 Review p.251</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 251 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.251: question 141"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Health literacy is impacted by ___.",
+      "options": [
+        {
+          "text": "Reading level",
+          "correct": false
+        },
+        {
+          "text": "Socioeconomic factors",
+          "correct": true
+        },
+        {
+          "text": "Patient's medical condition",
+          "correct": false
+        },
+        {
+          "text": "Wearable technology",
+          "correct": false
+        }
+      ],
+      "explanation": "**Socioeconomic factors.** Review questions have no published key — From the text (p.243): factors that influence health literacy include age, gender, race and ethnicity, culture, socioeconomic status, health insurance coverage, and source of health information. Trap: the book says health literacy is NOT necessarily about reading ability or education level.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q142 · Ch 10 Review p.251</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 251 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.251: question 142"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the type of PHR that is connected to the EHR.",
+      "options": [
+        {
+          "text": "Tethered",
+          "correct": true
+        },
+        {
+          "text": "Untethered",
+          "correct": false
+        },
+        {
+          "text": "Integrated",
+          "correct": false
+        },
+        {
+          "text": "Standalone",
+          "correct": false
+        }
+      ],
+      "explanation": "**Tethered.** Review questions have no published key — From the text (p.250): tethered PHRs are connected to the EHR and let patients access a subset of its information; untethered PHRs are a separate application.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q143 · Ch 10 Review p.252</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 252 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.252: question 143"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An excellent way to increase patient engagement is to have patients keep their own PHR. They will not only have access to their lab results for themselves, but they will also be able to track exercise and dietary information. PHRs allow patients to ___.",
+      "options": [
+        {
+          "text": "Add other personal health-tracking information",
+          "correct": true
+        },
+        {
+          "text": "Experience e-visits",
+          "correct": false
+        },
+        {
+          "text": "Request prescription refills",
+          "correct": false
+        },
+        {
+          "text": "Schedule appointments",
+          "correct": false
+        }
+      ],
+      "explanation": "**Add other personal health-tracking information.** Review questions have no published key — From the text (p.250 and Table 10.1): the PHR lets the patient add information from other providers, exercise regimen, medications, dietary supplements, and more. Refills and appointments are PATIENT PORTAL functions; e-visits are telehealth.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q144 · Ch 10 Review p.252</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 252 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.252: question 144"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the strategy where the physician explains the patient's condition and then asks the patient to repeat what he said.",
+      "options": [
+        {
+          "text": "Ask Me 3",
+          "correct": false
+        },
+        {
+          "text": "Teach Back",
+          "correct": true
+        },
+        {
+          "text": "Telehealth",
+          "correct": false
+        },
+        {
+          "text": "Patient portal",
+          "correct": false
+        }
+      ],
+      "explanation": "**Teach Back.** Review questions have no published key — From the text (p.245): Teach Back uses simple language to explain the condition and then asks the patient to repeat the information. Ask Me 3 is the three questions the PATIENT asks (What is my problem? What should I do? Why do I need to do this?).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q145 · Ch 10 Review p.252</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 252 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.252: question 145"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Deborah really likes the ability to go online and schedule her appointments with her internal medicine doctor. She just has to go the clinic's website, click into the patient scheduler, and choose the day and time available that best meets her needs. She doesn't need to wait and talk to a staff member unless something unusual is going on. The information system that is controlled by the healthcare organization that allows patients to register is known as ___.",
+      "options": [
+        {
+          "text": "PHR",
+          "correct": false
+        },
+        {
+          "text": "Wearable device",
+          "correct": false
+        },
+        {
+          "text": "Social media",
+          "correct": false
+        },
+        {
+          "text": "Patient portal",
+          "correct": true
+        }
+      ],
+      "explanation": "**Patient portal.** Review questions have no published key — From the text (p.248): a patient portal is an information system established and maintained by the healthcare organization that lets patients log in to obtain their health information, register for appointments, and perform other functions.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q146 · Ch 10 Review p.252</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 252 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.252: question 146"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "To better the rural community it serves, XYZ Hospital has instituted a remote patient monitoring system for patients with pacemakers. Patients use a smartphone app to download the information collected by the pacemaker that is then sent to their physicians on a more frequent basis than a regularly scheduled doctor's appointment. Because the data is collected more frequently, the doctors can identify cardiac issues before they become a real problem requiring the patient to be admitted. A benefit to telehealth includes ___.",
+      "options": [
+        {
+          "text": "Access to patient information",
+          "correct": false
+        },
+        {
+          "text": "Reducing hospitalization",
+          "correct": true
+        },
+        {
+          "text": "Providing information to insurance",
+          "correct": false
+        },
+        {
+          "text": "Population health",
+          "correct": false
+        }
+      ],
+      "explanation": "**Reducing hospitalization.** Review questions have no published key — From the text (p.247): the improved outcomes of telehealth include a reduction in hospitalizations and patients being more likely to keep appointments.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q147 · Ch 10 Review p.252</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 252 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.252: question 147"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Critique this statement: Consumer health applications are used solely by patients.",
+      "options": [
+        {
+          "text": "This is a true statement.",
+          "correct": false
+        },
+        {
+          "text": "This is a false statement as it is also used by insurers and healthcare providers.",
+          "correct": false
+        },
+        {
+          "text": "This is a false statement as it is also used by healthcare providers.",
+          "correct": true
+        },
+        {
+          "text": "This is a false statement as it is only used by physicians.",
+          "correct": false
+        }
+      ],
+      "explanation": "**This is a false statement as it is also used by healthcare providers..** Review questions have no published key — From the text (p.246): consumer health applications are designed for use by the patient OR provider. The book lists patient uses and provider uses — insurers are not mentioned, so (c), not (b).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q148 · Ch 10 Review p.252</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 252 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.252: question 148"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the accurate statement about health literacy.",
+      "options": [
+        {
+          "text": "Health literacy is all about the patient's reading level.",
+          "correct": false
+        },
+        {
+          "text": "Health literacy is not impacted by the patient's culture.",
+          "correct": false
+        },
+        {
+          "text": "Health literacy includes understanding discharge instructions.",
+          "correct": true
+        },
+        {
+          "text": "Health literacy applies to healthcare professionals only.",
+          "correct": false
+        }
+      ],
+      "explanation": "**Health literacy includes understanding discharge instructions..** Review questions have no published key — From the text (p.243): patients need to be able to understand consent forms, discharge instructions, how and when to make appointments, and when to seek treatment. Culture does impact it, and it is not just reading level.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q149 · Ch 10 Review p.253</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 253 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.253: question 149"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Tate told his patient James that he was going to “perform a CABG due to James's CAD before he had an AMI.” Of course, James had no idea what Dr. Tate said or meant by that statement. The terms or phrases used for specialized terminology by a specific group is called ___.",
+      "options": [
+        {
+          "text": "Jargon",
+          "correct": true
+        },
+        {
+          "text": "Culture",
+          "correct": false
+        },
+        {
+          "text": "Telehealth",
+          "correct": false
+        },
+        {
+          "text": "Portal",
+          "correct": false
+        }
+      ],
+      "explanation": "**Jargon.** Review questions have no published key — From the text (p.245): jargon is specialized terminology used by a specific group — here, healthcare professionals.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q150 · Ch 10 Review p.253</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 253 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.253: question 150"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Sarah needs to schedule an appointment for her yearly physical exam. Identify the information system she should use to request an appointment.",
+      "options": [
+        {
+          "text": "Health record",
+          "correct": false
+        },
+        {
+          "text": "PHR",
+          "correct": false
+        },
+        {
+          "text": "Telehealth",
+          "correct": false
+        },
+        {
+          "text": "Patient portal",
+          "correct": true
+        }
+      ],
+      "explanation": "**Patient portal.** Review questions have no published key — From the text (p.248 and Table 10.1): through the patient portal, patients can request medication refills, make appointments, complete forms, and communicate with care providers.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q151 · Ch 10 Review p.253</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 253 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.253: question 151"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Kyle wants to ensure his physician knows about the dietary supplements he is taking for his irritable bowel syndrome. Identify where Kyle should record this.",
+      "options": [
+        {
+          "text": "Health record",
+          "correct": false
+        },
+        {
+          "text": "PHR",
+          "correct": true
+        },
+        {
+          "text": "Telehealth",
+          "correct": false
+        },
+        {
+          "text": "Patient portal",
+          "correct": false
+        }
+      ],
+      "explanation": "**PHR.** Review questions have no published key — From the text (p.250): the PHR allows the patient to share information from other providers, exercise regimen, medications, dietary supplements, and other information the patient wants the provider to know. The patient documents in the PHR; the patient does not document in the portal (Table 10.1).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q152 · Ch 10 Review p.253</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 253 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.253: question 152"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement regarding telehealth.",
+      "options": [
+        {
+          "text": "Telehealth is a synonym for telemedicine.",
+          "correct": false
+        },
+        {
+          "text": "Telehealth is a broader term than telemedicine.",
+          "correct": true
+        },
+        {
+          "text": "Telehealth is a broader concept than telemedicine.",
+          "correct": false
+        },
+        {
+          "text": "Telehealth is an antonym for telemedicine.",
+          "correct": false
+        }
+      ],
+      "explanation": "**Telehealth is a broader term than telemedicine..** Review questions have no published key — From the text (p.246): telehealth is “a broad term”; telemedicine focuses on care delivered by physicians, whereas telehealth is broader and includes other professionals, patient education, and other services. Heads up: as printed, options (b) and (c) say the same thing and both are true — a flaw in the book's question. Either would be defensible; what matters is that telehealth is the BROADER one, not a synonym.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q153 · Ch 10 Review p.253</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 253 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.253: question 153"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A local university is now the site for COVID-19 testing. After meeting with the state health department and local hospital officials, it has devised a plan for the notification of positive test results. This plan includes notifying the patient, followed by contact with health professionals regarding treatment, tracing anyone the patient came in contact with, and follow-up care. This process is an example of ___.",
+      "options": [
+        {
+          "text": "Population health",
+          "correct": false
+        },
+        {
+          "text": "Public health",
+          "correct": true
+        },
+        {
+          "text": "Health disparities",
+          "correct": false
+        },
+        {
+          "text": "Health literacy",
+          "correct": false
+        }
+      ],
+      "explanation": "**Public health.** Review questions have no published key — From the text (p.242): public health works to protect and improve the health of communities through policy recommendations, health education and outreach, and research for disease detection and injury prevention. Population health is the STUDY of health outcomes in a group — the book says the two are different.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q154 · Ch 10 Review p.253</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 253 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.253: question 154"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Black women die at a higher rate from breast cancer than white women even though white women get breast cancer more frequently. Because the patient outcomes are unequal based on population statistics, this is an example of ___.",
+      "options": [
+        {
+          "text": "Population health",
+          "correct": false
+        },
+        {
+          "text": "Public health",
+          "correct": false
+        },
+        {
+          "text": "Health disparities",
+          "correct": true
+        },
+        {
+          "text": "Health literacy",
+          "correct": false
+        }
+      ],
+      "explanation": "**Health disparities.** Review questions have no published key — From the text (p.242): health disparities are a particular type of health difference closely linked with social, economic, or environmental disadvantage — seen in availability of care, life expectancy, and quality of care.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q155 · Ch 10 Review p.254</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 254 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.254: question 155"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The digital divide refers to ___.",
+      "options": [
+        {
+          "text": "Access to the internet",
+          "correct": true
+        },
+        {
+          "text": "Use of a patient portal via PHR",
+          "correct": false
+        },
+        {
+          "text": "Difference of telehealth via telemedicine",
+          "correct": false
+        },
+        {
+          "text": "Use of mobile devices",
+          "correct": false
+        }
+      ],
+      "explanation": "**Access to the internet.** Review questions have no published key — From the text (p.245): the digital divide is the growing gap between the underprivileged who do not have access to computers or the internet and the wealthy, middle-class, and young Americans in urban and suburban areas who do.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q156 · Ch 10 Review p.254</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 254 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.254: question 156"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the federal agency responsible for developing an action plan to improve health literacy.",
+      "options": [
+        {
+          "text": "HHS",
+          "correct": true
+        },
+        {
+          "text": "AHIMA",
+          "correct": false
+        },
+        {
+          "text": "HRSA",
+          "correct": false
+        },
+        {
+          "text": "AMA",
+          "correct": false
+        }
+      ],
+      "explanation": "**HHS.** Review questions have no published key — From the text (p.245): the Department of Health and Human Services (HHS) developed the National Action Plan to Improve Health Literacy, with two overarching principles and seven goals. AHIMA and AMA are associations, not federal agencies.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q157 · Ch 10 Review p.254</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 10 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 254 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 10 Review p.254: question 157"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "GaHIN is a public-private partnership of healthcare providers and entities. The group is interested in building an HIE but is not sure which architecture to pursue. After a survey of all stakeholders, it was determined that the group wants limited patient data stored in a central repository. They also prefer a patient portal to the HIE. This type of HIE architecture is referred to as ___.",
+      "options": [
+        {
+          "text": "Direct",
+          "correct": false
+        },
+        {
+          "text": "Hybrid",
+          "correct": true
+        },
+        {
+          "text": "Centralized",
+          "correct": false
+        },
+        {
+          "text": "Decentralized",
+          "correct": false
+        }
+      ],
+      "explanation": "**Hybrid.** Review questions have no published key — From the text (p.271): the hybrid model has an RLS, stores SOME data in a central repository while the rest stays with the organizations, and has a patient portal to itself rather than to a specific organization.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q158 · Ch 11 Review p.279</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 279 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.279: question 158"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The five-state HIO All-Info has grown significantly in the last three years. Several local and state HIE companies have banded together to offer services to more healthcare organizations and improve transmission capabilities. Once these companies got together, they renamed the company All-Info. Identify the type of organization that was a precursor to today's HIO.",
+      "options": [
+        {
+          "text": "HIM",
+          "correct": false
+        },
+        {
+          "text": "RHIO",
+          "correct": true
+        },
+        {
+          "text": "HIE",
+          "correct": false
+        },
+        {
+          "text": "ePHI",
+          "correct": false
+        }
+      ],
+      "explanation": "**RHIO.** Review questions have no published key — Worked out from the chapter's own matching exercise (p.281), which defines RHIO as “a precursor to the HIO in a specific geographic area.” The chapter body never defines RHIO — it only says HIOs may be local, regional, or state level (p.264).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q159 · Ch 11 Review p.279</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 279 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.279: question 159"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The office manager for Cardiac Care Associates is investigating methods of HIE. The physicians want to “push” documentation to consulting MDs in an email, but they want to ensure the emails are secure and no one can access the information except the receiving MD. Identify the type of exchange method that would best fit the needs of Cardiac Care Associates.",
+      "options": [
+        {
+          "text": "Directed exchange",
+          "correct": true
+        },
+        {
+          "text": "Consumer-mediated exchange",
+          "correct": false
+        },
+        {
+          "text": "Federated exchange",
+          "correct": false
+        },
+        {
+          "text": "Query-based exchange",
+          "correct": false
+        }
+      ],
+      "explanation": "**Directed exchange.** Review questions have no published key — From the text (p.272): directed exchange is the “push exchange” — Direct messaging works like regular email but with HIPAA security, and messages are encrypted and can only be opened by another Direct address.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q160 · Ch 11 Review p.279</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 279 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.279: question 160"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The IT department at ABC Hospital wants to make sure that the new demographic information and medical terms that the medical staff wants to add to their EHR are formatted correctly. This will prevent glitches or other problems with transmitting this information to other healthcare organizations that may need it at some point. Identify the type of interoperability that refers to how the data should be formatted and structured so that seamless exchange can take place.",
+      "options": [
+        {
+          "text": "Technical",
+          "correct": false
+        },
+        {
+          "text": "Syntactic",
+          "correct": true
+        },
+        {
+          "text": "Semantic",
+          "correct": false
+        },
+        {
+          "text": "Process",
+          "correct": false
+        }
+      ],
+      "explanation": "**Syntactic.** Review questions have no published key — From the text (p.260): syntactic interoperability — message format standards identify how the data should be formatted or structured to allow the exchange. Semantic is about standardized terminologies giving MEANING (SNOMED CT); technical is hardware; process is workflows.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q161 · Ch 11 Review p.279</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 279 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.279: question 161"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "One of the assignments that is given to new HIT students is to report on the organizational structure of the federal agency that is responsible for the coordination and implementation of EHR technology for the exchange of ePHI. Identify the federal agency that is responsible for the coordination and implementation of EHR technology for the exchange of ePHI.",
+      "options": [
+        {
+          "text": "ONC",
+          "correct": true
+        },
+        {
+          "text": "NwHIN",
+          "correct": false
+        },
+        {
+          "text": "Congress",
+          "correct": false
+        },
+        {
+          "text": "Department of Defense",
+          "correct": false
+        }
+      ],
+      "explanation": "**ONC.** Review questions have no published key — From the text (p.261): the ONC is the principal federal entity charged with coordinating nationwide efforts to implement and use the most advanced HIT and the electronic exchange of health information. Established 2004 by executive order; a permanent agency within HHS.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q162 · Ch 11 Review p.280</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 280 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.280: question 162"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "In order to implement a meaningful consent process at a healthcare organization, consumers would need to be informed of the available possibilities and decisions, its importance in continued treatment, the process of releasing their health information and to whom, and what it means for them. This falls under which of the three key components of a meaningful consent program?",
+      "options": [
+        {
+          "text": "Patient education and engagement",
+          "correct": true
+        },
+        {
+          "text": "Technology",
+          "correct": false
+        },
+        {
+          "text": "Law and policy",
+          "correct": false
+        },
+        {
+          "text": "Identity management",
+          "correct": false
+        }
+      ],
+      "explanation": "**Patient education and engagement.** Review questions have no published key — From Figure 11.5 (p.276): the three components of meaningful consent are patient education and engagement, technology, and law and policy. Informing consumers of their choices and what they mean is patient education and engagement.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q163 · Ch 11 Review p.280</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 280 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.280: question 163"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Tanaka is lead researcher for a COVID-19 treatment study involving six university hospitals in four states. Each research team will be evaluating the various treatment methods used for the patients. The study requires that researchers have access to any health information on all COVID-19 patients at the six hospitals. Dr. Tanaka wants to ensure that the research teams will be able to access the necessary patient information. Identify the term that is used to describe the interconnected organizations that have the capability of sending and receiving confidential patient information anywhere in the country.",
+      "options": [
+        {
+          "text": "eHealth Exchange",
+          "correct": true
+        },
+        {
+          "text": "LHIO",
+          "correct": false
+        },
+        {
+          "text": "ePHI",
+          "correct": false
+        },
+        {
+          "text": "EHR",
+          "correct": false
+        }
+      ],
+      "explanation": "**eHealth Exchange.** Review questions have no published key — From the text (p.258): the eHealth Exchange (formerly NwHIN) is the group of federal agencies and non-federal organizations operating in all 50 states — the largest query-based HIE network in the US.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q164 · Ch 11 Review p.280</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 280 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.280: question 164"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "One of the goals of the Women's Clinic is to increase the number of patients who receive mammograms and colon cancer screenings. It is working with the local health department to offer these services. Statistics indicate that the county population has a higher rate of breast and colon cancer than the rest of the state. Population health can also be known as ___.",
+      "options": [
+        {
+          "text": "Epidemiology",
+          "correct": false
+        },
+        {
+          "text": "Biostatistics",
+          "correct": false
+        },
+        {
+          "text": "Public health",
+          "correct": true
+        },
+        {
+          "text": "ePHI",
+          "correct": false
+        }
+      ],
+      "explanation": "**Public health.** Review questions have no published key — From the text (p.268): “Population health, or public health, focuses on preventing, diagnosing, and treating an entire group of people rather than one person at a time.” Heads up: Chapter 10 (p.242) says population health is DIFFERENT from public health — the two chapters disagree. For this Chapter 11 question, the answer is public health.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q165 · Ch 11 Review p.280</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 280 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.280: question 165"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ambrose wants to participate in an HIE but doesn't want the clinic's information in one large shared database and wants it to work like the internet. The HIE model does not have a centralized database of patient information, is more common, and works much like the internet.",
+      "options": [
+        {
+          "text": "Consolidated",
+          "correct": false
+        },
+        {
+          "text": "Federated",
+          "correct": true
+        },
+        {
+          "text": "Hybrid",
+          "correct": false
+        },
+        {
+          "text": "Directed exchange",
+          "correct": false
+        }
+      ],
+      "explanation": "**Federated.** Review questions have no published key — From the text (p.270): the federated (decentralized) model has no centralized database of patient information, is more common than the consolidated model, and works much like the internet.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q166 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 166"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "To reduce patient fraud, the hospital wants to have policies and procedures that ensure that the person is who he says he is, that he has the authority to do what he needs to, and that his actions are tracked. Identify the process that ensures that the person is who they say they are, that they have the authority to do what they need to, and that their actions are tracked.",
+      "options": [
+        {
+          "text": "Identity matching",
+          "correct": false
+        },
+        {
+          "text": "Identity management",
+          "correct": true
+        },
+        {
+          "text": "Consent management",
+          "correct": false
+        },
+        {
+          "text": "eCQMs",
+          "correct": false
+        }
+      ],
+      "explanation": "**Identity management.** Review questions have no published key — From the text (p.275): identity management provides security functionality, including determining who is authorized to access information, authentication services, audit logging, encryption, and transmission controls. Identity MATCHING is finding the right patient's records.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q167 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 167"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — HIE is best described as ___.",
+      "options": [
+        {
+          "text": "The secure transmission of health data between two or more providers",
+          "correct": true
+        },
+        {
+          "text": "The middleman between healthcare providers that runs the exchange of health information between them",
+          "correct": false
+        },
+        {
+          "text": "Software that finds health information on a specific patient in a participating healthcare organization after a query is initiated",
+          "correct": false
+        },
+        {
+          "text": "The incentive program for healthcare providers to adopt EHRs and HIT",
+          "correct": false
+        }
+      ],
+      "explanation": "**The secure transmission of health data between two or more providers.** Review questions have no published key — Health information exchange is the formal agreed-upon process for the seamless electronic exchange of health information between providers (p.258).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q168 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 168"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — HIO is best described as ___.",
+      "options": [
+        {
+          "text": "A precursor to the HIO in a specific geographic area",
+          "correct": false
+        },
+        {
+          "text": "The middleman between healthcare providers that runs the exchange of health information between them",
+          "correct": true
+        },
+        {
+          "text": "The secure transmission of health data between two or more providers",
+          "correct": false
+        },
+        {
+          "text": "Federal legislation that invests specifically in healthcare and health information technology",
+          "correct": false
+        }
+      ],
+      "explanation": "**The middleman between healthcare providers that runs the exchange of health information between them.** Review questions have no published key — The health information organization is the intermediary that oversees, governs, and facilitates the transmission of health data between organizations (p.264).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q169 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 169"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — RLS is best described as ___.",
+      "options": [
+        {
+          "text": "The concept that healthcare providers will use their personal cell phones and smart devices when conducting the business of healthcare",
+          "correct": false
+        },
+        {
+          "text": "The basic infrastructure requirements for patient information to be transmitted to any other valid healthcare provider anywhere in the US",
+          "correct": false
+        },
+        {
+          "text": "Software that finds health information on a specific patient in a participating healthcare organization after a query is initiated",
+          "correct": true
+        },
+        {
+          "text": "The middleman between healthcare providers that runs the exchange of health information between them",
+          "correct": false
+        }
+      ],
+      "explanation": "**Software that finds health information on a specific patient in a participating healthcare organization after a query is initiated.** Review questions have no published key — A record locator service indicates where the patient's information is detected within the participating healthcare organizations, based on patient identity information and record data type (p.270).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q170 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 170"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — BYOD is best described as ___.",
+      "options": [
+        {
+          "text": "The concept that healthcare providers will use their personal cell phones and smart devices when conducting the business of healthcare",
+          "correct": true
+        },
+        {
+          "text": "The incentive program for healthcare providers to adopt EHRs and HIT",
+          "correct": false
+        },
+        {
+          "text": "A group of businesses that all have a stake in the well-being of the community and its providers that band together to exchange information",
+          "correct": false
+        },
+        {
+          "text": "Federal legislation used to stimulate the US economy and invest in the country's infrastructure",
+          "correct": false
+        }
+      ],
+      "explanation": "**The concept that healthcare providers will use their personal cell phones and smart devices when conducting the business of healthcare.** Review questions have no published key — Bring your own device: practitioners using their personal smartphones or other devices rather than devices provided by the organization (p.265).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q171 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 171"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — ARRA is best described as ___.",
+      "options": [
+        {
+          "text": "Federal legislation that invests specifically in healthcare and health information technology",
+          "correct": false
+        },
+        {
+          "text": "Federal legislation used to stimulate the US economy and invest in the country's infrastructure",
+          "correct": true
+        },
+        {
+          "text": "The incentive program for healthcare providers to adopt EHRs and HIT",
+          "correct": false
+        },
+        {
+          "text": "A precursor to the HIO in a specific geographic area",
+          "correct": false
+        }
+      ],
+      "explanation": "**Federal legislation used to stimulate the US economy and invest in the country's infrastructure.** Review questions have no published key — The American Recovery and Reinvestment Act was enacted in 2009 to stimulate the US economy during a recession (p.261). Trap: HITECH is the PART of ARRA aimed specifically at health IT.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q172 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 172"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — RHIO is best described as ___.",
+      "options": [
+        {
+          "text": "A precursor to the HIO in a specific geographic area",
+          "correct": true
+        },
+        {
+          "text": "A group of businesses that all have a stake in the well-being of the community and its providers that band together to exchange information to achieve those goals",
+          "correct": false
+        },
+        {
+          "text": "The middleman between healthcare providers that runs the exchange of health information between them",
+          "correct": false
+        },
+        {
+          "text": "The secure transmission of health data between two or more providers",
+          "correct": false
+        }
+      ],
+      "explanation": "**A precursor to the HIO in a specific geographic area.** Review questions have no published key — Regional health information organization — by elimination, the regional precursor to today's HIO. The chapter body does not define RHIO; this pairing also answers Review Question 2.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q173 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 173"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — NHIN is best described as ___.",
+      "options": [
+        {
+          "text": "Software that finds health information on a specific patient in a participating healthcare organization after a query is initiated",
+          "correct": false
+        },
+        {
+          "text": "The basic infrastructure requirements for patient information to be transmitted to any other valid healthcare provider for the continuation of health services anywhere in the US",
+          "correct": true
+        },
+        {
+          "text": "Federal legislation that invests specifically in healthcare and health information technology",
+          "correct": false
+        },
+        {
+          "text": "The incentive program for healthcare providers to adopt EHRs and HIT",
+          "correct": false
+        }
+      ],
+      "explanation": "**The basic infrastructure requirements for patient information to be transmitted to any other valid healthcare provider for the continuation of health services anywhere in the US.** Review questions have no published key — The nationwide health information network (the book's text writes it NwHIN) is the set of standards, specifications, and policies that enable secure exchange of health information over the internet — now the eHealth Exchange (p.258).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q174 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 174"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — HITECH is best described as ___.",
+      "options": [
+        {
+          "text": "Federal legislation used to stimulate the US economy and invest in the country's infrastructure",
+          "correct": false
+        },
+        {
+          "text": "The incentive program for healthcare providers to adopt EHRs and HIT",
+          "correct": false
+        },
+        {
+          "text": "Federal legislation that invests specifically in healthcare and health information technology",
+          "correct": true
+        },
+        {
+          "text": "A group of businesses that all have a stake in the well-being of the community and its providers",
+          "correct": false
+        }
+      ],
+      "explanation": "**Federal legislation that invests specifically in healthcare and health information technology.** Review questions have no published key — The HITECH Act is the part of ARRA that dedicated more than $19 billion to developing HIT, workforce training, certifying EHR products, standards, and security and privacy regulations (p.261).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q175 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 175"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — MU is best described as ___.",
+      "options": [
+        {
+          "text": "The incentive program for healthcare providers to adopt EHRs and HIT",
+          "correct": true
+        },
+        {
+          "text": "Federal legislation that invests specifically in healthcare and health information technology",
+          "correct": false
+        },
+        {
+          "text": "The secure transmission of health data between two or more providers",
+          "correct": false
+        },
+        {
+          "text": "The basic infrastructure requirements for patient information to be transmitted anywhere in the US",
+          "correct": false
+        }
+      ],
+      "explanation": "**The incentive program for healthcare providers to adopt EHRs and HIT.** Review questions have no published key — Meaningful Use was the CMS regulation (July 28, 2010) outlining an incentive program for eligible professionals, hospitals, and CAHs that adopt and demonstrate meaningful use of CEHRT (p.268). It has since morphed into MIPS under MACRA.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q176 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 176"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Acronyms matching — LHIO is best described as ___.",
+      "options": [
+        {
+          "text": "A precursor to the HIO in a specific geographic area",
+          "correct": false
+        },
+        {
+          "text": "Software that finds health information on a specific patient in a participating healthcare organization after a query is initiated",
+          "correct": false
+        },
+        {
+          "text": "The middleman between healthcare providers that runs the exchange of health information between them",
+          "correct": false
+        },
+        {
+          "text": "A group of businesses that all have a stake in the well-being of the community and its providers that band together to exchange information to achieve those goals",
+          "correct": true
+        }
+      ],
+      "explanation": "**A group of businesses that all have a stake in the well-being of the community and its providers that band together to exchange information to achieve those goals.** Review questions have no published key — Local health information organization — by elimination, the community-level group of stakeholders that band together to exchange information. The chapter body does not define LHIO.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q177 · Ch 11 Review p.281</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 11 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"110\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#888\" font-size=\"22\">Book page 281 · answer worked out from the chapter text</text><text x=\"110\" y=\"397\" fill=\"#888\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 11 Review p.281: question 177"
+      }
+    },
+    {
+      "type": "application",
+      "title": "Exam 3 Game Plan",
+      "content": "**1.** Read the six checklist cards once and say each line's answer out loud before you flip it.\n**2.** Take Questions 1–60 (the Quizlet) until you miss none; they run in her checklist order, so a miss tells you exactly which line to reread.\n**3.** Do the 30 course-quiz questions next; she wrote them and confirmed the keys.\n**4.** Use the 87 Review Questions as the deep pass for anything still shaky, especially Chapter 11, which has no course quiz.\n**5.** Finish with the Exam 3 Study Guide lesson's concept cards for the three checklist lines the Quizlet never touches (EMR vs. EHR wording, reminders, structured vs. unstructured data).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Exam 3 game plan</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#10b981\" font-size=\"26\" font-weight=\"bold\">Answer</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Checklist, Quizlet, quizzes, Review</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"196\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"359\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Why</text><text x=\"110\" y=\"403\" fill=\"#fff\" font-size=\"24\">Checklist cards, then the 60 Quizlet items in checklist</text><text x=\"110\" y=\"445\" fill=\"#fff\" font-size=\"24\">order, then the graded course quizzes, then the book</text><text x=\"110\" y=\"487\" fill=\"#fff\" font-size=\"24\">Review Questions for the deep pass.</text></svg>",
+        "caption": "Study steps"
       }
     }
   ]
