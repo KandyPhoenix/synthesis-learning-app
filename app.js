@@ -270,6 +270,13 @@ class SynthesisApp {
     }
 
     getContinueInProgressPick() {
+        const recentPos = this.getMostRecentLessonPosition();
+        if (recentPos) {
+            const at = this.resolveResumeCard(recentPos.book.id, recentPos.lesson) + 1;
+            return this.buildInsightFromLesson(recentPos.book, recentPos.lesson,
+                `📚 Pick up at card ${at} of ${recentPos.lesson.cards.length} in "${recentPos.book.title}"`);
+        }
+
         const inProgress = getBooksInProgress();
         if (inProgress.length === 0) return null;
 
@@ -583,7 +590,13 @@ class SynthesisApp {
             if (book && lesson) {
                 this.currentBook = book;
                 this.currentLesson = lesson;
-                this.currentCard = state.cardIndex || 0;
+                // The synced per-lesson position wins (it may be newer, from
+                // another device); fall back to the snapshot's card index.
+                const savedPos = this.getLessonPosition(book.id, lesson.id);
+                this.currentCard = savedPos
+                    ? this.resolveResumeCard(book.id, lesson)
+                    : Math.min(state.cardIndex || 0, Math.max((lesson.cards || []).length - 1, 0));
+                this._resumedFromCard = null;
                 this.switchView('lesson');
                 this.renderLesson();
             } else {
@@ -701,9 +714,16 @@ class SynthesisApp {
         const dueExam = window.examCenter && typeof window.examCenter.dailyQueueSize === 'function'
             ? window.examCenter.dailyQueueSize() : 0;
 
+        // Prefer the lesson you were most recently partway through (synced
+        // across devices), then fall back to the first in-progress book.
+        const recentPos = this.getMostRecentLessonPosition();
         const inProgress = getBooksInProgress();
-        const nextBook = inProgress[0] || null;
-        const nextLesson = nextBook ? ((nextBook.lessonList || []).find(l => !l.completed) || (nextBook.lessonList || [])[0]) : null;
+        const nextBook = recentPos ? recentPos.book : (inProgress[0] || null);
+        const nextLesson = recentPos ? recentPos.lesson
+            : (nextBook ? ((nextBook.lessonList || []).find(l => !l.completed) || (nextBook.lessonList || [])[0]) : null);
+        const resumeCardLabel = recentPos
+            ? ` · card ${this.resolveResumeCard(recentPos.book.id, recentPos.lesson) + 1} of ${recentPos.lesson.cards.length}`
+            : '';
 
         const tiles = [];
 
@@ -745,7 +765,7 @@ class SynthesisApp {
                     <span class="dashboard-tile-icon">📖</span>
                     <div class="dashboard-tile-body">
                         <div class="dashboard-tile-value dashboard-tile-value-text">${escapeHtml(nextLesson.title)}</div>
-                        <div class="dashboard-tile-label">Continue: ${escapeHtml(nextBook.title)}</div>
+                        <div class="dashboard-tile-label">Continue: ${escapeHtml(nextBook.title)}${resumeCardLabel}</div>
                     </div>
                     <span class="dashboard-tile-cta">Resume →</span>
                 </div>
@@ -2523,9 +2543,18 @@ class SynthesisApp {
                     </div>
                     <p class="book-description">${this.currentBook.description}</p>
                     <div class="book-actions">
-                        <button class="start-book-btn" onclick="app.startBook('${this.currentBook.id}')">
-                            ${this.currentBook.progress > 0 ? 'Continue Learning' : 'Start Learning'}
-                        </button>
+                        ${(() => {
+                            const resume = this.getBookResumeLesson(this.currentBook);
+                            if (resume) {
+                                const at = this.resolveResumeCard(this.currentBook.id, resume.lesson) + 1;
+                                return `<button class="start-book-btn" onclick="app.startBook('${this.currentBook.id}')">
+                                    Resume: ${escapeHtml(resume.lesson.title)} · card ${at} of ${resume.lesson.cards.length}
+                                </button>`;
+                            }
+                            return `<button class="start-book-btn" onclick="app.startBook('${this.currentBook.id}')">
+                                ${this.currentBook.progress > 0 ? 'Continue Learning' : 'Start Learning'}
+                            </button>`;
+                        })()}
                         <button class="favorite-btn ${window.activeRecall?.isFavorite(this.currentBook.id) ? 'favorited' : ''}"
                                 onclick="app.toggleFavorite('${this.currentBook.id}')">
                             ${window.activeRecall?.isFavorite(this.currentBook.id) ? '⭐ Favorited' : '☆ Add to Favorites'}
@@ -2547,6 +2576,11 @@ class SynthesisApp {
                         if (passed) statusHtml = '<span class="lesson-status">✓ Passed</span>';
                         else if (lesson.completed) statusHtml = '<span class="lesson-status" style="color:#3bafbf">Read</span>';
                         else if (!unlocked) statusHtml = '<span class="lesson-status" style="color:#888">🔒 Locked</span>';
+                        const pos = unlocked ? this.getLessonPosition(bookId, lesson.id) : null;
+                        if (pos && pos.card > 0 && lesson.cards && lesson.cards.length) {
+                            const at = this.resolveResumeCard(bookId, lesson) + 1;
+                            statusHtml = `<span class="lesson-status" style="color:#f59e0b">▶ Card ${at}/${lesson.cards.length}</span>`;
+                        }
                         const click = unlocked
                             ? `app.startLesson('${bookId}', '${lesson.id}')`
                             : `window.examCenter && window.examCenter.toast('Locked — pass the previous lesson\\'s quiz (80%) to unlock this.')`;
@@ -2574,7 +2608,14 @@ class SynthesisApp {
         const book = getBookById(bookId);
         if (!book || !book.lessonList || book.lessonList.length === 0) return;
 
-        // Find first incomplete lesson or start from lesson 1
+        // A lesson you're partway through comes first — straight back to that card.
+        const resume = this.getBookResumeLesson(book);
+        if (resume) {
+            this.startLesson(bookId, resume.lesson.id);
+            return;
+        }
+
+        // Otherwise the first incomplete lesson, or lesson 1
         const firstIncompleteLesson = book.lessonList.find(l => !l.completed) || book.lessonList[0];
         this.startLesson(bookId, firstIncompleteLesson.id);
     }
@@ -2617,9 +2658,11 @@ class SynthesisApp {
             ];
         }
 
-        this.currentCard = 0;
+        // Pick up where you left off in this lesson (card 1 if never opened).
+        this.currentCard = this.resolveResumeCard(bookId, this.currentLesson);
+        this._resumedFromCard = this.currentCard > 0 ? this.currentCard : null;
 
-        if (this.shouldShowPretest(this.currentLesson)) {
+        if (this.currentCard === 0 && this.shouldShowPretest(this.currentLesson)) {
             this.showPretestPrompt(() => {
                 this.renderLesson();
                 this.switchView('lesson');
@@ -2771,9 +2814,21 @@ class SynthesisApp {
 
         // Render current card
         const card = this.currentLesson.cards[this.currentCard];
-        const contentHtml = this.renderCard(card);
+        let contentHtml = this.renderCard(card);
+
+        // Resume notice — only on the card we jumped back to, gone after you move.
+        if (this._resumedFromCard != null && this._resumedFromCard === this.currentCard && this.currentCard > 0) {
+            contentHtml = `
+                <div class="lesson-resume-banner" style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin:0 0 1rem;padding:0.6rem 0.9rem;border:1px solid #6366f1;border-radius:10px;background:rgba(99,102,241,0.12);color:#e8e8e8;font-size:0.9rem;">
+                    <span>↩︎ Picked up where you left off — card ${this.currentCard + 1} of ${totalCards}</span>
+                    <button type="button" onclick="app.restartLesson()" style="flex-shrink:0;background:none;border:1px solid #6366f1;color:#c7c8ff;border-radius:8px;padding:0.3rem 0.7rem;cursor:pointer;font-size:0.85rem;">Start over</button>
+                </div>` + contentHtml;
+        } else {
+            this._resumedFromCard = null;
+        }
 
         document.getElementById('lesson-content').innerHTML = contentHtml;
+        this.recordLessonPosition();
 
         // Update navigation buttons
         const prevBtn = document.getElementById('prev-card-btn');
@@ -3162,6 +3217,141 @@ class SynthesisApp {
         return html;
     }
 
+    // ============================================
+    // LESSON RESUME POSITIONS
+    // Every lesson remembers the last card you were on, so reopening it —
+    // from the book page, a course hub, the home dashboard, or another
+    // device — lands you back on that card instead of card 1.
+    // Stored in APP_DATA.user.lessonPositions (persisted by saveProgress and
+    // synced to the cloud by firebase-sync), keyed "bookId::lessonId":
+    //   { card: <index>, total: <card count>, key: <card title/question>, at: <ms> }
+    // `key` lets us re-find the card if the lesson's content is edited later
+    // and card indexes shift.
+    // ============================================
+    LESSON_POSITION_LIMIT = 300;
+
+    lessonPositionKey(bookId, lessonId) {
+        return bookId + '::' + lessonId;
+    }
+
+    cardIdentity(card) {
+        if (!card) return '';
+        return String(card.title || card.question || card.content || '').slice(0, 80);
+    }
+
+    getLessonPosition(bookId, lessonId) {
+        const map = APP_DATA.user && APP_DATA.user.lessonPositions;
+        if (!map) return null;
+        return map[this.lessonPositionKey(bookId, lessonId)] || null;
+    }
+
+    // Saved card index for this lesson, re-anchored if the card moved.
+    // Returns 0 when there's nothing worth resuming.
+    resolveResumeCard(bookId, lesson) {
+        const pos = this.getLessonPosition(bookId, lesson.id);
+        const cards = lesson.cards || [];
+        if (!pos || !cards.length) return 0;
+        let idx = Math.min(Math.max(parseInt(pos.card, 10) || 0, 0), cards.length - 1);
+        if (pos.key && this.cardIdentity(cards[idx]) !== pos.key) {
+            const found = cards.findIndex(c => this.cardIdentity(c) === pos.key);
+            if (found >= 0) idx = found;
+        }
+        return idx;
+    }
+
+    recordLessonPosition() {
+        if (!this.currentBook || !this.currentLesson || !this.currentLesson.cards) return;
+        if (!APP_DATA.user) APP_DATA.user = {};
+        if (!APP_DATA.user.lessonPositions || typeof APP_DATA.user.lessonPositions !== 'object') {
+            APP_DATA.user.lessonPositions = {};
+        }
+        const map = APP_DATA.user.lessonPositions;
+        const key = this.lessonPositionKey(this.currentBook.id, this.currentLesson.id);
+        const prev = map[key];
+        const card = this.currentCard;
+        if (prev && prev.card === card) return; // nothing moved
+        map[key] = {
+            card,
+            total: this.currentLesson.cards.length,
+            key: this.cardIdentity(this.currentLesson.cards[card]),
+            at: Date.now()
+        };
+
+        // Keep the map bounded — drop the oldest entries past the limit.
+        const keys = Object.keys(map);
+        if (keys.length > this.LESSON_POSITION_LIMIT) {
+            keys.sort((a, b) => (map[a].at || 0) - (map[b].at || 0))
+                .slice(0, keys.length - this.LESSON_POSITION_LIMIT)
+                .forEach(k => delete map[k]);
+        }
+        this.schedulePositionSave();
+    }
+
+    clearLessonPosition(bookId, lessonId) {
+        const map = APP_DATA.user && APP_DATA.user.lessonPositions;
+        if (map) delete map[this.lessonPositionKey(bookId, lessonId)];
+    }
+
+    // Card taps can come fast; batch them into one save. Flushed on
+    // page hide so closing the tab mid-lesson doesn't lose the last card.
+    schedulePositionSave() {
+        if (this._positionSaveTimer) clearTimeout(this._positionSaveTimer);
+        this._positionSaveTimer = setTimeout(() => this.flushPositionSave(), 400);
+        if (!this._positionFlushHooked) {
+            this._positionFlushHooked = true;
+            const flush = () => this.flushPositionSave();
+            window.addEventListener('pagehide', flush);
+            document.addEventListener('visibilitychange', () => {
+                if (document.visibilityState === 'hidden') flush();
+            });
+        }
+    }
+
+    flushPositionSave() {
+        if (!this._positionSaveTimer) return;
+        clearTimeout(this._positionSaveTimer);
+        this._positionSaveTimer = null;
+        if (typeof saveProgress === 'function') saveProgress();
+    }
+
+    // Most recently touched lesson anywhere in the library that still has a
+    // resume point (i.e. not finished since). Used by the home dashboard.
+    getMostRecentLessonPosition() {
+        const map = (APP_DATA.user && APP_DATA.user.lessonPositions) || {};
+        let best = null;
+        for (const [k, pos] of Object.entries(map)) {
+            if (!pos || !(pos.card > 0)) continue;
+            if (best && (pos.at || 0) <= (best.pos.at || 0)) continue;
+            const sep = k.indexOf('::');
+            const bookId = k.slice(0, sep);
+            const lessonId = k.slice(sep + 2);
+            const book = getBookById(bookId);
+            const lesson = book && (book.lessonList || []).find(l => String(l.id) === String(lessonId));
+            if (!book || !lesson || !lesson.cards || !lesson.cards.length) continue;
+            best = { book, lesson, pos };
+        }
+        return best;
+    }
+
+    // Most recently touched lesson with a resume point inside one book.
+    getBookResumeLesson(book) {
+        let best = null;
+        for (const lesson of (book.lessonList || [])) {
+            const pos = this.getLessonPosition(book.id, lesson.id);
+            if (!pos || !(pos.card > 0)) continue;
+            if (!best || (pos.at || 0) > (best.pos.at || 0)) best = { lesson, pos };
+        }
+        return best;
+    }
+
+    restartLesson() {
+        if (!this.currentLesson) return;
+        this.currentCard = 0;
+        this._resumedFromCard = null;
+        this.renderLesson();
+        this.saveCurrentView();
+    }
+
     previousCard() {
         if (this.currentCard > 0) {
             this.currentCard--;
@@ -3189,6 +3379,9 @@ class SynthesisApp {
         // thing saveProgress persists across reloads).
         this.currentLesson.completed = true;
         if (!APP_DATA.user) APP_DATA.user = {};
+        // Finished — next time this lesson opens it starts fresh at card 1.
+        if (this._positionSaveTimer) { clearTimeout(this._positionSaveTimer); this._positionSaveTimer = null; }
+        this.clearLessonPosition(this.currentBook.id, this.currentLesson.id);
         if (!APP_DATA.user.lessonCompletions) APP_DATA.user.lessonCompletions = {};
         const lessonKey = this.currentBook.id + '::' + this.currentLesson.id;
         if (!APP_DATA.user.lessonCompletions[lessonKey]) {
