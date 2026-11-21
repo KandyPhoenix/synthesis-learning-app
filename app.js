@@ -2804,13 +2804,17 @@ class SynthesisApp {
         // Update progress bar
         document.getElementById('lesson-progress-fill').style.width = `${progress}%`;
         // Format: "HITT 1305 • Lesson 11 • Card 3 of 6"
-        const lessonId = String(this.currentLesson.id); // e.g. "hitt1305-11"
-        const parts = lessonId.split('-');
-        const bookCode = parts[0].replace(/([a-z]+)(\d+)/i, (_, letters, nums) =>
-            letters.toUpperCase() + ' ' + nums).trim(); // "HITT 1305"
-        const lessonNum = parts[1] || '';
+        // Course code comes from the book title ("HITT 1211: Health Information
+        // Systems" → "HITT 1211"); other books show their short title. Lesson
+        // number is the lesson's position in the book, same as the book page.
+        const bookTitle = String(this.currentBook?.title || '');
+        const codeMatch = bookTitle.match(/^([A-Z]{2,5})\s?-?(\d{3,4})\b/);
+        let bookCode = codeMatch ? `${codeMatch[1]} ${codeMatch[2]}` : bookTitle.split(':')[0].trim();
+        if (bookCode.length > 28) bookCode = bookCode.slice(0, 27).trim() + '…';
+        const lessonIndex = (this.currentBook?.lessonList || []).indexOf(this.currentLesson);
+        const lessonPart = lessonIndex >= 0 ? `Lesson ${lessonIndex + 1} • ` : '';
         document.getElementById('lesson-progress-text').textContent =
-            `${bookCode} • Lesson ${lessonNum} • Card ${this.currentCard + 1} of ${totalCards}`;
+            `${bookCode ? bookCode + ' • ' : ''}${lessonPart}Card ${this.currentCard + 1} of ${totalCards}`;
 
         // Render current card
         const card = this.currentLesson.cards[this.currentCard];
