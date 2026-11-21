@@ -2827,6 +2827,23 @@ class SynthesisApp {
             this._resumedFromCard = null;
         }
 
+        // Section navigator for long review lessons: jump to any section or restart the one you are in.
+        const sections = this.lessonSections();
+        if (sections.length) {
+            const cur = this.currentSectionIndex(sections);
+            const opts = sections.map((sec, i) => {
+                const end = (i + 1 < sections.length ? sections[i + 1].start : totalCards) - 1;
+                const label = `${sec.t} (cards ${sec.start + 1}–${end + 1})`;
+                return `<option value="${sec.start}"${i === cur ? ' selected' : ''}>${escapeHtml(label)}</option>`;
+            }).join('');
+            contentHtml = `
+                <div class="lesson-sections">
+                    <label for="lesson-section-select">Section</label>
+                    <select id="lesson-section-select" onchange="app.jumpToCard(parseInt(this.value, 10))">${opts}</select>
+                    <button type="button" class="lesson-section-btn" onclick="app.restartSection()">Restart this section</button>
+                </div>` + contentHtml;
+        }
+
         document.getElementById('lesson-content').innerHTML = contentHtml;
         this.recordLessonPosition();
 
@@ -3350,6 +3367,33 @@ class SynthesisApp {
         this._resumedFromCard = null;
         this.renderLesson();
         this.saveCurrentView();
+    }
+
+    // Sections are optional on a lesson: [{ t: "Quizlet (60)", start: 7 }, ...], start = 0-based card index.
+    lessonSections() {
+        const secs = (this.currentLesson && this.currentLesson.sections) || [];
+        return secs.filter(x => x && typeof x.start === 'number').slice().sort((a, b) => a.start - b.start);
+    }
+
+    currentSectionIndex(sections) {
+        let cur = 0;
+        sections.forEach((sec, i) => { if (this.currentCard >= sec.start) cur = i; });
+        return cur;
+    }
+
+    jumpToCard(index) {
+        if (!this.currentLesson || !this.currentLesson.cards) return;
+        const max = this.currentLesson.cards.length - 1;
+        this.currentCard = Math.max(0, Math.min(max, index || 0));
+        this._resumedFromCard = null;
+        this.renderLesson();
+        this.saveCurrentView();
+    }
+
+    restartSection() {
+        const sections = this.lessonSections();
+        if (!sections.length) return this.restartLesson();
+        this.jumpToCard(sections[this.currentSectionIndex(sections)].start);
     }
 
     previousCard() {
