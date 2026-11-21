@@ -1404,6 +1404,7 @@ window.HITT_1211_BOOK = {
   "id": "hitt-1211-exam2-quizlet",
   "title": "Practice Quiz: Exam 2 Quizlet",
   "duration": 30,
+  "sections": [{"t": "Intro", "start": 0}, {"t": "Exam 2 Quizlet, Q1–49", "start": 1}, {"t": "Chapter 7, Q50–63", "start": 50}, {"t": "How to use it", "start": 64}],
   "completed": false,
   "cards": [
     {
@@ -4082,6 +4083,7 @@ window.HITT_1211_BOOK = {
   "id": "hitt-1211-exam3-review",
   "title": "Exam 3 Review: Quizlet, Book Review & Quiz Questions",
   "duration": 95,
+  "sections": [{"t": "Intro", "start": 0}, {"t": "Checklist, 6 cards", "start": 1}, {"t": "Exam 3 Quizlet, 60 questions", "start": 7}, {"t": "Ch 8 course quiz", "start": 67}, {"t": "Ch 9 course quiz", "start": 77}, {"t": "Ch 10 course quiz", "start": 87}, {"t": "Ch 8 Review Questions", "start": 97}, {"t": "Ch 9 Review Questions", "start": 119}, {"t": "Ch 10 Review Questions", "start": 145}, {"t": "Ch 11 Review Questions", "start": 164}, {"t": "Game plan", "start": 184}],
   "completed": false,
   "cards": [
     {
