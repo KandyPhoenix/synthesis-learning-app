@@ -4,9 +4,9 @@ window.HITT_1211_BOOK = {
           "id": "hitt-1211",
           "title": "HITT 1211: Health Information Systems",
           "author": "Lone Star College",
-          "description": "College-depth Health Information Systems: study guides for Exam 1 (Chapters 1–3), Exam 2 (Chapters 4–7) plus an Exam 2 Quizlet practice quiz, Exam 3 (Chapters 8–11) plus an Exam 3 review built from the Exam 3 Quizlet, the graded course quizzes, the book's Review Questions and her Final Review Checklist, and the Final (Chapters 12–13) from Sayles & Barefield, plus 28 lessons mapped to the HITT 1211 syllabus and AHIMA associate-degree competencies. Covers EHR foundations (HITECH, Meaningful Use, Cures Act), CPOE/CDS, patient portals, data standards (HL7 v2/v3/FHIR, SNOMED/LOINC/ICD/CPT), HIE & TEFCA, databases, system selection (RFI/RFP, TCO), implementation lifecycle, testing & training, infrastructure, HIPAA Security Rule, backup & DR, information governance, digital literacy and the Microsoft Office suite, encoders/groupers/online coding tools, computer-assisted coding, paper-to-electronic migration and EDMS, the acute care EHR vendor landscape, EHR and PHR evaluation, public health reporting and disease surveillance, and emerging technologies (AI, ambient docs, IoMT).",
-          "lessons": 34,
-          "duration": "714",
+          "description": "College-depth Health Information Systems: study guides for Exam 1 (Chapters 1–3), Exam 2 (Chapters 4–7) plus an Exam 2 Quizlet practice quiz, Exam 3 (Chapters 8–11) plus an Exam 3 review built from the Exam 3 Quizlet, the graded course quizzes, the book's Review Questions and her Final Review Checklist, and the Final (Chapters 12–13) plus a Final review built from the Final Quizlet, the graded course quizzes, the Check Your Understanding boxes, the book's Review Questions and her Final Review Checklist from Sayles & Barefield, plus 28 lessons mapped to the HITT 1211 syllabus and AHIMA associate-degree competencies. Covers EHR foundations (HITECH, Meaningful Use, Cures Act), CPOE/CDS, patient portals, data standards (HL7 v2/v3/FHIR, SNOMED/LOINC/ICD/CPT), HIE & TEFCA, databases, system selection (RFI/RFP, TCO), implementation lifecycle, testing & training, infrastructure, HIPAA Security Rule, backup & DR, information governance, digital literacy and the Microsoft Office suite, encoders/groupers/online coding tools, computer-assisted coding, paper-to-electronic migration and EDMS, the acute care EHR vendor landscape, EHR and PHR evaluation, public health reporting and disease surveillance, and emerging technologies (AI, ambient docs, IoMT).",
+          "lessons": 35,
+          "duration": "809",
           "progress": 0,
           "category": "him",
           "lessonList": [
@@ -9812,6 +9812,3990 @@ window.HITT_1211_BOOK = {
         "type": "diagram",
         "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Final Exam Game Plan</text><text x=\"550\" y=\"115\" fill=\"#888\" font-size=\"22\" text-anchor=\"middle\">60 questions · Chapters 12–13</text><rect x=\"50\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"90\" y=\"431\" fill=\"#6366f1\" font-size=\"28\" font-weight=\"bold\">Conflicts first</text><text x=\"90\" y=\"486\" fill=\"#fff\" font-size=\"24\">Give the Appendix B answer;</text><text x=\"90\" y=\"522\" fill=\"#fff\" font-size=\"24\">know the chapter text</text><rect x=\"562\" y=\"381\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(139,92,246,0.15)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"602\" y=\"431\" fill=\"#8b5cf6\" font-size=\"28\" font-weight=\"bold\">Memorize the lists</text><text x=\"602\" y=\"486\" fill=\"#fff\" font-size=\"24\">CEs, safeguards, data</text><text x=\"602\" y=\"522\" fill=\"#fff\" font-size=\"24\">states, DSMOs, OIG's 7, 8</text><text x=\"602\" y=\"558\" fill=\"#fff\" font-size=\"24\">audit steps</text><rect x=\"50\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(16,185,129,0.15)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"90\" y=\"677\" fill=\"#10b981\" font-size=\"28\" font-weight=\"bold\">Compare pairs</text><text x=\"90\" y=\"732\" fill=\"#fff\" font-size=\"24\">IDS/IPS, event/incident,</text><text x=\"90\" y=\"768\" fill=\"#fff\" font-size=\"24\">internal/external,</text><text x=\"90\" y=\"804\" fill=\"#fff\" font-size=\"24\">metric/threshold</text><rect x=\"562\" y=\"627\" width=\"488\" height=\"222\" rx=\"20\" fill=\"rgba(245,158,11,0.15)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"602\" y=\"677\" fill=\"#f59e0b\" font-size=\"28\" font-weight=\"bold\">Scenario clues</text><text x=\"602\" y=\"732\" fill=\"#fff\" font-size=\"24\">Attempt = incident; lure =</text><text x=\"602\" y=\"768\" fill=\"#fff\" font-size=\"24\">baiting; goal = threshold</text></svg>",
         "caption": "Final exam study steps"
+      }
+    }
+  ]
+},
+{
+  "id": "hitt-1211-final-review",
+  "title": "Final Review: Quizlet, Book & Quiz Questions",
+  "duration": 95,
+  "sections": [
+    {
+      "t": "Intro",
+      "start": 0
+    },
+    {
+      "t": "Final checklist, 5 cards",
+      "start": 1
+    },
+    {
+      "t": "Final Quizlet, 60 questions",
+      "start": 6
+    },
+    {
+      "t": "Ch 12 course quiz (graded 100/100)",
+      "start": 66
+    },
+    {
+      "t": "Ch 13 course quiz (graded)",
+      "start": 76
+    },
+    {
+      "t": "Ch 12 Check Your Understanding",
+      "start": 86
+    },
+    {
+      "t": "Ch 13 Check Your Understanding",
+      "start": 106
+    },
+    {
+      "t": "Ch 12 Review Questions",
+      "start": 116
+    },
+    {
+      "t": "Ch 13 Review Questions",
+      "start": 130
+    },
+    {
+      "t": "Game plan",
+      "start": 144
+    }
+  ],
+  "completed": false,
+  "cards": [
+    {
+      "type": "intro",
+      "title": "Final Review: Quizlet, Book and Quiz Questions",
+      "content": "Everything that could feed the **HITT 1211 Final** (Chapters 12 and 13) in one lesson, starting with your instructor's **Final Review Checklist**. Use the **Section** menu at the top of any card to jump straight to a part or restart it.\n\n• **Checklist:** five cards cover all 61 lines, each with a one-sentence answer from the book.\n• **Final Quizlet (60):** items 166–225 of the course homework Quizlet her tests are drawn from. Only 16 of them land on checklist lines; the other 44 are standards and vocabularies, information governance from an older edition, and HIM careers (Chapter 6 in your book). They show her question style but do not cover the Final on their own.\n• **Ch 12 and Ch 13 course quizzes (20):** your graded quizzes, every key instructor-confirmed (Ch 13 Q5 = observations).\n• **Check Your Understanding (30):** the in-chapter boxes, keys from Appendix B. Where Appendix B and the chapter disagree, the note says so.\n• **Review Questions (28):** end-of-chapter questions; the book has no key, so each answer is worked from the text and the note gives the page.\n\nTextbook: Sayles & Barefield, *Introduction to Information Systems for Health Information Technology*, 5th ed.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Final Review</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">What is inside</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">138 questions + 61 checklist lines</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"174\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Checklist, then the Final Quizlet, the Ch 12 and 13 graded</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">quizzes, the Check Your Understanding boxes and the Review</text><text x=\"110\" y=\"435\" fill=\"#bbb\" font-size=\"22\">Questions. Use the Section menu to jump.</text></svg>",
+        "caption": "How this review is built"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Final checklist, lines 1–12",
+      "content": "Her Final Review Checklist, lines 1–12 of 61 (Access controls to Biometric identifiers). Say each answer out loud before reading it:\n\n• **Access controls** — software and policies that decide who can view, create or change data, and grant or limit those rights; a HIPAA technical safeguard (unique user ID, emergency access, automatic log-off, encryption) (Ch 12).\n• **Addressable vs. required standards** — required = every CE must do it; addressable = the CE decides if it is reasonable and appropriate, documents the decision, and uses an equivalent if not. Addressable never means optional (Ch 12).\n• **Administrative standards** — the book's term is administrative safeguards: policies and procedures that manage security and staff conduct, such as security management, workforce security, information access management, training and the contingency plan (Ch 12).\n• **Administrative simplification** — HIPAA Title II. Its purpose is to make healthcare business processes such as claims more efficient by standardizing EDI; it holds the Transaction and Code Sets, Privacy and Security Rules (Ch 12).\n• **Audit controls** — the HIPAA-required mechanisms that record and examine activity in information systems, so users are held responsible and problems can be investigated (Ch 12).\n• **Audit reduction tools** — review the audit trail against facility criteria and remove routine entries such as backups, so reviewers see only unusual activity (p. 305).\n• **Audit trails** — the log of who did what and when; triggers flag entries to investigate, such as an employee looking up a patient with the same last name (Ch 12).\n• **Auditing** — a retrospective reconstruction of events and independent review of system records and activities (Ch 13).\n• **Baiting** — a social engineering trick that dangles a lure, such as a free download or a thumb drive left in a public place, hoping someone takes it and lets malware in (p. 310).\n• **Benchmark compliance** — the book's term is benchmarking: comparing your results with a similar organization or with regional or national standards (Ch 13).\n• **Biomedical device** — the book calls it a medical device: any instrument, machine or implant used for a medical purpose, such as a pacemaker or fetal monitor; a risk because many lack antivirus and encryption (p. 308).\n• **Biometric identifiers** — physical traits used to prove identity, such as fingerprints, retinal scans, face or voice; something you ARE (Ch 12).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Checklist 1–12</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">Access controls to Biometric identifiers</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"544\" rx=\"20\" fill=\"rgba(99,102,241,0.12)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Access controls</text><text x=\"100\" y=\"242\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Addressable vs. required standards</text><text x=\"100\" y=\"284\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Administrative standards</text><text x=\"100\" y=\"326\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Administrative simplification</text><text x=\"100\" y=\"368\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">5.</text><text x=\"150\" y=\"368\" fill=\"#fff\" font-size=\"22\">Audit controls</text><text x=\"100\" y=\"410\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">6.</text><text x=\"150\" y=\"410\" fill=\"#fff\" font-size=\"22\">Audit reduction tools</text><text x=\"100\" y=\"452\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">7.</text><text x=\"150\" y=\"452\" fill=\"#fff\" font-size=\"22\">Audit trails</text><text x=\"100\" y=\"494\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">8.</text><text x=\"150\" y=\"494\" fill=\"#fff\" font-size=\"22\">Auditing</text><text x=\"100\" y=\"536\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">9.</text><text x=\"150\" y=\"536\" fill=\"#fff\" font-size=\"22\">Baiting</text><text x=\"100\" y=\"578\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">10.</text><text x=\"150\" y=\"578\" fill=\"#fff\" font-size=\"22\">Benchmark compliance</text><text x=\"100\" y=\"620\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">11.</text><text x=\"150\" y=\"620\" fill=\"#fff\" font-size=\"22\">Biomedical device</text><text x=\"100\" y=\"662\" fill=\"#6366f1\" font-size=\"22\" font-weight=\"bold\">12.</text><text x=\"150\" y=\"662\" fill=\"#fff\" font-size=\"22\">Biometric identifiers</text></svg>",
+        "caption": "Final checklist lines 1–12"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Final checklist, lines 13–24",
+      "content": "Her Final Review Checklist, lines 13–24 of 61 (Bots to Context-based authentication). Say each answer out loud before reading it:\n\n• **Bots** — programs that do automated tasks; good ones fill forms, bad ones steal passwords, record keystrokes or form botnets; CAPTCHA and firewalls block them (Ch 12).\n• **Bring your own device (BYOD)** — providers using their personal phone or tablet to reach ePHI; if allowed, policy must cover encryption and remote wipe (p. 314).\n• **Business associate agreement (BAA)** — the contract that has the business associate protect ePHI, report breaches to the CE, and return or destroy PHI at the end (p. 301).\n• **Examples of business associates** — outside companies that handle PHI for a CE: contract coders, transcription services, billing companies, consultants, cloud and shredding vendors (Ch 12).\n• **Compliance plan** — a program set up to make sure the organization follows the regulations; the OIG's seven elements include written policies, a compliance officer, training, communication, auditing and monitoring, enforcement and prompt response (Ch 13).\n• **Corrective action plan (CAP)** — the written, specific plan with deadlines that fixes what an audit or OCR found wrong; it is part of a resolution agreement (Ch 13).\n• **CAPTCHA** — used with usernames and passwords to stop computerized break-in attempts: pick images, check a box, or type wavy text (p. 303).\n• **CHPS** — Certified in Healthcare Privacy and Security, AHIMA's healthcare-specific privacy and security credential (Ch 12).\n• **CISM** — Certified Information Security Manager, ISACA's international security management credential (Ch 12).\n• **CISSP** — Certified Information Systems Security Professional, the generic security credential from (ISC)2 (Ch 12).\n• **Code set** — a set of codes used to encode data elements; HIPAA mandates ICD-10-CM, ICD-10-PCS, CPT-4, HCPCS, CDT-2 and NDC (p. 288).\n• **Context-based authentication** — limits access by identity and role and also by location and time; the quality nurse who works shifts on a nursing unit is the book's example (p. 302).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Checklist 13–24</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">Bots to Context-based authentication</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"544\" rx=\"20\" fill=\"rgba(139,92,246,0.12)\" stroke=\"#8b5cf6\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Bots</text><text x=\"100\" y=\"242\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Bring your own device (BYOD)</text><text x=\"100\" y=\"284\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Business associate agreement (BAA)</text><text x=\"100\" y=\"326\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Examples of business associates</text><text x=\"100\" y=\"368\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">5.</text><text x=\"150\" y=\"368\" fill=\"#fff\" font-size=\"22\">Compliance plan</text><text x=\"100\" y=\"410\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">6.</text><text x=\"150\" y=\"410\" fill=\"#fff\" font-size=\"22\">Corrective action plan (CAP)</text><text x=\"100\" y=\"452\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">7.</text><text x=\"150\" y=\"452\" fill=\"#fff\" font-size=\"22\">CAPTCHA</text><text x=\"100\" y=\"494\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">8.</text><text x=\"150\" y=\"494\" fill=\"#fff\" font-size=\"22\">CHPS</text><text x=\"100\" y=\"536\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">9.</text><text x=\"150\" y=\"536\" fill=\"#fff\" font-size=\"22\">CISM</text><text x=\"100\" y=\"578\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">10.</text><text x=\"150\" y=\"578\" fill=\"#fff\" font-size=\"22\">CISSP</text><text x=\"100\" y=\"620\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">11.</text><text x=\"150\" y=\"620\" fill=\"#fff\" font-size=\"22\">Code set</text><text x=\"100\" y=\"662\" fill=\"#8b5cf6\" font-size=\"22\" font-weight=\"bold\">12.</text><text x=\"150\" y=\"662\" fill=\"#fff\" font-size=\"22\">Context-based authentication</text></svg>",
+        "caption": "Final checklist lines 13–24"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Final checklist, lines 25–36",
+      "content": "Her Final Review Checklist, lines 25–36 of 61 (Contingency plan to HHS Office for Civil Rights). Say each answer out loud before reading it:\n\n• **Contingency plan** — how the business keeps running during an information system emergency: data backup, manual downtime processes, testing, and an application priority list with the EHR first (Ch 12).\n• **Covered entity (CE)** — a health plan, a healthcare clearinghouse, or a healthcare provider that sends health information electronically for a covered transaction (Ch 12).\n• **Dashboard** — displays the metrics so the chief security officer can see at a glance where the CE stands (Ch 13).\n• **Data analysis** — methods that describe facts, find patterns, develop explanations and test ideas; in an audit it shows what is working and what needs fixing (Ch 13).\n• **Data display** — a way of presenting data: tables, graphs, infographics and other displays (p. 338).\n• **Data at rest vs. data in motion** — at rest = stored on media such as a hard drive; in motion = moving from point A to point B; in use = being looked at or updated (p. 287).\n• **Data loss prevention (DLP)** — tools that keep data at rest, in motion and in use from leaving the organization improperly (Ch 12).\n• **Data recovery** — getting back the data lost in a crash and entering the data captured on paper during the downtime (p. 299).\n• **Degaussing** — using a magnetic field to make the data on media useless; it does not work on solid-state drives (Ch 12).\n• **Denial of service (DoS)** — sending so many transactions that the website or system crashes; DDoS is the same attack from many sources (Ch 12).\n• **DSMOs** — the six organizations HHS named to maintain the Transaction and Code Sets standards: ASC X12, the ADA's Dental Content Committee, HL7, NCPDP, NUBC and NUCC (p. 288).\n• **HHS Office for Civil Rights (OCR)** — oversees and enforces the HIPAA Security Rule: takes complaints through intake and review, audits, and awards civil and criminal penalties (Ch 13).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Checklist 25–36</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">Contingency plan to HHS Office for Civil Rights</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"544\" rx=\"20\" fill=\"rgba(59,130,246,0.12)\" stroke=\"#3b82f6\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Contingency plan</text><text x=\"100\" y=\"242\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Covered entity (CE)</text><text x=\"100\" y=\"284\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Dashboard</text><text x=\"100\" y=\"326\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Data analysis</text><text x=\"100\" y=\"368\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">5.</text><text x=\"150\" y=\"368\" fill=\"#fff\" font-size=\"22\">Data display</text><text x=\"100\" y=\"410\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">6.</text><text x=\"150\" y=\"410\" fill=\"#fff\" font-size=\"22\">Data at rest vs. data in motion</text><text x=\"100\" y=\"452\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">7.</text><text x=\"150\" y=\"452\" fill=\"#fff\" font-size=\"22\">Data loss prevention (DLP)</text><text x=\"100\" y=\"494\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">8.</text><text x=\"150\" y=\"494\" fill=\"#fff\" font-size=\"22\">Data recovery</text><text x=\"100\" y=\"536\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">9.</text><text x=\"150\" y=\"536\" fill=\"#fff\" font-size=\"22\">Degaussing</text><text x=\"100\" y=\"578\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">10.</text><text x=\"150\" y=\"578\" fill=\"#fff\" font-size=\"22\">Denial of service (DoS)</text><text x=\"100\" y=\"620\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">11.</text><text x=\"150\" y=\"620\" fill=\"#fff\" font-size=\"22\">DSMOs</text><text x=\"100\" y=\"662\" fill=\"#3b82f6\" font-size=\"22\" font-weight=\"bold\">12.</text><text x=\"150\" y=\"662\" fill=\"#fff\" font-size=\"22\">HHS Office for Civil Rights (OCR)</text></svg>",
+        "caption": "Final checklist lines 25–36"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Final checklist, lines 37–48",
+      "content": "Her Final Review Checklist, lines 37–48 of 61 (Electronic protected health information to Information access management). Say each answer out loud before reading it:\n\n• **Electronic protected health information (ePHI)** — PHI in electronic form; the Security Rule protects only ePHI, not paper or spoken PHI (Ch 12).\n• **Emergency access procedure** — break-the-glass access to ePHI in an emergency; it must record who used it and why, and be audited (Ch 12).\n• **Emergency mode operation plan** — HIPAA's name for the contingency plan: how the CE reacts in an information system emergency (p. 299).\n• **Encryption** — encoding data so only authorized users can read it; symmetric uses one shared key, asymmetric uses a private and a public key (Ch 12).\n• **Evidence** — proof that can be used in a court of law (Ch 13).\n• **External vs. internal audit** — internal = done by the CE's own staff (daily, weekly, monthly); external = done by consultants who do not work for the CE, often yearly (Ch 13).\n• **Field work** — completing the audit: collecting the data and analyzing it, through interviews, reviewing policies and observing staff (p. 335). Your quiz keyed observations as fieldwork.\n• **Firewalls** — the gatekeeper between a public and a private network that controls traffic in and out; part of network security (Ch 12).\n• **Forensics** — finding and keeping proof of a cybercrime: identification, preservation, analysis, documentation, presentation (Ch 12).\n• **HIPAA 1996** — the Health Insurance Portability and Accountability Act; Title II, Administrative Simplification, created the Transaction and Code Sets, Privacy and Security Rules (Ch 12).\n• **Health plan** — pays for the healthcare given to the people it covers (medical, dental, vision); one of the three kinds of covered entity (p. 287).\n• **Information access management** — policies that decide which employees may see what information and what they may do with it (Ch 12).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Checklist 37–48</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">Electronic protected health information to Information access management</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"544\" rx=\"20\" fill=\"rgba(16,185,129,0.12)\" stroke=\"#10b981\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Electronic protected health information (ePHI)</text><text x=\"100\" y=\"242\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Emergency access procedure</text><text x=\"100\" y=\"284\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Emergency mode operation plan</text><text x=\"100\" y=\"326\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Encryption</text><text x=\"100\" y=\"368\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">5.</text><text x=\"150\" y=\"368\" fill=\"#fff\" font-size=\"22\">Evidence</text><text x=\"100\" y=\"410\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">6.</text><text x=\"150\" y=\"410\" fill=\"#fff\" font-size=\"22\">External vs. internal audit</text><text x=\"100\" y=\"452\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">7.</text><text x=\"150\" y=\"452\" fill=\"#fff\" font-size=\"22\">Field work</text><text x=\"100\" y=\"494\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">8.</text><text x=\"150\" y=\"494\" fill=\"#fff\" font-size=\"22\">Firewalls</text><text x=\"100\" y=\"536\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">9.</text><text x=\"150\" y=\"536\" fill=\"#fff\" font-size=\"22\">Forensics</text><text x=\"100\" y=\"578\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">10.</text><text x=\"150\" y=\"578\" fill=\"#fff\" font-size=\"22\">HIPAA 1996</text><text x=\"100\" y=\"620\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">11.</text><text x=\"150\" y=\"620\" fill=\"#fff\" font-size=\"22\">Health plan</text><text x=\"100\" y=\"662\" fill=\"#10b981\" font-size=\"22\" font-weight=\"bold\">12.</text><text x=\"150\" y=\"662\" fill=\"#fff\" font-size=\"22\">Information access management</text></svg>",
+        "caption": "Final checklist lines 37–48"
+      }
+    },
+    {
+      "type": "concept",
+      "title": "Final checklist, lines 49–61",
+      "content": "Her Final Review Checklist, lines 49–61 of 61 (Information system activity review to Visual observation). Say each answer out loud before reading it:\n\n• **Information system activity review** — the required review of logs, access reports and incident reports for inappropriate use of ePHI; HIPAA does not say how often (Ch 12).\n• **Integrity** — protecting data from improper change or corruption, stored or in transmission; part of the CIA triad (Ch 12).\n• **Intrusion detection system (IDS)** — watches for intruders and notifies staff; an IPS also acts to stop them (Ch 12).\n• **Malicious software** — malware: virus, worm, Trojan, spyware (captures keystrokes), ransomware (locks you out), bots, and phishing as the delivery trick (Ch 12).\n• **Metrics** — what you measure to track progress and find problems (Ch 13).\n• **Monitoring** — assessing whether the compliance program and its controls are working; part of the auditing process (Ch 13).\n• **Network security** — protecting data moving across the network with firewalls and encryption; HIPAA requires it, and penetration testing checks it (p. 306).\n• **Objective evidence** — fact-based proof that standards were either met or not (p. 336).\n• **Process, product and system audit** — process = tasks meet standards; product = a product or service meets requirements; system = the system or program used is appropriate and effective (Ch 13).\n• **Resolution agreement** — the agreement between OCR and a CE or BA that describes the failure, any civil money penalty, and a corrective action plan (Ch 13).\n• **Standard** — a scientifically based statement of expected behavior that outcomes can be measured against (Ch 13).\n• **Threshold** — the desired level of performance for a metric, the goal to meet or exceed (Ch 13).\n• **Visual observation** — gathering evidence by watching, such as walking the floor to check monitors are turned away and no passwords are written down (p. 336).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"70\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Checklist 49–61</text><text x=\"550\" y=\"112\" fill=\"#888\" font-size=\"23\" text-anchor=\"middle\">Information system activity review to Visual observation</text><rect x=\"60\" y=\"150\" width=\"980\" height=\"586\" rx=\"20\" fill=\"rgba(245,158,11,0.12)\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"100\" y=\"200\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">1.</text><text x=\"150\" y=\"200\" fill=\"#fff\" font-size=\"22\">Information system activity review</text><text x=\"100\" y=\"242\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">2.</text><text x=\"150\" y=\"242\" fill=\"#fff\" font-size=\"22\">Integrity</text><text x=\"100\" y=\"284\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">3.</text><text x=\"150\" y=\"284\" fill=\"#fff\" font-size=\"22\">Intrusion detection system (IDS)</text><text x=\"100\" y=\"326\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">4.</text><text x=\"150\" y=\"326\" fill=\"#fff\" font-size=\"22\">Malicious software</text><text x=\"100\" y=\"368\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">5.</text><text x=\"150\" y=\"368\" fill=\"#fff\" font-size=\"22\">Metrics</text><text x=\"100\" y=\"410\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">6.</text><text x=\"150\" y=\"410\" fill=\"#fff\" font-size=\"22\">Monitoring</text><text x=\"100\" y=\"452\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">7.</text><text x=\"150\" y=\"452\" fill=\"#fff\" font-size=\"22\">Network security</text><text x=\"100\" y=\"494\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">8.</text><text x=\"150\" y=\"494\" fill=\"#fff\" font-size=\"22\">Objective evidence</text><text x=\"100\" y=\"536\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">9.</text><text x=\"150\" y=\"536\" fill=\"#fff\" font-size=\"22\">Process, product and system audit</text><text x=\"100\" y=\"578\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">10.</text><text x=\"150\" y=\"578\" fill=\"#fff\" font-size=\"22\">Resolution agreement</text><text x=\"100\" y=\"620\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">11.</text><text x=\"150\" y=\"620\" fill=\"#fff\" font-size=\"22\">Standard</text><text x=\"100\" y=\"662\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">12.</text><text x=\"150\" y=\"662\" fill=\"#fff\" font-size=\"22\">Threshold</text><text x=\"100\" y=\"704\" fill=\"#f59e0b\" font-size=\"22\" font-weight=\"bold\">13.</text><text x=\"150\" y=\"704\" fill=\"#fff\" font-size=\"22\">Visual observation</text></svg>",
+        "caption": "Final checklist lines 49–61"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The CE has a policy that only authorized individuals will be allowed in the data center. This is known as _____.",
+      "options": [
+        {
+          "text": "Audit trail",
+          "correct": false
+        },
+        {
+          "text": "Facility access control",
+          "correct": true
+        },
+        {
+          "text": "Risk analysis",
+          "correct": false
+        },
+        {
+          "text": "Security management plan",
+          "correct": false
+        }
+      ],
+      "explanation": "**Facility access control.** **Checklist: Define and explain access controls.** Facility access controls are a HIPAA physical safeguard: policies limiting physical access to systems and the places they are housed (Ch 12). The checklist's access controls line covers the technical side (software limiting who can view or modify data).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q1 · Quizlet HW #188</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Access controls</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 188 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #188: question 1"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is the phrase used to describe the generic routine transactions between any computer or information systems, between healthcare facilities, using standards communication methods?",
+      "options": [
+        {
+          "text": "UMLS",
+          "correct": false
+        },
+        {
+          "text": "GEMS",
+          "correct": false
+        },
+        {
+          "text": "EDI",
+          "correct": true
+        },
+        {
+          "text": "ICD-10-CM",
+          "correct": false
+        }
+      ],
+      "explanation": "**EDI.** **Checklist: Describe administrative simplification.** Electronic data interchange is the point of HIPAA administrative simplification: standardizing the electronic transactions (claims, eligibility, remittance) so business processes are efficient (Ch 12, p. 287).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q2 · Quizlet HW #174</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Administrative simplification</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 174 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #174: question 2"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The computer notified me that a user accessed the PHI of a patient who is a celebrity. This is an example of a(n) _____.",
+      "options": [
+        {
+          "text": "Authentication",
+          "correct": false
+        },
+        {
+          "text": "Trigger",
+          "correct": true
+        },
+        {
+          "text": "Transmission security",
+          "correct": false
+        },
+        {
+          "text": "Integrity",
+          "correct": false
+        }
+      ],
+      "explanation": "**Trigger.** **Checklist: Explain audit trails.** A trigger is an audit-trail rule that flags an entry needing investigation, such as a celebrity's record being opened (Ch 12, p. 305).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q3 · Quizlet HW #189</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Audit trails</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 189 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #189: question 3"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What process must Colin, the HIM operations manager, perform to ensure that all patient information is contained within the correct electronic file in the EHR?",
+      "options": [
+        {
+          "text": "Data modeling",
+          "correct": false
+        },
+        {
+          "text": "Data mapping",
+          "correct": false
+        },
+        {
+          "text": "Data audit",
+          "correct": true
+        },
+        {
+          "text": "Data architecture",
+          "correct": false
+        }
+      ],
+      "explanation": "**Data audit.** **Checklist: Define auditing.** A data audit checks that patient information sits in the correct record. Chapter 13 defines auditing as the retrospective reconstruction of events and independent review of records and activities.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q4 · Quizlet HW #208</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Auditing</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 208 of 166–225 · Chapter 13 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #208: question 4"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "To access PHI, the user enters a user name and places their thumb in a reader. This is an example of what?",
+      "options": [
+        {
+          "text": "Two-factor authentication",
+          "correct": true
+        },
+        {
+          "text": "Token",
+          "correct": false
+        },
+        {
+          "text": "Biometric",
+          "correct": false
+        },
+        {
+          "text": "One factor authentication",
+          "correct": false
+        }
+      ],
+      "explanation": "**Two-factor authentication.** **Checklist: Explain biometric identifiers.** Username (something you know) plus thumbprint (something you are) = two-factor authentication. The thumbprint alone is a biometric identifier (Ch 12).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q5 · Quizlet HW #192</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Biometric identifiers</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 192 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #192: question 5"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A nurse who works in quality improvement also works on the nursing unit on occasion. Identify the authentication method that would give her access based on her role at the time.",
+      "options": [
+        {
+          "text": "Context-based",
+          "correct": true
+        },
+        {
+          "text": "Role-based",
+          "correct": false
+        },
+        {
+          "text": "Emergency access procedure",
+          "correct": false
+        },
+        {
+          "text": "User-based",
+          "correct": false
+        }
+      ],
+      "explanation": "**Context-based.** **Checklist: Describe context-based authentication.** Context-based authentication limits access by identity, role, and location and time; the nurse gets unit access only when working the unit (Ch 12).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q6 · Quizlet HW #182</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Context-based authentication</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 182 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #182: question 6"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The information system crashed. It is now working but data was lost. Identify the process that needs to be performed.",
+      "options": [
+        {
+          "text": "Data integrity",
+          "correct": false
+        },
+        {
+          "text": "Data recovery",
+          "correct": true
+        },
+        {
+          "text": "Firewall",
+          "correct": false
+        },
+        {
+          "text": "Audit trail",
+          "correct": false
+        }
+      ],
+      "explanation": "**Data recovery.** **Checklist: Describe data recovery.** Data recovery: recouping data lost in a crash plus entering the data captured during the downtime to restore the system to its original state (Ch 12, p. 299).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q7 · Quizlet HW #191</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Data recovery</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 191 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #191: question 7"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "When Walgreens and CVS fill prescriptions for their older customers and then electronically bill Medicare for reimbursement, which messaging standards do they use?",
+      "options": [
+        {
+          "text": "NDC",
+          "correct": false
+        },
+        {
+          "text": "NCPDP",
+          "correct": true
+        },
+        {
+          "text": "RxNorm",
+          "correct": false
+        },
+        {
+          "text": "LOINC",
+          "correct": false
+        }
+      ],
+      "explanation": "**NCPDP.** **Checklist: Define DSMOs.** NCPDP is the pharmacy transaction standard and one of the six DSMOs HHS assigned to maintain the Transaction and Code Sets standards (Ch 12, p. 288).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q8 · Quizlet HW #176</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">DSMOs</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 176 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #176: question 8"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which organization is heavily involved in data content standards for the exchange of clinical documents?",
+      "options": [
+        {
+          "text": "SDO",
+          "correct": false
+        },
+        {
+          "text": "SNOMED-CT",
+          "correct": false
+        },
+        {
+          "text": "ANSI",
+          "correct": false
+        },
+        {
+          "text": "HL7",
+          "correct": true
+        }
+      ],
+      "explanation": "**HL7.** **Checklist: Define DSMOs.** HL7 is the ANSI-accredited SDO for exchanging electronic health information and one of the six DSMOs (Ch 9, p. 212; Ch 12, p. 288).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q9 · Quizlet HW #177</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">DSMOs</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 177 of 166–225 · Chapter 9 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #177: question 9"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What information process must the legal counsel of Smithville Hospital perform in order to prepare a lawsuit against the hospital?",
+      "options": [
+        {
+          "text": "IG",
+          "correct": false
+        },
+        {
+          "text": "e-discovery",
+          "correct": true
+        },
+        {
+          "text": "Transparency",
+          "correct": false
+        },
+        {
+          "text": "EIM",
+          "correct": false
+        }
+      ],
+      "explanation": "**e-discovery.** **Checklist: Explain what counts as evidence.** e-Discovery is the legal process of producing electronic records as evidence for litigation; Chapter 12 discusses discovery when defining spoliation (p. 298).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q10 · Quizlet HW #207</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Evidence</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 207 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #207: question 10"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Data required by a court case was deleted by the attending physician. The attorney for the opposing side has found out that the data has been deleted and has accused the CE of _____.",
+      "options": [
+        {
+          "text": "A security breech",
+          "correct": false
+        },
+        {
+          "text": "Mitigation",
+          "correct": false
+        },
+        {
+          "text": "Spoliation",
+          "correct": true
+        },
+        {
+          "text": "Information access management",
+          "correct": false
+        }
+      ],
+      "explanation": "**Spoliation.** **Checklist: Define forensics.** Spoliation: evidence inappropriately destroyed or hidden when it is needed during discovery (Ch 12, p. 298). Forensics is the process of preserving and gathering that evidence.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q11 · Quizlet HW #186</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Forensics</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 186 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #186: question 11"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Unfortunately the facility had a hacker invade the EHR. What is the process that should be used to gather evidence?",
+      "options": [
+        {
+          "text": "Spoliation",
+          "correct": false
+        },
+        {
+          "text": "Mitigation",
+          "correct": false
+        },
+        {
+          "text": "Security event",
+          "correct": false
+        },
+        {
+          "text": "Forensics",
+          "correct": true
+        }
+      ],
+      "explanation": "**Forensics.** **Checklist: Define forensics.** Forensics: identification, preservation, analysis, documentation and presentation of evidence of a cybercrime (Ch 12, p. 340 steps in Ch 13).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q12 · Quizlet HW #193</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Forensics</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 193 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #193: question 12"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An employee received an email that he thought was from the information technology department. He provided personal information. He was tricked by _____.",
+      "options": [
+        {
+          "text": "Phishing",
+          "correct": true
+        },
+        {
+          "text": "Ransomware",
+          "correct": false
+        },
+        {
+          "text": "Virus",
+          "correct": false
+        },
+        {
+          "text": "Bot",
+          "correct": false
+        }
+      ],
+      "explanation": "**Phishing.** **Checklist: Explain malicious software.** Phishing is social engineering by e-mail: tricking the user into giving information. The book lists ten social-engineering types including phishing, vishing, baiting, pretexting and quid pro quo (Ch 12, p. 310).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q13 · Quizlet HW #184</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Malicious software</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 184 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #184: question 13"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Our CE cannot access the data in the EHR due a type of malware. The CE has been asked to pay $10,000 to get access back. This is known as _____.",
+      "options": [
+        {
+          "text": "Phishing",
+          "correct": false
+        },
+        {
+          "text": "Ransomware",
+          "correct": true
+        },
+        {
+          "text": "Bot",
+          "correct": false
+        },
+        {
+          "text": "Virus",
+          "correct": false
+        }
+      ],
+      "explanation": "**Ransomware.** **Checklist: Explain malicious software.** Ransomware is malware that prohibits access to information systems until payment is made; about 75 percent is triggered by phishing (Ch 12, p. 309).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q14 · Quizlet HW #187</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Malicious software</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 187 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #187: question 14"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "One of the challenges of standards is _____.",
+      "options": [
+        {
+          "text": "They are very expensive to implement",
+          "correct": false
+        },
+        {
+          "text": "The Joint Commission must approve all of them",
+          "correct": false
+        },
+        {
+          "text": "Some can be interpreted differently by different entities",
+          "correct": true
+        },
+        {
+          "text": "They must all be approved by the ONC",
+          "correct": false
+        }
+      ],
+      "explanation": "**Some can be interpreted differently by different entities.** **Checklist: Define standard.** The nearest 5th-edition statement is that EHR standards lack specificity (Ch 9, slide 22); Chapter 13 defines a standard as a scientifically based statement of expected behavior that outcomes are measured against.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q15 · Quizlet HW #169</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Standard</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 169 of 166–225 · Chapter 9 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #169: question 15"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The term used to describe an evidenced-based statement that identifies the ideal against which other things are measured is a _____.",
+      "options": [
+        {
+          "text": "Outcome",
+          "correct": false
+        },
+        {
+          "text": "Standard",
+          "correct": true
+        },
+        {
+          "text": "Process",
+          "correct": false
+        },
+        {
+          "text": "Criteria",
+          "correct": false
+        }
+      ],
+      "explanation": "**Standard.** **Checklist: Define standard.** Chapter 13: a standard is a scientifically based statement of expected behavior against which outcomes can be measured; metrics and thresholds measure performance against it.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q16 · Quizlet HW #173</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Standard</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 173 of 166–225 · Chapter 13 · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #173: question 16"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A letter was sent to patients telling them their PHI had been accessed by a hacker and that the healthcare facility would provide monitoring of their credit for one year. This is an example of what?",
+      "options": [
+        {
+          "text": "Forensics method",
+          "correct": false
+        },
+        {
+          "text": "Audit control",
+          "correct": false
+        },
+        {
+          "text": "Mitigation",
+          "correct": true
+        },
+        {
+          "text": "Risk assessment",
+          "correct": false
+        }
+      ],
+      "explanation": "**Mitigation.** **Not a checklist line (Chapter 12 security).** Mitigation: reducing the harmful effects of a breach after it happens, such as notifying patients and offering credit monitoring (Ch 12). Forensics gathers evidence; audit controls record activity.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q17 · Quizlet HW #181</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Chapter 12</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">security</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 181 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #181: question 17"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A user had trouble remembering his password so he decided to write it down. No one obtained access to it and used it, so this is a _____.",
+      "options": [
+        {
+          "text": "Security incident",
+          "correct": false
+        },
+        {
+          "text": "Security event",
+          "correct": true
+        },
+        {
+          "text": "Audit control",
+          "correct": false
+        },
+        {
+          "text": "Information system activity review",
+          "correct": false
+        }
+      ],
+      "explanation": "**Security event.** **Not a checklist line (Chapter 12 security).** A security **event** is poor practice with no harm (a written-down password nobody used). A security **incident** is attempted or successful unauthorized access, use, disclosure, modification or destruction (Ch 12).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q18 · Quizlet HW #183</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Chapter 12</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">security</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 183 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #183: question 18"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Connection to ePHI via the Internet has benefits but it is also a(n) _____.",
+      "options": [
+        {
+          "text": "Vulnerability",
+          "correct": true
+        },
+        {
+          "text": "Integrity issues",
+          "correct": false
+        },
+        {
+          "text": "Threat",
+          "correct": false
+        },
+        {
+          "text": "Security incident",
+          "correct": false
+        }
+      ],
+      "explanation": "**Vulnerability.** **Not a checklist line (Chapter 12 security).** A vulnerability is a weakness that could be exploited (internet connectivity); a threat is what could exploit it (a hacker); an incident is when it happens (Ch 12).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q19 · Quizlet HW #185</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Chapter 12</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">security</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 185 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #185: question 19"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The healthcare facility wants to do all it can to prevent downtime. Identify the concept that can help with this goal.",
+      "options": [
+        {
+          "text": "Facility access control",
+          "correct": false
+        },
+        {
+          "text": "Emergency access procedures",
+          "correct": false
+        },
+        {
+          "text": "Redundancy",
+          "correct": true
+        },
+        {
+          "text": "Integrity",
+          "correct": false
+        }
+      ],
+      "explanation": "**Redundancy.** **Not a checklist line (Chapter 12 security).** Redundancy duplicates data, hardware, cables and other components so a single failure does not cause downtime (Ch 12). Emergency access procedures are for break-the-glass access, not prevention.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q20 · Quizlet HW #190</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Chapter 12</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">security</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 190 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #190: question 20"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is a strong password?",
+      "options": [
+        {
+          "text": "1234",
+          "correct": false
+        },
+        {
+          "text": "jsmith",
+          "correct": false
+        },
+        {
+          "text": "rachel",
+          "correct": false
+        },
+        {
+          "text": "Xerh54=",
+          "correct": true
+        }
+      ],
+      "explanation": "**Xerh54=.** **Not a checklist line (Chapter 12 security).** A strong password mixes upper and lower case, numbers and symbols and is not a name or sequence. Not a checklist line, but basic Chapter 12 security.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q21 · Quizlet HW #194</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Chapter 12</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">security</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 194 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #194: question 21"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following is an example of a security incident?",
+      "options": [
+        {
+          "text": "Shared log-on",
+          "correct": false
+        },
+        {
+          "text": "Monitor left on and unattended however no one accessed the information",
+          "correct": false
+        },
+        {
+          "text": "Contract maintenance staff repairing computer without supervision by your staff",
+          "correct": false
+        },
+        {
+          "text": "Virus attack that destroyed files",
+          "correct": true
+        }
+      ],
+      "explanation": "**Virus attack that destroyed files.** **Not a checklist line (Chapter 12 security).** A virus attack that destroyed files is a security incident (actual unauthorized destruction). The other three are security events: poor practice with no harm done (Ch 12).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q22 · Quizlet HW #195</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Chapter 12</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">security</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 195 of 166–225 · Chapter 12 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #195: question 22"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "ABC Hospital needs to buy a new EHR system. To make sure that the EHR meets all HIT/HIE standards, the hospital should do which of the following?",
+      "options": [
+        {
+          "text": "Purchase a CEHRT",
+          "correct": true
+        },
+        {
+          "text": "Verify the choice of EHR with The Joint Commission",
+          "correct": false
+        },
+        {
+          "text": "Take the vendor's word for it",
+          "correct": false
+        },
+        {
+          "text": "Verify the choice of EHR with AHIMA",
+          "correct": false
+        }
+      ],
+      "explanation": "**Purchase a CEHRT.** **Not a checklist line (Standards and vocabularies).** CEHRT: certified EHR technology, tested by an accredited lab and certified by an ONC-Authorized Certification Body (Ch 9). An Exam 3 topic that reappears here.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q23 · Quizlet HW #166</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Standards and</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">vocabularies</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 166 of 166–225 · Chapter 9 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #166: question 23"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An independent lab provides most of the lab facilities and testing procedures for the outpatient physician practices in your city. What vocabulary standards must they adhere to?",
+      "options": [
+        {
+          "text": "DICOM",
+          "correct": false
+        },
+        {
+          "text": "NCPDP",
+          "correct": false
+        },
+        {
+          "text": "LOINC",
+          "correct": true
+        },
+        {
+          "text": "NLM",
+          "correct": false
+        }
+      ],
+      "explanation": "**LOINC.** **Not a checklist line (Standards and vocabularies).** LOINC is the laboratory and clinical-test terminology used by the LIS (Ch 8).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q24 · Quizlet HW #167</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Standards and</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">vocabularies</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 167 of 166–225 · Chapter 8 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #167: question 24"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Committee E31 on Healthcare Informatics belongs to which of the following organizations?",
+      "options": [
+        {
+          "text": "HL-7",
+          "correct": false
+        },
+        {
+          "text": "ASTM",
+          "correct": true
+        },
+        {
+          "text": "ANSI",
+          "correct": false
+        },
+        {
+          "text": "SNOMED",
+          "correct": false
+        }
+      ],
+      "explanation": "**ASTM.** **Not a checklist line (Standards and vocabularies).** ASTM International's Committee E31 is its healthcare informatics committee; the 5th edition mentions ASTM only as the SDO behind the CCR (Ch 9, p. 212).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q25 · Quizlet HW #168</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Standards and</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">vocabularies</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 168 of 166–225 · Chapter 9 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #168: question 25"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Radiology Associates is a large group practice of radiologist that provide outpatient services for x-rays, MRIs, CT and PET scans, and ultrasounds for local hospitals and clinics. Which messaging standards do they abide by?",
+      "options": [
+        {
+          "text": "DICOM",
+          "correct": true
+        },
+        {
+          "text": "NCPDP",
+          "correct": false
+        },
+        {
+          "text": "LOINC",
+          "correct": false
+        },
+        {
+          "text": "UMLS",
+          "correct": false
+        }
+      ],
+      "explanation": "**DICOM.** **Not a checklist line (Standards and vocabularies).** DICOM is the imaging standard behind PACS. Not in the transcribed 5th-edition text; treat as older-edition material.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q26 · Quizlet HW #170</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Standards and</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">vocabularies</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 170 of 166–225 · Chapter 8 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #170: question 26"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The In-Between Clinic specializes in treating adolescents and teenagers for depression, eating disorders, drug addiction, and attempted suicides. What vocabulary standards are incorporated into their EHR?",
+      "options": [
+        {
+          "text": "DSM-5",
+          "correct": true
+        },
+        {
+          "text": "UMLS",
+          "correct": false
+        },
+        {
+          "text": "NCPDP",
+          "correct": false
+        },
+        {
+          "text": "ICD-10-CM",
+          "correct": false
+        }
+      ],
+      "explanation": "**DSM-5.** **Not a checklist line (Standards and vocabularies).** DSM-5 is the psychiatric diagnostic manual. Not in the transcribed 5th-edition text.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q27 · Quizlet HW #171</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Standards and</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">vocabularies</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 171 of 166–225 · Chapter 9 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #171: question 27"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The group process of developing a solution where all members agree and that benefits all stakeholders at a specific time is termed _____.",
+      "options": [
+        {
+          "text": "Interoperable",
+          "correct": false
+        },
+        {
+          "text": "Approval",
+          "correct": false
+        },
+        {
+          "text": "Coordinated",
+          "correct": false
+        },
+        {
+          "text": "Consensus",
+          "correct": true
+        }
+      ],
+      "explanation": "**Consensus.** **Not a checklist line (Standards and vocabularies).** Consensus is how standards development organizations such as HL7 and ASTM adopt standards; the word is not in the transcribed 5th-edition text.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q28 · Quizlet HW #172</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Standards and</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">vocabularies</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 172 of 166–225 · Chapter 9 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #172: question 28"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What is the process for mapping all old ICD-9-CM codes to the new ICD-10-CM codes in the US?",
+      "options": [
+        {
+          "text": "CMS",
+          "correct": false
+        },
+        {
+          "text": "UMLS",
+          "correct": false
+        },
+        {
+          "text": "DSM",
+          "correct": false
+        },
+        {
+          "text": "GEMS",
+          "correct": true
+        }
+      ],
+      "explanation": "**GEMS.** **Not a checklist line (Standards and vocabularies).** GEMs are CMS's General Equivalence Mappings between ICD-9-CM and ICD-10-CM/PCS; data mapping is a Chapter 2 topic. Not in the transcribed 5th-edition text.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q29 · Quizlet HW #175</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Standards and</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">vocabularies</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 175 of 166–225 · Chapter 2 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #175: question 29"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which organization is heavily involved in vocabulary standards for words, terms, names, and phrases used in the language of medicine?",
+      "options": [
+        {
+          "text": "SDO",
+          "correct": false
+        },
+        {
+          "text": "SNOMED-CT",
+          "correct": true
+        },
+        {
+          "text": "ANSI",
+          "correct": false
+        },
+        {
+          "text": "HL7",
+          "correct": false
+        }
+      ],
+      "explanation": "**SNOMED-CT.** **Not a checklist line (Standards and vocabularies).** SNOMED CT: the most comprehensive multilingual clinical terminology in the world (Ch 3, p. 50).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q30 · Quizlet HW #178</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Standards and</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">vocabularies</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 178 of 166–225 · Chapter 3 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #178: question 30"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Within the mapping process, under what category would a non-specific ICD-9-CM code mapped to a very specific or definitive code in ICD-10-CM fall under?",
+      "options": [
+        {
+          "text": "One-to-one",
+          "correct": false
+        },
+        {
+          "text": "Narrow-to-broad",
+          "correct": false
+        },
+        {
+          "text": "Broad-to-narrow",
+          "correct": true
+        },
+        {
+          "text": "Unmappable",
+          "correct": false
+        }
+      ],
+      "explanation": "**Broad-to-narrow.** **Not a checklist line (Standards and vocabularies).** Data mapping categories (one-to-one, broad-to-narrow, narrow-to-broad, unmappable) are not in the transcribed 5th-edition text; mapping itself is Chapter 2 (ICD-9-CM to ICD-10-CM).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q31 · Quizlet HW #179</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Standards and</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">vocabularies</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 179 of 166–225 · Chapter 2 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #179: question 31"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Your state is looking to develop ways to encourage healthy behaviors and preventive medicine activities. The state Department of Health and a private gym/spa that has many branches facilities around the state have formally agreed to coordinate services and resources to deliver specially designed preventive health services. This is an example of a_____.",
+      "options": [
+        {
+          "text": "Public-private partnership",
+          "correct": true
+        },
+        {
+          "text": "HIE",
+          "correct": false
+        },
+        {
+          "text": "Coordinated relationship",
+          "correct": false
+        },
+        {
+          "text": "Strategic planning",
+          "correct": false
+        }
+      ],
+      "explanation": "**Public-private partnership.** **Not a checklist line (Standards and vocabularies).** A government agency and a private company formally coordinating services is a public-private partnership, the structure the book gives for an HIO (Ch 11). Exam 3 material reappearing.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q32 · Quizlet HW #180</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Standards and</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">vocabularies</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 180 of 166–225 · Chapter 11 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #180: question 32"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Another title for a job description within HIM regarding the management, support, protection, and maintenance of databases and ROI functions could be _____.",
+      "options": [
+        {
+          "text": "CDI coordinator",
+          "correct": false
+        },
+        {
+          "text": "Health data analyst",
+          "correct": false
+        },
+        {
+          "text": "EIM coordinator",
+          "correct": false
+        },
+        {
+          "text": "Health data steward",
+          "correct": true
+        }
+      ],
+      "explanation": "**Health data steward.** **Not a checklist line (Information governance (older edition)).** Information governance roles (older-edition chapter). The 5th edition's Chapter 6 lists data integrity analyst, data quality manager, mapping specialist and data analyst; EIM coordinator is not in the transcribed text.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q33 · Quizlet HW #196</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 196 of 166–225 · Chapter 13 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #196: question 33"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "As CIO, you have initiated discussions of information governance with your C-suite colleagues. Since your background is in HIM, you stress the importance of information protection and data quality. You mention all of the following in your discussion as to why quality data is important to DG and IG, but as an HIM professional, you feel the most important is _____.",
+      "options": [
+        {
+          "text": "To make informed decisions",
+          "correct": false
+        },
+        {
+          "text": "To evaluate patient care and population health",
+          "correct": false
+        },
+        {
+          "text": "To decrease security breaches",
+          "correct": true
+        },
+        {
+          "text": "To evaluate business processes",
+          "correct": false
+        }
+      ],
+      "explanation": "**To decrease security breaches.** **Not a checklist line (Information governance (older edition)).** Information governance (older-edition chapter): HIM stresses information protection and data quality to reduce security breaches. The 5th edition covers governance under data stewardship (Ch 3) and compliance culture (Ch 13).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q34 · Quizlet HW #197</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 197 of 166–225 · Chapter 13 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #197: question 34"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Emelia, the clinical IT database manager, is also responsible for the data dictionary within the EHR system for Smithville Hospital. Which type of metadata does the data dictionary fall under?",
+      "options": [
+        {
+          "text": "Descriptive metadata",
+          "correct": true
+        },
+        {
+          "text": "Structural metadata",
+          "correct": false
+        },
+        {
+          "text": "Adminstrative metadata",
+          "correct": false
+        },
+        {
+          "text": "Semantic metadata",
+          "correct": false
+        }
+      ],
+      "explanation": "**Descriptive metadata.** **Not a checklist line (Information governance (older edition)).** Metadata types (Ch 2, p. 23): descriptive metadata is used to find and retrieve data (the data dictionary's names and definitions); structural describes how data are organized; administrative covers file type, dates and permissions.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q35 · Quizlet HW #198</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 198 of 166–225 · Chapter 2 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #198: question 35"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Jim, the IT director, is able to complete IT management task very well but is usually two weeks late in submitting results compared to other department directors. He is _____.",
+      "options": [
+        {
+          "text": "Not effective nor efficient",
+          "correct": false
+        },
+        {
+          "text": "Effective and efficient",
+          "correct": false
+        },
+        {
+          "text": "Effective but not efficient",
+          "correct": true
+        },
+        {
+          "text": "Efficient but not effective",
+          "correct": false
+        }
+      ],
+      "explanation": "**Effective but not efficient.** **Not a checklist line (Information governance (older edition)).** Chapter 6: effectiveness = the degree to which the stated outcome is attained; efficiency = achieving it without wasting resources such as time. Good work delivered late is effective but not efficient.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q36 · Quizlet HW #199</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 199 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #199: question 36"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ruth, the HIM assistant director, is evaluating the retention policies for the telehealth visits at the new outpatient clinic affiliated with Smithville Hospital. Which building block of EIM being addressed in this situation?",
+      "options": [
+        {
+          "text": "Privacy, security, and confidentiality",
+          "correct": false
+        },
+        {
+          "text": "Integrity and quality",
+          "correct": false
+        },
+        {
+          "text": "Content and records management",
+          "correct": true
+        },
+        {
+          "text": "Access and use",
+          "correct": false
+        }
+      ],
+      "explanation": "**Content and records management.** **Not a checklist line (Information governance (older edition)).** EIM (enterprise information management) building blocks are an older-edition framework; retention policy belongs to content and records management. Not in the 5th edition's Exam chapters.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q37 · Quizlet HW #200</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 200 of 166–225 · Chapter 13 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #200: question 37"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Sam, the ROI manager, is evaluating all information requests and disclosures and results of HIPAA compliance audits for the last three years. Under which one of the ten core competencies in the IGAM do these activities fall?",
+      "options": [
+        {
+          "text": "Privacy and security",
+          "correct": false
+        },
+        {
+          "text": "Legal and regulatory",
+          "correct": true
+        },
+        {
+          "text": "Analytics",
+          "correct": false
+        },
+        {
+          "text": "Awareness and adherence",
+          "correct": false
+        }
+      ],
+      "explanation": "**Legal and regulatory.** **Not a checklist line (Information governance (older edition)).** AHIMA's Information Governance Adoption Model (IGAM) competencies; evaluating disclosures and HIPAA audit results falls under legal and regulatory. Older-edition material.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q38 · Quizlet HW #201</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 201 of 166–225 · Chapter 13 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #201: question 38"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Tayler is compiling a dataset on all criteria used to purchase any hardware used in the last five years at Smithville hospital. Under what part of EIM would this activity fall?",
+      "options": [
+        {
+          "text": "ITG",
+          "correct": true
+        },
+        {
+          "text": "IG",
+          "correct": false
+        },
+        {
+          "text": "DG",
+          "correct": false
+        },
+        {
+          "text": "HIM",
+          "correct": false
+        }
+      ],
+      "explanation": "**ITG.** **Not a checklist line (Information governance (older edition)).** Information technology governance (ITG) covers hardware and technology decisions within enterprise information management. Older-edition material.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q39 · Quizlet HW #202</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 202 of 166–225 · Chapter 13 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #202: question 39"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The HIM Logistics Manager, Tim, is working with the IT Workflow Analyst, Kristen, to develop entity-relationship diagrams and dataflow diagrams to evaluate HIM procedures prior to the implemenation of the new EHR. What type of metadata is being created during this process?",
+      "options": [
+        {
+          "text": "Structural",
+          "correct": true
+        },
+        {
+          "text": "Descriptive",
+          "correct": false
+        },
+        {
+          "text": "Adminstrative",
+          "correct": false
+        },
+        {
+          "text": "Modeling",
+          "correct": false
+        }
+      ],
+      "explanation": "**Structural.** **Not a checklist line (Information governance (older edition)).** Entity-relationship and data flow diagrams describe how data are organized and move, which is structural metadata (Ch 2, p. 23; Ch 3 ERD and DFD).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q40 · Quizlet HW #203</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 203 of 166–225 · Chapter 2 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #203: question 40"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The IG Steering Committee has decided to develop a specific webpage for the Smithville Hospital's internal website to post the IG organizational chart and all of the minutes to their weekly meetings. What IGPHC principle is this an example?",
+      "options": [
+        {
+          "text": "Transparency",
+          "correct": true
+        },
+        {
+          "text": "Accountability",
+          "correct": false
+        },
+        {
+          "text": "Compliance",
+          "correct": false
+        },
+        {
+          "text": "Retention",
+          "correct": false
+        }
+      ],
+      "explanation": "**Transparency.** **Not a checklist line (Information governance (older edition)).** Transparency: an IG principle, making governance documents and decisions openly available. Older-edition material; Chapter 13 covers compliance culture instead.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q41 · Quizlet HW #204</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 204 of 166–225 · Chapter 13 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #204: question 41"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The IG Steering Committee is trying to clarify the specific problems within the CDI process to make sure they understand the difficulties these personnel are having. What part of SBAR are they currently addressing?",
+      "options": [
+        {
+          "text": "Situation",
+          "correct": true
+        },
+        {
+          "text": "Background",
+          "correct": false
+        },
+        {
+          "text": "Assessment",
+          "correct": false
+        },
+        {
+          "text": "Recommendation",
+          "correct": false
+        }
+      ],
+      "explanation": "**Situation.** **Not a checklist line (Information governance (older edition)).** SBAR (Situation, Background, Assessment, Recommendation): clarifying the specific problem is the Situation step. Older-edition material.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q42 · Quizlet HW #205</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 205 of 166–225 · Chapter 13 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #205: question 42"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The physical therapy department keeps a separate database on patient outcomes for physical therapy. Most of the other health professionals do not have access to it. This is an example of a _____.",
+      "options": [
+        {
+          "text": "Registry",
+          "correct": false
+        },
+        {
+          "text": "Choice",
+          "correct": false
+        },
+        {
+          "text": "Answer",
+          "correct": false
+        },
+        {
+          "text": "Data silo",
+          "correct": true
+        }
+      ],
+      "explanation": "**Data silo.** **Not a checklist line (Information governance (older edition)).** A data silo: data kept in a separate system others cannot access, the opposite of the enterprise data repository and warehouse (Ch 3).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q43 · Quizlet HW #206</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 206 of 166–225 · Chapter 3 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #206: question 43"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What process must Emelia, the clinical IT database manager, perform to ensure that all specific data elements are captured within the newly developed database on influenza tracking within the EHR?",
+      "options": [
+        {
+          "text": "Data modeling",
+          "correct": false
+        },
+        {
+          "text": "Data mapping",
+          "correct": false
+        },
+        {
+          "text": "Data audit",
+          "correct": false
+        },
+        {
+          "text": "Data architecture",
+          "correct": true
+        }
+      ],
+      "explanation": "**Data architecture.** **Not a checklist line (Information governance (older edition)).** Data architecture / data modeling define which elements a database captures (Ch 3 data modeling, ERDs). The Quizlet keys architecture; the 5th edition's term is data modeling.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q44 · Quizlet HW #209</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 209 of 166–225 · Chapter 3 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #209: question 44"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "What professional credential shows that Michael has the skills and knowledge to manage, interpret, and compile epidemiology databases and studies in cardiology, neurology, and oncology for those respective departments to analyze patient care patterns?",
+      "options": [
+        {
+          "text": "RHIA",
+          "correct": false
+        },
+        {
+          "text": "CHDA",
+          "correct": true
+        },
+        {
+          "text": "CDIP",
+          "correct": false
+        },
+        {
+          "text": "CHTS",
+          "correct": false
+        }
+      ],
+      "explanation": "**CHDA.** **Not a checklist line (Information governance (older edition)).** CHDA (certified health data analyst): AHIMA's credential for acquiring, managing, analyzing and interpreting data (Ch 1).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q45 · Quizlet HW #210</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: Information</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">governance (older edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 210 of 166–225 · Chapter 1 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #210: question 45"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A college has developed a new bachelor of science in HIM program. They need to know what curriculum to use. What organization should be contacted?",
+      "options": [
+        {
+          "text": "CCHIIM",
+          "correct": false
+        },
+        {
+          "text": "CAHIIM",
+          "correct": true
+        },
+        {
+          "text": "HIMSS",
+          "correct": false
+        },
+        {
+          "text": "AHIMA",
+          "correct": false
+        }
+      ],
+      "explanation": "**CAHIIM.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** CAHIIM accredits HIM education programs and sets curriculum requirements; CCHIIM is AHIMA's certification commission.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q46 · Quizlet HW #211</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 211 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #211: question 46"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An HIM professional takes data on denials that have been received by the healthcare over the past year. After manipulating the data, she learns that Dr. Smith's patient's account for 30 percent of all of the denials. She schedules a meeting with Dr. Smith to discuss the matter. What is the HIM professional conducting?",
+      "options": [
+        {
+          "text": "Informatics",
+          "correct": false
+        },
+        {
+          "text": "Data use",
+          "correct": false
+        },
+        {
+          "text": "Analytics",
+          "correct": true
+        },
+        {
+          "text": "Revenue management",
+          "correct": false
+        }
+      ],
+      "explanation": "**Analytics.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** Chapter 6 defines analytics as using data and information to achieve the organization's strategy, goals and mission; patterns of denials are a data-mining example in Chapter 3.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q47 · Quizlet HW #212</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 212 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #212: question 47"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An HIM professional was hired as a coder and then became a supervisor in the HIM department. In what type of environment would this person work?",
+      "options": [
+        {
+          "text": "Healthcare facility",
+          "correct": true
+        },
+        {
+          "text": "Consultant",
+          "correct": false
+        },
+        {
+          "text": "Vendor",
+          "correct": false
+        },
+        {
+          "text": "Standards development organization",
+          "correct": false
+        }
+      ],
+      "explanation": "**Healthcare facility.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** HIM work settings: healthcare facility, vendor, consultant, SDO, government agency, education.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q48 · Quizlet HW #213</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 213 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #213: question 48"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Development of the data model is performed by the _____.",
+      "options": [
+        {
+          "text": "Data quality manager",
+          "correct": false
+        },
+        {
+          "text": "Data architect",
+          "correct": true
+        },
+        {
+          "text": "Content analyst",
+          "correct": false
+        },
+        {
+          "text": "Data analyst",
+          "correct": false
+        }
+      ],
+      "explanation": "**Data architect.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** Older-edition role item. The 5th edition gives data modeling to the database design process led by the DBA and does not name a data architect in the transcribed text.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q49 · Quizlet HW #214</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 214 of 166–225 · Chapter 3 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #214: question 49"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Grace went to the associate degree program at College A in Illinois. Her friend Brian went to an associate degree program at College B in Kansas. They are both taking the RHIT certification but a different specialty certification. Explain this difference.",
+      "options": [
+        {
+          "text": "The track that the two students took are different.",
+          "correct": true
+        },
+        {
+          "text": "Their proposed graduate programs' requirements are different.",
+          "correct": false
+        },
+        {
+          "text": "State law controls the content of the curriculum.",
+          "correct": false
+        },
+        {
+          "text": "Their research on job opportunities in their respective areas yielded different results.",
+          "correct": false
+        }
+      ],
+      "explanation": "**The track that the two students took are different..** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** HIM Reimagined specialty tracks (AHIMA, 2017). Older-edition material.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q50 · Quizlet HW #215</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 215 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #215: question 50"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "How do HIM staff contribute to system development?",
+      "options": [
+        {
+          "text": "Computer programming",
+          "correct": false
+        },
+        {
+          "text": "Assisting users",
+          "correct": false
+        },
+        {
+          "text": "An understanding of the HIM processes.",
+          "correct": true
+        },
+        {
+          "text": "Controlling the resources allocated to the efforts",
+          "correct": false
+        }
+      ],
+      "explanation": "**An understanding of the HIM processes..** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** Chapter 4 (p. 76): the HIM professional on the project team brings understanding of HIM processes, compliance, privacy, security and data quality.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q51 · Quizlet HW #216</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 216 of 166–225 · Chapter 4 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #216: question 51"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the HIM role that applies data and content standards.",
+      "options": [
+        {
+          "text": "Data architect",
+          "correct": false
+        },
+        {
+          "text": "Content analyst",
+          "correct": false
+        },
+        {
+          "text": "Data integrity analyst",
+          "correct": true
+        },
+        {
+          "text": "Data analyst",
+          "correct": false
+        }
+      ],
+      "explanation": "**Data integrity analyst.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** Chapter 6: the data integrity analyst ensures the quality of data in HIM systems and applies and controls data edits.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q52 · Quizlet HW #217</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 217 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #217: question 52"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the HIM role that creates new functions in health information technology.",
+      "options": [
+        {
+          "text": "Clinical informatics coordinator",
+          "correct": false
+        },
+        {
+          "text": "Informatics researcher",
+          "correct": false
+        },
+        {
+          "text": "Content analyst",
+          "correct": false
+        },
+        {
+          "text": "Research and development scientist",
+          "correct": true
+        }
+      ],
+      "explanation": "**Research and development scientist.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** AHIMA emerging roles; the research and development scientist creates new HIT functions. Older-edition material.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q53 · Quizlet HW #218</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 218 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #218: question 53"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the career that is an allied health professional that addresses the availability, accuracy, and protection of information in healthcare.",
+      "options": [
+        {
+          "text": "Health information management",
+          "correct": true
+        },
+        {
+          "text": "Health informatics",
+          "correct": false
+        },
+        {
+          "text": "Information science",
+          "correct": false
+        },
+        {
+          "text": "Clinical health informatics",
+          "correct": false
+        }
+      ],
+      "explanation": "**Health information management.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** HIM: the allied health profession managing the availability, accuracy and protection of health information.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q54 · Quizlet HW #219</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 219 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #219: question 54"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement regarding HIM skills.",
+      "options": [
+        {
+          "text": "HIM skills include computer programming.",
+          "correct": false
+        },
+        {
+          "text": "HIM skills generally apply to technology.",
+          "correct": true
+        },
+        {
+          "text": "HIM skills have remained stagnant over the past 10 years.",
+          "correct": false
+        },
+        {
+          "text": "HIM skills are expected to become less dependent on technology.",
+          "correct": false
+        }
+      ],
+      "explanation": "**HIM skills generally apply to technology..** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** Chapter 1: contemporary HIM practice shifted to data, systems, governance and analytics; HIM skills apply to technology.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q55 · Quizlet HW #220</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 220 of 166–225 · Chapter 1 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #220: question 55"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The HIM Reimagined initiative is influenced by _____.",
+      "options": [
+        {
+          "text": "Job titles",
+          "correct": false
+        },
+        {
+          "text": "CAHIIM standards",
+          "correct": false
+        },
+        {
+          "text": "Trends at colleges and universities",
+          "correct": true
+        },
+        {
+          "text": "Characteristics of Generation Z",
+          "correct": false
+        }
+      ],
+      "explanation": "**Trends at colleges and universities.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** HIM Reimagined was shaped by trends at colleges and universities. Older-edition material.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q56 · Quizlet HW #221</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 221 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #221: question 56"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The certification exam that contains data analysis and database management is _____.",
+      "options": [
+        {
+          "text": "CPHI",
+          "correct": true
+        },
+        {
+          "text": "CDIP",
+          "correct": false
+        },
+        {
+          "text": "CHDA",
+          "correct": false
+        },
+        {
+          "text": "CCS",
+          "correct": false
+        }
+      ],
+      "explanation": "**CPHI.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** Watch this one. The Quizlet keys CPHI (Certified Professional in Health Informatics). The 5th edition's Chapter 1 describes CHDA as the data-analysis credential. If it appears, the key says CPHI.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q57 · Quizlet HW #222</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 222 of 166–225 · Chapter 1 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #222: question 57"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The purpose of the four HIMR recommendations is to sort the transition to skills that focus on _____.",
+      "options": [
+        {
+          "text": "Technology",
+          "correct": true
+        },
+        {
+          "text": "Lifelong learning",
+          "correct": false
+        },
+        {
+          "text": "Research",
+          "correct": false
+        },
+        {
+          "text": "Analytics",
+          "correct": false
+        }
+      ],
+      "explanation": "**Technology.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** HIM Reimagined's four recommendations push the profession toward technology skills. Older-edition material.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q58 · Quizlet HW #223</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 223 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #223: question 58"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The setting that allows HIM professional to work for public health agencies is _____.",
+      "options": [
+        {
+          "text": "Governmental agencies",
+          "correct": true
+        },
+        {
+          "text": "Standards development organization",
+          "correct": false
+        },
+        {
+          "text": "Consulting firm",
+          "correct": false
+        },
+        {
+          "text": "Vendors",
+          "correct": false
+        }
+      ],
+      "explanation": "**Governmental agencies.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** Governmental agencies are the HIM setting for public health work.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q59 · Quizlet HW #224</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 224 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #224: question 59"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Which of the following settings provides services that the healthcare facility may not have time or expertise to perform?",
+      "options": [
+        {
+          "text": "Consulting firm",
+          "correct": true
+        },
+        {
+          "text": "Vendor",
+          "correct": false
+        },
+        {
+          "text": "Educational facilities",
+          "correct": false
+        },
+        {
+          "text": "Governmental agencies",
+          "correct": false
+        }
+      ],
+      "explanation": "**Consulting firm.** **Not a checklist line (HIM careers (5th-ed Chapter 6)).** Consulting firms supply services the facility lacks time or expertise for.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q60 · Quizlet HW #225</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"172\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Checklist line</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Not on her checklist: HIM careers (Ch 6</text><text x=\"110\" y=\"281\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">in your edition)</text><rect x=\"80\" y=\"357\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"405\" fill=\"#bbb\" font-size=\"22\">Final Quizlet item 225 of 166–225 · Chapter 6 · The answer</text><text x=\"110\" y=\"443\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Quizlet HW #225: question 60"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify where ePHI is stored.",
+      "options": [
+        {
+          "text": "voicemail",
+          "correct": false
+        },
+        {
+          "text": "paper health record",
+          "correct": false
+        },
+        {
+          "text": "fax machines and EHR",
+          "correct": false
+        },
+        {
+          "text": "EHR",
+          "correct": true
+        }
+      ],
+      "explanation": "**EHR.** Confirmed. ePHI is electronic PHI, and the Security Rule applies only to electronic PHI, not paper or oral PHI (Ch 12). Slide 16: voicemail, fax and copy machines (unless they store data) are not ePHI, so (c) fails because it pairs the EHR with fax machines. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q61 · Ch 12 course quiz Q1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 12 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 1 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 course quiz Q1: question 61"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A former employee is angry at the CE because he was terminated. He hacked into the EHR and destroyed ePHI. What type of threat is this?",
+      "options": [
+        {
+          "text": "purposeful",
+          "correct": false
+        },
+        {
+          "text": "Intentional",
+          "correct": true
+        },
+        {
+          "text": "calculated",
+          "correct": false
+        },
+        {
+          "text": "premeditated",
+          "correct": false
+        }
+      ],
+      "explanation": "**Intentional.** Confirmed. Human threats are either intentional (sabotage, identity theft, viruses) or unintentional honest mistakes (Ch 12; slides 19–20). A fired employee destroying data is sabotage, so intentional. The other three words are not the book's terms. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q62 · Ch 12 course quiz Q2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 12 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 2 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 course quiz Q2: question 62"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement about integrity.",
+      "options": [
+        {
+          "text": "the CE only has to address data integrity for data stored in the database",
+          "correct": false
+        },
+        {
+          "text": "the CE only has to address data integrity for data transmitted across a network",
+          "correct": false
+        },
+        {
+          "text": "the CE has to address data integrity for data stored and in transmission",
+          "correct": true
+        },
+        {
+          "text": "HIPAA does not require CEs to address data integrity",
+          "correct": false
+        }
+      ],
+      "explanation": "**the CE has to address data integrity for data stored and in transmission.** Confirmed. Integrity means data are not altered during transmission or storage (CIA triad, slide 21). The Security Rule has an integrity standard for stored data and a transmission security standard for data in motion (Table 12.1, p. 294). The book also names three data states: at rest, in motion, in use. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q63 · Ch 12 course quiz Q3</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 12 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 3 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 course quiz Q3: question 63"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "HIPAA security standards whereby the CE can determine if the standard is reasonable and appropriate is known as _____________",
+      "options": [
+        {
+          "text": "addressable",
+          "correct": true
+        },
+        {
+          "text": "optional",
+          "correct": false
+        },
+        {
+          "text": "noncompulsory",
+          "correct": false
+        },
+        {
+          "text": "voluntary",
+          "correct": false
+        }
+      ],
+      "explanation": "**addressable.** Confirmed. Required standards must be implemented by every CE; addressable standards let the CE decide whether the measure is reasonable and appropriate, document the decision, and implement an equivalent if not. Addressable never means optional (Ch 12). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q64 · Ch 12 course quiz Q4</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 12 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 4 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 course quiz Q4: question 64"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Administrative safeguards include which of the following?",
+      "options": [
+        {
+          "text": "emergency access procedure",
+          "correct": false
+        },
+        {
+          "text": "mechanism to authenticate ePHI",
+          "correct": false
+        },
+        {
+          "text": "security awareness and training",
+          "correct": true
+        },
+        {
+          "text": "audit controls",
+          "correct": false
+        }
+      ],
+      "explanation": "**security awareness and training.** Confirmed. Table 12.1 (p. 294): security awareness and training is an administrative safeguard standard. Emergency access procedure (under access control) and audit controls are technical safeguards, and a mechanism to authenticate ePHI is the technical integrity specification. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q65 · Ch 12 course quiz Q5</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 12 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 5 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 course quiz Q5: question 65"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Access controls are classified as something you know, something you have, and something you _______",
+      "options": [
+        {
+          "text": "are",
+          "correct": true
+        },
+        {
+          "text": "choose",
+          "correct": false
+        },
+        {
+          "text": "design",
+          "correct": false
+        },
+        {
+          "text": "develop",
+          "correct": false
+        }
+      ],
+      "explanation": "**are.** Confirmed. Something you know (username, password, security question), something you have (card key, token), something you are (fingerprint, retinal scan, face or voice) (Table 12.4; slide 46). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q66 · Ch 12 course quiz Q6</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 12 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 6 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 course quiz Q6: question 66"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A username and password is an example of a ________________",
+      "options": [
+        {
+          "text": "one-factor authentication",
+          "correct": true
+        },
+        {
+          "text": "two-factor authentication",
+          "correct": false
+        },
+        {
+          "text": "call back",
+          "correct": false
+        },
+        {
+          "text": "single sign-on",
+          "correct": false
+        }
+      ],
+      "explanation": "**one-factor authentication.** Confirmed. A username and a password are both something you know, so together they are still one factor (Ch 12; slide 46). Two-factor adds something you have or something you are. Single sign-on is one login for many applications (p. 303). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q67 · Ch 12 course quiz Q7</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 12 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 7 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 course quiz Q7: question 67"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "One of the nurses in the quality management department has decided to work a few shifts on the nursing units in order to earn some extra money. When she logs in with her normal sign-in, she has certain functionality; when she logs in differently to work on the nursing unit, she has different functionality. This is known as __________.",
+      "options": [
+        {
+          "text": "role-based authentication",
+          "correct": false
+        },
+        {
+          "text": "user-based authentication",
+          "correct": false
+        },
+        {
+          "text": "context-based authentication",
+          "correct": true
+        },
+        {
+          "text": "emergency access procedure",
+          "correct": false
+        }
+      ],
+      "explanation": "**context-based authentication.** Confirmed. Context-based authentication limits access by identity and role and also by the location and time of access; the quality nurse who picks up nursing unit shifts is the book's own example (p. 302). This stem also appears in CYU 12.3. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q68 · Ch 12 course quiz Q8</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 12 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 8 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 course quiz Q8: question 68"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement about audit logs.",
+      "options": [
+        {
+          "text": "audit logs should be stored on a different server than the ePHI",
+          "correct": true
+        },
+        {
+          "text": "audit logs only capture actions that are outside the norm",
+          "correct": false
+        },
+        {
+          "text": "audit logs monitor only user actions",
+          "correct": false
+        },
+        {
+          "text": "audit logs should be available to a wide range of employees to facilitate audits.",
+          "correct": false
+        }
+      ],
+      "explanation": "**audit logs should be stored on a different server than the ePHI.** Confirmed. Slide 50: audit logs should sit on a separate server with access limited to those who need it, and be kept six years. Logs record all activity (audit-reduction tools later strip routine entries, p. 305), they work at system, application and user level, and they are not open to a wide range of staff. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q69 · Ch 12 course quiz Q9</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 12 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 9 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 course quiz Q9: question 69"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Firewalls are part of ___________",
+      "options": [
+        {
+          "text": "physical security",
+          "correct": false
+        },
+        {
+          "text": "network security",
+          "correct": true
+        },
+        {
+          "text": "administrative safeguards",
+          "correct": false
+        },
+        {
+          "text": "encryption",
+          "correct": false
+        }
+      ],
+      "explanation": "**network security.** Confirmed. Network security uses technology such as firewalls and encryption to protect data moving across the network (Ch 12). A firewall is the gatekeeper between a public and a private network (packet filtering); encryption is a separate tool, not the category firewalls belong to. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q70 · Ch 12 course quiz Q10</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 12 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 10 of 10 · instructor-confirmed key · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 course quiz Q10: question 70"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An engaged listener",
+      "options": [
+        {
+          "text": "Understands only the words.",
+          "correct": false
+        },
+        {
+          "text": "Understands what is said and not said",
+          "correct": true
+        },
+        {
+          "text": "Interprets nonverbal communications",
+          "correct": false
+        },
+        {
+          "text": "Is stressed by the message received",
+          "correct": false
+        }
+      ],
+      "explanation": "**Understands what is said and not said.** Confirmed. Chapter 13 covers communicating audit findings. An engaged (active) listener takes in the whole message, what is said and what is left unsaid, not just the words. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q71 · Ch 13 course quiz Q1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 13 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 1 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 course quiz Q1: question 71"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An audit is conducted to determine if the security compliance program is working. This type of audit is known as:",
+      "options": [
+        {
+          "text": "Product audit",
+          "correct": false
+        },
+        {
+          "text": "Process audit",
+          "correct": false
+        },
+        {
+          "text": "System audit",
+          "correct": true
+        },
+        {
+          "text": "Monitoring",
+          "correct": false
+        }
+      ],
+      "explanation": "**System audit.** Confirmed. The book's three audit types (Ch 13): process audit = tasks meet standards; product audit = a product or service meets requirements; system audit = the system or program used is appropriate and effective, for example whether the training program is working. Monitoring also assesses the compliance program, but the stem asks for a type of audit, and monitoring is not one of the three. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q72 · Ch 13 course quiz Q2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 13 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 2 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 course quiz Q2: question 72"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Security complaints are reviewed in a process known as:",
+      "options": [
+        {
+          "text": "Intake & review",
+          "correct": true
+        },
+        {
+          "text": "Resolution agreement",
+          "correct": false
+        },
+        {
+          "text": "Investigation",
+          "correct": false
+        },
+        {
+          "text": "Compliance",
+          "correct": false
+        }
+      ],
+      "explanation": "**Intake & review.** Confirmed. When the Office for Civil Rights receives a complaint it goes through intake and review, then one of five outcomes: close it, give technical assistance, find no violation, obtain corrective action through a resolution agreement, or defer to another agency (Ch 13, p. 330). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q73 · Ch 13 course quiz Q3</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 13 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 3 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 course quiz Q3: question 73"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The goal to meet or exceed is known as:",
+      "options": [
+        {
+          "text": "Metric",
+          "correct": false
+        },
+        {
+          "text": "Threshold",
+          "correct": true
+        },
+        {
+          "text": "Selection",
+          "correct": false
+        },
+        {
+          "text": "Resolution agreement",
+          "correct": false
+        }
+      ],
+      "explanation": "**Threshold.** Confirmed. A metric is what you measure to track progress; a threshold is the desired level of performance for that metric, the goal to meet or exceed (Ch 13). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q74 · Ch 13 course quiz Q4</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 13 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 4 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 course quiz Q4: question 74"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Field work would include:",
+      "options": [
+        {
+          "text": "Developing thresholds",
+          "correct": false
+        },
+        {
+          "text": "Observations",
+          "correct": true
+        },
+        {
+          "text": "Data analysis",
+          "correct": false
+        },
+        {
+          "text": "Planning",
+          "correct": false
+        }
+      ],
+      "explanation": "**Observations.** Corrected to the key: **observations** (you chose data analysis). Fieldwork is the process of completing the audit, and the book's examples of how the data are collected are interviews, reviewing policies, observing or monitoring employee actions (p. 335). The instructor treats observation as the fieldwork activity; the data analysis that follows is reported separately. Learn: fieldwork = collecting the evidence on site, including observations. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q75 · Ch 13 course quiz Q5</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 13 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 5 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 course quiz Q5: question 75"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Unbiased, factual, first hand, traceable, and impersonal evidence is known as ________ evidence.",
+      "options": [
+        {
+          "text": "Fact-based",
+          "correct": false
+        },
+        {
+          "text": "Impartial",
+          "correct": false
+        },
+        {
+          "text": "Independent",
+          "correct": false
+        },
+        {
+          "text": "Objective",
+          "correct": true
+        }
+      ],
+      "explanation": "**Objective.** Confirmed. Objective evidence is proof, based on facts, that standards were either met or not (Ch 13). The stem lists the qualities of objective evidence. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q76 · Ch 13 course quiz Q6</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 13 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 6 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 course quiz Q6: question 76"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The data collected for an audit should",
+      "options": [
+        {
+          "text": "Address what happened today",
+          "correct": false
+        },
+        {
+          "text": "Support the purpose of the audit",
+          "correct": true
+        },
+        {
+          "text": "Be easy to collect",
+          "correct": false
+        },
+        {
+          "text": "All be electronically captured",
+          "correct": false
+        }
+      ],
+      "explanation": "**Support the purpose of the audit.** Confirmed. From the text (p. 336): the data collected should support the purpose of the audit. Some data are captured automatically and some must be captured manually, so (d) is wrong. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q77 · Ch 13 course quiz Q7</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 13 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 7 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 course quiz Q7: question 77"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The audit step that requires the CE to determine if a change in policy worked is known as:",
+      "options": [
+        {
+          "text": "Follow-up",
+          "correct": true
+        },
+        {
+          "text": "Planning",
+          "correct": false
+        },
+        {
+          "text": "Field work",
+          "correct": false
+        },
+        {
+          "text": "Reporting",
+          "correct": false
+        }
+      ],
+      "explanation": "**Follow-up.** Confirmed. Audit phases run planning, fieldwork, reporting, then follow-up. Follow-up checks whether the corrective action or policy change fixed the problem (Ch 13). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q78 · Ch 13 course quiz Q8</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 13 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 8 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 course quiz Q8: question 78"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Training documentation must be retained for __________ years.",
+      "options": [
+        {
+          "text": "4",
+          "correct": false
+        },
+        {
+          "text": "6",
+          "correct": true
+        },
+        {
+          "text": "8",
+          "correct": false
+        },
+        {
+          "text": "10",
+          "correct": false
+        }
+      ],
+      "explanation": "**6.** Confirmed. Policies, procedures and training documentation are kept six years from the date last in effect (Ch 12 slide 35 and Ch 13; 45 CFR 164.316). (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q79 · Ch 13 course quiz Q9</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 13 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 9 of 10 · instructor-confirmed key · The answer and</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 course quiz Q9: question 79"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The tool used to display current status of metrics is known as:",
+      "options": [
+        {
+          "text": "Database",
+          "correct": false
+        },
+        {
+          "text": "Report",
+          "correct": false
+        },
+        {
+          "text": "Dashboard",
+          "correct": true
+        },
+        {
+          "text": "Computer forensics",
+          "correct": false
+        }
+      ],
+      "explanation": "**Dashboard.** Confirmed. A dashboard displays the metrics so the chief security officer can see where the CE stands at a glance (Ch 13). A report is a one-time document; forensics gathers evidence. (Answer confirmed from your graded chapter quiz.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q80 · Ch 13 course quiz Q10</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Your graded Chapter 13 course quiz</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Question 10 of 10 · instructor-confirmed key · The answer</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 course quiz Q10: question 80"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement regarding faxes.",
+      "options": [
+        {
+          "text": "A fax is considered to be ePHI.",
+          "correct": false
+        },
+        {
+          "text": "A fax is not ePHI",
+          "correct": true
+        },
+        {
+          "text": "Faxing is prohibited by HIPAA.",
+          "correct": false
+        },
+        {
+          "text": "The use of a fax machine is mandated by HIPAA.",
+          "correct": false
+        }
+      ],
+      "explanation": "**A fax is not ePHI.** Key: the Security Rule does not apply to PHI in other media such as paper, oral communication, and microfilm. Voicemail, fax, and copy machines (unless the copy machine stores data) are not considered ePHI (p.290).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q81 · Ch 12 CYU 12.1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.1 · p.290 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.1: question 81"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "One of the purposes of Title II: Fraud and Abuse/Administrative Simplification is to ___.",
+      "options": [
+        {
+          "text": "Prevent security incidents from ever occurring in a healthcare organization",
+          "correct": false
+        },
+        {
+          "text": "Create socialized medicine in the US",
+          "correct": false
+        },
+        {
+          "text": "Improve efficiency and effectiveness of healthcare business processes",
+          "correct": true
+        },
+        {
+          "text": "Establish a prospective payment system",
+          "correct": false
+        }
+      ],
+      "explanation": "**Improve efficiency and effectiveness of healthcare business processes.** Key: one of the purposes of administrative simplification is to improve the efficiency and effectiveness of healthcare business processes such as claims submission.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q82 · Ch 12 CYU 12.1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.1 · p.290 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.1: question 82"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify a HIPAA-granted patient right.",
+      "options": [
+        {
+          "text": "Amend their health record",
+          "correct": false
+        },
+        {
+          "text": "Access their health record",
+          "correct": true
+        },
+        {
+          "text": "To be notified that Medicare may not pay for healthcare services",
+          "correct": false
+        },
+        {
+          "text": "Delete information that the patient disagrees with",
+          "correct": false
+        }
+      ],
+      "explanation": "**Access their health record.** Key: one of the rights HIPAA gives patients is the ability to access their health record. The answer cannot be (a) amend — the right is to REQUEST an amendment, not demand one.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q83 · Ch 12 CYU 12.1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.1 · p.290 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.1: question 83"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Dr. Smith is a solo practitioner. Hospital X is a 500-bed hospital. The concept that allows them consider to their size and resources when complying with the Security Rule is known as ___.",
+      "options": [
+        {
+          "text": "Technology neutral",
+          "correct": false
+        },
+        {
+          "text": "Scalable",
+          "correct": true
+        },
+        {
+          "text": "Business associate",
+          "correct": false
+        },
+        {
+          "text": "Covered entity",
+          "correct": false
+        }
+      ],
+      "explanation": "**Scalable.** Key: the concept that allows CEs to consider their size, complexity, and capabilities when developing the compliance strategy is known as scalable.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q84 · Ch 12 CYU 12.1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.1 · p.291 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.1: question 84"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The EHR does not have the ability to print out patient reports, so the clinic is unable to provide patient information to patients and other users. This is known as ___.",
+      "options": [
+        {
+          "text": "Information blocking",
+          "correct": true
+        },
+        {
+          "text": "Safeguard",
+          "correct": false
+        },
+        {
+          "text": "Scalable",
+          "correct": false
+        },
+        {
+          "text": "Information technology failure",
+          "correct": false
+        }
+      ],
+      "explanation": "**Information blocking.** Key: information blocking is anything that interferes with the sharing of electronic health information. The book's own example is a vendor designing an EHR that cannot print the health record (p.291).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q85 · Ch 12 CYU 12.1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.1 · p.291 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.1: question 85"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify a security incident.",
+      "options": [
+        {
+          "text": "A monitor is turned toward the public.",
+          "correct": false
+        },
+        {
+          "text": "A computer is not logged out, but it is located in a private office.",
+          "correct": false
+        },
+        {
+          "text": "An employee wrote down their password.",
+          "correct": false
+        },
+        {
+          "text": "A hacker attempted, but did not succeed, in accessing ePHI.",
+          "correct": true
+        }
+      ],
+      "explanation": "**A hacker attempted, but did not succeed, in accessing ePHI..** Key: the hacker attempted to access ePHI — the attempt does not have to be successful to meet the definition of a security incident. The other three options are security EVENTS (poor practice without a breach).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q86 · Ch 12 CYU 12.2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.2 · p.300 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.2: question 86"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The process of developing policies used in determining what employees have access to is ___.",
+      "options": [
+        {
+          "text": "Information access management",
+          "correct": true
+        },
+        {
+          "text": "Workforce clearance procedure",
+          "correct": false
+        },
+        {
+          "text": "Termination process",
+          "correct": false
+        },
+        {
+          "text": "Business associate",
+          "correct": false
+        }
+      ],
+      "explanation": "**Information access management.** Key: information access management is establishing the process for determining what employees will have access to. (The workforce clearance procedure then ensures each member's level of access is appropriate.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q87 · Ch 12 CYU 12.2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.2 · p.300 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.2: question 87"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The CE needs to protect data from alteration or deletion in case it is needed in court. This is known as ___.",
+      "options": [
+        {
+          "text": "Workforce clearance procedure",
+          "correct": false
+        },
+        {
+          "text": "Forensics",
+          "correct": false
+        },
+        {
+          "text": "Spoliation",
+          "correct": true
+        },
+        {
+          "text": "Mitigation",
+          "correct": false
+        }
+      ],
+      "explanation": "**Spoliation.** Appendix B says (c): “spoliation is when data is destroyed inappropriately.” Heads up: by the chapter's own definition, spoliation is the thing you are trying to PREVENT — information inappropriately destroyed or hidden when it is needed during discovery (p.298) — while protecting and preserving the data is a forensics step. Answer c if your instructor grades by the key; know that spoliation is the destruction, not the protection.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q88 · Ch 12 CYU 12.2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.2 · p.300 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.2: question 88"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ensuring that data are not altered either during transmission across a network or during storage is ___.",
+      "options": [
+        {
+          "text": "Integrity",
+          "correct": true
+        },
+        {
+          "text": "Accessibility",
+          "correct": false
+        },
+        {
+          "text": "Confidentiality",
+          "correct": false
+        },
+        {
+          "text": "Privacy",
+          "correct": false
+        }
+      ],
+      "explanation": "**Integrity.** Key: integrity is ensuring that data has not been altered by an unauthorized individual.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q89 · Ch 12 CYU 12.2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.2 · p.300 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.2: question 89"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement regarding redundancy.",
+      "options": [
+        {
+          "text": "Only hardware needs redundancy.",
+          "correct": false
+        },
+        {
+          "text": "Redundancy is not necessary.",
+          "correct": false
+        },
+        {
+          "text": "Redundancy includes data.",
+          "correct": true
+        },
+        {
+          "text": "Redundancy is used at hospitals but not in other healthcare settings.",
+          "correct": false
+        }
+      ],
+      "explanation": "**Redundancy includes data..** Key: redundancy is the duplication of data, hardware, cables, or other hardware components of the information system.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q90 · Ch 12 CYU 12.2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.2 · p.300 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.2: question 90"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An audit-reduction tool will remove ___.",
+      "options": [
+        {
+          "text": "Invalid data",
+          "correct": false
+        },
+        {
+          "text": "Routine maintenance events",
+          "correct": true
+        },
+        {
+          "text": "User's access",
+          "correct": false
+        },
+        {
+          "text": "Outdated data",
+          "correct": false
+        }
+      ],
+      "explanation": "**Routine maintenance events.** Key: routine maintenance events include backups. Audit-reduction tools compare the audit trail to facility-specific criteria and eliminate routine entries so reviewers see what matters.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q91 · Ch 12 CYU 12.3</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.3 · p.307 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.3: question 91"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the security concept that uses two keys.",
+      "options": [
+        {
+          "text": "Symmetric encryption",
+          "correct": false
+        },
+        {
+          "text": "Asymmetric encryption",
+          "correct": true
+        },
+        {
+          "text": "Intrusion detection system",
+          "correct": false
+        },
+        {
+          "text": "Data loss prevention",
+          "correct": false
+        }
+      ],
+      "explanation": "**Asymmetric encryption.** Key: asymmetric encryption (public key infrastructure) uses two keys — a private key to convert the data and a public key to read it. Symmetric uses one shared secret key.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q92 · Ch 12 CYU 12.3</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.3 · p.307 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.3: question 92"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the type of authentication used when each coder has their own access to ePHI and functionality.",
+      "options": [
+        {
+          "text": "User-based",
+          "correct": true
+        },
+        {
+          "text": "Role-based",
+          "correct": false
+        },
+        {
+          "text": "Context-based",
+          "correct": false
+        },
+        {
+          "text": "Both user-based and role-based",
+          "correct": false
+        }
+      ],
+      "explanation": "**User-based.** Key: in user-based authentication, the functions and data available are based on the needs of the individual user, not all users with the same job title.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q93 · Ch 12 CYU 12.3</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.3 · p.307 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.3: question 93"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The access control used in the EHR requires a password and biometrics. This is an example of ___.",
+      "options": [
+        {
+          "text": "Single-factor authentication",
+          "correct": false
+        },
+        {
+          "text": "Audit trail",
+          "correct": false
+        },
+        {
+          "text": "Two-factor authentication",
+          "correct": true
+        },
+        {
+          "text": "Tokens",
+          "correct": false
+        }
+      ],
+      "explanation": "**Two-factor authentication.** Key: two-factor authentication uses two of the following: something you have, something you are, and something you know. Password = know; biometrics = are.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q94 · Ch 12 CYU 12.3</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.3 · p.307 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.3: question 94"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Our information system just notified us that Mary Burchfield has just looked up another patient with the same last name. This notification is called a(n) ___.",
+      "options": [
+        {
+          "text": "Trigger",
+          "correct": true
+        },
+        {
+          "text": "Audit-reduction tool",
+          "correct": false
+        },
+        {
+          "text": "Integrity",
+          "correct": false
+        },
+        {
+          "text": "Audit control",
+          "correct": false
+        }
+      ],
+      "explanation": "**Trigger.** Key: a trigger identifies an entry in the audit trail that needs to be investigated. Same last name is one of the book's listed trigger examples.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q95 · Ch 12 CYU 12.3</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.3 · p.308 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.3: question 95"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the type of malware that can capture keystrokes.",
+      "options": [
+        {
+          "text": "Spyware",
+          "correct": true
+        },
+        {
+          "text": "Trojan",
+          "correct": false
+        },
+        {
+          "text": "Virus",
+          "correct": false
+        },
+        {
+          "text": "Worm",
+          "correct": false
+        }
+      ],
+      "explanation": "**Spyware.** Key: spyware captures keystrokes — it tracks keystrokes and passwords, monitors websites visited, and reports them to someone else.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q96 · Ch 12 CYU 12.4</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.4 · p.316 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.4: question 96"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the type of malicious software that denies an information system.",
+      "options": [
+        {
+          "text": "Ransomware",
+          "correct": false
+        },
+        {
+          "text": "Phishing",
+          "correct": false
+        },
+        {
+          "text": "Denial of service",
+          "correct": true
+        },
+        {
+          "text": "Worm",
+          "correct": false
+        }
+      ],
+      "explanation": "**Denial of service.** Appendix B says (c): “denial of service is where there are so many transactions to a website that the website crashes.” Heads up: the chapter defines RANSOMWARE as the malicious software that “prohibits access to information systems in an organization” (p.309), and describes a distributed denial of service as an attack a worm may initiate rather than a type of software. Answer c if your instructor grades by the key; know both definitions.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q97 · Ch 12 CYU 12.4</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.4 · p.316 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.4: question 97"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify a facility access control.",
+      "options": [
+        {
+          "text": "Contingency plan",
+          "correct": false
+        },
+        {
+          "text": "Backup",
+          "correct": false
+        },
+        {
+          "text": "Card key",
+          "correct": true
+        },
+        {
+          "text": "Media controls",
+          "correct": false
+        }
+      ],
+      "explanation": "**Card key.** Key: a card key is a plastic card with a magnetic strip that can provide access to restricted areas. Access to the data center can be controlled by card keys, access codes, or other methods.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q98 · Ch 12 CYU 12.4</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.4 · p.316 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.4: question 98"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Using magnets to destroy data is known as ___.",
+      "options": [
+        {
+          "text": "Degaussing",
+          "correct": true
+        },
+        {
+          "text": "Trojan",
+          "correct": false
+        },
+        {
+          "text": "Encryption",
+          "correct": false
+        },
+        {
+          "text": "Forensics",
+          "correct": false
+        }
+      ],
+      "explanation": "**Degaussing.** Key: degaussing is application of a magnetic field to the media to render the data on it useless. It is not reversible, and it does not work on solid state drives.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q99 · Ch 12 CYU 12.4</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.4 · p.316 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.4: question 99"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The block in blockchain refers to ___.",
+      "options": [
+        {
+          "text": "Medical device",
+          "correct": false
+        },
+        {
+          "text": "Mobile device",
+          "correct": false
+        },
+        {
+          "text": "Hardware",
+          "correct": false
+        },
+        {
+          "text": "Data",
+          "correct": true
+        }
+      ],
+      "explanation": "**Data.** Key: blocks contain data and are made up of one or more transactions.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q100 · Ch 12 CYU 12.4</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 12.4 · p.316 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 CYU 12.4: question 100"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement regarding security compliance.",
+      "options": [
+        {
+          "text": "Compliance monitoring is performed annually.",
+          "correct": false
+        },
+        {
+          "text": "Compliance only addresses the top three risks.",
+          "correct": false
+        },
+        {
+          "text": "Security training is only required upon hiring.",
+          "correct": false
+        },
+        {
+          "text": "Compliance must be a priority.",
+          "correct": true
+        }
+      ],
+      "explanation": "**Compliance must be a priority..** Key: compliance cannot be put off or conducted just when it is convenient. It must be an ongoing process and a priority.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q101 · Ch 13 CYU 13.1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 13.1 · p.329 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 CYU 13.1: question 101"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Security training should be based on the ___.",
+      "options": [
+        {
+          "text": "Length of time the workforce member has worked at the CE",
+          "correct": false
+        },
+        {
+          "text": "Education of the workforce member",
+          "correct": false
+        },
+        {
+          "text": "Department in which the employee works",
+          "correct": false
+        },
+        {
+          "text": "Role workforce member has in the CE",
+          "correct": true
+        }
+      ],
+      "explanation": "**Role workforce member has in the CE.** Key: training is impacted by the role they have in the organization — an IT technical support employee will have very different training than housekeeping, not because of the department but because of their role.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q102 · Ch 13 CYU 13.1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 13.1 · p.329 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 CYU 13.1: question 102"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Penalties for noncompliance with the HIPAA Security Rule is (are) ___.",
+      "options": [
+        {
+          "text": "Financial only",
+          "correct": false
+        },
+        {
+          "text": "Prison only",
+          "correct": false
+        },
+        {
+          "text": "Financial and prison",
+          "correct": true
+        },
+        {
+          "text": "Exclusion from the Medicare program",
+          "correct": false
+        }
+      ],
+      "explanation": "**Financial and prison.** Key: the penalties include financial penalties and/or prison.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q103 · Ch 13 CYU 13.1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 13.1 · p.329 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 CYU 13.1: question 103"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The Secretary of HHS should be immediately notified of any security breaches that impact more than ___ patients.",
+      "options": [
+        {
+          "text": "250",
+          "correct": false
+        },
+        {
+          "text": "500",
+          "correct": true
+        },
+        {
+          "text": "75",
+          "correct": false
+        },
+        {
+          "text": "100",
+          "correct": false
+        }
+      ],
+      "explanation": "**500.** Key: HIPAA requires security breaches of 500 or more to be reported immediately. The chapter text adds detail (p.328): over 500, the Secretary is notified as soon as possible, not to exceed 60 days, and the media is notified too; under 500, the Secretary is notified electronically.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q104 · Ch 13 CYU 13.1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 13.1 · p.329 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 CYU 13.1: question 104"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The CE hired a consultant to come review their security program to ensure that it meets standards. This is known as a(n) ___.",
+      "options": [
+        {
+          "text": "Outside audit",
+          "correct": false
+        },
+        {
+          "text": "Internal audit",
+          "correct": false
+        },
+        {
+          "text": "Product audit",
+          "correct": false
+        },
+        {
+          "text": "System audit",
+          "correct": true
+        }
+      ],
+      "explanation": "**System audit.** Appendix B says (d): “system audit determines if the plan meets accepted standards.” Heads up: the chapter says audits performed by consultants who do not work for the CE are EXTERNAL audits (p.325) — but the option reads “outside audit,” which is not the book's term. Read it as: who does it = external; what kind = system. Answer d.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q105 · Ch 13 CYU 13.1</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 13.1 · p.329 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 CYU 13.1: question 105"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the entity with oversight of the HIPAA Security Rule.",
+      "options": [
+        {
+          "text": "Office of the Inspector General",
+          "correct": true
+        },
+        {
+          "text": "Office of Civil Rights",
+          "correct": false
+        },
+        {
+          "text": "Centers for Medicare and Medicaid Services",
+          "correct": false
+        },
+        {
+          "text": "Office of the National Coordinator of Health Information Technology",
+          "correct": false
+        }
+      ],
+      "explanation": "**Office of the Inspector General.** Appendix B says (a): “the only one of these organizations that is in charge of the Security Rule is the Office of the Inspector General.” Heads up — this one really conflicts with the chapter: p.330 says the Department of Health and Human Services' Office of Civil Rights (OCR) “is in charge of oversight for the HIPAA Security Rule,” and Chapter 12 (p.315) says oversight “has been given to the Office of Civil Rights.” The chapter opening calls the OIG “responsible for the enforcement of the Security Rule.” Answer a if your instructor grades by the key; the chapter text says OCR for OVERSIGHT.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q106 · Ch 13 CYU 13.2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 13.2 · p.340 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 CYU 13.2: question 106"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The document issued by OCR that outlines the failures of the CE and what their responsibilities are is known as ___.",
+      "options": [
+        {
+          "text": "Policy and procedure",
+          "correct": false
+        },
+        {
+          "text": "Resolution agreement",
+          "correct": true
+        },
+        {
+          "text": "Audit",
+          "correct": false
+        },
+        {
+          "text": "Report",
+          "correct": false
+        }
+      ],
+      "explanation": "**Resolution agreement.** Key: a resolution agreement is a document where the two sides agree on what needs to be done. From the text (p.331): it is an agreement between the OCR and a CE or BA describing the failure to meet HIPAA requirements, any civil monetary penalties, and a corrective action plan. (The key's wording says OIG and CE; the chapter says OCR.)",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q107 · Ch 13 CYU 13.2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 13.2 · p.341 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 CYU 13.2: question 107"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the correct statement regarding auditing the Security Rule.",
+      "options": [
+        {
+          "text": "The audit program is only required for the technical safeguards.",
+          "correct": false
+        },
+        {
+          "text": "The audit program is based solely on the riskiest safeguards.",
+          "correct": false
+        },
+        {
+          "text": "The audit program includes administrative, physical, and technical safeguards.",
+          "correct": true
+        },
+        {
+          "text": "The audit program utilizes only automatically captured data.",
+          "correct": false
+        }
+      ],
+      "explanation": "**The audit program includes administrative, physical, and technical safeguards..** Key: it should include the three types of safeguards — administrative, physical, and technical must all be audited and monitored on an ongoing basis.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q108 · Ch 13 CYU 13.2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 13.2 · p.341 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 CYU 13.2: question 108"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The OCR has received a complaint; after the intake and review, the OCR's actions include ___.",
+      "options": [
+        {
+          "text": "Data analysis",
+          "correct": false
+        },
+        {
+          "text": "Monitoring of the organization for another quarter",
+          "correct": false
+        },
+        {
+          "text": "Redoing the audit again",
+          "correct": false
+        },
+        {
+          "text": "Deferring to another agency",
+          "correct": true
+        }
+      ],
+      "explanation": "**Deferring to another agency.** Key: OCR may opt to not investigate further for some reason such as deferring to another government agency (for example, the Department of Justice).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q109 · Ch 13 CYU 13.2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 13.2 · p.341 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 CYU 13.2: question 109"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The CE has a suspected security breach. They need to conduct a forensic review of data on the hard drive. The first step of the forensic review is to ___.",
+      "options": [
+        {
+          "text": "Check the database for signs of breaches",
+          "correct": false
+        },
+        {
+          "text": "Isolate storage media",
+          "correct": false
+        },
+        {
+          "text": "Review the audit trail",
+          "correct": false
+        },
+        {
+          "text": "Copy the hard drive",
+          "correct": true
+        }
+      ],
+      "explanation": "**Copy the hard drive.** Appendix B says (d): “copying the hard drive is the first step so that you can review the hard drive without altering the original data.” Heads up: the chapter text (p.340) says steps are taken to ISOLATE the computer's storage media so it cannot be destroyed or altered, and the hard drive is THEN copied — which would make (b) first. Answer d if your instructor grades by the key; know the text's order is isolate, then copy.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q110 · Ch 13 CYU 13.2</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Check Your Understanding</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">CYU 13.2 · p.341 · key from Appendix B · The answer and the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 CYU 13.2: question 110"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify a way to help users who keep forgetting their password.",
+      "options": [
+        {
+          "text": "Using one-factor authentication",
+          "correct": false
+        },
+        {
+          "text": "Single sign-in",
+          "correct": true
+        },
+        {
+          "text": "Phishing",
+          "correct": false
+        },
+        {
+          "text": "Firewall",
+          "correct": false
+        }
+      ],
+      "explanation": "**Single sign-in.** Review questions have no published key — From the text (p.303): users have too many passwords to remember; one way to overcome this is single sign-on systems, where the user logs in one time and moves between applications without entering another password.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q111 · Ch 12 Review p.317</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 317 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.317: question 111"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Amanda has resigned from her position in the HIM department. She finishes her last shift at 5:00 p.m. today. Identify the activity that must be implemented.",
+      "options": [
+        {
+          "text": "Termination procedure",
+          "correct": true
+        },
+        {
+          "text": "Workforce clearance process",
+          "correct": false
+        },
+        {
+          "text": "Information access management",
+          "correct": false
+        },
+        {
+          "text": "Addressable standard",
+          "correct": false
+        }
+      ],
+      "explanation": "**Termination procedure.** Review questions have no published key — From the text (p.297): the termination process eliminates access when employment ends by resignation or firing — if the last day ends at 5:00 p.m., access should be cancelled at or before 5:00 p.m.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q112 · Ch 12 Review p.317</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 317 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.317: question 112"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the type of encryption used when both the sending and receiving computers use the same key.",
+      "options": [
+        {
+          "text": "Public key",
+          "correct": false
+        },
+        {
+          "text": "Asymmetric",
+          "correct": false
+        },
+        {
+          "text": "Symmetric",
+          "correct": true
+        },
+        {
+          "text": "Private key",
+          "correct": false
+        }
+      ],
+      "explanation": "**Symmetric.** Review questions have no published key — From the text (p.306): symmetric encryption uses a secret key — the sending computer uses it to scramble the message and the receiving computer uses the SAME key to revert it.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q113 · Ch 12 Review p.317</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 317 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.317: question 113"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "HIPAA security standards whereby the CE can determine if the standard is reasonable and appropriate is known as ___.",
+      "options": [
+        {
+          "text": "Addressable",
+          "correct": true
+        },
+        {
+          "text": "Optional",
+          "correct": false
+        },
+        {
+          "text": "Noncompulsory",
+          "correct": false
+        },
+        {
+          "text": "Voluntary",
+          "correct": false
+        }
+      ],
+      "explanation": "**Addressable.** Review questions have no published key — From the text (p.293): addressable standards must be evaluated by the entity to determine whether the standard is reasonable and appropriate. Not the same as optional — if not adopted, the CE must document why and what equivalent method it uses.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q114 · Ch 12 Review p.317</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 317 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.317: question 114"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify an example of administrative safeguards.",
+      "options": [
+        {
+          "text": "Emergency access procedure",
+          "correct": false
+        },
+        {
+          "text": "Access controls",
+          "correct": false
+        },
+        {
+          "text": "Security awareness and training",
+          "correct": true
+        },
+        {
+          "text": "Audit controls",
+          "correct": false
+        }
+      ],
+      "explanation": "**Security awareness and training.** Review questions have no published key — From Table 12.1 (p.294): security awareness and training is an administrative safeguard standard. Emergency access procedure, access controls, and audit controls are all TECHNICAL safeguards.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q115 · Ch 12 Review p.317</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 317 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.317: question 115"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Those subject to the information blocking regulation are known as ___.",
+      "options": [
+        {
+          "text": "Covered entity",
+          "correct": false
+        },
+        {
+          "text": "Business associate",
+          "correct": false
+        },
+        {
+          "text": "Project manager",
+          "correct": false
+        },
+        {
+          "text": "Actor",
+          "correct": true
+        }
+      ],
+      "explanation": "**Actor.** Review questions have no published key — From the text (p.291): actors include healthcare professionals, health IT vendors, health information exchange organizations, and health information networks.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q116 · Ch 12 Review p.318</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 318 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.318: question 116"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Caring Healthcare has two different healthcare facilities. They need to share ePHI between the two organizations. Recommend a method for sharing it securely.",
+      "options": [
+        {
+          "text": "Firewall",
+          "correct": false
+        },
+        {
+          "text": "Mitigation",
+          "correct": false
+        },
+        {
+          "text": "Virtual private network",
+          "correct": true
+        },
+        {
+          "text": "Emergency access procedure",
+          "correct": false
+        }
+      ],
+      "explanation": "**Virtual private network.** Review questions have no published key — From the text (p.307): a VPN creates an encrypted tunnel through the internet that allows data to be shared securely over a public network and still be protected.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q117 · Ch 12 Review p.318</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 318 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.318: question 117"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "One of the nurses in the quality management department has decided to work a few shifts on the nursing units in order to earn some extra money. When she logs in with her normal sign-in, she has certain functionality; when she logs in differently to work on the nursing unit, she has different functionality. This is known as ___.",
+      "options": [
+        {
+          "text": "Role-based authentication",
+          "correct": false
+        },
+        {
+          "text": "User-based authentication",
+          "correct": false
+        },
+        {
+          "text": "Context-based authentication",
+          "correct": true
+        },
+        {
+          "text": "Emergency access procedure",
+          "correct": false
+        }
+      ],
+      "explanation": "**Context-based authentication.** Review questions have no published key — From the text (p.302): context-based authentication limits access by identity and role AND by the location and time of access — and this quality-improvement nurse picking up nursing unit shifts is the book's own example.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q118 · Ch 12 Review p.318</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 318 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.318: question 118"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement about audit logs.",
+      "options": [
+        {
+          "text": "Audit logs should be protected by storing them on a different computer.",
+          "correct": true
+        },
+        {
+          "text": "Audit logs only capture actions that are outside the norm.",
+          "correct": false
+        },
+        {
+          "text": "Audit logs monitor only user actions.",
+          "correct": false
+        },
+        {
+          "text": "Audit logs should be available to 25 percent of employees to facilitate audits.",
+          "correct": false
+        }
+      ],
+      "explanation": "**Audit logs should be protected by storing them on a different computer..** Review questions have no published key — Worked out by elimination (pp.296, 305): audit trails record ALL system activity (system-level, application-level, and user-level), so b and c are false; only a small number of users should have access, so d is false. Audit trails must be protected from alteration and deletion, which leaves (a).",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q119 · Ch 12 Review p.318</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 318 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.318: question 119"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the type of social engineering that proposes an exchange with the victim.",
+      "options": [
+        {
+          "text": "Quid pro quo",
+          "correct": true
+        },
+        {
+          "text": "Phishing",
+          "correct": false
+        },
+        {
+          "text": "Vishing",
+          "correct": false
+        },
+        {
+          "text": "Pretexting",
+          "correct": false
+        }
+      ],
+      "explanation": "**Quid pro quo.** Review questions have no published key — From the text (p.311): quid pro quo proposes an exchange of some service with the victim being duped out of something — it looks like a fair exchange, but the victim always loses.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q120 · Ch 12 Review p.318</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 318 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.318: question 120"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A benefit of blockchain is ___.",
+      "options": [
+        {
+          "text": "Immediacy",
+          "correct": true
+        },
+        {
+          "text": "Access controls",
+          "correct": false
+        },
+        {
+          "text": "Audit trail",
+          "correct": false
+        },
+        {
+          "text": "Administrative safeguards",
+          "correct": false
+        }
+      ],
+      "explanation": "**Immediacy.** Review questions have no published key — From the text (p.314): the listed benefits of blockchain are immediacy, security, traceability, and immutability.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q121 · Ch 12 Review p.318</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 318 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.318: question 121"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "A security policy and procedure was updated on August 1, 2024. The revised policy should be maintained until ___.",
+      "options": [
+        {
+          "text": "August 1, 2025",
+          "correct": false
+        },
+        {
+          "text": "August 1, 2026",
+          "correct": false
+        },
+        {
+          "text": "August 1, 2028",
+          "correct": false
+        },
+        {
+          "text": "August 1, 2030",
+          "correct": true
+        }
+      ],
+      "explanation": "**August 1, 2030.** Review questions have no published key — From the text (p.290): once a policy is updated, replaced, or deleted, the document must be retained for six years from the date it was last in effect — the book's example is amended in 2024, maintained until 2030.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q122 · Ch 12 Review p.319</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 319 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.319: question 122"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "I received a phone call from a car warranty company. They asked for my car's vehicle information number and my social security number. This is an example of ___.",
+      "options": [
+        {
+          "text": "Phishing",
+          "correct": false
+        },
+        {
+          "text": "Vishing",
+          "correct": true
+        },
+        {
+          "text": "Denial of service",
+          "correct": false
+        },
+        {
+          "text": "Trojan",
+          "correct": false
+        }
+      ],
+      "explanation": "**Vishing.** Review questions have no published key — From the text (p.310): vishing is phishing that is verbally performed — the perpetrator uses the phone to scam the individual out of personal information such as a social security number.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q123 · Ch 12 Review p.319</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 319 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.319: question 123"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The large physician clinic hired a security expert to test its security against hackers. This is known as ___.",
+      "options": [
+        {
+          "text": "Forensics",
+          "correct": false
+        },
+        {
+          "text": "Pretexting",
+          "correct": false
+        },
+        {
+          "text": "Penetration testing",
+          "correct": true
+        },
+        {
+          "text": "Contingency plan",
+          "correct": false
+        }
+      ],
+      "explanation": "**Penetration testing.** Review questions have no published key — From the text (p.306): penetration testing is performed by a cybersecurity professional who attempts to locate and take advantage of vulnerabilities so they can be resolved before a hacker uses them.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q124 · Ch 12 Review p.319</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 12 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 319 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 12 Review p.319: question 124"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An engaged listener ___.",
+      "options": [
+        {
+          "text": "Understands only the words",
+          "correct": false
+        },
+        {
+          "text": "Understands what is said and not said",
+          "correct": true
+        },
+        {
+          "text": "Interprets nonverbal communications",
+          "correct": false
+        },
+        {
+          "text": "Is stressed by the message received",
+          "correct": false
+        }
+      ],
+      "explanation": "**Understands what is said and not said.** Review questions have no published key — From the text (p.328): being an engaged listener is more than understanding what is being said — it is also understanding what the speaker does not say.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q125 · Ch 13 Review p.342</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 342 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.342: question 125"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "An audit is conducted to determine if the security compliance program is working. This type of audit is known as ___.",
+      "options": [
+        {
+          "text": "Product audit",
+          "correct": false
+        },
+        {
+          "text": "Process audit",
+          "correct": false
+        },
+        {
+          "text": "System audit",
+          "correct": true
+        },
+        {
+          "text": "Monitoring",
+          "correct": false
+        }
+      ],
+      "explanation": "**System audit.** Review questions have no published key — From the text (p.326): the system audit reviews activities to ensure that the system used is appropriate and effective — the book's example is investigating how effective the training program is. Process = tasks meet standards; product = a product or service meets requirements.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q126 · Ch 13 Review p.342</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 342 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.342: question 126"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Security complaints are reviewed in a process known as ___.",
+      "options": [
+        {
+          "text": "Intake and review",
+          "correct": true
+        },
+        {
+          "text": "Resolution agreement",
+          "correct": false
+        },
+        {
+          "text": "Investigation",
+          "correct": false
+        },
+        {
+          "text": "Compliance",
+          "correct": false
+        }
+      ],
+      "explanation": "**Intake and review.** Review questions have no published key — From the text (p.331): when the OCR investigates security complaints, it reviews the complaint in a process known as intake and review.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q127 · Ch 13 Review p.342</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 342 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.342: question 127"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The goal to meet or exceed is known as ___.",
+      "options": [
+        {
+          "text": "Metric",
+          "correct": false
+        },
+        {
+          "text": "Threshold",
+          "correct": true
+        },
+        {
+          "text": "Selection",
+          "correct": false
+        },
+        {
+          "text": "Resolution agreement",
+          "correct": false
+        }
+      ],
+      "explanation": "**Threshold.** Review questions have no published key — From the text (p.335): the threshold is the desired level of performance for a metric; the goal is to meet or exceed the threshold. The metric is the thing being measured.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q128 · Ch 13 Review p.342</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 342 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.342: question 128"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Areas to audit should be based on areas of ___.",
+      "options": [
+        {
+          "text": "Risk only",
+          "correct": false
+        },
+        {
+          "text": "HIPAA's requirements only",
+          "correct": false
+        },
+        {
+          "text": "Both risk and HIPAA's requirements",
+          "correct": true
+        },
+        {
+          "text": "CE's preferences",
+          "correct": false
+        }
+      ],
+      "explanation": "**Both risk and HIPAA's requirements.** Review questions have no published key — From the text (p.333): the areas to be audited will be based on areas of risk and HIPAA's requirements.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q129 · Ch 13 Review p.342</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 342 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.342: question 129"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Unbiased, factual, first-hand, traceable, and impersonal evidence is known as ___ evidence.",
+      "options": [
+        {
+          "text": "Fact-based",
+          "correct": false
+        },
+        {
+          "text": "Impartial",
+          "correct": false
+        },
+        {
+          "text": "Independent",
+          "correct": false
+        },
+        {
+          "text": "Objective",
+          "correct": true
+        }
+      ],
+      "explanation": "**Objective.** Review questions have no published key — From the text (p.336): objective evidence is proof that standards were either met or not. Plain “evidence” is proof used in a court of law to present facts related to the case.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q130 · Ch 13 Review p.342</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 342 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.342: question 130"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The data collected for an audit should ___.",
+      "options": [
+        {
+          "text": "Address what happened today",
+          "correct": false
+        },
+        {
+          "text": "Support the purpose of the audit",
+          "correct": true
+        },
+        {
+          "text": "Be easy to collect",
+          "correct": false
+        },
+        {
+          "text": "All be electronically captured",
+          "correct": false
+        }
+      ],
+      "explanation": "**Support the purpose of the audit.** Review questions have no published key — From the text (p.336): the data collected should support the purpose of the audit. Some data are captured automatically and some must be captured manually.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q131 · Ch 13 Review p.342</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 342 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.342: question 131"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The audit step that includes ensuring the data are available is ___.",
+      "options": [
+        {
+          "text": "Record findings",
+          "correct": false
+        },
+        {
+          "text": "Prepare for audit",
+          "correct": true
+        },
+        {
+          "text": "Identify areas to be audited",
+          "correct": false
+        },
+        {
+          "text": "Schedule audit",
+          "correct": false
+        }
+      ],
+      "explanation": "**Prepare for audit.** Review questions have no published key — From the text (p.335): preparing for the audit includes ensuring policies are current, staff are educated, the data collection tool and analysis plan are chosen, the necessary data are available, and the reporting format is created.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q132 · Ch 13 Review p.342</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 342 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.342: question 132"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Policy and procedure documentation must be retained for ___ years.",
+      "options": [
+        {
+          "text": "Four",
+          "correct": false
+        },
+        {
+          "text": "Six",
+          "correct": true
+        },
+        {
+          "text": "Eight",
+          "correct": false
+        },
+        {
+          "text": "Ten",
+          "correct": false
+        }
+      ],
+      "explanation": "**Six.** Review questions have no published key — From the text (pp.326, 337): policies and procedures must be retained for six years from the date they were created or from when they were phased out.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q133 · Ch 13 Review p.343</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 343 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.343: question 133"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "The tool used to display the current status of metrics is known as ___.",
+      "options": [
+        {
+          "text": "Database",
+          "correct": false
+        },
+        {
+          "text": "Report",
+          "correct": false
+        },
+        {
+          "text": "Dashboard",
+          "correct": true
+        },
+        {
+          "text": "Computer forensics",
+          "correct": false
+        }
+      ],
+      "explanation": "**Dashboard.** Review questions have no published key — From the text (p.341): a dashboard is a display of process measures that shows the metrics established by the CE so the chief security officer knows where the CE stands.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q134 · Ch 13 Review p.343</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 343 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.343: question 134"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Monitoring includes ___.",
+      "options": [
+        {
+          "text": "Keeping current on laws and regulations",
+          "correct": true
+        },
+        {
+          "text": "Identification of areas of risk",
+          "correct": false
+        },
+        {
+          "text": "Collecting data",
+          "correct": false
+        },
+        {
+          "text": "Creating a compliance plan",
+          "correct": false
+        }
+      ],
+      "explanation": "**Keeping current on laws and regulations.** Review questions have no published key — From the text (p.325): important parts of monitoring are keeping current on regulations and laws, establishing standards, developing policies and procedures, and training.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q135 · Ch 13 Review p.343</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 343 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.343: question 135"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement regarding training.",
+      "options": [
+        {
+          "text": "Training is the same for all employees.",
+          "correct": false
+        },
+        {
+          "text": "All training must be performed by HIM.",
+          "correct": false
+        },
+        {
+          "text": "Training conducted must be tracked.",
+          "correct": true
+        },
+        {
+          "text": "Training documentation must be maintained for four years.",
+          "correct": false
+        }
+      ],
+      "explanation": "**Training conducted must be tracked..** Review questions have no published key — From the text (p.327): there must be a schedule of training and a mechanism in place to track employees who have completed training. Training is role-based, and documentation is retained for six years, not four.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q136 · Ch 13 Review p.343</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 343 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.343: question 136"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Identify the true statement regarding benchmarking.",
+      "options": [
+        {
+          "text": "Benchmarking is rarely used in compliance.",
+          "correct": false
+        },
+        {
+          "text": "Benchmarking can be conducted with any healthcare organization.",
+          "correct": false
+        },
+        {
+          "text": "Benchmarking is used to compare policies and procedures.",
+          "correct": false
+        },
+        {
+          "text": "Benchmarking should be used with comparable healthcare organizations.",
+          "correct": true
+        }
+      ],
+      "explanation": "**Benchmarking should be used with comparable healthcare organizations..** Review questions have no published key — From the text (p.329): benchmarking compares one organization with a SIMILAR organization — a 900-bed teaching hospital compares itself to another large teaching hospital, not a physician practice. It is a key part of any compliance program.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q137 · Ch 13 Review p.343</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 343 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.343: question 137"
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "When a CE identifies an issue during an audit, they should create a(n) ___.",
+      "options": [
+        {
+          "text": "Resolution agreement",
+          "correct": false
+        },
+        {
+          "text": "Policy and procedure",
+          "correct": false
+        },
+        {
+          "text": "Compliance plan",
+          "correct": false
+        },
+        {
+          "text": "Corrective action plan",
+          "correct": true
+        }
+      ],
+      "explanation": "**Corrective action plan.** Review questions have no published key — From the text (p.338): when a problem is identified, a corrective action plan is a written plan of action to be taken in response to identified issues — specific, with deadlines, holding the CE accountable.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Q138 · Ch 13 Review p.343</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Source</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Chapter 13 Review Questions</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">Book page 343 · answer worked out from the chapter text ·</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">The answer and the book note appear after you choose.</text></svg>",
+        "caption": "Ch 13 Review p.343: question 138"
+      }
+    },
+    {
+      "type": "application",
+      "title": "Final Game Plan",
+      "content": "**1.** Read the five checklist cards and say each answer before you read it. The checklist is the Final; the Quizlet only hits part of it.\n**2.** Do the Ch 12 and Ch 13 course quizzes until you miss none. She wrote them.\n**3.** Do the Check Your Understanding boxes. Watch the Appendix B traps: spoliation, denial of service vs. ransomware, OIG vs. OCR, and copy the drive vs. isolate it first.\n**4.** Use the Review Questions as the deep pass.\n**5.** Take the Final Quizlet last for her question style, and restart that section until it is clean.",
+      "visual": {
+        "type": "diagram",
+        "svg": "<svg viewBox=\"0 0 1100 1100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"1100\" fill=\"#1a1a2e\"/><text x=\"550\" y=\"80\" fill=\"#ffd700\" font-size=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Final game plan</text><rect x=\"80\" y=\"140\" width=\"940\" height=\"126\" rx=\"18\" fill=\"rgba(99,102,241,0.15)\" stroke=\"#6366f1\" stroke-width=\"3\"/><text x=\"110\" y=\"190\" fill=\"#a5b4fc\" font-size=\"26\" font-weight=\"bold\">Order</text><text x=\"110\" y=\"235\" fill=\"#fff\" font-size=\"32\" font-weight=\"bold\">Checklist, quizzes, CYU, Review, Quizlet</text><rect x=\"80\" y=\"311\" width=\"940\" height=\"136\" rx=\"18\" fill=\"rgba(255,255,255,0.05)\" stroke=\"#888\" stroke-width=\"2\"/><text x=\"110\" y=\"359\" fill=\"#bbb\" font-size=\"22\">The checklist is what she tests. Drill it first, then the</text><text x=\"110\" y=\"397\" fill=\"#bbb\" font-size=\"22\">questions that come from her and the book.</text></svg>",
+        "caption": "Study steps"
       }
     }
   ]
